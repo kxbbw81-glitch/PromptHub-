@@ -275,6 +275,16 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     syncToWebsite().then(result => sendResponse(result));
     return true;
   }
+
+  // 延迟同步到国内站点（popup 触发，background 空闲时执行）
+  if (request.action === 'delayedSyncCloudflare' && request.queue) {
+    scheduleCloudflareSync(request.queue).then(() => {
+      sendResponse({ success: true });
+    }).catch(e => {
+      sendResponse({ success: false, error: e.message });
+    });
+    return true;
+  }
 });
 
 // --- 同步到单个站点 ---
@@ -338,17 +348,15 @@ async function syncToSite(url, tabPattern, queue) {
   return { success: true, tab };
 }
 
-// --- 同步到网站：先 GitHub Pages → 再 Cloudflare Workers ---
+// --- 同步到网站：只同步 GitHub Pages，成功后安排后台延迟同步国内站点 ---
 async function syncToWebsite() {
   const queue = await getQueue();
   if (queue.length === 0) {
     return { success: false, error: '队列为空' };
   }
 
+  // 只同步到 GitHub Pages
   let githubOk = false;
-  let cloudflareOk = false;
-
-  // Step 1: 先同步到 GitHub Pages
   try {
     await syncToSite(GITHUB_PAGES_URL, GITHUB_PAGES_TAB_PATTERN, queue);
     githubOk = true;
@@ -356,24 +364,117 @@ async function syncToWebsite() {
     console.warn('GitHub Pages sync failed:', e.message);
   }
 
-  // Step 2: 再同步到 Cloudflare Workers（国内站点）
-  try {
-    const { tab } = await syncToSite(CLOUDFLARE_URL, CLOUDFLARE_TAB_PATTERN, queue);
-    cloudflareOk = true;
-    // 切换到国内站点标签页
-    await chrome.tabs.update(tab.id, { active: true });
-  } catch (e) {
-    console.warn('Cloudflare sync failed:', e.message);
-  }
-
-  // 只要有一个成功就清空队列
-  if (githubOk || cloudflareOk) {
+  if (githubOk) {
     await clearQueue();
-    const sites = [];
-    if (githubOk) sites.push('GitHub Pages');
-    if (cloudflareOk) sites.push('国内站点');
-    return { success: true, count: queue.length, sites };
+    // 安排后台延迟同步到国内站点
+    try {
+      await scheduleCloudflareSync(queue);
+    } catch (e) {
+      console.warn('Failed to schedule Cloudflare sync:', e.message);
+    }
+    return { success: true, count: queue.length, sites: ['GitHub Pages'] };
   }
 
-  return { success: false, error: '两个站点都同步失败' };
+  return { success: false, error: 'GitHub Pages 同步失败' };
+}
+
+// --- 后台延迟同步到 Cloudflare Workers ---
+const CF_PENDING_KEY = 'prompthub_cf_pending';
+const CF_ALARM_NAME = 'delayed_cf_sync';
+
+// 安排延迟同步：存数据 + 创建 alarm
+async function scheduleCloudflareSync(queue) {
+  // 合并已 pending 的数据
+  const data = await chrome.storage.local.get(CF_PENDING_KEY);
+  const existing = data[CF_PENDING_KEY] || [];
+  const merged = [...existing, ...queue];
+  const seen = new Set();
+  const deduped = merged.filter(item => {
+    if (seen.has(item.prompt)) return false;
+    seen.add(item.prompt);
+    return true;
+  });
+  await chrome.storage.local.set({ [CF_PENDING_KEY]: deduped });
+  // 30 秒后执行
+  await chrome.alarms.create(CF_ALARM_NAME, { delayInMinutes: 0.5 });
+  console.log('[PromptHub] 已安排后台同步到国内站点，30秒后执行');
+}
+
+// Alarm 触发：静默同步到 Cloudflare
+chrome.alarms.onAlarm.addListener(async (alarm) => {
+  if (alarm.name !== CF_ALARM_NAME) return;
+
+  const data = await chrome.storage.local.get(CF_PENDING_KEY);
+  const queue = data[CF_PENDING_KEY] || [];
+  if (queue.length === 0) return;
+
+  console.log(`[PromptHub] 开始后台同步 ${queue.length} 个到国内站点…`);
+  try {
+    await syncToSiteSilent(CLOUDFLARE_URL, CLOUDFLARE_TAB_PATTERN, queue);
+    await chrome.storage.local.remove(CF_PENDING_KEY);
+    console.log('[PromptHub] 后台同步到国内站点成功');
+  } catch (e) {
+    console.warn('[PromptHub] 后台同步到国内站点失败:', e.message);
+    // 失败重试：5 分钟后再试一次
+    chrome.alarms.create(CF_ALARM_NAME, { delayInMinutes: 5 });
+  }
+});
+
+// 静默同步（后台标签页，不切换焦点）
+async function syncToSiteSilent(url, tabPattern, queue) {
+  const tabs = await chrome.tabs.query({ url: tabPattern });
+  let tab;
+  if (tabs.length > 0) {
+    // 已有标签页，不激活
+    tab = tabs[0];
+  } else {
+    // 后台打开标签页（不切换焦点）
+    tab = await chrome.tabs.create({ url: url + '#/collections', active: false });
+    // 等待页面加载完成
+    await new Promise((resolve) => {
+      let done = false;
+      const listener = (tabId, changeInfo) => {
+        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
+          done = true;
+          chrome.tabs.onUpdated.removeListener(listener);
+          setTimeout(resolve, 500);
+        }
+      };
+      chrome.tabs.onUpdated.addListener(listener);
+      setTimeout(() => {
+        if (!done) {
+          done = true;
+          chrome.tabs.onUpdated.removeListener(listener);
+          resolve();
+        }
+      }, 15000);
+    });
+  }
+
+  // 注入函数写入 localStorage
+  await chrome.scripting.executeScript({
+    target: { tabId: tab.id },
+    func: (data) => {
+      try {
+        const existing = JSON.parse(localStorage.getItem('prompthub_ext_import') || '[]');
+        const merged = [...existing, ...data];
+        const seen = new Set();
+        const deduped = merged.filter(item => {
+          if (seen.has(item.prompt)) return false;
+          seen.add(item.prompt);
+          return true;
+        });
+        localStorage.setItem('prompthub_ext_import', JSON.stringify(deduped));
+        window.dispatchEvent(new StorageEvent('storage', {
+          key: 'prompthub_ext_import',
+          newValue: JSON.stringify(deduped),
+          oldValue: null,
+          storageArea: localStorage
+        }));
+      } catch (e) {
+        console.error('PromptHub sync error:', e);
+      }
+    },
+    args: [queue]
+  });
 }

@@ -475,7 +475,7 @@ async function syncToSite(url, tabPattern, queue) {
   return { tab, result: injectResult[0]?.result };
 }
 
-// --- 同步到网站：先 GitHub Pages → 再 Cloudflare Workers ---
+// --- 同步到网站：先 GitHub Pages（前台）→ Cloudflare（后台空闲时自动）---
 $('#btn-sync').addEventListener('click', async () => {
   const btn = $('#btn-sync');
   btn.disabled = true;
@@ -487,12 +487,9 @@ $('#btn-sync').addEventListener('click', async () => {
       return;
     }
 
+    // 只同步到 GitHub Pages（前台，用户可见）
+    btn.textContent = '同步到 GitHub Pages…';
     let githubOk = false;
-    let cloudflareOk = false;
-    let cloudflareTab = null;
-
-    // Step 1: 先同步到 GitHub Pages
-    btn.textContent = '① 同步到 GitHub Pages…';
     try {
       const { result } = await syncToSite(GITHUB_PAGES_URL, GITHUB_PAGES_PATTERN, queue);
       if (result?.success) {
@@ -504,33 +501,15 @@ $('#btn-sync').addEventListener('click', async () => {
       console.warn('GitHub Pages sync failed (可能国内无法访问):', e.message);
     }
 
-    // Step 2: 再同步到 Cloudflare Workers（国内站点）
-    btn.textContent = '② 同步到国内站点…';
-    try {
-      const { tab, result } = await syncToSite(CLOUDFLARE_URL, CLOUDFLARE_PATTERN, queue);
-      if (result?.success) {
-        cloudflareOk = true;
-        cloudflareTab = tab;
-      } else {
-        console.warn('Cloudflare sync returned error:', result?.error);
-      }
-    } catch (e) {
-      console.warn('Cloudflare sync failed:', e.message);
-    }
-
-    // 只要有一个成功就清空队列
-    if (githubOk || cloudflareOk) {
+    if (githubOk) {
+      // GitHub Pages 成功 → 清空队列
       await clearQueue();
+      showToast(`已同步 ${queue.length} 个到 GitHub Pages`);
 
-      const parts = [];
-      if (githubOk) parts.push('GitHub Pages ✓');
-      if (cloudflareOk) parts.push('国内站点 ✓');
-      showToast(`已同步 ${queue.length} 个 → ${parts.join(' + ')}`);
-
-      // 切换到国内站点标签页（用户可实际访问的）
-      if (cloudflareTab) {
-        await chrome.tabs.update(cloudflareTab.id, { active: true });
-      }
+      // 通知 background：空闲时延迟同步到国内站点
+      try {
+        chrome.runtime.sendMessage({ action: 'delayedSyncCloudflare', queue });
+      } catch (e) { /* popup 可能已关闭，忽略 */ }
 
       $('#content').innerHTML = `
         <div class="empty-state">
@@ -539,22 +518,20 @@ $('#btn-sync').addEventListener('click', async () => {
             已同步 ${queue.length} 个提示词
           </div>
           <div class="empty-hint" style="margin-top:8px;line-height:1.8;">
-            ${githubOk ? '🌐 GitHub Pages ✓<br>' : '⚠️ GitHub Pages 未能同步<br>'}
-            ${cloudflareOk ? '🇨🇳 国内站点 ✓<br>' : '⚠️ 国内站点未能同步<br>'}
-            <span style="font-size:11px;color:#999;">已切换到国内站点查看</span>
+            🌐 GitHub Pages ✓<br>
+            🇨🇳 国内站点：将在后台空闲时自动同步
           </div>
         </div>
       `;
     } else {
-      showToast('两个站点都同步失败，请检查网络');
+      showToast('GitHub Pages 同步失败');
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">❌</div>
           <div class="empty-text" style="font-size:14px;color:#e74c3c;font-weight:600;">
-            同步失败
+            GitHub Pages 同步失败
           </div>
           <div class="empty-hint" style="margin-top:8px;">
-            GitHub Pages 和国内站点均未能同步<br>
             请检查网络连接后重试
           </div>
         </div>
