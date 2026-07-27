@@ -429,13 +429,32 @@ $('#btn-sync').addEventListener('click', async () => {
       await chrome.tabs.update(tab.id, { active: true });
     } else {
       tab = await chrome.tabs.create({ url: WEBSITE_URL + '#/collections' });
-      // 等待页面加载
+      // 等待页面真正加载完成（最多等 15 秒）
       btn.textContent = '等待页面加载…';
-      await new Promise(resolve => setTimeout(resolve, 3500));
+      await new Promise((resolve) => {
+        let done = false;
+        const listener = (tabId, changeInfo) => {
+          if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
+            done = true;
+            chrome.tabs.onUpdated.removeListener(listener);
+            // 多等 500ms 确保 JS 初始化
+            setTimeout(resolve, 500);
+          }
+        };
+        chrome.tabs.onUpdated.addListener(listener);
+        // 超时兜底：15 秒后无论如何都继续
+        setTimeout(() => {
+          if (!done) {
+            done = true;
+            chrome.tabs.onUpdated.removeListener(listener);
+            resolve();
+          }
+        }, 15000);
+      });
     }
 
     // 注入函数写入 localStorage
-    await chrome.scripting.executeScript({
+    const injectResult = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
       func: (data) => {
         try {
@@ -448,11 +467,36 @@ $('#btn-sync').addEventListener('click', async () => {
             return true;
           });
           localStorage.setItem('prompthub_ext_import', JSON.stringify(deduped));
+          return { success: true, count: deduped.length };
         } catch (e) {
           console.error('PromptHub sync error:', e);
+          return { success: false, error: e.message };
         }
       },
       args: [queue]
+    });
+
+    const result = injectResult[0]?.result;
+    if (result && !result.success) {
+      throw new Error(result.error || '写入 localStorage 失败');
+    }
+
+    // 主动触发网站的检查函数（不等 setInterval 轮询）
+    await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => {
+        // 触发 storage 事件让网站监听器捕获
+        const data = localStorage.getItem('prompthub_ext_import');
+        if (data) {
+          // 手动触发 storage 事件（同窗口内 setItem 不会自动触发 storage 事件）
+          window.dispatchEvent(new StorageEvent('storage', {
+            key: 'prompthub_ext_import',
+            newValue: data,
+            oldValue: null,
+            storageArea: localStorage
+          }));
+        }
+      }
     });
 
     // 清空队列

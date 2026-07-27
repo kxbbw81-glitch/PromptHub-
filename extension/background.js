@@ -288,8 +288,25 @@ async function syncToWebsite() {
     await chrome.tabs.update(tab.id, { active: true });
   } else {
     tab = await chrome.tabs.create({ url: WEBSITE_URL + '#/collections' });
-    // 等待页面加载
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    // 等待页面真正加载完成（最多等 15 秒）
+    await new Promise((resolve) => {
+      let done = false;
+      const listener = (tabId, changeInfo) => {
+        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
+          done = true;
+          chrome.tabs.onUpdated.removeListener(listener);
+          setTimeout(resolve, 500);
+        }
+      };
+      chrome.tabs.onUpdated.addListener(listener);
+      setTimeout(() => {
+        if (!done) {
+          done = true;
+          chrome.tabs.onUpdated.removeListener(listener);
+          resolve();
+        }
+      }, 15000);
+    });
   }
 
   // 注入函数将数据写入网站 localStorage
@@ -312,6 +329,22 @@ async function syncToWebsite() {
         }
       },
       args: [queue]
+    });
+
+    // 主动触发网站的 storage 事件监听器
+    await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => {
+        const data = localStorage.getItem('prompthub_ext_import');
+        if (data) {
+          window.dispatchEvent(new StorageEvent('storage', {
+            key: 'prompthub_ext_import',
+            newValue: data,
+            oldValue: null,
+            storageArea: localStorage
+          }));
+        }
+      }
     });
 
     await clearQueue();

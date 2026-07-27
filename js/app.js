@@ -1503,6 +1503,13 @@
     checkExtensionImport();
     // Also check periodically
     setInterval(checkExtensionImport, 2000);
+
+    // 监听 localStorage 变化（插件 executeScript 写入时立即触发）
+    window.addEventListener('storage', (e) => {
+      if (e.key === EXT_IMPORT_KEY && e.newValue) {
+        checkExtensionImport();
+      }
+    });
   }
 
   if (document.readyState === 'loading') {
