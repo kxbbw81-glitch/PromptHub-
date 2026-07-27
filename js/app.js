@@ -41,6 +41,49 @@
     return 'col_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6);
   }
 
+  // --- Auto-categorize & auto-tag (shared) ---
+  const CAT_KEYWORDS = {
+    'Portrait': ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot', 'girl', 'boy'],
+    'Landscape': ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon', 'forest', 'lake', 'ocean'],
+    'Architecture': ['architecture', 'building', 'interior', 'facade', 'modern house', 'skyscraper'],
+    'Sci-Fi': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'cyber', 'galaxy', 'mars'],
+    'Cyberpunk': ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian', 'night city'],
+    'Fantasy': ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle', 'knight'],
+    'Animals': ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox', 'tiger', 'eagle'],
+    'Still Life': ['still life', 'vase', 'fruit', 'flowers arrangement', 'tabletop'],
+    'Food': ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee', 'dessert', 'cake'],
+    'Fashion': ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear'],
+    'Character': ['character', 'concept art', 'hero', 'villain', 'npc', 'warrior', 'samurai'],
+    'Abstract': ['abstract', 'swirl', 'geometric', 'pattern', 'texture', 'fractal'],
+    'Nature': ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly', 'garden', 'waterfall'],
+    'Cityscape': ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown', 'avenue']
+  };
+
+  const TAG_KEYWORDS = [
+    'cinematic', 'photorealistic', 'oil painting', 'watercolor', 'digital art',
+    'anime', 'minimalist', 'dark', 'dreamy', 'vintage', 'macro', 'bokeh',
+    'golden hour', 'studio lighting', '8k', 'ultra detailed', 'hyperrealistic',
+    'concept art', 'octane render', 'unreal engine', 'trending on artstation',
+    'cyberpunk', 'steampunk', 'low poly', 'pixel art'
+  ];
+
+  function autoCategorize(text) {
+    const lower = (text || '').toLowerCase();
+    let category = 'Abstract';
+    let maxScore = 0;
+    for (const [cat, keywords] of Object.entries(CAT_KEYWORDS)) {
+      const score = keywords.reduce((s, kw) => s + (lower.includes(kw) ? 1 : 0), 0);
+      if (score > maxScore) { maxScore = score; category = cat; }
+    }
+    return category;
+  }
+
+  function autoDetectTags(text) {
+    const lower = (text || '').toLowerCase();
+    const tags = TAG_KEYWORDS.filter(t => lower.includes(t));
+    return tags.length > 0 ? tags.slice(0, 5) : ['AI生成'];
+  }
+
   // --- DOM Helpers ---
   const $ = (sel, parent = document) => parent.querySelector(sel);
   const $$ = (sel, parent = document) => parent.querySelectorAll(sel);
@@ -204,17 +247,27 @@
 
   // --- Prompt Card ---
   function createPromptCard(prompt, opts = {}) {
-    const card = el('div', { class: 'prompt-card', onclick: () => openPromptModal(prompt.id, opts.isCollection) });
-    const verifiedHTML = prompt.verified
-      ? '<span class="verified-badge">已验证</span>'
-      : (prompt.source ? `<span style="font-size:11px;color:var(--purple)">${prompt.source}</span>` : '<span style="font-size:11px;color:#999">待验证</span>');
+    const isCollection = opts.isCollection || prompt.isCollection;
+    const card = el('div', { class: 'prompt-card', onclick: () => openPromptModal(prompt.id, isCollection) });
+
+    // 来源标记：收藏 / 已验证 / 待验证
+    let sourceHTML;
+    if (isCollection) {
+      sourceHTML = '<span style="font-size:11px;color:var(--red);font-weight:600;">❤ 我的收藏</span>';
+    } else if (prompt.verified) {
+      sourceHTML = '<span class="verified-badge">已验证</span>';
+    } else if (prompt.source) {
+      sourceHTML = `<span style="font-size:11px;color:var(--purple)">${prompt.source}</span>`;
+    } else {
+      sourceHTML = '<span style="font-size:11px;color:#999">待验证</span>';
+    }
 
     card.innerHTML = `
       <img class="prompt-card-img" src="${prompt.image || 'https://picsum.photos/seed/' + prompt.id + '/500/500'}" alt="${prompt.title}" loading="lazy" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
       <div class="prompt-card-body">
         <div class="prompt-card-top">
           <span class="prompt-card-category">${prompt.category}</span>
-          ${verifiedHTML}
+          ${sourceHTML}
         </div>
         <div class="prompt-card-title">${prompt.title}</div>
         <div class="prompt-card-tags">
@@ -222,7 +275,7 @@
         </div>
         <div class="prompt-card-footer">
           <div class="prompt-card-stats">
-            <span>${opts.isCollection ? '📅 ' + (prompt.date || '未知') : '❤ ' + (prompt.likes || 0)}</span>
+            <span>${isCollection ? '📅 ' + (prompt.date || '未知') : '❤ ' + (prompt.likes || 0)}</span>
           </div>
           <button class="copy-btn-mini" onclick="event.stopPropagation();">复制</button>
         </div>
@@ -458,7 +511,7 @@
       <div class="explore-header">
         <div class="container">
           <h1>🔍 探索提示词</h1>
-          <p>浏览全部 ${PROMPTS.length} 个精选提示词，按分类筛选或搜索关键词</p>
+          <p>浏览全部 ${PROMPTS.length + getCollections().length} 个提示词（含 ${getCollections().length} 个我的收藏），按分类筛选或搜索关键词</p>
         </div>
       </div>
       <section class="section" style="padding-top:32px;">
@@ -507,14 +560,18 @@
   }
 
   function renderPromptsGrid() {
-    let filtered = PROMPTS;
+    // 合并内置提示词 + 用户收藏，收藏排前面
+    const collections = getCollections().map(c => ({ ...c, isCollection: true, verified: false, likes: 0 }));
+    let allPrompts = [...collections, ...PROMPTS];
+
+    let filtered = allPrompts;
     if (currentCategory !== 'All') filtered = filtered.filter(p => p.category === currentCategory);
     if (currentSearch.trim()) {
       const q = currentSearch.toLowerCase().trim();
       filtered = filtered.filter(p =>
         p.title.toLowerCase().includes(q) ||
         p.category.toLowerCase().includes(q) ||
-        p.tags.some(t => t.toLowerCase().includes(q)) ||
+        (p.tags || []).some(t => t.toLowerCase().includes(q)) ||
         p.prompt.toLowerCase().includes(q)
       );
     }
@@ -533,7 +590,7 @@
     if (noResults) noResults.style.display = 'none';
     if (grid) {
       grid.innerHTML = '';
-      filtered.forEach(p => grid.appendChild(createPromptCard(p)));
+      filtered.forEach(p => grid.appendChild(createPromptCard(p, { isCollection: p.isCollection })));
     }
   }
 
@@ -738,6 +795,16 @@
     if (importMode !== 'manual') return;
     const title = ($('#manual-title')?.value || '').trim();
     const prompt = ($('#manual-prompt')?.value || '').trim();
+
+    // 自动分类：当提示词长度 > 30 时，根据内容自动选择分类
+    if (prompt.length > 30) {
+      const autoCat = autoCategorize(prompt);
+      const catSelect = $('#manual-category');
+      if (catSelect && catSelect.value !== autoCat) {
+        catSelect.value = autoCat;
+      }
+    }
+
     if (!title && !prompt) {
       $('#imp-result').style.display = 'none';
       return;
@@ -746,10 +813,10 @@
       id: 'preview_manual',
       title: title || '(未命名)',
       prompt: prompt || '(请输入提示词)',
-      category: $('#manual-category')?.value || 'Abstract',
+      category: $('#manual-category')?.value || autoCategorize(prompt),
       tags: ($('#manual-tags')?.value || '').trim()
         ? ($('#manual-tags')?.value).split(/[,，]/).map(t => t.trim()).filter(Boolean)
-        : ['手动录入'],
+        : autoDetectTags(prompt),
       image: ($('#manual-image')?.value || '').trim(),
       date: new Date().toISOString().slice(0, 10),
       source: '手动录入'
@@ -842,10 +909,10 @@
       id: generateId(),
       title,
       prompt,
-      category: $('#edit-category')?.value || 'Abstract',
+      category: $('#edit-category')?.value || autoCategorize(prompt),
       tags: ($('#edit-tags')?.value || '').trim()
         ? ($('#edit-tags').value).split(/[,，]/).map(t => t.trim()).filter(Boolean)
-        : ['未分类'],
+        : autoDetectTags(prompt),
       image: ($('#edit-image')?.value || '').trim(),
       date: new Date().toISOString().slice(0, 10),
       source: source === 'manual' ? '手动录入' : '粘贴导入'
@@ -1000,6 +1067,14 @@
           items.forEach(item => {
             item.id = item.id || generateId();
             item.date = item.date || new Date().toISOString().slice(0, 10);
+            // 自动分类：如果分类为空或是默认值，根据提示词重新检测
+            if (!item.category || item.category === 'Abstract' || item.category === '未分类') {
+              item.category = autoCategorize(item.prompt || '');
+            }
+            // 自动标签：如果标签为空，根据提示词检测
+            if (!item.tags || item.tags.length === 0) {
+              item.tags = autoDetectTags(item.prompt || '');
+            }
             if (saveCollection(item)) saved++;
           });
           showToast(`浏览器插件导入了 ${saved} 个提示词`);
