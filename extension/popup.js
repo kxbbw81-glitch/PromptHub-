@@ -156,22 +156,78 @@ const SCAN_FUNCTION = () => {
   }
 
   function findImg(el) {
+    // 头像/图标 URL 模式黑名单
+    const AVATAR_PATTERNS = [
+      'profile_images', 'default_profile',  // Twitter/X
+      'avatar', 'profile_pic', 'profilepic',
+      'icon', 'emoji', 'badge', 'logo',
+      'favicon', 'sprite', 'placeholder',
+    ];
+    const AVATAR_CLASS = [
+      'avatar', 'profile-image', 'profile-pic', 'profilepic',
+      'user-avatar', 'user-image', 'account-icon', 'icon',
+    ];
+
+    function isAvatar(img) {
+      if (!img || !img.src) return true;
+      const src = img.src.toLowerCase();
+      for (const p of AVATAR_PATTERNS) { if (src.includes(p)) return true; }
+      // CSS 类名检查（img 及祖先）
+      let node = img;
+      for (let i = 0; i < 4 && node; i++) {
+        const cls = (node.className || '').toString().toLowerCase();
+        for (const p of AVATAR_CLASS) { if (cls.includes(p)) return true; }
+        node = node.parentElement;
+      }
+      // 圆形图片 = 头像
+      try {
+        const st = window.getComputedStyle(img);
+        const r = parseFloat(st.borderRadius) || 0;
+        const w = img.getBoundingClientRect().width;
+        if (w > 0 && r / w >= 0.45) return true;
+      } catch(e) {}
+      // 尺寸过小 = 图标
+      const rect = img.getBoundingClientRect();
+      if (rect.width > 0 && rect.width < 80) return true;
+      if (rect.height > 0 && rect.height < 80) return true;
+      return false;
+    }
+
+    // 1. 站点特定选择器优先
+    const siteSels = [
+      '[data-testid="tweetPhoto"] img',
+      'article [data-testid="tweetPhoto"] img',
+      '[data-testid="post-content"] img',
+      '.media-element img',
+      '[class*="imageWrapper"] img',
+      '[class*="gallery"] img',
+      '[class*="post-image"] img',
+    ];
+    let article = el.closest('article') || el.closest('[data-testid="tweet"]') ||
+                  el.closest('[data-testid="post-content"]') || el.closest('.post') ||
+                  el.closest('[class*="message"]') || el;
+    for (const sel of siteSels) {
+      const imgs = article.querySelectorAll ? article.querySelectorAll(sel) : [];
+      for (const img of imgs) { if (!isAvatar(img)) return img.src; }
+    }
+
+    // 2. 父容器中查找 — 跳过头像
     let c = el;
     for (let i = 0; i < 3; i++) {
       if (!c.parentElement) break;
       c = c.parentElement;
-      const img = c.querySelector('img');
-      if (img && img.src && img.naturalWidth > 50 &&
-          !img.src.includes('avatar') && !img.src.includes('icon') && !img.src.includes('emoji')) {
-        return img.src;
-      }
+      const imgs = c.querySelectorAll('img');
+      for (const img of imgs) { if (!isAvatar(img)) return img.src; }
     }
+
+    // 3. 兄弟元素
     const sibs = [el.previousElementSibling, el.nextElementSibling,
       el.parentElement?.previousElementSibling, el.parentElement?.nextElementSibling];
     for (const s of sibs) {
       if (!s) continue;
-      const img = s.querySelector?.('img') || (s.tagName === 'IMG' ? s : null);
-      if (img && img.src && !img.src.includes('avatar') && !img.src.includes('icon')) return img.src;
+      const imgs = s.querySelectorAll ? s.querySelectorAll('img') : [];
+      for (const img of imgs) { if (!isAvatar(img)) return img.src; }
+      if (s.tagName === 'IMG' && !isAvatar(s)) return s.src;
     }
     return '';
   }

@@ -93,21 +93,99 @@
     return tags.length > 0 ? tags.slice(0, 5) : ['AI生成'];
   }
 
-  // --- 查找附近图片 ---
-  function findNearbyImage(el) {
-    // 向上查找容器
+  // --- 查找内容图片（排除头像/图标） ---
+  // 头像/图标 URL 模式黑名单
+  const AVATAR_PATTERNS = [
+    'profile_images', 'default_profile',  // Twitter/X 头像
+    'avatar', 'profile_pic', 'profilepic',  // 通用头像
+    'icon', 'emoji', 'badge', 'logo',      // 图标
+    'favicon', 'sprite', 'placeholder',     // 装饰图
+    'giphy_profile', 'twitch_profile',      // 其他平台头像
+  ];
+
+  // 头像/图标 CSS 类名黑名单
+  const AVATAR_CLASS_PATTERNS = [
+    'avatar', 'profile-image', 'profile-pic', 'profilepic',
+    'user-avatar', 'user-image', 'account-icon', 'icon',
+  ];
+
+  function isAvatarOrIcon(img) {
+    if (!img || !img.src) return true;
+
+    const src = img.src.toLowerCase();
+
+    // URL 模式匹配
+    for (const pattern of AVATAR_PATTERNS) {
+      if (src.includes(pattern)) return true;
+    }
+
+    // CSS 类名匹配 — 检查 img 及其所有祖先元素
+    let node = img;
+    for (let i = 0; i < 4 && node; i++) {
+      const cls = (node.className || '').toString().toLowerCase();
+      for (const pattern of AVATAR_CLASS_PATTERNS) {
+        if (cls.includes(pattern)) return true;
+      }
+      node = node.parentElement;
+    }
+
+    // 圆形图片（border-radius: 50%）几乎都是头像
+    try {
+      const style = window.getComputedStyle(img);
+      const radius = parseFloat(style.borderRadius) || 0;
+      const w = img.getBoundingClientRect().width;
+      if (w > 0 && radius / w >= 0.45) return true;  // 接近正圆
+    } catch (e) { /* ignore */ }
+
+    // 尺寸过小（< 80px）通常是图标
+    const rect = img.getBoundingClientRect();
+    if (rect.width > 0 && rect.width < 80) return true;
+    if (rect.height > 0 && rect.height < 80) return true;
+
+    return false;
+  }
+
+  // 优先按站点选择器查找内容图片
+  function findContentImage(el) {
+    // 1. 站点特定选择器（最高优先级）
+    const siteSelectors = [
+      // Twitter/X — 帖子图片
+      '[data-testid="tweetPhoto"] img',
+      'article [data-testid="tweetPhoto"] img',
+      // Reddit — 帖子图片
+      '[data-testid="post-content"] img',
+      '.media-element img',
+      // Discord — 消息附件
+      '[class*="imageWrapper"] img',
+      // Civitai / 通用
+      '[class*="gallery"] img',
+      '[class*="post-image"] img',
+    ];
+
+    // 在推文/帖子容器范围内查找
+    let article = el.closest('article') || el.closest('[data-testid="tweet"]') ||
+                  el.closest('[data-testid="post-content"]') || el.closest('.post') ||
+                  el.closest('[class*="message"]') || el;
+
+    for (const sel of siteSelectors) {
+      const imgs = article.querySelectorAll ? article.querySelectorAll(sel) : [];
+      for (const img of imgs) {
+        if (!isAvatarOrIcon(img)) return img.src;
+      }
+    }
+
+    // 2. 在父容器中查找 — 跳过头像，取内容图
     let container = el;
     for (let i = 0; i < 3; i++) {
       if (!container.parentElement) break;
       container = container.parentElement;
-      const img = container.querySelector('img');
-      if (img && img.src && img.naturalWidth > 50) {
-        if (!img.src.includes('avatar') && !img.src.includes('icon') && !img.src.includes('emoji')) {
-          return img.src;
-        }
+      const imgs = container.querySelectorAll('img');
+      for (const img of imgs) {
+        if (!isAvatarOrIcon(img)) return img.src;
       }
     }
-    // 检查前后兄弟元素
+
+    // 3. 兄弟元素中查找
     const siblings = [
       el.previousElementSibling,
       el.nextElementSibling,
@@ -116,11 +194,13 @@
     ];
     for (const sib of siblings) {
       if (!sib) continue;
-      const img = sib.querySelector?.('img') || (sib.tagName === 'IMG' ? sib : null);
-      if (img && img.src && !img.src.includes('avatar') && !img.src.includes('icon')) {
-        return img.src;
+      const imgs = sib.querySelectorAll ? sib.querySelectorAll('img') : [];
+      for (const img of imgs) {
+        if (!isAvatarOrIcon(img)) return img.src;
       }
+      if (sib.tagName === 'IMG' && !isAvatarOrIcon(sib)) return sib.src;
     }
+
     return '';
   }
 
@@ -177,7 +257,7 @@
         seen.add(text);
 
         const title = extractTitle(text, el);
-        const image = findNearbyImage(el);
+        const image = findContentImage(el);
         const category = detectCategory(text);
         const tags = extractTags(text);
 
