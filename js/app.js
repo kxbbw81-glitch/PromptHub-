@@ -9,6 +9,8 @@
   let currentRoute = 'home';
   let currentCategory = 'All';
   let currentSearch = '';
+  let currentPage = 1;
+  const PAGE_SIZE = 24;
 
   // --- Collections (localStorage) ---
   const COLLECTIONS_KEY = 'prompthub_collections';
@@ -524,6 +526,7 @@
           <div class="filter-chips" id="filter-chips"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
           <div class="prompts-grid" id="prompts-grid"></div>
+          <div class="pagination" id="pagination"></div>
           <div class="no-results" id="no-results" style="display:none;">
             <div class="no-results-icon">🔍</div>
             <p>没有找到匹配的提示词，试试其他关键词或分类吧</p>
@@ -534,17 +537,18 @@
 
     const chipsContainer = $('#filter-chips');
     const allChip = el('button', { class: 'filter-chip' + (currentCategory === 'All' ? ' active' : '') }, '全部');
-    allChip.addEventListener('click', () => { currentCategory = 'All'; updateChips(); renderPromptsGrid(); });
+    allChip.addEventListener('click', () => { currentCategory = 'All'; currentPage = 1; updateChips(); renderPromptsGrid(); });
     chipsContainer.appendChild(allChip);
 
     CATEGORIES.forEach(cat => {
       const chip = el('button', { class: 'filter-chip' + (currentCategory === cat.name ? ' active' : '') }, `${cat.icon} ${cat.name}`);
-      chip.addEventListener('click', () => { currentCategory = cat.name; updateChips(); renderPromptsGrid(); });
+      chip.addEventListener('click', () => { currentCategory = cat.name; currentPage = 1; updateChips(); renderPromptsGrid(); });
       chipsContainer.appendChild(chip);
     });
 
     $('#explore-search-input').addEventListener('input', (e) => {
       currentSearch = e.target.value;
+      currentPage = 1;
       renderPromptsGrid();
     });
 
@@ -579,23 +583,82 @@
     const grid = $('#prompts-grid');
     const noResults = $('#no-results');
     const countEl = $('#result-count');
+    const paginationEl = $('#pagination');
 
-    if (countEl) countEl.textContent = `找到 ${filtered.length} 个提示词${currentCategory !== 'All' ? ' · 分类: ' + currentCategory : ''}${currentSearch ? ' · 搜索: "' + currentSearch + '"' : ''}`;
+    // 分页计算
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    if (currentPage > totalPages && totalPages > 0) currentPage = 1;
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+
+    if (countEl) {
+      let countText = `找到 ${filtered.length} 个提示词`;
+      if (currentCategory !== 'All') countText += ` · 分类: ${currentCategory}`;
+      if (currentSearch) countText += ` · 搜索: "${currentSearch}"`;
+      if (totalPages > 1) countText += ` · 第 ${currentPage}/${totalPages} 页（每页 ${PAGE_SIZE} 个）`;
+      countEl.textContent = countText;
+    }
 
     if (filtered.length === 0) {
       if (grid) grid.innerHTML = '';
       if (noResults) noResults.style.display = 'block';
+      if (paginationEl) paginationEl.innerHTML = '';
       return;
     }
     if (noResults) noResults.style.display = 'none';
     if (grid) {
       grid.innerHTML = '';
-      filtered.forEach(p => grid.appendChild(createPromptCard(p, { isCollection: p.isCollection })));
+      pageItems.forEach(p => grid.appendChild(createPromptCard(p, { isCollection: p.isCollection })));
     }
+
+    // 渲染分页导航
+    renderPagination(totalPages, currentPage);
+  }
+
+  function renderPagination(totalPages, page) {
+    const container = $('#pagination');
+    if (!container || totalPages <= 1) {
+      if (container) container.innerHTML = '';
+      return;
+    }
+
+    let html = '';
+    // 上一页
+    html += `<button class="page-btn${page === 1 ? ' disabled' : ''}" ${page === 1 ? 'disabled' : ''} data-page="${page - 1}">‹ 上一页</button>`;
+
+    // 页码：显示当前页前后各 2 页，首尾必显示
+    const startPage = Math.max(1, page - 2);
+    const endPage = Math.min(totalPages, page + 2);
+
+    if (startPage > 1) {
+      html += `<button class="page-btn" data-page="1">1</button>`;
+      if (startPage > 2) html += '<span class="page-dots">…</span>';
+    }
+    for (let i = startPage; i <= endPage; i++) {
+      html += `<button class="page-btn${i === page ? ' active' : ''}" data-page="${i}">${i}</button>`;
+    }
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) html += '<span class="page-dots">…</span>';
+      html += `<button class="page-btn" data-page="${totalPages}">${totalPages}</button>`;
+    }
+
+    // 下一页
+    html += `<button class="page-btn${page === totalPages ? ' disabled' : ''}" ${page === totalPages ? 'disabled' : ''} data-page="${page + 1}">下一页 ›</button>`;
+
+    container.innerHTML = html;
+    // 绑定点击事件
+    container.querySelectorAll('.page-btn:not(.disabled)').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentPage = parseInt(btn.dataset.page, 10);
+        renderPromptsGrid();
+        document.querySelector('.explore-header')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
   }
 
   function filterByCategory(catName) {
     currentCategory = catName;
+    currentPage = 1;
     if (currentRoute === 'explore') {
       updateChips();
       renderPromptsGrid();
@@ -1094,7 +1157,7 @@
     window.scrollTo(0, 0);
 
     if (route === 'home') renderHome();
-    else if (route === 'explore') { currentCategory = 'All'; currentSearch = ''; renderExplore(); }
+    else if (route === 'explore') { currentCategory = 'All'; currentSearch = ''; currentPage = 1; renderExplore(); }
     else if (route === 'import') renderImport();
     else if (route === 'collections') renderCollections();
 

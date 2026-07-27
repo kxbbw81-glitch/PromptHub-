@@ -940,6 +940,56 @@ button {
   margin-bottom: 12px;
 }
 
+/* --- Pagination --- */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 40px 0 20px;
+}
+
+.page-btn {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 12px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-btn:hover:not(.disabled):not(.active) {
+  border-color: var(--yellow);
+  background: #fffbe6;
+}
+
+.page-btn.active {
+  background: var(--yellow);
+  border-color: var(--yellow);
+  color: #1a1a1a;
+  cursor: default;
+}
+
+.page-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.page-dots {
+  padding: 0 4px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
 /* --- Prompt Detail Modal --- */
 .modal-overlay {
   position: fixed;
