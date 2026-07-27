@@ -7,9 +7,16 @@ const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const GITHUB_PAGES_TAB_PATTERN = '*://kxbbw81-glitch.github.io/PromptHub-/*';
 const CLOUDFLARE_URL = 'https://prompthub.kxbbw81.workers.dev';
 const CLOUDFLARE_TAB_PATTERN = '*://prompthub.kxbbw81.workers.dev/*';
-const WEBSITE_URL = CLOUDFLARE_URL;
-const WEBSITE_TAB_PATTERN = CLOUDFLARE_TAB_PATTERN;
+const WEBSITE_URL = GITHUB_PAGES_URL;
+const WEBSITE_TAB_PATTERN = GITHUB_PAGES_TAB_PATTERN;
 const QUEUE_KEY = 'prompthub_queue';
+const CF_SYNC_DELAY_MINUTES = 30;
+
+try {
+  importScripts('prompt-parser.js');
+} catch (e) {
+  console.warn('[PromptHub] Shared parser unavailable:', e.message);
+}
 
 // --- 分类关键词（中文分类，按提示词词根匹配）---
 const CAT_KEYWORDS = {
@@ -79,26 +86,41 @@ function isAvatarUrl(url) {
   return AVATAR_PATTERNS.some(p => src.includes(p));
 }
 
+function getHostname(url) {
+  try {
+    return url ? new URL(url).hostname : '';
+  } catch {
+    return '';
+  }
+}
+
 function buildPromptFromText(text, tab, imageUrl, allImages) {
   const trimmed = text.trim();
-  const firstLine = trimmed.split('\n')[0].trim();
-  let title = firstLine.length < 60 ? firstLine : firstLine.slice(0, 50);
-  if (!title) title = trimmed.split(/[.!?。！？]/)[0].trim().slice(0, 50) || '未命名提示词';
+  const parsed = globalThis.PromptHubParser?.parsePromptText(trimmed, {
+    titleCandidates: [tab?.title],
+    pageTitle: getHostname(tab?.url)
+  });
+  const promptText = parsed?.prompt || trimmed;
+  const firstLine = promptText.split('\n')[0].trim();
+  let title = parsed?.title || (firstLine.length < 60 ? firstLine : firstLine.slice(0, 50));
+  if (!title) title = promptText.split(/[.!?。！？]/)[0].trim().slice(0, 50) || '未命名提示词';
 
   // 多图支持：过滤头像 URL
-  const images = (allImages || [imageUrl]).filter(u => u && !isAvatarUrl(u));
-  const image = images[0] || '';
+  const parserImages = parsed?.imageUrls || [];
+  const images = [...(allImages || [imageUrl]), ...parserImages].filter(u => u && !isAvatarUrl(u));
+  const dedupedImages = [...new Set(images)];
+  const image = dedupedImages[0] || '';
 
   return {
     id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
     title,
-    prompt: trimmed,
-    category: detectCategory(trimmed),
-    tags: extractTags(trimmed),
+    prompt: promptText,
+    category: detectCategory(promptText),
+    tags: extractTags(promptText),
     image,
-    images,
+    images: dedupedImages,
     url: tab?.url || '',
-    domain: tab?.url ? new URL(tab.url).hostname : '',
+    domain: getHostname(tab?.url),
     source: '插件右键收藏',
     date: new Date().toISOString().slice(0, 10),
     timestamp: Date.now()
@@ -395,9 +417,9 @@ async function scheduleCloudflareSync(queue) {
     return true;
   });
   await chrome.storage.local.set({ [CF_PENDING_KEY]: deduped });
-  // 30 秒后执行
-  await chrome.alarms.create(CF_ALARM_NAME, { delayInMinutes: 0.5 });
-  console.log('[PromptHub] 已安排后台同步到国内站点，30秒后执行');
+  // 30 分钟后执行，确保先完成 GitHub Pages 收藏，再同步国内站点。
+  await chrome.alarms.create(CF_ALARM_NAME, { delayInMinutes: CF_SYNC_DELAY_MINUTES });
+  console.log(`[PromptHub] 已安排后台同步到国内站点，${CF_SYNC_DELAY_MINUTES} 分钟后执行`);
 }
 
 // Alarm 触发：静默同步到 Cloudflare

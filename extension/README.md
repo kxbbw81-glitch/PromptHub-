@@ -1,8 +1,8 @@
-# PromptHub Collector 浏览器插件 v2.0
+# PromptHub Collector 浏览器插件 v2.7
 
 一键抓取网页上的 AI 提示词，保存到 PromptHub 收藏库。
 
-## v2.0 新特性
+## v2.7 新特性
 
 - 🍌 **右键快速收藏** — 在任意网页选中文字，右键 →「🍌 收藏到 PromptHub」
 - 🔍 **智能页面扫描** — 点击插件图标自动扫描当前页面的 AI 提示词
@@ -11,6 +11,8 @@
 - 🎯 **精准识别** — 支持 Midjourney / Stable Diffusion / DALL-E 等格式
 - 🖼️ **自动提取图片** — 智能查找提示词附近的关联图片
 - 🏷️ **自动分类** — 识别提示词主题并自动分类和打标签
+- 🧠 **更稳的识别模块** — 优先识别 `标题 / Prompt / 完整提示词` 等结构化字段，减少 UI 文案混入
+- ⏱️ **固定同步顺序** — 先同步 GitHub Pages，30 分钟后自动同步国内 Workers 站点
 - 🚫 **零干扰** — 不再自动注入浮动按钮，不影响正常浏览
 
 ## 安装步骤
@@ -41,9 +43,10 @@
 ### 同步到网站
 
 1. 收集足够多的提示词后，点击弹窗底部的 **🔄 同步到网站**
-2. 系统自动打开 PromptHub 网站
-3. 提示词自动导入到「我的收藏」页面
-4. 同步完成后队列自动清空
+2. 系统先打开 GitHub Pages 版 PromptHub
+3. 提示词自动导入到 GitHub Pages 的「我的收藏」页面
+4. GitHub Pages 写入成功后，队列自动清空
+5. 30 分钟后后台自动同步到国内 Workers 站点
 
 ## 支持的网站
 
@@ -69,11 +72,15 @@
 ## 数据流
 
 ```
-用户操作 → chrome.storage.local 队列 → 同步 → 网站 localStorage → 收藏库
-         ↑                                              ↓
-    右键收藏 / 扫描收藏                          app.js 轮询读取
+用户操作 → chrome.storage.local 队列 → GitHub Pages localStorage → 收藏库
+         ↑                                                   ↓
+    右键收藏 / 扫描收藏                              app.js 轮询读取
+         ↓
+   GitHub Pages 成功后 → 30 分钟后 → 国内 Workers localStorage
 ```
 
 ## 网站
 
-PromptHub 线上地址：https://prompthub.kxbbw81.workers.dev
+主收藏地址：https://kxbbw81-glitch.github.io/PromptHub-/
+
+国内同步地址：https://prompthub.kxbbw81.workers.dev/

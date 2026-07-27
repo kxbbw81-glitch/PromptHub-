@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "PromptHub Collector",
-  "version": "2.6.0",
-  "description": "一键抓取网页上的 AI 提示词，智能识别帖子内容图片（排除头像/图标），支持多图保存，右键收藏，先同步 GitHub Pages 再空闲时自动同步国内站点",
+  "version": "2.7.0",
+  "description": "一键抓取网页上的 AI 提示词，智能识别标题、提示词和内容图片；先同步 GitHub Pages，30 分钟后自动同步国内站点",
   "permissions": [
     "activeTab",
     "storage",
@@ -35,7 +35,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"],
+      "js": ["prompt-parser.js", "content.js"],
       "run_at": "document_idle"
     }
   ]

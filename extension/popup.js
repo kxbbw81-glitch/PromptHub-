@@ -7,8 +7,9 @@ const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const GITHUB_PAGES_PATTERN = '*://kxbbw81-glitch.github.io/PromptHub-/*';
 const CLOUDFLARE_URL = 'https://prompthub.kxbbw81.workers.dev';
 const CLOUDFLARE_PATTERN = '*://prompthub.kxbbw81.workers.dev/*';
-const WEBSITE_URL = CLOUDFLARE_URL; // 默认打开国内站点
+const WEBSITE_URL = GITHUB_PAGES_URL; // 规则：先收藏到 GitHub Pages，再延迟同步国内站点
 const QUEUE_KEY = 'prompthub_queue';
+const CF_SYNC_DELAY_MINUTES = 30;
 
 function $(s) { return document.querySelector(s); }
 
@@ -325,15 +326,21 @@ const SCAN_FUNCTION = () => {
     if (el.querySelector(sels.join(', '))) continue;
     const text = el.textContent.trim();
     if (text.length < 50 || text.length > 3000 || seen.has(text)) continue;
-    if (isPromptLike(text)) {
+    const parsed = globalThis.PromptHubParser?.parsePromptText(text, {
+      titleCandidates: [extractTitle(text, el)],
+      pageTitle: document.title
+    });
+
+    if (isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) {
       seen.add(text);
       const imgs = findImgs(el);
+      const promptText = parsed?.prompt || text;
       prompts.push({
         id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
-        title: extractTitle(text, el),
-        prompt: text,
-        category: detectCat(text),
-        tags: extractTags(text),
+        title: parsed?.title || extractTitle(text, el),
+        prompt: promptText,
+        category: detectCat(promptText),
+        tags: extractTags(promptText),
         image: imgs[0] || '',
         images: imgs,
         url: location.href,
@@ -565,10 +572,14 @@ $('#btn-sync').addEventListener('click', async () => {
       await clearQueue();
       showToast(`已同步 ${queue.length} 个到 GitHub Pages`);
 
-      // 通知 background：空闲时延迟同步到国内站点
+      // 通知 background：GitHub Pages 成功后，再排程国内站点 30 分钟延迟同步
+      let cloudflareScheduled = false;
       try {
-        chrome.runtime.sendMessage({ action: 'delayedSyncCloudflare', queue });
-      } catch (e) { /* popup 可能已关闭，忽略 */ }
+        const scheduleResult = await chrome.runtime.sendMessage({ action: 'delayedSyncCloudflare', queue });
+        cloudflareScheduled = !!scheduleResult?.success;
+      } catch (e) {
+        console.warn('Cloudflare delayed sync schedule failed:', e.message);
+      }
 
       $('#content').innerHTML = `
         <div class="empty-state">
@@ -578,7 +589,7 @@ $('#btn-sync').addEventListener('click', async () => {
           </div>
           <div class="empty-hint" style="margin-top:8px;line-height:1.8;">
             🌐 GitHub Pages ✓<br>
-            🇨🇳 国内站点：将在后台空闲时自动同步
+            🇨🇳 国内站点：${cloudflareScheduled ? `${CF_SYNC_DELAY_MINUTES} 分钟后自动同步` : '后台排程失败，请稍后重新同步'}
           </div>
         </div>
       `;

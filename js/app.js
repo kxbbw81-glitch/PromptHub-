@@ -323,6 +323,24 @@
     const text = rawText.trim();
     if (!text) return null;
 
+    const sharedParser = window.PromptHubParser;
+    if (sharedParser?.parsePromptText) {
+      const parsed = sharedParser.parsePromptText(rawText);
+      if (parsed?.prompt) {
+        const imageUrls = parsed.imageUrls || [];
+        return {
+          title: parsed.title || '未命名提示词',
+          prompt: parsed.prompt,
+          category: autoCategorize(parsed.prompt),
+          tags: autoDetectTags(parsed.prompt),
+          image: imageUrls[0] || '',
+          images: imageUrls,
+          rawImages: imageUrls,
+          source: '粘贴导入'
+        };
+      }
+    }
+
     // Try to find image URLs
     const imgRegex = /https?:\/\/[^\s\"<>]+\.(?:jpg|jpeg|png|gif|webp|bmp)(?:\?[^\s\"<>]*)?/gi;
     const imageUrls = text.match(imgRegex) || [];
@@ -2024,6 +2042,24 @@
         if (Array.isArray(items) && items.length > 0) {
           let saved = 0;
           items.forEach(item => {
+            const sharedParser = window.PromptHubParser;
+            if (sharedParser?.parsePromptText && item.prompt) {
+              const parsed = sharedParser.parsePromptText(item.prompt, {
+                titleCandidates: [item.title],
+                pageTitle: item.domain || item.source
+              });
+              if (parsed?.prompt) {
+                if (!item.title || sharedParser.isGenericTitle(item.title) || sharedParser.titleLooksLikePrompt(item.title, item.prompt)) {
+                  item.title = parsed.title;
+                }
+                item.prompt = parsed.prompt;
+                if (parsed.imageUrls?.length) {
+                  const mergedImages = [...(item.images || []), ...parsed.imageUrls];
+                  item.images = [...new Set(mergedImages)];
+                  item.image = item.image || item.images[0] || '';
+                }
+              }
+            }
             item.id = item.id || generateId();
             item.date = item.date || new Date().toISOString().slice(0, 10);
             // 自动分类：如果分类为空或是默认值，根据提示词重新检测

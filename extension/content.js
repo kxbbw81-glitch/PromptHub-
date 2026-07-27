@@ -323,19 +323,25 @@
       if (text.length < 50 || text.length > 3000) continue;
       if (seen.has(text)) continue;
 
-      if (isPromptLike(text)) {
+      const parsed = globalThis.PromptHubParser?.parsePromptText(text, {
+        titleCandidates: [extractTitle(text, el)],
+        pageTitle: document.title
+      });
+
+      if (isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) {
         seen.add(text);
 
-        const title = extractTitle(text, el);
+        const promptText = parsed?.prompt || text;
+        const title = parsed?.title || extractTitle(text, el);
         const images = findContentImages(el);
         const image = images[0] || '';
-        const category = detectCategory(text);
-        const tags = extractTags(text);
+        const category = detectCategory(promptText);
+        const tags = extractTags(promptText);
 
         prompts.push({
           id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
           title,
-          prompt: text,
+          prompt: promptText,
           category,
           tags,
           image,
