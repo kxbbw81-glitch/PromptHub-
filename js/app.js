@@ -192,46 +192,104 @@
     const imgRegex = /https?:\/\/[^\s\"<>]+\.(?:jpg|jpeg|png|gif|webp|bmp)(?:\?[^\s\"<>]*)?/gi;
     const imageUrls = text.match(imgRegex) || [];
 
-    // Try to find the longest English sentence/paragraph as prompt
-    // Look for sentences with AI prompt characteristics (camera terms, style words, etc.)
-    const lines = text.split(/\n+/).map(l => l.trim()).filter(l => l.length > 20);
+    // 移除图片URL行后的文本行（用于提示词提取）
+    const allLines = text.split(/\n+/).map(l => l.trim()).filter(l => l.length > 0);
+
+    // 放宽条件：行长度 > 10 即可作为候选
+    const lines = allLines.filter(l => l.length > 10);
 
     let promptText = '';
     let title = '';
 
-    // Strategy 1: Find line that looks like a prompt (long English text with descriptive words)
-    const promptIndicators = ['portrait', 'cinematic', 'photorealistic', '8k', 'lighting', 'style', 'camera', 'shot on', 'dslr', 'render', 'digital art', 'oil painting', 'watercolor', 'hyperrealistic', 'bokeh', 'depth of field', 'studio lighting', 'golden hour'];
+    // AI 提示词特征词（英文 + 中文）
+    const promptIndicators = [
+      // 英文特征词
+      'portrait', 'cinematic', 'photorealistic', '8k', 'lighting', 'style', 'camera', 'shot on',
+      'dslr', 'render', 'digital art', 'oil painting', 'watercolor', 'hyperrealistic', 'bokeh',
+      'depth of field', 'studio lighting', 'golden hour', 'ultra detailed', 'octane render',
+      'unreal engine', 'trending on artstation', 'midjourney', 'stable diffusion', 'dall-e',
+      'prompt', '--ar', '--v', '--s', '--q', 'negative', 'steps', 'cfg', 'sampler', 'seed',
+      'wide angle', 'telephoto', 'macro', 'close-up', 'full body', 'half body',
+      'highly detailed', 'intricate', 'masterpiece', 'best quality', 'high resolution',
+      'film grain', 'lens flare', 'volumetric', 'ray tracing', 'ambient occlusion',
+      // 中文特征词
+      '提示词', '提示', '正面提示', '负面提示', '反向提示', '画质', '高清', '超高清',
+      '电影感', '写实', '超写实', '极简', '暗黑', '梦幻', '复古', '赛博朋克',
+      '光影', '光照', '逆光', '顺光', '侧光', '柔光', '硬光', '自然光',
+      '景深', '虚化', '广角', '长焦', '微距', '特写', '全身', '半身',
+      '风格', '质感', '细节', '4K', '8K', '16K', '杰作', '高质量',
+      '机器人', '未来', '科幻', '奇幻', '魔法', '城堡', '风景', '人像',
+      '建筑', '动物', '美食', '时尚', '穿搭', '城市', '自然', '抽象'
+    ];
 
+    // Strategy 1: 找包含提示词特征最多的行（阈值降低到 1）
     for (const line of lines) {
       const lower = line.toLowerCase();
-      const score = promptIndicators.reduce((s, ind) => s + (lower.includes(ind) ? 1 : 0), 0);
-      if (score >= 2 && line.length > promptText.length) {
+      const score = promptIndicators.reduce((s, ind) => s + (lower.includes(ind.toLowerCase()) ? 1 : 0), 0);
+      if (score >= 1 && line.length > promptText.length) {
         promptText = line;
       }
     }
 
-    // Strategy 2: If no prompt found, use the longest English-like line
+    // Strategy 2: 找最长的英文行（降低阈值到 25）
     if (!promptText) {
-      const englishLines = lines.filter(l => /^[\x00-\x7F\s]+$/.test(l) && l.length > 40);
+      const englishLines = lines.filter(l => /^[\x00-\x7F\s,.;:!?'"\-—–()#/]+$/.test(l) && l.length > 25);
       if (englishLines.length > 0) {
         promptText = englishLines.reduce((a, b) => a.length > b.length ? a : b);
       }
     }
 
-    // Strategy 3: fallback to first long line
+    // Strategy 3: 找包含逗号分隔描述的行（典型提示词格式 "word1, word2, word3"）
+    if (!promptText) {
+      for (const line of lines) {
+        if (line.split(',').length >= 3 && line.length > 15) {
+          promptText = line;
+          break;
+        }
+      }
+    }
+
+    // Strategy 4: 找包含 Midjourney 参数的行 (--ar, --v 等)
+    if (!promptText) {
+      for (const line of lines) {
+        if (/--(ar|v|s|q|niji|style|chaos|tile|seed)/i.test(line)) {
+          promptText = line;
+          break;
+        }
+      }
+    }
+
+    // Strategy 5: 如果文本整体不长（< 500字符），直接用整段文本
+    if (!promptText && text.length < 500 && text.length > 5) {
+      // 排除纯 URL 行
+      const nonUrlLines = allLines.filter(l => !/^https?:\/\//.test(l));
+      if (nonUrlLines.length > 0) {
+        promptText = nonUrlLines.join(' ');
+      }
+    }
+
+    // Strategy 6: fallback to first line > 10 chars
     if (!promptText && lines.length > 0) {
       promptText = lines[0];
     }
 
+    // Strategy 7: 最后兜底：用整段文本（去除空行）
+    if (!promptText && allLines.length > 0) {
+      promptText = allLines.join(' ');
+    }
+
+    // 如果最终没有提取到任何文本，返回 null
+    if (!promptText) return null;
+
     // Extract title from text
     // Look for Chinese title or first short line
-    const shortLines = text.split(/\n+/).map(l => l.trim()).filter(l => l.length > 3 && l.length < 60);
-    const chineseLine = shortLines.find(l => /[\u4e00-\u9fff]/.test(l));
+    const shortLines = text.split(/\n+/).map(l => l.trim()).filter(l => l.length > 2 && l.length < 60);
+    const chineseLine = shortLines.find(l => /[\u4e00-\u9fff]/.test(l) && !l.includes('提示词') && !l.includes('提示'));
     if (chineseLine) {
       title = chineseLine;
     } else if (shortLines.length > 0) {
       // Use first few words of prompt as title
-      const words = promptText.split(/\s+/).slice(0, 5);
+      const words = promptText.split(/[\s,]+/).filter(w => w.length > 0).slice(0, 6);
       title = words.join(' ');
     }
 
