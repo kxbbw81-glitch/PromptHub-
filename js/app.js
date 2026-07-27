@@ -354,6 +354,7 @@
       category: category,
       tags: tags.slice(0, 5),
       image: imageUrls[0] || '',
+      images: imageUrls,
       rawImages: imageUrls,
       source: '粘贴导入'
     };
@@ -376,8 +377,15 @@
       sourceHTML = '<span style="font-size:11px;color:#999">待验证</span>';
     }
 
+    // 多图角标
+    const imgCount = (prompt.images && prompt.images.length) || (prompt.image ? 1 : 0);
+    const multiImgBadge = imgCount > 1 ? `<span class="card-img-count">📁 ${imgCount}</span>` : '';
+
     card.innerHTML = `
-      <img class="prompt-card-img" src="${prompt.image || 'https://picsum.photos/seed/' + prompt.id + '/500/500'}" alt="${prompt.title}" loading="lazy" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
+      <div class="prompt-card-img-wrap">
+        <img class="prompt-card-img" src="${prompt.image || prompt.images?.[0] || 'https://picsum.photos/seed/' + prompt.id + '/500/500'}" alt="${prompt.title}" loading="lazy" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
+        ${multiImgBadge}
+      </div>
       <div class="prompt-card-body">
         <div class="prompt-card-top">
           <span class="prompt-card-category">${prompt.category}</span>
@@ -427,10 +435,31 @@
       ? `<button class="copy-btn" id="modal-delete-btn" style="background:var(--red)">🗑 删除</button>`
       : `<button class="copy-btn" id="modal-collect-btn" style="background:${isCol ? 'var(--green)' : 'var(--purple)'}" data-id="${prompt.id}">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`;
 
+    // 多图支持：弹窗画廊
+    const allImages = (prompt.images && prompt.images.length > 0)
+      ? prompt.images
+      : (prompt.image ? [prompt.image] : []);
+
+    const mainImg = allImages[0] || 'https://picsum.photos/seed/' + prompt.id + '/500/500';
+    const thumbsHTML = allImages.length > 1
+      ? `<div class="modal-gallery-thumbs">
+           ${allImages.map((url, i) => `
+             <img class="modal-gallery-thumb ${i === 0 ? 'active' : ''}" 
+                  src="${url}" data-index="${i}"
+                  onclick="switchModalImage(${i})"
+                  onerror="this.style.display='none'" />
+           `).join('')}
+         </div>`
+      : '';
+
     overlay.innerHTML = `
       <div class="modal">
         <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.remove('active')">×</button>
-        <img class="modal-img" src="${prompt.image || 'https://picsum.photos/seed/' + prompt.id + '/500/500'}" alt="${prompt.title}" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
+        <div class="modal-gallery" id="modal-gallery">
+          <img class="modal-img" id="modal-main-img" src="${mainImg}" alt="${prompt.title}" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
+          ${allImages.length > 1 ? `<span class="modal-gallery-count">${allImages.length} 张图片</span>` : ''}
+        </div>
+        ${thumbsHTML}
         <div class="modal-body">
           <div class="modal-category-row">
             <span class="modal-category-badge">${prompt.category}</span>
@@ -459,6 +488,9 @@
     `;
 
     overlay.classList.add('active');
+
+    // 存储弹窗图片列表
+    window._modalGalleryImages = allImages;
 
     // Wire copy
     $('#modal-copy-btn').addEventListener('click', function () {
@@ -984,6 +1016,11 @@
       $('#imp-result').style.display = 'none';
       return;
     }
+    // 多图：手动输入也支持多行图片链接
+    const manualImages = ($('#manual-image')?.value || '').split('\n')
+      .map(s => s.trim())
+      .filter(Boolean);
+
     const item = {
       id: 'preview_manual',
       title: title || '(未命名)',
@@ -992,7 +1029,8 @@
       tags: ($('#manual-tags')?.value || '').trim()
         ? ($('#manual-tags')?.value).split(/[,，]/).map(t => t.trim()).filter(Boolean)
         : autoDetectTags(prompt),
-      image: ($('#manual-image')?.value || '').trim(),
+      image: manualImages[0] || '',
+      images: manualImages,
       date: new Date().toISOString().slice(0, 10),
       source: '手动录入'
     };
@@ -1004,8 +1042,50 @@
     if (!box) return;
     box.style.display = 'block';
 
-    const imgSrc = item.image || ('https://picsum.photos/seed/' + (item.id || 'preview') + '/480/300');
+    // 多图支持：images 数组优先，否则用单个 image
+    const images = item.images && item.images.length > 0
+      ? item.images
+      : (item.image ? [item.image] : []);
+
     const source = isManual ? 'manual' : 'parsed';
+
+    // 生成图片画廊 HTML
+    let galleryHTML;
+    if (images.length > 0) {
+      galleryHTML = `
+        <div class="imp-result-gallery" id="imp-gallery">
+          <div class="imp-gallery-main">
+            <img id="imp-gallery-main-img" src="${images[0]}" alt="${item.title}" onerror="this.parentElement.innerHTML='<div class=\'imp-result-noimg\'>🖼️<br><span>图片加载失败</span></div>'" />
+            <button class="imp-save-fab" onclick="saveFromPreview('${source}')" title="收藏到库">
+              <span>♡</span>
+            </button>
+            ${images.length > 1 ? `<span class="imp-gallery-count">${images.length} 张图片</span>` : ''}
+          </div>
+          ${images.length > 1 ? `
+            <div class="imp-gallery-thumbs">
+              ${images.map((url, i) => `
+                <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}" 
+                     src="${url}" 
+                     data-index="${i}"
+                     onclick="switchGalleryImage(${i})"
+                     onerror="this.style.display='none'" />
+              `).join('')}
+            </div>
+          ` : ''}
+        </div>
+      `;
+    } else {
+      galleryHTML = `
+        <div class="imp-result-gallery" id="imp-gallery">
+          <div class="imp-gallery-main">
+            <div class="imp-result-noimg">🖼️<br><span>未检测到图片</span></div>
+            <button class="imp-save-fab" onclick="saveFromPreview('${source}')" title="收藏到库">
+              <span>♡</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }
 
     box.innerHTML = `
       <div class="imp-result-card">
@@ -1016,12 +1096,7 @@
         </div>
 
         <div class="imp-result-body">
-          <div class="imp-result-img">
-            <img src="${imgSrc}" alt="${item.title}" onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'imp-result-noimg\'>🖼️<br><span>未检测到图片</span></div>'" />
-            <button class="imp-save-fab" onclick="saveFromPreview('${source}')" title="收藏到库">
-              <span>♡</span>
-            </button>
-          </div>
+          ${galleryHTML}
 
           <div class="imp-result-fields">
             <div class="imp-field">
@@ -1048,8 +1123,8 @@
               <textarea id="edit-prompt" rows="5">${item.prompt}</textarea>
             </div>
             <div class="imp-field">
-              <label>图片链接</label>
-              <input type="text" id="edit-image" value="${item.image || ''}" placeholder="https://…" oninput="updatePreviewImage(this.value)" />
+              <label>图片链接（多张图片请每行一个）</label>
+              <textarea id="edit-image" rows="${Math.min(images.length, 4)}" placeholder="https://…&#10;每行一个图片链接">${images.join('\n')}</textarea>
             </div>
           </div>
         </div>
@@ -1060,6 +1135,9 @@
         </div>
       </div>
     `;
+
+    // 存储图片列表供切换使用
+    window._impGalleryImages = images;
 
     // 绑定快捷键：Ctrl/Cmd + Enter 收藏
     setTimeout(() => {
@@ -1072,13 +1150,67 @@
           }
         });
       }
+      // 监听图片链接编辑，实时更新画廊
+      const imgTextarea = $('#edit-image');
+      if (imgTextarea) {
+        imgTextarea.addEventListener('input', () => {
+          const urls = imgTextarea.value.split('\n').map(s => s.trim()).filter(Boolean);
+          window._impGalleryImages = urls;
+          updateGalleryFromTextarea(urls);
+        });
+      }
     }, 0);
   }
 
   window.updatePreviewImage = function (url) {
-    const img = $('.imp-result-img img');
+    const img = $('.imp-gallery-main-img');
     if (img && url) { img.src = url; img.style.display = 'block'; }
   };
+
+  // 画廊缩略图切换
+  window.switchGalleryImage = function (index) {
+    const images = window._impGalleryImages || [];
+    if (!images[index]) return;
+    const mainImg = $('#imp-gallery-main-img');
+    if (mainImg) mainImg.src = images[index];
+    document.querySelectorAll('.imp-gallery-thumb').forEach((thumb, i) => {
+      thumb.classList.toggle('active', i === index);
+    });
+  };
+
+  // 编辑图片链接时实时更新画廊
+  function updateGalleryFromTextarea(urls) {
+    const gallery = $('#imp-gallery');
+    if (!gallery) return;
+    
+    if (urls.length === 0) {
+      gallery.innerHTML = `
+        <div class="imp-gallery-main">
+          <div class="imp-result-noimg">🖼️<br><span>未检测到图片</span></div>
+          <button class="imp-save-fab" onclick="saveFromPreview('parsed')" title="收藏到库"><span>♡</span></button>
+        </div>
+      `;
+      return;
+    }
+
+    gallery.innerHTML = `
+      <div class="imp-gallery-main">
+        <img id="imp-gallery-main-img" src="${urls[0]}" alt="" onerror="this.parentElement.innerHTML='<div class=\'imp-result-noimg\'>🖼️<br><span>图片加载失败</span></div>'" />
+        <button class="imp-save-fab" onclick="saveFromPreview('parsed')" title="收藏到库"><span>♡</span></button>
+        ${urls.length > 1 ? `<span class="imp-gallery-count">${urls.length} 张图片</span>` : ''}
+      </div>
+      ${urls.length > 1 ? `
+        <div class="imp-gallery-thumbs">
+          ${urls.map((url, i) => `
+            <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}" 
+                 src="${url}" data-index="${i}"
+                 onclick="switchGalleryImage(${i})"
+                 onerror="this.style.display='none'" />
+          `).join('')}
+        </div>
+      ` : ''}
+    `;
+  }
 
   window.copyPreviewPrompt = function () {
     copyPrompt($('#edit-prompt')?.value || '');
@@ -1095,6 +1227,11 @@
     const prompt = ($('#edit-prompt')?.value || '').trim();
     if (!title || !prompt) { showToast('请填写标题和提示词'); return; }
 
+    // 多图：按行分割图片链接
+    const rawImages = ($('#edit-image')?.value || '').split('\n')
+      .map(s => s.trim())
+      .filter(Boolean);
+
     const item = {
       id: generateId(),
       title,
@@ -1103,13 +1240,14 @@
       tags: ($('#edit-tags')?.value || '').trim()
         ? ($('#edit-tags').value).split(/[,，]/).map(t => t.trim()).filter(Boolean)
         : autoDetectTags(prompt),
-      image: ($('#edit-image')?.value || '').trim(),
+      image: rawImages[0] || '',          // 兼容旧逻辑：第一张图
+      images: rawImages,                   // 新字段：全部图片
       date: new Date().toISOString().slice(0, 10),
       source: source === 'manual' ? '手动录入' : '粘贴导入'
     };
 
     if (saveCollection(item)) {
-      showToast('已收藏到「我的收藏」');
+      showToast(`已收藏${rawImages.length > 1 ? `（${rawImages.length}张图片）` : ''}`);
       currentParsed = null;
 
       // 心形按钮视觉反馈
@@ -1174,6 +1312,17 @@
 
   window.saveManual = function () {
     saveFromPreview('manual');
+  };
+
+  // 弹窗图片切换
+  window.switchModalImage = function (index) {
+    const images = window._modalGalleryImages || [];
+    if (!images[index]) return;
+    const mainImg = $('#modal-main-img');
+    if (mainImg) mainImg.src = images[index];
+    document.querySelectorAll('.modal-gallery-thumb').forEach((thumb, i) => {
+      thumb.classList.toggle('active', i === index);
+    });
   };
 
 
@@ -1278,6 +1427,14 @@
             // 自动标签：如果标签为空，根据提示词检测
             if (!item.tags || item.tags.length === 0) {
               item.tags = autoDetectTags(item.prompt || '');
+            }
+            // 多图兼容：确保 images 数组存在
+            if (item.images && item.images.length > 0) {
+              item.image = item.image || item.images[0];
+            } else if (item.image) {
+              item.images = [item.image];
+            } else {
+              item.images = [];
             }
             if (saveCollection(item)) saved++;
           });

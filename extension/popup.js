@@ -155,13 +155,12 @@ const SCAN_FUNCTION = () => {
     return tags.length > 0 ? tags.slice(0, 5) : ['AI生成'];
   }
 
-  function findImg(el) {
-    // 头像/图标 URL 模式黑名单
+  function findImgs(el) {
+    const results = [];
+    const seen = new Set();
     const AVATAR_PATTERNS = [
-      'profile_images', 'default_profile',  // Twitter/X
-      'avatar', 'profile_pic', 'profilepic',
-      'icon', 'emoji', 'badge', 'logo',
-      'favicon', 'sprite', 'placeholder',
+      'profile_images', 'default_profile', 'avatar', 'profile_pic', 'profilepic',
+      'icon', 'emoji', 'badge', 'logo', 'favicon', 'sprite', 'placeholder',
     ];
     const AVATAR_CLASS = [
       'avatar', 'profile-image', 'profile-pic', 'profilepic',
@@ -172,28 +171,31 @@ const SCAN_FUNCTION = () => {
       if (!img || !img.src) return true;
       const src = img.src.toLowerCase();
       for (const p of AVATAR_PATTERNS) { if (src.includes(p)) return true; }
-      // CSS 类名检查（img 及祖先）
       let node = img;
       for (let i = 0; i < 4 && node; i++) {
         const cls = (node.className || '').toString().toLowerCase();
         for (const p of AVATAR_CLASS) { if (cls.includes(p)) return true; }
         node = node.parentElement;
       }
-      // 圆形图片 = 头像
       try {
         const st = window.getComputedStyle(img);
         const r = parseFloat(st.borderRadius) || 0;
         const w = img.getBoundingClientRect().width;
         if (w > 0 && r / w >= 0.45) return true;
       } catch(e) {}
-      // 尺寸过小 = 图标
       const rect = img.getBoundingClientRect();
       if (rect.width > 0 && rect.width < 80) return true;
       if (rect.height > 0 && rect.height < 80) return true;
       return false;
     }
 
-    // 1. 站点特定选择器优先
+    function addImg(img) {
+      if (!img || !img.src || isAvatar(img)) return;
+      if (seen.has(img.src)) return;
+      seen.add(img.src);
+      results.push(img.src);
+    }
+
     const siteSels = [
       '[data-testid="tweetPhoto"] img',
       'article [data-testid="tweetPhoto"] img',
@@ -208,28 +210,24 @@ const SCAN_FUNCTION = () => {
                   el.closest('[class*="message"]') || el;
     for (const sel of siteSels) {
       const imgs = article.querySelectorAll ? article.querySelectorAll(sel) : [];
-      for (const img of imgs) { if (!isAvatar(img)) return img.src; }
+      imgs.forEach(addImg);
     }
 
-    // 2. 父容器中查找 — 跳过头像
     let c = el;
     for (let i = 0; i < 3; i++) {
       if (!c.parentElement) break;
       c = c.parentElement;
-      const imgs = c.querySelectorAll('img');
-      for (const img of imgs) { if (!isAvatar(img)) return img.src; }
+      c.querySelectorAll('img').forEach(addImg);
     }
 
-    // 3. 兄弟元素
     const sibs = [el.previousElementSibling, el.nextElementSibling,
       el.parentElement?.previousElementSibling, el.parentElement?.nextElementSibling];
     for (const s of sibs) {
       if (!s) continue;
-      const imgs = s.querySelectorAll ? s.querySelectorAll('img') : [];
-      for (const img of imgs) { if (!isAvatar(img)) return img.src; }
-      if (s.tagName === 'IMG' && !isAvatar(s)) return s.src;
+      if (s.tagName === 'IMG') addImg(s);
+      if (s.querySelectorAll) s.querySelectorAll('img').forEach(addImg);
     }
-    return '';
+    return results;
   }
 
   function extractTitle(text, el) {
@@ -266,13 +264,15 @@ const SCAN_FUNCTION = () => {
     if (text.length < 50 || text.length > 3000 || seen.has(text)) continue;
     if (isPromptLike(text)) {
       seen.add(text);
+      const imgs = findImgs(el);
       prompts.push({
         id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
         title: extractTitle(text, el),
         prompt: text,
         category: detectCat(text),
         tags: extractTags(text),
-        image: findImg(el),
+        image: imgs[0] || '',
+        images: imgs,
         url: location.href,
         domain: location.hostname,
         source: '插件扫描',

@@ -145,11 +145,21 @@
     return false;
   }
 
-  // 优先按站点选择器查找内容图片
-  function findContentImage(el) {
+  // 优先按站点选择器查找所有内容图片（排除头像/图标）
+  function findContentImages(el) {
+    const results = [];
+    const seen = new Set();
+
+    function addImg(img) {
+      if (!img || !img.src || isAvatarOrIcon(img)) return;
+      if (seen.has(img.src)) return;
+      seen.add(img.src);
+      results.push(img.src);
+    }
+
     // 1. 站点特定选择器（最高优先级）
     const siteSelectors = [
-      // Twitter/X — 帖子图片
+      // Twitter/X — 帖子图片（可能有多张）
       '[data-testid="tweetPhoto"] img',
       'article [data-testid="tweetPhoto"] img',
       // Reddit — 帖子图片
@@ -162,27 +172,22 @@
       '[class*="post-image"] img',
     ];
 
-    // 在推文/帖子容器范围内查找
     let article = el.closest('article') || el.closest('[data-testid="tweet"]') ||
                   el.closest('[data-testid="post-content"]') || el.closest('.post') ||
                   el.closest('[class*="message"]') || el;
 
     for (const sel of siteSelectors) {
       const imgs = article.querySelectorAll ? article.querySelectorAll(sel) : [];
-      for (const img of imgs) {
-        if (!isAvatarOrIcon(img)) return img.src;
-      }
+      imgs.forEach(addImg);
     }
 
-    // 2. 在父容器中查找 — 跳过头像，取内容图
+    // 2. 在父容器中查找
     let container = el;
     for (let i = 0; i < 3; i++) {
       if (!container.parentElement) break;
       container = container.parentElement;
       const imgs = container.querySelectorAll('img');
-      for (const img of imgs) {
-        if (!isAvatarOrIcon(img)) return img.src;
-      }
+      imgs.forEach(addImg);
     }
 
     // 3. 兄弟元素中查找
@@ -194,14 +199,18 @@
     ];
     for (const sib of siblings) {
       if (!sib) continue;
+      if (sib.tagName === 'IMG') addImg(sib);
       const imgs = sib.querySelectorAll ? sib.querySelectorAll('img') : [];
-      for (const img of imgs) {
-        if (!isAvatarOrIcon(img)) return img.src;
-      }
-      if (sib.tagName === 'IMG' && !isAvatarOrIcon(sib)) return sib.src;
+      imgs.forEach(addImg);
     }
 
-    return '';
+    return results;
+  }
+
+  // 兼容旧调用：返回第一张图
+  function findContentImage(el) {
+    const imgs = findContentImages(el);
+    return imgs[0] || '';
   }
 
   // --- 提取标题 ---
@@ -257,7 +266,8 @@
         seen.add(text);
 
         const title = extractTitle(text, el);
-        const image = findContentImage(el);
+        const images = findContentImages(el);
+        const image = images[0] || '';
         const category = detectCategory(text);
         const tags = extractTags(text);
 
@@ -268,6 +278,7 @@
           category,
           tags,
           image,
+          images,
           url: location.href,
           domain: location.hostname,
           source: '插件扫描',

@@ -75,14 +75,15 @@ function isAvatarUrl(url) {
   return AVATAR_PATTERNS.some(p => src.includes(p));
 }
 
-function buildPromptFromText(text, tab, imageUrl) {
+function buildPromptFromText(text, tab, imageUrl, allImages) {
   const trimmed = text.trim();
   const firstLine = trimmed.split('\n')[0].trim();
   let title = firstLine.length < 60 ? firstLine : firstLine.slice(0, 50);
   if (!title) title = trimmed.split(/[.!?。！？]/)[0].trim().slice(0, 50) || '未命名提示词';
 
-  // 只在非头像图片时才设置 image
-  const image = imageUrl && !isAvatarUrl(imageUrl) ? imageUrl : '';
+  // 多图支持：过滤头像 URL
+  const images = (allImages || [imageUrl]).filter(u => u && !isAvatarUrl(u));
+  const image = images[0] || '';
 
   return {
     id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
@@ -91,6 +92,7 @@ function buildPromptFromText(text, tab, imageUrl) {
     category: detectCategory(trimmed),
     tags: extractTags(trimmed),
     image,
+    images,
     url: tab?.url || '',
     domain: tab?.url ? new URL(tab.url).hostname : '',
     source: '插件右键收藏',
@@ -121,40 +123,45 @@ chrome.runtime.onInstalled.addListener(() => {
 // --- 右键菜单点击 ---
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   if (info.menuItemId === 'collect-selection' && info.selectionText) {
-    // 右键选中文字时，info.srcUrl 可能为空；尝试在页面中查找内容图片
-    let imageUrl = info.srcUrl || '';
-    // 如果没有直接图片 URL，尝试通过 content script 查找
-    if (!imageUrl) {
-      try {
-        const results = await chrome.scripting.executeScript({
-          target: { tabId: tab.id },
-          func: () => {
-            const sel = window.getSelection();
-            if (!sel.rangeCount) return '';
-            let node = sel.anchorNode;
-            for (let i = 0; i < 4 && node; i++) {
-              const el = node.nodeType === 1 ? node : node.parentElement;
-              if (!el) break;
-              const article = el.closest('article') || el.closest('[data-testid="tweet"]') ||
-                              el.closest('[data-testid="post-content"]') || el;
-              const imgs = article.querySelectorAll('[data-testid="tweetPhoto"] img, img[src*="media"], .media-element img, [class*="post-image"] img, img');
-              for (const img of imgs) {
-                const src = img.src || '';
-                if (src && !src.includes('profile_images') && !src.includes('avatar') &&
-                    !src.includes('icon') && !src.includes('emoji')) {
-                  const rect = img.getBoundingClientRect();
-                  if (rect.width >= 80) return src;
+    // 右键选中文字时，收集页面中所有内容图片
+    let allImages = [];
+    try {
+      const results = await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        func: () => {
+          const sel = window.getSelection();
+          if (!sel.rangeCount) return [];
+          const found = [];
+          const seen = new Set();
+          let node = sel.anchorNode;
+          for (let i = 0; i < 4 && node; i++) {
+            const el = node.nodeType === 1 ? node : node.parentElement;
+            if (!el) break;
+            const article = el.closest('article') || el.closest('[data-testid="tweet"]') ||
+                            el.closest('[data-testid="post-content"]') || el;
+            const imgs = article.querySelectorAll('[data-testid="tweetPhoto"] img, img[src*="media"], .media-element img, [class*="post-image"] img, img');
+            for (const img of imgs) {
+              const src = img.src || '';
+              if (src && !src.includes('profile_images') && !src.includes('avatar') &&
+                  !src.includes('icon') && !src.includes('emoji') && !seen.has(src)) {
+                const rect = img.getBoundingClientRect();
+                if (rect.width >= 80) {
+                  found.push(src);
+                  seen.add(src);
                 }
               }
-              node = el.parentElement;
             }
-            return '';
+            node = el.parentElement;
           }
-        });
-        imageUrl = results[0]?.result || '';
-      } catch (e) { /* ignore */ }
+          return found;
+        }
+      });
+      allImages = results[0]?.result || [];
+    } catch (e) { /* ignore */ }
+    if (info.srcUrl && !allImages.includes(info.srcUrl)) {
+      allImages.unshift(info.srcUrl);
     }
-    const item = buildPromptFromText(info.selectionText, tab, imageUrl);
+    const item = buildPromptFromText(info.selectionText, tab, info.srcUrl, allImages);
     await addToQueue(item);
     chrome.action.setBadgeText({ text: '1', tabId: tab.id });
     chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId: tab.id });
@@ -194,14 +201,14 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
       } catch (e) { /* ignore */ }
     }
     if (promptText) {
-      const item = buildPromptFromText(promptText, tab, info.srcUrl);
+      const item = buildPromptFromText(promptText, tab, info.srcUrl, [info.srcUrl]);
       await addToQueue(item);
       chrome.action.setBadgeText({ text: '1', tabId: tab.id });
       chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId: tab.id });
       setTimeout(() => chrome.action.setBadgeText({ text: '', tabId: tab.id }), 2000);
     } else {
       // 没有找到提示词文字，只收集图片
-      const item = buildPromptFromText('（请手动补充提示词）', tab, info.srcUrl);
+      const item = buildPromptFromText('（请手动补充提示词）', tab, info.srcUrl, [info.srcUrl]);
       await addToQueue(item);
       chrome.action.setBadgeText({ text: '1', tabId: tab.id });
       chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId: tab.id });
