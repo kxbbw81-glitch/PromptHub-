@@ -86,6 +86,7 @@ function copyText(text) {
 // 此函数在页面上下文中执行，不能引用外部变量
 const SCAN_FUNCTION = () => {
   const INDICATORS = [
+    // 英文指标
     'photorealistic','cinematic','8k','4k','ultra detailed','hyperrealistic',
     'hyperdetailed','digital art','oil painting','watercolor','concept art',
     'portrait of','landscape of','shot on','dslr','bokeh',
@@ -107,36 +108,89 @@ const SCAN_FUNCTION = () => {
     'low poly','isometric','voxel art','pixel art',
     'logo design','typography','flat design',
     'matte','glossy','iridescent','translucent',
-    'macro lens','tilt-shift','telephoto','wide-angle lens'
+    'macro lens','tilt-shift','telephoto','wide-angle lens',
+    // 中文指标
+    '提示词','生成','像素','构图','光照','光线','背景','前景',
+    '负面约束','正面约束','负面提示','正面提示',
+    '人物','女性','男性','面部','五官','写真','模特','半身','全身',
+    '场景','风格','色调','光影','渲染','质感','细节','氛围','意境',
+    '景深','特写','全景','仰视','俯视','侧脸','侧面','正面',
+    '超高画质','高清','高画质','超高清',
+    '东方','国风','国潮','古风','水墨','工笔','版画','青绿',
+    '瓷白','宣纸','钴蓝','青玉',
+    '摄影','镜头','焦距','光圈','快门',
+    '不要文字','不要水印','无水印','不生成文字',
+    '竖版','横版','画幅','比例',
+    '参考','借鉴','参考图','风格参考',
+    '海报','插画','艺术','绘画',
+    '动作','表情','姿势','服饰','穿搭','配饰',
+    '远山','园门','花卉','植物','建筑',
+    '柔和','克制','饱和','低饱和','高饱和',
+    '构图关系','视觉','视觉线条',
+    '虚构','原创','独立',
   ];
 
   function isPromptLike(text) {
     const t = text.toLowerCase();
     let score = 0;
-    for (const ind of INDICATORS) { if (t.includes(ind)) score++; }
-    const wc = text.split(/\s+/).length;
-    const cc = (text.match(/,/g) || []).length;
+    for (const ind of INDICATORS) { if (t.includes(ind.toLowerCase())) score++; }
+
+    // 词数：英文按空格，中文按字符（2字≈1词）
+    const enWords = text.split(/\s+/).filter(w => w.length > 0).length;
+    const cnChars = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+    const wc = enWords + Math.floor(cnChars / 2);
+
+    // 逗号：英文 + 中文
+    const enC = (text.match(/,/g) || []).length;
+    const cnC = (text.match(/，/g) || []).length;
+    const cc = enC + cnC;
+
     if (wc > 15 && cc >= 3) score += 2;
     if (wc > 30) score += 1;
     if (/--(ar|v|style|chaos|stylize|niji|seed|hd)\b/.test(t)) score += 3;
+
+    // 中文提示词标记（强信号）
+    if (/——\s*(prompt|提示词)\s*——/i.test(text)) score += 4;
+    if (/^(prompt|提示词)\s*[:：]/im.test(text)) score += 3;
+    if (/负面约束|负面提示|negative\s*prompt/i.test(text)) score += 4;
+    if (/生成.*(图|画|海报|插画|照片|写真|画面|图像)/i.test(text)) score += 3;
+    if (/\d+\s*[×x*]\s*\d+\s*像素/i.test(text)) score += 3;
+    if (/\d+:\d+\s*(竖版|横版|比例|画幅)/i.test(text)) score += 2;
+    if (/参考.*(图片|图像|上传)/i.test(text)) score += 2;
+    if (cnChars > 100 && cnC >= 5) score += 2;
+
     return score >= 3 && text.length > 50;
   }
 
   const CAT_KW = {
-    '人像':['portrait','face','model','person','woman','man','selfie','headshot','girl','boy'],
-    '风景':['landscape','mountain','sunrise','sunset','valley','horizon','forest','lake'],
-    '建筑':['architecture','building','interior','facade','house','skyscraper'],
-    '科幻':['sci-fi','space','futuristic','robot','alien','spaceship','galaxy'],
-    '赛博朋克':['cyberpunk','neon','cyber','hologram','dystopian'],
-    '奇幻':['fantasy','dragon','wizard','magic','elf','dungeon','castle','knight'],
-    '动物':['animal','dog','cat','lion','wolf','bird','wildlife','fox','tiger'],
-    '静物':['still life','vase','fruit','tabletop'],
-    '美食':['food','dish','cuisine','sushi','pizza','coffee','dessert','cake'],
-    '时尚':['fashion','outfit','runway','couture','dress','streetwear'],
-    '角色':['character','concept art','hero','villain','warrior','samurai'],
-    '抽象':['abstract','swirl','geometric','pattern','texture','fractal'],
-    '自然':['forest','flower','tree','ocean','river','leaf','butterfly','waterfall'],
-    '城市':['city','urban','skyline','street','cityscape','downtown']
+    '人像':['portrait','face','model','person','woman','man','selfie','headshot','girl','boy',
+           '人像','肖像','面部','五官','写真','模特','半身','头像','女性','男性','人物'],
+    '风景':['landscape','mountain','sunrise','sunset','valley','horizon','forest','lake',
+           '风景','山水','远山','日出','日落','山谷','地平线','自然','草原','沙漠'],
+    '建筑':['architecture','building','interior','facade','house','skyscraper',
+           '建筑','室内','外观','房屋','园门','庙宇','教堂','城堡','桥梁'],
+    '科幻':['sci-fi','space','futuristic','robot','alien','spaceship','galaxy',
+           '科幻','太空','未来','机器人','外星人','飞船','银河','星际'],
+    '赛博朋克':['cyberpunk','neon','cyber','hologram','dystopian',
+               '赛博朋克','霓虹','全息','反乌托邦'],
+    '奇幻':['fantasy','dragon','wizard','magic','elf','dungeon','castle','knight',
+           '奇幻','龙','法师','魔法','精灵','地下城','骑士','神话'],
+    '动物':['animal','dog','cat','lion','wolf','bird','wildlife','fox','tiger',
+           '动物','狗','猫','狮子','狼','鸟','野生动物','狐狸','老虎'],
+    '静物':['still life','vase','fruit','tabletop',
+           '静物','花瓶','水果','桌面'],
+    '美食':['food','dish','cuisine','sushi','pizza','coffee','dessert','cake',
+           '美食','菜肴','料理','寿司','披萨','咖啡','甜点','蛋糕'],
+    '时尚':['fashion','outfit','runway','couture','dress','streetwear',
+           '时尚','穿搭','秀场','高定','裙子','街头','服饰','配饰'],
+    '角色':['character','concept art','hero','villain','warrior','samurai',
+           '角色','概念设计','英雄','反派','战士','武士','原创人物','虚构'],
+    '抽象':['abstract','swirl','geometric','pattern','texture','fractal',
+           '抽象','几何','图案','纹理','分形'],
+    '自然':['forest','flower','tree','ocean','river','leaf','butterfly','waterfall',
+           '森林','花','树','海洋','河流','树叶','蝴蝶','瀑布','花卉','植物','玉兰'],
+    '城市':['city','urban','skyline','street','cityscape','downtown',
+           '城市','都市','天际线','街道','市区','城镇']
   };
 
   function detectCat(text) {
@@ -155,7 +209,12 @@ const SCAN_FUNCTION = () => {
       'anime','minimalist','dark','dreamy','vintage','macro','bokeh',
       'golden hour','studio lighting','8k','ultra detailed','hyperrealistic',
       'concept art','octane render','unreal engine','trending on artstation',
-      'cyberpunk','steampunk','low poly','pixel art'].filter(t => l.includes(t));
+      'cyberpunk','steampunk','low poly','pixel art',
+      // 中文标签
+      '东方','国风','古风','水墨','工笔','版画','青绿','瓷白',
+      '人像','写真','海报','插画','摄影','电影感','高质感',
+      '柔和光照','清晨','低饱和','极简','负面约束',
+    ].filter(t => l.includes(t.toLowerCase()));
     return tags.length > 0 ? tags.slice(0, 5) : ['AI生成'];
   }
 
