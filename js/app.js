@@ -1004,6 +1004,10 @@
           });
           showToast(`浏览器插件导入了 ${saved} 个提示词`);
           localStorage.removeItem(EXT_IMPORT_KEY);
+          // 导入成功后自动跳转到收藏页面
+          if (saved > 0) {
+            navigate('collections');
+          }
         }
       } catch (e) { /* ignore */ }
     }
@@ -1043,12 +1047,26 @@
       if (e.key === 'Escape') overlay.classList.remove('active');
     });
 
+    // 支持 URL hash 路由（插件同步时打开 #/collections 等链接）
+    function handleHashRoute() {
+      const hash = window.location.hash.replace(/^#\/?/, '');
+      if (hash && ['home', 'explore', 'import', 'collections'].includes(hash)) {
+        navigate(hash);
+        return true;
+      }
+      return false;
+    }
+    window.addEventListener('hashchange', handleHashRoute);
+
+    // 页面加载时检查 hash 路由，没有 hash 则渲染首页
+    if (!handleHashRoute()) {
+      renderHome();
+    }
+
     // Check for extension imports on load
     checkExtensionImport();
     // Also check periodically
     setInterval(checkExtensionImport, 2000);
-
-    renderHome();
   }
 
   if (document.readyState === 'loading') {
