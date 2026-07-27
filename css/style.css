@@ -1157,6 +1157,91 @@ button {
   gap: 6px;
 }
 
+/* === Modal Meta Grid (参照 bananaprompts.fun) === */
+.modal-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+  padding: 16px 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.modal-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.modal-meta-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.modal-meta-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* === Modal Tags Section === */
+.modal-tags-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+.modal-tags-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.modal-tag-clickable {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.modal-tag-clickable:hover {
+  background: var(--yellow);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+/* === Modal Footer Info === */
+.modal-footer-info {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* === Card Badges === */
+.card-ar-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+  font-weight: 600;
+  font-family: 'SF Mono', 'Consolas', monospace;
+}
+.card-model-badge {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  padding: 2px 6px;
+  background: var(--bg-soft);
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
 /* --- Toast --- */
 .toast {
   position: fixed;

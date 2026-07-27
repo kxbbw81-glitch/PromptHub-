@@ -416,6 +416,22 @@ const PROMPTS = [
     date: "2025-06-15",
     likes: 2230,
   },
+  {
+    id: "elegant-home-fashion-portrait",
+    title: "优雅居家时尚人像",
+    category: "时尚",
+    tags: ["时尚", "极简", "写实", "电影感", "宁静", "人像"],
+    prompt: "Core Concept\nUsing the uploaded real female subject as the visual reference, generate a magazine-quality fashion indoor portrait. The image should convey a calm, intimate, and luxurious modern atmosphere, capturing the subject's elegant and relaxed state in a home environment, achieving the realism and artistic expression of high-end editorial photography.\n\nSubject Reference and Styling\nReference: Strictly follow the facial features, body proportions, and personal aura of the uploaded subject. Emphasize refined facial structure and a slender, elegant figure.\nExpression: Calm with a subtle sense of focus; soft, confident, and slightly penetrating gaze directed at the camera, creating a delicate and intimate allure.\nHairstyle: Long dark brown hair, loosely tied at the back into a slightly messy bun with natural volume, with a few loose strands falling along the sides of the face.\nMakeup and Accessories: Clean, natural makeup—almost no-makeup look. Accessories should be minimal, such as small earrings or none at all.\n\nOutfit and Pose\nClothing: A black ribbed knit long-sleeve dress with a high neckline. The dress is form-fitting, contouring the body shape, with a high side slit that subtly reveals the leg depending on the pose.\nPose: Seated gracefully on a light beige sectional sofa. The body is slightly angled toward the camera; one leg is bent and placed on the sofa, while the other extends forward, naturally revealing the leg through the slit. One hand rests casually on the bent knee, while the other is relaxed on the sofa cushion. The pose is composed, elegant, with a slight forward-leaning engagement.\n\nEnvironment and Lighting\nEnvironment: A modern interior living room. The background wall is gray-white, featuring a warm-toned abstract geometric artwork. The floor is dark wood. The space is clean and minimal, with a single accent color provided by an orange-red cushion on the sofa.\nLighting: Soft natural daylight, simulating diffused light entering from a side window. Lighting is even with soft shadows, low to medium contrast. Color temperature is neutral-warm, creating a cozy and inviting atmosphere.\n\nComposition and Image Quality\nComposition: Medium-wide shot capturing the full seated pose on the sofa. The camera is positioned slightly above eye level with a subtle angle. Use the rule of thirds, placing the subject slightly to the right, balanced by the wall art. A slight foreground blur on the right edge (such as a wall or frame edge) can be included.\nTechnical: Simulate a 35mm to 50mm lens perspective, with shallow to medium depth of field—sharp focus on the subject, slightly blurred background.\nStyle and Quality: High-end fashion magazine photography style. Clean, ultra-high resolution image with neutral color grading, slightly warm highlights, and slightly reduced saturation for a refined, understated aesthetic. Avoid harsh shadows, overexposure, cluttered backgrounds, anatomical errors, low resolution, watermarks, or text.\n\nMood and Atmosphere\nOverall Mood: Minimalist, fashionable, mature, and refined.\nAtmosphere: Calm, intimate, modern luxury—capturing an effortless sense of sophistication and the quiet charm of everyday living.",
+    verified: true,
+    image: "https://cdn.bananaprompts.fun/prompts/wLHp0FaR8Eh0IZDeXTblx.webp",
+    images: ["https://cdn.bananaprompts.fun/prompts/wLHp0FaR8Eh0IZDeXTblx.webp"],
+    aspectRatio: "3:4",
+    model: "Nano Banana 2",
+    sourceUrl: "https://bananaprompts.fun/prompt/elegant-home-fashion-portrait-yzcxx3",
+    source: "Banana Prompts",
+    date: "2025-07-27",
+    likes: 980,
+  },
 ];
 
 const FAQS = [

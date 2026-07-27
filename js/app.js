@@ -381,10 +381,15 @@
     const imgCount = (prompt.images && prompt.images.length) || (prompt.image ? 1 : 0);
     const multiImgBadge = imgCount > 1 ? `<span class="card-img-count">📁 ${imgCount}</span>` : '';
 
+    // 宽高比 + 模型徽章
+    const arBadge = prompt.aspectRatio ? `<span class="card-ar-badge">${prompt.aspectRatio}</span>` : '';
+    const modelBadge = prompt.model ? `<span class="card-model-badge">${prompt.model}</span>` : '';
+
     card.innerHTML = `
       <div class="prompt-card-img-wrap">
         <img class="prompt-card-img" src="${prompt.image || prompt.images?.[0] || 'https://picsum.photos/seed/' + prompt.id + '/500/500'}" alt="${prompt.title}" loading="lazy" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
         ${multiImgBadge}
+        ${arBadge}
       </div>
       <div class="prompt-card-body">
         <div class="prompt-card-top">
@@ -398,6 +403,7 @@
         <div class="prompt-card-footer">
           <div class="prompt-card-stats">
             <span>${isCollection ? '📅 ' + (prompt.date || '未知') : '❤ ' + (prompt.likes || 0)}</span>
+            ${modelBadge}
           </div>
           <button class="copy-btn-mini" onclick="event.stopPropagation();">复制</button>
         </div>
@@ -466,21 +472,33 @@
             ${verifiedHTML}
           </div>
           <h2 class="modal-title">${prompt.title}</h2>
-          <div class="modal-tags">
-            ${(prompt.tags || []).map(t => `<span class="prompt-tag">${t}</span>`).join('')}
+          
+          <div class="modal-meta-grid">
+            ${prompt.aspectRatio ? `<div class="modal-meta-item"><span class="modal-meta-label">宽高比</span><span class="modal-meta-value">${prompt.aspectRatio}</span></div>` : ''}
+            ${prompt.model ? `<div class="modal-meta-item"><span class="modal-meta-label">模型</span><span class="modal-meta-value">${prompt.model}</span></div>` : ''}
+            <div class="modal-meta-item"><span class="modal-meta-label">${isCollection ? '收藏日期' : '热度'}</span><span class="modal-meta-value">${isCollection ? (prompt.date || '未知') : (prompt.likes || 0) + ' 人喜欢'}</span></div>
+            ${prompt.source ? `<div class="modal-meta-item"><span class="modal-meta-label">来源</span><span class="modal-meta-value">${prompt.source}</span></div>` : ''}
           </div>
+
           <div class="modal-prompt-section">
             <div class="modal-prompt-label">
-              <span>提示词文本</span>
+              <span>提示词</span>
               <div style="display:flex;gap:8px;">
                 ${collectBtnHTML}
                 <button class="copy-btn" id="modal-copy-btn">📋 复制提示词</button>
               </div>
             </div>
-            <div class="modal-prompt-text">${prompt.prompt}</div>
+            <div class="modal-prompt-text">${prompt.prompt || ''}</div>
           </div>
-          <div class="modal-meta">
-            <span>${isCollection ? '📅 ' + (prompt.date || '未知日期') : '❤ ' + (prompt.likes || 0) + ' 人喜欢'}</span>
+
+          <div class="modal-tags-section">
+            <span class="modal-tags-label">标签</span>
+            <div class="modal-tags">
+              ${(prompt.tags || []).map(t => `<span class="prompt-tag modal-tag-clickable" onclick="filterByTag('${t.replace(/'/g, "\\'")}')">${t}</span>`).join('')}
+            </div>
+          </div>
+
+          <div class="modal-footer-info">
             <span>🏷 #${prompt.id}</span>
           </div>
         </div>
@@ -807,6 +825,20 @@
       updateChips();
       renderPromptsGrid();
     }
+  }
+
+  function filterByTag(tag) {
+    // 关闭弹窗
+    $('#modal-overlay').classList.remove('active');
+    currentSearch = tag;
+    currentCategory = 'All';
+    currentPage = 1;
+    navigate('explore');
+    setTimeout(() => {
+      const input = $('#explore-search-input');
+      if (input) input.value = tag;
+      renderPromptsGrid();
+    }, 50);
   }
 
   // --- Render: Import ---
@@ -1466,6 +1498,7 @@
 
   window.navigate = navigate;
   window.openPromptModal = openPromptModal;
+  window.filterByTag = filterByTag;
 
   // --- Init ---
   function init() {
