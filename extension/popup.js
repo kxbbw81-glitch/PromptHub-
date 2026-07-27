@@ -3,7 +3,7 @@
 // 扫描页面 / 收藏队列 / 同步到网站
 // ==========================================
 
-const WEBSITE_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
+const WEBSITE_URL = 'https://prompthub.kxbbw81.workers.dev';
 const QUEUE_KEY = 'prompthub_queue';
 
 function $(s) { return document.querySelector(s); }
@@ -422,7 +422,7 @@ $('#btn-sync').addEventListener('click', async () => {
     }
 
     // 查找或打开 PromptHub 标签页
-    const tabs = await chrome.tabs.query({ url: '*://kxbbw81-glitch.github.io/*' });
+    const tabs = await chrome.tabs.query({ url: '*://prompthub.kxbbw81.workers.dev/*' });
     let tab;
     if (tabs.length > 0) {
       tab = tabs[0];

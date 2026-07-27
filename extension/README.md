@@ -76,4 +76,4 @@
 
 ## 网站
 
-PromptHub 线上地址：https://kxbbw81-glitch.github.io/PromptHub-/
+PromptHub 线上地址：https://prompthub.kxbbw81.workers.dev

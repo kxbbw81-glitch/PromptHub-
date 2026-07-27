@@ -3,8 +3,8 @@
 // 右键菜单收藏 + chrome.storage.local 队列管理
 // ==========================================
 
-const WEBSITE_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
-const WEBSITE_TAB_PATTERN = '*://kxbbw81-glitch.github.io/*';
+const WEBSITE_URL = 'https://prompthub.kxbbw81.workers.dev';
+const WEBSITE_TAB_PATTERN = '*://prompthub.kxbbw81.workers.dev/*';
 const QUEUE_KEY = 'prompthub_queue';
 
 // --- 分类关键词 ---
