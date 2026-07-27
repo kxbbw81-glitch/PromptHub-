@@ -76,7 +76,7 @@
         <h1>优雅居家时尚人像</h1>
         <p class="seo-summary">优雅居家时尚人像：Core Concept Using the uploaded real female subject as the visual reference, generate a magazine-quality fashion indoor portrait. The image shoul…</p>
         <div class="seo-actions">
-          <button class="seo-btn" onclick="copyPromptText('prompt-text')">Copy Prompt</button>
+          <button class="seo-btn" type="button" data-copy-target="prompt-text">Copy Prompt</button>
           <a class="seo-btn secondary" href="../../#/prompt/elegant-home-fashion-portrait">打开互动详情</a>
         </div>
         <div class="seo-meta">
@@ -113,11 +113,6 @@ Atmosphere: Calm, intimate, modern luxury—capturing an effortless sense of sop
       </article>
     </div>
   </main>
-  <script>
-    function copyPromptText(id) {
-      const text = document.getElementById(id)?.textContent || '';
-      navigator.clipboard?.writeText(text);
-    }
-  </script>
+  <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
 </html>

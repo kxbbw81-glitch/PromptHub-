@@ -76,7 +76,7 @@
         <h1>赛博朋克街头集市</h1>
         <p class="seo-summary">赛博朋克街头集市：A bustling cyberpunk street market at night. Vendors sell glowing cybernetic implants and neon-colored street food under tarpaulin tents. Hologra…</p>
         <div class="seo-actions">
-          <button class="seo-btn" onclick="copyPromptText('prompt-text')">Copy Prompt</button>
+          <button class="seo-btn" type="button" data-copy-target="prompt-text">Copy Prompt</button>
           <a class="seo-btn secondary" href="../../#/prompt/cyberpunk-street-market">打开互动详情</a>
         </div>
         <div class="seo-meta">
@@ -89,11 +89,6 @@
       </article>
     </div>
   </main>
-  <script>
-    function copyPromptText(id) {
-      const text = document.getElementById(id)?.textContent || '';
-      navigator.clipboard?.writeText(text);
-    }
-  </script>
+  <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
 </html>

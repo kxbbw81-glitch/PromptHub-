@@ -16,15 +16,15 @@
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <div class="logo" onclick="navigate('home')">
+      <a class="logo" href="#/home" data-action="navigate" data-route="home">
         <div class="logo-icon">🍌</div>
         <span>PromptHub</span>
-      </div>
+      </a>
       <nav class="nav">
-        <a data-route="home" onclick="navigate('home')">首页</a>
-        <a data-route="explore" onclick="navigate('explore')">探索提示词</a>
-        <a onclick="navigate('import')">📥 导入</a>
-        <a onclick="navigate('collections')">❤️ 我的收藏</a>
+        <a href="#/home" data-action="navigate" data-route="home">首页</a>
+        <a href="#/explore" data-action="navigate" data-route="explore">探索提示词</a>
+        <a href="#/import" data-action="navigate" data-route="import">📥 导入</a>
+        <a href="#/collections" data-action="navigate" data-route="collections">❤️ 我的收藏</a>
         <div class="nav-search">
           <input type="text" id="nav-search-input" placeholder="搜索提示词..." />
         </div>
@@ -48,22 +48,22 @@
         </div>
         <div class="footer-col">
           <h4>探索</h4>
-          <a onclick="navigate('explore')">全部提示词</a>
-          <a onclick="navigate('home'); setTimeout(()=>document.getElementById('categories-section')?.scrollIntoView({behavior:'smooth'}),100)">主题分类</a>
-          <a onclick="navigate('home'); setTimeout(()=>document.querySelector('.top-prompts')?.scrollIntoView({behavior:'smooth'}),100)">今日精选</a>
+          <a href="#/explore" data-action="navigate" data-route="explore">全部提示词</a>
+          <a href="#/home" data-action="navigate-scroll" data-route="home" data-scroll-target="#categories-section">主题分类</a>
+          <a href="#/home" data-action="navigate-scroll" data-route="home" data-scroll-target=".top-prompts">今日精选</a>
         </div>
         <div class="footer-col">
           <h4>分类</h4>
-          <a onclick="navigate('explore')">人像</a>
-          <a onclick="navigate('explore')">风景</a>
-          <a onclick="navigate('explore')">科幻</a>
-          <a onclick="navigate('explore')">奇幻</a>
+          <a href="#/explore" data-action="navigate" data-route="explore">人像</a>
+          <a href="#/explore" data-action="navigate" data-route="explore">风景</a>
+          <a href="#/explore" data-action="navigate" data-route="explore">科幻</a>
+          <a href="#/explore" data-action="navigate" data-route="explore">奇幻</a>
         </div>
         <div class="footer-col">
           <h4>资源</h4>
-          <a onclick="navigate('home'); setTimeout(()=>document.querySelector('.prompt-eng')?.scrollIntoView({behavior:'smooth'}),100)">提示词工程</a>
-          <a onclick="navigate('home'); setTimeout(()=>document.querySelector('.faq-list')?.scrollIntoView({behavior:'smooth'}),100)">常见问题</a>
-          <a onclick="navigate('home'); setTimeout(()=>document.querySelector('.usecases-grid')?.scrollIntoView({behavior:'smooth'}),100)">使用场景</a>
+          <a href="#/home" data-action="navigate-scroll" data-route="home" data-scroll-target=".prompt-eng">提示词工程</a>
+          <a href="#/home" data-action="navigate-scroll" data-route="home" data-scroll-target=".faq-list">常见问题</a>
+          <a href="#/home" data-action="navigate-scroll" data-route="home" data-scroll-target=".usecases-grid">使用场景</a>
         </div>
       </div>
       <div class="footer-bottom">
@@ -73,6 +73,7 @@
     </div>
   </footer>
 
+  <script src="js/security.js?v=20260728a"></script>
   <script src="extension/prompt-parser.js?v=20260727g"></script>
   <script src="js/data.js?v=20260727g"></script>
   <script src="js/app.js?v=20260727g"></script>

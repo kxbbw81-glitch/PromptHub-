@@ -76,7 +76,7 @@
         <h1>黄昏音乐节人像</h1>
         <p class="seo-summary">黄昏音乐节人像：A cinematic portrait of a young woman at an outdoor music festival during golden hour. She has wind-swept hair, wearing a bohemian floral crown an…</p>
         <div class="seo-actions">
-          <button class="seo-btn" onclick="copyPromptText('prompt-text')">Copy Prompt</button>
+          <button class="seo-btn" type="button" data-copy-target="prompt-text">Copy Prompt</button>
           <a class="seo-btn secondary" href="../../#/prompt/dusk-music-fest-portrait">打开互动详情</a>
         </div>
         <div class="seo-meta">
@@ -89,11 +89,6 @@
       </article>
     </div>
   </main>
-  <script>
-    function copyPromptText(id) {
-      const text = document.getElementById(id)?.textContent || '';
-      navigator.clipboard?.writeText(text);
-    }
-  </script>
+  <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
 </html>

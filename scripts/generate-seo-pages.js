@@ -155,12 +155,7 @@ function pageShell({ title, description, canonical, image, body, structuredData 
     </div>
   </header>
   ${body}
-  <script>
-    function copyPromptText(id) {
-      const text = document.getElementById(id)?.textContent || '';
-      navigator.clipboard?.writeText(text);
-    }
-  </script>
+  <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
 </html>`;
 }
@@ -184,7 +179,7 @@ function writePromptPage(prompt) {
         <h1>${escapeHtml(prompt.title)}</h1>
         <p class="seo-summary">${escapeHtml(description)}</p>
         <div class="seo-actions">
-          <button class="seo-btn" onclick="copyPromptText('prompt-text')">Copy Prompt</button>
+          <button class="seo-btn" type="button" data-copy-target="prompt-text">Copy Prompt</button>
           <a class="seo-btn secondary" href="../../#/prompt/${encodeURIComponent(prompt.id)}">打开互动详情</a>
         </div>
         <div class="seo-meta">

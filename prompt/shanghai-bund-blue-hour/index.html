@@ -76,7 +76,7 @@
         <h1>上海外滩蓝调时刻</h1>
         <p class="seo-summary">上海外滩蓝调时刻：The Shanghai Bund during blue hour, with the Pudong skyline illuminated across the Huangpu River. The Oriental Pearl Tower glows with pink and pu…</p>
         <div class="seo-actions">
-          <button class="seo-btn" onclick="copyPromptText('prompt-text')">Copy Prompt</button>
+          <button class="seo-btn" type="button" data-copy-target="prompt-text">Copy Prompt</button>
           <a class="seo-btn secondary" href="../../#/prompt/shanghai-bund-blue-hour">打开互动详情</a>
         </div>
         <div class="seo-meta">
@@ -89,11 +89,6 @@
       </article>
     </div>
   </main>
-  <script>
-    function copyPromptText(id) {
-      const text = document.getElementById(id)?.textContent || '';
-      navigator.clipboard?.writeText(text);
-    }
-  </script>
+  <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
 </html>

@@ -16,6 +16,12 @@
   // --- Collections (localStorage) ---
   const COLLECTIONS_KEY = 'prompthub_collections';
   const EXT_IMPORT_KEY = 'prompthub_ext_import';
+  const security = window.PromptHubSecurity;
+  const { escapeHtml, sanitizeImageUrl, sanitizeImageUrls } = security || {};
+
+  if (!security) {
+    throw new Error('PromptHubSecurity is required before app.js');
+  }
 
   // --- 分类旧英文名称映射到中文（兼容已有收藏数据）---
   const CATEGORY_LEGACY_MAP = {
@@ -41,17 +47,70 @@
     return cat;
   }
 
+  function limitedText(value, maxLength) {
+    return String(value ?? '').trim().slice(0, maxLength);
+  }
+
+  function normalizeTags(tags) {
+    const values = Array.isArray(tags) ? tags : [];
+    return [...new Set(values
+      .map(tag => limitedText(tag, 48))
+      .filter(Boolean))]
+      .slice(0, 12);
+  }
+
+  function fallbackImage(id, size = 500) {
+    return `https://picsum.photos/seed/${encodeURIComponent(limitedText(id, 120) || 'fallback')}/${size}/${size}`;
+  }
+
+  function normalizeCollectionItem(item) {
+    if (!item || typeof item !== 'object') return null;
+
+    const prompt = limitedText(item.prompt, 30000);
+    const requestedCategory = normalizeCategory(limitedText(item.category, 32));
+    const category = CATEGORIES.some(option => option.name === requestedCategory)
+      ? requestedCategory
+      : autoCategorize(prompt);
+    const images = sanitizeImageUrls([
+      ...(Array.isArray(item.images) ? item.images : []),
+      item.image
+    ]);
+
+    return {
+      ...item,
+      id: limitedText(item.id, 120),
+      title: limitedText(item.title, 180),
+      prompt,
+      category,
+      tags: normalizeTags(item.tags),
+      image: images[0] || '',
+      images,
+      rawImages: images,
+      referenceImages: sanitizeImageUrls(item.referenceImages),
+      aspectRatio: limitedText(item.aspectRatio, 32),
+      model: limitedText(item.model, 100),
+      source: limitedText(item.source, 100),
+      sourceUrl: sanitizeImageUrl(item.sourceUrl),
+      tryUrl: sanitizeImageUrl(item.tryUrl),
+      date: /^\d{4}-\d{2}-\d{2}$/.test(String(item.date || '')) ? item.date : ''
+    };
+  }
+
   function getCollections() {
     try {
       const list = JSON.parse(localStorage.getItem(COLLECTIONS_KEY)) || [];
-      return list.map(item => ({ ...item, category: normalizeCategory(item.category) }));
+      return Array.isArray(list)
+        ? list.map(normalizeCollectionItem).filter(item => item?.id && item.title && item.prompt)
+        : [];
     } catch { return []; }
   }
 
   function saveCollection(item) {
+    const safeItem = normalizeCollectionItem(item);
+    if (!safeItem?.id || !safeItem.title || !safeItem.prompt) return false;
     const list = getCollections();
-    if (list.some(c => c.id === item.id)) return false;
-    list.unshift(item);
+    if (list.some(c => c.id === safeItem.id)) return false;
+    list.unshift(safeItem);
     localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
     return true;
   }
@@ -63,13 +122,14 @@
 
     const now = new Date().toISOString();
     const previous = list[index];
-    const next = {
+    const next = normalizeCollectionItem({
       ...previous,
       ...patch,
-      category: normalizeCategory(patch.category || previous.category),
+      id: previous.id,
       date: previous.date || now.slice(0, 10),
       updatedAt: now
-    };
+    });
+    if (!next?.title || !next.prompt) return null;
     list[index] = next;
     localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
     return next;
@@ -154,7 +214,6 @@
     const node = document.createElement(tag);
     for (const key in attrs) {
       if (key === 'class') node.className = attrs[key];
-      else if (key === 'html') node.innerHTML = attrs[key];
       else if (key.startsWith('on')) node.addEventListener(key.slice(2).toLowerCase(), attrs[key]);
       else node.setAttribute(key, attrs[key]);
     }
@@ -173,7 +232,10 @@
       toast = el('div', { id: 'toast', class: 'toast' });
       document.body.appendChild(toast);
     }
-    toast.innerHTML = '<span class="toast-icon">✓</span>' + message;
+    toast.replaceChildren(
+      el('span', { class: 'toast-icon' }, '✓'),
+      document.createTextNode(String(message ?? ''))
+    );
     toast.classList.add('show');
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
@@ -211,15 +273,6 @@
   function findPromptById(id, isCollection) {
     if (isCollection) return getCollections().find(c => c.id === id);
     return PROMPTS.find(p => p.id === id) || getCollections().find(c => c.id === id);
-  }
-
-  function escapeHtml(value) {
-    return String(value || '')
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
   }
 
   function escapeJsString(value) {
@@ -517,6 +570,9 @@
   function createPromptCard(prompt, opts = {}) {
     const isCollection = opts.isCollection || prompt.isCollection;
     const card = el('div', { class: 'prompt-card', onclick: () => openPromptDetail(prompt.id, isCollection) });
+    const imageUrl = sanitizeImageUrl(prompt.image)
+      || sanitizeImageUrl(prompt.images?.[0])
+      || fallbackImage(prompt.id);
 
     // 来源标记：收藏 / 已验证 / 待验证
     let sourceHTML;
@@ -525,7 +581,7 @@
     } else if (prompt.verified) {
       sourceHTML = '<span class="verified-badge">已验证</span>';
     } else if (prompt.source) {
-      sourceHTML = `<span style="font-size:11px;color:var(--purple)">${prompt.source}</span>`;
+      sourceHTML = `<span style="font-size:11px;color:var(--purple)">${escapeHtml(prompt.source)}</span>`;
     } else {
       sourceHTML = '<span style="font-size:11px;color:#999">待验证</span>';
     }
@@ -535,36 +591,39 @@
     const multiImgBadge = imgCount > 1 ? `<span class="card-img-count">📁 ${imgCount}</span>` : '';
 
     // 宽高比 + 模型徽章
-    const arBadge = prompt.aspectRatio ? `<span class="card-ar-badge">${prompt.aspectRatio}</span>` : '';
-    const modelBadge = prompt.model ? `<span class="card-model-badge">${prompt.model}</span>` : '';
+    const arBadge = prompt.aspectRatio ? `<span class="card-ar-badge">${escapeHtml(prompt.aspectRatio)}</span>` : '';
+    const modelBadge = prompt.model ? `<span class="card-model-badge">${escapeHtml(prompt.model)}</span>` : '';
 
     card.innerHTML = `
       <div class="prompt-card-img-wrap">
-        <img class="prompt-card-img" src="${prompt.image || prompt.images?.[0] || 'https://picsum.photos/seed/' + prompt.id + '/500/500'}" alt="${prompt.title}" loading="lazy" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
+        <img class="prompt-card-img" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(prompt.title)}" loading="lazy" />
         ${multiImgBadge}
         ${arBadge}
       </div>
       <div class="prompt-card-body">
         <div class="prompt-card-top">
-          <span class="prompt-card-category">${prompt.category}</span>
+          <span class="prompt-card-category">${escapeHtml(prompt.category)}</span>
           ${sourceHTML}
         </div>
-        <div class="prompt-card-title">${prompt.title}</div>
+        <div class="prompt-card-title">${escapeHtml(prompt.title)}</div>
         <div class="prompt-card-tags">
-          ${(prompt.tags || []).slice(0, 3).map(t => `<span class="prompt-tag">${t}</span>`).join('')}
+          ${(prompt.tags || []).slice(0, 3).map(t => `<span class="prompt-tag">${escapeHtml(t)}</span>`).join('')}
         </div>
         <div class="prompt-card-footer">
           <div class="prompt-card-stats">
-            <span>${isCollection ? '📅 ' + (prompt.date || '未知') : '❤ ' + (prompt.likes || 0)}</span>
+            <span>${isCollection ? '📅 ' + escapeHtml(prompt.date || '未知') : '❤ ' + Number(prompt.likes || 0)}</span>
             ${modelBadge}
           </div>
           <div class="prompt-card-actions">
-            <button class="card-detail-btn" onclick="event.stopPropagation();">详情</button>
-            <button class="copy-btn-mini" onclick="event.stopPropagation();">复制</button>
+            <button class="card-detail-btn">详情</button>
+            <button class="copy-btn-mini">复制</button>
           </div>
         </div>
       </div>
     `;
+
+    const image = card.querySelector('.prompt-card-img');
+    image.addEventListener('error', () => { image.src = fallbackImage('fallback'); }, { once: true });
 
     const detailBtn = card.querySelector('.card-detail-btn');
     detailBtn.addEventListener('click', (e) => {
@@ -596,50 +655,49 @@
     const overlay = $('#modal-overlay');
     const verifiedHTML = prompt.verified
       ? '<span class="verified-badge">已验证</span>'
-      : (prompt.source ? `<span style="font-size:12px;color:var(--purple)">${prompt.source}</span>` : '<span style="font-size:12px;color:#999">待验证</span>');
+      : (prompt.source ? `<span style="font-size:12px;color:var(--purple)">${escapeHtml(prompt.source)}</span>` : '<span style="font-size:12px;color:#999">待验证</span>');
 
     const isCol = isCollected(prompt.id);
     const collectBtnHTML = isCollection
       ? `<button class="copy-btn" id="modal-delete-btn" style="background:var(--red)">🗑 删除</button>`
-      : `<button class="copy-btn" id="modal-collect-btn" style="background:${isCol ? 'var(--green)' : 'var(--purple)'}" data-id="${prompt.id}">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`;
+      : `<button class="copy-btn" id="modal-collect-btn" style="background:${isCol ? 'var(--green)' : 'var(--purple)'}">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`;
 
     // 多图支持：弹窗画廊
-    const allImages = (prompt.images && prompt.images.length > 0)
+    const rawImages = (prompt.images && prompt.images.length > 0)
       ? prompt.images
       : (prompt.image ? [prompt.image] : []);
+    const allImages = sanitizeImageUrls(rawImages);
 
-    const mainImg = allImages[0] || 'https://picsum.photos/seed/' + prompt.id + '/500/500';
+    const mainImg = allImages[0] || fallbackImage(prompt.id);
     const thumbsHTML = allImages.length > 1
       ? `<div class="modal-gallery-thumbs">
            ${allImages.map((url, i) => `
              <img class="modal-gallery-thumb ${i === 0 ? 'active' : ''}" 
-                  src="${url}" data-index="${i}"
-                  onclick="switchModalImage(${i})"
-                  onerror="this.style.display='none'" />
+                  src="${escapeHtml(url)}" data-index="${i}" />
            `).join('')}
          </div>`
       : '';
 
     overlay.innerHTML = `
       <div class="modal">
-        <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.remove('active')">×</button>
+        <button class="modal-close" type="button" aria-label="关闭">×</button>
         <div class="modal-gallery" id="modal-gallery">
-          <img class="modal-img" id="modal-main-img" src="${mainImg}" alt="${prompt.title}" onerror="this.src='https://picsum.photos/seed/fallback/500/500'" />
+          <img class="modal-img" id="modal-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" />
           ${allImages.length > 1 ? `<span class="modal-gallery-count">${allImages.length} 张图片</span>` : ''}
         </div>
         ${thumbsHTML}
         <div class="modal-body">
           <div class="modal-category-row">
-            <span class="modal-category-badge">${prompt.category}</span>
+            <span class="modal-category-badge">${escapeHtml(prompt.category)}</span>
             ${verifiedHTML}
           </div>
-          <h2 class="modal-title">${prompt.title}</h2>
+          <h2 class="modal-title">${escapeHtml(prompt.title)}</h2>
           
           <div class="modal-meta-grid">
-            ${prompt.aspectRatio ? `<div class="modal-meta-item"><span class="modal-meta-label">宽高比</span><span class="modal-meta-value">${prompt.aspectRatio}</span></div>` : ''}
-            ${prompt.model ? `<div class="modal-meta-item"><span class="modal-meta-label">模型</span><span class="modal-meta-value">${prompt.model}</span></div>` : ''}
-            <div class="modal-meta-item"><span class="modal-meta-label">${isCollection ? '收藏日期' : '热度'}</span><span class="modal-meta-value">${isCollection ? (prompt.date || '未知') : (prompt.likes || 0) + ' 人喜欢'}</span></div>
-            ${prompt.source ? `<div class="modal-meta-item"><span class="modal-meta-label">来源</span><span class="modal-meta-value">${prompt.source}</span></div>` : ''}
+            ${prompt.aspectRatio ? `<div class="modal-meta-item"><span class="modal-meta-label">宽高比</span><span class="modal-meta-value">${escapeHtml(prompt.aspectRatio)}</span></div>` : ''}
+            ${prompt.model ? `<div class="modal-meta-item"><span class="modal-meta-label">模型</span><span class="modal-meta-value">${escapeHtml(prompt.model)}</span></div>` : ''}
+            <div class="modal-meta-item"><span class="modal-meta-label">${isCollection ? '收藏日期' : '热度'}</span><span class="modal-meta-value">${isCollection ? escapeHtml(prompt.date || '未知') : Number(prompt.likes || 0) + ' 人喜欢'}</span></div>
+            ${prompt.source ? `<div class="modal-meta-item"><span class="modal-meta-label">来源</span><span class="modal-meta-value">${escapeHtml(prompt.source)}</span></div>` : ''}
           </div>
 
           <div class="modal-prompt-section">
@@ -650,18 +708,18 @@
                 <button class="copy-btn" id="modal-copy-btn">📋 复制提示词</button>
               </div>
             </div>
-            <div class="modal-prompt-text">${prompt.prompt || ''}</div>
+            <div class="modal-prompt-text">${escapeHtml(prompt.prompt || '')}</div>
           </div>
 
           <div class="modal-tags-section">
             <span class="modal-tags-label">标签</span>
             <div class="modal-tags">
-              ${(prompt.tags || []).map(t => `<span class="prompt-tag modal-tag-clickable" onclick="filterByTag('${t.replace(/'/g, "\\'")}')">${t}</span>`).join('')}
+              ${(prompt.tags || []).map(t => `<button class="prompt-tag modal-tag-clickable" type="button" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</button>`).join('')}
             </div>
           </div>
 
           <div class="modal-footer-info">
-            <span>🏷 #${prompt.id}</span>
+            <span>🏷 #${escapeHtml(prompt.id)}</span>
           </div>
         </div>
       </div>
@@ -671,6 +729,17 @@
 
     // 存储弹窗图片列表
     window._modalGalleryImages = allImages;
+
+    const modalMainImage = $('#modal-main-img');
+    modalMainImage?.addEventListener('error', () => { modalMainImage.src = fallbackImage('fallback'); }, { once: true });
+    $('.modal-close', overlay)?.addEventListener('click', () => overlay.classList.remove('active'));
+    $$('.modal-gallery-thumb', overlay).forEach((thumb, index) => {
+      thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
+      thumb.addEventListener('click', () => window.switchModalImage(index));
+    });
+    $$('.modal-tag-clickable', overlay).forEach(tag => {
+      tag.addEventListener('click', () => window.filterByTag(tag.dataset.tag || ''));
+    });
 
     // Wire copy
     $('#modal-copy-btn').addEventListener('click', function () {
@@ -740,18 +809,19 @@
 
   function renderPromptDetail(prompt, isCollection) {
     const app = $('#app');
-    const allImages = (prompt.images && prompt.images.length > 0)
+    const rawImages = (prompt.images && prompt.images.length > 0)
       ? prompt.images
       : (prompt.image ? [prompt.image] : []);
-    const mainImg = allImages[0] || 'https://picsum.photos/seed/' + prompt.id + '/720/720';
+    const allImages = sanitizeImageUrls(rawImages);
+    const mainImg = allImages[0] || fallbackImage(prompt.id, 720);
     const sections = parsePromptSections(prompt.prompt);
     const related = getAllPromptItems()
       .filter(p => p.id !== prompt.id && normalizeCategory(p.category) === normalizeCategory(prompt.category))
       .slice(0, 4);
     const isCol = isCollected(prompt.id) || isCollection;
     const verifiedLabel = prompt.verified ? '已验证' : (prompt.source ? prompt.source : '待验证');
-    const tryUrl = getTryUrl(prompt);
-    const referenceImages = prompt.referenceImages || [];
+    const tryUrl = sanitizeImageUrl(getTryUrl(prompt));
+    const referenceImages = sanitizeImageUrls(prompt.referenceImages);
     const returnLabel = detailReturnContext?.label || '返回探索';
     const editableImagesText = allImages.join('\n');
     const editableReferenceImagesText = referenceImages.join('\n');
@@ -760,11 +830,12 @@
     const categoryOptions = CATEGORIES.map(c => `
       <option value="${escapeHtml(c.name)}" ${normalizeCategory(c.name) === normalizeCategory(prompt.category) ? 'selected' : ''}>${escapeHtml(`${c.icon} ${c.name}`)}</option>
     `).join('');
-    const sourceLink = prompt.sourceUrl
-      ? `<a class="detail-source-link" href="${escapeHtml(prompt.sourceUrl)}" target="_blank" rel="noopener">打开来源</a>`
+    const sourceUrl = sanitizeImageUrl(prompt.sourceUrl);
+    const sourceLink = sourceUrl
+      ? `<a class="detail-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">打开来源</a>`
       : '';
     const tryLink = tryUrl
-      ? `<a class="copy-btn detail-try-action" href="${escapeHtml(tryUrl)}" target="_blank" rel="noopener">Try / 去生成</a>`
+      ? `<a class="copy-btn detail-try-action" href="${escapeHtml(tryUrl)}" target="_blank" rel="noopener noreferrer">Try / 去生成</a>`
       : '';
     const editPanel = isCollection ? `
       <div class="detail-edit-panel" id="detail-edit-panel" hidden>
@@ -820,10 +891,10 @@
       <section class="detail-page">
         <div class="container">
           <div class="detail-breadcrumb">
-            <button class="detail-back" onclick="returnToBrowse()">← ${escapeHtml(returnLabel)}</button>
+            <button class="detail-back" type="button" data-action="return-browse">← ${escapeHtml(returnLabel)}</button>
             <span>PromptHub</span>
             <span>/</span>
-            <button onclick="filterByCategoryAndOpen('${escapeJsString(prompt.category)}')">${escapeHtml(prompt.category)}</button>
+            <button class="detail-category-filter" type="button" data-category="${escapeHtml(prompt.category)}">${escapeHtml(prompt.category)}</button>
             <span>/</span>
             <strong>${escapeHtml(prompt.title)}</strong>
           </div>
@@ -832,13 +903,13 @@
             <aside class="detail-media-panel">
               <div class="detail-media-label">Result Image</div>
               <div class="detail-media">
-                <img id="detail-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" onerror="this.src='https://picsum.photos/seed/fallback/720/720'" />
+                <img id="detail-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" />
                 ${allImages.length > 1 ? `<span class="detail-image-count">${allImages.length} 张图片</span>` : ''}
               </div>
               ${allImages.length > 1 ? `
                 <div class="detail-thumbs">
                   ${allImages.map((url, i) => `
-                    <img class="detail-thumb ${i === 0 ? 'active' : ''}" src="${escapeHtml(url)}" onclick="switchDetailImage(${i})" onerror="this.style.display='none'" />
+                    <img class="detail-thumb ${i === 0 ? 'active' : ''}" src="${escapeHtml(url)}" data-index="${i}" />
                   `).join('')}
                 </div>
               ` : ''}
@@ -847,7 +918,7 @@
                   <div class="detail-media-label">Reference Images</div>
                   <div class="detail-reference-grid">
                     ${referenceImages.map((url, i) => `
-                      <img src="${escapeHtml(url)}" alt="Reference ${i + 1}" onerror="this.style.display='none'" />
+                      <img class="detail-reference-image" src="${escapeHtml(url)}" alt="Reference ${i + 1}" />
                     `).join('')}
                   </div>
                 </div>
@@ -896,7 +967,7 @@
               <div class="detail-tags-block">
                 <span>标签筛选</span>
                 <div class="modal-tags">
-                  ${(prompt.tags || []).map(t => `<button class="prompt-tag modal-tag-clickable" onclick="filterByTag('${escapeJsString(t)}')">${escapeHtml(t)}</button>`).join('')}
+                  ${(prompt.tags || []).map(t => `<button class="prompt-tag modal-tag-clickable" type="button" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</button>`).join('')}
                 </div>
               </div>
             </article>
@@ -905,7 +976,7 @@
           <section class="detail-related">
             <div class="detail-related-head">
               <h2>相关提示词</h2>
-              <button class="btn btn-outline" onclick="filterByCategoryAndOpen('${escapeJsString(prompt.category)}')">查看 ${escapeHtml(prompt.category)} 分类</button>
+              <button class="btn btn-outline detail-category-filter" type="button" data-category="${escapeHtml(prompt.category)}">查看 ${escapeHtml(prompt.category)} 分类</button>
             </div>
             <div class="prompts-grid" id="detail-related-grid"></div>
           </section>
@@ -914,6 +985,22 @@
     `;
 
     window._detailGalleryImages = allImages;
+
+    const detailMainImage = $('#detail-main-img');
+    detailMainImage?.addEventListener('error', () => { detailMainImage.src = fallbackImage('fallback', 720); }, { once: true });
+    $$('.detail-thumb', app).forEach((thumb, index) => {
+      thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
+      thumb.addEventListener('click', () => window.switchDetailImage(index));
+    });
+    $$('.detail-reference-image', app).forEach(image => {
+      image.addEventListener('error', () => { image.style.display = 'none'; }, { once: true });
+    });
+    $$('.detail-category-filter', app).forEach(button => {
+      button.addEventListener('click', () => window.filterByCategoryAndOpen(button.dataset.category || '抽象'));
+    });
+    $$('.modal-tag-clickable', app).forEach(tag => {
+      tag.addEventListener('click', () => window.filterByTag(tag.dataset.tag || ''));
+    });
 
     $('#detail-copy-btn')?.addEventListener('click', function () {
       copyPrompt(prompt.prompt, this);
@@ -1099,7 +1186,7 @@
         <div class="hero-intro" aria-hidden="false">
           <h2>探索高品质纳米香蕉提示</h2>
           <p>Nano Banana 提示库不断增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。</p>
-          <button class="hero-main-cta" type="button" onclick="openExplore()">
+          <button class="hero-main-cta" type="button" data-action="open-explore">
             <span>查看所有提示</span>
             <span aria-hidden="true">→</span>
           </button>
@@ -1117,10 +1204,11 @@
                         <button
                           class="hero-gallery-card hero-gallery-card-${columnIndex + 1}-${cardIndex}"
                           type="button"
-                          onclick="openPromptDetail('${escapeJsString(prompt.id)}')"
+                          data-action="open-prompt"
+                          data-prompt-id="${escapeHtml(prompt.id)}"
                           aria-label="查看提示词：${escapeHtml(prompt.title)}"
                         >
-                          <img src="${escapeHtml(prompt.image)}" alt="${escapeHtml(prompt.title)}" loading="${columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'}" onerror="this.closest('.hero-gallery-card').style.display='none'" />
+                          <img class="hero-gallery-image" src="${escapeHtml(sanitizeImageUrl(prompt.image) || fallbackImage(prompt.id))}" alt="${escapeHtml(prompt.title)}" loading="${columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'}" />
                         </button>
                       `;
                     }).join('')}
@@ -1131,7 +1219,7 @@
           </div>
           <div class="hero-gallery-vignette hero-gallery-vignette-top"></div>
           <div class="hero-gallery-vignette hero-gallery-vignette-bottom"></div>
-          <button class="hero-explore-pill" type="button" onclick="openExplore()" aria-label="探索全部提示词">
+          <button class="hero-explore-pill" type="button" data-action="open-explore" aria-label="探索全部提示词">
             <span class="hero-explore-icon">⌾</span>
             <span>Explore all prompts</span>
           </button>
@@ -1141,8 +1229,8 @@
           <h1>发现高质量 <span class="highlight">AI 提示词</span><br>激发无限创作灵感</h1>
           <p>不断增长的提示词收藏库，每日更新，一键复制即可使用，助你生成惊艳的 AI 图像作品。</p>
           <div class="hero-actions">
-            <button class="btn btn-yellow" onclick="openExplore()">🚀 探索所有提示词</button>
-            <button class="btn btn-outline" onclick="document.getElementById('categories-section').scrollIntoView({behavior:'smooth'})">浏览分类</button>
+            <button class="btn btn-yellow" type="button" data-action="open-explore">🚀 探索所有提示词</button>
+            <button class="btn btn-outline" type="button" data-action="scroll" data-scroll-target="#categories-section">浏览分类</button>
           </div>
           <div class="hero-stats">
             <div class="hero-stat"><div class="hero-stat-num">${PROMPTS.length}+</div><div class="hero-stat-label">精选提示词</div></div>
@@ -1158,7 +1246,7 @@
           <p class="section-subtitle">经过精心策展的高质量提示词，每个都经过测试与验证，确保生成效果出色。</p>
           <div class="top-prompts" id="top-prompts"></div>
           <div style="text-align:center;margin-top:32px;">
-            <button class="btn btn-outline" onclick="openExplore()">查看全部提示词 →</button>
+            <button class="btn btn-outline" type="button" data-action="open-explore">查看全部提示词 →</button>
           </div>
         </div>
       </section>
@@ -1217,6 +1305,12 @@
         </div>
       </section>
     `;
+
+    $$('.hero-gallery-image', app).forEach(image => {
+      image.addEventListener('error', () => {
+        image.closest('.hero-gallery-card')?.remove();
+      }, { once: true });
+    });
 
     const topContainer = $('#top-prompts');
     todayTop.forEach(p => {
@@ -1359,7 +1453,7 @@
       if (currentCategory !== 'All') activeFilters.push(`<span>分类：${escapeHtml(currentCategory)}</span>`);
       if (currentSearch.trim()) activeFilters.push(`<span>关键词：${escapeHtml(currentSearch.trim())}</span>`);
       activeBar.innerHTML = activeFilters.length
-        ? `${activeFilters.join('')}<button onclick="clearExploreFilters()">清空筛选</button>`
+        ? `${activeFilters.join('')}<button type="button" data-action="clear-explore-filters">清空筛选</button>`
         : '<span>选择分类、输入关键词，或从详情页点击标签继续探索。</span>';
     }
 
@@ -1472,7 +1566,7 @@
                 <p>收集你喜欢的 AI 提示词到个人收藏库</p>
               </div>
             </div>
-            <a class="imp-head-stat" onclick="navigate('collections')">
+            <a class="imp-head-stat" href="#/collections" data-action="navigate" data-route="collections">
               <span class="imp-head-stat-num">${collections.length}</span>
               <span class="imp-head-stat-label">已收藏</span>
             </a>
@@ -1481,7 +1575,7 @@
           <!-- Segmented Tab Control -->
           <div class="imp-seg">
             ${tabs.map(t => `
-              <button class="imp-seg-btn ${importMode === t.key ? 'on' : ''}" onclick="setImportMode('${t.key}')">
+              <button class="imp-seg-btn ${importMode === t.key ? 'on' : ''}" type="button" data-action="set-import-mode" data-mode="${escapeHtml(t.key)}">
                 <span class="imp-seg-icon">${t.icon}</span>
                 <span class="imp-seg-label">${t.label}</span>
               </button>
@@ -1507,8 +1601,8 @@
                   <span class="imp-chip">图片链接</span>
                 </div>
                 <div class="imp-paste-btns">
-                  <button class="imp-btn-ghost" onclick="clearImport()">清空</button>
-                  <button class="imp-btn-primary" onclick="parseAndPreview()">🔍 智能解析</button>
+                  <button class="imp-btn-ghost" type="button" data-action="clear-import">清空</button>
+                  <button class="imp-btn-primary" type="button" data-action="parse-and-preview">🔍 智能解析</button>
                 </div>
               </div>
             </div>
@@ -1680,9 +1774,10 @@
     box.style.display = 'block';
 
     // 多图支持：images 数组优先，否则用单个 image
-    const images = item.images && item.images.length > 0
+    const rawImages = item.images && item.images.length > 0
       ? item.images
       : (item.image ? [item.image] : []);
+    const images = sanitizeImageUrls(rawImages);
 
     const source = isManual ? 'manual' : 'parsed';
 
@@ -1692,8 +1787,8 @@
       galleryHTML = `
         <div class="imp-result-gallery" id="imp-gallery">
           <div class="imp-gallery-main">
-            <img id="imp-gallery-main-img" src="${images[0]}" alt="${item.title}" onerror="this.parentElement.innerHTML='<div class=\'imp-result-noimg\'>🖼️<br><span>图片加载失败</span></div>'" />
-            <button class="imp-save-fab" onclick="saveFromPreview('${source}')" title="收藏到库">
+            <img id="imp-gallery-main-img" src="${escapeHtml(images[0])}" alt="${escapeHtml(item.title)}" />
+            <button class="imp-save-fab" id="imp-save-fab" type="button" title="收藏到库">
               <span>♡</span>
             </button>
             ${images.length > 1 ? `<span class="imp-gallery-count">${images.length} 张图片</span>` : ''}
@@ -1701,11 +1796,9 @@
           ${images.length > 1 ? `
             <div class="imp-gallery-thumbs">
               ${images.map((url, i) => `
-                <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}" 
-                     src="${url}" 
-                     data-index="${i}"
-                     onclick="switchGalleryImage(${i})"
-                     onerror="this.style.display='none'" />
+                <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}"
+                     src="${escapeHtml(url)}"
+                     data-index="${i}" />
               `).join('')}
             </div>
           ` : ''}
@@ -1716,7 +1809,7 @@
         <div class="imp-result-gallery" id="imp-gallery">
           <div class="imp-gallery-main">
             <div class="imp-result-noimg">🖼️<br><span>未检测到图片</span></div>
-            <button class="imp-save-fab" onclick="saveFromPreview('${source}')" title="收藏到库">
+            <button class="imp-save-fab" id="imp-save-fab" type="button" title="收藏到库">
               <span>♡</span>
             </button>
           </div>
@@ -1738,36 +1831,36 @@
           <div class="imp-result-fields">
             <div class="imp-field">
               <label>标题</label>
-              <input type="text" id="edit-title" value="${item.title}" placeholder="提示词标题" />
+              <input type="text" id="edit-title" value="${escapeHtml(item.title)}" placeholder="提示词标题" />
             </div>
             <div class="imp-field-grid2">
               <div class="imp-field">
                 <label>分类</label>
                 <select id="edit-category">
-                  ${CATEGORIES.map(c => `<option value="${c.name}" ${c.name === item.category ? 'selected' : ''}>${c.icon} ${c.name}</option>`).join('')}
+                  ${CATEGORIES.map(c => `<option value="${escapeHtml(c.name)}" ${c.name === item.category ? 'selected' : ''}>${escapeHtml(`${c.icon} ${c.name}`)}</option>`).join('')}
                 </select>
               </div>
               <div class="imp-field">
                 <label>标签</label>
-                <input type="text" id="edit-tags" value="${(item.tags || []).join(', ')}" placeholder="逗号分隔" />
+                <input type="text" id="edit-tags" value="${escapeHtml((item.tags || []).join(', '))}" placeholder="逗号分隔" />
               </div>
             </div>
             <div class="imp-field">
               <div class="imp-field-label-row">
                 <label>提示词文本</label>
-                <button class="imp-mini-btn" onclick="copyPreviewPrompt()">📋 复制</button>
+                <button class="imp-mini-btn" id="imp-copy-preview" type="button">📋 复制</button>
               </div>
-              <textarea id="edit-prompt" rows="5">${item.prompt}</textarea>
+              <textarea id="edit-prompt" rows="5">${escapeHtml(item.prompt)}</textarea>
             </div>
             <div class="imp-field">
               <label>图片链接（多张图片请每行一个）</label>
-              <textarea id="edit-image" rows="${Math.min(images.length, 4)}" placeholder="https://…&#10;每行一个图片链接">${images.join('\n')}</textarea>
+              <textarea id="edit-image" rows="${Math.max(2, Math.min(images.length, 4))}" placeholder="https://…&#10;每行一个图片链接">${escapeHtml(images.join('\n'))}</textarea>
             </div>
           </div>
         </div>
 
         <div class="imp-result-foot imp-result-foot-subtle">
-          <button class="imp-mini-btn" onclick="cancelResult()">取消</button>
+          <button class="imp-mini-btn" id="imp-cancel-preview" type="button">取消</button>
           <span class="imp-save-hint">快捷键 Ctrl + Enter 也可收藏</span>
         </div>
       </div>
@@ -1775,6 +1868,18 @@
 
     // 存储图片列表供切换使用
     window._impGalleryImages = images;
+    window._impPreviewSource = source;
+    const previewMainImage = $('#imp-gallery-main-img');
+    previewMainImage?.addEventListener('error', () => {
+      previewMainImage.replaceWith(el('div', { class: 'imp-result-noimg' }, '🖼️', el('br'), el('span', {}, '图片加载失败')));
+    }, { once: true });
+    $$('.imp-gallery-thumb', box).forEach((thumb, index) => {
+      thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
+      thumb.addEventListener('click', () => window.switchGalleryImage(index));
+    });
+    $('#imp-save-fab')?.addEventListener('click', () => window.saveFromPreview(source));
+    $('#imp-copy-preview')?.addEventListener('click', () => window.copyPreviewPrompt());
+    $('#imp-cancel-preview')?.addEventListener('click', () => window.cancelResult());
 
     // 绑定快捷键：Ctrl/Cmd + Enter 收藏
     setTimeout(() => {
@@ -1791,7 +1896,7 @@
       const imgTextarea = $('#edit-image');
       if (imgTextarea) {
         imgTextarea.addEventListener('input', () => {
-          const urls = imgTextarea.value.split('\n').map(s => s.trim()).filter(Boolean);
+          const urls = sanitizeImageUrls(imgTextarea.value.split('\n'));
           window._impGalleryImages = urls;
           updateGalleryFromTextarea(urls);
         });
@@ -1801,7 +1906,8 @@
 
   window.updatePreviewImage = function (url) {
     const img = $('.imp-gallery-main-img');
-    if (img && url) { img.src = url; img.style.display = 'block'; }
+    const safeUrl = sanitizeImageUrl(url);
+    if (img && safeUrl) { img.src = safeUrl; img.style.display = 'block'; }
   };
 
   // 画廊缩略图切换
@@ -1819,34 +1925,43 @@
   function updateGalleryFromTextarea(urls) {
     const gallery = $('#imp-gallery');
     if (!gallery) return;
-    
-    if (urls.length === 0) {
+    const safeUrls = sanitizeImageUrls(urls);
+    const source = window._impPreviewSource || 'parsed';
+
+    if (safeUrls.length === 0) {
       gallery.innerHTML = `
         <div class="imp-gallery-main">
           <div class="imp-result-noimg">🖼️<br><span>未检测到图片</span></div>
-          <button class="imp-save-fab" onclick="saveFromPreview('parsed')" title="收藏到库"><span>♡</span></button>
+          <button class="imp-save-fab" id="imp-save-fab" type="button" title="收藏到库"><span>♡</span></button>
         </div>
       `;
-      return;
+    } else {
+      gallery.innerHTML = `
+        <div class="imp-gallery-main">
+          <img id="imp-gallery-main-img" src="${escapeHtml(safeUrls[0])}" alt="" />
+          <button class="imp-save-fab" id="imp-save-fab" type="button" title="收藏到库"><span>♡</span></button>
+          ${safeUrls.length > 1 ? `<span class="imp-gallery-count">${safeUrls.length} 张图片</span>` : ''}
+        </div>
+        ${safeUrls.length > 1 ? `
+          <div class="imp-gallery-thumbs">
+            ${safeUrls.map((url, i) => `
+              <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}" src="${escapeHtml(url)}" data-index="${i}" />
+            `).join('')}
+          </div>
+        ` : ''}
+      `;
     }
 
-    gallery.innerHTML = `
-      <div class="imp-gallery-main">
-        <img id="imp-gallery-main-img" src="${urls[0]}" alt="" onerror="this.parentElement.innerHTML='<div class=\'imp-result-noimg\'>🖼️<br><span>图片加载失败</span></div>'" />
-        <button class="imp-save-fab" onclick="saveFromPreview('parsed')" title="收藏到库"><span>♡</span></button>
-        ${urls.length > 1 ? `<span class="imp-gallery-count">${urls.length} 张图片</span>` : ''}
-      </div>
-      ${urls.length > 1 ? `
-        <div class="imp-gallery-thumbs">
-          ${urls.map((url, i) => `
-            <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}" 
-                 src="${url}" data-index="${i}"
-                 onclick="switchGalleryImage(${i})"
-                 onerror="this.style.display='none'" />
-          `).join('')}
-        </div>
-      ` : ''}
-    `;
+    window._impGalleryImages = safeUrls;
+    const mainImage = $('#imp-gallery-main-img');
+    mainImage?.addEventListener('error', () => {
+      mainImage.replaceWith(el('div', { class: 'imp-result-noimg' }, '🖼️', el('br'), el('span', {}, '图片加载失败')));
+    }, { once: true });
+    $('#imp-save-fab')?.addEventListener('click', () => window.saveFromPreview(source));
+    $$('.imp-gallery-thumb', gallery).forEach((thumb, index) => {
+      thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
+      thumb.addEventListener('click', () => window.switchGalleryImage(index));
+    });
   }
 
   window.copyPreviewPrompt = function () {
@@ -1865,9 +1980,7 @@
     if (!title || !prompt) { showToast('请填写标题和提示词'); return; }
 
     // 多图：按行分割图片链接
-    const rawImages = ($('#edit-image')?.value || '').split('\n')
-      .map(s => s.trim())
-      .filter(Boolean);
+    const rawImages = sanitizeImageUrls(($('#edit-image')?.value || '').split('\n'));
 
     const item = {
       id: generateId(),
@@ -1928,7 +2041,7 @@
             <div class="imp-error-icon">😕</div>
             <div class="imp-error-title">未能解析出提示词</div>
             <div class="imp-error-desc">请确认内容包含英文提示词文本，或切换到「手动创建」</div>
-            <button class="imp-btn-ghost" onclick="setImportMode('manual')">→ 切换到手动创建</button>
+            <button class="imp-btn-ghost" type="button" data-action="set-import-mode" data-mode="manual">→ 切换到手动创建</button>
           </div>
         `;
         return;
@@ -1979,7 +2092,7 @@
         <div class="container">
           <div class="collections-toolbar">
             <div class="filter-chips" id="collection-filter-chips"></div>
-            ${collections.length > 0 ? `<button class="btn btn-outline" style="font-size:13px;padding:8px 16px;" onclick="exportCollections()">📤 导出 JSON</button>` : ''}
+            ${collections.length > 0 ? `<button class="btn btn-outline" style="font-size:13px;padding:8px 16px;" type="button" data-action="export-collections">📤 导出 JSON</button>` : ''}
           </div>
           <div id="collections-content"></div>
         </div>
@@ -1994,7 +2107,7 @@
           <div class="no-results-icon">📭</div>
           <p style="font-size:16px;margin-bottom:8px;">还没有收藏任何提示词</p>
           <p style="font-size:14px;color:var(--text-muted);">去「导入」页面添加，或在浏览时点击卡片上的收藏按钮</p>
-          <button class="btn btn-yellow" style="margin-top:20px;" onclick="navigate('import')">📥 去导入</button>
+          <button class="btn btn-yellow" style="margin-top:20px;" type="button" data-action="navigate" data-route="import">📥 去导入</button>
         </div>
       `;
       return;
@@ -2126,8 +2239,72 @@
   window.openPromptDetail = openPromptDetail;
   window.filterByTag = filterByTag;
 
+  function scrollToTarget(selector) {
+    if (!selector) return;
+    try {
+      document.querySelector(selector)?.scrollIntoView({ behavior: 'smooth' });
+    } catch { /* ignore invalid selectors */ }
+  }
+
+  function bindSafeActionDelegation() {
+    document.addEventListener('click', (event) => {
+      const control = event.target.closest('[data-action]');
+      if (!control) return;
+
+      const action = control.dataset.action;
+      if (!action) return;
+      event.preventDefault();
+
+      if (action === 'navigate') {
+        navigate(control.dataset.route || 'home');
+        return;
+      }
+      if (action === 'navigate-scroll') {
+        navigate(control.dataset.route || 'home');
+        setTimeout(() => scrollToTarget(control.dataset.scrollTarget), 100);
+        return;
+      }
+      if (action === 'scroll') {
+        scrollToTarget(control.dataset.scrollTarget);
+        return;
+      }
+      if (action === 'open-explore') {
+        showExploreWithState();
+        return;
+      }
+      if (action === 'open-prompt') {
+        openPromptDetail(control.dataset.promptId || '');
+        return;
+      }
+      if (action === 'return-browse') {
+        window.returnToBrowse();
+        return;
+      }
+      if (action === 'clear-explore-filters') {
+        window.clearExploreFilters();
+        return;
+      }
+      if (action === 'set-import-mode') {
+        window.setImportMode(control.dataset.mode || 'paste');
+        return;
+      }
+      if (action === 'clear-import') {
+        window.clearImport();
+        return;
+      }
+      if (action === 'parse-and-preview') {
+        window.parseAndPreview();
+        return;
+      }
+      if (action === 'export-collections') {
+        window.exportCollections();
+      }
+    });
+  }
+
   // --- Init ---
   function init() {
+    bindSafeActionDelegation();
     const navSearchInput = $('#nav-search-input');
     if (navSearchInput) {
       navSearchInput.addEventListener('keydown', (e) => {

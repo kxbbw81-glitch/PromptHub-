@@ -76,7 +76,7 @@
         <h1>极简粗野主义咖啡馆</h1>
         <p class="seo-summary">极简粗野主义咖啡馆：Interior of a minimalist brutalist cafe with raw concrete walls and floors. A single oak counter runs the length of the space, illuminated by a …</p>
         <div class="seo-actions">
-          <button class="seo-btn" onclick="copyPromptText('prompt-text')">Copy Prompt</button>
+          <button class="seo-btn" type="button" data-copy-target="prompt-text">Copy Prompt</button>
           <a class="seo-btn secondary" href="../../#/prompt/minimalist-brutalist-cafe">打开互动详情</a>
         </div>
         <div class="seo-meta">
@@ -89,11 +89,6 @@
       </article>
     </div>
   </main>
-  <script>
-    function copyPromptText(id) {
-      const text = document.getElementById(id)?.textContent || '';
-      navigator.clipboard?.writeText(text);
-    }
-  </script>
+  <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
 </html>
