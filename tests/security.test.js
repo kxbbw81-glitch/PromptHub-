@@ -14,10 +14,11 @@ test('escapes imported prompt text before it is rendered as HTML', () => {
   );
 });
 
-test('only allows HTTP(S) image URLs from imported content', () => {
+test('only allows HTTPS image URLs from imported content', () => {
   const fallback = 'https://picsum.photos/seed/fallback/500/500';
 
   assert.equal(security.sanitizeImageUrl('https://cdn.example.com/image.webp', fallback), 'https://cdn.example.com/image.webp');
+  assert.equal(security.sanitizeImageUrl('http://cdn.example.com/image.webp', fallback), fallback);
   assert.equal(security.sanitizeImageUrl('javascript:alert(1)', fallback), fallback);
   assert.equal(security.sanitizeImageUrl('data:image/svg+xml,<svg onload=alert(1)>', fallback), fallback);
   assert.equal(security.sanitizeImageUrl('file:///C:/private.png', fallback), fallback);

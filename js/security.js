@@ -25,7 +25,7 @@
 
     try {
       const parsed = new URL(input);
-      return parsed.protocol === 'https:' || parsed.protocol === 'http:'
+      return parsed.protocol === 'https:'
         ? parsed.href
         : fallback;
     } catch {
