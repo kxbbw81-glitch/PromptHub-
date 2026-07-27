@@ -183,6 +183,49 @@
     });
   }
 
+  function getAllPromptItems() {
+    const collections = getCollections().map(c => ({ ...c, isCollection: true, verified: false, likes: 0 }));
+    return [...collections, ...PROMPTS];
+  }
+
+  function findPromptById(id, isCollection) {
+    if (isCollection) return getCollections().find(c => c.id === id);
+    return PROMPTS.find(p => p.id === id) || getCollections().find(c => c.id === id);
+  }
+
+  function escapeHtml(value) {
+    return String(value || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function parsePromptSections(promptText) {
+    const text = (promptText || '').trim();
+    if (!text) return [];
+
+    const lines = text.split(/\n+/).map(line => line.trim()).filter(Boolean);
+    const sections = [];
+    let current = null;
+    const headingPattern = /^(Core Concept|Subject Reference and Styling|Outfit and Pose|Environment and Lighting|Composition and Image Quality|Mood and Atmosphere|Prompt|Negative Prompt|核心概念|主体与造型|服装与姿态|环境与光照|构图与画质|情绪与氛围|提示词|反向提示词)$/i;
+
+    lines.forEach(line => {
+      if (headingPattern.test(line) || (line.length <= 42 && !/[,.，。]/.test(line) && /^[A-Z\u4e00-\u9fff]/.test(line))) {
+        current = { title: line, body: [] };
+        sections.push(current);
+      } else if (current) {
+        current.body.push(line);
+      } else {
+        current = { title: '完整提示词', body: [line] };
+        sections.push(current);
+      }
+    });
+
+    return sections.length ? sections : [{ title: '完整提示词', body: [text] }];
+  }
+
   // --- Smart Parse: extract prompt from pasted text ---
   function smartParse(rawText) {
     const text = rawText.trim();
@@ -363,7 +406,7 @@
   // --- Prompt Card ---
   function createPromptCard(prompt, opts = {}) {
     const isCollection = opts.isCollection || prompt.isCollection;
-    const card = el('div', { class: 'prompt-card', onclick: () => openPromptModal(prompt.id, isCollection) });
+    const card = el('div', { class: 'prompt-card', onclick: () => openPromptDetail(prompt.id, isCollection) });
 
     // 来源标记：收藏 / 已验证 / 待验证
     let sourceHTML;
@@ -405,10 +448,19 @@
             <span>${isCollection ? '📅 ' + (prompt.date || '未知') : '❤ ' + (prompt.likes || 0)}</span>
             ${modelBadge}
           </div>
-          <button class="copy-btn-mini" onclick="event.stopPropagation();">复制</button>
+          <div class="prompt-card-actions">
+            <button class="card-detail-btn" onclick="event.stopPropagation();">详情</button>
+            <button class="copy-btn-mini" onclick="event.stopPropagation();">复制</button>
+          </div>
         </div>
       </div>
     `;
+
+    const detailBtn = card.querySelector('.card-detail-btn');
+    detailBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openPromptDetail(prompt.id, isCollection);
+    });
 
     const copyBtn = card.querySelector('.copy-btn-mini');
     copyBtn.addEventListener('click', (e) => {
@@ -553,6 +605,194 @@
     };
   }
 
+  function openPromptDetail(id, isCollection, updateHash = true) {
+    const prompt = findPromptById(id, isCollection);
+    if (!prompt) return;
+
+    currentRoute = 'detail';
+    window.scrollTo(0, 0);
+    renderPromptDetail(prompt, !!isCollection || !!prompt.isCollection);
+
+    $$('.nav a').forEach(a => { a.style.color = ''; });
+
+    if (updateHash) {
+      const targetHash = `${isCollection || prompt.isCollection ? '#/collection/' : '#/prompt/'}${encodeURIComponent(prompt.id)}`;
+      if (window.location.hash !== targetHash) {
+        history.pushState({ route: 'detail', id: prompt.id, isCollection: !!isCollection }, '', targetHash);
+      }
+    }
+  }
+
+  function renderPromptDetail(prompt, isCollection) {
+    const app = $('#app');
+    const allImages = (prompt.images && prompt.images.length > 0)
+      ? prompt.images
+      : (prompt.image ? [prompt.image] : []);
+    const mainImg = allImages[0] || 'https://picsum.photos/seed/' + prompt.id + '/720/720';
+    const sections = parsePromptSections(prompt.prompt);
+    const related = getAllPromptItems()
+      .filter(p => p.id !== prompt.id && normalizeCategory(p.category) === normalizeCategory(prompt.category))
+      .slice(0, 4);
+    const isCol = isCollected(prompt.id) || isCollection;
+    const verifiedLabel = prompt.verified ? '已验证' : (prompt.source ? prompt.source : '待验证');
+    const sourceLink = prompt.sourceUrl
+      ? `<a class="detail-source-link" href="${escapeHtml(prompt.sourceUrl)}" target="_blank" rel="noopener">打开来源</a>`
+      : '';
+
+    app.innerHTML = `
+      <section class="detail-page">
+        <div class="container">
+          <div class="detail-breadcrumb">
+            <button class="detail-back" onclick="returnToBrowse()">← 返回探索</button>
+            <span>PromptHub</span>
+            <span>/</span>
+            <button onclick="filterByCategoryAndOpen('${escapeHtml(prompt.category)}')">${escapeHtml(prompt.category)}</button>
+            <span>/</span>
+            <strong>${escapeHtml(prompt.title)}</strong>
+          </div>
+
+          <div class="detail-layout">
+            <aside class="detail-media-panel">
+              <div class="detail-media">
+                <img id="detail-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" onerror="this.src='https://picsum.photos/seed/fallback/720/720'" />
+                ${allImages.length > 1 ? `<span class="detail-image-count">${allImages.length} 张图片</span>` : ''}
+              </div>
+              ${allImages.length > 1 ? `
+                <div class="detail-thumbs">
+                  ${allImages.map((url, i) => `
+                    <img class="detail-thumb ${i === 0 ? 'active' : ''}" src="${escapeHtml(url)}" onclick="switchDetailImage(${i})" onerror="this.style.display='none'" />
+                  `).join('')}
+                </div>
+              ` : ''}
+            </aside>
+
+            <article class="detail-main">
+              <div class="detail-kicker">
+                <span class="detail-category">${escapeHtml(prompt.category)}</span>
+                <span class="detail-status">${escapeHtml(verifiedLabel)}</span>
+              </div>
+              <h1>${escapeHtml(prompt.title)}</h1>
+              <p class="detail-summary">按 Banana Prompts 的详情页交互整理：先看元数据，再阅读结构化提示词，一键复制后即可去生成工具使用。</p>
+
+              <div class="detail-actions">
+                <button class="copy-btn detail-primary-action" id="detail-copy-btn">📋 一键复制提示词</button>
+                ${isCollection
+                  ? `<button class="copy-btn detail-danger-action" id="detail-delete-btn">🗑 删除收藏</button>`
+                  : `<button class="copy-btn detail-secondary-action" id="detail-collect-btn">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`}
+                ${sourceLink}
+              </div>
+
+              <div class="detail-meta-grid">
+                <div class="detail-meta-card"><span>分类</span><strong>${escapeHtml(prompt.category)}</strong></div>
+                <div class="detail-meta-card"><span>宽高比</span><strong>${escapeHtml(prompt.aspectRatio || '未标注')}</strong></div>
+                <div class="detail-meta-card"><span>模型</span><strong>${escapeHtml(prompt.model || '通用 AI 图像模型')}</strong></div>
+                <div class="detail-meta-card"><span>${isCollection ? '收藏日期' : '热度'}</span><strong>${isCollection ? escapeHtml(prompt.date || '未知') : `${prompt.likes || 0} 人喜欢`}</strong></div>
+              </div>
+
+              <div class="detail-section-list">
+                ${sections.map((section, index) => `
+                  <section class="detail-prompt-section">
+                    <div class="detail-section-head">
+                      <span>${String(index + 1).padStart(2, '0')}</span>
+                      <h2>${escapeHtml(section.title)}</h2>
+                    </div>
+                    <p>${escapeHtml(section.body.join('\n\n'))}</p>
+                  </section>
+                `).join('')}
+              </div>
+
+              <div class="detail-tags-block">
+                <span>标签筛选</span>
+                <div class="modal-tags">
+                  ${(prompt.tags || []).map(t => `<button class="prompt-tag modal-tag-clickable" onclick="filterByTag('${escapeHtml(t).replace(/'/g, "\\'")}')">${escapeHtml(t)}</button>`).join('')}
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <section class="detail-related">
+            <div class="detail-related-head">
+              <h2>相关提示词</h2>
+              <button class="btn btn-outline" onclick="filterByCategoryAndOpen('${escapeHtml(prompt.category)}')">查看 ${escapeHtml(prompt.category)} 分类</button>
+            </div>
+            <div class="prompts-grid" id="detail-related-grid"></div>
+          </section>
+        </div>
+      </section>
+    `;
+
+    window._detailGalleryImages = allImages;
+
+    $('#detail-copy-btn')?.addEventListener('click', function () {
+      copyPrompt(prompt.prompt, this);
+    });
+
+    const collectBtn = $('#detail-collect-btn');
+    if (collectBtn) {
+      collectBtn.addEventListener('click', () => {
+        if (isCollected(prompt.id)) {
+          showToast('该提示词已在收藏中');
+          return;
+        }
+        if (saveCollection({ ...prompt, id: prompt.id, date: new Date().toISOString().slice(0, 10), source: '网站收藏' })) {
+          showToast('已收藏到「我的收藏」');
+          collectBtn.textContent = '❤ 已收藏';
+          collectBtn.classList.remove('detail-secondary-action');
+          collectBtn.classList.add('detail-primary-action');
+        }
+      });
+    }
+
+    const deleteBtn = $('#detail-delete-btn');
+    if (deleteBtn) {
+      deleteBtn.addEventListener('click', () => {
+        deleteCollection(prompt.id);
+        showToast('已从收藏中删除');
+        returnToBrowse();
+      });
+    }
+
+    const relatedGrid = $('#detail-related-grid');
+    if (relatedGrid) {
+      if (related.length) {
+        related.forEach(item => relatedGrid.appendChild(createPromptCard(item, { isCollection: item.isCollection })));
+      } else {
+        relatedGrid.innerHTML = '<div class="no-results"><div class="no-results-icon">🔎</div><p>这个分类暂时没有更多相关提示词</p></div>';
+      }
+    }
+  }
+
+  window.switchDetailImage = function (index) {
+    const images = window._detailGalleryImages || [];
+    if (!images[index]) return;
+    const mainImg = $('#detail-main-img');
+    if (mainImg) mainImg.src = images[index];
+    document.querySelectorAll('.detail-thumb').forEach((thumb, i) => {
+      thumb.classList.toggle('active', i === index);
+    });
+  };
+
+  window.returnToBrowse = function () {
+    currentRoute = 'explore';
+    window.scrollTo(0, 0);
+    renderExplore();
+    $$('.nav a').forEach(a => { a.style.color = ''; });
+    const activeNav = $('.nav a[data-route="explore"]');
+    if (activeNav) activeNav.style.color = 'var(--text)';
+    if (window.location.hash.startsWith('#/prompt/') || window.location.hash.startsWith('#/collection/')) {
+      history.pushState({ route: 'explore' }, '', '#/explore');
+    }
+  };
+
+  window.filterByCategoryAndOpen = function (catName) {
+    currentCategory = catName;
+    currentSearch = '';
+    currentPage = 1;
+    currentRoute = 'explore';
+    renderExplore();
+    if (window.location.hash !== '#/explore') history.pushState({ route: 'explore' }, '', '#/explore');
+  };
+
   // --- Render: Home ---
   function renderHome() {
     const app = $('#app');
@@ -647,7 +887,7 @@
 
     const topContainer = $('#top-prompts');
     todayTop.forEach(p => {
-      const item = el('div', { class: 'top-prompt-item', onclick: () => openPromptModal(p.id) });
+      const item = el('div', { class: 'top-prompt-item', onclick: () => openPromptDetail(p.id) });
       item.innerHTML = `<img class="top-prompt-thumb" src="${p.image}" alt="${p.title}" loading="lazy" /><div class="top-prompt-info"><div class="top-prompt-title">${p.title}</div><div class="top-prompt-meta"><span>${p.category}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}<span>❤ ${p.likes}</span></div></div>`;
       topContainer.appendChild(item);
     });
@@ -828,12 +1068,13 @@
   }
 
   function filterByTag(tag) {
-    // 关闭弹窗
-    $('#modal-overlay').classList.remove('active');
+    const overlay = $('#modal-overlay');
+    if (overlay) overlay.classList.remove('active');
     currentSearch = tag;
     currentCategory = 'All';
     currentPage = 1;
-    navigate('explore');
+    navigate('explore', { preserve: true });
+    if (window.location.hash !== '#/explore') history.pushState({ route: 'explore' }, '', '#/explore');
     setTimeout(() => {
       const input = $('#explore-search-input');
       if (input) input.value = tag;
@@ -1482,12 +1723,15 @@
   }
 
   // --- Router ---
-  function navigate(route) {
+  function navigate(route, opts = {}) {
     currentRoute = route;
     window.scrollTo(0, 0);
 
     if (route === 'home') renderHome();
-    else if (route === 'explore') { currentCategory = 'All'; currentSearch = ''; currentPage = 1; renderExplore(); }
+    else if (route === 'explore') {
+      if (!opts.preserve) { currentCategory = 'All'; currentSearch = ''; currentPage = 1; }
+      renderExplore();
+    }
     else if (route === 'import') renderImport();
     else if (route === 'collections') renderCollections();
 
@@ -1498,6 +1742,7 @@
 
   window.navigate = navigate;
   window.openPromptModal = openPromptModal;
+  window.openPromptDetail = openPromptDetail;
   window.filterByTag = filterByTag;
 
   // --- Init ---
@@ -1505,7 +1750,7 @@
     const navSearchInput = $('#nav-search-input');
     if (navSearchInput) {
       navSearchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') { currentSearch = e.target.value; navigate('explore'); }
+        if (e.key === 'Enter') { currentSearch = e.target.value; currentCategory = 'All'; currentPage = 1; navigate('explore', { preserve: true }); }
       });
     }
 
@@ -1519,6 +1764,11 @@
     // 支持 URL hash 路由（插件同步时打开 #/collections 等链接）
     function handleHashRoute() {
       const hash = window.location.hash.replace(/^#\/?/, '');
+      const detailMatch = hash.match(/^(prompt|collection)\/(.+)$/);
+      if (detailMatch) {
+        openPromptDetail(decodeURIComponent(detailMatch[2]), detailMatch[1] === 'collection', false);
+        return true;
+      }
       if (hash && ['home', 'explore', 'import', 'collections'].includes(hash)) {
         navigate(hash);
         return true;
@@ -1526,6 +1776,7 @@
       return false;
     }
     window.addEventListener('hashchange', handleHashRoute);
+    window.addEventListener('popstate', handleHashRoute);
 
     // 页面加载时检查 hash 路由，没有 hash 则渲染首页
     if (!handleHashRoute()) {
