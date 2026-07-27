@@ -5,221 +5,275 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      width: 360px;
+      width: 380px;
       min-height: 200px;
-      max-height: 520px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif;
+      max-height: 560px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
       background: #FAFAF8;
       color: #1A1A1A;
       overflow-y: auto;
     }
+    body::-webkit-scrollbar { width: 6px; }
+    body::-webkit-scrollbar-thumb { background: #DDD; border-radius: 3px; }
+
+    /* Header */
     .header {
-      background: linear-gradient(135deg, #FFD93D, #FFE066);
-      padding: 16px;
+      background: linear-gradient(135deg, #FFD93D 0%, #FFE066 100%);
+      padding: 14px 16px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      justify-content: space-between;
     }
+    .header-left { display: flex; align-items: center; gap: 10px; }
     .header-icon {
-      width: 32px;
-      height: 32px;
+      width: 36px; height: 36px;
       background: #1A1A1A;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
     }
-    .header-title {
-      font-size: 16px;
-      font-weight: 800;
-    }
-    .header-sub {
+    .header-title { font-size: 16px; font-weight: 800; letter-spacing: -0.3px; }
+    .header-sub { font-size: 10px; color: #666; margin-top: 1px; }
+    .header-queue {
+      background: #1A1A1A;
+      color: #FFD93D;
+      border-radius: 20px;
+      padding: 4px 10px;
       font-size: 11px;
-      color: #555;
-      margin-top: 2px;
+      font-weight: 700;
+      display: flex; align-items: center; gap: 4px;
     }
+
+    /* Toolbar */
     .toolbar {
       padding: 12px 16px;
-      display: flex;
-      gap: 8px;
-      border-bottom: 1px solid #EAEAEA;
+      display: flex; gap: 8px;
     }
     .btn {
-      flex: 1;
-      padding: 8px 12px;
-      border: none;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      text-align: center;
+      border: none; border-radius: 10px;
+      font-size: 13px; font-weight: 600;
+      cursor: pointer; text-align: center;
       font-family: inherit;
+      transition: all 0.15s;
     }
-    .btn-primary {
-      background: #1A1A1A;
-      color: #fff;
+    .btn:active { transform: scale(0.97); }
+    .btn-scan {
+      flex: 1; padding: 10px 14px;
+      background: #1A1A1A; color: #FFD93D;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
     }
-    .btn-secondary {
-      background: #fff;
-      border: 1.5px solid #1A1A1A;
-      color: #1A1A1A;
+    .btn-scan:hover { background: #333; }
+    .btn-site {
+      padding: 10px 14px;
+      background: #fff; border: 1.5px solid #1A1A1A; color: #1A1A1A;
     }
-    .content {
-      padding: 12px 16px;
-    }
+    .btn-site:hover { background: #F5F5F0; }
+
+    /* Content */
+    .content { padding: 0 16px 12px; }
+
+    /* Status / Empty */
     .status {
-      font-size: 13px;
-      color: #666;
-      text-align: center;
-      padding: 20px;
+      font-size: 13px; color: #888; text-align: center; padding: 24px 16px;
+      line-height: 1.6;
     }
+    .status-icon { font-size: 32px; margin-bottom: 8px; }
+    .empty-state { text-align: center; padding: 28px 16px; }
+    .empty-icon { font-size: 36px; margin-bottom: 8px; }
+    .empty-text { font-size: 13px; color: #999; line-height: 1.6; }
+    .empty-hint { font-size: 11px; color: #BBB; margin-top: 4px; }
+
+    /* Prompt Card */
     .prompt-item {
       background: #fff;
-      border: 1px solid #EAEAEA;
-      border-radius: 10px;
+      border: 1px solid #EEE;
+      border-radius: 12px;
       padding: 12px;
       margin-bottom: 10px;
-      cursor: pointer;
       transition: all 0.2s;
     }
     .prompt-item:hover {
       border-color: #FFD93D;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
     }
+    .prompt-item-head {
+      display: flex; align-items: flex-start; gap: 8px;
+      margin-bottom: 6px;
+    }
+    .prompt-item-thumb {
+      width: 44px; height: 44px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: #F5F5F0;
+    }
+    .prompt-item-thumb-placeholder {
+      width: 44px; height: 44px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #FFF3BF, #FFE89C);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+    .prompt-item-info { flex: 1; min-width: 0; }
     .prompt-item-title {
-      font-size: 13px;
-      font-weight: 700;
-      margin-bottom: 4px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      font-size: 13px; font-weight: 700;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      margin-bottom: 2px;
+    }
+    .prompt-item-cat {
+      font-size: 10px; font-weight: 600;
+      color: #E6B800; text-transform: uppercase;
+      letter-spacing: 0.3px;
     }
     .prompt-item-text {
-      font-size: 11px;
-      color: #666;
-      line-height: 1.5;
+      font-size: 11px; color: #777; line-height: 1.5;
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       word-break: break-word;
+      margin: 6px 0 8px;
     }
-    .prompt-item-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 8px;
-    }
-    .prompt-item-cat {
-      font-size: 10px;
-      font-weight: 700;
-      color: #E6B800;
-      text-transform: uppercase;
-    }
-    .prompt-item-actions {
-      display: flex;
-      gap: 6px;
-    }
+    .prompt-item-actions { display: flex; gap: 6px; }
     .mini-btn {
-      padding: 3px 8px;
-      border-radius: 5px;
-      font-size: 11px;
-      font-weight: 600;
-      border: none;
-      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 11px; font-weight: 600;
+      border: none; cursor: pointer;
       font-family: inherit;
+      transition: all 0.15s;
     }
-    .mini-btn-collect {
-      background: #FFD93D;
-      color: #1A1A1A;
-    }
-    .mini-btn-copy {
-      background: #1A1A1A;
-      color: #fff;
-    }
+    .mini-btn:active { transform: scale(0.95); }
+    .mini-btn-copy { background: #F0F0EB; color: #555; }
+    .mini-btn-copy:hover { background: #E5E5E0; }
+    .mini-btn-collect { background: #FFD93D; color: #1A1A1A; }
+    .mini-btn-collect:hover { background: #FFC700; }
+    .mini-btn-collected { background: #00B894; color: #fff; }
+
+    /* Queue Bar */
     .queue-bar {
-      border-top: 1px solid #EAEAEA;
+      border-top: 1px solid #EEE;
       padding: 10px 16px;
       background: #fff;
+      position: sticky; bottom: 0;
     }
-    .queue-info {
-      font-size: 11px;
-      color: #999;
-      text-align: center;
-      margin-bottom: 8px;
+    .queue-bar-inner {
+      display: flex; align-items: center; gap: 10px;
     }
+    .queue-count {
+      font-size: 12px; color: #666; flex: 1;
+    }
+    .queue-count strong { color: #1A1A1A; }
     .btn-sync {
-      width: 100%;
-      padding: 8px;
-      background: #FFD93D;
-      color: #1A1A1A;
-      border: none;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 700;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all 0.2s;
+      padding: 8px 16px;
+      background: #FFD93D; color: #1A1A1A;
+      border: none; border-radius: 8px;
+      font-size: 13px; font-weight: 700;
+      cursor: pointer; font-family: inherit;
+      transition: all 0.15s;
+      white-space: nowrap;
     }
-    .btn-sync:hover {
-      background: #FFC700;
-      transform: scale(1.02);
+    .btn-sync:hover { background: #FFC700; }
+    .btn-sync:active { transform: scale(0.97); }
+    .btn-sync:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* Hint */
+    .hint {
+      padding: 8px 16px;
+      font-size: 11px; color: #AAA; text-align: center;
+      background: #FAFAF8;
     }
-    .empty-state {
-      text-align: center;
-      padding: 30px 20px;
-    }
-    .empty-icon {
-      font-size: 36px;
-      margin-bottom: 8px;
-    }
-    .empty-text {
-      font-size: 13px;
-      color: #999;
-    }
+
+    /* Toast */
     .toast {
       position: fixed;
-      bottom: 12px;
-      left: 50%;
-      transform: translateX(-50%) translateY(60px);
-      background: #1A1A1A;
-      color: #fff;
-      padding: 8px 16px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: 600;
+      bottom: 56px; left: 50%;
+      transform: translateX(-50%) translateY(40px);
+      background: #1A1A1A; color: #fff;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 12px; font-weight: 600;
       z-index: 100;
       transition: all 0.3s;
       pointer-events: none;
+      opacity: 0;
     }
     .toast.show {
       transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* Loading */
+    .loading { text-align: center; padding: 30px 16px; }
+    .spinner {
+      width: 28px; height: 28px;
+      border: 3px solid #EEE;
+      border-top-color: #FFD93D;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin: 0 auto 10px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading-text { font-size: 13px; color: #888; }
+
+    /* Scan count badge */
+    .scan-badge {
+      display: inline-block;
+      background: #FFF3BF;
+      color: #E6B800;
+      font-size: 10px; font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
+  <!-- Header -->
   <div class="header">
-    <div class="header-icon">🍌</div>
-    <div>
-      <div class="header-title">PromptHub</div>
-      <div class="header-sub">AI 提示词收集器</div>
+    <div class="header-left">
+      <div class="header-icon">🍌</div>
+      <div>
+        <div class="header-title">PromptHub</div>
+        <div class="header-sub">AI 提示词收集器 v2.0</div>
+      </div>
+    </div>
+    <div class="header-queue" id="header-queue" style="display:none;">
+      <span>📦</span><span id="header-queue-num">0</span>
     </div>
   </div>
 
+  <!-- Toolbar -->
   <div class="toolbar">
-    <button class="btn btn-primary" id="btn-scan">🔍 扫描页面</button>
-    <button class="btn btn-secondary" id="btn-open">🌐 打开网站</button>
+    <button class="btn btn-scan" id="btn-scan">🔍 扫描当前页面</button>
+    <button class="btn btn-site" id="btn-site">🌐</button>
   </div>
 
+  <!-- Content -->
   <div class="content" id="content">
-    <div class="status">点击「扫描页面」检测当前网页上的 AI 提示词</div>
+    <div class="status">
+      <div class="status-icon">🔍</div>
+      <div>点击「扫描当前页面」检测 AI 提示词</div>
+      <div style="font-size:11px;color:#BBB;margin-top:6px;">
+        也可以选中网页文字 → 右键 → 🍌 收藏
+      </div>
+    </div>
   </div>
 
-  <div class="queue-bar" id="queue-bar" style="display:none;">
-    <div class="queue-info" id="queue-info"></div>
-    <button class="btn btn-sync" id="btn-sync">🔄 同步到 PromptHub</button>
+  <!-- Hint -->
+  <div class="hint" id="hint">
+    💡 提示：在任意网页选中提示词文字，右键即可快速收藏
   </div>
+
+  <!-- Queue Bar -->
+  <div class="queue-bar" id="queue-bar" style="display:none;">
+    <div class="queue-bar-inner">
+      <div class="queue-count">待同步 <strong id="queue-num">0</strong> 个提示词</div>
+      <button class="btn-sync" id="btn-sync">🔄 同步到网站</button>
+    </div>
+  </div>
+
+  <!-- Toast -->
   <div class="toast" id="toast"></div>
 
   <script src="popup.js"></script>

@@ -1,6 +1,17 @@
-# PromptHub Collector 浏览器插件
+# PromptHub Collector 浏览器插件 v2.0
 
 一键抓取网页上的 AI 提示词，保存到 PromptHub 收藏库。
+
+## v2.0 新特性
+
+- 🍌 **右键快速收藏** — 在任意网页选中文字，右键 →「🍌 收藏到 PromptHub」
+- 🔍 **智能页面扫描** — 点击插件图标自动扫描当前页面的 AI 提示词
+- 📦 **队列管理** — 收集的提示词暂存在插件队列中，支持批量同步
+- 🔄 **一键同步** — 将队列中的提示词同步到 PromptHub 网站
+- 🎯 **精准识别** — 支持 Midjourney / Stable Diffusion / DALL-E 等格式
+- 🖼️ **自动提取图片** — 智能查找提示词附近的关联图片
+- 🏷️ **自动分类** — 识别提示词主题并自动分类和打标签
+- 🚫 **零干扰** — 不再自动注入浮动按钮，不影响正常浏览
 
 ## 安装步骤
 
@@ -14,34 +25,25 @@
 
 ## 使用方法
 
-### 方式一：自动扫描
+### 方式一：右键快速收藏
 
-- 打开包含 AI 提示词的网页（如 Twitter、Reddit、Discord、Midjourney 社区等）
-- 插件会 **自动扫描** 页面，检测到的提示词旁边会显示「🍌 收藏」按钮
-- 点击按钮即可将提示词 + 图片保存到收藏队列
+1. 在任意网页选中一段提示词文字
+2. 右键 → 点击 **「🍌 收藏到 PromptHub」**
+3. 提示词自动加入待同步队列（插件图标会显示角标提示）
 
-### 方式二：手动扫描
+### 方式二：扫描页面
 
-- 点击浏览器工具栏的 🍌 插件图标
-- 点击 **🔍 扫描页面** 按钮
-- 弹窗中会列出检测到的所有提示词
-- 点击 **📋** 复制提示词，或点击 **❤️** 加入收藏队列
+1. 打开包含 AI 提示词的网页（如 Twitter、Reddit、Civitai 等）
+2. 点击浏览器工具栏的 🍌 插件图标
+3. 插件自动扫描页面，弹窗中列出检测到的所有提示词
+4. 点击 **📋 复制** 复制提示词文本，或点击 **❤️ 收藏** 加入队列
 
 ### 同步到网站
 
-- 收集的提示词会暂存在插件队列中
-- 点击插件弹窗底部的 **🔄 同步到 PromptHub** 按钮
-- 系统会自动打开 PromptHub 网站并导入所有收藏的提示词
-- 导入后可在网站的 **❤️ 我的收藏** 页面查看和管理
-
-## 功能特点
-
-- ✅ 智能识别 AI 提示词（支持 Midjourney、Stable Diffusion、DALL-E 等格式）
-- ✅ 自动提取关联图片
-- ✅ 自动分类和标签识别
-- ✅ 浮动收藏按钮，一键收藏
-- ✅ 批量同步到 PromptHub 网站
-- ✅ 支持复制提示词文本
+1. 收集足够多的提示词后，点击弹窗底部的 **🔄 同步到网站**
+2. 系统自动打开 PromptHub 网站
+3. 提示词自动导入到「我的收藏」页面
+4. 同步完成后队列自动清空
 
 ## 支持的网站
 
@@ -50,20 +52,28 @@
 - Discord（网页版）
 - Midjourney 社区
 - Civitai
+- 小红书
 - 任何包含 AI 提示词的网页
 
-## 配置
+## 技术架构
 
-如果 PromptHub 网站部署到了其他地址，请修改 `popup.js` 中的 `WEBSITE_URL`：
+| 文件 | 说明 |
+|------|------|
+| `manifest.json` | MV3 配置，权限：activeTab, storage, scripting, contextMenus |
+| `background.js` | Service Worker，右键菜单 + 队列管理 + 同步逻辑 |
+| `content.js` | 内容脚本，提示词检测 + 扫描响应 + 数据写入 |
+| `popup.html` | 弹窗 UI |
+| `popup.js` | 弹窗逻辑，页面扫描 + 收藏 + 同步 |
+| `icons/` | 4 种尺寸 PNG 图标（16/32/48/128） |
 
-```javascript
-const WEBSITE_URL = 'http://localhost:8080'; // 改为你的网站地址
+## 数据流
+
+```
+用户操作 → chrome.storage.local 队列 → 同步 → 网站 localStorage → 收藏库
+         ↑                                              ↓
+    右键收藏 / 扫描收藏                          app.js 轮询读取
 ```
 
-同时修改 `background.js` 中的 tab 匹配规则：
+## 网站
 
-```javascript
-chrome.tabs.query({ url: '*://localhost*/*' }, (tabs) => { ... });
-// 改为你的域名，例如：
-// chrome.tabs.query({ url: '*://yourdomain.com*/*' }, (tabs) => { ... });
-```
+PromptHub 线上地址：https://kxbbw81-glitch.github.io/PromptHub-/
