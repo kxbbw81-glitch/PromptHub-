@@ -1085,13 +1085,10 @@
     const heroPrompts = [...PROMPTS]
       .filter(p => p.image)
       .sort((a, b) => b.likes - a.likes)
-      .slice(0, 10);
-    const heroColumns = [
-      heroPrompts.filter((_, index) => [0, 4].includes(index)),
-      heroPrompts.filter((_, index) => [1, 5, 8].includes(index)),
-      heroPrompts.filter((_, index) => [2, 6].includes(index)),
-      heroPrompts.filter((_, index) => [3, 7, 9].includes(index))
-    ];
+      .slice(0, 16);
+    const heroColumns = [0, 1, 2, 3].map(columnIndex =>
+      heroPrompts.filter((_, index) => index % 4 === columnIndex)
+    );
     const catCounts = {};
     CATEGORIES.forEach(c => { catCounts[c.name] = 0; });
     PROMPTS.forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
@@ -1099,26 +1096,42 @@
     app.innerHTML = `
       <section class="hero hero-gallery" aria-label="PromptHub prompt gallery">
         <h1 class="sr-only">PromptHub AI 提示词收藏库</h1>
+        <div class="hero-intro" aria-hidden="false">
+          <h2>探索高品质纳米香蕉提示</h2>
+          <p>Nano Banana 提示库不断增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。</p>
+          <button class="hero-main-cta" type="button" onclick="openExplore()">
+            <span>查看所有提示</span>
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
         <div class="hero-gallery-shell">
           <div class="hero-gallery-grid">
-            ${heroColumns.map((column, columnIndex) => `
-              <div class="hero-gallery-column hero-gallery-column-${columnIndex + 1}">
-                ${column.map((prompt, itemIndex) => `
-                  <button
-                    class="hero-gallery-card hero-gallery-card-${columnIndex + 1}-${itemIndex + 1}"
-                    type="button"
-                    onclick="openPromptDetail('${escapeJsString(prompt.id)}')"
-                    aria-label="查看提示词：${escapeHtml(prompt.title)}"
-                  >
-                    <img src="${escapeHtml(prompt.image)}" alt="${escapeHtml(prompt.title)}" loading="${columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'}" onerror="this.closest('.hero-gallery-card').style.display='none'" />
-                  </button>
-                `).join('')}
-              </div>
-            `).join('')}
+            ${heroColumns.map((column, columnIndex) => {
+              const loopedColumn = [...column, ...column];
+              return `
+                <div class="hero-gallery-column hero-gallery-column-${columnIndex + 1}">
+                  <div class="hero-gallery-track">
+                    ${loopedColumn.map((prompt, itemIndex) => {
+                      const cardIndex = (itemIndex % column.length) + 1;
+                      return `
+                        <button
+                          class="hero-gallery-card hero-gallery-card-${columnIndex + 1}-${cardIndex}"
+                          type="button"
+                          onclick="openPromptDetail('${escapeJsString(prompt.id)}')"
+                          aria-label="查看提示词：${escapeHtml(prompt.title)}"
+                        >
+                          <img src="${escapeHtml(prompt.image)}" alt="${escapeHtml(prompt.title)}" loading="${columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'}" onerror="this.closest('.hero-gallery-card').style.display='none'" />
+                        </button>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+              `;
+            }).join('')}
           </div>
           <div class="hero-gallery-vignette hero-gallery-vignette-top"></div>
           <div class="hero-gallery-vignette hero-gallery-vignette-bottom"></div>
-          <button class="hero-explore-pill" type="button" onclick="navigate('explore')" aria-label="探索全部提示词">
+          <button class="hero-explore-pill" type="button" onclick="openExplore()" aria-label="探索全部提示词">
             <span class="hero-explore-icon">⌾</span>
             <span>Explore all prompts</span>
           </button>
@@ -1128,7 +1141,7 @@
           <h1>发现高质量 <span class="highlight">AI 提示词</span><br>激发无限创作灵感</h1>
           <p>不断增长的提示词收藏库，每日更新，一键复制即可使用，助你生成惊艳的 AI 图像作品。</p>
           <div class="hero-actions">
-            <button class="btn btn-yellow" onclick="navigate('explore')">🚀 探索所有提示词</button>
+            <button class="btn btn-yellow" onclick="openExplore()">🚀 探索所有提示词</button>
             <button class="btn btn-outline" onclick="document.getElementById('categories-section').scrollIntoView({behavior:'smooth'})">浏览分类</button>
           </div>
           <div class="hero-stats">
@@ -1145,7 +1158,7 @@
           <p class="section-subtitle">经过精心策展的高质量提示词，每个都经过测试与验证，确保生成效果出色。</p>
           <div class="top-prompts" id="top-prompts"></div>
           <div style="text-align:center;margin-top:32px;">
-            <button class="btn btn-outline" onclick="navigate('explore')">查看全部提示词 →</button>
+            <button class="btn btn-outline" onclick="openExplore()">查看全部提示词 →</button>
           </div>
         </div>
       </section>
@@ -2108,6 +2121,7 @@
   }
 
   window.navigate = navigate;
+  window.openExplore = () => showExploreWithState();
   window.openPromptModal = openPromptModal;
   window.openPromptDetail = openPromptDetail;
   window.filterByTag = filterByTag;
