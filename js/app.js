@@ -1064,12 +1064,47 @@
   function renderHome() {
     const app = $('#app');
     const todayTop = [...PROMPTS].sort((a, b) => b.likes - a.likes).slice(0, 6);
+    const heroPrompts = [...PROMPTS]
+      .filter(p => p.image)
+      .sort((a, b) => b.likes - a.likes)
+      .slice(0, 10);
+    const heroColumns = [
+      heroPrompts.filter((_, index) => [0, 4].includes(index)),
+      heroPrompts.filter((_, index) => [1, 5, 8].includes(index)),
+      heroPrompts.filter((_, index) => [2, 6].includes(index)),
+      heroPrompts.filter((_, index) => [3, 7, 9].includes(index))
+    ];
     const catCounts = {};
     CATEGORIES.forEach(c => { catCounts[c.name] = 0; });
     PROMPTS.forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
 
     app.innerHTML = `
-      <section class="hero">
+      <section class="hero hero-gallery" aria-label="PromptHub prompt gallery">
+        <h1 class="sr-only">PromptHub AI 提示词收藏库</h1>
+        <div class="hero-gallery-shell">
+          <div class="hero-gallery-grid">
+            ${heroColumns.map((column, columnIndex) => `
+              <div class="hero-gallery-column hero-gallery-column-${columnIndex + 1}">
+                ${column.map((prompt, itemIndex) => `
+                  <button
+                    class="hero-gallery-card hero-gallery-card-${columnIndex + 1}-${itemIndex + 1}"
+                    type="button"
+                    onclick="openPromptDetail('${escapeJsString(prompt.id)}')"
+                    aria-label="查看提示词：${escapeHtml(prompt.title)}"
+                  >
+                    <img src="${escapeHtml(prompt.image)}" alt="${escapeHtml(prompt.title)}" loading="${columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'}" onerror="this.closest('.hero-gallery-card').style.display='none'" />
+                  </button>
+                `).join('')}
+              </div>
+            `).join('')}
+          </div>
+          <div class="hero-gallery-vignette hero-gallery-vignette-top"></div>
+          <div class="hero-gallery-vignette hero-gallery-vignette-bottom"></div>
+          <button class="hero-explore-pill" type="button" onclick="navigate('explore')" aria-label="探索全部提示词">
+            <span class="hero-explore-icon">⌾</span>
+            <span>Explore all prompts</span>
+          </button>
+        </div>
         <div class="container hero-content">
           <div class="hero-badge">🍌 每日更新 · 已验证 · 免费使用</div>
           <h1>发现高质量 <span class="highlight">AI 提示词</span><br>激发无限创作灵感</h1>
