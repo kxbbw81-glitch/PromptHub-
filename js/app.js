@@ -16,9 +16,34 @@
   const COLLECTIONS_KEY = 'prompthub_collections';
   const EXT_IMPORT_KEY = 'prompthub_ext_import';
 
+  // --- 分类旧英文名称映射到中文（兼容已有收藏数据）---
+  const CATEGORY_LEGACY_MAP = {
+    'Portrait': '人像',
+    'Landscape': '风景',
+    'Architecture': '建筑',
+    'Sci-Fi': '科幻',
+    'Cyberpunk': '赛博朋克',
+    'Fantasy': '奇幻',
+    'Animals': '动物',
+    'Still Life': '静物',
+    'Food': '美食',
+    'Fashion': '时尚',
+    'Character': '角色',
+    'Abstract': '抽象',
+    'Nature': '自然',
+    'Cityscape': '城市'
+  };
+
+  function normalizeCategory(cat) {
+    if (!cat) return '抽象';
+    if (CATEGORY_LEGACY_MAP[cat]) return CATEGORY_LEGACY_MAP[cat];
+    return cat;
+  }
+
   function getCollections() {
     try {
-      return JSON.parse(localStorage.getItem(COLLECTIONS_KEY)) || [];
+      const list = JSON.parse(localStorage.getItem(COLLECTIONS_KEY)) || [];
+      return list.map(item => ({ ...item, category: normalizeCategory(item.category) }));
     } catch { return []; }
   }
 
@@ -44,21 +69,36 @@
   }
 
   // --- Auto-categorize & auto-tag (shared) ---
+  // 分类依据：根据提示词词根（英文原词 + 中文同义词）判断
   const CAT_KEYWORDS = {
-    'Portrait': ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot', 'girl', 'boy'],
-    'Landscape': ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon', 'forest', 'lake', 'ocean'],
-    'Architecture': ['architecture', 'building', 'interior', 'facade', 'modern house', 'skyscraper'],
-    'Sci-Fi': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'cyber', 'galaxy', 'mars'],
-    'Cyberpunk': ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian', 'night city'],
-    'Fantasy': ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle', 'knight'],
-    'Animals': ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox', 'tiger', 'eagle'],
-    'Still Life': ['still life', 'vase', 'fruit', 'flowers arrangement', 'tabletop'],
-    'Food': ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee', 'dessert', 'cake'],
-    'Fashion': ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear'],
-    'Character': ['character', 'concept art', 'hero', 'villain', 'npc', 'warrior', 'samurai'],
-    'Abstract': ['abstract', 'swirl', 'geometric', 'pattern', 'texture', 'fractal'],
-    'Nature': ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly', 'garden', 'waterfall'],
-    'Cityscape': ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown', 'avenue']
+    '人像': ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot', 'girl', 'boy', 'people', 'human',
+             '人像', '人物', '肖像', '人脸', '女性', '男性', '女孩', '男孩', '少女', '模特', '自拍'],
+    '风景': ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon', 'forest', 'lake', 'ocean', 'scene', 'scenery',
+             '风景', '风光', '山', '日出', '日落', '山谷', '湖泊', '海洋', '地平线', '景色'],
+    '建筑': ['architecture', 'building', 'interior', 'facade', 'modern house', 'skyscraper', 'structure',
+             '建筑', '室内', '摩天大楼', '房屋', '立面', '现代建筑', '空间'],
+    '科幻': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'cyber', 'galaxy', 'mars', 'spacecraft', 'astronaut',
+             '科幻', '太空', '未来', '机器人', '外星人', '飞船', '星系', '火星', '宇航员'],
+    '赛博朋克': ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian', 'night city', 'megacity',
+                 '赛博朋克', '赛博', '霓虹', '全息', '反乌托邦', '夜之城'],
+    '奇幻': ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle', 'knight', 'mythical', 'fairy',
+             '奇幻', '龙', '巫师', '魔法', '精灵', '城堡', '骑士', '神话', '童话'],
+    '动物': ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox', 'tiger', 'eagle', 'puppy', 'kitten',
+             '动物', '狗', '猫', '狮子', '狼', '鸟', '野生动物', '狐狸', '老虎', '鹰'],
+    '静物': ['still life', 'vase', 'fruit', 'flowers arrangement', 'tabletop', 'bouquet',
+             '静物', '花瓶', '水果', '花卉', '摆盘', '花束'],
+    '美食': ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee', 'dessert', 'cake', 'beverage', 'cocktail',
+             '美食', '食物', '料理', '餐厅', '寿司', '披萨', '咖啡', '甜点', '蛋糕', '饮品'],
+    '时尚': ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear', 'apparel', 'model wearing',
+             '时尚', '服装', '穿搭', '走秀', '礼服', '街拍', '时装'],
+    '角色': ['character', 'concept art', 'hero', 'villain', 'npc', 'warrior', 'samurai', 'protagonist', 'avatar',
+             '角色', '概念艺术', '英雄', '反派', '战士', '武士', '主角'],
+    '抽象': ['abstract', 'swirl', 'geometric', 'pattern', 'texture', 'fractal', 'minimalist', 'gradient',
+             '抽象', '几何', '图案', '纹理', '分形', '极简', '渐变'],
+    '自然': ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly', 'garden', 'waterfall', 'meadow', 'rainforest',
+             '自然', '森林', '花', '树', '河流', '叶子', '蝴蝶', '花园', '瀑布', '草地', '雨林'],
+    '城市': ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown', 'avenue', 'metropolis',
+             '城市', '都市', '天际线', '街道', '市中心', '都会', '城景']
   };
 
   const TAG_KEYWORDS = [
@@ -71,10 +111,10 @@
 
   function autoCategorize(text) {
     const lower = (text || '').toLowerCase();
-    let category = 'Abstract';
+    let category = '抽象';
     let maxScore = 0;
     for (const [cat, keywords] of Object.entries(CAT_KEYWORDS)) {
-      const score = keywords.reduce((s, kw) => s + (lower.includes(kw) ? 1 : 0), 0);
+      const score = keywords.reduce((s, kw) => s + (lower.includes(kw.toLowerCase()) ? 1 : 0), 0);
       if (score > maxScore) { maxScore = score; category = cat; }
     }
     return category;
@@ -201,27 +241,41 @@
 
     // Detect category from prompt text
     const catKeywords = {
-      'Portrait': ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot'],
-      'Landscape': ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon'],
-      'Architecture': ['architecture', 'building', 'interior', 'facade', 'modern house'],
-      'Sci-Fi': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'cyber'],
-      'Cyberpunk': ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian'],
-      'Fantasy': ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle'],
-      'Animals': ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox'],
-      'Still Life': ['still life', 'vase', 'fruit', 'flowers arrangement'],
-      'Food': ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee'],
-      'Fashion': ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear'],
-      'Character': ['character', 'concept art', 'hero', 'villain', 'npc'],
-      'Abstract': ['abstract', 'swirl', 'geometric', 'pattern', 'texture'],
-      'Nature': ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly'],
-      'Cityscape': ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown']
+      '人像': ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot', 'girl', 'boy',
+               '人像', '人物', '肖像', '人脸', '女性', '男性', '女孩', '男孩'],
+      '风景': ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon', 'forest', 'lake', 'ocean',
+               '风景', '风光', '山', '日出', '日落', '山谷', '湖泊', '海洋'],
+      '建筑': ['architecture', 'building', 'interior', 'facade', 'modern house', 'skyscraper',
+               '建筑', '室内', '摩天大楼', '房屋', '空间'],
+      '科幻': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'cyber', 'galaxy', 'mars',
+               '科幻', '太空', '未来', '机器人', '外星人', '飞船'],
+      '赛博朋克': ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian', 'night city',
+                   '赛博朋克', '赛博', '霓虹', '全息', '反乌托邦'],
+      '奇幻': ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle', 'knight',
+               '奇幻', '龙', '巫师', '魔法', '精灵', '城堡', '骑士'],
+      '动物': ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox', 'tiger', 'eagle',
+               '动物', '狗', '猫', '狮子', '狼', '鸟', '野生动物', '狐狸', '老虎', '鹰'],
+      '静物': ['still life', 'vase', 'fruit', 'flowers arrangement', 'tabletop',
+               '静物', '花瓶', '水果', '花卉', '摆盘'],
+      '美食': ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee', 'dessert', 'cake',
+               '美食', '食物', '料理', '餐厅', '寿司', '披萨', '咖啡', '甜点', '蛋糕'],
+      '时尚': ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear',
+               '时尚', '服装', '穿搭', '走秀', '礼服', '街拍'],
+      '角色': ['character', 'concept art', 'hero', 'villain', 'npc', 'warrior', 'samurai',
+               '角色', '概念艺术', '英雄', '反派', '战士', '武士'],
+      '抽象': ['abstract', 'swirl', 'geometric', 'pattern', 'texture',
+               '抽象', '几何', '图案', '纹理'],
+      '自然': ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly', 'garden', 'waterfall',
+               '自然', '森林', '花', '树', '河流', '叶子', '蝴蝶', '花园', '瀑布'],
+      '城市': ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown', 'avenue',
+               '城市', '都市', '天际线', '街道', '市中心', '城景']
     };
 
-    let category = 'Abstract';
+    let category = '抽象';
     let maxScore = 0;
     const promptLower = promptText.toLowerCase();
     for (const [cat, keywords] of Object.entries(catKeywords)) {
-      const score = keywords.reduce((s, kw) => s + (promptLower.includes(kw) ? 1 : 0), 0);
+      const score = keywords.reduce((s, kw) => s + (promptLower.includes(kw.toLowerCase()) ? 1 : 0), 0);
       if (score > maxScore) {
         maxScore = score;
         category = cat;
@@ -893,18 +947,22 @@
     box.style.display = 'block';
 
     const imgSrc = item.image || ('https://picsum.photos/seed/' + (item.id || 'preview') + '/480/300');
+    const source = isManual ? 'manual' : 'parsed';
 
     box.innerHTML = `
       <div class="imp-result-card">
         <div class="imp-result-head">
           <div class="imp-result-badge">${isManual ? '实时预览' : '解析结果'}</div>
-          <h2>确认信息并保存</h2>
-          <p>所有字段均可编辑，确认无误后点击保存</p>
+          <h2>${isManual ? '编辑提示词信息' : '已自动提取，可直接收藏'}</h2>
+          <p>所有字段均可编辑，点击图片右上角的心形按钮即可收藏</p>
         </div>
 
         <div class="imp-result-body">
           <div class="imp-result-img">
             <img src="${imgSrc}" alt="${item.title}" onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'imp-result-noimg\'>🖼️<br><span>未检测到图片</span></div>'" />
+            <button class="imp-save-fab" onclick="saveFromPreview('${source}')" title="收藏到库">
+              <span>♡</span>
+            </button>
           </div>
 
           <div class="imp-result-fields">
@@ -938,14 +996,25 @@
           </div>
         </div>
 
-        <div class="imp-result-foot">
-          <button class="imp-btn-ghost" onclick="cancelResult()">取消</button>
-          <button class="imp-btn-primary imp-btn-lg" onclick="saveFromPreview('${isManual ? 'manual' : 'parsed'}')">
-            ❤️ 保存到收藏
-          </button>
+        <div class="imp-result-foot imp-result-foot-subtle">
+          <button class="imp-mini-btn" onclick="cancelResult()">取消</button>
+          <span class="imp-save-hint">快捷键 Ctrl + Enter 也可收藏</span>
         </div>
       </div>
     `;
+
+    // 绑定快捷键：Ctrl/Cmd + Enter 收藏
+    setTimeout(() => {
+      const card = $('.imp-result-card');
+      if (card) {
+        card.addEventListener('keydown', (e) => {
+          if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+            e.preventDefault();
+            saveFromPreview(source);
+          }
+        });
+      }
+    }, 0);
   }
 
   window.updatePreviewImage = function (url) {
@@ -964,8 +1033,8 @@
   };
 
   window.saveFromPreview = function (source) {
-    const title = $('#edit-title')?.value.trim();
-    const prompt = $('#edit-prompt')?.value.trim();
+    const title = ($('#edit-title')?.value || '').trim();
+    const prompt = ($('#edit-prompt')?.value || '').trim();
     if (!title || !prompt) { showToast('请填写标题和提示词'); return; }
 
     const item = {
@@ -982,11 +1051,25 @@
     };
 
     if (saveCollection(item)) {
-      showToast('已保存到「我的收藏」');
+      showToast('已收藏到「我的收藏」');
       currentParsed = null;
+
+      // 心形按钮视觉反馈
+      const fab = $('.imp-save-fab');
+      if (fab) {
+        fab.classList.add('saved');
+        fab.querySelector('span').textContent = '♥';
+        fab.disabled = true;
+      }
+
       setTimeout(() => navigate('collections'), 800);
     } else {
-      showToast('保存失败，可能已存在');
+      showToast('已在收藏中，无需重复保存');
+      const fab = $('.imp-save-fab');
+      if (fab) {
+        fab.classList.add('saved');
+        fab.querySelector('span').textContent = '♥';
+      }
     }
   };
 
@@ -1131,7 +1214,7 @@
             item.id = item.id || generateId();
             item.date = item.date || new Date().toISOString().slice(0, 10);
             // 自动分类：如果分类为空或是默认值，根据提示词重新检测
-            if (!item.category || item.category === 'Abstract' || item.category === '未分类') {
+            if (!item.category || item.category === 'Abstract' || item.category === '未分类' || item.category === '抽象') {
               item.category = autoCategorize(item.prompt || '');
             }
             // 自动标签：如果标签为空，根据提示词检测

@@ -3,27 +3,27 @@
 // ==========================================
 
 const CATEGORIES = [
-  { name: "Portrait",      icon: "👤", desc: "人物肖像与面部特写" },
-  { name: "Landscape",     icon: "🏔️", desc: "自然风光与大地景观" },
-  { name: "Architecture",  icon: "🏛️", desc: "建筑设计与空间结构" },
-  { name: "Sci-Fi",        icon: "🚀", desc: "科幻未来与太空探索" },
-  { name: "Cyberpunk",     icon: "🌃", desc: "赛博朋克与霓虹都市" },
-  { name: "Fantasy",       icon: "🐉", desc: "奇幻世界与魔法传说" },
-  { name: "Animals",       icon: "🦁", desc: "动物野生与自然生灵" },
-  { name: "Still Life",    icon: "🎨", desc: "静物写生与艺术构图" },
-  { name: "Food",          icon: "🍽️", desc: "美食摄影与餐饮视觉" },
-  { name: "Fashion",       icon: "👗", desc: "时尚穿搭与潮流造型" },
-  { name: "Character",     icon: "🧙", desc: "角色设计与原创人物" },
-  { name: "Abstract",      icon: "🌀", desc: "抽象艺术与视觉实验" },
-  { name: "Nature",        icon: "🌿", desc: "自然生态与植物花卉" },
-  { name: "Cityscape",     icon: "🌆", desc: "城市景观与街景风貌" },
+  { name: "人像",      icon: "👤", desc: "人物肖像与面部特写" },
+  { name: "风景",      icon: "🏔️", desc: "自然风光与大地景观" },
+  { name: "建筑",      icon: "🏛️", desc: "建筑设计与空间结构" },
+  { name: "科幻",      icon: "🚀", desc: "科幻未来与太空探索" },
+  { name: "赛博朋克",  icon: "🌃", desc: "赛博朋克与霓虹都市" },
+  { name: "奇幻",      icon: "🐉", desc: "奇幻世界与魔法传说" },
+  { name: "动物",      icon: "🦁", desc: "动物野生与自然生灵" },
+  { name: "静物",      icon: "🎨", desc: "静物写生与艺术构图" },
+  { name: "美食",      icon: "🍽️", desc: "美食摄影与餐饮视觉" },
+  { name: "时尚",      icon: "👗", desc: "时尚穿搭与潮流造型" },
+  { name: "角色",      icon: "🧙", desc: "角色设计与原创人物" },
+  { name: "抽象",      icon: "🌀", desc: "抽象艺术与视觉实验" },
+  { name: "自然",      icon: "🌿", desc: "自然生态与植物花卉" },
+  { name: "城市",      icon: "🌆", desc: "城市景观与街景风貌" },
 ];
 
 const PROMPTS = [
   {
     id: "dusk-music-fest-portrait",
     title: "黄昏音乐节人像",
-    category: "Portrait",
+    category: "人像",
     tags: ["电影感", "黄金时刻", "音乐会", "年轻女性"],
     prompt: "A cinematic portrait of a young woman at an outdoor music festival during golden hour. She has wind-swept hair, wearing a bohemian floral crown and a flowing white dress. Warm sunset light backlights her silhouette, creating a soft glow around her figure. Shallow depth of field with bokeh lights from the festival stage in the background. Shot on 85mm lens, f/1.4, photorealistic, 8K quality.",
     verified: true,
@@ -34,7 +34,7 @@ const PROMPTS = [
   {
     id: "tokyo-night-neon-reflections",
     title: "东京夜晚霓虹倒影",
-    category: "Cyberpunk",
+    category: "赛博朋克",
     tags: ["霓虹灯", "雨夜", "街道", "倒影"],
     prompt: "A rain-soaked Tokyo street at night, neon signs in Japanese characters reflecting off wet asphalt. Cyberpunk aesthetic with towering buildings, holographic advertisements, and steam rising from street vents. A lone figure in a translucent raincoat walks away from the camera. Colors: electric blue, hot pink, deep purple. Cinematic lighting, Blade Runner inspired, ultra-detailed, 8K.",
     verified: true,
@@ -45,7 +45,7 @@ const PROMPTS = [
   {
     id: "misty-mountain-sunrise",
     title: "云雾山脉日出",
-    category: "Landscape",
+    category: "风景",
     tags: ["日出", "云海", "山脉", "自然光"],
     prompt: "Breathtaking sunrise over a layered mountain range, with sea of clouds filling the valleys between peaks. The first rays of sunlight paint the sky in gradients of orange, pink, and lavender. Distant mountains fade into atmospheric haze. A small temple perches on the nearest cliff edge. Shot with wide-angle lens, golden ratio composition, National Geographic style, photorealistic.",
     verified: true,
@@ -56,7 +56,7 @@ const PROMPTS = [
   {
     id: "futuristic-space-station",
     title: "未来空间站内部",
-    category: "Sci-Fi",
+    category: "科幻",
     tags: ["太空", "空间站", "未来科技", "蓝色调"],
     prompt: "Interior of a futuristic space station orbiting Earth. Curved white walls with embedded holographic displays showing star maps. A large observation window reveals a stunning view of Earth's curvature with city lights glittering on the night side. Floating holographic interface panels, sleek minimalist furniture with zero-gravity design. Cool blue and white color palette, volumetric lighting, sci-fi concept art, highly detailed.",
     verified: true,
@@ -67,7 +67,7 @@ const PROMPTS = [
   {
     id: "majestic-dragon-mountain",
     title: "巨龙盘踞山脉",
-    category: "Fantasy",
+    category: "奇幻",
     tags: ["龙", "史诗", "奇幻", "山脉"],
     prompt: "A massive ancient dragon with iridescent emerald scales coiled around a jagged mountain peak. Its wings are spread wide, catching the last light of sunset. Wisps of smoke escape from its nostrils. A tiny adventurer stands on a distant ridge, emphasizing the dragon's enormous scale. Epic fantasy art style, dramatic atmospheric lighting, Lord of the Rings inspired, ultra-detailed, 8K.",
     verified: true,
@@ -78,7 +78,7 @@ const PROMPTS = [
   {
     id: "minimalist-brutalist-cafe",
     title: "极简粗野主义咖啡馆",
-    category: "Architecture",
+    category: "建筑",
     tags: ["极简", "混凝土", "室内", "咖啡馆"],
     prompt: "Interior of a minimalist brutalist cafe with raw concrete walls and floors. A single oak counter runs the length of the space, illuminated by a linear skylight. Metal stools line the counter. Potted monstera plants add organic contrast. Soft diffused daylight creates gentle shadows. Architectural photography style, neutral color palette, clean composition, 8K.",
     verified: true,
@@ -89,7 +89,7 @@ const PROMPTS = [
   {
     id: "arctic-fox-snow-portrait",
     title: "北极狐雪地特写",
-    category: "Animals",
+    category: "动物",
     tags: ["北极狐", "雪地", "特写", "野生动物"],
     prompt: "A close-up portrait of an Arctic fox in pristine white snow. Its thick winter fur is dusted with snowflakes, amber eyes staring directly at the camera. Soft overcast lighting creates an ethereal atmosphere. Shallow depth of field with creamy bokeh background. National Geographic wildlife photography, ultra-sharp focus on eyes, photorealistic, 8K.",
     verified: true,
@@ -100,7 +100,7 @@ const PROMPTS = [
   {
     id: "van-gogh-still-life-modern",
     title: "梵高风格现代静物",
-    category: "Still Life",
+    category: "静物",
     tags: ["梵高", "油画", "向日葵", "后印象派"],
     prompt: "A still life arrangement in the style of Van Gogh: a ceramic vase filled with sunflowers, a bowl of ripe peaches, and a folded linen cloth on a wooden table. Bold impasto brushstrokes with thick paint texture. Vibrant yellows, warm oranges, and deep blues. Swirling background pattern. Post-impressionist oil painting style, expressive and energetic, museum quality.",
     verified: true,
@@ -111,7 +111,7 @@ const PROMPTS = [
   {
     id: "artisan-sushi-plating",
     title: "匠人手握寿司摆盘",
-    category: "Food",
+    category: "美食",
     tags: ["寿司", "日料", "微距", "美食摄影"],
     prompt: "Macro food photography of artisan nigiri sushi on a black slate plate. A perfect piece of toro tuna with delicate knife marks, topped with a micro-thin slice of gold leaf. A dab of fresh wasabi, a thin ribbon of nori. Moisture glistens on the fish surface. Dark moody background with a single spotlight. Shot with 100mm macro lens, f/2.8, professional food photography, ultra-detailed.",
     verified: true,
@@ -122,7 +122,7 @@ const PROMPTS = [
   {
     id: "avant-garde-runway-look",
     title: "前卫T台高定造型",
-    category: "Fashion",
+    category: "时尚",
     tags: ["高级定制", "T台", "前卫", "时装周"],
     prompt: "Avant-garde haute couture runway look: a model wearing a sculptural gown made of translucent organza layers in gradient colors from deep red to pale pink. Architectural shoulder piece with geometric cutouts. Statement headpiece resembling frozen water droplets. Dramatic runway lighting with spotlights. Vogue editorial style, full body shot, fashion week aesthetic, ultra-detailed, 8K.",
     verified: true,
@@ -133,7 +133,7 @@ const PROMPTS = [
   {
     id: "steampunk-inventor-character",
     title: "蒸汽朋克发明家角色",
-    category: "Character",
+    category: "角色",
     tags: ["蒸汽朋克", "发明家", "角色设计", "黄铜"],
     prompt: "Character design sheet of a steampunk inventor: an elderly man with wild white hair and goggles pushed up on his forehead. Wearing a leather apron over a pinstripe vest, brass mechanical arm with exposed gears. Holding a glowing blue tesla coil device. Workshop background with blueprints and scattered tools. Detailed character concept art, warm color palette, painterly style, ArtStation quality.",
     verified: true,
@@ -144,7 +144,7 @@ const PROMPTS = [
   {
     id: "liquid-marble-abstraction",
     title: "液态大理石抽象",
-    category: "Abstract",
+    category: "抽象",
     tags: ["液态", "大理石", "流动", "抽象艺术"],
     prompt: "Abstract digital art of liquid marble in motion. Swirling ribbons of gold, black, and white paint frozen mid-motion against a dark background. Viscous fluid dynamics creating elegant organic shapes. Macro perspective with hyper-detailed surface textures. Iridescent highlights catch virtual light. 3D render quality, Octane render, 8K, visually mesmerizing.",
     verified: true,
@@ -155,7 +155,7 @@ const PROMPTS = [
   {
     id: "enchanted-forest-glow",
     title: "魔法森林萤光",
-    category: "Nature",
+    category: "自然",
     tags: ["森林", "萤火虫", "魔法", "绿色调"],
     prompt: "An enchanted forest at twilight with bioluminescent mushrooms glowing in soft blue and green tones. Fireflies drift between ancient oak trees draped in moss. A narrow path of stepping stones leads into the misty depths. Sun rays filter through the canopy creating god rays. Fairy tale atmosphere, fantasy nature photography, ethereal mood, 8K, highly detailed.",
     verified: true,
@@ -166,7 +166,7 @@ const PROMPTS = [
   {
     id: "shanghai-bund-blue-hour",
     title: "上海外滩蓝调时刻",
-    category: "Cityscape",
+    category: "城市",
     tags: ["上海", "外滩", "蓝调时刻", "天际线"],
     prompt: "The Shanghai Bund during blue hour, with the Pudong skyline illuminated across the Huangpu River. The Oriental Pearl Tower glows with pink and purple lights. Reflections shimmer on the calm river surface. A traditional wooden boat drifts in the foreground. Deep blue sky gradient, urban photography, long exposure water effect, cinematic, 8K.",
     verified: true,
@@ -177,7 +177,7 @@ const PROMPTS = [
   {
     id: "renaissance-angel-portrait",
     title: "文艺复兴天使肖像",
-    category: "Portrait",
+    category: "人像",
     tags: ["文艺复兴", "天使", "古典油画", "金色光"],
     prompt: "A Renaissance-style portrait of a seraphic angel with soft golden curls and large feathered wings. Wearing a flowing white robe with gold embroidery. Chiaroscuro lighting inspired by Caravaggio, with a warm golden glow from above. Olive branch in hand. Oil painting texture with visible brushstrokes. Italian Renaissance art style, museum quality, highly detailed.",
     verified: true,
@@ -188,7 +188,7 @@ const PROMPTS = [
   {
     id: "northern-lights-iceland",
     title: "冰岛北极光",
-    category: "Landscape",
+    category: "风景",
     tags: ["极光", "冰岛", "夜景", "长曝光"],
     prompt: "Spectacular Northern Lights aurora borealis dancing in vivid green and purple over the Jokulsarlon glacier lagoon in Iceland. Icebergs float in the still water, reflecting the aurora. A lone black sand beach in the foreground with ice chunks scattered like diamonds. Star-filled sky, Milky Way visible. Long exposure photography, ultra-wide angle, 8K, photorealistic.",
     verified: true,
@@ -199,7 +199,7 @@ const PROMPTS = [
   {
     id: "cyberpunk-street-market",
     title: "赛博朋克街头集市",
-    category: "Cyberpunk",
+    category: "赛博朋克",
     tags: ["集市", "霓虹", "全息广告", "雨夜"],
     prompt: "A bustling cyberpunk street market at night. Vendors sell glowing cybernetic implants and neon-colored street food under tarpaulin tents. Holographic advertisements float above the stalls. Rain creates reflective puddles on the ground. Diverse crowd of humans with cybernetic enhancements. Electric blue and magenta color scheme. Concept art, highly detailed, 8K.",
     verified: true,
@@ -210,7 +210,7 @@ const PROMPTS = [
   {
     id: "underwater-coral-city",
     title: "水下珊瑚城市",
-    category: "Fantasy",
+    category: "奇幻",
     tags: ["水下", "珊瑚", "城市", "奇幻"],
     prompt: "A fantastical underwater city built within a giant coral reef. Bioluminescent coral towers serve as buildings, with mermaid inhabitants swimming between them. Schools of glowing fish dart through archways. Soft blue-green underwater lighting with god rays from the surface. Fantasy concept art, Studio Ghibli inspired, ethereal and dreamlike, highly detailed, 8K.",
     verified: true,
@@ -221,7 +221,7 @@ const PROMPTS = [
   {
     id: "macro-dewdrop-spider-web",
     title: "微距露珠蛛网",
-    category: "Nature",
+    category: "自然",
     tags: ["微距", "露珠", "蛛网", "晨光"],
     prompt: "Extreme macro photography of a spider web covered in morning dew drops. Each droplet acts as a tiny lens, refracting the sunrise behind them. The web is strung between two tall grass blades. Soft golden morning light creates a sparkling effect. Bokeh background of green meadow. Shot with 100mm macro lens, f/4, ultra-sharp, photorealistic, 8K.",
     verified: false,
@@ -232,7 +232,7 @@ const PROMPTS = [
   {
     id: "floating-sky-island-temple",
     title: "悬浮天空岛神殿",
-    category: "Fantasy",
+    category: "奇幻",
     tags: ["悬浮岛", "神殿", "云海", "史诗"],
     prompt: "A majestic floating island temple suspended in the sky above a sea of clouds. Ancient stone architecture with cascading waterfalls that dissolve into mist before reaching the ground below. Golden sunset light bathes the temple. Birds circle around the island. Epic fantasy landscape, Studio Ghibli meets concept art, volumetric lighting, 8K, ultra-detailed.",
     verified: true,
@@ -243,7 +243,7 @@ const PROMPTS = [
   {
     id: "retro-80s-synthwave-beach",
     title: "80年代合成波海滩",
-    category: "Abstract",
+    category: "抽象",
     tags: ["合成波", "复古", "霓虹网格", "日落"],
     prompt: "A retro 1980s synthwave aesthetic beach scene. A neon grid floor stretches to the horizon where a massive striped sun sets in gradients of magenta, orange, and purple. Palm trees are silhouetted against the glowing sky. VHS scan lines and chromatic aberration. Vaporwave art style, nostalgic, vibrant neon colors, digital art, 8K.",
     verified: true,
@@ -254,7 +254,7 @@ const PROMPTS = [
   {
     id: "artisan-bakery-warm-light",
     title: "手作面包房暖光",
-    category: "Food",
+    category: "美食",
     tags: ["面包", "烘焙", "暖光", "手工"],
     prompt: "Interior of an artisan bakery bathed in warm morning light. Freshly baked sourdough loaves with crackling crusts are arranged on a flour-dusted wooden table. A vintage scale, woven baskets, and jars of seeds line the background. Steam rises from a fresh loaf. Golden hour light streams through a window. Cozy atmosphere, rustic food photography, shallow depth of field, 8K.",
     verified: true,
@@ -265,7 +265,7 @@ const PROMPTS = [
   {
     id: "glass-bridge-mountains",
     title: "玻璃桥观景台",
-    category: "Architecture",
+    category: "建筑",
     tags: ["玻璃桥", "悬崖", "现代建筑", "山脉"],
     prompt: "A transparent glass-bottomed bridge extending from a cliff edge over a dramatic mountain gorge. Visitors walk across, looking down at the thousand-meter drop below. The bridge's steel frame has a minimalist design. Lush green mountains stretch to the horizon under a clear blue sky. Architectural photography, wide angle, sense of scale, 8K, photorealistic.",
     verified: true,
@@ -276,7 +276,7 @@ const PROMPTS = [
   {
     id: "street-style-tokyo-harajuku",
     title: "东京原宿街头时尚",
-    category: "Fashion",
+    category: "时尚",
     tags: ["街头", "原宿", "日系", "彩色"],
     prompt: "Street fashion photography in Tokyo's Harajuku district. A young woman wearing a colorful layered outfit: oversized vintage denim jacket over a pastel tulle skirt, platform boots, and playful accessories. Posed against a graffitied wall. Natural daylight, candid expression. Vivid colors, Japanese street style, editorial fashion photography, 8K.",
     verified: true,
@@ -287,7 +287,7 @@ const PROMPTS = [
   {
     id: "majestic-lion-mane-portrait",
     title: "雄狮鬃毛特写",
-    category: "Animals",
+    category: "动物",
     tags: ["狮子", "特写", "金色", "威严"],
     prompt: "A regal male lion with a magnificent golden mane, sitting proudly on a rock in the Serengeti at sunset. His amber eyes gaze powerfully into the camera. Warm golden backlight illuminates the edges of his mane. Blurred savanna grassland in the background. Wildlife photography, ultra-sharp focus on eyes, shallow depth of field, National Geographic quality, 8K.",
     verified: true,
@@ -298,7 +298,7 @@ const PROMPTS = [
   {
     id: "moon-colony-base",
     title: "月球殖民地基地",
-    category: "Sci-Fi",
+    category: "科幻",
     tags: ["月球", "基地", "穹顶", "太空"],
     prompt: "A lunar colony base on the surface of the Moon. Multiple white geodesic dome structures connected by tunnels, with solar panels glinting in the harsh sunlight. Earth hangs in the black sky above. Lunar rovers parked outside. Astronauts in white suits walk near the airlock. Hard sci-fi style, photorealistic, dramatic lighting, 8K, highly detailed.",
     verified: true,
@@ -309,7 +309,7 @@ const PROMPTS = [
   {
     id: "watercolor-floral-composition",
     title: "水彩花卉构图",
-    category: "Still Life",
+    category: "静物",
     tags: ["水彩", "花卉", "柔色", "手绘"],
     prompt: "A delicate watercolor painting of a floral arrangement: peonies, ranunculus, and eucalyptus in a soft color palette of blush pink, sage green, and cream. Loose, flowing brushstrokes with water bleeds and granulation. White paper texture visible. Botanical illustration style, elegant and feminine, hand-painted feel, high resolution scan.",
     verified: true,
@@ -320,7 +320,7 @@ const PROMPTS = [
   {
     id: "cyber-samurai-warrior",
     title: "赛博武士战士",
-    category: "Character",
+    category: "角色",
     tags: ["武士", "赛博", "机械", "日式"],
     prompt: "A cyber samurai warrior in full armor: traditional Japanese armor plates redesigned with glowing circuit patterns and carbon fiber. A katana with a plasma blade. Half-human, half-cybernetic face with a glowing red optical implant. Standing in a rain-soaked alley with neon reflections. Ghost in the Shell inspired, dark and moody, concept art, highly detailed, 8K.",
     verified: true,
@@ -331,7 +331,7 @@ const PROMPTS = [
   {
     id: "venice-carnival-mask",
     title: "威尼斯面具节",
-    category: "Portrait",
+    category: "人像",
     tags: ["威尼斯", "面具", "狂欢节", "巴洛克"],
     prompt: "A mysterious Venetian carnival portrait. A person wearing an ornate baroque mask decorated with gold leaf, feathers, and crystals. Elaborate period costume with lace collar and velvet. Candlelight casts dramatic shadows. Dark background with a warm golden glow. Mysterious and elegant atmosphere, fine art portrait photography, chiaroscuro lighting, 8K.",
     verified: true,
@@ -342,7 +342,7 @@ const PROMPTS = [
   {
     id: "rainy-night-city-reflection",
     title: "雨夜城市倒影",
-    category: "Cityscape",
+    category: "城市",
     tags: ["雨夜", "倒影", "路灯", "氛围感"],
     prompt: "A rainy night city street with warm streetlight reflections shimmering on wet pavement. Blurred pedestrians with umbrellas walk past. Neon signs from shops glow through the rain. Puddles mirror the colorful lights. Moody atmospheric photography, shallow depth of field, cinematic color grading, teal and orange tones, 8K.",
     verified: true,
@@ -353,7 +353,7 @@ const PROMPTS = [
   {
     id: "crystal-cave-formation",
     title: "水晶洞穴奇观",
-    category: "Nature",
+    category: "自然",
     tags: ["水晶", "洞穴", "发光", "地下"],
     prompt: "Inside a spectacular crystal cave with massive selenite columns rising from the floor. The crystals glow with an inner blue-white luminescence. A small underground pool reflects the crystal formations. Stalactites hang from the ceiling. A lone explorer with a headlamp provides scale. Otherworldly atmosphere, cave photography, volumetric light, 8K, ultra-detailed.",
     verified: true,
@@ -364,7 +364,7 @@ const PROMPTS = [
   {
     id: "minimalist-product-render",
     title: "极简产品渲染",
-    category: "Abstract",
+    category: "抽象",
     tags: ["极简", "产品", "3D渲染", "渐变"],
     prompt: "A minimalist 3D product render of a premium skincare bottle on a pedestal. Soft gradient background transitioning from warm peach to cool lavender. The bottle has a frosted glass finish with brushed gold cap. Soft studio lighting with subtle reflections on the surface. Clean, modern, commercial product photography style, Octane render, 8K, ultra-clean.",
     verified: true,
@@ -375,7 +375,7 @@ const PROMPTS = [
   {
     id: "holographic-city-dashboard",
     title: "全息城市数据面板",
-    category: "Sci-Fi",
+    category: "科幻",
     tags: ["全息", "数据", "界面", "未来城市"],
     prompt: "A futuristic holographic city dashboard floating in mid-air, showing real-time data visualizations of a smart city. Glowing 3D city map with data streams, traffic patterns, and energy grids. Translucent blue and cyan interface elements. A person interacts with the hologram using hand gestures. Dark room with ambient glow. Sci-fi UI design, volumetric hologram, 8K.",
     verified: false,
@@ -386,7 +386,7 @@ const PROMPTS = [
   {
     id: "autumn-forest-cabin",
     title: "秋日森林木屋",
-    category: "Landscape",
+    category: "风景",
     tags: ["秋天", "木屋", "森林", "暖色调"],
     prompt: "A cozy wooden cabin nestled in an autumn forest. Golden, orange, and red maple leaves blanket the ground and roof. Smoke gently rises from the stone chimney. A winding path leads to the front door. Soft afternoon sunlight filters through the colorful canopy. Warm and inviting atmosphere, landscape photography, golden hour, 8K, photorealistic.",
     verified: true,
@@ -397,7 +397,7 @@ const PROMPTS = [
   {
     id: "luxury-watch-macro",
     title: "奢华腕表微距",
-    category: "Still Life",
+    category: "静物",
     tags: ["腕表", "微距", "金属", "奢华"],
     prompt: "Extreme macro shot of a luxury mechanical watch movement. Exposed gears, jewels, and balance wheel visible through the skeleton dial. Brushed steel and rose gold components catch the light. Pristine surface with microscopic engravings. Studio lighting with controlled reflections. Product macro photography, focus stacked, ultra-detailed, 8K.",
     verified: true,
@@ -408,7 +408,7 @@ const PROMPTS = [
   {
     id: "desert-oasis-night-stars",
     title: "沙漠绿洲星空",
-    category: "Landscape",
+    category: "风景",
     tags: ["沙漠", "绿洲", "星空", "银河"],
     prompt: "A desert oasis at night with a small pool of water reflecting the Milky Way galaxy overhead. Palm trees silhouette against the star-filled sky. Sand dunes glow faintly under starlight. A campfire flickers near the water's edge. Astrophotography, ultra-long exposure, pin-sharp stars, deep sky colors, 8K, photorealistic.",
     verified: true,
@@ -421,7 +421,7 @@ const PROMPTS = [
 const FAQS = [
   {
     q: "什么是 PromptHub？",
-    a: "PromptHub 是一个专注于 AI 图像生成的高质量提示词收藏平台。我们收录经过测试验证的提示词，覆盖人像、风景、科幻、奇幻等 14 个主题分类，帮助创作者快速找到灵感，一键复制即可使用。"
+    a: "PromptHub 是一个专注于 AI 图像生成的高质量提示词收藏平台。我们收录经过测试验证的提示词，覆盖人像、风景、科幻、赛博朋克、奇幻、城市、自然、动物、建筑、静物、美食、时尚、角色、抽象共 14 个主题分类，帮助创作者快速找到灵感，一键复制即可使用。"
   },
   {
     q: "提示词是如何被验证的？",

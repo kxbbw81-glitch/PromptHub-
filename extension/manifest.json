@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PromptHub Collector",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "一键抓取网页上的 AI 提示词，智能识别帖子内容图片（排除头像/图标），右键收藏，批量同步到 PromptHub",
   "permissions": [
     "activeTab",

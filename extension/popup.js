@@ -119,27 +119,27 @@ const SCAN_FUNCTION = () => {
   }
 
   const CAT_KW = {
-    Portrait:['portrait','face','model','person','woman','man','selfie','headshot','girl','boy'],
-    Landscape:['landscape','mountain','sunrise','sunset','valley','horizon','forest','lake'],
-    Architecture:['architecture','building','interior','facade','house','skyscraper'],
-    'Sci-Fi':['sci-fi','space','futuristic','robot','alien','spaceship','galaxy'],
-    Cyberpunk:['cyberpunk','neon','cyber','hologram','dystopian'],
-    Fantasy:['fantasy','dragon','wizard','magic','elf','dungeon','castle','knight'],
-    Animals:['animal','dog','cat','lion','wolf','bird','wildlife','fox','tiger'],
-    'Still Life':['still life','vase','fruit','tabletop'],
-    Food:['food','dish','cuisine','sushi','pizza','coffee','dessert','cake'],
-    Fashion:['fashion','outfit','runway','couture','dress','streetwear'],
-    Character:['character','concept art','hero','villain','warrior','samurai'],
-    Abstract:['abstract','swirl','geometric','pattern','texture','fractal'],
-    Nature:['forest','flower','tree','ocean','river','leaf','butterfly','waterfall'],
-    Cityscape:['city','urban','skyline','street','cityscape','downtown']
+    '人像':['portrait','face','model','person','woman','man','selfie','headshot','girl','boy'],
+    '风景':['landscape','mountain','sunrise','sunset','valley','horizon','forest','lake'],
+    '建筑':['architecture','building','interior','facade','house','skyscraper'],
+    '科幻':['sci-fi','space','futuristic','robot','alien','spaceship','galaxy'],
+    '赛博朋克':['cyberpunk','neon','cyber','hologram','dystopian'],
+    '奇幻':['fantasy','dragon','wizard','magic','elf','dungeon','castle','knight'],
+    '动物':['animal','dog','cat','lion','wolf','bird','wildlife','fox','tiger'],
+    '静物':['still life','vase','fruit','tabletop'],
+    '美食':['food','dish','cuisine','sushi','pizza','coffee','dessert','cake'],
+    '时尚':['fashion','outfit','runway','couture','dress','streetwear'],
+    '角色':['character','concept art','hero','villain','warrior','samurai'],
+    '抽象':['abstract','swirl','geometric','pattern','texture','fractal'],
+    '自然':['forest','flower','tree','ocean','river','leaf','butterfly','waterfall'],
+    '城市':['city','urban','skyline','street','cityscape','downtown']
   };
 
   function detectCat(text) {
     const l = text.toLowerCase();
-    let cat = 'Abstract', max = 0;
+    let cat = '抽象', max = 0;
     for (const [c, kws] of Object.entries(CAT_KW)) {
-      const s = kws.reduce((a, kw) => a + (l.includes(kw) ? 1 : 0), 0);
+      const s = kws.reduce((a, kw) => a + (l.includes(kw.toLowerCase()) ? 1 : 0), 0);
       if (s > max) { max = s; cat = c; }
     }
     return cat;

@@ -7,30 +7,44 @@ const WEBSITE_URL = 'https://prompthub.kxbbw81.workers.dev';
 const WEBSITE_TAB_PATTERN = '*://prompthub.kxbbw81.workers.dev/*';
 const QUEUE_KEY = 'prompthub_queue';
 
-// --- 分类关键词 ---
+// --- 分类关键词（中文分类，按提示词词根匹配）---
 const CAT_KEYWORDS = {
-  Portrait: ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot', 'girl', 'boy'],
-  Landscape: ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon', 'forest', 'lake', 'ocean'],
-  Architecture: ['architecture', 'building', 'interior', 'facade', 'house', 'skyscraper', 'bridge'],
-  'Sci-Fi': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'mars', 'galaxy'],
-  Cyberpunk: ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian', 'night city'],
-  Fantasy: ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle', 'knight'],
-  Animals: ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox', 'tiger', 'eagle'],
-  'Still Life': ['still life', 'vase', 'fruit', 'flowers arrangement', 'tabletop'],
-  Food: ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee', 'dessert', 'cake'],
-  Fashion: ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear', 'model'],
-  Character: ['character', 'concept art', 'hero', 'villain', 'npc', 'warrior', 'samurai'],
-  Abstract: ['abstract', 'swirl', 'geometric', 'pattern', 'texture', 'fractal'],
-  Nature: ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly', 'garden', 'waterfall'],
-  Cityscape: ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown', 'avenue']
+  '人像': ['portrait', 'face', 'model', 'person', 'woman', 'man', 'selfie', 'headshot', 'girl', 'boy',
+           '人像', '人物', '肖像', '人脸', '女性', '男性', '女孩', '男孩'],
+  '风景': ['landscape', 'mountain', 'sunrise', 'sunset', 'valley', 'horizon', 'forest', 'lake', 'ocean',
+           '风景', '风光', '山', '日出', '日落', '山谷', '湖泊', '海洋'],
+  '建筑': ['architecture', 'building', 'interior', 'facade', 'house', 'skyscraper', 'bridge',
+           '建筑', '室内', '摩天大楼', '房屋', '桥梁', '空间'],
+  '科幻': ['sci-fi', 'space', 'futuristic', 'robot', 'alien', 'spaceship', 'mars', 'galaxy',
+           '科幻', '太空', '未来', '机器人', '外星人', '飞船', '火星'],
+  '赛博朋克': ['cyberpunk', 'neon', 'cyber', 'hologram', 'dystopian', 'night city',
+               '赛博朋克', '赛博', '霓虹', '全息', '反乌托邦'],
+  '奇幻': ['fantasy', 'dragon', 'wizard', 'magic', 'elf', 'dungeon', 'castle', 'knight',
+           '奇幻', '龙', '巫师', '魔法', '精灵', '城堡', '骑士'],
+  '动物': ['animal', 'dog', 'cat', 'lion', 'wolf', 'bird', 'wildlife', 'fox', 'tiger', 'eagle',
+           '动物', '狗', '猫', '狮子', '狼', '鸟', '野生动物', '狐狸', '老虎', '鹰'],
+  '静物': ['still life', 'vase', 'fruit', 'flowers arrangement', 'tabletop',
+           '静物', '花瓶', '水果', '花卉', '摆盘'],
+  '美食': ['food', 'dish', 'cuisine', 'restaurant', 'sushi', 'pizza', 'coffee', 'dessert', 'cake',
+           '美食', '食物', '料理', '餐厅', '寿司', '披萨', '咖啡', '甜点', '蛋糕'],
+  '时尚': ['fashion', 'outfit', 'runway', 'couture', 'dress', 'streetwear', 'model',
+           '时尚', '服装', '穿搭', '走秀', '礼服', '街拍'],
+  '角色': ['character', 'concept art', 'hero', 'villain', 'npc', 'warrior', 'samurai',
+           '角色', '概念艺术', '英雄', '反派', '战士', '武士'],
+  '抽象': ['abstract', 'swirl', 'geometric', 'pattern', 'texture', 'fractal',
+           '抽象', '几何', '图案', '纹理', '分形'],
+  '自然': ['forest', 'flower', 'tree', 'ocean', 'river', 'leaf', 'butterfly', 'garden', 'waterfall',
+           '自然', '森林', '花', '树', '河流', '叶子', '蝴蝶', '花园', '瀑布'],
+  '城市': ['city', 'urban', 'skyline', 'street', 'cityscape', 'downtown', 'avenue',
+           '城市', '都市', '天际线', '街道', '市中心', '城景']
 };
 
 function detectCategory(text) {
   const lower = text.toLowerCase();
-  let category = 'Abstract';
+  let category = '抽象';
   let maxScore = 0;
   for (const [cat, kws] of Object.entries(CAT_KEYWORDS)) {
-    const score = kws.reduce((s, kw) => s + (lower.includes(kw) ? 1 : 0), 0);
+    const score = kws.reduce((s, kw) => s + (lower.includes(kw.toLowerCase()) ? 1 : 0), 0);
     if (score > maxScore) { maxScore = score; category = cat; }
   }
   return category;
