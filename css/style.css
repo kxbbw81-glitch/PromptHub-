@@ -818,6 +818,39 @@ button {
   border-color: var(--text);
 }
 
+.active-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-height: 42px;
+  margin-top: 14px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.active-filter-bar span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text-soft);
+  font-weight: 600;
+}
+
+.active-filter-bar button {
+  min-height: 30px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--text);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 /* --- Prompt Cards Grid --- */
 .prompts-grid {
   display: grid;
@@ -1058,6 +1091,15 @@ button {
   top: calc(var(--header-h) + 20px);
 }
 
+.detail-media-label {
+  margin: 0 0 8px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .detail-media {
   position: relative;
   overflow: hidden;
@@ -1110,6 +1152,25 @@ button {
 .detail-thumb.active {
   opacity: 1;
   border-color: var(--yellow-dark);
+}
+
+.detail-reference-block {
+  margin-top: 18px;
+}
+
+.detail-reference-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+  gap: 10px;
+}
+
+.detail-reference-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-soft);
 }
 
 .detail-main {
@@ -1172,6 +1233,16 @@ button {
 
 .detail-primary-action {
   background: var(--text);
+}
+
+.detail-try-action {
+  background: var(--yellow);
+  color: var(--text);
+}
+
+.detail-try-action:hover {
+  background: var(--yellow-dark);
+  color: var(--text);
 }
 
 .detail-secondary-action {

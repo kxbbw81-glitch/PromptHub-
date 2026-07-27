@@ -425,6 +425,7 @@ const PROMPTS = [
     verified: true,
     image: "https://cdn.bananaprompts.fun/prompts/wLHp0FaR8Eh0IZDeXTblx.webp",
     images: ["https://cdn.bananaprompts.fun/prompts/wLHp0FaR8Eh0IZDeXTblx.webp"],
+    referenceImages: ["https://cdn.bananaprompts.fun/prompts/NghH-RWSQT9IM7-vOjGML.webp"],
     aspectRatio: "3:4",
     model: "Nano Banana 2",
     sourceUrl: "https://bananaprompts.fun/prompt/elegant-home-fashion-portrait-yzcxx3",

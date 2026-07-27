@@ -10,6 +10,7 @@
   let currentCategory = 'All';
   let currentSearch = '';
   let currentPage = 1;
+  let detailReturnContext = null;
   const PAGE_SIZE = 24;
 
   // --- Collections (localStorage) ---
@@ -200,6 +201,78 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  function escapeJsString(value) {
+    return String(value || '')
+      .replace(/\\/g, '\\\\')
+      .replace(/'/g, "\\'")
+      .replace(/\r?\n/g, ' ');
+  }
+
+  function getTryUrl(prompt) {
+    if (prompt.tryUrl) return prompt.tryUrl;
+    const match = (prompt.sourceUrl || '').match(/bananaprompts\.fun\/prompt\/([^/?#]+)/);
+    if (match) return `https://bananaprompts.fun/images/create?prompt=${encodeURIComponent(match[1])}`;
+    return '';
+  }
+
+  function getExploreHash() {
+    const params = new URLSearchParams();
+    if (currentCategory !== 'All') params.set('category', currentCategory);
+    if (currentSearch.trim()) params.set('q', currentSearch.trim());
+    if (currentPage > 1) params.set('page', String(currentPage));
+    const query = params.toString();
+    return query ? `#/explore?${query}` : '#/explore';
+  }
+
+  function syncExploreHash(replace = true) {
+    if (currentRoute !== 'explore') return;
+    const targetHash = getExploreHash();
+    if (window.location.hash === targetHash) return;
+    const method = replace ? 'replaceState' : 'pushState';
+    history[method]({ route: 'explore', category: currentCategory, search: currentSearch, page: currentPage }, '', targetHash);
+  }
+
+  function setNavActive(route) {
+    $$('.nav a').forEach(a => { a.style.color = ''; });
+    const activeNav = $(`.nav a[data-route="${route}"]`);
+    if (activeNav) activeNav.style.color = 'var(--text)';
+  }
+
+  function getBrowseContextLabel(route) {
+    if (route === 'collections') return '返回我的收藏';
+    if (route === 'home') return '返回首页精选';
+    if (currentSearch.trim()) return `返回「${currentSearch.trim()}」结果`;
+    if (currentCategory !== 'All') return `返回${currentCategory}分类`;
+    return '返回探索';
+  }
+
+  function captureDetailReturnContext(isCollection) {
+    if (currentRoute === 'detail' && detailReturnContext) return;
+    const route = isCollection && currentRoute !== 'explore'
+      ? 'collections'
+      : (currentRoute === 'home' || currentRoute === 'collections' ? currentRoute : 'explore');
+    detailReturnContext = {
+      route,
+      category: currentCategory,
+      search: currentSearch,
+      page: currentPage,
+      label: getBrowseContextLabel(route)
+    };
+  }
+
+  function showExploreWithState({ category = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
+    currentRoute = 'explore';
+    currentCategory = category;
+    currentSearch = search;
+    currentPage = page;
+    window.scrollTo(0, 0);
+    renderExplore();
+    setNavActive('explore');
+    if (window.location.hash !== hash) {
+      history.pushState({ route: 'explore', category, search, page }, '', hash);
+    }
   }
 
   function parsePromptSections(promptText) {
@@ -609,11 +682,16 @@
     const prompt = findPromptById(id, isCollection);
     if (!prompt) return;
 
+    if (updateHash) {
+      captureDetailReturnContext(!!isCollection || !!prompt.isCollection);
+    } else if (!detailReturnContext) {
+      detailReturnContext = { route: 'explore', category: 'All', search: '', page: 1, label: '返回探索' };
+    }
     currentRoute = 'detail';
     window.scrollTo(0, 0);
     renderPromptDetail(prompt, !!isCollection || !!prompt.isCollection);
 
-    $$('.nav a').forEach(a => { a.style.color = ''; });
+    setNavActive('');
 
     if (updateHash) {
       const targetHash = `${isCollection || prompt.isCollection ? '#/collection/' : '#/prompt/'}${encodeURIComponent(prompt.id)}`;
@@ -635,24 +713,31 @@
       .slice(0, 4);
     const isCol = isCollected(prompt.id) || isCollection;
     const verifiedLabel = prompt.verified ? '已验证' : (prompt.source ? prompt.source : '待验证');
+    const tryUrl = getTryUrl(prompt);
+    const referenceImages = prompt.referenceImages || [];
+    const returnLabel = detailReturnContext?.label || '返回探索';
     const sourceLink = prompt.sourceUrl
       ? `<a class="detail-source-link" href="${escapeHtml(prompt.sourceUrl)}" target="_blank" rel="noopener">打开来源</a>`
+      : '';
+    const tryLink = tryUrl
+      ? `<a class="copy-btn detail-try-action" href="${escapeHtml(tryUrl)}" target="_blank" rel="noopener">Try / 去生成</a>`
       : '';
 
     app.innerHTML = `
       <section class="detail-page">
         <div class="container">
           <div class="detail-breadcrumb">
-            <button class="detail-back" onclick="returnToBrowse()">← 返回探索</button>
+            <button class="detail-back" onclick="returnToBrowse()">← ${escapeHtml(returnLabel)}</button>
             <span>PromptHub</span>
             <span>/</span>
-            <button onclick="filterByCategoryAndOpen('${escapeHtml(prompt.category)}')">${escapeHtml(prompt.category)}</button>
+            <button onclick="filterByCategoryAndOpen('${escapeJsString(prompt.category)}')">${escapeHtml(prompt.category)}</button>
             <span>/</span>
             <strong>${escapeHtml(prompt.title)}</strong>
           </div>
 
           <div class="detail-layout">
             <aside class="detail-media-panel">
+              <div class="detail-media-label">Result Image</div>
               <div class="detail-media">
                 <img id="detail-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" onerror="this.src='https://picsum.photos/seed/fallback/720/720'" />
                 ${allImages.length > 1 ? `<span class="detail-image-count">${allImages.length} 张图片</span>` : ''}
@@ -664,6 +749,16 @@
                   `).join('')}
                 </div>
               ` : ''}
+              ${referenceImages.length ? `
+                <div class="detail-reference-block">
+                  <div class="detail-media-label">Reference Images</div>
+                  <div class="detail-reference-grid">
+                    ${referenceImages.map((url, i) => `
+                      <img src="${escapeHtml(url)}" alt="Reference ${i + 1}" onerror="this.style.display='none'" />
+                    `).join('')}
+                  </div>
+                </div>
+              ` : ''}
             </aside>
 
             <article class="detail-main">
@@ -672,10 +767,11 @@
                 <span class="detail-status">${escapeHtml(verifiedLabel)}</span>
               </div>
               <h1>${escapeHtml(prompt.title)}</h1>
-              <p class="detail-summary">按 Banana Prompts 的详情页交互整理：先看元数据，再阅读结构化提示词，一键复制后即可去生成工具使用。</p>
+              <p class="detail-summary">像 Banana Prompts 一样，把图片参考、结构化提示词、模型参数和下一步动作放在同一个任务页面里。</p>
 
               <div class="detail-actions">
                 <button class="copy-btn detail-primary-action" id="detail-copy-btn">📋 一键复制提示词</button>
+                ${tryLink}
                 ${isCollection
                   ? `<button class="copy-btn detail-danger-action" id="detail-delete-btn">🗑 删除收藏</button>`
                   : `<button class="copy-btn detail-secondary-action" id="detail-collect-btn">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`}
@@ -704,7 +800,7 @@
               <div class="detail-tags-block">
                 <span>标签筛选</span>
                 <div class="modal-tags">
-                  ${(prompt.tags || []).map(t => `<button class="prompt-tag modal-tag-clickable" onclick="filterByTag('${escapeHtml(t).replace(/'/g, "\\'")}')">${escapeHtml(t)}</button>`).join('')}
+                  ${(prompt.tags || []).map(t => `<button class="prompt-tag modal-tag-clickable" onclick="filterByTag('${escapeJsString(t)}')">${escapeHtml(t)}</button>`).join('')}
                 </div>
               </div>
             </article>
@@ -713,7 +809,7 @@
           <section class="detail-related">
             <div class="detail-related-head">
               <h2>相关提示词</h2>
-              <button class="btn btn-outline" onclick="filterByCategoryAndOpen('${escapeHtml(prompt.category)}')">查看 ${escapeHtml(prompt.category)} 分类</button>
+              <button class="btn btn-outline" onclick="filterByCategoryAndOpen('${escapeJsString(prompt.category)}')">查看 ${escapeHtml(prompt.category)} 分类</button>
             </div>
             <div class="prompts-grid" id="detail-related-grid"></div>
           </section>
@@ -773,24 +869,40 @@
   };
 
   window.returnToBrowse = function () {
+    const context = detailReturnContext || { route: 'explore', category: 'All', search: '', page: 1 };
+    detailReturnContext = null;
+
+    if (context.route === 'home') {
+      navigate('home');
+      if (window.location.hash !== '#/home') history.pushState({ route: 'home' }, '', '#/home');
+      return;
+    }
+
+    if (context.route === 'collections') {
+      navigate('collections');
+      if (window.location.hash !== '#/collections') history.pushState({ route: 'collections' }, '', '#/collections');
+      return;
+    }
+
     currentRoute = 'explore';
+    currentCategory = context.category || 'All';
+    currentSearch = context.search || '';
+    currentPage = context.page || 1;
     window.scrollTo(0, 0);
     renderExplore();
-    $$('.nav a').forEach(a => { a.style.color = ''; });
-    const activeNav = $('.nav a[data-route="explore"]');
-    if (activeNav) activeNav.style.color = 'var(--text)';
-    if (window.location.hash.startsWith('#/prompt/') || window.location.hash.startsWith('#/collection/')) {
-      history.pushState({ route: 'explore' }, '', '#/explore');
-    }
+    setNavActive('explore');
+    const targetHash = getExploreHash();
+    if (window.location.hash !== targetHash) history.pushState({ route: 'explore' }, '', targetHash);
   };
 
   window.filterByCategoryAndOpen = function (catName) {
-    currentCategory = catName;
-    currentSearch = '';
-    currentPage = 1;
-    currentRoute = 'explore';
-    renderExplore();
-    if (window.location.hash !== '#/explore') history.pushState({ route: 'explore' }, '', '#/explore');
+    detailReturnContext = null;
+    showExploreWithState({
+      category: catName,
+      search: '',
+      page: 1,
+      hash: `#/category/${encodeURIComponent(catName)}`
+    });
   };
 
   // --- Render: Home ---
@@ -894,7 +1006,7 @@
 
     const catGrid = $('#categories-grid');
     CATEGORIES.forEach(cat => {
-      const card = el('div', { class: 'category-card', onclick: () => { navigate('explore'); setTimeout(() => filterByCategory(cat.name), 100); } });
+      const card = el('div', { class: 'category-card', onclick: () => filterByCategoryAndOpen(cat.name) });
       card.innerHTML = `<div class="category-icon">${cat.icon}</div><div class="category-name">${cat.name}</div><div class="category-desc">${cat.desc}</div><div class="category-count">${catCounts[cat.name] || 0} 个提示词</div>`;
       catGrid.appendChild(card);
     });
@@ -926,6 +1038,7 @@
             </div>
           </div>
           <div class="filter-chips" id="filter-chips"></div>
+          <div class="active-filter-bar" id="active-filter-bar"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
           <div class="prompts-grid" id="prompts-grid"></div>
           <div class="pagination" id="pagination"></div>
@@ -939,12 +1052,18 @@
 
     const chipsContainer = $('#filter-chips');
     const allChip = el('button', { class: 'filter-chip' + (currentCategory === 'All' ? ' active' : '') }, '全部');
-    allChip.addEventListener('click', () => { currentCategory = 'All'; currentPage = 1; updateChips(); renderPromptsGrid(); });
+    allChip.addEventListener('click', () => { currentCategory = 'All'; currentPage = 1; updateChips(); renderPromptsGrid(); syncExploreHash(false); });
     chipsContainer.appendChild(allChip);
 
     CATEGORIES.forEach(cat => {
       const chip = el('button', { class: 'filter-chip' + (currentCategory === cat.name ? ' active' : '') }, `${cat.icon} ${cat.name}`);
-      chip.addEventListener('click', () => { currentCategory = cat.name; currentPage = 1; updateChips(); renderPromptsGrid(); });
+      chip.addEventListener('click', () => {
+        currentCategory = cat.name;
+        currentPage = 1;
+        updateChips();
+        renderPromptsGrid();
+        syncExploreHash(false);
+      });
       chipsContainer.appendChild(chip);
     });
 
@@ -952,6 +1071,7 @@
       currentSearch = e.target.value;
       currentPage = 1;
       renderPromptsGrid();
+      syncExploreHash(true);
     });
 
     renderPromptsGrid();
@@ -964,6 +1084,17 @@
       if (chips[i + 1]) chips[i + 1].classList.toggle('active', currentCategory === cat.name);
     });
   }
+
+  window.clearExploreFilters = function () {
+    currentCategory = 'All';
+    currentSearch = '';
+    currentPage = 1;
+    const input = $('#explore-search-input');
+    if (input) input.value = '';
+    updateChips();
+    renderPromptsGrid();
+    syncExploreHash(false);
+  };
 
   function renderPromptsGrid() {
     // 合并内置提示词 + 用户收藏，收藏排前面
@@ -986,6 +1117,7 @@
     const noResults = $('#no-results');
     const countEl = $('#result-count');
     const paginationEl = $('#pagination');
+    const activeBar = $('#active-filter-bar');
 
     // 分页计算
     const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
@@ -999,6 +1131,15 @@
       if (currentSearch) countText += ` · 搜索: "${currentSearch}"`;
       if (totalPages > 1) countText += ` · 第 ${currentPage}/${totalPages} 页（每页 ${PAGE_SIZE} 个）`;
       countEl.textContent = countText;
+    }
+
+    if (activeBar) {
+      const activeFilters = [];
+      if (currentCategory !== 'All') activeFilters.push(`<span>分类：${escapeHtml(currentCategory)}</span>`);
+      if (currentSearch.trim()) activeFilters.push(`<span>关键词：${escapeHtml(currentSearch.trim())}</span>`);
+      activeBar.innerHTML = activeFilters.length
+        ? `${activeFilters.join('')}<button onclick="clearExploreFilters()">清空筛选</button>`
+        : '<span>选择分类、输入关键词，或从详情页点击标签继续探索。</span>';
     }
 
     if (filtered.length === 0) {
@@ -1070,11 +1211,13 @@
   function filterByTag(tag) {
     const overlay = $('#modal-overlay');
     if (overlay) overlay.classList.remove('active');
-    currentSearch = tag;
-    currentCategory = 'All';
-    currentPage = 1;
-    navigate('explore', { preserve: true });
-    if (window.location.hash !== '#/explore') history.pushState({ route: 'explore' }, '', '#/explore');
+    detailReturnContext = null;
+    showExploreWithState({
+      category: 'All',
+      search: tag,
+      page: 1,
+      hash: `#/tag/${encodeURIComponent(tag)}`
+    });
     setTimeout(() => {
       const input = $('#explore-search-input');
       if (input) input.value = tag;
@@ -1735,9 +1878,7 @@
     else if (route === 'import') renderImport();
     else if (route === 'collections') renderCollections();
 
-    $$('.nav a').forEach(a => { a.style.color = ''; });
-    const activeNav = $(`.nav a[data-route="${route}"]`);
-    if (activeNav) activeNav.style.color = 'var(--text)';
+    setNavActive(route);
   }
 
   window.navigate = navigate;
@@ -1750,7 +1891,13 @@
     const navSearchInput = $('#nav-search-input');
     if (navSearchInput) {
       navSearchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') { currentSearch = e.target.value; currentCategory = 'All'; currentPage = 1; navigate('explore', { preserve: true }); }
+        if (e.key === 'Enter') {
+          currentSearch = e.target.value;
+          currentCategory = 'All';
+          currentPage = 1;
+          navigate('explore', { preserve: true });
+          syncExploreHash(false);
+        }
       });
     }
 
@@ -1764,13 +1911,38 @@
     // 支持 URL hash 路由（插件同步时打开 #/collections 等链接）
     function handleHashRoute() {
       const hash = window.location.hash.replace(/^#\/?/, '');
+      const [path, queryString = ''] = hash.split('?');
       const detailMatch = hash.match(/^(prompt|collection)\/(.+)$/);
       if (detailMatch) {
         openPromptDetail(decodeURIComponent(detailMatch[2]), detailMatch[1] === 'collection', false);
         return true;
       }
-      if (hash && ['home', 'explore', 'import', 'collections'].includes(hash)) {
-        navigate(hash);
+      const categoryMatch = path.match(/^category\/(.+)$/);
+      if (categoryMatch) {
+        currentCategory = decodeURIComponent(categoryMatch[1]);
+        currentSearch = '';
+        currentPage = 1;
+        navigate('explore', { preserve: true });
+        return true;
+      }
+      const tagMatch = path.match(/^tag\/(.+)$/);
+      if (tagMatch) {
+        currentCategory = 'All';
+        currentSearch = decodeURIComponent(tagMatch[1]);
+        currentPage = 1;
+        navigate('explore', { preserve: true });
+        return true;
+      }
+      if (path === 'explore') {
+        const params = new URLSearchParams(queryString);
+        currentCategory = params.get('category') || 'All';
+        currentSearch = params.get('q') || '';
+        currentPage = Number(params.get('page') || 1);
+        navigate('explore', { preserve: true });
+        return true;
+      }
+      if (path && ['home', 'import', 'collections'].includes(path)) {
+        navigate(path);
         return true;
       }
       return false;
