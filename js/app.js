@@ -56,6 +56,25 @@
     return true;
   }
 
+  function updateCollection(id, patch) {
+    const list = getCollections();
+    const index = list.findIndex(c => c.id === id);
+    if (index === -1) return null;
+
+    const now = new Date().toISOString();
+    const previous = list[index];
+    const next = {
+      ...previous,
+      ...patch,
+      category: normalizeCategory(patch.category || previous.category),
+      date: previous.date || now.slice(0, 10),
+      updatedAt: now
+    };
+    list[index] = next;
+    localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
+    return next;
+  }
+
   function deleteCollection(id) {
     const list = getCollections().filter(c => c.id !== id);
     localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
@@ -716,12 +735,68 @@
     const tryUrl = getTryUrl(prompt);
     const referenceImages = prompt.referenceImages || [];
     const returnLabel = detailReturnContext?.label || '返回探索';
+    const editableImagesText = allImages.join('\n');
+    const editableReferenceImagesText = referenceImages.join('\n');
+    const editableImageRows = Math.min(Math.max(allImages.length, 2), 5);
+    const editableReferenceRows = Math.min(Math.max(referenceImages.length, 2), 4);
+    const categoryOptions = CATEGORIES.map(c => `
+      <option value="${escapeHtml(c.name)}" ${normalizeCategory(c.name) === normalizeCategory(prompt.category) ? 'selected' : ''}>${escapeHtml(`${c.icon} ${c.name}`)}</option>
+    `).join('');
     const sourceLink = prompt.sourceUrl
       ? `<a class="detail-source-link" href="${escapeHtml(prompt.sourceUrl)}" target="_blank" rel="noopener">打开来源</a>`
       : '';
     const tryLink = tryUrl
       ? `<a class="copy-btn detail-try-action" href="${escapeHtml(tryUrl)}" target="_blank" rel="noopener">Try / 去生成</a>`
       : '';
+    const editPanel = isCollection ? `
+      <div class="detail-edit-panel" id="detail-edit-panel" hidden>
+        <div class="detail-edit-head">
+          <div>
+            <strong>校正收藏内容</strong>
+            <p>系统自动获取的内容如有异常，可以自行编辑。按 Enter 保存，Shift + Enter 换行。</p>
+          </div>
+          <button class="detail-edit-close" id="detail-cancel-edit-icon" type="button" aria-label="取消编辑">×</button>
+        </div>
+        <div class="detail-edit-grid">
+          <label class="detail-edit-field">
+            标题
+            <input id="detail-edit-title" type="text" value="${escapeHtml(prompt.title)}" />
+          </label>
+          <label class="detail-edit-field">
+            分类
+            <select id="detail-edit-category">${categoryOptions}</select>
+          </label>
+          <label class="detail-edit-field">
+            宽高比
+            <input id="detail-edit-aspect" type="text" value="${escapeHtml(prompt.aspectRatio || '')}" placeholder="如 3:4" />
+          </label>
+          <label class="detail-edit-field">
+            模型
+            <input id="detail-edit-model" type="text" value="${escapeHtml(prompt.model || '')}" placeholder="通用 AI 图像模型" />
+          </label>
+          <label class="detail-edit-field detail-edit-field-wide">
+            标签
+            <input id="detail-edit-tags" type="text" value="${escapeHtml((prompt.tags || []).join(', '))}" placeholder="逗号分隔" />
+          </label>
+          <label class="detail-edit-field detail-edit-field-wide">
+            结果图片链接
+            <textarea id="detail-edit-images" rows="${editableImageRows}" placeholder="每行一个图片 URL">${escapeHtml(editableImagesText)}</textarea>
+          </label>
+          <label class="detail-edit-field detail-edit-field-wide">
+            参考图片链接
+            <textarea id="detail-edit-reference-images" rows="${editableReferenceRows}" placeholder="每行一个图片 URL">${escapeHtml(editableReferenceImagesText)}</textarea>
+          </label>
+          <label class="detail-edit-field detail-edit-field-wide">
+            完整提示词
+            <textarea id="detail-edit-prompt" rows="8">${escapeHtml(prompt.prompt)}</textarea>
+          </label>
+        </div>
+        <div class="detail-edit-actions">
+          <button class="copy-btn detail-primary-action" id="detail-save-edit-btn" type="button">保存修改</button>
+          <button class="detail-cancel-edit-btn" id="detail-cancel-edit-btn" type="button">取消</button>
+        </div>
+      </div>
+    ` : '';
 
     app.innerHTML = `
       <section class="detail-page">
@@ -773,10 +848,13 @@
                 <button class="copy-btn detail-primary-action" id="detail-copy-btn">📋 一键复制提示词</button>
                 ${tryLink}
                 ${isCollection
-                  ? `<button class="copy-btn detail-danger-action" id="detail-delete-btn">🗑 删除收藏</button>`
+                  ? `<button class="copy-btn detail-danger-action" id="detail-delete-btn">🗑 删除收藏</button>
+                     <button class="copy-btn detail-edit-action" id="detail-edit-btn" type="button">✎ 编辑内容</button>`
                   : `<button class="copy-btn detail-secondary-action" id="detail-collect-btn">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`}
                 ${sourceLink}
               </div>
+
+              ${editPanel}
 
               <div class="detail-meta-grid">
                 <div class="detail-meta-card"><span>分类</span><strong>${escapeHtml(prompt.category)}</strong></div>
@@ -845,6 +923,83 @@
         deleteCollection(prompt.id);
         showToast('已从收藏中删除');
         returnToBrowse();
+      });
+    }
+
+    const editBtn = $('#detail-edit-btn');
+    const editPanelEl = $('#detail-edit-panel');
+    if (editBtn && editPanelEl) {
+      const parseLines = value => String(value || '')
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(Boolean);
+      const closeEdit = () => {
+        editPanelEl.hidden = true;
+        editBtn.textContent = '✎ 编辑内容';
+        editBtn.setAttribute('aria-expanded', 'false');
+      };
+      const openEdit = () => {
+        editPanelEl.hidden = false;
+        editBtn.textContent = '正在编辑';
+        editBtn.setAttribute('aria-expanded', 'true');
+        $('#detail-edit-title')?.focus();
+      };
+      const saveDetailEdit = () => {
+        const title = ($('#detail-edit-title')?.value || '').trim();
+        const promptText = ($('#detail-edit-prompt')?.value || '').trim();
+
+        if (!title || !promptText) {
+          showToast('标题和提示词不能为空');
+          return;
+        }
+
+        const images = parseLines($('#detail-edit-images')?.value || '');
+        const referenceImagesNext = parseLines($('#detail-edit-reference-images')?.value || '');
+        const tags = ($('#detail-edit-tags')?.value || '').trim()
+          ? ($('#detail-edit-tags').value).split(/[,，]/).map(t => t.trim()).filter(Boolean)
+          : autoDetectTags(promptText);
+        const updated = updateCollection(prompt.id, {
+          title,
+          prompt: promptText,
+          category: $('#detail-edit-category')?.value || prompt.category,
+          aspectRatio: ($('#detail-edit-aspect')?.value || '').trim(),
+          model: ($('#detail-edit-model')?.value || '').trim(),
+          tags,
+          image: images[0] || '',
+          images,
+          rawImages: images,
+          referenceImages: referenceImagesNext
+        });
+
+        if (!updated) {
+          showToast('未找到可编辑的收藏');
+          return;
+        }
+
+        showToast('修改已保存');
+        renderPromptDetail({ ...updated, isCollection: true }, true);
+      };
+
+      editBtn.setAttribute('aria-expanded', 'false');
+      editBtn.setAttribute('aria-controls', 'detail-edit-panel');
+      editBtn.addEventListener('click', () => {
+        if (editPanelEl.hidden) openEdit();
+        else closeEdit();
+      });
+      $('#detail-save-edit-btn')?.addEventListener('click', saveDetailEdit);
+      $('#detail-cancel-edit-btn')?.addEventListener('click', closeEdit);
+      $('#detail-cancel-edit-icon')?.addEventListener('click', closeEdit);
+      editPanelEl.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeEdit();
+          editBtn.focus();
+          return;
+        }
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          saveDetailEdit();
+        }
       });
     }
 
