@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:49:04.468Z",
+  "updatedAt": "2026-07-28T10:03:18.299Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4hmbz8_otfu",
+      "image": "https://pbs.twimg.com/media/HOKAdBkbUAAY-AO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOKAdBkbUAAY-AO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "坐在木凳上，\n穿越墙壁的光线悄然推动着时间流逝。\n\n#AIart #AI写真 #スタジオポートレート\n\n【GPT Image2 提示词】\n主题：\n木椅与光线\n\n主体：",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKAdBkbUAAY-AO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1785232975652,
+      "title": "坐在木凳上，",
+      "url": "https://x.com/ToroJushiAi/status/2080956222526935311",
+      "collectedAt": "2026-07-28T10:03:18.299Z",
+      "githubSyncedAt": "2026-07-28T10:03:18.299Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4hmbz8_j6eu",
+      "image": "https://pbs.twimg.com/media/HOCFgBCWcAA7x-o?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOCFgBCWcAA7x-o?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCFgBCWAAAkQwp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCFgCWWAAAwLYA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCFgBDWcAAz83f?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT\n\nPrompt \n一位年轻成年东亚女性坐在明亮的厨房餐桌旁，近景到半身构图，人物位于画面中央略偏右。她身体微微前倾，双臂自然放在木质餐桌上，头部轻轻向画面右侧倾斜，正面看向镜头，眼神柔和亲近，嘴唇微启，带轻微自然微笑。整体气质清新、安静、温柔、生活化。\n\n她有柔和精致的鹅蛋脸，杏仁形深棕眼睛，自然细眉，纤细鼻梁，浅珊瑚粉色嘴唇。妆容极淡，仅保留自然睫毛、轻微眼线、柔和腮红和健康肤色。皮肤白皙偏暖，保留真实毛孔、细小绒毛、自然肤色变化和柔和高光，不要塑料磨皮。\n\n头发为深棕黑色，松散盘成低位凌乱发髻，耳侧、额前、颈侧有大量自然碎发和细长发丝，部分发丝垂落在脸颊、肩膀和胸前，带轻微湿润或空气感。\n\n她穿白色露肩连衣裙或露肩上衣，柔软棉质或轻薄皱感面料，胸口有细密荷叶边和松紧褶皱，肩部自然露出，袖口蓬松，整体干净纯白、柔和、含蓄。佩戴细银色项链，心形小吊坠；手腕佩戴细手链。\n\n背景是明亮温暖的厨房，后方有大面积白色窗户，窗外绿植虚化，窗台上有玻璃罐、饼干罐和厨房小物。右侧桌面有透明玻璃水果碗，装有红苹果、橙子；前景木质砧板上有切开的红心葡萄柚和水果片。左后方有水槽、浅色橱柜和干净台面。\n\n光线为强烈但柔和的自然窗光，从后方和左侧照入，形成高键曝光、轻微逆光、柔和高光晕染和空气感。整体低饱和、低对比，以奶油白、浅木色、柔黄、苹果红、橙色和自然肤色为主。摄影风格：85mm人像镜头，f/1.8，浅景深，眼睛和面部清晰，背景柔和虚化，轻微胶片颗粒，photorealistic，ultra realistic，natural skin texture。\n\n避免： 卡通、CG、插画、过度磨皮、浓妆、夸张表情、错误手指、畸形手臂、过曝丢失细节、强HDR、过度锐化、杂乱厨房、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOCFgBCWcAA7x-o?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCFgBCWAAAkQwp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCFgCWWAAAwLYA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCFgBDWcAAz83f?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "插画",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785232975652,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2080956222526935311",
+      "collectedAt": "2026-07-28T10:03:18.299Z",
+      "githubSyncedAt": "2026-07-28T10:03:18.299Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
