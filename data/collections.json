@@ -1,7 +1,126 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T12:47:36.039Z",
+  "updatedAt": "2026-07-28T13:18:49.755Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4om66u_mpdg",
+      "image": "https://pbs.twimg.com/media/HNlgKUqWUAAp2rW?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNlgKUqWUAAp2rW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKWdWkAAqwVT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsWYAA4wJv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsXQAAc-rw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实竖幅裁切时尚写真人像，成年女性，21岁以上，傍晚黄金时段户外时装活动或后台场地。从大腿上部至嘴唇上方的紧凑取景——眼睛与额头大部分被裁掉，着重领口、肩膀、躯干、双手、面料与造型。模特略偏右，身体正面朝前，头部微微朝观者左侧转动。\n\n人物：温暖白皙至浅色肌肤——真实毛孔，自然色调变化，锁骨区域淡淡雀斑或美人痣。亮泽柔和裸粉唇色，低调精致妆容。发型为整洁低发髻，耳旁与颈部附近有几缕克制的飞散发丝。\n\n服装：合身尘土粉蓝色无袖连体衣——宽肩带，干净方形圆领，高开叉腿开口，顺滑弹力结构。哑光科技针织质感：细腻编织纹理，自然张力线条，胸部与腰部小型水平褶皱，精确边缘缝线，面料上有夕阳轻柔高光。搭配宽松低腰浅洗水牛仔裤，在连体衣高开叉侧边下方宽松打开——褪色浅蓝色牛仔布，真实布纹，腰带环，前口袋，深色金属扣，拉链门襟，金棕色缝线，柔和接缝，腰臀部自然褶皱。\n\n姿态：端庄从容。一侧前臂水平横跨下腹部，手轻搭于对侧腰部附近。另一手在牛仔裤开放腰头或前袋处——长而放松的手指，干净自然指甲。两臂人体解剖学准确：精致肌腱，柔和肌肉线条，真实手部比例。\n\n背景：柔焦虚化的高档户外活动或秀场场地——白色建筑帐篷或天幕，深色设备，大型黑色音箱，模糊的坐席宾客或工作人员，低调结构形状。所有背景人物不可辨认且虚焦。奶油炭灰、白色、灰色与低调蓝色焦外光斑。\n\n光线：电影感自然黄金时段，来自观者左侧——左肩、锁骨、颈部、上臂、双手与牛仔腰头上有温暖高光。右侧有较冷的环境阴影以形成平衡对比。下颌、领口周围、交叉手臂下方与连体衣接缝处有柔和阴影。色调：尘土蓝色、浅洗牛仔色、暖色肌肤、炭灰阴影、细腻琥珀高光。\n\n相机：竖幅2:3，85mm，平视，f/2，高分辨率写真，克制奢感色调，真实肌肤与纺织细节，清晰缝线，柔和焦外。无塑料感磨皮，无夸张比例。\n\n负面：无文字、无水印、无Logo、无珠宝首饰、无额外肢体、无变形手部、无重复手指、无卡通感、无强闪光、无过曝、无露骨裸露。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNlgKUqWUAAp2rW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKWdWkAAqwVT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsWYAA4wJv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsXQAAc-rw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "人像",
+        "写真",
+        "电影感"
+      ],
+      "timestamp": 1785244725462,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2078872493448937775",
+      "collectedAt": "2026-07-28T13:18:49.755Z",
+      "githubSyncedAt": "2026-07-28T13:18:49.755Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4om0nh_wuzt",
+      "image": "https://pbs.twimg.com/media/HNtV1xtXkAAWeAN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNtV1xtXkAAWeAN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNtV1xkWwAAvcX-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNtV1xuXQAAq8cR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNtV1xmWoAAInd1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUqWUAAp2rW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKWdWkAAqwVT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsWYAA4wJv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsXQAAc-rw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实时装周活动人像。优雅成年东亚女性朝镜头方向走来，穿越户外时装秀或高档活动场地。从头顶至大腿中部；面部在上中方。对角线向前步行——一侧髋部自然随步伐偏移，右肩略微前倾，右臂垂落，右手放松靠近右下角。轻微运动感。\n\n纤细端庄身形，温暖浅至中等色调肌肤，立体颧骨，杏仁形深棕眼睛，柔和拱形眉毛，笔直精致鼻梁，中性米玫唇色。端庄、自信、安静专注的表情——目光略微越过镜头朝向左侧。嘴唇轻合，面部肌肉放松。精致克制妆容：发光自然肌肤，淡暖色腮红，低调棕色修容，细棕灰眼线，中性眼影，缎面裸唇色。真实毛孔，精细质感，小型自然美人痣，眼下细节，额头/鼻梁/颧骨/锁骨高光。无过度修图。\n\n发型：整洁低调的低发髻，略微偏中的前方分发，顺滑发片扫过耳后。太阳穴、耳朵与颈后有极细松散发丝捕捉温暖侧光。现代、极简、写真感。\n\n服装——三件套棕灰配色：合身罗纹石灰色背心上衣——宽大圆领口，细肩带，精细竖向罗纹，轻微躯干张力，腰部柔和横向褶皱。止于长裤腰头附近，一侧腰头处仅露出极窄一线肌肤。宽大轻盈外套，略微偏暖灰米色——宽大翻驳领，轻微结构肩，长款敞开前片，袖子向上推至约四分之三长度。薄水洗亚麻、丝麻或微皱西装面料：真实皱褶，精细编织，细腻光泽。外套一侧在右手背后向外摆开——暗示向前运动与微风。高腰阔腿剪裁长裤，浅蘑菇棕灰色——宽大腰头，腰带环，前褶，髋部流动垂感。准确剪裁，浅层褶皱，柔和对角线张力线条，面料细腻色调变化。长裤延伸至画面下边缘之外。\n\n珠宝：仅有极细低调耳钉。无项链、手链、手提包、太阳镜或Logo。右手：长而放松的手指，自然关节，短裸色光泽指甲，指尖轻柔动感。\n\n场景：精致户外活动空间，位于天幕或临时建筑结构之下。近景背景：白色帐篷墙面，浅色结构面板，头部左侧竖向灰色支撑柱，右上方大型哑光黑色矩形音箱。时装周氛围，无可读品牌标识。中间与左侧背景：正式着装的观众与摄影师——深色西装、黑色外套与低调服装，站于低矮金属隔离栏后方。所有背景人物匿名且强烈虚化——模糊面孔，深色剪影，抬起的手，虚化相机设备。深色质感人群背景强调浅色服装与发光肌肤。\n\n光线：来自左前方略偏上的温暖午后阳光——左侧额头、面颊、鼻梁、颈部、锁骨、上胸口、外套翻驳领与前臂上有金色高光。对侧柔和有细节的阴影。发际线、耳朵、肩膀与外套摆动边缘沿线有克制的轮廓光。自然方向性暖感；无橙色调。\n\n色调：蘑菇灰、温暖棕褐、石灰米色、炭灰、黑色、奶油白、柔和肌肤色。肌肤与面料上有蜂蜜金色阳光高光。中等对比，丰富开放阴影，顺滑高光过渡，自然饱和度。\n\n相机：胸部高度，全画幅85mm，f/2–f/2.8。快门速度足以冻结面部与上半身，同时保留外套轻微摆动感。眼睛/面部/罗纹上衣/翻驳领/前臂锐利清晰；人群/隔离栏/帐篷/设备化为柔和焦外。时装周抓拍：极简奢感，随性剪裁，自信动感，模拟胶片颗粒，轻柔镜头柔化，杂志品质。\n\n负面：无文字、无Logo、无水印、无品牌名称、无锐利对焦多余人物、无变形手部、无多余手指、无重复肢体、无变形服装、无夸张比例、无塑料感肌肤、无强闪光、无人工HDR、无过饱和色彩、无遮挡人物的杂乱元素。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNtV1xtXkAAWeAN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNtV1xkWwAAvcX-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNtV1xuXQAAq8cR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNtV1xmWoAAInd1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUqWUAAp2rW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKWdWkAAqwVT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsWYAA4wJv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlgKUsXQAAc-rw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785244718285,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2079476476437840181",
+      "collectedAt": "2026-07-28T13:18:49.755Z",
+      "githubSyncedAt": "2026-07-28T13:18:49.755Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4olly9_ommu",
+      "image": "https://pbs.twimg.com/media/HN2UFgiXMAAGWjL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HN2UFgiXMAAGWjL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN2UFgTWgAA_6Lb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN2UFgSWgAEpsmi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN2UFgSWEAAQyxE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "深黑色头发松散盘成略凌乱的低位发髻，头顶有自然蓬松度，耳侧和颈后留有被微风吹起的细碎发丝。佩戴小巧金色垂坠耳环。\n她穿一件象牙白或浅奶油色高级无袖礼服，立领，肩部剪裁利落，面料为细腻哑光丝缎或高级绉纱。礼服背部具有巨大、流畅、深至腰部的椭圆形露背开口，边缘整洁贴合，完整展示肩胛骨和背部线条；腰部自然收束，裙身垂直顺滑，无图案、无多余装饰。\n背景为远处层叠的绿色森林和山丘，因长焦镜头与空气透视而柔和虚化。天空明亮但无明显太阳，采用薄云或阴天自然漫射光。人物肤色、白色礼服和石栏杆具有柔和细腻的明暗过渡，整体低饱和、低对比，以象牙白、暖肤色、灰褐石材和柔和森林绿为主。\n摄影风格：85mm人像镜头，f/2，略高于腰部的平视机位，浅景深，眼睛清晰，真实光学虚化，高级奢华时装大片，轻微胶片颗粒，photorealistic。\n避免： 正面姿势、错误露背形状、过窄肩膀、扭曲脊柱、错误手指、塑料皮肤、浓妆、强烈阳光、过度HDR、CG、插画、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN2UFgiXMAAGWjL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN2UFgTWgAA_6Lb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN2UFgSWgAEpsmi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN2UFgSWEAAQyxE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "插画",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785244699233,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2080080457345986703",
+      "collectedAt": "2026-07-28T13:18:49.755Z",
+      "githubSyncedAt": "2026-07-28T13:18:49.755Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
