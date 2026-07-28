@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:20.459Z",
+  "updatedAt": "2026-07-28T09:32:22.256Z",
   "collections": [
+    {
+      "category": "抽象",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms2v6pyy_m8i3",
+      "image": "https://pbs.twimg.com/media/HOF-ruqW0AAnYVt?format=jpg&name=small",
+      "prompt": "GPT Image 2 on ChatGPT\n\nPrompt \n一位年轻成年东亚女性站在落地玻璃窗前，身体背向镜头约150°，双手自然扶在窗框上，身体轻轻前倾，肩膀放松，头部自然回望镜头，眼神平静、自信且柔和，嘴唇自然闭合。\n\n修长健美但不过度夸张的身材，腰线清晰，肩背线条优雅，臀腿比例自然，腿部修长，一只脚自然踮起，仅脚尖轻触地面，整体姿态轻盈。\n\n黑色运动文胸（细肩带交叉X形露背设计），黑色高腰紧身运动短裤，高级哑光运动面料，无任何Logo或文字。\n\n深棕黑色头发盘成自然丸子头，少量碎发自然散落，真实发丝纹理。\n\n现代高层公寓落地窗，窗外为现代城市CBD，高楼轻微虚化，冬季或初春冷色城市景观，玻璃略带自然反光。\n\n上午9点左右阳光从窗外射入，形成真实逆光和轮廓光，阳光照亮肩膀、后背、臀腿边缘，皮肤有自然暖色高光，室内保持柔和阴影，不使用HDR。\n\n整体色调低饱和、奶油色、高级商业广告风格，Lululemon、Alo Yoga、Nike Women Campaign 风格。\n\nNegative Prompt：\nplastic skin, CGI, AI look, cartoon, illustration, oversaturated, HDR, distorted anatomy, bad hands, extra fingers, extra limbs, deformed legs, exaggerated hips, unrealistic muscles, glossy skin, watermark, logo, text, blur, low quality.",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785134829562,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081288414570135862",
+      "images": [
+        "https://pbs.twimg.com/media/HOF-ruqW0AAnYVt?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOF-ruqW0AAnYVt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:22.256Z",
+      "githubSyncedAt": "2026-07-28T09:32:22.256Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
