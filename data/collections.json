@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:41:46.720Z",
+  "updatedAt": "2026-07-28T09:41:48.833Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gsj4l_cw1z",
+      "image": "https://pbs.twimg.com/media/HOSPu1MW4AAk_yq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOSPu1MW4AAk_yq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORgvdeXsAAqfLR?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "让画面成立的是那盏凉茶。\n\n提示词\n\n生成一张独立图片，严格使用 941x1672 像素、9:16 竖幅构图；不要拼图、网格、长图、联系人表或多画面。主 Route：古风仙侠美人图；气质增强：温柔姐姐感。东方电影剧照，写实摄影质感，不是插画，不是海报排版。\n\n这是一个连续四幕故事中的第 1",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOSPu1MW4AAk_yq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORgvdeXsAAqfLR?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "东方",
+        "古风",
+        "海报",
+        "插画",
+        "摄影"
+      ],
+      "timestamp": 1785231585237,
+      "title": "让画面成立的是那盏凉茶。",
+      "url": "https://x.com/chenlinspark/status/2081982990352081003",
+      "collectedAt": "2026-07-28T09:41:48.833Z",
+      "githubSyncedAt": "2026-07-28T09:41:48.833Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
