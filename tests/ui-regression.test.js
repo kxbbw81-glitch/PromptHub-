@@ -73,7 +73,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.4\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.4\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.5\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.5\.zip"/);
   assert.match(app, /下载浏览器插件/);
+});
+
+test('the extension records an image aspect ratio during prompt recognition', () => {
+  assert.match(popup, /img\.naturalWidth \|\| img\.width \|\| rect\.width/);
+  assert.match(popup, /aspectRatio: imageData\.aspectRatio \|\| extractAspectRatio\(promptText\)/);
+  assert.match(content, /aspectRatio: imageData\.aspectRatio \|\| extractAspectRatio\(promptText\)/);
+  assert.match(background, /aspectRatio: extractAspectRatio\(promptText\)/);
 });

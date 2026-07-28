@@ -206,15 +206,39 @@
     return false;
   }
 
+  function formatAspectRatio(width, height) {
+    const ratio = Number(width) / Number(height);
+    if (!Number.isFinite(ratio) || ratio <= 0) return '';
+    const presets = [[1, 1], [2, 3], [3, 4], [4, 5], [9, 16], [16, 9], [5, 4], [4, 3], [3, 2], [21, 9]];
+    const closest = presets.reduce((best, candidate) => {
+      const distance = Math.abs(ratio - candidate[0] / candidate[1]);
+      return distance < best.distance ? { candidate, distance } : best;
+    }, { candidate: null, distance: Infinity });
+    if (closest.distance < 0.035) return `${closest.candidate[0]}:${closest.candidate[1]}`;
+    return '';
+  }
+
+  function extractAspectRatio(text) {
+    const match = String(text || '').match(/(?:aspect\s*ratio|--ar|宽高比|画幅|比例)\s*[:：=]?\s*(\d{1,2})\s*[:xX×]\s*(\d{1,2})|\b(\d{1,2})\s*[:xX×]\s*(\d{1,2})\s*(?:vertical|horizontal|portrait|landscape|竖版|横版|比例|画幅)/i);
+    const width = Number(match?.[1] || match?.[3]);
+    const height = Number(match?.[2] || match?.[4]);
+    return formatAspectRatio(width, height) || (width && height ? `${width}:${height}` : '');
+  }
+
   // 优先按站点选择器查找所有内容图片（排除头像/图标）
   function findContentImages(el) {
     const results = [];
     const seen = new Set();
+    let aspectRatio = '';
 
     function addImg(img) {
       if (!img || !img.src || isAvatarOrIcon(img)) return;
       if (seen.has(img.src)) return;
       seen.add(img.src);
+      if (!aspectRatio) {
+        const rect = img.getBoundingClientRect();
+        aspectRatio = formatAspectRatio(img.naturalWidth || img.width || rect.width, img.naturalHeight || img.height || rect.height);
+      }
       results.push(img.src);
     }
 
@@ -265,13 +289,13 @@
       imgs.forEach(addImg);
     }
 
-    return results;
+    return { images: results, aspectRatio };
   }
 
   // 兼容旧调用：返回第一张图
   function findContentImage(el) {
-    const imgs = findContentImages(el);
-    return imgs[0] || '';
+    const imageData = findContentImages(el);
+    return imageData.images[0] || '';
   }
 
   // --- 提取标题 ---
@@ -333,7 +357,8 @@
 
         const promptText = parsed?.prompt || text;
         const title = parsed?.title || extractTitle(text, el);
-        const images = findContentImages(el);
+        const imageData = findContentImages(el);
+        const images = imageData.images;
         const image = images[0] || '';
         const category = detectCategory(promptText);
         const tags = extractTags(promptText);
@@ -346,6 +371,7 @@
           tags,
           image,
           images,
+          aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
           url: location.href,
           domain: location.hostname,
           source: '插件扫描',

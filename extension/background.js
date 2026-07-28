@@ -96,6 +96,13 @@ function getHostname(url) {
   }
 }
 
+function extractAspectRatio(text) {
+  const match = String(text || '').match(/(?:aspect\s*ratio|--ar|宽高比|画幅|比例)\s*[:：=]?\s*(\d{1,2})\s*[:xX×]\s*(\d{1,2})|\b(\d{1,2})\s*[:xX×]\s*(\d{1,2})\s*(?:vertical|horizontal|portrait|landscape|竖版|横版|比例|画幅)/i);
+  const width = Number(match?.[1] || match?.[3]);
+  const height = Number(match?.[2] || match?.[4]);
+  return width && height ? `${width}:${height}` : '';
+}
+
 function buildPromptFromText(text, tab, imageUrl, allImages) {
   const trimmed = text.trim();
   const parsed = globalThis.PromptHubParser?.parsePromptText(trimmed, {
@@ -121,6 +128,7 @@ function buildPromptFromText(text, tab, imageUrl, allImages) {
     tags: extractTags(promptText),
     image,
     images: dedupedImages,
+    aspectRatio: extractAspectRatio(promptText),
     url: tab?.url || '',
     domain: getHostname(tab?.url),
     source: '插件右键收藏',

@@ -209,9 +209,29 @@ const SCAN_FUNCTION = () => {
     return tags.length > 0 ? tags.slice(0, 5) : ['AI生成'];
   }
 
+  function formatAspectRatio(width, height) {
+    const ratio = Number(width) / Number(height);
+    if (!Number.isFinite(ratio) || ratio <= 0) return '';
+    const presets = [[1, 1], [2, 3], [3, 4], [4, 5], [9, 16], [16, 9], [5, 4], [4, 3], [3, 2], [21, 9]];
+    const closest = presets.reduce((best, candidate) => {
+      const distance = Math.abs(ratio - candidate[0] / candidate[1]);
+      return distance < best.distance ? { candidate, distance } : best;
+    }, { candidate: null, distance: Infinity });
+    if (closest.distance < 0.035) return `${closest.candidate[0]}:${closest.candidate[1]}`;
+    return '';
+  }
+
+  function extractAspectRatio(text) {
+    const match = String(text || '').match(/(?:aspect\s*ratio|--ar|宽高比|画幅|比例)\s*[:：=]?\s*(\d{1,2})\s*[:xX×]\s*(\d{1,2})|\b(\d{1,2})\s*[:xX×]\s*(\d{1,2})\s*(?:vertical|horizontal|portrait|landscape|竖版|横版|比例|画幅)/i);
+    const width = Number(match?.[1] || match?.[3]);
+    const height = Number(match?.[2] || match?.[4]);
+    return formatAspectRatio(width, height) || (width && height ? `${width}:${height}` : '');
+  }
+
   function findImgs(el) {
     const results = [];
     const seen = new Set();
+    let aspectRatio = '';
     const AVATAR_PATTERNS = [
       'profile_images', 'default_profile', 'avatar', 'profile_pic', 'profilepic',
       'icon', 'emoji', 'badge', 'logo', 'favicon', 'sprite', 'placeholder',
@@ -247,6 +267,10 @@ const SCAN_FUNCTION = () => {
       if (!img || !img.src || isAvatar(img)) return;
       if (seen.has(img.src)) return;
       seen.add(img.src);
+      if (!aspectRatio) {
+        const rect = img.getBoundingClientRect();
+        aspectRatio = formatAspectRatio(img.naturalWidth || img.width || rect.width, img.naturalHeight || img.height || rect.height);
+      }
       results.push(img.src);
     }
 
@@ -281,7 +305,7 @@ const SCAN_FUNCTION = () => {
       if (s.tagName === 'IMG') addImg(s);
       if (s.querySelectorAll) s.querySelectorAll('img').forEach(addImg);
     }
-    return results;
+    return { images: results, aspectRatio };
   }
 
   function extractTitle(text, el) {
@@ -323,16 +347,17 @@ const SCAN_FUNCTION = () => {
 
     if (isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) {
       seen.add(text);
-      const imgs = findImgs(el);
-      const promptText = parsed?.prompt || text;
+        const imageData = findImgs(el);
+        const promptText = parsed?.prompt || text;
       prompts.push({
         id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
         title: parsed?.title || extractTitle(text, el),
         prompt: promptText,
         category: detectCat(promptText),
         tags: extractTags(promptText),
-        image: imgs[0] || '',
-        images: imgs,
+        image: imageData.images[0] || '',
+        images: imageData.images,
+        aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
         url: location.href,
         domain: location.hostname,
         source: '插件扫描',
