@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T12:09:45.517Z",
+  "updatedAt": "2026-07-28T12:09:49.460Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4m52zi_blaq",
+      "image": "https://pbs.twimg.com/media/HNxQZYfW0AAl5Bm?format=png&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNxQZYfW0AAl5Bm?format=png&name=small",
+        "https://pbs.twimg.com/media/HNxQZapWoAAPdVV?format=png&name=small",
+        "https://pbs.twimg.com/media/HNxQZYoXcAEPMH-?format=png&name=small",
+        "https://pbs.twimg.com/media/HNxQZYzWAAEoz-R?format=png&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性站在户外热带城市环境中，半身到大半身竖构图，身体背向镜头约三分之二，头部回转看向镜头，形成自然回眸姿态。她身形纤细修长，肩背线条柔和，皮肤白皙偏暖，保留真实毛孔、细微肌理与自然高光，不要塑料磨皮。她有浓密的深棕色长卷发，发量丰富，发丝自然蓬松，被微风轻轻吹动，沿背部垂落。五官精致，杏仁眼，眉形柔和，鼻梁纤细，嘴唇自然，淡妆，神情平静、自信、略带克制的微表情。\n\n服装为浅米色/燕麦色系度假风穿搭：细带露背泳装或比基尼上装，背部绑带清晰可见；腰部围裹米白色钩针镂空蕾丝披纱或罩裙，质地轻盈，有清晰编织纹理。背景是高端城市户外景观，可见虚化的棕榈树、现代高楼和少量绿植，空间通透。光线为柔和自然日光，略带灰调，整体低饱和、低对比，肤色自然，空气感强。摄影风格：85mm人像镜头，浅景深，焦点清晰落在眼睛和面部，背景柔和虚化，高级时尚度假写真，真实摄影质感。\n\n避免： 卡通感、CG感、过度磨皮、畸形手臂、错误手指、夸张胸腰比例、杂乱背景、过艳色彩、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNxQZYfW0AAl5Bm?format=png&name=small",
+        "https://pbs.twimg.com/media/HNxQZapWoAAPdVV?format=png&name=small",
+        "https://pbs.twimg.com/media/HNxQZYoXcAEPMH-?format=png&name=small",
+        "https://pbs.twimg.com/media/HNxQZYzWAAEoz-R?format=png&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785240568926,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2079718064967565528",
+      "collectedAt": "2026-07-28T12:09:49.460Z",
+      "githubSyncedAt": "2026-07-28T12:09:49.460Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4m4w9h_lmez",
+      "image": "https://pbs.twimg.com/media/HNyXfRNWwAAZN5r?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNyXfRNWwAAZN5r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNyXfRCWUAAyS3O?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Medium shot, 23-year-old East Asian woman, soft oval face, dark brown hair loosely tied back with a few loose strands falling near her temple, natural bare complexion with visible pores. No heavy makeup, faint natural flush on cheeks. Dusty lavender-grey lace bra and matching panty visible beneath an open oversized white cotton shirt with rolled sleeves, subject filling roughly 60% of a vertical 3:4 frame, whisking eggs in a bowl at a stovetop. Soft diffused window light entering from the left, morning haze, muted grey-beige cabinets in the background. Photographic texture and quality: subtle ISO 400 film grain in shadow areas, natural skin subsurface scattering, faint stray hairs disturbed by air movement. Preserve: lace lingerie color and pattern, oversized shirt fit. Avoid: AI-smoothed skin, geometrically perfect hair.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNyXfRNWwAAZN5r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNyXfRCWUAAyS3O?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785240560213,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2080140851150573725",
+      "collectedAt": "2026-07-28T12:09:49.460Z",
+      "githubSyncedAt": "2026-07-28T12:09:49.460Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "抽象",
       "date": "2026-07-27",
