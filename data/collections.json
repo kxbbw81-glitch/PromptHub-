@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:15:34.047Z",
+  "updatedAt": "2026-07-28T07:15:35.488Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3b92eu_0ak5",
+      "image": "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOJ_oC_WkAAOTxi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIO-nWXEAEpcVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIPAV7WgAAnvU4?format=jpg&name=small"
+      ],
+      "prompt": "同一个动作，换座到两座城市里。一张是雨后的玻璃幕墙，一张是老电车站。——\n\n提示—— 使用场景：照片级写实自然素材类型：高端时尚编辑人像，独立竖图主要要求：创作一张以“复古电车站，动作捕捉活力”为主题的原创9:16竖图时尚照片。仅使用提供的两张图片作为姿势和摄影质量参考；请勿复制人物、面部、身份、发型、服装或背景。参考图片1的作用：略微后转的姿势参考。参考图片2的作用：自然的面部、手部和摄影质量参考。拍摄对象：一位年龄在35-45岁左右的东亚成年女性，自信且富有表现力。保留其精确的动作骨架，同时使其具有动态感：身体转向镜头约35-45度，头部后仰直视镜头，重心落在后腿上，一只手拨弄耳边的头发或抓住衣领，另一只手臂自然下垂或插入口袋。从头到脚的完整服装清晰可见，手部和四肢的解剖结构也十分逼真。场景/背景：一个位于历史街区的老式电车站，一辆饱经风霜的米绿色电车正从她身后驶入，头顶的电线、磨损的站台边缘、字迹模糊不清的旧时刻表，以及几个模糊的通勤者，他们只是背景中不明显的轮廓。服装：一件锈橙色短款羊毛夹克，内搭米色衬衫，系着一条窄围巾；一条高腰深橄榄绿中长裙，侧边开衩设计大胆，但遮盖度适中；不透明的连裤袜；复古皮质短靴；一个小巧的硬质手提包；一套完整、精致、充满时代感的都市时尚装扮。构图/取景：9:16 人像，全身抓拍，街头时尚风格，相机置于臀部高度，略微偏离轴线，仿佛在拍摄过程中被捕捉到。人物转身瞬间，外套下摆和围巾因运动而微微抬起，电车和背景呈现微妙的动态虚化效果，而面部和服装保持清晰。站台和电车之间形成动感的对角线。光线/氛围：傍晚的侧光照射在站台上，头发和外套上呈现暖色调的高光，阴影部分则较为冷色调，营造出胶片纪录片般的质感，真实的快门拖拽感，同时又不影响人物的清晰度。风格/媒介：写实专业的街头风格摄影，35mm 镜头的质感，颗粒感十足，面料和金属纹理真实自然，既有电影感又不失真实感。限制条件：无文字、无标志、无水印、无拼贴、无分屏、无重复人物、无裁剪脚部、无暴露服装、无青少年形象、无变形人体结构、面部无过度虚化。",
+      "source": "插件扫描",
+      "tags": [
+        "人像",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785161812854,
+      "title": "同一个动作，换座到两座城市里。一张是雨后的玻璃幕墙，一张是老电车站。——",
+      "url": "https://x.com/chenlinspark/status/2081371459289854176",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOJ_oC_WkAAOTxi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIO-nWXEAEpcVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIPAV7WgAAnvU4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:15:35.488Z",
+      "githubSyncedAt": "2026-07-28T07:15:35.488Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
