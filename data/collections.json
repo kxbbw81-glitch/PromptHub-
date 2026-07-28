@@ -1,7 +1,83 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T12:47:18.175Z",
+  "updatedAt": "2026-07-28T12:47:36.039Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4nhzzj_j8wa",
+      "image": "https://pbs.twimg.com/media/HNx7Gm7WkAAg-RV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNx7Gm7WkAAg-RV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7GnXXYAAK1bJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7Gm-XgAI5-jj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7Gm8WoAAomFN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性，纤细清秀，坐姿近景到半身肖像。她上半身微微前倾，身体略向右侧，头部轻微倾斜，双眼温柔地看向镜头，神情安静、柔和、克制，带一点自然亲近感。她有白皙偏暖的肤色，真实细腻的皮肤质感，保留毛孔、轻微绒毛、自然阴影和柔和高光，不要塑料磨皮。五官精致，杏仁眼，柔和眉形，小巧鼻梁，自然裸色嘴唇，淡妆。\n\n发型为深黑或深棕黑色头发，松散盘成高位凌乱丸子头，带自然碎发和轻薄空气刘海，耳侧和颈侧有几缕散落发丝，呈现轻盈随性的居家感。\n\n服装是一件白色细肩带吊带上衣，轻薄柔软，带细腻蕾丝或镂空纹理细节，领口低调自然，不过分夸张，整体清爽、纯净、简约。前景可见一只弯曲抬起的膝盖，形成柔和的近景遮挡和亲密构图。\n\n背景是极简的白色或浅灰白室内空间，无明显杂物，干净、通透、安静。光线为高键柔光，像窗边自然散射光或柔和棚拍漫射光，从左前方轻柔照亮面部和肩颈，阴影极浅，整体低对比、低饱和，呈现奶油白、浅灰、裸粉肤色的高级日系空气感。\n\n摄影风格：85mm 人像镜头，浅景深，焦点清晰落在眼睛和面部，背景轻柔虚化，真实摄影质感，唯美但不假，干净克制，high-key soft portrait，editorial beauty portrait，photorealistic。\n\n避免： 卡通感、CG感、过度磨皮、浓妆、夸张表情、杂乱背景、错误手指、畸形手臂、过强锐化、过重滤镜、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNx7Gm7WkAAg-RV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7GnXXYAAK1bJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7Gm-XgAI5-jj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7Gm8WoAAomFN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785242851183,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/i/bookmarks",
+      "collectedAt": "2026-07-28T12:47:36.039Z",
+      "githubSyncedAt": "2026-07-28T12:47:36.039Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4nhtvf_2cp1",
+      "image": "https://pbs.twimg.com/media/HNx7BfKXEAEBzOV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNx7BfKXEAEBzOV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7BfGWkAAtT_C?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7BfVXgAA0Jbt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7BgMW8AAdRoX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示\n一位年轻成年东亚女性，半身到三分之二身肖像，身体微微侧向左，头部转向画面左侧，目光看向远处，不直视镜头，神情安静、克制、优雅，带轻微疏离感。她有白皙偏暖的肤色，皮肤细腻但保留真实毛孔、轻微肌理与自然高光，不要塑料磨皮。五官精致，杏仁眼，柔和细眉，小巧鼻梁，唇部为自然水润的豆沙红，淡妆但眼妆精致。\n发型为深黑或深棕黑色长卷发，发量丰盈，柔顺自然下垂，带轻微波浪和蓬松层次；额前有轻薄空气刘海与零散发丝，整体精致但不僵硬。服装是一件黑色抹胸礼服，上胸线条简洁利落，面料高级、有轻微哑光质感，露出肩颈、锁骨和手臂线条。姿态要接近参考图：一只手臂横抱在胸前，另一只手轻扶对侧上臂，手指自然修长，不夸张。佩戴精致金色首饰，包括小巧耳环、细项链与小吊坠、细手链、戒指，细节清晰但不过度抢眼。\n背景是深色纯净摄影棚背景，偏黑褐色，安静低调，无杂物。灯光为高级棚拍肖像光：主光柔和，从人物前方略偏右照亮面部；同时有暖色轮廓光勾勒头发、肩膀与手臂边缘，形成立体感与高级氛围。整体低饱和、低对比但保留深色层次，画面精致、电影感、时尚感强。摄影风格：85mm人像镜头，浅景深，焦点清晰落在眼睛与面部，真实摄影质感，editorial beauty portrait，luxury studio portrait，photorealistic。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNx7BfKXEAEBzOV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7BfGWkAAtT_C?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7BfVXgAA0Jbt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNx7BgMW8AAdRoX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1785242843259,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2079929460397396395",
+      "collectedAt": "2026-07-28T12:47:36.039Z",
+      "githubSyncedAt": "2026-07-28T12:47:36.039Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
