@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:16:49.067Z",
+  "updatedAt": "2026-07-28T07:21:24.616Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4bukd0_lixu",
+      "image": "https://pbs.twimg.com/media/HOPx--hbQAAwVwD?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOPx--hbQAAwVwD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOP0JtraIAAdMt8?format=jpg&name=small"
+      ],
+      "prompt": "提示词如下：\nCreate a vertical 4:5 lifestyle portrait of an adult East Asian woman with a Korean fashion model aesthetic, sitting alone in a warm modern interior.\nShe has a naturally elegant slim figure with soft feminine curves, long loose dark hair, delicate facial features, clear bright eyes, natural makeup, realistic skin texture, and a calm confident expression.\nShe wears a stylish ivory-white minimalist fashion dress with soft layered fabric, delicate lace details, elegant neckline, and a tasteful editorial fashion style. The outfit is sophisticated and fully covered, emphasizing natural silhouette, graceful shoulders, waistline, and overall feminine elegance.",
+      "source": "插件扫描",
+      "tags": [
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1785223282068,
+      "title": "晚安 我的 gpt 女友们",
+      "url": "https://x.com/yangyanglxy/status/2081775932122309049",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOPx--hbQAAwVwD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOP0JtraIAAdMt8?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:21:24.616Z",
+      "githubSyncedAt": "2026-07-28T07:21:24.616Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
