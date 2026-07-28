@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:34:25.164Z",
+  "updatedAt": "2026-07-28T09:39:00.441Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gqqex_prag",
+      "image": "https://pbs.twimg.com/media/HOObNlobwAAphsw?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOObNlobwAAphsw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "no crew, no studio. one prompt and good light.\n\ndark rain-soaked asphalt beside a black metal railing, pavement, understated late-1990s/early-2000s\n\nrecipe in the first reply ↓",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOObNlobwAAphsw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785231501369,
+      "title": "no crew, no studio. one prompt and good light.",
+      "url": "https://x.com/sidona/status/2081678125013053644",
+      "collectedAt": "2026-07-28T09:39:00.440Z",
+      "githubSyncedAt": "2026-07-28T09:39:00.440Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
