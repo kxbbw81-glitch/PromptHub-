@@ -427,7 +427,7 @@ const PROMPTS = [
     images: ["https://cdn.bananaprompts.fun/prompts/wLHp0FaR8Eh0IZDeXTblx.webp"],
     referenceImages: ["https://cdn.bananaprompts.fun/prompts/NghH-RWSQT9IM7-vOjGML.webp"],
     aspectRatio: "3:4",
-    model: "Nano Banana 2",
+    model: "通用 AI 图像模型",
     sourceUrl: "https://bananaprompts.fun/prompt/elegant-home-fashion-portrait-yzcxx3",
     source: "Banana Prompts",
     date: "2025-07-27",

@@ -16,6 +16,7 @@
   // --- Collections (localStorage) ---
   const COLLECTIONS_KEY = 'prompthub_collections';
   const EXT_IMPORT_KEY = 'prompthub_ext_import';
+  const EXT_SYNC_RECEIPT_KEY = 'prompthub_ext_sync_receipt';
   const security = window.PromptHubSecurity;
   const { escapeHtml, sanitizeImageUrl, sanitizeImageUrls } = security || {};
 
@@ -91,7 +92,6 @@
       model: limitedText(item.model, 100),
       source: limitedText(item.source, 100),
       sourceUrl: sanitizeImageUrl(item.sourceUrl),
-      tryUrl: sanitizeImageUrl(item.tryUrl),
       date: /^\d{4}-\d{2}-\d{2}$/.test(String(item.date || '')) ? item.date : ''
     };
   }
@@ -280,13 +280,6 @@
       .replace(/\\/g, '\\\\')
       .replace(/'/g, "\\'")
       .replace(/\r?\n/g, ' ');
-  }
-
-  function getTryUrl(prompt) {
-    if (prompt.tryUrl) return prompt.tryUrl;
-    const match = (prompt.sourceUrl || '').match(/bananaprompts\.fun\/prompt\/([^/?#]+)/);
-    if (match) return `https://bananaprompts.fun/images/create?prompt=${encodeURIComponent(match[1])}`;
-    return '';
   }
 
   function getExploreHash() {
@@ -785,24 +778,26 @@
   }
 
   function openPromptDetail(id, isCollection, updateHash = true) {
-    const prompt = findPromptById(id, isCollection);
-    if (!prompt) return;
+    const localCollection = getCollections().find(c => c.id === id);
+    const displayPrompt = isCollection ? localCollection : (localCollection || findPromptById(id, false));
+    const isEditableCollection = !!localCollection;
+    if (!displayPrompt) return;
 
     if (updateHash) {
-      captureDetailReturnContext(!!isCollection || !!prompt.isCollection);
+      captureDetailReturnContext(isEditableCollection);
     } else if (!detailReturnContext) {
       detailReturnContext = { route: 'explore', category: 'All', search: '', page: 1, label: '返回探索' };
     }
     currentRoute = 'detail';
     window.scrollTo(0, 0);
-    renderPromptDetail(prompt, !!isCollection || !!prompt.isCollection);
+    renderPromptDetail(displayPrompt, isEditableCollection);
 
     setNavActive('');
 
     if (updateHash) {
-      const targetHash = `${isCollection || prompt.isCollection ? '#/collection/' : '#/prompt/'}${encodeURIComponent(prompt.id)}`;
+      const targetHash = `${isEditableCollection ? '#/collection/' : '#/prompt/'}${encodeURIComponent(displayPrompt.id)}`;
       if (window.location.hash !== targetHash) {
-        history.pushState({ route: 'detail', id: prompt.id, isCollection: !!isCollection }, '', targetHash);
+        history.pushState({ route: 'detail', id: displayPrompt.id, isCollection: isEditableCollection }, '', targetHash);
       }
     }
   }
@@ -820,7 +815,6 @@
       .slice(0, 4);
     const isCol = isCollected(prompt.id) || isCollection;
     const verifiedLabel = prompt.verified ? '已验证' : (prompt.source ? prompt.source : '待验证');
-    const tryUrl = sanitizeImageUrl(getTryUrl(prompt));
     const referenceImages = sanitizeImageUrls(prompt.referenceImages);
     const returnLabel = detailReturnContext?.label || '返回探索';
     const editableImagesText = allImages.join('\n');
@@ -833,9 +827,6 @@
     const sourceUrl = sanitizeImageUrl(prompt.sourceUrl);
     const sourceLink = sourceUrl
       ? `<a class="detail-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">打开来源</a>`
-      : '';
-    const tryLink = tryUrl
-      ? `<a class="copy-btn detail-try-action" href="${escapeHtml(tryUrl)}" target="_blank" rel="noopener noreferrer">Try / 去生成</a>`
       : '';
     const editPanel = isCollection ? `
       <div class="detail-edit-panel" id="detail-edit-panel" hidden>
@@ -935,7 +926,6 @@
 
               <div class="detail-actions">
                 <button class="copy-btn detail-primary-action" id="detail-copy-btn">📋 一键复制提示词</button>
-                ${tryLink}
                 ${isCollection
                   ? `<button class="copy-btn detail-danger-action" id="detail-delete-btn">🗑 删除收藏</button>
                      <button class="copy-btn detail-edit-action" id="detail-edit-btn" type="button">✎ 编辑内容</button>`
@@ -1168,8 +1158,9 @@
   // --- Render: Home ---
   function renderHome() {
     const app = $('#app');
-    const todayTop = [...PROMPTS].sort((a, b) => b.likes - a.likes).slice(0, 6);
-    const heroPrompts = [...PROMPTS]
+    const allPromptItems = getAllPromptItems();
+    const todayTop = [...allPromptItems].sort((a, b) => b.likes - a.likes).slice(0, 6);
+    const heroPrompts = [...allPromptItems]
       .filter(p => p.image)
       .sort((a, b) => b.likes - a.likes)
       .slice(0, 16);
@@ -1178,14 +1169,14 @@
     );
     const catCounts = {};
     CATEGORIES.forEach(c => { catCounts[c.name] = 0; });
-    PROMPTS.forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
+    getAllPromptItems().forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
 
     app.innerHTML = `
       <section class="hero hero-gallery" aria-label="PromptHub prompt gallery">
         <h1 class="sr-only">PromptHub AI 提示词收藏库</h1>
         <div class="hero-intro" aria-hidden="false">
-          <h2>探索高品质纳米香蕉提示</h2>
-          <p>Nano Banana 提示库不断增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。</p>
+          <h2>探索高品质纳米提示词库。</h2>
+          <p>高品质提示词库持续增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。</p>
           <button class="hero-main-cta" type="button" data-action="open-explore">
             <span>查看所有提示</span>
             <span aria-hidden="true">→</span>
@@ -1194,7 +1185,7 @@
         <div class="hero-gallery-shell">
           <div class="hero-gallery-grid">
             ${heroColumns.map((column, columnIndex) => {
-              const loopedColumn = [...column, ...column];
+              const loopedColumn = Array.from({ length: 6 }, () => column).flat();
               return `
                 <div class="hero-gallery-column hero-gallery-column-${columnIndex + 1}">
                   <div class="hero-gallery-track">
@@ -1233,7 +1224,7 @@
             <button class="btn btn-outline" type="button" data-action="scroll" data-scroll-target="#categories-section">浏览分类</button>
           </div>
           <div class="hero-stats">
-            <div class="hero-stat"><div class="hero-stat-num">${PROMPTS.length}+</div><div class="hero-stat-label">精选提示词</div></div>
+            <div class="hero-stat"><div class="hero-stat-num">${allPromptItems.length}+</div><div class="hero-stat-label">精选提示词</div></div>
             <div class="hero-stat"><div class="hero-stat-num">${CATEGORIES.length}</div><div class="hero-stat-label">主题分类</div></div>
             <div class="hero-stat"><div class="hero-stat-num">${PROMPTS.filter(p => p.verified).length}</div><div class="hero-stat-label">已验证</div></div>
             <div class="hero-stat"><div class="hero-stat-num">每日</div><div class="hero-stat-label">持续更新</div></div>
@@ -2164,7 +2155,9 @@
     const raw = localStorage.getItem(EXT_IMPORT_KEY);
     if (raw) {
       try {
-        const items = JSON.parse(raw);
+        const payload = JSON.parse(raw);
+        const items = Array.isArray(payload) ? payload : payload?.items;
+        const batchId = Array.isArray(payload) ? '' : limitedText(payload?.batchId, 120);
         if (Array.isArray(items) && items.length > 0) {
           let saved = 0;
           items.forEach(item => {
@@ -2208,6 +2201,14 @@
           });
           showToast(`浏览器插件导入了 ${saved} 个提示词`);
           localStorage.removeItem(EXT_IMPORT_KEY);
+          if (batchId) {
+            localStorage.setItem(EXT_SYNC_RECEIPT_KEY, JSON.stringify({
+              batchId,
+              total: items.length,
+              saved,
+              receivedAt: new Date().toISOString()
+            }));
+          }
           // 导入成功后自动跳转到收藏页面
           if (saved > 0) {
             navigate('collections');

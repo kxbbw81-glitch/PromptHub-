@@ -108,7 +108,7 @@ function pageShell({ title, description, canonical, image, body, structuredData 
   <meta name="twitter:title" content="${safeTitle}" />
   <meta name="twitter:description" content="${safeDescription}" />
   <meta name="twitter:image" content="${safeImage}" />
-  <link rel="stylesheet" href="../../css/style.css?v=20260727g" />
+  <link rel="stylesheet" href="../../css/style.css?v=20260728b" />
   <style>
     body { background: #f7f8fa; }
     .seo-page { padding: 28px 0 70px; }
@@ -201,7 +201,7 @@ function writePromptPage(prompt) {
       description,
       image: prompt.image,
       url: canonical,
-      keywords: [...tags, prompt.category, 'AI prompt', 'Nano Banana prompt'].join(', '),
+      keywords: [...tags, prompt.category, 'AI prompt', 'AI image prompt'].join(', '),
       datePublished: prompt.date || TODAY,
       creator: { '@type': 'Organization', name: 'PromptHub' }
     },
@@ -225,7 +225,7 @@ function writeCategoryPage(category) {
   const prompts = PROMPTS.filter(prompt => prompt.category === category.name);
   const canonical = `${SITE_URL}${categoryPath(category.name)}`;
   const title = `${category.name} AI 提示词合集 | ${categorySlug(category.name).replace(/-/g, ' ')} | PromptHub`;
-  const description = `${category.name} Prompts 合集，收录 ${prompts.length} 条可直接复制的 Nano Banana 与 AI 图像生成提示词，覆盖具体风格、图片参考、模型信息和标签。`;
+  const description = `${category.name} Prompts 合集，收录 ${prompts.length} 条可直接复制的 AI 图像生成提示词，覆盖具体风格、图片参考、模型信息和标签。`;
   const body = `
   <main class="seo-page">
     <div class="container">

@@ -11,6 +11,9 @@ const WEBSITE_URL = GITHUB_PAGES_URL;
 const WEBSITE_TAB_PATTERN = GITHUB_PAGES_TAB_PATTERN;
 const QUEUE_KEY = 'prompthub_queue';
 const CF_SYNC_DELAY_MINUTES = 30;
+const EXT_IMPORT_KEY = 'prompthub_ext_import';
+const EXT_SYNC_RECEIPT_KEY = 'prompthub_ext_sync_receipt';
+const SYNC_RECEIPT_WAIT_MS = 8000;
 
 try {
   importScripts('prompt-parser.js');
@@ -128,7 +131,7 @@ function buildPromptFromText(text, tab, imageUrl, allImages) {
 }
 
 // --- 安装时创建右键菜单 ---
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener((details) => {
   chrome.contextMenus.create({
     id: 'collect-selection',
     title: '🍌 收藏到 PromptHub',
@@ -144,6 +147,12 @@ chrome.runtime.onInstalled.addListener(() => {
     title: '🌐 打开 PromptHub',
     contexts: ['page']
   });
+
+  if (details.reason === 'update') {
+    recoverCloudflareFromGitHub().catch(e => {
+      console.warn('[PromptHub] Cloudflare recovery check failed:', e.message);
+    });
+  }
 });
 
 // --- 右键菜单点击 ---
@@ -267,6 +276,46 @@ async function clearQueue() {
   await chrome.storage.local.remove(QUEUE_KEY);
 }
 
+async function recoverCloudflareFromGitHub() {
+  const tabs = await chrome.tabs.query({ url: GITHUB_PAGES_TAB_PATTERN });
+  let tab = tabs[0];
+  if (!tab) {
+    tab = await chrome.tabs.create({ url: GITHUB_PAGES_URL + '#/collections', active: false });
+    await new Promise((resolve) => {
+      let done = false;
+      const listener = (tabId, changeInfo) => {
+        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
+          done = true;
+          chrome.tabs.onUpdated.removeListener(listener);
+          setTimeout(resolve, 500);
+        }
+      };
+      chrome.tabs.onUpdated.addListener(listener);
+      setTimeout(() => {
+        if (!done) {
+          done = true;
+          chrome.tabs.onUpdated.removeListener(listener);
+          resolve();
+        }
+      }, 15000);
+    });
+  }
+
+  const result = await chrome.scripting.executeScript({
+    target: { tabId: tab.id },
+    func: () => {
+      try {
+        const items = JSON.parse(localStorage.getItem('prompthub_collections') || '[]');
+        return Array.isArray(items) ? items : [];
+      } catch {
+        return [];
+      }
+    }
+  });
+  const collections = result[0]?.result || [];
+  if (collections.length > 0) await scheduleCloudflareSync(collections);
+}
+
 // --- 消息处理 ---
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'getQueue') {
@@ -309,6 +358,71 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 });
 
+function createSyncBatchId() {
+  return `sync_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 10)}`;
+}
+
+async function writeImportBatch(tabId, queue, batchId) {
+  const result = await chrome.scripting.executeScript({
+    target: { tabId },
+    func: (data, importKey, nextBatchId) => {
+      try {
+        const raw = JSON.parse(localStorage.getItem(importKey) || '[]');
+        const existing = Array.isArray(raw) ? raw : (Array.isArray(raw?.items) ? raw.items : []);
+        const seen = new Set();
+        const items = [...existing, ...data].filter(item => {
+          const key = item?.id || item?.prompt;
+          if (!key || seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+        localStorage.setItem(importKey, JSON.stringify({ batchId: nextBatchId, items }));
+        window.dispatchEvent(new StorageEvent('storage', {
+          key: importKey,
+          newValue: JSON.stringify({ batchId: nextBatchId, items }),
+          oldValue: null,
+          storageArea: localStorage
+        }));
+        return { success: true, count: items.length };
+      } catch (e) {
+        return { success: false, error: e.message };
+      }
+    },
+    args: [queue, EXT_IMPORT_KEY, batchId]
+  });
+
+  const payload = result[0]?.result;
+  if (!payload?.success) throw new Error(payload?.error || 'PromptHub import handoff failed');
+  return payload;
+}
+
+async function waitForSaveReceipt(tabId, batchId) {
+  const deadline = Date.now() + SYNC_RECEIPT_WAIT_MS;
+  while (Date.now() < deadline) {
+    const result = await chrome.scripting.executeScript({
+      target: { tabId },
+      func: (receiptKey) => {
+        try {
+          return JSON.parse(localStorage.getItem(receiptKey) || 'null');
+        } catch {
+          return null;
+        }
+      },
+      args: [EXT_SYNC_RECEIPT_KEY]
+    });
+    const receipt = result[0]?.result;
+    if (receipt?.batchId === batchId) return receipt;
+    await new Promise(resolve => setTimeout(resolve, 400));
+  }
+  throw new Error('PromptHub save receipt was not received');
+}
+
+async function deliverBatchToPromptHub(tabId, queue) {
+  const batchId = createSyncBatchId();
+  await writeImportBatch(tabId, queue, batchId);
+  return waitForSaveReceipt(tabId, batchId);
+}
+
 // --- 同步到单个站点 ---
 async function syncToSite(url, tabPattern, queue) {
   const tabs = await chrome.tabs.query({ url: tabPattern });
@@ -340,34 +454,8 @@ async function syncToSite(url, tabPattern, queue) {
     });
   }
 
-  // 注入函数写入 localStorage + 主动触发 storage 事件
-  await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: (data) => {
-      try {
-        const existing = JSON.parse(localStorage.getItem('prompthub_ext_import') || '[]');
-        const merged = [...existing, ...data];
-        const seen = new Set();
-        const deduped = merged.filter(item => {
-          if (seen.has(item.prompt)) return false;
-          seen.add(item.prompt);
-          return true;
-        });
-        localStorage.setItem('prompthub_ext_import', JSON.stringify(deduped));
-        window.dispatchEvent(new StorageEvent('storage', {
-          key: 'prompthub_ext_import',
-          newValue: JSON.stringify(deduped),
-          oldValue: null,
-          storageArea: localStorage
-        }));
-      } catch (e) {
-        console.error('PromptHub sync error:', e);
-      }
-    },
-    args: [queue]
-  });
-
-  return { success: true, tab };
+  const receipt = await deliverBatchToPromptHub(tab.id, queue);
+  return { success: true, tab, receipt };
 }
 
 // --- 同步到网站：只同步 GitHub Pages，成功后安排后台延迟同步国内站点 ---
@@ -473,30 +561,5 @@ async function syncToSiteSilent(url, tabPattern, queue) {
     });
   }
 
-  // 注入函数写入 localStorage
-  await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: (data) => {
-      try {
-        const existing = JSON.parse(localStorage.getItem('prompthub_ext_import') || '[]');
-        const merged = [...existing, ...data];
-        const seen = new Set();
-        const deduped = merged.filter(item => {
-          if (seen.has(item.prompt)) return false;
-          seen.add(item.prompt);
-          return true;
-        });
-        localStorage.setItem('prompthub_ext_import', JSON.stringify(deduped));
-        window.dispatchEvent(new StorageEvent('storage', {
-          key: 'prompthub_ext_import',
-          newValue: JSON.stringify(deduped),
-          oldValue: null,
-          storageArea: localStorage
-        }));
-      } catch (e) {
-        console.error('PromptHub sync error:', e);
-      }
-    },
-    args: [queue]
-  });
+  return deliverBatchToPromptHub(tab.id, queue);
 }

@@ -459,24 +459,24 @@ button {
 
 .hero-gallery-column-1 .hero-gallery-track {
   --gallery-offset: -28px;
-  animation-duration: 48s;
+  animation-duration: 144s;
 }
 
 .hero-gallery-column-2 .hero-gallery-track {
   --gallery-offset: 34px;
   animation-name: galleryScrollDown;
-  animation-duration: 54s;
+  animation-duration: 162s;
 }
 
 .hero-gallery-column-3 .hero-gallery-track {
   --gallery-offset: -12px;
-  animation-duration: 44s;
+  animation-duration: 132s;
 }
 
 .hero-gallery-column-4 .hero-gallery-track {
   --gallery-offset: 18px;
   animation-name: galleryScrollDown;
-  animation-duration: 52s;
+  animation-duration: 156s;
 }
 
 .hero-gallery:hover .hero-gallery-track,
@@ -707,8 +707,8 @@ button {
 /* --- Categories Grid --- */
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 12px;
 }
 
 .category-card {
@@ -716,7 +716,8 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 28px 16px;
+  min-height: 146px;
+  padding: 18px 12px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -732,18 +733,19 @@ button {
 }
 
 .category-icon {
-  font-size: 36px;
-  margin-bottom: 12px;
+  font-size: 28px;
+  margin-bottom: 8px;
 }
 
 .category-name {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   margin-bottom: 4px;
 }
 
 .category-desc {
-  font-size: 12px;
+  font-size: 11px;
+  line-height: 1.45;
   color: var(--text-muted);
 }
 
@@ -1527,16 +1529,6 @@ button {
 
 .detail-primary-action {
   background: var(--text);
-}
-
-.detail-try-action {
-  background: var(--yellow);
-  color: var(--text);
-}
-
-.detail-try-action:hover {
-  background: var(--yellow-dark);
-  color: var(--text);
 }
 
 .detail-secondary-action {

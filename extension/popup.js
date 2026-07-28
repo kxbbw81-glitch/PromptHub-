@@ -553,33 +553,11 @@ $('#btn-sync').addEventListener('click', async () => {
       return;
     }
 
-    // 只同步到 GitHub Pages（前台，用户可见）
-    btn.textContent = '同步到 GitHub Pages…';
-    let githubOk = false;
-    try {
-      const { result } = await syncToSite(GITHUB_PAGES_URL, GITHUB_PAGES_PATTERN, queue);
-      if (result?.success) {
-        githubOk = true;
-      } else {
-        console.warn('GitHub Pages sync returned error:', result?.error);
-      }
-    } catch (e) {
-      console.warn('GitHub Pages sync failed (可能国内无法访问):', e.message);
-    }
+    btn.textContent = '正在确认 GitHub Pages 保存…';
+    const syncResult = await chrome.runtime.sendMessage({ action: 'syncToWebsite' });
 
-    if (githubOk) {
-      // GitHub Pages 成功 → 清空队列
-      await clearQueue();
+    if (syncResult?.success) {
       showToast(`已同步 ${queue.length} 个到 GitHub Pages`);
-
-      // 通知 background：GitHub Pages 成功后，再排程国内站点 30 分钟延迟同步
-      let cloudflareScheduled = false;
-      try {
-        const scheduleResult = await chrome.runtime.sendMessage({ action: 'delayedSyncCloudflare', queue });
-        cloudflareScheduled = !!scheduleResult?.success;
-      } catch (e) {
-        console.warn('Cloudflare delayed sync schedule failed:', e.message);
-      }
 
       $('#content').innerHTML = `
         <div class="empty-state">
@@ -589,12 +567,12 @@ $('#btn-sync').addEventListener('click', async () => {
           </div>
           <div class="empty-hint" style="margin-top:8px;line-height:1.8;">
             🌐 GitHub Pages ✓<br>
-            🇨🇳 国内站点：${cloudflareScheduled ? `${CF_SYNC_DELAY_MINUTES} 分钟后自动同步` : '后台排程失败，请稍后重新同步'}
+            🇨🇳 国内站点：${CF_SYNC_DELAY_MINUTES} 分钟后自动同步
           </div>
         </div>
       `;
     } else {
-      showToast('GitHub Pages 同步失败');
+      showToast(syncResult?.error || 'GitHub Pages 同步失败');
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">❌</div>
