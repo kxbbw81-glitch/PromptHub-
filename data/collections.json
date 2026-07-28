@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:32:05.105Z",
+  "updatedAt": "2026-07-28T09:32:08.340Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3anuof_j4ut",
+      "image": "https://pbs.twimg.com/media/HOMkcsEaIAAwRBR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMkcsEaIAAwRBR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMkee7aIAAc1IP?format=jpg&name=small"
+      ],
+      "prompt": "Gpt Image 2\nPrompt :\nCreate a photorealistic editorial portrait.\nWaist-up portrait, high angle, looking down, rear-left three-quarter view\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, long straight side-part black hair.\nWearing crisp Y2K schoolgirl-inspired styling, cropped white short-sleeve button shirt, black lace bra, ultra low-rise yellow plaid pleated mini skirt, delicate pendant necklace.\nShe has her chin tucked toward one shoulder line with the neck softly folded by the selected pose.\nIn Rome old-town stone corner, warm-toned wall texture, cobblestone ground.\nInspired by Kishin Shinoyama, polished Japanese portrait image language, high-key Japanese portrait color grade, elevated exposure.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785160823055,
+      "title": "Gpt Image 2",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2081547857916801165",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMkcsEaIAAwRBR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMkee7aIAAc1IP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:08.340Z",
+      "githubSyncedAt": "2026-07-28T09:32:08.340Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-28",
