@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:22.256Z",
+  "updatedAt": "2026-07-28T09:34:21.671Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gbj6t_y4ux",
+      "image": "https://pbs.twimg.com/media/HOPo89lW4AAcS9P?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOPo89lW4AAcS9P?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPo89hXAAALDWy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPo89kWMAA-GEf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPo89jW8AE-VP1?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT\n\n提示 \n\n一位年轻成年东亚女性坐在极简室内空间的浅色微水泥地面，身体轻轻倚靠米灰色微水泥墙面。画面为中远景，从头顶至脚部附近。她双腿自然弯曲盘坐，一条腿向前、一条腿向侧方放松展开，身体微微向右倾斜。右手自然支撑身体放在地面，左手轻轻搭在左腿膝盖附近，指尖自然放松。头部轻轻低垂，视线向左下方，不看镜头，神情安静、沉思、克制，嘴唇自然微启，呈现淡淡的忧郁与松弛感。\n\n她拥有精致鹅蛋脸，柔和下颌线，杏仁形深棕眼睛，细长自然眉，挺直鼻梁，浅豆沙色嘴唇。妆容极淡，仅保留自然肤色、轻微腮红与裸色唇妆。皮肤白皙偏暖，真实毛孔、细小绒毛、肤色渐变与自然高光完整保留，无塑料磨皮。\n\n深棕黑色长发扎成高马尾，发尾自然垂落肩背，额前和两侧留有几缕凌乱碎发，被柔和空气轻轻带起，增加生活感。\n\n她穿一件浅灰褐色针织挂脖无袖上衣，柔软细罗纹棉质面料，领口采用交叉包裹设计，自然贴合身体，腰部略有褶皱。下身穿宽松米白色亚麻或纯棉抽绳长裤，布料柔软，裤脚自然堆叠形成丰富褶皱，整体为极简日系生活美学。\n\n环境为空旷现代极简室内，浅米灰色微水泥墙面与地面，无家具、无装饰，仅利用建筑空间塑造氛围。整体色彩以米白、燕麦灰、浅暖灰、肤色组成低饱和莫兰迪色系。\n\n柔和自然阳光从画面左侧高窗斜射进入，形成大片漫反射光线。人物左肩、锁骨、手臂及裤子形成柔和高光，右侧保持自然阴影，墙面出现极淡光影过渡。整体低对比、低饱和、高动态范围，宁静而高级。\n\n摄影风格：85mm人像镜头，f/2.0，平视略高机位，浅景深但整体保持清晰，真实布料纹理、皮肤纹理、头发层次与细腻光影，轻微ISO100胶片颗粒，Fine Art Editorial，Japanese minimalist lifestyle photography，photorealistic，ultra realistic，natural imperfections，soft cinematic grading。\n\n避免：塑料皮肤、过度磨皮、夸张身材、错误手指、畸形四肢、HDR过强、锐化过度、CG感、动漫感、杂乱背景、家具、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOPo89lW4AAcS9P?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPo89hXAAALDWy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPo89kWMAA-GEf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPo89jW8AE-VP1?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785230792165,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081763593838535127",
+      "collectedAt": "2026-07-28T09:34:21.671Z",
+      "githubSyncedAt": "2026-07-28T09:34:21.671Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "抽象",
       "date": "2026-07-27",
