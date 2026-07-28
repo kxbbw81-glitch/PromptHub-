@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:09.956Z",
+  "updatedAt": "2026-07-28T09:32:11.902Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3a933u_ele7",
+      "image": "https://pbs.twimg.com/media/HOKPklUbsAAVs6q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOKPklUbsAAVs6q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklNbIAIDnr7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklUaQAAwuAO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklLasAADxZG?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "“眨眼之间，半生已过，何必为遥远之事浪费时间去怨恨”\n\n\n\n以下是用于再现照片风格、布局和氛围的详细提示，不复制照片中人物的身份：\n\n⸻\n\nPrompt GPT Image\n\n超写实电影般的奢华时尚编辑肖像，描绘一位美丽的年轻成年东亚女性在极简白色摄影工作室中优雅地摆姿势。\n\n她拥有纤细的沙漏型身材，精致的面部特征，富有表现力的温暖棕色眼睛，自然柔和的粉色嘴唇，逼真的皮肤纹理带有可见毛孔，以及深色头发，造型为精致的松散低髻，柔软的发丝轻柔地框住她的脸庞。\n\n她身穿一件优雅的黑色缎面长袖迷你连衣裙，带有奢华的丝光泽，深V领口，贴合腰身的剪裁，不对称裹身裙摆，以及飘逸的垂褶侧面板。她搭配经典的黑色尖头细高跟鞋和一件精致的珍珠手链。\n\n她优雅地坐在一张透明亚克力椅子上，交叉着修长的双腿，同时微微向后倚靠在椅子上。一只手臂自然地搭在椅背上，另一只手则举到下巴附近，手指放松。她平静地望向镜头，带着沉着、自信的编辑式表情。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKPklUbsAAVs6q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklNbIAIDnr7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklUaQAAwuAO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklLasAADxZG?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785160134138,
+      "title": "“眨眼之间，半生已过，何必为遥远之事浪费时间去怨恨”",
+      "updatedAt": "2026-07-27T13:57:17.102Z",
+      "url": "https://x.com/YUKIMASTERAI/status/2081383846743101569",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:11.902Z",
+      "githubSyncedAt": "2026-07-28T09:32:11.902Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "自然",
       "date": "2026-07-27",
