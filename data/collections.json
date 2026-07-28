@@ -1,7 +1,127 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T10:07:57.620Z",
+  "updatedAt": "2026-07-28T10:08:52.642Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4htpe4_t75i",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2080302843102408704/img/OzbG0Wfx7sQ4kYPm.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2080302843102408704/img/OzbG0Wfx7sQ4kYPm.jpg"
+      ],
+      "model": "",
+      "prompt": "雨天便利店，终于等到男朋友来接了了，肉眼可见的开心…不小心选到了15秒视频，不过节奏更快点效果应该更好\n\nSeedance2 提示词：  x.com/Adam3836336893…",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2080302843102408704/img/OzbG0Wfx7sQ4kYPm.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785233319628,
+      "title": "雨天便利店，终于等到男朋友来接了了，肉眼可见的开心…不小心选到了15秒视频，不过节奏更快点效果应该更好",
+      "url": "https://x.com/Adam38363368936/status/2079845917491101707",
+      "collectedAt": "2026-07-28T10:08:52.642Z",
+      "githubSyncedAt": "2026-07-28T10:08:52.642Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4htpe4_1l8l",
+      "image": "https://pbs.twimg.com/media/HN0X6UVbEAAi8ZZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HN0X6UVbEAAi8ZZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNvvQ_-aAAAYlfX?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "继续生活小场景，深夜客厅的手机随拍，太有氛围感了，回眸一笑真的能打动人心！\n\nGPT image2提示词：\n竖版3:4，单张真实家庭手机夜拍，不要拼贴，不要四宫格，不要信息图，不要任何文字。  仅参考上传图片中女性的五官、脸型、眼睛、鼻子、嘴唇、自然笑容和黑色长直发。只参考人物外貌，不继承上传图的甜品店背景、黄色座椅、冰淇淋、服装、动作和构图，完全重建普通家庭客厅。  一位年轻成年亚洲女性，身材苗条自然，穿浅米色无袖针织家居长裙，舒服地侧坐在普通布艺沙发上，腿上随意盖着一条薄毯。她一只手拿着薯片，另一只手放在遥控器旁边，原本正在看电视。朋友从沙发另一端突然叫她，她转头看向镜头，表情先有一点发懵，嘴里还在吃东西，随后露出很轻、很自然的笑容。  客厅普通且略显凌乱，不是豪华样板房。沙发上有抱枕和薄毯，茶几上放着零食袋、水杯、纸巾、充电线和遥控器。电视在背景亮着，但屏幕内容模糊不可辨认。电视冷光照亮人物脸部和肩膀，旁边只有一盏较暗的暖色落地灯，形成真实不均匀的冷暖混合光。房间暗部保留明显手机噪点。  使用普通手机后置镜头，26mm广角，从沙发另一侧较低位置拍摄，中景。构图稍微倾斜，人物姿态松弛自然，没有刻意展示身材。保留真实皮肤纹理、轻微毛孔、少量瑕疵、自然油光和凌乱碎发，未经精修，像朋友深夜随手拍到的生活照。  \n负面提示词：甜品店，冰淇淋，木桌，原图座椅，原图坐姿，拼贴，四宫格，多场景，信息图，文字，标题，海报，豪华公寓，样板房，睡衣广告，影棚布光，性感服装，暴露服装，塑料皮肤，完美摆拍，过度磨皮，家具变形，零食漂浮，电视文字，水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN0X6UVbEAAi8ZZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNvvQ_-aAAAYlfX?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785233319628,
+      "title": "继续生活小场景，深夜客厅的手机随拍，太有氛围感了，回眸一笑真的能打动人心！",
+      "url": "https://x.com/Adam38363368936/status/2079845917491101707",
+      "collectedAt": "2026-07-28T10:08:52.642Z",
+      "githubSyncedAt": "2026-07-28T10:08:52.642Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4htk7t_78nr",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2080673534486212608/img/reDe9B6TAJIr5nz9.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2080673534486212608/img/reDe9B6TAJIr5nz9.jpg"
+      ],
+      "model": "",
+      "prompt": "妈呀，怎么哭得这么狠……\n感觉她就坐在我面前一样。\n\n不知道经历了什么，前面一直忍着，忍着忍着，最后彻底绷不住了。\n\n这次只调整了情绪递进，真实感一下就出来了。AI控制情绪越来越厉害了！\n提示词放评论区  x.com/Adam3836336893…",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2080673534486212608/img/reDe9B6TAJIr5nz9.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785233312921,
+      "title": "妈呀，怎么哭得这么狠……",
+      "url": "https://x.com/Adam38363368936/status/2080452359956963799",
+      "collectedAt": "2026-07-28T10:08:52.642Z",
+      "githubSyncedAt": "2026-07-28T10:08:52.642Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4htk7t_89t3",
+      "image": "https://pbs.twimg.com/media/HN89HUtbEAAFxk0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HN89HUtbEAAFxk0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8_lULakAA4ucp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0X6UVbEAAi8ZZ?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "这张我最喜欢！这个应该是很多普通人的常态吧，公交车沉思放空的女孩，下班后的疲惫感、抓拍的感觉比摆拍自然很多。有个bug ，看看你们能不能发现\n\nGPT image 2提示词：\n竖版3:4，单张真实手机摄影，不要拼贴，不要四宫格，不要信息图，不要文字。\n\n仅参考上传图片中女性的五官、脸型、鼻子、嘴唇和黑色长直发。只参考人物外貌，不继承原图场景和姿势。\n\n雨后傍晚，一位年轻成年亚洲女性坐在普通公交车靠窗座位，身材苗条自然，穿米灰色无袖长裙，肩上放着深色薄外套。她身体轻轻靠近车窗，一只手放在腿上，另一只手用指尖在有水汽的玻璃上随意划出一小段痕迹。\n\n她侧脸望着窗外，不看镜头，表情安静、略带疲倦和走神感，嘴唇自然闭合。车窗上布满细小雨滴，外面的路灯、车辆和行人被拉成模糊光斑，但整体不要赛博朋克。\n\n公交车内部有普通蓝灰色座椅、扶手和车顶灯，前后有少量乘客。车内冷白灯与窗外暖色街灯混合，人物侧脸一半明亮、一半处于阴影。手机从过道另一侧拍摄，中景，轻微运动模糊和手机噪点。\n\n负面提示词：回头看镜头，露齿微笑，自拍，写真摆拍，电影女主角感，强烈忧郁表演，赛博朋克，夸张霓虹，甜品店，冰淇淋，拼贴，四宫格，文字，海报，背景完全虚化，塑料皮肤，浓妆，车窗结构错误，多余手指，手臂穿模，水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN89HUtbEAAFxk0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8_lULakAA4ucp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0X6UVbEAAi8ZZ?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "写真",
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1785233312921,
+      "title": "这张我最喜欢",
+      "url": "https://x.com/Adam38363368936/status/2080452359956963799",
+      "collectedAt": "2026-07-28T10:08:52.642Z",
+      "githubSyncedAt": "2026-07-28T10:08:52.642Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
