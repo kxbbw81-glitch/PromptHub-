@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:31:53.842Z",
+  "updatedAt": "2026-07-28T07:32:05.105Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4c8b5r_6ff4",
+      "image": "https://pbs.twimg.com/media/HMs5hxcawAIN0sP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMs5hxcawAIN0sP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMs5hzuboAAAb9I?format=jpg&name=small"
+      ],
+      "prompt": "Ultra-realistic luxury autumn street fashion editorial of a beautiful young East Asian woman sitting gracefully on wide stone steps outside an elegant historic European building.\n\nShe has long chestnut-brown hair styled in soft voluminous curls with full wispy curtain bangs, half-up hairstyle secured with a cream ribbon hair clip. Her skin is fair with a natural satin glow, soft rosy cheeks, delicate facial features, subtle brown eye makeup, long curled eyelashes, naturally full brows, and muted rose lips.\n\nShe wears a crisp oversized ivory button-up shirt tucked into a high-waisted brown plaid pleated mini skirt, paired with a slim chocolate-brown necktie. She wears sheer dark espresso tights and glossy dark burgundy knee-high leather boots with square toes and elegant block heels.\n\nA luxurious burgundy leather shoulder bag rests beside her as she searches through it with one hand while casually holding a hardcover book and a takeaway coffee cup in the other. Small pearl stud earrings and delicate minimal jewelry complete the outfit.\n\nShe sits naturally on the stone staircase with one knee slightly bent and her body leaning forward as she looks down into her handbag, creating a candid everyday moment. Her posture feels relaxed, feminine, and effortless.\n\nBehind her stands a grand dark walnut wooden doorway with classic European architectural details, aged stone walls, and wide granite steps. The atmosphere suggests a quiet autumn morning in Paris, London, or Milan.\n\nSoft overcast daylight creates diffused natural lighting with gentle shadows, muted highlights, and rich earthy colors. The overall palette consists of espresso brown, burgundy, ivory, taupe, charcoal, and warm gray, producing a timeless vintage editorial mood.\n\nLuxury autumn campaign, old money aesthetic, dark academia fashion, European street style, Korean fashion editorial, vintage city lifestyle, quiet luxury.\n\nShot on a Leica M11 with a Summilux-M 50mm f/1.4 ASPH lens, shallow depth of field, Kodak Portra 400 color grading, soft analog film grain, RAW photography, ultra realistic skin texture, photorealistic, 8K, highly detailed.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic",
+        "dark",
+        "vintage",
+        "8k"
+      ],
+      "timestamp": 1785223923327,
+      "title": "Burgundy",
+      "url": "https://x.com/CliQi_AI/status/2081926868224409787",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMs5hxcawAIN0sP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMs5hzuboAAAb9I?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:32:05.105Z",
+      "githubSyncedAt": "2026-07-28T07:32:05.105Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-28",
