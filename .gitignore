@@ -6,3 +6,10 @@ _replace_*.py
 *.log
 captures/
 ux-audit/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
