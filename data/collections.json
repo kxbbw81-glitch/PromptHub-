@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:15:37.069Z",
+  "updatedAt": "2026-07-28T07:15:38.598Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3arirh_zzpj",
+      "image": "https://pbs.twimg.com/media/HOFV8FSbwAEqApk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOFV8FSbwAEqApk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "创作一幅竖版生活肖像，比例约为4:5，描绘一位成年东亚女性坐在黑色皮沙发上，从大腿以上拍摄，采用放松的四分之三侧身姿势，脸转向左上方，带着柔和而沉思的微笑。她留着长长的深色披肩发，身穿象牙白色无袖半透明连衣裙，裙身采用层叠垂坠面料，饰有精致的蕾丝滚边，领口为深V设计。赋予她自然丰满的胸部，以一种雅致的时尚大片风格，展现恰到好处的乳沟。她的双手放在膝盖附近，一条弯曲的腿斜伸到左下角的前景中。场景设定在一个温暖现代的室内，高大的黑色多格窗框，窗外是清冷的蓝绿色日光，她身后是一盏柔和发光的落地灯，左侧远处背景中有一个模糊的坐姿人物，黑色皮革软垫，浅色瓷砖地板，右侧是一面镶有画框的木质墙。运用柔和的金色阳光、清冷的窗户光线、柔和的阴影过渡、自然的肌肤纹理、逼真的室内摄影风格，营造一种平静而温馨的氛围。避免出现变形的手部、多余的肢体、塑料感十足的皮肤、生硬的阴影、过度曝光、其他人物、清晰可辨的文字或水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOFV8FSbwAEqApk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785160994237,
+      "title": "夜深了 晚安玛卡巴卡",
+      "updatedAt": "2026-07-27T14:05:10.506Z",
+      "url": "https://x.com/yangyanglxy/status/2081039158190162359",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:15:38.598Z",
+      "githubSyncedAt": "2026-07-28T07:15:38.598Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
