@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T10:03:18.299Z",
+  "updatedAt": "2026-07-28T10:07:57.620Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4hsq55_yn11",
+      "image": "https://pbs.twimg.com/media/HN8vXpyXQAA-iRY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HN8vXpyXQAA-iRY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8vXpuXcAAYCUm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8vXp1WAAA8jCi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8vXp3XkAAN71_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT\n\n提示 \n一位年轻成年东亚女性坐在沙滩上，画面为半身到三分之二身构图，人物位于画面中央略偏右。身体微微侧向左侧，头部转向画面左上方，不直视镜头，露出自然明亮的微笑，牙齿轻微可见，神情温柔、轻松、清新。右手轻轻抬起触碰耳侧或头发，左手自然放在腿上或裙摆旁。\n\n她有柔和精致的鹅蛋脸，杏仁形深棕眼睛，自然细眉，纤细鼻梁，浅珊瑚粉色嘴唇。妆容极淡，仅有自然睫毛、淡眼线与轻微腮红。肤色白皙偏暖，保留真实毛孔、细小绒毛、自然肤色变化和柔和高光，不要塑料磨皮。\n\n她有深黑色长发，自然披散，发量丰富，略带轻微波浪。海风吹起发丝，部分发丝掠过额头、脸颊和肩膀，头发保持真实重量感和自然凌乱感。\n\n她穿一件白色轻薄刺绣纱质裹身长裙或罩衫式长裙，V形交叠领口，腰间系带打结，七分袖或中袖，袖口和布料表面有细腻白色花卉刺绣，整体柔软飘逸、半透明但含蓄。佩戴短款白色珍珠项链和细小珍珠手链。\n\n背景是安静海边，左后方可见海浪与海面反光，远处有朦胧山体或海岸线，天空为傍晚或清晨的浅灰蓝色，整体高键、低饱和、低对比。光线为柔和自然日光，略带逆光和侧逆光，人物头发边缘、脸颊和裙摆有柔和轮廓光。摄影风格：85mm人像镜头，f/1.8，浅景深，眼睛与面部清晰，背景柔和虚化，真实海边生活方式摄影，轻微胶片颗粒，photorealistic。\n\n避免： 卡通、CG、插画、过度磨皮、浓妆、夸张笑容、错误手指、畸形手臂、过曝丢失细节、强HDR、过度锐化、杂乱背景、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN8vXpyXQAA-iRY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8vXpuXcAAYCUm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8vXp1WAAA8jCi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN8vXp3XkAAN71_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "插画",
+        "摄影",
+        "清晨"
+      ],
+      "timestamp": 1785233273946,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2080624041526808824",
+      "collectedAt": "2026-07-28T10:07:57.620Z",
+      "githubSyncedAt": "2026-07-28T10:07:57.620Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
