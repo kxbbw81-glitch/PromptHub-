@@ -1,5 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "collections": []
+  "updatedAt": "2026-07-28T07:15:29.796Z",
+  "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3cbczz_t2za",
+      "image": "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMszoQbaYAA0W-k?format=jpg&name=small"
+      ],
+      "prompt": "Generated in CliQi. \nPrompt:\nUltra-realistic high fashion studio portrait of a striking young East Asian woman posing confidently on a seamless light gray cyclorama studio background.\n\nShe has waist-length silky jet-black hair with perfectly blunt straight bangs, luminous",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785163599503,
+      "title": "Generated in CliQi.",
+      "url": "https://x.com/chenlinspark/status/2081348809230258379",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMszoQbaYAA0W-k?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:15:29.795Z",
+      "githubSyncedAt": "2026-07-28T07:15:29.795Z",
+      "domesticSyncedAt": null
+    }
+  ]
 }
