@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:15:29.796Z",
+  "updatedAt": "2026-07-28T07:15:31.236Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3cbczy_cchb",
+      "image": "https://pbs.twimg.com/media/HOJLSogXkAArNKT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOJLSogXkAArNKT?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt—— 9:16竖版，现代东方艺术感新中式女性写真，真实摄影。明确成年的30岁东方女性，成年气质清晰，不幼态化，端正柔和脸型、安静眉眼、清透克制妆容、低饱和豆沙唇，黑色低马尾，清雅知性、克制而有距离感。硬性动作：她正在新中式茶室木质回廊向前走，在素色屏风旁短暂停下；右手轻轻把肩侧头发整理到耳后，左手自然下垂并拿一把收拢的素色纸扇；身体三分之四侧向镜头，前脚向前、后脚稳住重心，头部略转向镜头，眼神越过镜头看远处，衣摆和发尾有极轻微行走动态，必须清楚呈现“行走、整理头发、短暂停顿”动作链。服装完整现代：浅玉灰色立领盘扣上衣、深灰蓝高腰宽松长裤、米白色棉麻长外衫、低调木质耳饰，不是古装cosplay。场景只保留浅色木框、素色屏风、墙面一片竹影，大面积留白；50mm，平视，大半身到全身构图，人物略偏画面一侧，浅景深但保留木质线条。柔和侧光从屏风边缘进入，照亮脸侧、手部和棉麻纹理，低饱和宣纸白、木质暖灰、浅玉色、深灰蓝，柔和高光、干净暗部、轻微胶片质感、现代东方艺术摄影。只生成一张独立图片，不要拼图、网格、海报文字、水印、logo、畸形手指或额外人物。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOJLSogXkAArNKT?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "东方",
+        "写真",
+        "海报",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785163599502,
+      "title": "她沿着新中式木廊走到竹影旁，脚步停了半拍，手指把耳旁碎发轻轻别到耳后。",
+      "updatedAt": "2026-07-27T14:47:34.633Z",
+      "url": "https://x.com/chenlinspark/status/2081348809230258379",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:15:31.235Z",
+      "githubSyncedAt": "2026-07-28T07:15:31.235Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
