@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:40:37.234Z",
+  "updatedAt": "2026-07-28T09:41:46.720Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gsbyz_8fv4",
+      "image": "https://pbs.twimg.com/media/HOHt_6mXMAAhAYQ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOHt_6mXMAAhAYQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHuBKPW0AAkjpQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一张像周末午后刚坐下，另一张像旧公寓里等一封迟到的信。\n\n——Prompt——\n生成一张独立的竖版 9:16 女性写真照片，清透自然生活感路线。主体是一位明确成年的 26 岁东方女性，成年气质明确，不幼态化，清秀自然的淡颜五官，柔和眉眼，清透淡妆，健康真实肤质，自然披肩长发。固定核心动作：她坐在浅色卧室的床沿，背部拉长，身体向画面左侧侧转约 30–45 度，一只手轻轻扶住米白针织开衫的衣领或外搭边缘，另一只手自然落在大腿侧，双腿完整穿着长裤并自然收拢、一前一后，肩膀放松，头部略转回镜头，眼神温柔自然。服装必须完整且非露骨：米白色柔软针织开衫，内搭高领或圆领浅色上衣，浅蓝直筒长裤，质地真实。场景是周末午后浅色卧室，白色床品、浅木床头柜、半透明白色窗帘作为少量环境细节，背景整洁不杂乱。平视机位，50mm 人像镜头，半身到大腿构图，人物占画面主要区域，床沿和窗光交代生活感，浅景深但脸部和手部清晰。柔和窗边自然光从侧前方照亮脸侧、肩颈和针织纹理，暗部柔和，奶油暖白、低对比、轻微生活电影质感，颜色通透自然。真实摄影，不是影楼硬照，不是插画。禁止任何文字、海报排版、拼图、九宫格、水印、logo；手指数量正确，肢体结构正确，动作可信。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOHt_6mXMAAhAYQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHuBKPW0AAkjpQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "东方",
+        "人像",
+        "写真",
+        "海报",
+        "插画"
+      ],
+      "timestamp": 1785231575963,
+      "title": "一张像周末午后刚坐下，另一张像旧公寓里等一封迟到的信。",
+      "url": "https://x.com/chenlinspark/status/2081243115499728992",
+      "collectedAt": "2026-07-28T09:41:46.720Z",
+      "githubSyncedAt": "2026-07-28T09:41:46.720Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
