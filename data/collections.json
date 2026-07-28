@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:34:23.519Z",
+  "updatedAt": "2026-07-28T09:34:25.164Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gc10i_a2k6",
+      "image": "https://pbs.twimg.com/media/HOPK5pBb0AAklUy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOPK5pBb0AAklUy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPK5pGawAAtibC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPK5o-acAAD2o4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPC2CqbIAANEFr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPC2CtbYAAebhs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "最近做了一组「新中式 × Lolita」真人 COS 写真。\n\n这套的核心不是单纯堆叠华丽服饰，而是把东方庭院的留白感、日系少女写真、Gothic Lolita 的精致结构融合在一起。\n\n绿白色系降低了传统 Lolita 的甜腻感，加入黑色与金色细节点缀，让整体更像一组高级时装画册。\n\n构图上使用高机位俯拍 +  x.com/voxcatai/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOPK5pBb0AAklUy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPK5pGawAAtibC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPK5o-acAAD2o4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPC2CqbIAANEFr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOPC2CtbYAAebhs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "东方",
+        "写真"
+      ],
+      "timestamp": 1785230815266,
+      "title": "最近做了一组「新中式 × Lolita」真人 COS 写真。",
+      "url": "https://x.com/VoxcatAI/status/2081730571756274153",
+      "collectedAt": "2026-07-28T09:34:25.164Z",
+      "githubSyncedAt": "2026-07-28T09:34:25.164Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
