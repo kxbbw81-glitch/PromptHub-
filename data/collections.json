@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T12:15:37.500Z",
+  "updatedAt": "2026-07-28T12:47:18.175Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4nhhjd_rm90",
+      "image": "https://pbs.twimg.com/media/HN0RXYXaUAANPk0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HN0RXYXaUAANPk0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0RX3taUAAPS9r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0RYjNbQAAL80l?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0RZF0bEAATH9Z?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic DSLR studio portrait of a stunning Korean woman posing confidently inside a premium minimalist photography studio. She stands gracefully in front of a seamless neutral backdrop with a relaxed, elegant expression, creating the feel of a high-end fashion editorial. She wears a chic, modern outfit with natural styling and subtle accessories. Professional softbox and rim lighting sculpt her features beautifully, producing soft shadows and dimensional depth. Foreground includes slightly blurred studio props and light stands for a behind-the-scenes luxury photoshoot atmosphere. Clean composition, natural skin texture, premium fashion magazine aesthetic, cinematic realism, shallow depth of field, 85mm DSLR lens, ultra-detailed skin, realistic lighting, luxury editorial photography, Pinterest aesthetic, no text.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN0RXYXaUAANPk0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0RX3taUAAPS9r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0RYjNbQAAL80l?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0RZF0bEAATH9Z?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "cinematic",
+        "minimalist"
+      ],
+      "timestamp": 1785242827273,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/john_my07/status/2079837733330231634",
+      "collectedAt": "2026-07-28T12:47:18.175Z",
+      "githubSyncedAt": "2026-07-28T12:47:18.175Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
