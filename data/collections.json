@@ -1,7 +1,115 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T13:18:49.755Z",
+  "updatedAt": "2026-07-28T13:32:18.136Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4p3fiu_ks7b",
+      "image": "https://pbs.twimg.com/media/HNpTo7QaEAAZBzo?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNpTo7QaEAAZBzo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNpTqEKaEAA27MT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNpTqjFawAAhdgu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNpTrAXbUAAGi57?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ultra-photorealistic editorial fashion portrait in a minimalist photography studio with a seamless charcoal-gray backdrop. Soft cinematic low-key lighting using a single large softbox, premium magazine-quality aesthetic, clean composition with no props, Sony A7R V, 85mm f/1.4 lens, shallow depth of field, ultra-realistic skin texture with visible pores, natural makeup, true-to-life colors, 8K. Outfit: elegant olive satin camisole with a modest slightly lowered neckline, cream high-waisted wide-leg trousers, no glasses, minimal accessories.\n\n1. European Girl\n\nA naturally beautiful European woman with soft brown eyes and dark brown hair in a loose messy bun with face-framing strands. Seated on the floor with one knee raised, one hand resting behind her for support and the other gently touching the side of her neck. Calm, confident expression looking slightly above the camera.\n\n2. Japanese Girl\n\nA young Japanese woman with fair skin and long black hair tied into a soft low bun with loose strands. Sitting cross-legged with both hands resting naturally on her knees, shoulders relaxed, head slightly tilted, serene expression looking directly at the camera.\n\n3. Korean Girl\n\nA young Korean woman with luminous skin and dark hair in a relaxed updo. Sitting with one leg folded and the other bent, one arm supporting her from behind while the other rests lightly under her chin. Soft confident expression with eyes directed toward the camera.\n\n4. Chinese Girl\n\nA beautiful Chinese woman with smooth fair skin and long dark hair in a loose bun. Sitting sideways with both legs folded to one side, one hand resting on the floor for balance while the other rests gently on her raised knee. Elegant posture with a composed expression and gaze slightly off-camera.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNpTo7QaEAAZBzo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNpTqEKaEAA27MT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNpTqjFawAAhdgu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNpTrAXbUAAGi57?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785245530710,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/john_my07/status/2079066184264360273",
+      "collectedAt": "2026-07-28T13:32:18.136Z",
+      "githubSyncedAt": "2026-07-28T13:32:18.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4p378u_zp2d",
+      "image": "https://pbs.twimg.com/media/HNgrbWgWIAAtrX5?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNgrbWgWIAAtrX5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNgrbWeWQAA3MAP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNgrbWuXoAAA2Kf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNgrbWnXcAAZWie?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A young Japanese woman wears an amber swimsuit, a gold silk wrap flowing behind her like a ribbon caught in the golden hour breeze. She walks away from camera across the desert, glancing back over her shoulder. Warm low sunlight rakes across her skin from camera left, dust particles glowing in the light. Medium shot, subject slightly right of center, desert dunes softly lit in warm tones behind her. Vertical portrait orientation, 2:3 aspect ratio. Render with photographic realism: subtle ISO 400 film grain in shadow areas, avoid over-smoothed CG textures. Skin: subsurface scattering and micro-texture. Hair: subtle natural imperfection.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNgrbWgWIAAtrX5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNgrbWeWQAA3MAP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNgrbWuXoAAA2Kf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNgrbWnXcAAZWie?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "golden hour"
+      ],
+      "timestamp": 1785245519982,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2079114092716130612",
+      "collectedAt": "2026-07-28T13:32:18.136Z",
+      "githubSyncedAt": "2026-07-28T13:32:18.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4owhsh_4ad8",
+      "image": "https://pbs.twimg.com/media/HNsjVp2XkAAWtSw?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNsjVp2XkAAWtSw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNsjVpwXUAAR7uv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNsjVprX0AArOvF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNsjVqnWYAAjCn8?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示\n超写实竖幅全身户外时尚人像。时髦年轻成年东亚女性站立于狭窄历史古村小巷中央，直面镜头。从头顶至约小腿中部——裤子下方部分延伸至画面边缘之外。头部位于画面中上方，躯干沿中央竖轴，周围足够的建筑环境确立场所感。放松姿态，一侧髋部极微偏移，双臂自然垂落，双手靠近大腿上方。头部轻柔向右肩倾斜，带温暖自然微笑直视镜头。\n人物：纤细优雅身形，温暖白皙肌肤，精致五官，杏仁形深棕眼睛，柔和拱形眉毛，精致鼻梁，自然玫红色唇色。友善、恬静、亲和力强的表情——非刻意摆姿。低调妆容：发光自然肌肤，淡桃腮红，细棕色眼线，柔和睫毛，中性眼影，亮泽珊瑚粉唇色。真实肌肤质感，淡淡毛孔，精致面部高光，顺滑真实的色调过渡。\n发型：极长浓密深棕黑色头发延伸至腰以下——宽松自然波浪，略微偏分，发顶轻柔体积感。大部分发丝垂落于左肩并沿躯干前方流落；另一长段在右臂后方流动。额头与面颊周围有细碎发丝暗示轻微户外微风。柔和边缘光呈现单根发丝而不产生人工光泽感。\n服装：合身裸米色蕾丝吊带衫——极细意大利面肩带，柔和扇形领口，精致全面花卉蕾丝图案配精细交织藤蔓、圈圈与刺绣花朵。同色调肤色米色软衬里——精致同色调效果，无透明感。贴合身体，止于自然腰线，带真实张力、细小褶皱与可见蕾丝浮雕。高腰象牙或温暖奶油色阔腿裤——腰头紧贴吊带衫下方，优雅前褶打开成宽松竖向褶皱，宽大裤管，流动垂感。略微温暖的米白而非纯白；细腻编织质感，褶皱内柔和阴影，腰臀部自然皱纹。\n配饰：小型光亮金色吊坠项链——精细链条上圆润抽象吊坠位于上胸口。细腻低调耳钉。每腕一只细金手镯，另一只极细手链靠近一侧腕部。短整洁指甲涂浅中性色。双手人体解剖学准确：放松手指，真实关节，自然间距。\n场景：宁静传统江南水乡或历史古村小巷。从下方前景向远处延伸的老旧矩形灰色石板路——不平整且风化，不规则缝隙，淡淡苔藓，小裂缝，低调米灰色变化。石板路作为强烈引导线将目光引向巷子深处。左侧：靠近镜头的高挑浅色石膏墙——细腻污渍，变色，岁月痕迹。女性左肩后方：深色木质门洞位于带雕刻结构细节的精致传统屋顶廊坊下方。左侧边缘有叶片茂盛的绿色灌木生于粗糙高台石质花盆中。右侧：白色石膏建筑配深色屋顶瓦片，嵌入式门道，石质基脚，窄小出挑屋檐——建筑向中央背景延伸形成柔焦虚化廊道。上方背景有几棵成熟绿树高出屋顶——低调橄榄绿与鼠尾草绿自然融入奶油色墙面与灰色屋顶。浅景深：女性锐利清晰，最近建筑边缘保留部分质感，远处门道/屋顶/植被化为奶油感焦外光斑。保留足够可辨认的建筑结构传达真实历史古村氛围。\n光线：来自左上方与前方、透过轻云过滤的柔和漫射晚上午日光——额头、面颊、鼻梁、锁骨、肩膀、蕾丝上衣与前臂上有精致高光。发丝边缘有克制的温暖轮廓光。下颌、发丝与裤子褶皱下方有柔和开放阴影。无刺眼直射阳光或强烈投影。\n色调：奶油白、裸米色、浅石材灰、风化炭灰、低调绿色、柔和棕色、克制金色。发光温暖肌肤色调，无橙色饱和感。轻柔电影感色调，顺滑高光过渡，略微低调背景色，通透优雅对比。\n相机：腰至胸部高度，全画幅85mm，f/2–f/2.8，浅景深，眼睛与蕾丝质感锐利对焦，顺滑背景分离。高端生活方式时尚或精致旅行写真质量——自然，优雅，浪漫，精致。\n负面：无文字、无Logo、无水印、无多余人物、无现代车辆、无街道标牌、无电线杂乱、无夸张魅力妆容、无塑料感肌肤、无变形手指、无重复肢体、无变形建筑、无过饱和色彩、无人工HDR、无强棚拍灯光。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNsjVp2XkAAWtSw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNsjVpwXUAAR7uv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNsjVprX0AArOvF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNsjVqnWYAAjCn8?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "人像",
+        "写真",
+        "电影感"
+      ],
+      "timestamp": 1785245207058,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2079325485708763543",
+      "collectedAt": "2026-07-28T13:32:18.136Z",
+      "githubSyncedAt": "2026-07-28T13:32:18.136Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
