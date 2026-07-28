@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:11.902Z",
+  "updatedAt": "2026-07-28T09:32:13.553Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms39utcp_an2s",
+      "image": "https://pbs.twimg.com/media/HOKPpSXXQAACJig?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HOKPpSXXQAACJig?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSbWIAAogQV?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSZXkAAMwb2?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSaWgAEaf7M?format=jpg&name=360x360"
+      ],
+      "prompt": "GPT Image 2 on ChatGPT\n\nRome Bath｜1\n\nPrompt \n电影感十足时尚肖像，古老而饱经风霜的石砌浴场，沐浴在金色的夕阳余晖中。一位优雅的年轻女子站在画面中心偏左的位置，身旁是一根巨大的砂岩柱，她以四分之三侧面的姿势背对镜头。她的身体背对着镜头，头转向左肩，目光直视观者，神情平静而略带脆弱，双唇微启。她五官精致，肌肤散发着自然光泽，一头乌黑的秀发随意地挽成一个浪漫的发髻，几缕发丝轻柔地垂落在脸颊两侧，在逆光下熠熠生辉。\n\n她身着一袭优雅的露背曳地长裙，裙身采用闪亮的古金色面料制成。裙子配有纤细的珠宝肩带，背部采用极具戏剧性的低开设计，肩胛骨之间垂坠着柔软的褶皱，精致的金属刺绣在温暖的阳光下熠熠生辉。整件礼服应展现出奢华、精致和永恒的气质，以低调的闪光质感而非现代的亮片装饰为特色。一只手臂自然地垂在柱子旁，另一只手臂则略微向下伸展至身侧，勾勒出一个姿态优雅却又不失自然的轮廓。\n\n用宏伟的古罗马或拜占庭建筑环绕她：粗壮的圆柱形石柱、斑驳的柱头、饱经风霜的矩形柱基、粗糙的赭色墙壁、幽暗的拱门以及一排排纵横交错的柱子，营造出深邃的景深。在画面右下角放置一个宁静的碧绿色浴池，池面柔和地反射着琥珀色的光芒。细雾、蒸汽和被阳光照射的尘埃颗粒在女子和柱子周围飘荡。背景应柔和虚化，但仍需展现出重复的建筑结构和幽暗的壁龛。\n\n使用温暖的琥珀色、青铜色、蜂蜜色、柔和的赤陶色和古金色，与清冷的蓝绿色池水形成对比。用强烈的定向阳光从左上方照射到人物身后，在她头发、肩膀和长袍周围形成明亮的轮廓光。添加柔和的立体光线、朦胧的氛围、深邃的建筑阴影以及水面反射的微妙光线。保持高对比度、浓郁鲜艳的色彩、逼真的皮肤纹理、细致的石块风化以及精细渲染的织物质感。\n\n将照片构图为亲密的半身肖像，相机位置在腰部左右，使用85mm电影镜头，浅景深，柔和的背景虚化，自然的透视效果以及优雅的编辑构图。营造浪漫、神秘、怀旧而又静谧高贵的氛围，如同在被遗忘的古老圣地拍摄的奢华香水广告。追求照片级的真实感、电影级的写实效果、精细的色彩分级、细腻的胶片颗粒感、超高的细节表现、柔和的高光晕、真实的解剖结构，画面中不应出现现代物品、文字、水印、多余的人物、扭曲的手部以及夸张的奇幻元素。",
+      "source": "插件扫描",
+      "tags": [
+        "电影感"
+      ],
+      "timestamp": 1785159468313,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081560205868081184",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKPpSXXQAACJig?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSbWIAAogQV?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSZXkAAMwb2?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSaWgAEaf7M?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:13.552Z",
+      "githubSyncedAt": "2026-07-28T09:32:13.552Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
