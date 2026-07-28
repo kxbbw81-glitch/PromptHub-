@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:13.553Z",
+  "updatedAt": "2026-07-28T09:32:15.174Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms39nrd0_wv32",
+      "image": "https://pbs.twimg.com/media/HOOWXyFa0AAZEPO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOOWXyFa0AAZEPO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOOWYbUasAAR0Qr?format=jpg&name=small"
+      ],
+      "prompt": "继续写实感系列-认真工作的人最美\n真实手机抓拍＋年轻成年女性＋具体生活动作，加入更明确的小事件、环境互动和轻微反差，真实感会更强\n\n提示词：\n竖版3:4，单张真实手机夜间抓拍，不要拼贴，不要四宫格，不要文字排版。\n\n仅参考此前系列中年轻成年亚洲女性的五官、脸型、自然肤质和黑色长直发，保持人物外貌一致，只参考外貌，完全重建新场景。\n\n深夜，一位年轻成年亚洲女性站在打印店内，穿浅灰色无袖针织上衣、深灰色宽松长裙和平底鞋，浅色帆布包放在脚边。她身体微微前倾，一只手扶着打印机边缘，另一只手接住刚刚打印出来的纸张，低头认真检查内容。\n\n打印机旁边散放着订书机、透明文件袋、几张废纸和半杯没喝完的饮料。店内没有工作人员，只有冷白色顶灯，玻璃门外是安静的深夜街道。人物神情专注、有一点疲惫，不看镜头，不微笑。\n\n普通手机后置摄像头，从玻璃门外或店内斜后方拍摄，中景构图，玻璃有轻微反光，画面略微倾斜，保留手机夜拍噪点和生活杂乱感。\n\n负面提示词：办公室广告，豪华打印店，回头笑，正面对镜头，商业摆拍，纸张漂浮，打印机结构错误，多余手指，文字内容清晰可辨，塑料皮肤，水印。",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785159139140,
+      "title": "继续写实感系列-认真工作的人最美",
+      "url": "https://x.com/Adam38363368936/status/2081673488088309881",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOOWXyFa0AAZEPO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOOWYbUasAAR0Qr?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:15.174Z",
+      "githubSyncedAt": "2026-07-28T09:32:15.174Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
