@@ -339,7 +339,14 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       sendResponse({ success: false, error: 'GitHub Token 格式不正确' });
       return;
     }
-    chrome.storage.local.set({ [GITHUB_TOKEN_KEY]: token }).then(() => sendResponse({ success: true }));
+    chrome.storage.local.set({ [GITHUB_TOKEN_KEY]: token }).then(async () => {
+      try {
+        const migrated = await migrateLegacyCollections();
+        sendResponse({ success: true, migratedCount: migrated.count || 0 });
+      } catch (error) {
+        sendResponse({ success: true, migratedCount: 0, migrationError: error.message });
+      }
+    });
     return true;
   }
 

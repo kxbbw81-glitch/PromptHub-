@@ -172,6 +172,22 @@
     return true;
   }
 
+  function saveOrUpdateCollection(item, patch) {
+    const existing = collectionsCache.find(entry => entry?.id === item.id);
+    if (existing) return updateCollection(item.id, patch);
+
+    const now = new Date().toISOString();
+    const next = normalizeCollectionItem({
+      ...item,
+      ...patch,
+      id: item.id,
+      date: item.date || now.slice(0, 10),
+      source: item.source || 'PromptHub 编辑',
+      updatedAt: now
+    });
+    return next && saveCollection(next) ? next : null;
+  }
+
   function isCollected(id) {
     return getCollections().some(c => c.id === id);
   }
@@ -812,29 +828,30 @@
   function openPromptDetail(id, isCollection, updateHash = true) {
     const localCollection = getCollections().find(c => c.id === id);
     const displayPrompt = isCollection ? localCollection : (localCollection || findPromptById(id, false));
-    const isEditableCollection = !!localCollection;
+    const isSavedCollection = Boolean(localCollection);
+    const canEdit = true;
     if (!displayPrompt) return;
 
     if (updateHash) {
-      captureDetailReturnContext(isEditableCollection);
+      captureDetailReturnContext(isSavedCollection);
     } else if (!detailReturnContext) {
       detailReturnContext = { route: 'explore', category: 'All', search: '', page: 1, label: '返回探索' };
     }
     currentRoute = 'detail';
     window.scrollTo(0, 0);
-    renderPromptDetail(displayPrompt, isEditableCollection);
+    renderPromptDetail(displayPrompt, isSavedCollection, canEdit);
 
     setNavActive('');
 
     if (updateHash) {
-      const targetHash = `${isEditableCollection ? '#/collection/' : '#/prompt/'}${encodeURIComponent(displayPrompt.id)}`;
+      const targetHash = `${isSavedCollection ? '#/collection/' : '#/prompt/'}${encodeURIComponent(displayPrompt.id)}`;
       if (window.location.hash !== targetHash) {
-        history.pushState({ route: 'detail', id: displayPrompt.id, isCollection: isEditableCollection }, '', targetHash);
+        history.pushState({ route: 'detail', id: displayPrompt.id, isCollection: isSavedCollection }, '', targetHash);
       }
     }
   }
 
-  function renderPromptDetail(prompt, isCollection) {
+  function renderPromptDetail(prompt, isCollection, canEdit = true) {
     const app = $('#app');
     const rawImages = (prompt.images && prompt.images.length > 0)
       ? prompt.images
@@ -860,7 +877,7 @@
     const sourceLink = sourceUrl
       ? `<a class="detail-source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">打开来源</a>`
       : '';
-    const editPanel = isCollection ? `
+    const editPanel = canEdit ? `
       <div class="detail-edit-panel" id="detail-edit-panel" hidden>
         <div class="detail-edit-head">
           <div>
@@ -954,7 +971,7 @@
                 <span class="detail-status">${escapeHtml(verifiedLabel)}</span>
               </div>
               <h1>${escapeHtml(prompt.title)}</h1>
-              <p class="detail-summary">像 Banana Prompts 一样，把图片参考、结构化提示词、模型参数和下一步动作放在同一个任务页面里。</p>
+              <p class="detail-summary">把图片参考、结构化提示词、模型参数和下一步动作放在同一个任务页面里。</p>
 
               <div class="detail-actions">
                 <button class="copy-btn detail-primary-action" id="detail-copy-btn">📋 一键复制提示词</button>
@@ -962,6 +979,7 @@
                   ? `<button class="copy-btn detail-danger-action" id="detail-delete-btn">🗑 删除收藏</button>
                      <button class="copy-btn detail-edit-action" id="detail-edit-btn" type="button">✎ 编辑内容</button>`
                   : `<button class="copy-btn detail-secondary-action" id="detail-collect-btn">${isCol ? '❤ 已收藏' : '☆ 收藏'}</button>`}
+                ${!isCollection && canEdit ? '<button class="copy-btn detail-edit-action" id="detail-edit-btn" type="button">编辑内容</button>' : ''}
                 ${sourceLink}
               </div>
 
@@ -1085,7 +1103,7 @@
         const tags = ($('#detail-edit-tags')?.value || '').trim()
           ? ($('#detail-edit-tags').value).split(/[,，]/).map(t => t.trim()).filter(Boolean)
           : autoDetectTags(promptText);
-        const updated = updateCollection(prompt.id, {
+        const updated = saveOrUpdateCollection(prompt, {
           title,
           prompt: promptText,
           category: $('#detail-edit-category')?.value || prompt.category,
@@ -1104,7 +1122,7 @@
         }
 
         showToast('修改已保存');
-        renderPromptDetail({ ...updated, isCollection: true }, true);
+        renderPromptDetail({ ...updated, isCollection: true }, true, true);
       };
 
       editBtn.setAttribute('aria-expanded', 'false');
@@ -1217,7 +1235,7 @@
         <div class="hero-gallery-shell">
           <div class="hero-gallery-grid">
             ${heroColumns.map((column, columnIndex) => {
-              const loopedColumn = Array.from({ length: 6 }, () => column).flat();
+              const loopedColumn = Array.from({ length: 18 }, () => column).flat();
               return `
                 <div class="hero-gallery-column hero-gallery-column-${columnIndex + 1}">
                   <div class="hero-gallery-track">
@@ -1248,7 +1266,7 @@
           </button>
         </div>
         <div class="container hero-content">
-          <div class="hero-badge">🍌 每日更新 · 已验证 · 免费使用</div>
+          <div class="hero-badge">每日更新 · 已验证 · 免费使用</div>
           <h1>发现高质量 <span class="highlight">AI 提示词</span><br>激发无限创作灵感</h1>
           <p>不断增长的提示词收藏库，每日更新，一键复制即可使用，助你生成惊艳的 AI 图像作品。</p>
           <div class="hero-actions">

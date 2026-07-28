@@ -429,7 +429,7 @@ const PROMPTS = [
     aspectRatio: "3:4",
     model: "通用 AI 图像模型",
     sourceUrl: "https://bananaprompts.fun/prompt/elegant-home-fashion-portrait-yzcxx3",
-    source: "Banana Prompts",
+    source: "参考来源",
     date: "2025-07-27",
     likes: 980,
   },

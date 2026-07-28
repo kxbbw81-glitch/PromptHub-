@@ -606,7 +606,7 @@ $('#btn-save-token').addEventListener('click', async () => {
   const result = await chrome.runtime.sendMessage({ action: 'saveGitHubToken', token });
   if (result?.success) {
     input.value = '';
-    showToast('GitHub Token 已保存');
+    showToast(result.migratedCount ? `GitHub Token 已保存，已迁移 ${result.migratedCount} 个旧收藏` : 'GitHub Token 已保存');
     updateGitHubTokenUI();
   } else {
     showToast(result?.error || 'Token 保存失败');

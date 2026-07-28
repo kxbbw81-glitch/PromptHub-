@@ -17,11 +17,13 @@ test('prompt details do not render the unrequested generation action', () => {
 
 test('a saved collection remains editable from its prompt detail route', () => {
   assert.match(app, /const localCollection = getCollections\(\)\.find\(c => c\.id === id\);/);
-  assert.match(app, /renderPromptDetail\(displayPrompt, isEditableCollection\);/);
+  assert.match(app, /renderPromptDetail\(displayPrompt, isSavedCollection, canEdit\);/);
+  assert.match(app, /function saveOrUpdateCollection\(item, patch\)/);
+  assert.match(app, /const canEdit = true;/);
 });
 
 test('home gallery is three times longer and category totals include saved collections', () => {
-  assert.match(app, /const loopedColumn = Array\.from\(\{ length: 6 \}/);
+  assert.match(app, /const loopedColumn = Array\.from\(\{ length: 18 \}/);
   assert.match(app, /getAllPromptItems\(\)\.forEach\(p =>/);
 });
 
