@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:16.907Z",
+  "updatedAt": "2026-07-28T09:32:18.724Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms30dpic_c98d",
+      "image": "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small",
+      "prompt": "新中式不等于把中式符号堆满。\n\n一套蓝灰剪裁、一张茶桌、一点窗光，人物轻轻回头，画面就有了东方气质。\n\n——Prompt——\nUse case: photorealistic-natural\nAsset type: editorial lifestyle portrait, independent image 2 of 4\nPrimary request: Create a brand-new realistic photograph of a clearly adult East Asian woman, approximately 30 years old, inside a minimalist new Chinese tea room. Preserve this action skeleton: her body is turned sideways to the camera, she is lightly side-on and naturally turning her head back to look at the camera, candid and unposed, relaxed posture. She stands beside a simple tea table with only a small ceramic teapot and one cup.\nInput images: the two local reference images are style references only for Eastern negative space, soft natural window light, understated editorial portrait mood, and quiet composition; do not copy the original person, face, hairstyle, clothing, or room.\nScene/backdrop: minimalist contemporary Chinese tea room, pale plaster walls, light ash wood, a single dark stone tea table, restrained architectural lines, one tall window, sparse and calm, large areas of uncluttered negative space.\nSubject: clearly adult East Asian woman, natural facial proportions, realistic anatomy, natural hands and fingers, dark hair in a low loose knot, understated makeup. She wears a complete blue-gray tailored set: structured collarless jacket and wide-leg trousers, matte textured fabric, subtle tonal buttons, modest and elegant.\nStyle/medium: high-end real photography, believable skin texture and textile detail, quiet contemporary fashion editorial, 50mm lens, shallow depth of field, no artificial glamour retouching.\nComposition/framing: strict 9:16 vertical portrait, full-body or three-quarter full figure with the complete blue-gray outfit visible, subject placed slightly off-center with architectural negative space, body facing sideways and head turned back toward lens, eye-level camera.\nLighting/mood: soft natural side light from the tall window, gentle shadow gradients, tranquil, refined, meditative.\nColor palette: blue-gray suit, warm ivory plaster, pale ash wood, charcoal stone, very restrained neutral accents.\nMaterials/textures: washed matte wool or cotton tailoring, subtly tactile plaster, light wood grain, handmade ceramic glaze, real skin and hair texture.\nText (verbatim): \"\"\nConstraints: clothes fully cover the body and are completely visible; keep the pose natural and non-posing; no text, no logo, no watermark.\nAvoid: minors, childlike appearance, copied reference identity, exaggerated beauty filter, deformed hands, extra fingers, fused fingers, cropped clothing, nudity, lingerie, glamour pose, busy décor, red wedding styling, collage, split screen, illustration, CGI, text, watermark.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1785143553636,
+      "title": "新中式不等于把中式符号堆满。",
+      "url": "https://x.com/chenlinspark/status/2081561713321865342",
+      "images": [
+        "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:18.723Z",
+      "githubSyncedAt": "2026-07-28T09:32:18.723Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
