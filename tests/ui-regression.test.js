@@ -49,12 +49,17 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(app, /findDuplicateCollection\(getCollections\(\), safeItem\)/);
   assert.match(background, /function collectionFingerprint\(item\)/);
   assert.match(background, /alreadySaved: true, duplicateId:/);
-  assert.match(background, /let skipped = 0;/);
+  assert.match(background, /const skipped = entries\.length - additions\.length;/);
   assert.match(content, /alreadySaved: Boolean\(response\?\.alreadySaved\)/);
   assert.match(background, /alreadyQueued: true/);
+  assert.match(background, /let queueMutation = Promise\.resolve\(\);/);
+  assert.match(background, /function withQueueLock\(task\)/);
   assert.match(background, /await chrome\.storage\.local\.set\(\{ \[QUEUE_KEY\]: \[\.\.\.queue, safeItem\] \}\);/);
-  assert.match(background, /const result = await syncQueueToGitHub\(queue\);/);
-  assert.match(background, /await clearQueue\(\);/);
+  assert.match(background, /const queueSnapshot = await getQueue\(\);/);
+  assert.match(background, /const result = await syncQueueToGitHub\(queueSnapshot\);/);
+  assert.match(background, /await removeSyncedQueueItems\(queueSnapshot\);/);
+  assert.match(background, /for \(let attempt = 0; attempt < 5; attempt\+\+\)/);
+  assert.match(background, /formatGitHubError\(error\)/);
   assert.match(popup, /action: 'addToQueue'/);
   assert.match(popup, /await updateQueueUI\(\);/);
   assert.doesNotMatch(popup, /已识别并推送成功；国内站将在 30 分钟后同步/);
@@ -68,7 +73,7 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.3\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.3\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.4\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.4\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });

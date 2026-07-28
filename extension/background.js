@@ -12,6 +12,7 @@ const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
 const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
 const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
+let queueMutation = Promise.resolve();
 
 try {
   importScripts('prompt-parser.js');
@@ -248,14 +249,16 @@ async function addToQueue(item) {
   const safeItem = sanitizeRemoteItem(item);
   if (!safeItem) throw new Error('Invalid prompt item');
 
-  const queue = await getQueue();
-  const fingerprint = collectionFingerprint(safeItem);
-  if (queue.some(entry => collectionFingerprint(entry) === fingerprint)) {
-    return { success: true, count: queue.length, alreadyQueued: true };
-  }
+  return withQueueLock(async () => {
+    const queue = await getQueue();
+    const fingerprint = collectionFingerprint(safeItem);
+    if (queue.some(entry => collectionFingerprint(entry) === fingerprint)) {
+      return { success: true, count: queue.length, alreadyQueued: true };
+    }
 
-  await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, safeItem] });
-  return { success: true, count: queue.length + 1 };
+    await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, safeItem] });
+    return { success: true, count: queue.length + 1 };
+  });
 }
 
 async function getQueue() {
@@ -265,7 +268,23 @@ async function getQueue() {
 }
 
 async function clearQueue() {
-  await chrome.storage.local.remove(QUEUE_KEY);
+  return withQueueLock(() => chrome.storage.local.remove(QUEUE_KEY));
+}
+
+function withQueueLock(task) {
+  const run = queueMutation.then(task, task);
+  queueMutation = run.catch(() => undefined);
+  return run;
+}
+
+async function removeQueueItem(prompt) {
+  return withQueueLock(async () => {
+    const fingerprint = collectionFingerprint({ prompt });
+    const queue = await getQueue();
+    const filtered = queue.filter(item => collectionFingerprint(item) !== fingerprint);
+    await chrome.storage.local.set({ [QUEUE_KEY]: filtered });
+    return { success: true, count: filtered.length };
+  });
 }
 
 function updateQueueBadge(tabId, count) {
@@ -344,14 +363,15 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       sendResponse({ success: false, error: 'GitHub Token 格式不正确' });
       return;
     }
-    chrome.storage.local.set({ [GITHUB_TOKEN_KEY]: token }).then(async () => {
+    readGitHubCollections(token).then(async () => {
+      await chrome.storage.local.set({ [GITHUB_TOKEN_KEY]: token });
       try {
         const migrated = await migrateLegacyCollections();
         sendResponse({ success: true, migratedCount: migrated.count || 0 });
       } catch (error) {
         sendResponse({ success: true, migratedCount: 0, migrationError: error.message });
       }
-    });
+    }).catch(error => sendResponse({ success: false, error: formatGitHubError(error) }));
     return true;
   }
 
@@ -371,17 +391,14 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 
   if (request.action === 'removeFromQueue') {
-    getQueue().then(async (queue) => {
-      const fingerprint = collectionFingerprint({ prompt: request.prompt });
-      const filtered = queue.filter(q => collectionFingerprint(q) !== fingerprint);
-      await chrome.storage.local.set({ [QUEUE_KEY]: filtered });
-      sendResponse({ success: true, count: filtered.length });
-    });
+    removeQueueItem(request.prompt).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
     return true;
   }
 
   if (request.action === 'syncToWebsite') {
-    syncToWebsite().then(result => sendResponse(result));
+    syncToWebsite()
+      .then(result => sendResponse(result))
+      .catch(error => sendResponse({ success: false, error: formatGitHubError(error) }));
     return true;
   }
 
@@ -488,7 +505,7 @@ async function syncToSite(url, tabPattern, queue) {
 }
 
 // --- 同步到网站：只同步 GitHub Pages，成功后安排后台延迟同步国内站点 ---
-async function syncToWebsite() {
+async function syncToWebsiteLegacy() {
   const queue = await getQueue();
   if (queue.length === 0) return { success: false, error: 'Queue is empty' };
 
@@ -526,6 +543,43 @@ async function syncToWebsite() {
 }
 
 // --- 后台延迟同步到 Cloudflare Workers ---
+let activeQueueSync = null;
+
+async function syncToWebsite() {
+  if (activeQueueSync) return activeQueueSync;
+
+  activeQueueSync = syncQueuedItems();
+  try {
+    return await activeQueueSync;
+  } finally {
+    activeQueueSync = null;
+  }
+}
+
+async function syncQueuedItems() {
+  const queueSnapshot = await getQueue();
+  if (queueSnapshot.length === 0) return { success: false, error: '待同步队列为空' };
+
+  const result = await syncQueueToGitHub(queueSnapshot);
+  if (!result.success) return result;
+
+  await removeSyncedQueueItems(queueSnapshot);
+  return { success: true, count: result.count, skipped: result.skipped || 0 };
+}
+
+async function removeSyncedQueueItems(syncedItems) {
+  const fingerprints = new Set(syncedItems.map(collectionFingerprint).filter(Boolean));
+  await withQueueLock(async () => {
+    const currentQueue = await getQueue();
+    const remaining = currentQueue.filter(item => !fingerprints.has(collectionFingerprint(item)));
+    if (remaining.length === 0) {
+      await chrome.storage.local.remove(QUEUE_KEY);
+    } else {
+      await chrome.storage.local.set({ [QUEUE_KEY]: remaining });
+    }
+  });
+}
+
 const CF_PENDING_KEY = 'prompthub_cf_pending';
 const CF_ALARM_NAME = 'delayed_cf_sync';
 
@@ -675,9 +729,30 @@ function githubHeaders(token) {
   };
 }
 
+function formatGitHubError(error) {
+  const message = String(error?.message || error || 'GitHub 同步失败');
+  if (/\b(401|403)\b/.test(message)) {
+    return 'GitHub Token 无效，或缺少 PromptHub- 仓库的 Contents 读写权限';
+  }
+  if (/\b(409|422)\b|保存冲突/.test(message)) {
+    return 'GitHub 正在更新收藏数据，已保留队列，请稍后再次同步';
+  }
+  if (/Failed to fetch|NetworkError|网络/.test(message)) {
+    return '无法连接 GitHub，已保留队列，请检查网络后重试';
+  }
+  return message;
+}
+
+function waitForRetry(attempt) {
+  return new Promise(resolve => setTimeout(resolve, 400 * (attempt + 1)));
+}
+
 async function readGitHubCollections(token) {
   const response = await fetch(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
   if (response.status === 404) return { sha: '', collections: [] };
+  if (response.status === 401 || response.status === 403) {
+    throw new Error(`GitHub Token 权限不足 (${response.status})`);
+  }
   if (!response.ok) throw new Error(`GitHub 读取失败 (${response.status})`);
 
   const payload = await response.json();
@@ -710,6 +785,9 @@ async function writeGitHubCollections(token, collections, sha) {
     const error = new Error('GitHub 保存冲突');
     error.retryable = true;
     throw error;
+  }
+  if (response.status === 401 || response.status === 403) {
+    throw new Error(`GitHub Token 权限不足 (${response.status})`);
   }
   if (!response.ok) throw new Error(`GitHub 保存失败 (${response.status})`);
 }
@@ -781,6 +859,7 @@ async function mutateGitHubCollections(operation, item) {
       return { success: true, count: changed };
     } catch (error) {
       if (!error.retryable || attempt === 2) throw error;
+      await waitForRetry(attempt);
     }
   }
 
@@ -788,16 +867,45 @@ async function mutateGitHubCollections(operation, item) {
 }
 
 async function syncQueueToGitHub(queue) {
-  const entries = Array.isArray(queue) ? queue : [];
-  let count = 0;
-  let skipped = 0;
-  for (const entry of entries) {
-    const result = await mutateGitHubCollections('create', entry);
-    if (!result.success) return result;
-    count += result.count || 0;
-    if (result.alreadySaved) skipped++;
+  const queueEntries = Array.isArray(queue) ? queue : [];
+  const seen = new Set();
+  const entries = queueEntries
+    .map(sanitizeRemoteItem)
+    .filter(item => {
+      const fingerprint = collectionFingerprint(item);
+      if (!fingerprint || seen.has(fingerprint)) return false;
+      seen.add(fingerprint);
+      return true;
+    });
+
+  if (entries.length === 0) return { success: true, count: 0, skipped: 0 };
+
+  const token = await getGitHubToken();
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const snapshot = await readGitHubCollections(token);
+    const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
+    const savedFingerprints = new Set(collections.map(collectionFingerprint));
+    const additions = entries.filter(entry => !savedFingerprints.has(collectionFingerprint(entry)));
+    const skipped = entries.length - additions.length;
+
+    if (additions.length === 0) return { success: true, count: 0, skipped };
+
+    const now = new Date().toISOString();
+    const newCollections = additions
+      .map(entry => ({ ...entry, collectedAt: now, githubSyncedAt: now, domesticSyncedAt: null }))
+      .reverse();
+
+    try {
+      await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
+      await scheduleDomesticRelease(newCollections.map(entry => entry.id));
+      return { success: true, count: additions.length, skipped };
+    } catch (error) {
+      if (!error.retryable || attempt === 4) throw error;
+      await waitForRetry(attempt);
+    }
   }
-  return { success: true, count, skipped };
+
+  return { success: false, error: 'GitHub 保存失败' };
 }
 
 async function releaseDomesticCollections() {
