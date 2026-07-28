@@ -7,6 +7,7 @@ const root = path.join(__dirname, '..');
 const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
 const background = fs.readFileSync(path.join(root, 'extension/background.js'), 'utf8');
 const popup = fs.readFileSync(path.join(root, 'extension/popup.js'), 'utf8');
+const content = fs.readFileSync(path.join(root, 'extension/content.js'), 'utf8');
 const data = fs.readFileSync(path.join(root, 'js/data.js'), 'utf8');
 const seoGenerator = fs.readFileSync(path.join(root, 'scripts/generate-seo-pages.js'), 'utf8');
 
@@ -41,4 +42,15 @@ test('collections use GitHub as their source of truth instead of browser local s
   assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
   assert.match(background, /async function syncQueueToGitHub\(queue\)/);
   assert.match(popup, /GitHub Token/);
+});
+
+test('collection writes use normalized prompt uniqueness and report push outcomes', () => {
+  assert.match(app, /function collectionFingerprint\(item\)/);
+  assert.match(app, /findDuplicateCollection\(getCollections\(\), safeItem\)/);
+  assert.match(background, /function collectionFingerprint\(item\)/);
+  assert.match(background, /alreadySaved: true, duplicateId:/);
+  assert.match(background, /let skipped = 0;/);
+  assert.match(content, /alreadySaved: Boolean\(response\?\.alreadySaved\)/);
+  assert.match(popup, /已识别并推送成功；国内站将在 30 分钟后同步/);
+  assert.match(popup, /result\.alreadySaved/);
 });

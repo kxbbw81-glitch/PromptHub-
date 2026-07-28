@@ -54,6 +54,21 @@
     return String(value ?? '').trim().slice(0, maxLength);
   }
 
+  function collectionFingerprint(item) {
+    return String(item?.prompt ?? '')
+      .normalize('NFKC')
+      .toLowerCase()
+      .replace(/[\u200B-\u200D\uFEFF]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function findDuplicateCollection(items, item) {
+    const fingerprint = collectionFingerprint(item);
+    if (!fingerprint) return null;
+    return items.find(entry => collectionFingerprint(entry) === fingerprint) || null;
+  }
+
   function normalizeTags(tags) {
     const values = Array.isArray(tags) ? tags : [];
     return [...new Set(values
@@ -141,7 +156,7 @@
   function saveCollection(item) {
     const safeItem = normalizeCollectionItem(item);
     if (!safeItem?.id || !safeItem.title || !safeItem.prompt) return false;
-    if (getCollections().some(c => c.id === safeItem.id)) return false;
+    if (getCollections().some(c => c.id === safeItem.id) || findDuplicateCollection(getCollections(), safeItem)) return false;
     if (!requestCollectionMutation('create', safeItem)) return false;
     collectionsCache = [safeItem, ...collectionsCache.filter(c => c?.id !== safeItem.id)];
     return true;
@@ -2438,6 +2453,12 @@
           showToast(message.error || 'GitHub 收藏同步失败');
           loadCollections({ force: true }).catch(() => {});
           return;
+        }
+
+        if (message.operation === 'create') {
+          showToast(message.alreadySaved
+            ? '该提示词已在收藏中，未重复保存'
+            : '已推送到 GitHub 收藏，国内站将在 30 分钟后同步');
         }
 
         loadCollections({ force: true }).then(() => {

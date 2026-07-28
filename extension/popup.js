@@ -29,10 +29,9 @@ async function addToQueue(item) {
     item
   });
   if (!result?.success) {
-    showToast(result?.error || 'GitHub 收藏同步失败');
-    return false;
+    return { success: false, error: result?.error || 'GitHub 收藏同步失败' };
   }
-  return true;
+  return result;
 }
 
 async function removeFromQueue(promptText) {
@@ -401,13 +400,27 @@ function renderPrompts(prompts) {
     btn.addEventListener('click', async (e) => {
       e.stopPropagation();
       const idx = parseInt(btn.dataset.idx);
-      const added = await addToQueue(prompts[idx]);
-      if (added) {
-        showToast('已加入待同步队列');
-        btn.textContent = '✓ 已收藏';
+      btn.disabled = true;
+      btn.textContent = '正在推送…';
+      let result;
+      try {
+        result = await addToQueue(prompts[idx]);
+      } catch (error) {
+        result = { success: false, error: error?.message || '推送失败，请稍后重试' };
+      }
+      if (result?.success) {
+        if (result.alreadySaved) {
+          showToast('该提示词已在 GitHub 收藏中，未重复推送');
+          btn.textContent = '✓ 已存在';
+        } else {
+          showToast('已识别并推送成功；国内站将在 30 分钟后同步');
+          btn.textContent = '✓ 已推送';
+        }
         btn.classList.add('mini-btn-collected');
       } else {
-        showToast('已在队列中');
+        showToast(result?.error || '推送失败，请稍后重试');
+        btn.disabled = false;
+        btn.textContent = '❤️ 收藏';
       }
     });
   });

@@ -418,6 +418,8 @@
         source: 'prompthub-extension',
         action: 'collection-sync-result',
         success: Boolean(response?.success) && !error,
+        operation: message.operation,
+        alreadySaved: Boolean(response?.alreadySaved),
         error: error || response?.error || ''
       }, window.location.origin);
     });

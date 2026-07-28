@@ -601,6 +601,15 @@ function trimText(value, maxLength) {
   return String(value ?? '').trim().slice(0, maxLength);
 }
 
+function collectionFingerprint(item) {
+  return String(item?.prompt ?? '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/[\u200B-\u200D\uFEFF]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function sanitizeRemoteItem(item) {
   if (!item || typeof item !== 'object') return null;
   const id = trimText(item.id, 120);
@@ -735,8 +744,9 @@ async function mutateGitHubCollections(operation, item) {
         changed = 1;
       }
     } else if (operation === 'create') {
-      if (index !== -1 || collections.some(entry => entry.prompt === safeItem.prompt)) {
-        return { success: true, count: 0, alreadySaved: true };
+      const duplicate = collections.find(entry => collectionFingerprint(entry) === collectionFingerprint(safeItem));
+      if (index !== -1 || duplicate) {
+        return { success: true, count: 0, alreadySaved: true, duplicateId: (collections[index] || duplicate).id };
       }
       collections.unshift({ ...safeItem, githubSyncedAt: now, domesticSyncedAt: null });
       releaseIds.push(safeItem.id);
@@ -774,12 +784,14 @@ async function mutateGitHubCollections(operation, item) {
 async function syncQueueToGitHub(queue) {
   const entries = Array.isArray(queue) ? queue : [];
   let count = 0;
+  let skipped = 0;
   for (const entry of entries) {
     const result = await mutateGitHubCollections('create', entry);
     if (!result.success) return result;
     count += result.count || 0;
+    if (result.alreadySaved) skipped++;
   }
-  return { success: true, count };
+  return { success: true, count, skipped };
 }
 
 async function releaseDomesticCollections() {
