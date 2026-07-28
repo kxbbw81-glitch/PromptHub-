@@ -6,6 +6,7 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
 const background = fs.readFileSync(path.join(root, 'extension/background.js'), 'utf8');
+const popup = fs.readFileSync(path.join(root, 'extension/popup.js'), 'utf8');
 const data = fs.readFileSync(path.join(root, 'js/data.js'), 'utf8');
 const seoGenerator = fs.readFileSync(path.join(root, 'scripts/generate-seo-pages.js'), 'utf8');
 
@@ -14,7 +15,7 @@ test('prompt details do not render the unrequested generation action', () => {
   assert.doesNotMatch(app, /function getTryUrl/);
 });
 
-test('a saved local collection remains editable from its prompt detail route', () => {
+test('a saved collection remains editable from its prompt detail route', () => {
   assert.match(app, /const localCollection = getCollections\(\)\.find\(c => c\.id === id\);/);
   assert.match(app, /renderPromptDetail\(displayPrompt, isEditableCollection\);/);
 });
@@ -31,8 +32,11 @@ test('the homepage uses the requested copy without Nano Banana branding', () => 
   assert.doesNotMatch(seoGenerator, /Nano Banana/);
 });
 
-test('the delayed domestic sync waits for a page save receipt before clearing pending data', () => {
-  assert.match(background, /const EXT_SYNC_RECEIPT_KEY = 'prompthub_ext_sync_receipt';/);
-  assert.match(background, /receipt\?\.batchId === batchId/);
-  assert.match(background, /throw new Error\('PromptHub save receipt was not received'\)/);
+test('collections use GitHub as their source of truth instead of browser local storage', () => {
+  assert.match(app, /const REMOTE_COLLECTIONS_URL = 'https:\/\/raw\.githubusercontent\.com\/kxbbw81-glitch\/PromptHub-\/main\/data\/collections\.json';/);
+  assert.match(app, /await fetch\(REMOTE_COLLECTIONS_URL/);
+  assert.doesNotMatch(app, /localStorage\.setItem\(COLLECTIONS_KEY/);
+  assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
+  assert.match(background, /async function syncQueueToGitHub\(queue\)/);
+  assert.match(popup, /GitHub Token/);
 });

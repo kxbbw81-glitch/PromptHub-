@@ -13,10 +13,12 @@
   let detailReturnContext = null;
   const PAGE_SIZE = 24;
 
-  // --- Collections (localStorage) ---
-  const COLLECTIONS_KEY = 'prompthub_collections';
-  const EXT_IMPORT_KEY = 'prompthub_ext_import';
-  const EXT_SYNC_RECEIPT_KEY = 'prompthub_ext_sync_receipt';
+  // --- Collections (GitHub is the canonical source) ---
+  const REMOTE_COLLECTIONS_URL = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
+  const DOMESTIC_HOST = 'prompthub.kxbbw81.workers.dev';
+  let collectionsCache = [];
+  let collectionsLoading = null;
+  let extensionBridgeReady = false;
   const security = window.PromptHubSecurity;
   const { escapeHtml, sanitizeImageUrl, sanitizeImageUrls } = security || {};
 
@@ -96,32 +98,61 @@
     };
   }
 
+  function isDomesticSite() {
+    return window.location.hostname === DOMESTIC_HOST;
+  }
+
   function getCollections() {
+    return collectionsCache
+      .map(normalizeCollectionItem)
+      .filter(item => item?.id && item.title && item.prompt)
+      .filter(item => !isDomesticSite() || Boolean(item.domesticSyncedAt));
+  }
+
+  async function loadCollections({ force = false } = {}) {
+    if (collectionsLoading && !force) return collectionsLoading;
+
+    const request = (async () => {
+      const response = await fetch(REMOTE_COLLECTIONS_URL, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Unable to load collections (${response.status})`);
+      const payload = await response.json();
+      const list = Array.isArray(payload) ? payload : payload?.collections;
+      collectionsCache = Array.isArray(list) ? list : [];
+      return getCollections();
+    })();
+
+    collectionsLoading = request;
     try {
-      const list = JSON.parse(localStorage.getItem(COLLECTIONS_KEY)) || [];
-      return Array.isArray(list)
-        ? list.map(normalizeCollectionItem).filter(item => item?.id && item.title && item.prompt)
-        : [];
-    } catch { return []; }
+      return await request;
+    } finally {
+      if (collectionsLoading === request) collectionsLoading = null;
+    }
+  }
+
+  function requestCollectionMutation(operation, item) {
+    if (!extensionBridgeReady) {
+      showToast('请先安装并配置 PromptHub 浏览器插件，再保存收藏');
+      return false;
+    }
+    window.postMessage({ source: 'prompthub-site', operation, item }, window.location.origin);
+    return true;
   }
 
   function saveCollection(item) {
     const safeItem = normalizeCollectionItem(item);
     if (!safeItem?.id || !safeItem.title || !safeItem.prompt) return false;
-    const list = getCollections();
-    if (list.some(c => c.id === safeItem.id)) return false;
-    list.unshift(safeItem);
-    localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
+    if (getCollections().some(c => c.id === safeItem.id)) return false;
+    if (!requestCollectionMutation('create', safeItem)) return false;
+    collectionsCache = [safeItem, ...collectionsCache.filter(c => c?.id !== safeItem.id)];
     return true;
   }
 
   function updateCollection(id, patch) {
-    const list = getCollections();
-    const index = list.findIndex(c => c.id === id);
+    const index = collectionsCache.findIndex(c => c?.id === id);
     if (index === -1) return null;
 
     const now = new Date().toISOString();
-    const previous = list[index];
+    const previous = normalizeCollectionItem(collectionsCache[index]);
     const next = normalizeCollectionItem({
       ...previous,
       ...patch,
@@ -129,15 +160,16 @@
       date: previous.date || now.slice(0, 10),
       updatedAt: now
     });
-    if (!next?.title || !next.prompt) return null;
-    list[index] = next;
-    localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
+    if (!next?.title || !next.prompt || !requestCollectionMutation('update', next)) return null;
+    collectionsCache[index] = next;
     return next;
   }
 
   function deleteCollection(id) {
-    const list = getCollections().filter(c => c.id !== id);
-    localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list));
+    const item = collectionsCache.find(c => c?.id === id);
+    if (!item || !requestCollectionMutation('delete', { id })) return false;
+    collectionsCache = collectionsCache.filter(c => c?.id !== id);
+    return true;
   }
 
   function isCollected(id) {
@@ -2373,17 +2405,47 @@
       renderHome();
     }
 
-    // Check for extension imports on load
-    checkExtensionImport();
-    // Also check periodically
-    setInterval(checkExtensionImport, 2000);
+    window.addEventListener('message', (event) => {
+      if (event.source !== window || event.origin !== window.location.origin) return;
+      const message = event.data;
+      if (!message || message.source !== 'prompthub-extension') return;
 
-    // 监听 localStorage 变化（插件 executeScript 写入时立即触发）
-    window.addEventListener('storage', (e) => {
-      if (e.key === EXT_IMPORT_KEY && e.newValue) {
-        checkExtensionImport();
+      if (message.action === 'ready') {
+        extensionBridgeReady = true;
+        return;
+      }
+
+      if (message.action === 'collection-sync-result') {
+        if (!message.success) {
+          showToast(message.error || 'GitHub 收藏同步失败');
+          loadCollections({ force: true }).catch(() => {});
+          return;
+        }
+
+        loadCollections({ force: true }).then(() => {
+          if (!handleHashRoute()) navigate(currentRoute, { preserve: true });
+        }).catch(() => showToast('GitHub 收藏已提交，页面刷新稍后重试'));
       }
     });
+
+    const bridgeProbe = setInterval(() => {
+      if (extensionBridgeReady) {
+        clearInterval(bridgeProbe);
+        return;
+      }
+      window.postMessage({ source: 'prompthub-site', operation: 'ping' }, window.location.origin);
+    }, 1500);
+    window.postMessage({ source: 'prompthub-site', operation: 'ping' }, window.location.origin);
+
+    loadCollections().then(() => {
+      if (!handleHashRoute()) navigate(currentRoute, { preserve: true });
+    }).catch(() => showToast('收藏数据暂时无法连接 GitHub'));
+
+    setInterval(() => {
+      loadCollections({ force: true }).then(() => {
+        if (currentRoute === 'collections') renderCollections();
+      }).catch(() => {});
+    }, 60000);
   }
 
   if (document.readyState === 'loading') {

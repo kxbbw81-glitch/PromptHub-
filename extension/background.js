@@ -5,15 +5,13 @@
 
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const GITHUB_PAGES_TAB_PATTERN = '*://kxbbw81-glitch.github.io/PromptHub-/*';
-const CLOUDFLARE_URL = 'https://prompthub.kxbbw81.workers.dev';
-const CLOUDFLARE_TAB_PATTERN = '*://prompthub.kxbbw81.workers.dev/*';
 const WEBSITE_URL = GITHUB_PAGES_URL;
-const WEBSITE_TAB_PATTERN = GITHUB_PAGES_TAB_PATTERN;
 const QUEUE_KEY = 'prompthub_queue';
 const CF_SYNC_DELAY_MINUTES = 30;
-const EXT_IMPORT_KEY = 'prompthub_ext_import';
-const EXT_SYNC_RECEIPT_KEY = 'prompthub_ext_sync_receipt';
-const SYNC_RECEIPT_WAIT_MS = 8000;
+const GITHUB_TOKEN_KEY = 'prompthub_github_token';
+const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
+const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
+const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
 
 try {
   importScripts('prompt-parser.js');
@@ -258,18 +256,13 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
 // --- 队列操作 ---
 async function addToQueue(item) {
-  const data = await chrome.storage.local.get(QUEUE_KEY);
-  const queue = data[QUEUE_KEY] || [];
-  if (!queue.some(q => q.prompt === item.prompt)) {
-    queue.push(item);
-    await chrome.storage.local.set({ [QUEUE_KEY]: queue });
-  }
-  return queue.length;
+  const result = await syncQueueToGitHub([item]);
+  if (!result.success) throw new Error(result.error || 'GitHub sync failed');
+  return result.count;
 }
 
 async function getQueue() {
-  const data = await chrome.storage.local.get(QUEUE_KEY);
-  return data[QUEUE_KEY] || [];
+  return [];
 }
 
 async function clearQueue() {
@@ -324,7 +317,39 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 
   if (request.action === 'addToQueue') {
-    addToQueue(request.data).then(count => sendResponse({ success: true, count }));
+    syncQueueToGitHub([request.data]).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
+    return true;
+  }
+
+  if (request.action === 'collectionMutation') {
+    mutateGitHubCollections(request.operation, request.item)
+      .then(sendResponse)
+      .catch(e => sendResponse({ success: false, error: e.message }));
+    return true;
+  }
+
+  if (request.action === 'getGitHubTokenStatus') {
+    chrome.storage.local.get(GITHUB_TOKEN_KEY).then(data => sendResponse({ configured: Boolean(data[GITHUB_TOKEN_KEY]) }));
+    return true;
+  }
+
+  if (request.action === 'saveGitHubToken') {
+    const token = String(request.token || '').trim();
+    if (token.length < 20) {
+      sendResponse({ success: false, error: 'GitHub Token 格式不正确' });
+      return;
+    }
+    chrome.storage.local.set({ [GITHUB_TOKEN_KEY]: token }).then(() => sendResponse({ success: true }));
+    return true;
+  }
+
+  if (request.action === 'clearGitHubToken') {
+    chrome.storage.local.remove(GITHUB_TOKEN_KEY).then(() => sendResponse({ success: true }));
+    return true;
+  }
+
+  if (request.action === 'migrateLegacyCollections') {
+    migrateLegacyCollections().then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
     return true;
   }
 
@@ -562,4 +587,258 @@ async function syncToSiteSilent(url, tabPattern, queue) {
   }
 
   return deliverBatchToPromptHub(tab.id, queue);
+}
+
+// --- GitHub-backed collection storage ---
+function trimText(value, maxLength) {
+  return String(value ?? '').trim().slice(0, maxLength);
+}
+
+function sanitizeRemoteItem(item) {
+  if (!item || typeof item !== 'object') return null;
+  const id = trimText(item.id, 120);
+  const title = trimText(item.title, 180);
+  const prompt = trimText(item.prompt, 30000);
+  if (!id || !title || !prompt) return null;
+
+  const imageList = Array.isArray(item.images) ? item.images : [item.image];
+  const images = [...new Set(imageList
+    .map(url => trimText(url, 2048))
+    .filter(url => /^https:\/\//i.test(url)))]
+    .slice(0, 12);
+
+  return {
+    ...item,
+    id,
+    title,
+    prompt,
+    category: trimText(item.category, 32),
+    tags: Array.isArray(item.tags) ? item.tags.map(tag => trimText(tag, 48)).filter(Boolean).slice(0, 12) : [],
+    image: images[0] || '',
+    images,
+    rawImages: images,
+    referenceImages: Array.isArray(item.referenceImages) ? item.referenceImages.map(url => trimText(url, 2048)).filter(url => /^https:\/\//i.test(url)).slice(0, 12) : [],
+    aspectRatio: trimText(item.aspectRatio, 32),
+    model: trimText(item.model, 100),
+    source: trimText(item.source, 100),
+    sourceUrl: /^https:\/\//i.test(trimText(item.sourceUrl, 2048)) ? trimText(item.sourceUrl, 2048) : '',
+    date: /^\d{4}-\d{2}-\d{2}$/.test(String(item.date || '')) ? item.date : new Date().toISOString().slice(0, 10)
+  };
+}
+
+function encodeBase64Utf8(text) {
+  const bytes = new TextEncoder().encode(text);
+  let binary = '';
+  bytes.forEach(byte => { binary += String.fromCharCode(byte); });
+  return btoa(binary);
+}
+
+function decodeBase64Utf8(value) {
+  const binary = atob(String(value || '').replace(/\s/g, ''));
+  const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+async function getGitHubToken() {
+  const data = await chrome.storage.local.get(GITHUB_TOKEN_KEY);
+  const token = String(data[GITHUB_TOKEN_KEY] || '').trim();
+  if (!token) throw new Error('请先在 PromptHub 插件设置中配置 GitHub Token');
+  return token;
+}
+
+function githubHeaders(token) {
+  return {
+    Authorization: `Bearer ${token}`,
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+}
+
+async function readGitHubCollections(token) {
+  const response = await fetch(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
+  if (response.status === 404) return { sha: '', collections: [] };
+  if (!response.ok) throw new Error(`GitHub 读取失败 (${response.status})`);
+
+  const payload = await response.json();
+  try {
+    const content = JSON.parse(decodeBase64Utf8(payload.content));
+    const collections = Array.isArray(content) ? content : content.collections;
+    return { sha: payload.sha || '', collections: Array.isArray(collections) ? collections : [] };
+  } catch {
+    throw new Error('GitHub 收藏数据格式错误');
+  }
+}
+
+async function writeGitHubCollections(token, collections, sha) {
+  const body = {
+    message: 'data: sync PromptHub collections',
+    content: encodeBase64Utf8(JSON.stringify({
+      schemaVersion: 1,
+      updatedAt: new Date().toISOString(),
+      collections
+    }, null, 2) + '\n')
+  };
+  if (sha) body.sha = sha;
+
+  const response = await fetch(GITHUB_COLLECTIONS_API, {
+    method: 'PUT',
+    headers: { ...githubHeaders(token), 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  if (response.status === 409 || response.status === 422) {
+    const error = new Error('GitHub 保存冲突');
+    error.retryable = true;
+    throw error;
+  }
+  if (!response.ok) throw new Error(`GitHub 保存失败 (${response.status})`);
+}
+
+async function scheduleDomesticRelease(ids) {
+  const validIds = [...new Set(ids.map(id => trimText(id, 120)).filter(Boolean))];
+  if (validIds.length === 0) return;
+
+  const data = await chrome.storage.local.get(DOMESTIC_PENDING_KEY);
+  const existing = Array.isArray(data[DOMESTIC_PENDING_KEY]) ? data[DOMESTIC_PENDING_KEY] : [];
+  const dueAt = Date.now() + CF_SYNC_DELAY_MINUTES * 60 * 1000;
+  const byId = new Map(existing.map(entry => [entry.id, entry]));
+  validIds.forEach(id => {
+    if (!byId.has(id)) byId.set(id, { id, dueAt });
+  });
+  const pending = [...byId.values()];
+  await chrome.storage.local.set({ [DOMESTIC_PENDING_KEY]: pending });
+  await chrome.alarms.create(DOMESTIC_ALARM_NAME, { when: Math.min(...pending.map(entry => entry.dueAt)) });
+}
+
+async function mutateGitHubCollections(operation, item) {
+  const token = await getGitHubToken();
+  const safeItem = operation === 'delete' ? { id: trimText(item?.id, 120) } : sanitizeRemoteItem(item);
+  if (!safeItem?.id) return { success: false, error: '收藏数据不完整' };
+
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const snapshot = await readGitHubCollections(token);
+    const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
+    const index = collections.findIndex(entry => entry.id === safeItem.id);
+    const now = new Date().toISOString();
+    const releaseIds = [];
+    let changed = 0;
+
+    if (operation === 'delete') {
+      if (index !== -1) {
+        collections.splice(index, 1);
+        changed = 1;
+      }
+    } else if (operation === 'create') {
+      if (index !== -1 || collections.some(entry => entry.prompt === safeItem.prompt)) {
+        return { success: true, count: 0, alreadySaved: true };
+      }
+      collections.unshift({ ...safeItem, githubSyncedAt: now, domesticSyncedAt: null });
+      releaseIds.push(safeItem.id);
+      changed = 1;
+    } else if (operation === 'update') {
+      if (index === -1) return { success: false, error: '未找到需要更新的收藏' };
+      collections[index] = {
+        ...collections[index],
+        ...safeItem,
+        id: collections[index].id,
+        githubSyncedAt: now,
+        domesticSyncedAt: collections[index].domesticSyncedAt || null
+      };
+      changed = 1;
+    } else if (operation === 'release') {
+      if (index === -1) return { success: true, count: 0 };
+      collections[index] = { ...collections[index], domesticSyncedAt: now };
+      changed = 1;
+    } else {
+      return { success: false, error: '未知收藏操作' };
+    }
+
+    try {
+      await writeGitHubCollections(token, collections, snapshot.sha);
+      if (releaseIds.length) await scheduleDomesticRelease(releaseIds);
+      return { success: true, count: changed };
+    } catch (error) {
+      if (!error.retryable || attempt === 2) throw error;
+    }
+  }
+
+  return { success: false, error: 'GitHub 保存失败' };
+}
+
+async function syncQueueToGitHub(queue) {
+  const entries = Array.isArray(queue) ? queue : [];
+  let count = 0;
+  for (const entry of entries) {
+    const result = await mutateGitHubCollections('create', entry);
+    if (!result.success) return result;
+    count += result.count || 0;
+  }
+  return { success: true, count };
+}
+
+async function releaseDomesticCollections() {
+  const data = await chrome.storage.local.get(DOMESTIC_PENDING_KEY);
+  const pending = Array.isArray(data[DOMESTIC_PENDING_KEY]) ? data[DOMESTIC_PENDING_KEY] : [];
+  const now = Date.now();
+  const due = pending.filter(entry => Number(entry.dueAt) <= now);
+  if (due.length === 0) {
+    if (pending.length) await chrome.alarms.create(DOMESTIC_ALARM_NAME, { when: Math.min(...pending.map(entry => entry.dueAt)) });
+    return;
+  }
+
+  const completed = new Set();
+  for (const entry of due) {
+    try {
+      const result = await mutateGitHubCollections('release', { id: entry.id });
+      if (result.success) completed.add(entry.id);
+    } catch (error) {
+      console.warn('[PromptHub] Domestic release retry:', error.message);
+    }
+  }
+  const next = pending
+    .filter(entry => !completed.has(entry.id))
+    .map(entry => due.some(item => item.id === entry.id) ? { ...entry, dueAt: Date.now() + 5 * 60 * 1000 } : entry);
+  await chrome.storage.local.set({ [DOMESTIC_PENDING_KEY]: next });
+  if (next.length) await chrome.alarms.create(DOMESTIC_ALARM_NAME, { when: Math.min(...next.map(entry => entry.dueAt)) });
+}
+
+chrome.alarms.onAlarm.addListener(alarm => {
+  if (alarm.name === DOMESTIC_ALARM_NAME) releaseDomesticCollections();
+});
+
+chrome.runtime.onStartup.addListener(() => releaseDomesticCollections());
+
+async function waitForTabComplete(tabId) {
+  await new Promise(resolve => {
+    const timeout = setTimeout(done, 15000);
+    function done() {
+      clearTimeout(timeout);
+      chrome.tabs.onUpdated.removeListener(listener);
+      resolve();
+    }
+    function listener(updatedTabId, changeInfo) {
+      if (updatedTabId === tabId && changeInfo.status === 'complete') done();
+    }
+    chrome.tabs.onUpdated.addListener(listener);
+  });
+}
+
+async function migrateLegacyCollections() {
+  const tabs = await chrome.tabs.query({ url: GITHUB_PAGES_TAB_PATTERN });
+  const tab = tabs[0] || await chrome.tabs.create({ url: GITHUB_PAGES_URL, active: false });
+  if (!tabs[0]) await waitForTabComplete(tab.id);
+
+  const result = await chrome.scripting.executeScript({
+    target: { tabId: tab.id },
+    func: () => {
+      try {
+        const data = JSON.parse(localStorage.getItem('prompthub_collections') || '[]');
+        return Array.isArray(data) ? data : [];
+      } catch {
+        return [];
+      }
+    }
+  });
+  const collections = result[0]?.result || [];
+  if (collections.length === 0) return { success: true, count: 0 };
+  return syncQueueToGitHub(collections);
 }

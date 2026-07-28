@@ -74,10 +74,11 @@ A cinematic night portrait inside a glass greenhouse, moonlight through wet wind
   assert.doesNotMatch(parsed.prompt, /月光下的玻璃花房/);
 });
 
-test('Cloudflare sync is scheduled 30 minutes after GitHub Pages sync', () => {
+test('domestic release is scheduled 30 minutes after the GitHub write', () => {
   const background = fs.readFileSync(path.join(__dirname, '../extension/background.js'), 'utf8');
 
   assert.match(background, /const CF_SYNC_DELAY_MINUTES = 30;/);
-  assert.match(background, /delayInMinutes: CF_SYNC_DELAY_MINUTES/);
-  assert.match(background, /const WEBSITE_URL = GITHUB_PAGES_URL;/);
+  assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
+  assert.match(background, /const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';/);
+  assert.match(background, /Date\.now\(\) \+ CF_SYNC_DELAY_MINUTES \* 60 \* 1000/);
 });

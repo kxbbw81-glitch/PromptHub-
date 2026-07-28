@@ -68,6 +68,16 @@
       background: #fff; border: 1.5px solid #1A1A1A; color: #1A1A1A;
     }
     .btn-site:hover { background: #F5F5F0; }
+    .settings-panel {
+      margin: 0 16px 12px; padding: 12px;
+      border: 1px solid #E8E6DE; border-radius: 8px; background: #fff;
+    }
+    .settings-title { font-size: 12px; font-weight: 800; margin-bottom: 6px; }
+    .settings-hint { font-size: 10px; line-height: 1.5; color: #777; margin-bottom: 8px; }
+    .settings-row { display: flex; gap: 6px; }
+    .settings-input { flex: 1; min-width: 0; padding: 8px; border: 1px solid #D9D7CF; border-radius: 6px; font: inherit; font-size: 11px; }
+    .settings-action { padding: 8px 10px; border: 0; border-radius: 6px; background: #1A1A1A; color: #fff; font: inherit; font-size: 11px; font-weight: 700; cursor: pointer; }
+    .settings-clear { margin-top: 8px; border: 0; background: transparent; color: #888; font: inherit; font-size: 10px; cursor: pointer; }
 
     /* Content */
     .content { padding: 0 16px 12px; }
@@ -248,6 +258,17 @@
     <button class="btn btn-scan" id="btn-scan">🔍 扫描当前页面</button>
     <button class="btn btn-site" id="btn-site">🌐</button>
   </div>
+
+  <section class="settings-panel" id="github-settings">
+    <div class="settings-title">GitHub Token</div>
+    <div class="settings-hint">仅保存在插件中，用于将收藏直接写入 GitHub，不会写入网页或仓库。</div>
+    <div class="settings-row">
+      <input class="settings-input" id="github-token" type="password" autocomplete="off" placeholder="github_pat_..." />
+      <button class="settings-action" id="btn-save-token" type="button">保存</button>
+    </div>
+    <button class="settings-clear" id="btn-clear-token" type="button">移除 GitHub Token</button>
+    <button class="settings-clear" id="btn-migrate-legacy" type="button">导入这台电脑的旧收藏</button>
+  </section>
 
   <!-- Content -->
   <div class="content" id="content">

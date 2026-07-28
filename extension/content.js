@@ -386,3 +386,42 @@
     }
   });
 })();
+
+// Bridge collection edits made on PromptHub pages to the extension background.
+(function () {
+  'use strict';
+
+  const allowedOrigins = new Set([
+    'https://kxbbw81-glitch.github.io',
+    'https://prompthub.kxbbw81.workers.dev'
+  ]);
+
+  if (!allowedOrigins.has(window.location.origin)) return;
+
+  window.addEventListener('message', (event) => {
+    if (event.source !== window || event.origin !== window.location.origin) return;
+    const message = event.data;
+    if (!message || message.source !== 'prompthub-site') return;
+    if (message.operation === 'ping') {
+      window.postMessage({ source: 'prompthub-extension', action: 'ready' }, window.location.origin);
+      return;
+    }
+    if (!['create', 'update', 'delete'].includes(message.operation)) return;
+
+    chrome.runtime.sendMessage({
+      action: 'collectionMutation',
+      operation: message.operation,
+      item: message.item
+    }, response => {
+      const error = chrome.runtime.lastError?.message;
+      window.postMessage({
+        source: 'prompthub-extension',
+        action: 'collection-sync-result',
+        success: Boolean(response?.success) && !error,
+        error: error || response?.error || ''
+      }, window.location.origin);
+    });
+  });
+
+  window.postMessage({ source: 'prompthub-extension', action: 'ready' }, window.location.origin);
+})();

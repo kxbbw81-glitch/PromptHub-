@@ -4,11 +4,7 @@
 // ==========================================
 
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
-const GITHUB_PAGES_PATTERN = '*://kxbbw81-glitch.github.io/PromptHub-/*';
-const CLOUDFLARE_URL = 'https://prompthub.kxbbw81.workers.dev';
-const CLOUDFLARE_PATTERN = '*://prompthub.kxbbw81.workers.dev/*';
-const WEBSITE_URL = GITHUB_PAGES_URL; // 规则：先收藏到 GitHub Pages，再延迟同步国内站点
-const QUEUE_KEY = 'prompthub_queue';
+const WEBSITE_URL = GITHUB_PAGES_URL;
 const CF_SYNC_DELAY_MINUTES = 30;
 
 function $(s) { return document.querySelector(s); }
@@ -23,31 +19,28 @@ function showToast(msg) {
 
 // --- 队列操作 ---
 async function getQueue() {
-  const data = await chrome.storage.local.get(QUEUE_KEY);
-  return data[QUEUE_KEY] || [];
+  return [];
 }
 
 async function addToQueue(item) {
-  const queue = await getQueue();
-  if (!queue.some(q => q.prompt === item.prompt)) {
-    queue.push(item);
-    await chrome.storage.local.set({ [QUEUE_KEY]: queue });
-    updateQueueUI();
-    return true;
+  const result = await chrome.runtime.sendMessage({
+    action: 'collectionMutation',
+    operation: 'create',
+    item
+  });
+  if (!result?.success) {
+    showToast(result?.error || 'GitHub 收藏同步失败');
+    return false;
   }
-  return false;
+  return true;
 }
 
 async function removeFromQueue(promptText) {
-  const queue = await getQueue();
-  const filtered = queue.filter(q => q.prompt !== promptText);
-  await chrome.storage.local.set({ [QUEUE_KEY]: filtered });
-  updateQueueUI();
+  return promptText;
 }
 
 async function clearQueue() {
-  await chrome.storage.local.remove(QUEUE_KEY);
-  updateQueueUI();
+  return undefined;
 }
 
 function updateQueueUI() {
@@ -595,6 +588,48 @@ $('#btn-sync').addEventListener('click', async () => {
 
 // --- 初始化 ---
 updateQueueUI();
+
+async function updateGitHubTokenUI() {
+  const result = await chrome.runtime.sendMessage({ action: 'getGitHubTokenStatus' });
+  const input = $('#github-token');
+  if (!input) return;
+  input.placeholder = result?.configured ? 'GitHub Token 已配置' : 'github_pat_...';
+}
+
+$('#btn-save-token').addEventListener('click', async () => {
+  const input = $('#github-token');
+  const token = input.value.trim();
+  if (!token) {
+    showToast('请输入 GitHub Token');
+    return;
+  }
+  const result = await chrome.runtime.sendMessage({ action: 'saveGitHubToken', token });
+  if (result?.success) {
+    input.value = '';
+    showToast('GitHub Token 已保存');
+    updateGitHubTokenUI();
+  } else {
+    showToast(result?.error || 'Token 保存失败');
+  }
+});
+
+$('#btn-clear-token').addEventListener('click', async () => {
+  await chrome.runtime.sendMessage({ action: 'clearGitHubToken' });
+  $('#github-token').value = '';
+  showToast('GitHub Token 已移除');
+  updateGitHubTokenUI();
+});
+
+$('#btn-migrate-legacy').addEventListener('click', async () => {
+  const result = await chrome.runtime.sendMessage({ action: 'migrateLegacyCollections' });
+  if (result?.success) {
+    showToast(result.count ? `已导入 ${result.count} 个旧收藏` : '未找到旧收藏');
+  } else {
+    showToast(result?.error || '旧收藏导入失败');
+  }
+});
+
+updateGitHubTokenUI();
 
 // 自动扫描（延迟 200ms 让弹窗先渲染）
 setTimeout(() => {
