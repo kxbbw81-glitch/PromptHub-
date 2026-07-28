@@ -1,7 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:08.340Z",
+  "updatedAt": "2026-07-28T09:32:09.956Z",
   "collections": [
+    {
+      "category": "自然",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3a9ehm_k7iw",
+      "image": "https://pbs.twimg.com/media/HOI43SHbIAAaC9K?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOI43SHbIAAaC9K?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SGbkAAszSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SUbsAEycIA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SNbMAAOVEw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93abUAAyZSl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93ZbQAAHVYq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93TbQAARamS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93gakAAgDkc?format=jpg&name=small"
+      ],
+      "prompt": "爱上一条河流的人，只是因为他们尚未见过海洋。\n\n而我看见了整个银河，却心中只容得下一颗星辰。\n\n♡Prompt GPT \n\n超现实主义电影般的夏季肖像，描绘一位美丽的年轻成年越南女性站在宁静的石质花园小径上，四周环绕着郁郁葱葱的绿树，沐浴在金色晨光中。\n\n她身材苗条优雅，自然及长的直黑发微微飘动，温暖的棕色眼睛温柔向下凝视，面部轮廓精致，皮肤纹理逼真，毛孔清晰可见，妆容自然淡雅。一朵新鲜的白色波斯菊轻轻别在她右耳后。\n\n她身穿合身的橄榄绿色细肩带吊带背心，搭配一条随风轻舞的白色棉质长裙。\n\n姿势：\n她以羞涩而女性化的姿态站立，肩膀微微放松，双手轻轻交叠置于身前。头部微微向下倾斜，唇边绽放柔和宁静的微笑。一侧肩膀微妙地转向镜头，形成优雅的S形轮廓。长发自然垂落于一肩，几缕发丝在风中轻轻飘浮。\n\n镜头构图：\n中景肖像（大腿中部以上），居中构图。\n眼平视角。\n长长的石质小径延伸至背景。\n自然的引导线条。\n平衡的负空间。\n梦幻的电影式取景。\n前景树叶从左上角柔和进入，增添深度。\n自然的环境框定。\n\n光线：\n金色时段晨光透过茂密树叶过滤而入。\n柔和的逆光。\n美丽的太阳耀斑从左上角进入。\n温暖的轮廓光勾勒发丝。\n柔和的斑驳光洒落肩头和小径。\n轻柔的大气雾气。\n\n背景：\n宁静的植物园。\n茂密的绿色植被。\n自然的灌木丛。\n石质步行道。\n柔和的虚化效果。\n宁静的夏日氛围。\n\n色彩分级：\nKodak Portra 400。\nFuji 400H 色彩科学。\n温暖的绿色调色板。\n奶油般的明亮点。\n柔和的胶片对比度。\n细微的胶片颗粒。\n轻微的晕影效果。\n复古模拟摄影美学。\n\n相机：\n使用 Sony A7R V 拍摄。\n85mm GM 肖像镜头。\nf/1.8。\n自然的浅景深。\n超现实主义 RAW 照片。\n纪实生活摄影。\n\n品质：\n超现实主义。\n8K。\n自然的皮肤纹理。\n无 AI 痕迹。\n无塑料感皮肤。\n无过度美颜滤镜。\n真实的户外抓拍肖像。",
+      "source": "插件扫描",
+      "tags": [
+        "8k",
+        "摄影"
+      ],
+      "timestamp": 1785160148890,
+      "title": "爱上一条河流的人，只是因为他们尚未见过海洋。",
+      "url": "https://x.com/YUKIMASTERAI/status/2081288508141089026",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOI43SHbIAAaC9K?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SGbkAAszSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SUbsAEycIA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SNbMAAOVEw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93abUAAyZSl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93ZbQAAHVYq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93TbQAARamS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93gakAAgDkc?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:09.956Z",
+      "githubSyncedAt": "2026-07-28T09:32:09.956Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
