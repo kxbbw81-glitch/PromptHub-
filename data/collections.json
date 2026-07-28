@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:41:48.833Z",
+  "updatedAt": "2026-07-28T09:45:29.964Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gzu8b_ik1k",
+      "image": "https://pbs.twimg.com/media/HOCHlBjXEAAE4-u?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOCHlBjXEAAE4-u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCHlBnWEAAz3ul?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCHlBrWsAAFadm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCHlB1WgAAXTCF?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT 图像 2 在 ChatGPT 上\n\n提示 \n一位年轻成年东亚女性站在暗调复古会所或高级酒廊内，画面为大半身到接近全身构图，人物位于画面中央略偏右。她身体侧向画面左侧，呈三分之二侧背角度，头部从左肩方向回眸看向镜头，眼神平静直接，神情克制、优雅、略带疏离感，嘴唇自然微启。姿态自然挺拔，肩颈线条清晰，一只手轻轻扶住胸前或礼服边缘，另一只手自然贴近身体。\n\n她拥有柔和精致的鹅蛋脸，杏仁形深棕眼睛，自然细眉，纤细鼻梁，浅玫瑰裸粉色嘴唇。妆容淡雅但精致，仅保留自然睫毛、细眼线、轻微暖色腮红和柔和唇色。皮肤白皙偏暖，保留真实毛孔、细小绒毛、自然肤色变化和柔和高光，不要塑料磨皮。\n\n她有深黑棕色长发，自然披散，略带蓬松波浪感，部分发丝落在肩背和脸侧，质感真实，不要过度整齐。\n\n她穿一件深酒红色或黑莓紫色高级晚礼服，露肩设计，肩部有编织或扭结式肩带，侧面和背部有优雅开口，修身长裙贴合腰臀线条，面料为柔软哑光缎面或弹力丝质，带轻微暗光反射。整体性感但克制，高级、成熟、含蓄。\n\n背景为暗棕色木质墙板、复古雕花镜框、暖黄色壁灯和黑色皮质切斯特菲尔德沙发，环境安静奢华。光线为低照度暖色室内灯光，左上方壁灯提供柔和暖光，人物面部有细腻补光，肩背和头发边缘有温暖轮廓光。整体低饱和、低对比、暗调电影感，保留阴影层次。摄影风格：85mm人像镜头，f/1.8，浅景深，真实皮肤与布料纹理，轻微胶片颗粒，photorealistic。\n\n避免： 卡通、CG、插画、过度磨皮、浓妆、夸张身材、错误手指、畸形手臂、过度暴露、强HDR、过度锐化、杂乱背景、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOCHlBjXEAAE4-u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCHlBnWEAAz3ul?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCHlBrWsAAFadm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOCHlB1WgAAXTCF?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "插画",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785231926220,
+      "title": "GPT 图像 2 在 ChatGPT 上",
+      "url": "https://x.com/ToroJushiAi/status/2081016627836203242",
+      "collectedAt": "2026-07-28T09:45:29.963Z",
+      "githubSyncedAt": "2026-07-28T09:45:29.963Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "抽象",
