@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:15:31.236Z",
+  "updatedAt": "2026-07-28T07:15:32.716Z",
   "collections": [
+    {
+      "category": "自然",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3bw73y_fydi",
+      "image": "https://pbs.twimg.com/media/HOKkWGaXcAEoZnu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOKkWGaXcAEoZnu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKkW_nWcAEKgtj?format=jpg&name=small"
+      ],
+      "prompt": "Nano banana 2 on @openart_ai\n\nA Hong Kong-inspired background featuring traditional dim sum restaurants, noodle shops, and authentic Hong Kong street scenery. Soft, natural Korean-style pink makeup. Long, straight hair with light C-curls at the ends, flowing naturally in the",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785162892030,
+      "title": "Nano banana 2 on @openart_ai",
+      "url": "https://x.com/chenlinspark/status/2081348809230258379",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKkWGaXcAEoZnu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKkW_nWcAEKgtj?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:15:32.716Z",
+      "githubSyncedAt": "2026-07-28T07:15:32.716Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
