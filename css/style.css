@@ -347,8 +347,8 @@ button {
 }
 
 .hero-gallery {
-  height: clamp(1800px, calc(300svh - 438px), 2400px);
-  min-height: 1800px;
+  height: clamp(720px, calc(100svh - var(--header-h)), 1120px);
+  min-height: 720px;
   padding: 0;
   background: #f7f8fa;
   text-align: left;
@@ -421,9 +421,10 @@ button {
 .hero-gallery-shell {
   position: relative;
   height: 100%;
-  max-width: 1320px;
+  width: min(100%, 1680px);
+  max-width: 1680px;
   margin: 0 auto;
-  padding: 306px 24px 28px;
+  padding: 306px clamp(16px, 4vw, 64px) 28px;
 }
 
 .hero-gallery-grid {
@@ -536,7 +537,7 @@ button {
 .hero-gallery-card-1-1,
 .hero-gallery-card-2-2,
 .hero-gallery-card-3-1 {
-  height: 430px;
+  height: clamp(300px, 27vw, 460px);
 }
 
 .hero-gallery-card-1-2,
@@ -549,12 +550,12 @@ button {
 .hero-gallery-card-1-4,
 .hero-gallery-card-2-4,
 .hero-gallery-card-3-4 {
-  height: 255px;
+  height: clamp(185px, 15.5vw, 270px);
 }
 
 .hero-gallery-card-4-3,
 .hero-gallery-card-4-4 {
-  height: 315px;
+  height: clamp(225px, 19vw, 340px);
 }
 
 .hero-gallery-vignette {
@@ -2112,8 +2113,8 @@ button {
     font-size: 36px;
   }
   .hero-gallery {
-    height: clamp(1680px, calc(300svh - 372px), 2280px);
-    min-height: 1680px;
+    height: clamp(680px, calc(100svh - 48px), 920px);
+    min-height: 680px;
   }
   .hero-intro {
     top: 28px;
@@ -2134,7 +2135,7 @@ button {
     font-size: 16px;
   }
   .hero-gallery-shell {
-    padding: 282px 18px 28px;
+    padding: 282px clamp(14px, 3vw, 32px) 28px;
   }
   .hero-gallery-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2217,8 +2218,8 @@ button {
     padding: 48px 0;
   }
   .hero-gallery {
-    height: clamp(1560px, calc(300svh - 414px), 2070px);
-    min-height: 1560px;
+    height: clamp(580px, calc(100svh - 16px), 760px);
+    min-height: 580px;
     padding: 0;
   }
   .hero-intro {
