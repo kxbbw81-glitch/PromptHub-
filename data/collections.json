@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:34:21.671Z",
+  "updatedAt": "2026-07-28T09:34:23.519Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4gbj6u_87ow",
+      "image": "https://pbs.twimg.com/media/HORNfCiXYAArKwJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HORNfCiXYAArKwJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORNfCUXoAAHEbz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORNfCUWMAARrT3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORNfCSXwAANHGC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT\n\nPrompt \n一位年轻成年东亚女性，上半身近景肖像，画面从胸部以上至头顶。人物位于画面中央略偏右，身体微微侧向左侧约20度，头部轻轻转向镜头，双眼平静凝视镜头，神情克制、优雅、安静，没有刻意微笑，嘴唇自然闭合，流露高级时尚杂志质感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HORNfCiXYAArKwJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORNfCUXoAAHEbz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORNfCUWMAARrT3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORNfCSXwAANHGC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785230792166,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081763593838535127",
+      "collectedAt": "2026-07-28T09:34:23.519Z",
+      "githubSyncedAt": "2026-07-28T09:34:23.519Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
