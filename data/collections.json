@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:18.724Z",
+  "updatedAt": "2026-07-28T09:32:20.459Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms2vew4m_cn05",
+      "image": "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small",
+      "prompt": "GPT Image 2 on ChatGPT\n\nMilan, All Day Long｜Walking Alone at Dawn\n\nPrompt \nA serene pre-dawn photograph of a young Japanese woman, around 20 years old, standing alone in the empty Piazza del Duomo in Milan just before sunrise, the cathedral's Gothic spires silhouetted against a deep cobalt-blue sky, no other people in sight.\n\nHer face shows classic Japanese features — soft oval shape, gentle almond eyes with a calm, introspective gaze, natural pink lips. Her skin, fair with a cool undertone, shows realistic subsurface scattering under the pre-dawn ambient light, subtle specular highlights on her cheekbones, natural pore texture preserved.\n\nHer hair is straight and sleek, worn down past her shoulders, with one or two strands displaced by the cool early breeze. She wears a tailored charcoal wool coat over a minimalist slip dress, hands tucked into her pockets against the morning chill.\n\nThe lighting is the deep cobalt blue-hour glow before sunrise, cool and even with no directional shadow, the cathedral's white marble taking on a faint blue luminescence. Subtle ISO 400 film grain sits in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "source": "插件扫描",
+      "tags": [
+        "anime",
+        "minimalist"
+      ],
+      "timestamp": 1785135210790,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081590406375170445",
+      "images": [
+        "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:20.459Z",
+      "githubSyncedAt": "2026-07-28T09:32:20.459Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
