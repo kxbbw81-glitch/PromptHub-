@@ -146,11 +146,6 @@ chrome.runtime.onInstalled.addListener((details) => {
     contexts: ['page']
   });
 
-  if (details.reason === 'update') {
-    recoverCloudflareFromGitHub().catch(e => {
-      console.warn('[PromptHub] Cloudflare recovery check failed:', e.message);
-    });
-  }
 });
 
 // --- 右键菜单点击 ---
@@ -195,10 +190,8 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
       allImages.unshift(info.srcUrl);
     }
     const item = buildPromptFromText(info.selectionText, tab, info.srcUrl, allImages);
-    await addToQueue(item);
-    chrome.action.setBadgeText({ text: '1', tabId: tab.id });
-    chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId: tab.id });
-    setTimeout(() => chrome.action.setBadgeText({ text: '', tabId: tab.id }), 2000);
+    const result = await addToQueue(item);
+    updateQueueBadge(tab.id, result.count);
   }
 
   if (info.menuItemId === 'collect-image' && info.srcUrl) {
@@ -235,17 +228,13 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     }
     if (promptText) {
       const item = buildPromptFromText(promptText, tab, info.srcUrl, [info.srcUrl]);
-      await addToQueue(item);
-      chrome.action.setBadgeText({ text: '1', tabId: tab.id });
-      chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId: tab.id });
-      setTimeout(() => chrome.action.setBadgeText({ text: '', tabId: tab.id }), 2000);
+      const result = await addToQueue(item);
+      updateQueueBadge(tab.id, result.count);
     } else {
       // 没有找到提示词文字，只收集图片
       const item = buildPromptFromText('（请手动补充提示词）', tab, info.srcUrl, [info.srcUrl]);
-      await addToQueue(item);
-      chrome.action.setBadgeText({ text: '1', tabId: tab.id });
-      chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId: tab.id });
-      setTimeout(() => chrome.action.setBadgeText({ text: '', tabId: tab.id }), 2000);
+      const result = await addToQueue(item);
+      updateQueueBadge(tab.id, result.count);
     }
   }
 
@@ -256,17 +245,33 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
 // --- 队列操作 ---
 async function addToQueue(item) {
-  const result = await syncQueueToGitHub([item]);
-  if (!result.success) throw new Error(result.error || 'GitHub sync failed');
-  return result.count;
+  const safeItem = sanitizeRemoteItem(item);
+  if (!safeItem) throw new Error('Invalid prompt item');
+
+  const queue = await getQueue();
+  const fingerprint = collectionFingerprint(safeItem);
+  if (queue.some(entry => collectionFingerprint(entry) === fingerprint)) {
+    return { success: true, count: queue.length, alreadyQueued: true };
+  }
+
+  await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, safeItem] });
+  return { success: true, count: queue.length + 1 };
 }
 
 async function getQueue() {
-  return [];
+  const data = await chrome.storage.local.get(QUEUE_KEY);
+  const rawQueue = Array.isArray(data[QUEUE_KEY]) ? data[QUEUE_KEY] : [];
+  return rawQueue.map(sanitizeRemoteItem).filter(Boolean);
 }
 
 async function clearQueue() {
   await chrome.storage.local.remove(QUEUE_KEY);
+}
+
+function updateQueueBadge(tabId, count) {
+  const text = count > 0 ? String(Math.min(count, 99)) : '';
+  chrome.action.setBadgeText({ text, tabId });
+  if (text) chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId });
 }
 
 async function recoverCloudflareFromGitHub() {
@@ -317,7 +322,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 
   if (request.action === 'addToQueue') {
-    syncQueueToGitHub([request.data]).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
+    addToQueue(request.data).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
     return true;
   }
 
@@ -367,7 +372,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
   if (request.action === 'removeFromQueue') {
     getQueue().then(async (queue) => {
-      const filtered = queue.filter(q => q.prompt !== request.prompt);
+      const fingerprint = collectionFingerprint({ prompt: request.prompt });
+      const filtered = queue.filter(q => collectionFingerprint(q) !== fingerprint);
       await chrome.storage.local.set({ [QUEUE_KEY]: filtered });
       sendResponse({ success: true, count: filtered.length });
     });
@@ -379,15 +385,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true;
   }
 
-  // 延迟同步到国内站点（popup 触发，background 空闲时执行）
-  if (request.action === 'delayedSyncCloudflare' && request.queue) {
-    scheduleCloudflareSync(request.queue).then(() => {
-      sendResponse({ success: true });
-    }).catch(e => {
-      sendResponse({ success: false, error: e.message });
-    });
-    return true;
-  }
 });
 
 function createSyncBatchId() {
@@ -493,6 +490,14 @@ async function syncToSite(url, tabPattern, queue) {
 // --- 同步到网站：只同步 GitHub Pages，成功后安排后台延迟同步国内站点 ---
 async function syncToWebsite() {
   const queue = await getQueue();
+  if (queue.length === 0) return { success: false, error: 'Queue is empty' };
+
+  // The queue is temporary extension state; GitHub is the only saved source.
+  const result = await syncQueueToGitHub(queue);
+  if (!result.success) return result;
+  await clearQueue();
+  return { success: true, count: result.count, skipped: result.skipped || 0 };
+
   if (queue.length === 0) {
     return { success: false, error: '队列为空' };
   }

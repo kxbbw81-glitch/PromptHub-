@@ -5,7 +5,6 @@
 
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const WEBSITE_URL = GITHUB_PAGES_URL;
-const CF_SYNC_DELAY_MINUTES = 30;
 
 function $(s) { return document.querySelector(s); }
 
@@ -19,45 +18,44 @@ function showToast(msg) {
 
 // --- 队列操作 ---
 async function getQueue() {
-  return [];
+  const result = await chrome.runtime.sendMessage({ action: 'getQueue' });
+  return Array.isArray(result?.queue) ? result.queue : [];
 }
 
 async function addToQueue(item) {
   const result = await chrome.runtime.sendMessage({
-    action: 'collectionMutation',
-    operation: 'create',
-    item
+    action: 'addToQueue',
+    data: item
   });
   if (!result?.success) {
-    return { success: false, error: result?.error || 'GitHub 收藏同步失败' };
+    return { success: false, error: result?.error || '收藏失败，请稍后重试' };
   }
   return result;
 }
 
 async function removeFromQueue(promptText) {
-  return promptText;
+  return chrome.runtime.sendMessage({ action: 'removeFromQueue', prompt: promptText });
 }
 
 async function clearQueue() {
-  return undefined;
+  return chrome.runtime.sendMessage({ action: 'clearQueue' });
 }
 
-function updateQueueUI() {
-  getQueue().then(queue => {
-    const bar = $('#queue-bar');
-    const num = $('#queue-num');
-    const hq = $('#header-queue');
-    const hqNum = $('#header-queue-num');
-    if (queue.length > 0) {
-      bar.style.display = 'block';
-      num.textContent = queue.length;
-      hq.style.display = 'flex';
-      hqNum.textContent = queue.length;
-    } else {
-      bar.style.display = 'none';
-      hq.style.display = 'none';
-    }
-  });
+async function updateQueueUI() {
+  const queue = await getQueue();
+  const bar = $('#queue-bar');
+  const num = $('#queue-num');
+  const hq = $('#header-queue');
+  const hqNum = $('#header-queue-num');
+  if (queue.length > 0) {
+    bar.style.display = 'block';
+    num.textContent = queue.length;
+    hq.style.display = 'flex';
+    hqNum.textContent = queue.length;
+  } else {
+    bar.style.display = 'none';
+    hq.style.display = 'none';
+  }
 }
 
 // --- 复制到剪贴板 ---
@@ -401,24 +399,20 @@ function renderPrompts(prompts) {
       e.stopPropagation();
       const idx = parseInt(btn.dataset.idx);
       btn.disabled = true;
-      btn.textContent = '正在推送…';
+      btn.textContent = '正在收藏…';
       let result;
       try {
         result = await addToQueue(prompts[idx]);
       } catch (error) {
-        result = { success: false, error: error?.message || '推送失败，请稍后重试' };
+        result = { success: false, error: error?.message || '收藏失败，请稍后重试' };
       }
       if (result?.success) {
-        if (result.alreadySaved) {
-          showToast('该提示词已在 GitHub 收藏中，未重复推送');
-          btn.textContent = '✓ 已存在';
-        } else {
-          showToast('已识别并推送成功；国内站将在 30 分钟后同步');
-          btn.textContent = '✓ 已推送';
-        }
+        btn.textContent = result.alreadyQueued ? '✓ 已在队列' : '✓ 已收藏';
         btn.classList.add('mini-btn-collected');
+        await updateQueueUI();
+        return;
       } else {
-        showToast(result?.error || '推送失败，请稍后重试');
+        showToast(result?.error || '收藏失败，请稍后重试');
         btn.disabled = false;
         btn.textContent = '❤️ 收藏';
       }
@@ -559,10 +553,21 @@ $('#btn-sync').addEventListener('click', async () => {
       return;
     }
 
-    btn.textContent = '正在确认 GitHub Pages 保存…';
+    btn.textContent = '正在同步到网站…';
     const syncResult = await chrome.runtime.sendMessage({ action: 'syncToWebsite' });
 
     if (syncResult?.success) {
+      await updateQueueUI();
+      $('#content').innerHTML = `
+        <div class="empty-state">
+          <div class="empty-icon" style="font-size:40px;">✓</div>
+          <div class="empty-text" style="font-size:14px;color:#00B894;font-weight:600;">
+            已同步 ${syncResult.count || 0} 个提示词
+          </div>
+        </div>
+      `;
+      return;
+
       showToast(`已同步 ${queue.length} 个到 GitHub Pages`);
 
       $('#content').innerHTML = `
