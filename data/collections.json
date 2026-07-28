@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:23:59.025Z",
+  "updatedAt": "2026-07-28T07:29:04.245Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4c4euu_p8vs",
+      "image": "https://pbs.twimg.com/media/HORlZMLasAAejYJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HORlZMLasAAejYJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORlnRmbcAAOXEy?format=jpg&name=small"
+      ],
+      "prompt": "Create a 9:16 photorealistic editorial portrait.\n\nWaist-up portrait, shoulder-level view, back view\n\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, rounded short bob with full straight bangs, smooth curved ends, cute Japanese bob silhouette, chestnut-brown hair.\n\nWearing gray sheer layered Y2K punk camisole look, smoky gray translucent ruffle camisole with thin straps, distressed black denim micro shorts with side button straps and frayed hems, layered chain choker and black cross pendant necklace.\n\nShe has her head turned over one shoulder toward the camera.\n\nIn British vintage window-side room interior, white lace curtain and sash window, dresser mirror side table framed paintings wall clock porcelain trinkets.\n\nInspired by Kishin Shinoyama, polished Japanese portrait image language, high-key Japanese portrait color grade, elevated exposure.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic",
+        "vintage"
+      ],
+      "timestamp": 1785223741494,
+      "title": "Gpt Image 2",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2081900739644047495",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HORlZMLasAAejYJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORlnRmbcAAOXEy?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:29:04.244Z",
+      "githubSyncedAt": "2026-07-28T07:29:04.244Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
