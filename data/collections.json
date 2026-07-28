@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:29:04.245Z",
+  "updatedAt": "2026-07-28T07:31:53.842Z",
   "collections": [
+    {
+      "category": "人像",
+      "date": "2026-07-28",
+      "domain": "x.com",
+      "id": "ext_ms4c820z_vq60",
+      "image": "https://pbs.twimg.com/media/HOOTmfsbkAA8AJv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOOTmfsbkAA8AJv?format=jpg&name=small"
+      ],
+      "prompt": "Ultra-realistic IMAX-level Netflix-style cinematic elemental-water beauty portrait, 9:16 vertical composition, use the uploaded image as the primary facial, pose, lighting and composition reference with maximum face consistency, create a beautiful young adult woman captured in an intimate three-quarter medium-close portrait against a deep black atmospheric background. Her head tilts gracefully backward with her chin raised, eyes completely closed and wet lips softly parted, creating an expression of emotional release, intense inner peace and quiet surrender, with relaxed brows, gently resting eyelids, softened cheeks and a tension-free feminine jawline. Her luminous fair porcelain milky-white skin rendered with ultra-smooth clean texture, soft natural pink freshness and perfect even face-to-body skin tone consistency, covered with realistic water droplets and glossy wet highlights. Her long deep-black hair is completely soaked, with separated strands clinging naturally across her forehead, cheeks, neck and shoulders while other strands stream backward through the water-filled air. Translucent flowing ribbons of luminous liquid wrap elegantly around her shoulders, chest and arms like a weightless fabric, glowing with electric cyan, deep blue, fiery orange, amber and subtle magenta energy. Warm molten-orange light travels across one side of her face, neck and collarbones while cold cyan light shapes the opposite side, producing a dramatic fire-and-water contrast without burning or damaging the skin. Surround her with suspended droplets, fine spray, sparkling particles, tiny bubbles and curved trails of illuminated water frozen in motion. Deep sculpted shadows, realistic wet-skin texture, cinematic mist, rich black background, premium cyan-and-orange colour grading, subtle film grain, surreal emotional atmosphere, photorealistic, highly detailed, 8K quality.\n\nNegative Prompt: open eyes, direct camera gaze, cheerful smile, dry hair, dry skin, ordinary clothing, solid plastic fabric, excessive flames, burned skin, distorted face, extra limbs, deformed hands, uneven skin tone, flat lighting, oversaturated neon, CGI look, cartoon, blur, text, logo, watermark.",
+      "source": "插件扫描",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "8k"
+      ],
+      "timestamp": 1785223911491,
+      "title": "Ethereal beauty in liquid light",
+      "url": "https://x.com/imGopalTiwari/status/2081669768281747605",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOOTmfsbkAA8AJv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:31:53.841Z",
+      "githubSyncedAt": "2026-07-28T07:31:53.841Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-28",
