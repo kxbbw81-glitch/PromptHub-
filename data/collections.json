@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T07:23:57.213Z",
+  "updatedAt": "2026-07-28T07:23:59.025Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3aofjh_c7n2",
+      "image": "https://pbs.twimg.com/media/HONpnNYaYAAbwdB?format=jpg&name=4096x4096",
+      "images": [
+        "https://pbs.twimg.com/media/HONpnNYaYAAbwdB?format=jpg&name=4096x4096"
+      ],
+      "model": "",
+      "prompt": "Public prompt:\n\nCreate a realistic vertical 9:16 photographed portrait. Subject and action: summer aesthetic. Composition: Vertical three-quarter seated portrait, centered subject filling most of the frame from head to folded lower legs, face near the upper third, minimal headroom, foreground blooms softly obscuring the bottom edge. Camera: Eye-level camera at close conversation distance, natural 50mm lens feel with mild background compression and shallow depth of field. Wardrobe: Traditional deep cobalt-blue yukata with an all-over botanical print of large pale blue, white, cream, and muted yellow flowers with green stems; wide sleeves and overlapping front panels; a pale cream patterned obi tied at the waist; The fabric gathers in gravity folds at the elbows, waist, and folded lap, with slight natural wrinkling. Setting: She sits tightly enclosed within a dense hydrangea shrub, surrounded on every side by large round flower clusters and broad veined leaves; nearer blossoms at the bottom edge fall out of focus while the foliage behind her is dark and densely layered. Finish: Soft late-20th-century Japanese color-negative film fingerprint: cool blue-green bias, moderately saturated blues and foliage, gentle contrast with deep but not crushed leafy shadows, creamy skin tones, soft highlight roll-off, fine visible grain across the frame and on the skin, visible pores and faint natural cheek and under-eye unevenness, restrained sharpening, and slight lens softness in peripheral foliage.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HONpnNYaYAAbwdB?format=jpg&name=4096x4096"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785160850093,
+      "title": "20世纪晚期日本风情",
+      "updatedAt": "2026-07-27T14:02:48.146Z",
+      "url": "https://x.com/sidona/status/2081623636755259700",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T07:23:59.025Z",
+      "githubSyncedAt": "2026-07-28T07:23:59.025Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
