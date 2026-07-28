@@ -54,3 +54,10 @@ test('collection writes use normalized prompt uniqueness and report push outcome
   assert.match(popup, /已识别并推送成功；国内站将在 30 分钟后同步/);
   assert.match(popup, /result\.alreadySaved/);
 });
+
+test('new collections sort first across devices', () => {
+  assert.match(app, /function getCollectionSortTime\(item\)/);
+  assert.match(app, /sort\(\(left, right\) => getCollectionSortTime\(right\) - getCollectionSortTime\(left\)\)/);
+  assert.match(background, /collectedAt: now, githubSyncedAt: now/);
+  assert.match(background, /collectedAt: collections\[index\]\.collectedAt \|\| collections\[index\]\.githubSyncedAt \|\| now/);
+});

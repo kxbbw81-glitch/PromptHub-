@@ -748,7 +748,7 @@ async function mutateGitHubCollections(operation, item) {
       if (index !== -1 || duplicate) {
         return { success: true, count: 0, alreadySaved: true, duplicateId: (collections[index] || duplicate).id };
       }
-      collections.unshift({ ...safeItem, githubSyncedAt: now, domesticSyncedAt: null });
+      collections.unshift({ ...safeItem, collectedAt: now, githubSyncedAt: now, domesticSyncedAt: null });
       releaseIds.push(safeItem.id);
       changed = 1;
     } else if (operation === 'update') {
@@ -757,6 +757,7 @@ async function mutateGitHubCollections(operation, item) {
         ...collections[index],
         ...safeItem,
         id: collections[index].id,
+        collectedAt: collections[index].collectedAt || collections[index].githubSyncedAt || now,
         githubSyncedAt: now,
         domesticSyncedAt: collections[index].domesticSyncedAt || null
       };

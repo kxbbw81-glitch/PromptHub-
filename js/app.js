@@ -117,11 +117,21 @@
     return window.location.hostname === DOMESTIC_HOST;
   }
 
+  function getCollectionSortTime(item) {
+    const candidates = [item?.collectedAt, item?.githubSyncedAt, item?.timestamp, item?.date];
+    for (const value of candidates) {
+      const time = typeof value === 'number' ? value : Date.parse(String(value || ''));
+      if (Number.isFinite(time)) return time;
+    }
+    return 0;
+  }
+
   function getCollections() {
     return collectionsCache
       .map(normalizeCollectionItem)
       .filter(item => item?.id && item.title && item.prompt)
-      .filter(item => !isDomesticSite() || Boolean(item.domesticSyncedAt));
+      .filter(item => !isDomesticSite() || Boolean(item.domesticSyncedAt))
+      .sort((left, right) => getCollectionSortTime(right) - getCollectionSortTime(left));
   }
 
   async function loadCollections({ force = false } = {}) {
@@ -157,8 +167,9 @@
     const safeItem = normalizeCollectionItem(item);
     if (!safeItem?.id || !safeItem.title || !safeItem.prompt) return false;
     if (getCollections().some(c => c.id === safeItem.id) || findDuplicateCollection(getCollections(), safeItem)) return false;
-    if (!requestCollectionMutation('create', safeItem)) return false;
-    collectionsCache = [safeItem, ...collectionsCache.filter(c => c?.id !== safeItem.id)];
+    const collectedItem = { ...safeItem, collectedAt: safeItem.collectedAt || new Date().toISOString() };
+    if (!requestCollectionMutation('create', collectedItem)) return false;
+    collectionsCache = [collectedItem, ...collectionsCache.filter(c => c?.id !== collectedItem.id)];
     return true;
   }
 
