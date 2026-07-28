@@ -61,3 +61,9 @@ test('new collections sort first across devices', () => {
   assert.match(background, /collectedAt: now, githubSyncedAt: now/);
   assert.match(background, /collectedAt: collections\[index\]\.collectedAt \|\| collections\[index\]\.githubSyncedAt \|\| now/);
 });
+
+test('the browser extension pane provides a direct download for the current package', () => {
+  assert.match(app, /PromptHub-Extension-v3\.2\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.2\.zip"/);
+  assert.match(app, /下载浏览器插件/);
+});

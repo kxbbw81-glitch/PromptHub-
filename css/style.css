@@ -2698,6 +2698,10 @@ button {
   border-radius: 20px;
   margin-bottom: 28px;
 }
+.imp-ext-hero-text {
+  min-width: 0;
+  flex: 1;
+}
 .imp-ext-hero-icon {
   font-size: 48px;
   flex-shrink: 0;
@@ -2712,6 +2716,42 @@ button {
   font-size: 14px;
   color: #AAA;
   line-height: 1.6;
+}
+.imp-ext-download {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: var(--yellow);
+  color: #1A1A1A;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+.imp-ext-download span {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: rgba(26, 26, 26, 0.12);
+  font-size: 11px;
+  font-weight: 700;
+}
+.imp-ext-download:hover {
+  background: var(--yellow-dark);
+  color: #1A1A1A;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(255, 217, 61, 0.3);
+}
+.imp-ext-download:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
 }
 .imp-ext-feats {
   display: grid;
@@ -3246,6 +3286,9 @@ button {
     flex-direction: column;
     text-align: center;
     padding: 24px 16px;
+  }
+  .imp-ext-download {
+    width: 100%;
   }
   .imp-field-grid2 {
     grid-template-columns: 1fr;
