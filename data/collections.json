@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T09:32:15.174Z",
+  "updatedAt": "2026-07-28T09:32:16.907Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms31pvfl_fgsq",
+      "image": "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMJrH2X0AADiF6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "她在织机前系好最后一段青缎，深色木线把人物和远山分成两层。\n\n——Prompt——\n参考上传的两张图片，仅借鉴其蓝白瓷器 / 青绿版画的风格与构图关系，不复制参考人物身份。生成一张 4:5 竖版、1122×1402 像素的独立当代东方女性写真海报。一位约 25 岁、明确成年的虚构东方女性，黑色低盘发，自然东方五官，神情柔和而克制，穿象牙白立领上衣、浅青绿色外衫和低饱和裙装，佩戴极简青玉色耳饰。色彩使用宣纸白、瓷白、钴蓝、青绿和少量木质深褐，表现瓷釉开片、纸纤维、木刻刀线和旧印刷颗粒。\n\n时间切片是清晨园门下的片刻停步。人物站在深色木质园门旁，手里轻轻举着一枝淡色玉兰，头部转向花朵，视线落在花瓣上，另一只手自然垂落，动作只保留观察花枝这一件小事。背景只保留园门上的蓝白花卉瓷片、门洞后的浅青绿远山和米白墙面上的竹影。\n\n采用大半身三分之二侧面构图，人物位于右侧，左侧留出大面积宣纸白，园门木框与花枝组成简洁的视觉线条。柔和清晨光照亮面部、花瓣、手部与青绿外衫，蓝白边框保持克制而清晰，整体像收藏级当代东方版画海报，不生成任何文字或水印。\n\n负面约束：不要文字、汉字、Logo、水印、拼图、网格、长图、多人、重复人物、欧美脸、幼态脸、塑料皮肤、3D、动漫感、廉价国潮、仙侠特效、鲜艳红金、复杂家具、畸形手指、额外肢体、背景拥挤、透明或暴露服装。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMJrH2X0AADiF6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "东方",
+        "版画",
+        "青绿",
+        "瓷白",
+        "写真"
+      ],
+      "timestamp": 1785145800801,
+      "title": "她在织机前系好最后一段青缎",
+      "updatedAt": "2026-07-27T13:55:22.625Z",
+      "url": "https://x.com/chenlinspark/status/2081593672173289667",
+      "sourceUrl": "",
+      "collectedAt": "2026-07-28T09:32:16.907Z",
+      "githubSyncedAt": "2026-07-28T09:32:16.907Z",
+      "domesticSyncedAt": null
+    },
     {
       "category": "人像",
       "date": "2026-07-27",
