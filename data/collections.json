@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:50:51.732Z",
+  "updatedAt": "2026-07-29T11:53:12.221Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms60zypo_66r5",
+      "image": "https://pbs.twimg.com/media/HOTQNooacAEbFPQ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOTQNooacAEbFPQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "背景是普通开放式办公室，有其他工位、文件柜、打印机和模糊同事。部分人正在工作，但不看镜头，不抢主体。\n使用普通手机后置摄像头，约26mm广角，从人物斜侧前方约两米位置拍摄，中景构图。画面能同时看到人物侧脸、整理头发的手部动作、耳机和电脑屏幕。\n办公室冷白顶灯与电脑屏幕冷光照亮人物面部，脸部光线真实、不均匀，眼下有轻微疲惫感。保留真实皮肤纹理、毛孔、少量瑕疵、自然油光、碎发和衣服褶皱，不要精修美妆广告感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTQNooacAEbFPQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2082017877830623540",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785325990524,
+      "title": "2. 视频会议前临时整理头发",
+      "url": "https://x.com/Adam38363368936/status/2082017877830623540",
+      "collectedAt": "2026-07-29T11:53:12.221Z",
+      "githubSyncedAt": "2026-07-29T11:53:12.221Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
