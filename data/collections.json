@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:35:01.137Z",
+  "updatedAt": "2026-07-29T07:38:19.477Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rvz58_c8bx",
+      "image": "https://pbs.twimg.com/media/HOVP8c5bUAA-tna?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOVP8c5bUAA-tna?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVP842bwAAlCRW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNujRHhbwAAHaVi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNujRiebMAAt5KO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt 1:\n\"Use the face from the reference photo and preserve the exact identity, facial features, proportions, expression, skin tone, and natural skin texture. Maintain visible pores and authentic facial details. Do not beautify, reshape, or create an AI-looking face.\nCreate an ultra-realistic luxury seated studio fashion editorial portrait inspired by a high-end Asian fashion-house campaign. The mood is elegant, sculptural, feminine, powerful, refined, and couture.\nThe subject sits sideways on a clear acrylic or glossy white sculptural chair with one leg crossed, upright posture, relaxed shoulders, and direct eye contact. One hand rests on the chair while the other gently touches the collarbone, jawline, or sculptural sleeve, creating a graceful editorial pose.\nShe wears a white sculptural couture mini dress with a structured corset bodice, asymmetrical neckline, architectural cape sleeves, and a fitted satin silhouette accented with subtle pearl and chrome details. Pair it with sheer nude or white stockings, white satin or transparent heels, sculptural silver earrings, a minimal pearl choker, chrome ring, and a delicate pearl bracelet. No coats, blazers, cardigans, shawls, flowers, bags, logos, or unnecessary props.\nHair is styled in a sleek glossy low bun with a deep side part and soft face-framing strands.\nMakeup features Korean pearl-chrome soft glam with luminous natural skin, visible pores, soft contour, pearl-champagne and silver eyeshadow, fine eyeliner, wispy lashes, pink-beige blush, luminous pearl highlights, and glossy nude-pink gradient lips.\nBackground & lighting: Minimal ivory, pearl-white, or warm-grey luxury studio with a soft spotlight gradient and subtle reflective floor. Professional softbox lighting with gentle fill light, rim light, soft shadows, cinematic depth, and fine 35mm film grain.\nUltra-realistic DSLR fashion photography, full-frame camera, 85mm lens, f/4, eye-level composition, premium couture fabric detail, realistic satin texture, pearl reflections, chrome highlights, natural skin detail, and luxury editorial colour grading.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOVP8c5bUAA-tna?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVP842bwAAlCRW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNujRHhbwAAHaVi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNujRiebMAAt5KO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2082158319129829534",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785310687916,
+      "title": "Trend 729",
+      "url": "https://x.com/gemini_prompts/status/2082158319129829534",
+      "collectedAt": "2026-07-29T07:38:19.477Z",
+      "githubSyncedAt": "2026-07-29T07:38:19.477Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
