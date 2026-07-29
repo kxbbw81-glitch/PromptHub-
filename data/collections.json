@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:46:32.309Z",
+  "updatedAt": "2026-07-29T03:00:42.037Z",
   "collections": [
+    {
+      "id": "codex_x_2082113920102224099",
+      "title": "高端产品竖版广告",
+      "category": "静物",
+      "tags": [
+        "产品广告",
+        "商业视觉",
+        "ChatGPT Image",
+        "X 自动收集"
+      ],
+      "prompt": "Use the uploaded product image as the single source of truth and create one outstanding vertical ad ready for a premium campaign.\n\nProduct Analysis\nSilently determine the category, function, audience, price segment, brand character, materials, colors, packaging, typography, logo, and main product advantage. Base all decisions solely on the photo reference.\n\nProduct DNA Protection\nPreserve the product 1:1: shape, proportions, packaging, logo, label, text, colors, materials, textures, finish, reflections, and all visible details. Do not alter, repaint, simplify, duplicate, or add fictional elements.\n\nCreative Selection\nSilently develop 5 ad concepts, evaluate them based on originality, brand alignment, realism, visual power, and product focus. Show only the strongest final concept.\n\nBrand Communication\nAdd: brand logo or name; one slogan of maximum 3 words; one short additional phrase if necessary. Language: Russian or the brand language. Typography must exactly match its style. Minimum text, no long explanations.\n\nVisual Direction\nBold, cinematic, and premium composition with the product as the main hero. Realistic lighting, refined shadows, strong visual hierarchy, and thoughtful negative space. No infographics, callouts, comparisons, extra icons, fake UI, visual noise, or random effects.\n\nResult: one clean vertical ad 4:5, only the final best version, no analysis.",
+      "image": "https://pbs.twimg.com/media/HOUnkx2XcAAzFNV?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOUnkx2XcAAzFNV?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUnkyDWoAAf3w-?format=jpg&name=large"
+      ],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT Image",
+      "source": "Codex 自动收集 · X 书签",
+      "sourceUrl": "https://x.com/codewithhajra/status/2082113920102224099",
+      "url": "https://x.com/codewithhajra/status/2082113920102224099",
+      "domain": "x.com",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUnkx2XcAAzFNV?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUnkyDWoAAf3w-?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "date": "2026-07-29",
+      "timestamp": 1785294042038,
+      "collectedAt": "2026-07-29T03:00:42.037Z",
+      "githubSyncedAt": "2026-07-29T03:00:42.037Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "codex_x_2082054096715137434",
+      "title": "10 秒甜酷风极速变装视频",
+      "category": "时尚",
+      "tags": [
+        "视频提示词",
+        "Seedance",
+        "时间轴",
+        "换装",
+        "X 自动收集"
+      ],
+      "prompt": "【参考图或主体设定词】10秒极速变装（甜酷风）：\n0-1秒：学院制服，背手踮跳，领带甩动，歪头笑眼弯如月牙。\n1-2秒：转身甩发挡脸变洛丽塔。\n2-3秒：交叉挡脸变运动装。\n3-4秒：甩袖扫镜头变古风襦裙。\n4-5秒：捂脸分开变甜酷吊带裙。\n5-6秒：小跳落地变睡衣，揉眼打哈欠。\n6-7秒：转身背对变水手服，举心左右摆。\n7-8秒：低头整领抬头变打歌服，抬手做麦。\n8-9秒：抱胸松开变牛仔装，拽拉链抬下巴。\n9-10秒：转身甩臂变回制服。",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082052165519155201/img/raaTGzGjNnMJf50C.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082052165519155201/img/raaTGzGjNnMJf50C.jpg"
+      ],
+      "aspectRatio": "9:16",
+      "model": "Seedance",
+      "mediaType": "video",
+      "videoDurationSeconds": 10,
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2082052165519155201/img/raaTGzGjNnMJf50C.jpg",
+      "videoSourceUrl": "https://x.com/PixelAigc/status/2082054096715137434",
+      "source": "Codex 自动收集 · X 视频",
+      "sourceUrl": "https://x.com/PixelAigc/status/2082054096715137434",
+      "url": "https://x.com/PixelAigc/status/2082054096715137434",
+      "domain": "x.com",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082052165519155201/img/raaTGzGjNnMJf50C.jpg"
+      ],
+      "referenceImages": [],
+      "date": "2026-07-29",
+      "timestamp": 1785294042039,
+      "collectedAt": "2026-07-29T03:00:42.037Z",
+      "githubSyncedAt": "2026-07-29T03:00:42.037Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
