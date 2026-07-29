@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:55:03.875Z",
+  "updatedAt": "2026-07-29T11:58:29.025Z",
   "collections": [
     {
       "aspectRatio": "4:5",
@@ -91,6 +91,1147 @@
       "url": "https://x.com/Adam38363368936/status/2082017877830623540",
       "collectedAt": "2026-07-29T11:53:12.221Z",
       "githubSyncedAt": "2026-07-29T11:53:12.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082354392129323118",
+      "title": "Frere Hall 雨中情侣",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded reference image only as the facial identity reference for the man. Preserve his face 100% exactly as in the reference image. Do not alter his facial features, face shape, skin tone, hairline, hairstyle, eyes, nose, lips, beard (if present), expression, or overall identity. Ensure the face remains completely recognizable and photorealistic.\nCreate an ultra-realistic cinematic portrait of a young Muslim couple walking together through the beautiful gardens of Frere Hall, Karachi, during a gentle morning rain.\nThe man is wearing a premium white designer Shalwar Kameez with elegant tailoring, paired with traditional brown Peshawari Chappals. He is holding a classic black umbrella above both of them while walking confidently beside his wife. His expression is warm, joyful, and natural.\nThe woman is dressed modestly in a flowing white lace A-line dress with a cream-colored hijab that fully covers her hair and chest, along with a perfectly matching cream niqab covering her face except for her eyes. She wears elegant white heels. Her outfit flows naturally with the movement of the breeze and light rain while maintaining complete modesty.\nThe couple is walking side by side on a rain-soaked stone pathway, smiling naturally and looking at each other with genuine affection. Their body language should convey love, comfort, and companionship in a respectful, Islamic manner. The man gently holds the umbrella to protect both of them from the rain.\nThe background features the iconic colonial architecture of Frere Hall, surrounded by lush green gardens, colorful flowers, tall trees, and wet pathways reflecting the soft morning light. Gentle raindrops are visible falling throughout the scene, with realistic water droplets on the umbrella, clothing, and surrounding plants.\nLighting: Soft golden morning sunlight breaking through rain clouds, creating warm cinematic rim lighting, natural reflections, volumetric light rays, and subtle mist.\nCamera: Sony A7R V, 85mm portrait lens, f/2.8, ISO 100, shallow depth of field, creamy bokeh, HDR, cinematic color grading.\nComposition: Eye-level, full-body vertical portrait (9:16), centered composition, natural walking motion, elegant framing, premium editorial photography style.\nQuality: Hyper-realistic, DSLR-quality, 8K resolution, ultra-sharp details, realistic skin texture, authentic fabric folds, accurate rain physics, lifelike colors, no AI artifacts, no distortion, no extra limbs or fingers, no watermark, no text, no logo, photorealistic masterpiece.",
+      "image": "https://pbs.twimg.com/media/HOYCQmlWMAAa0ma.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYCQmlWMAAa0ma.jpg",
+        "https://pbs.twimg.com/media/HOYCRnkWQAEnYTs.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYCQmlWMAAa0ma.jpg",
+        "https://pbs.twimg.com/media/HOYCRnkWQAEnYTs.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Sabir_web3/status/2082354392129323118",
+      "url": "https://x.com/Sabir_web3/status/2082354392129323118",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082145275754459274",
+      "title": "蓝光轮廓新黑色电影人像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic IMAX-level Netflix-style cinematic neo-noir portrait, 9:16 vertical composition, use the uploaded image as the primary facial reference with maximum face consistency, create a handsome young adult man captured from behind in a dramatic three-quarter side profile against a pitch-black studio background. His shoulders remain turned away while his face looks sharply over one shoulder, revealing a strong sculpted profile. His expression feels vigilant, guarded and quietly authoritative, with subtly lowered brows, narrowed focused eyes looking into the distance, lightly pressed lips and a firm masculine jawline. He wears a matte-black high-collar jacket that blends into the darkness. His dark hair is styled with natural lifted volume and refined texture, paired with neatly trimmed facial hair. Intense electric-blue rim lighting traces the edges of his hair, forehead, nose, cheek, beard, collar and shoulder, while the front of his face remains partially hidden in deep shadow. Minimal black environment, crisp silhouette, deep cinematic contrast, subtle atmospheric haze, premium blue-black colour grading, realistic skin and hair detail, photorealistic, 8K quality.",
+      "image": "https://pbs.twimg.com/media/HOVEFZDaMAAup_k.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOVEFZDaMAAup_k.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOVEFZDaMAAup_k.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/imGopalTiwari/status/2082145275754459274",
+      "url": "https://x.com/imGopalTiwari/status/2082145275754459274",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082356421710971146",
+      "title": "粉彩咖啡馆穆斯林情侣",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded reference photo. Keep the man's face and features exactly unchanged and keep the woman the same. Create an ultra-realistic portrait of a modest Muslim couple on a dreamy pastel café street with colorful buildings. The woman wears a light-blue hijab and matching niqab, a beige, white, and pink striped knitted top, a cream maxi skirt, and a crochet tote bag. The man wears a light-blue half-sleeve T-shirt with cream trousers. Both are gently waving. Soft daylight, floating bubbles, creamy bokeh, cinematic, photorealistic, 8K.",
+      "image": "https://pbs.twimg.com/media/HOYEHvoagAIqqQ8.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYEHvoagAIqqQ8.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYEHvoagAIqqQ8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ayeshaafzal55/status/2082356421710971146",
+      "url": "https://x.com/ayeshaafzal55/status/2082356421710971146",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082338545273090493",
+      "title": "复古美式餐厅格子大衣肖像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-end fashion editorial portrait of a stylish young woman in her early 20s with a slim figure, fair skin with warm-neutral undertones, and a heart-shaped face. She has a soft, defined jawline, high cheekbones, a small straight nose, full lips wearing glossy coral lipstick, thick naturally arched eyebrows, and shoulder-length light brown hair styled in soft, voluminous tousled waves with a center part. Her expression is calm and confident, with a relaxed gaze and slightly parted lips.\nDress her in an oversized beige and brown plaid wool coat layered over a white ruched camisole. Complete the look with rose-tinted rectangular sunglasses, gold layered chain necklaces, and classic gold hoop earrings, creating a modern retro-chic fashion aesthetic inspired by vintage Americana.\nPose her seated inside a classic retro diner booth, facing the camera with a relaxed lean and her head tilted slightly upward. Her hands remain naturally outside the frame, giving the composition an effortless editorial feel.\nSet the scene inside a nostalgic American diner featuring turquoise tiled walls, vintage red booth seating, retro menu boards, and classic wall décor. Use a moderately shallow depth of field to keep the subject perfectly sharp while softly blurring the background for a cinematic editorial look.\nLight the portrait with soft, high-contrast artificial interior lighting from a frontal overhead direction, creating glossy skin highlights, rich vibrant colours, and a nostalgic retro atmosphere. Frame the shot at eye level as a medium portrait with razor-sharp focus on the face. Finish the image with professional editorial retouching, subtle vintage-inspired colour grading, minimal noise, outstanding sharpness, and a premium magazine-quality fashion photography aesthetic.",
+      "image": "https://pbs.twimg.com/media/HOXz3bqa4AAJfAY.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXz3bqa4AAJfAY.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXz3bqa4AAJfAY.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/vireonixx/status/2082338545273090493",
+      "url": "https://x.com/vireonixx/status/2082338545273090493",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082331733865984360",
+      "title": "黑白西装雷布朗光影肖像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-realistic cinematic studio portrait of the person in the reference image. Preserve the person's facial features and identity while styling them in a luxury editorial fashion. Give them a modern textured quiff hairstyle with medium-length hair, voluminous top, natural lift, slightly messy brushed-back texture, subtle side taper, clean sides, and realistic individual hair strands. Add thin silver metal aviator eyeglasses with large rounded lenses, minimalist frame, clear lenses, elegant luxury design, perfectly fitted to the face. Dress them in a tailored black suit, crisp white dress shirt, and black tie. Pose them looking directly into the camera with a calm, confident, serious expression. Use dramatic low-key studio lighting with a single large octabox positioned 45° above the subject, classic Rembrandt lighting, deep cinematic shadows, subtle rim light around the hair and shoulders, black seamless background, high contrast black-and-white grading, rich tonal range, crisp eyes with natural catchlights, highly detailed skin texture, realistic pores, subtle facial hair detail, shallow depth of field, Leica SL2 with APO-Summicron 90mm lens, f/2.2, ISO 100, HDR, editorial fashion photography, timeless Hollywood portrait, museum-quality, photorealistic, ultra-sharp, 8K resolution, masterpiece.",
+      "image": "https://pbs.twimg.com/media/HOXtq5YbwAARcUe.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXtq5YbwAARcUe.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXtq5YbwAARcUe.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/weiinberg/status/2082331733865984360",
+      "url": "https://x.com/weiinberg/status/2082331733865984360",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082330956975997213",
+      "title": "象牙针织毛衣客厅人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic lifestyle portrait of a stunning young woman with long, naturally wavy dark brown hair and glowing olive skin, wearing a cozy oversized ivory knit sweater and matching cream trousers. She is seated on a soft beige sofa in a warm, minimalist living room, gazing thoughtfully to the side with a calm, elegant expression. Small gold hoop earrings, subtle natural makeup with soft blush, defined brows, nude lips, and radiant skin. Beside her is a wooden table with neatly stacked turquoise gift boxes tied with white satin ribbons. Neutral beige walls, soft home décor, creamy textures, Scandinavian-inspired interior, warm natural window light, cinematic composition, shallow depth of field, soft bokeh, editorial luxury fashion aesthetic, authentic skin texture, highly detailed fabric, realistic hair strands, balanced colour grading, photorealistic, ultra-detailed, HDR, 8K, DSLR photography, 85mm lens, f/1.8, soft diffused lighting, premium lifestyle magazine quality.",
+      "image": "https://pbs.twimg.com/media/HOXs86VawAAxhI3.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXs86VawAAxhI3.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXs86VawAAxhI3.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/oju689/status/2082330956975997213",
+      "url": "https://x.com/oju689/status/2082330956975997213",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082330497804644433",
+      "title": "烛光晚餐浪漫肖像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "浪漫",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic portrait of a beautiful young woman sitting at an intimate candlelit dinner table at night. She has long, voluminous dark brown hair, flawless fair skin, soft natural glam makeup, glossy pink lips, and expressive brown eyes. She rests her chin gently on one hand while gazing off to the side with a warm, dreamy smile. She wears a delicate blush-pink satin lace camisole with a matching sheer robe, complemented by a fine gold pendant necklace. A glowing candle in a glass holder softly illuminates her face, creating warm golden highlights and deep cinematic shadows. A small vase with red roses and scattered rose petals decorate the wooden table, adding a romantic atmosphere. The background is almost completely black with subtle warm bokeh lights in the distance, emphasizing the cozy evening mood. Shot with an 85mm lens at f/1.4, shallow depth of field, creamy bokeh, ultra-detailed skin texture, HDR, natural color grading, soft cinematic lighting, luxury lifestyle photography, photorealistic, 8K, high-end editorial quality, vertical composition (9:16).",
+      "image": "https://pbs.twimg.com/media/HOXsiuRboAAZIm8.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXsiuRboAAZIm8.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXsiuRboAAZIm8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithMinal/status/2082330497804644433",
+      "url": "https://x.com/AIwithMinal/status/2082330497804644433",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082328642621723123",
+      "title": "雾蓝色系带比基尼东亚人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "绝美 23 岁东亚美女，丰腴匀称沙漏型身材，腰臀比例优雅，曲线自然柔美，气质时尚、自信、温柔，性感但含蓄端庄。单色背景系带比基尼风格，海盐雾蓝色细带比基尼，简洁包裹式三角杯搭配低腰侧系带下装，双层细绳沿腰侧自然交叠，微光弹力面料清爽柔润，轻熟高级。\n明净通透妆容，灰粉棕与银米色眼妆，水润玫瑰裸粉色唇妆，乌黑低盘发，银色耳圈与极细手链。\n她正面站在雾蓝色垂幔前，左手轻扶身旁同色圆柱台，手指自然舒展，右臂放松垂在身体一侧，肩颈舒展，脸部清晰朝向镜头。背景由雾蓝色垂坠布幔、圆柱台和哑光地面组成，布料褶皱形成安静而丰富的单色层次。\n105mm人像摄影，大腿以上构图，右后方柔和轮廓光勾勒发丝与肩线，正面冷白补光保留通透肤质，奶油散景，细腻面料纹理，高级极简时尚写真，电影感写实摄影，8K。",
+      "image": "https://pbs.twimg.com/media/HOXq3BqWQAAZPaL.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXq3BqWQAAZPaL.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXq3BqWQAAZPaL.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082328642621723123",
+      "url": "https://x.com/sdjn_wgc/status/2082328642621723123",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082328386051961300",
+      "title": "奶油白比基尼圆台坐姿",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "绝美 23 岁东亚美女，丰腴匀称沙漏型身材，腰臀比例优雅，曲线自然柔美，气质时尚、自信、温柔，性感但含蓄端庄。单色背景系带比基尼风格，香槟奶油白色细带比基尼，低领三角杯搭配低腰双侧系带下装，柔亮缎感面料细腻贴身，侧边蝴蝶结轻盈精致，清雅轻奢。\n清透柔亮妆容，浅金棕与香槟米色眼妆，柔雾玫瑰豆沙色唇妆，深栗色高束马尾，珍珠耳钉与纤细脚链。\n她正面坐在奶油白色低矮圆台边缘，右手自然平放在大腿外侧，左手手掌完整地支撑在身侧台面，双腿平稳落地，抬眸朝镜头露出温柔笑意。背景有奶油白无缝弧面墙、同色圆形地台与柔和层次阴影，空间纯净明亮。\n85mm人像摄影，三分之二身居中构图，左前方大型柔光塑造细腻肩颈与腰线，浅景深，真实皮肤纹理，清晰缎面质感，高级时尚杂志摄影，电影感写实画质，8K。",
+      "image": "https://pbs.twimg.com/media/HOXqoFBWEAAKjIf.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXqoFBWEAAKjIf.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXqoFBWEAAKjIf.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082328386051961300",
+      "url": "https://x.com/sdjn_wgc/status/2082328386051961300",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082315380903817582",
+      "title": "手机出界街头低角度",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Surreal out-of-bounds street style photograph, vertical 3:4, extreme low angle looking up.\nMAIN SUBJECT: A young woman (face of the reference person) shot from a low worm's-eye angle, framed from the chest up, wearing an oversized heavy white cotton t-shirt with natural creases, a black pinstriped baseball/newsboy cap with a white gothic cross emblem embroidered on the front, and silver link bracelets on both wrists. She holds a smartphone horizontally in front of her face with both hands, fingers pinching the long edges — only her eyes and forehead are visible above the phone.\nPHONE SCREEN: The screen displays a completely different scene — a gray industrial metal wall with a bolted metal ladder rung, where a figure hangs gripping the bar with a closed fist, arm fully extended.\nOUT-OF-BOUNDS EFFECT: A miniature version of the same woman (about 30cm tall, same face as reference) has her arm and shoulder INSIDE the phone screen while the rest of her body breaks out of the phone frame and hangs suspended in mid-air in front of the big subject's chest.\nMiniature outfit: same black pinstriped cap with white cross, white long-sleeve shirt layered under a black t-shirt, silver wallet chain, studded belt with hanging keychain charms, dark raw selvedge denim jeans with cuffed hems, and wheat/tan work boots. Legs relaxed and dangling, conveying real weight and gravity.\nBACKGROUND: Blurred curved architectural canopy — vaulted metal and glass ceiling structure in green-gray tones, soft bokeh.\nLIGHTING: Warm late golden hour daylight, directional from upper right, subtle orange reflections on skin and white shirt, soft shadows. Cooler neutral industrial lighting inside the phone screen for subtle contrast between the two worlds.\nColor palette: dominant off-white, black, dark indigo, tan/honey boot accents, silver jewelry, green-gray background.\nShot on 24-28mm wide lens from low angle, exaggerated hand and phone scale, medium depth of field with sharp hands and phone. Fine film grain, warm 35mm film grading. Tokyo/Seoul contemporary streetwear editorial aesthetic, hyper-realistic seamless composite.",
+      "image": "https://pbs.twimg.com/media/HOXeyj8a0AA8GnA.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXeyj8a0AA8GnA.jpg",
+        "https://pbs.twimg.com/media/HOXezJ6agAAuTOt.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXeyj8a0AA8GnA.jpg",
+        "https://pbs.twimg.com/media/HOXezJ6agAAuTOt.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/oye_samia/status/2082315380903817582",
+      "url": "https://x.com/oye_samia/status/2082315380903817582",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082282281868333177",
+      "title": "90年代一次性相机闪光自拍",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "复古",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "4:5 vertical, ultra-realistic late-1990s disposable-camera mirror selfie in a completely dark, warm wood-paneled room, illuminated only by harsh direct flash.\nA clearly adult 20-year-old East Asian woman with long, voluminous golden-blonde waves stands extremely close to the mirror, leaning forward with her head tilted left. She has warm ivory skin, flushed cheeks, glossy flash highlights, natural skin texture, and a playful expression with eyes closed, mouth open, teeth visible, and her tongue slightly out.\nShe wears a fitted black floral lace camisole with tiny bows and corset-inspired seams, a loose black shirt slipping from her shoulders, black drawstring trousers, layered silver necklaces, a cross pendant, choker, rings, and bracelet.\nShe holds a cheap black-and-yellow disposable 35mm camera beside her face. The flash creates a large clipped-white mirror hotspot, starburst rays, lens flare, visible dust and fingerprints, blown highlights, deep black shadows, coarse organic film grain, slight blur, warm-yellow and green colour shifts, and authentic drugstore print-scan texture.\nNo smartphones, digital cameras, ambient light, clean mirror, studio lighting, plastic skin, distorted hands, duplicated fingers, exaggerated anatomy, or modern digital sharpness.",
+      "image": "https://pbs.twimg.com/media/HOXAst4aoAAWtja.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXAst4aoAAWtja.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXAst4aoAAWtja.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/bennysproject/status/2082282281868333177",
+      "url": "https://x.com/bennysproject/status/2082282281868333177",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082277597212553493",
+      "title": "巴黎黄色滑板车生活时尚",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "生活",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A hyper-realistic Lifestyle Fashion Editorial, take the face 100% from the reference image and do not change the facial identity, porcelain glass skin with Korean pinkish glow makeup, radiant smooth complexion, soft pink blush on the cheeks, glossy natural pink lips, luminous youthful glass-skin glow. The facial identity must remain 100% identical to the reference image, preserving the exact facial structure, facial proportions, eye shape, eyebrows, nose, lips, jawline, cheekbones, skin texture, and all defining facial characteristics without any alteration.\nHer face features extremely delicate and symmetrical proportions with flawless porcelain glass skin, softly sculpted contouring, natural peach blush, feathered brows, subtle warm brown eyeshadow, thin eyeliner, naturally long curled eyelashes, softly highlighted cheekbones, and glossy nude-pink lips.\nThe character has medium-length dark brown hair styled in soft voluminous side-parted waves, with a few loose strands naturally framing the face. A pair of gold-framed sunglasses with reflective green mirrored lenses rests casually on top of her head.\nHer expression is gentle, calm, relaxed, and warm with a subtle closed-mouth smile, conveying a candid, approachable, cheerful lifestyle mood while maintaining elegant natural beauty.\nThe character is wearing a light cream long-sleeve knit top paired with light blue denim bottoms, creating a soft casual everyday fashion look.\nPose and body posture: The character is positioned behind a bright yellow vintage scooter, leaning forward comfortably with both forearms folded and resting across the scooter's handlebars and headlight housing. Her chin rests lightly above her crossed arms while her head tilts slightly toward the camera. She makes direct eye contact with a relaxed, candid posture that feels spontaneous and natural.\nThe scene takes place on a lively outdoor city street during daytime, with pedestrians and urban activity softly blurred in the background. The scooter dominates the foreground while the street creates strong depth and visual separation.\nA bright yellow classic vintage scooter serves as the central foreground element, featuring chrome mirrors, a large circular headlight, front license plate, polished metallic accents, and glossy paint that reflects the soft daylight.\nLighting is soft natural golden-hour daylight, producing flattering illumination across the face with gentle highlights, warm skin tones, soft shadows, and beautiful ambient outdoor light. The background falls into creamy bokeh while maintaining a realistic lifestyle atmosphere.\nCaptured using a professional full-frame camera with an 85mm portrait lens, eye-level perspective, shallow depth of field, centered composition, crisp facial focus, creamy background blur, realistic HDR rendering, and premium lifestyle editorial color grading.\nUltra-detailed textures, realistic skin pores, individually rendered hair strands, glossy painted scooter finish, polished chrome reflections, photorealistic rendering, HDR, cinematic color grading, ultra-high resolution, 8K, masterpiece quality.",
+      "image": "https://pbs.twimg.com/media/HOW8bGJbAAAATQt.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOW8bGJbAAAATQt.jpg",
+        "https://pbs.twimg.com/media/HOW8bxjbwAAx-sX.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW8bGJbAAAATQt.jpg",
+        "https://pbs.twimg.com/media/HOW8bxjbwAAx-sX.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/oye_samia/status/2082277597212553493",
+      "url": "https://x.com/oye_samia/status/2082277597212553493",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082135947085529592",
+      "title": "赛博朋克镜面机械人像",
+      "category": "抽象",
+      "tags": [
+        "抽象",
+        "赛博朋克",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Masterpiece, ultra-realistic cinematic cyberpunk portrait, futuristic biomechanical female, hyper-detailed sci-fi fashion photography, 8K, IMAX quality, photorealistic industrial design.\nA mysterious cybernetic woman with long straight snow-white hair and blunt bangs, porcelain-white flawless skin, icy blue detailed irises, delicate long eyelashes, and a calm melancholic expression.\nHer face is partially transformed into an advanced biomechanical interface. One side of her head is integrated with an elaborate futuristic mechanical cranial system — layered mirror chrome armor plates, concentric optical lens structures, precision gears, micro pistons, exposed cables, and intricate cybernetic components. The mechanical parts have highly reflective mirror chrome metal surfaces, sharp specular highlights, realistic environment reflections, polished liquid-metal appearance.\nHer intact human ear is decorated with a futuristic mechanical hoop earring containing a glowing blue optical lens element.\nHer cybernetic hand gently touches her face. The fingers combine elegant feminine anatomy with precision mechanical joints — realistic knuckles, chrome fingertip plating, tiny mechanical actuators, seamless fusion between human skin and advanced robotics.\nPure white seamless sterile laboratory background, minimal futuristic environment, clinical clean atmosphere, high-key studio lighting, soft shadows, cold white color palette with subtle blue optical accents.\nExtreme material realism: mirror chrome reflections, ray-traced metal surfaces, physically based rendering, ultra realistic skin texture, individual hair strands, cinematic depth of field, sharp focus, luxury sci-fi editorial photography.\nNon-anime, non-cartoon, realistic human proportions, industrial precision, futuristic couture design.",
+      "image": "https://pbs.twimg.com/media/HOU7mmzaAAASBHU.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOU7mmzaAAASBHU.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOU7mmzaAAASBHU.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liluocheng13/status/2082135947085529592",
+      "url": "https://x.com/liluocheng13/status/2082135947085529592",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082359250681217219",
+      "title": "法租界墙角湿发夏日人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a photorealistic editorial portrait.\nWaist-up portrait, worm's-eye view, rear-left three-quarter view\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, wet-look long wavy hair, damp separated strands, chestnut-brown hair.\nWearing separate high-neck chest panel and high-cut bikini bottom connected only by thin side straps at the lower crop edge.\nShe has her head tilted slightly backward with the chin softly lifted.\nIn French Concession corner wall, aged brick textures, small shop signage, lit by deep azure summer sky, saturated clean blue atmosphere, overhead top light on the subject, downward illumination, eye-socket and nose shadows.\nmedium-format digital rendering, ultra-high resolution.",
+      "image": "https://pbs.twimg.com/media/HOYGmTdbwAA0Im2.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYGmTdbwAA0Im2.jpg",
+        "https://pbs.twimg.com/media/HOYGmTsbgAAnraS.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYGmTdbwAA0Im2.jpg",
+        "https://pbs.twimg.com/media/HOYGmTsbgAAnraS.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082359250681217219",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082359250681217219",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082326777301733565",
+      "title": "窗边阳光印度女性肖像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-photorealistic cinematic portrait of a beautiful Indian woman standing by a sunlit window, eyes gently closed in a serene, sensual expression, soft smile, one hand raised and resting on her forehead, fingers relaxed.\nExact face, facial structure, skin tone, eye shape, lips, and features from the reference image — keep the face 100% identical, do not alter. Natural skin texture with visible pores, subtle freckles, soft sheen on skin, realistic body proportions, toned midriff and underbust.\nShe is wearing a sheer black short-sleeve blouse with deep V-neck and subtle embroidery details near the neckline, the fabric clinging and transparent enough to reveal the natural curves of her breasts and midriff. A thin gold necklace with a small circular pendant rests against her chest. Lower body in a dark charcoal/black draped bottom (saree-style or fitted skirt), sheer black fabric falling from one shoulder.\nPose: standing slightly angled, weight on one leg, torso softly arched, arm raised above her head creating elegant lines. Soft natural daylight pouring through sheer white curtains with subtle leaf patterns, creating soft rim light, gentle highlights on skin and fabric, volumetric glow, and creamy bokeh in the background of green foliage outside the window.\nShot on Sony A7R V, 85mm f/1.4 lens, shallow depth of field, 8K UHD, hyper-detailed fabric texture (sheer mesh, subtle wrinkles), realistic skin imperfections, natural soft shadows, film grain, high dynamic range, intimate lifestyle photography style, warm golden hour mood.",
+      "image": "https://pbs.twimg.com/media/HOXpKZQawAAdLLG.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXpKZQawAAdLLG.jpg",
+        "https://pbs.twimg.com/media/HOXpKZJaYAA8dDD.jpg",
+        "https://pbs.twimg.com/media/HOXpKZNbcAAMlRc.jpg",
+        "https://pbs.twimg.com/media/HOXpKZkaEAALtZl.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXpKZQawAAdLLG.jpg",
+        "https://pbs.twimg.com/media/HOXpKZJaYAA8dDD.jpg",
+        "https://pbs.twimg.com/media/HOXpKZNbcAAMlRc.jpg",
+        "https://pbs.twimg.com/media/HOXpKZkaEAALtZl.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/jarvis_og_AI/status/2082326777301733565",
+      "url": "https://x.com/jarvis_og_AI/status/2082326777301733565",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082316535146971187",
+      "title": "副驾驶抹香鲸项链自拍",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "9:16竖幅，超写实手机自拍照片，真实 iPhone 17 Pro 前置摄像头随手自拍效果，朋友旅途中临时举起手机记录，没有构图，没有摆拍，没有写真感，像手机相册里最普通的一张生活照。\n20岁年轻成年东亚女性坐在汽车副驾驶，红色真皮座椅背景，长直黑发配空气刘海，白皙皮肤，自然淡妆，轻松浅笑看向镜头。\n穿着蓝色牛仔背带裤，自然深V领口，右手轻轻捏着胸前可爱抹香鲸造型金色吊坠项链，左手举手机自拍。拥有丰满自然匀称的成熟身材，约F罩杯视觉效果，胸部受重力自然下垂，腰细臀丰满，整体比例真实。\n手臂完全伸直自拍，镜头距离脸部很近，形成真实手机自拍透视，画面略微歪斜，人物没有站在画面正中央，头顶被轻微裁切，一只手臂占据明显前景。\n汽车高速行驶中，窗外树木、护栏、道路、车辆全部形成自然横向运动模糊，仅人物脸部保持清晰，发丝轻微飘动，阳光从侧窗照进车内，光影自然，没有补光。\n保留真实毛孔、细小瑕疵、轻微曝光波动、轻微手抖、轻微对焦误差、少量HDR计算摄影痕迹，整体像朋友旅途中随手自拍，而不是AI生成。",
+      "image": "https://pbs.twimg.com/media/HOXf1yRWAAApDKH.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXf1yRWAAApDKH.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXf1yRWAAApDKH.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/DeepBlueAIX/status/2082316535146971187",
+      "url": "https://x.com/DeepBlueAIX/status/2082316535146971187",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082279357628985841",
+      "title": "白衣酒红裙街头双帧街拍",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "9:16竖幅，超写实手机摄影照片风格，真实iPhone 17 Pro随手抓拍质感，朋友街头偶遇快速拍摄，不摆拍，不像商业时尚写真。手机原生相册照片感觉，手机自动曝光与自动白平衡，轻微手持偏移，轻微运动瞬间，真实计算摄影效果，轻微数码噪点和压缩痕迹。\n同一位成年东亚女性职业时装模特，保持两张照片中完全一致的脸部特征、发型、身材比例和服装造型。黑色长波浪发自然垂落，细框眼镜，水润红唇，自然妆容，成熟优雅气质。真实皮肤纹理，保留轻微毛孔、自然肤色变化和皮肤真实反光，没有过度磨皮，没有美颜滤镜，没有塑料皮肤质感。\n自然高级沙漏型身材，纤细腰线，丰满立体的胸部曲线，圆润自然的臀部线条，修长双腿，腰臀比例协调，真实人体结构，优雅女性曲线与职业模特气质结合，不过度修图，不过分夸张。\n高级时装街拍造型：白色深V修身长袖上衣，精致白色蕾丝边缘细节，贴合身体线条，胸腰位置自然收紧形成真实布料褶皱；酒红色高腰包臀裙，立体裁剪结构，侧边高开叉设计，裙身具有真实布料拉伸、褶皱和光影变化；黑色尖头高跟鞋，红色鞋底细节可见；佩戴细银色项链，手拿白色菱格纹小包。\n真实城市街头环境，非摄影棚，非广告大片。阳光自然照射，街道建筑、行人、植物作为真实背景，背景轻微虚化但保留环境信息。\n左右并排双照片构图，同一人物同一次街头偶遇产生的两个瞬间。左侧背影全身抓拍，右侧正面全身抓拍，展示白衣酒红裙整体高级街头穿搭。",
+      "image": "https://pbs.twimg.com/media/HOW-CNga0AAQ8Cv.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOW-CNga0AAQ8Cv.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW-CNga0AAQ8Cv.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/DeepBlueAIX/status/2082279357628985841",
+      "url": "https://x.com/DeepBlueAIX/status/2082279357628985841",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082277236452049049",
+      "title": "Y2K纯色背景灰系吊带",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 9:16 photorealistic editorial portrait.\nWaist-up portrait, high angle, looking down, front-left three-quarter view\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, medium-to-long hair with a center part, mostly smooth texture, subtle natural bends through the lengths and softly curved ends, chestnut-brown hair.\nWearing gray sheer layered Y2K punk camisole look, smoky gray translucent ruffle camisole with thin straps, distressed black denim micro shorts with side button straps and frayed hems, layered chain choker and black cross pendant necklace.\nShe has her head naturally facing the camera.\nIn horizonless seamless matte single vivid pop-color field, continuous saturated ground-and-background plane blending into a solid graphic color void.\nInspired by Kishin Shinoyama, polished Japanese portrait image language, high-key Japanese portrait color grade.",
+      "image": "https://pbs.twimg.com/media/HOW8FabbYAAkCkE.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOW8FabbYAAkCkE.jpg",
+        "https://pbs.twimg.com/media/HOW8FaWbQAEb6Y7.jpg",
+        "https://pbs.twimg.com/media/HOW8FabaUAAhaQ2.jpg",
+        "https://pbs.twimg.com/media/HOW8FaYagAAPBcl.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW8FabbYAAkCkE.jpg",
+        "https://pbs.twimg.com/media/HOW8FaWbQAEb6Y7.jpg",
+        "https://pbs.twimg.com/media/HOW8FabaUAAhaQ2.jpg",
+        "https://pbs.twimg.com/media/HOW8FaYagAAPBcl.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082277236452049049",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082277236452049049",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082296517713674515",
+      "title": "港口巨人与漫画拼贴肖像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a hyper-realistic, cinematic editorial portrait of the same young woman with long wavy dark-brown hair, soft natural makeup, and a calm, confident expression. She wears a blue denim jacket over a fitted top, matching blue jeans, and black high heels, maintaining the exact same facial identity, hairstyle, body proportions, and outfit throughout the composition.\nBlend two surreal concepts into one seamless scene:\nOn one side, depict the woman as a giant standing waist-deep in a modern international shipping port, surrounded by container terminals, cargo cranes, warehouses, turquoise seawater, and multiple cargo ships. She gently holds a miniature container ship in one hand while several real cargo vessels navigate around her, leaving realistic water wakes. A dramatic overcast sky with dark storm clouds creates a cinematic atmosphere, with a futuristic city skyline visible in the distance.\nOn the other side, merge the environment into a black-and-white Japanese manga collage wall filled with dynamic comic panels featuring motorcycles, office scenes, city streets, livestreaming, friendship, expressive characters, speed lines, Japanese sound effects, and speech bubbles. The woman stands naturally in front of the manga artwork with a relaxed editorial pose, creating a striking contrast between the colorful realistic subject and the monochrome manga background.\nThe transition between the shipping port and manga collage should feel smooth and artistic, combining surreal scale, fantasy, editorial fashion photography, and comic-book aesthetics into one cohesive composition. Ultra-detailed textures, realistic lighting, sharp focus, natural skin tones, HDR, 8K resolution, volumetric lighting, cinematic color grading, professional fashion photography, highly detailed environment, masterpiece quality.",
+      "image": "https://pbs.twimg.com/media/HOXNnYca4AAosUD.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXNnYca4AAosUD.jpg",
+        "https://pbs.twimg.com/media/HOXNoumbcAAirCr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXNnYca4AAosUD.jpg",
+        "https://pbs.twimg.com/media/HOXNoumbcAAirCr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Zarnab_with_Ai/status/2082296517713674515",
+      "url": "https://x.com/Zarnab_with_Ai/status/2082296517713674515",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082290967168876611",
+      "title": "灰绿瞳极近距美妆特写",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic extreme close-up beauty portrait of an exceptionally beautiful young woman with mesmerizing crystal gray-green eyes that instantly command attention. Her intense gaze locks directly with the viewer, creating an unforgettable, magnetic connection that stops the scroll. A few glossy jet-black hair strands fall naturally across her face, catching brilliant icy-blue highlights and adding mystery, depth, and irresistible visual tension.\nHer flawless porcelain skin glows with soft cool-toned light while preserving authentic skin texture, delicate freckles, realistic pores, and subtle natural blush for a luxurious editorial look. Thick, perfectly shaped dark eyebrows frame her hypnotic eyes, while ultra-long feathered eyelashes create dramatic depth. Brilliant diamond-like catchlights sparkle inside her irises, making the eyes appear almost luminous.\nThe composition is an ultra-tight crop focused almost entirely on the eyes, with one eye razor-sharp and the other fading gently into creamy bokeh. A tiny gold hoop earring peeks through the shadows, adding understated elegance without distracting from the face.\nShot with cinematic blue-hour lighting against a deep midnight-black background with subtle volumetric haze, soft rim lighting, glossy hair reflections, and rich HDR contrast. Every detail feels premium, intimate, and emotionally powerful, blending high-fashion editorial photography with luxury beauty advertising.\nLuxury Vogue editorial, viral Instagram/X aesthetic, cinematic storytelling, hyper-realistic, 85mm macro lens, f/1.2, ultra-shallow depth of field, HDR, 16-bit color, 8K, photorealistic, award-winning fashion photography, masterpiece.",
+      "image": "https://pbs.twimg.com/media/HOXIk2IboAA6vNs.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXIk2IboAA6vNs.jpg",
+        "https://pbs.twimg.com/media/HOXIl28aEAA78hn.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXIk2IboAA6vNs.jpg",
+        "https://pbs.twimg.com/media/HOXIl28aEAA78hn.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/jzaib4269/status/2082290967168876611",
+      "url": "https://x.com/jzaib4269/status/2082290967168876611",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2080280965285573047",
+      "title": "日式厨房浅绿无袖裙",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a photorealistic editorial portrait.\nWaist-up portrait, shoulder-level view, front-right three-quarter view\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, long straight hair with a center part, sleek clean vertical flow, chestnut-brown hair.\nWearing light green sleeveless dress.\nShe has her head turned into a three-quarter side profile facing out of frame, both hands clasped loosely in front of the body, and presents a lying pose.\nIn lived-in Japanese home kitchen corner, wooden window frame, tiled wall.\nInspired by Kishin Shinoyama, polished Japanese portrait image language, shot on tilt-shift lens, shifted perspective control, high-key Japanese portrait color grade, elevated exposure.",
+      "image": "https://pbs.twimg.com/media/HN6hhUqacAAas5U.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HN6hhUqacAAas5U.jpg",
+        "https://pbs.twimg.com/media/HN6hhXqakAALzPm.jpg",
+        "https://pbs.twimg.com/media/HN6hhU3bEAAM_Of.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN6hhUqacAAas5U.jpg",
+        "https://pbs.twimg.com/media/HN6hhXqakAALzPm.jpg",
+        "https://pbs.twimg.com/media/HN6hhU3bEAAM_Of.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2080280965285573047",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2080280965285573047",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2077193311669162035",
+      "title": "日式清晨卧室窗边人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the attached face reference as the ONLY facial identity reference. Preserve the exact facial identity, facial proportions, hairstyle, skin tone, eye shape, nose, lips, and overall appearance shown in the reference. Do not redesign, reinterpret, blend, morph, or replace the face.\nCreate an ultra-photorealistic portrait of a beautiful young adult East Asian woman.\nA warm morning portrait inside a traditional Japanese wooden apartment or ryokan-style room. Wooden pillars, sliding shoji doors, and a large window create a peaceful atmosphere. Soft morning sunlight filters through trees outside, casting delicate leaf shadows across the wooden walls and floor.\nShe stands beside a wooden sliding door with one hand resting lightly on the wooden frame while the other arm relaxes naturally behind her body. Her shoulders remain relaxed, hips gently angled, and posture elegant yet effortless. She looks directly into the camera with calm, warm eyes and a subtle gentle smile.\nA short black bob gathered into a soft loose updo with delicate wispy curtain bangs and natural face-framing strands.\nElegant white roomwear consisting of a fitted lace-trim camisole with delicate floral lace details and matching soft lounge shorts. Lightweight cotton fabric with realistic texture, subtle wrinkles, authentic stitching, natural drape.\nWarm natural morning sunlight enters from the large window behind and to the right. Ultra-photorealistic Japanese-inspired lifestyle editorial, vertical 3:4 composition, medium portrait, premium full-frame camera, 50mm lens, shallow depth of field, HDR, RAW photo, realistic skin pores, natural facial asymmetry, individual hair strands, authentic lace texture, cinematic color grading, masterpiece, 8K.",
+      "image": "https://pbs.twimg.com/media/HNOsOQMaoAAQvic.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HNOsOQMaoAAQvic.jpg",
+        "https://pbs.twimg.com/media/HNOsOhMb0AAt24F.jpg",
+        "https://pbs.twimg.com/media/HNOsOuabQAASW4d.jpg",
+        "https://pbs.twimg.com/media/HNOsO8Gb0AEvqvx.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNOsOQMaoAAQvic.jpg",
+        "https://pbs.twimg.com/media/HNOsOhMb0AAt24F.jpg",
+        "https://pbs.twimg.com/media/HNOsOuabQAASW4d.jpg",
+        "https://pbs.twimg.com/media/HNOsO8Gb0AEvqvx.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/jiwooteasing/status/2077193311669162035",
+      "url": "https://x.com/jiwooteasing/status/2077193311669162035",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2081043477291585761",
+      "title": "米色针织挂脖情绪肖像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Masterpiece, best quality, ultra-detailed, photorealistic portrait, moody editorial photography, intimate soft-grain portrait, low-saturation tones, subtle film grain, quiet emotional atmosphere, soft shadow transitions, minimal dark grey studio background.\nA clearly adult woman wears a beige ribbed knit halter top with a high neckline, open back, open sides, body-hugging fit, elegant and minimal, no distracting accessories.\nHalf-body or upper-body composition. She faces the camera with a gentle, slightly melancholic expression, soft glassy eyes, relaxed lips, and a natural posture. One hand lightly touches her hair, cheek, or collarbone, while the other rests near her waist. Hair falls over both shoulders with slight motion.\nSoft dim frontal lighting with subtle side shadow, natural skin glow, delicate highlights on hair and lips. Korean-style emotional portrait photography, close framing, simple background, strong focus on face, eyes, hair texture, and knit texture.\nIntrospective, soft, elegant, understated, late-night personal portrait feeling.\nNo text, no watermark, no collage, no extra people, no exaggerated smile, no plastic skin, no harsh flash, no stiff pose.",
+      "image": "https://pbs.twimg.com/media/HOFaAvCb0AAtEiH.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOFaAvCb0AAtEiH.jpg",
+        "https://pbs.twimg.com/media/HOFaAvTaoAAaakc.jpg",
+        "https://pbs.twimg.com/media/HOFaAvDbQAANqDC.jpg",
+        "https://pbs.twimg.com/media/HOFaAvGbIAAoopR.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOFaAvCb0AAtEiH.jpg",
+        "https://pbs.twimg.com/media/HOFaAvTaoAAaakc.jpg",
+        "https://pbs.twimg.com/media/HOFaAvDbQAANqDC.jpg",
+        "https://pbs.twimg.com/media/HOFaAvGbIAAoopR.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/JoywDan/status/2081043477291585761",
+      "url": "https://x.com/JoywDan/status/2081043477291585761",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2066425489041023111",
+      "title": "东京公寓翻白眼坐地人像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Photorealistic modern Tokyo apartment boudoir portrait, cinematic Japanese photobook aesthetic, vertical 2:3 composition, eye-level to slightly low-angle full-body portrait, intimate indoor night scene.\nA beautiful young Chinese internet celebrity woman in her mid-20s, sitting naturally on the floor in a modern Tokyo apartment at night. She has a tall, slender, elegant figure with long legs, softly curvy feminine body lines, a defined waist, subtle waist-to-hip contour, realistic anatomy, visible collarbones, natural skin texture, and luminous fair skin. She has long slightly tousled dark hair with soft messy volume, a few loose strands framing her face, delicate dangling earrings, subtle glossy lips, and soft Japanese-inspired glamorous makeup.\nExpression: clearly readable eye-roll expression, looking slightly upward with a mildly annoyed, impatient, aloof, and bored attitude, while still looking stylish and attractive.\nOutfit: a fitted off-shoulder draped top in a soft smoky lavender-grey tone, paired with a tight bodycon mini skirt that hugs the hips. She wears glossy sheer white pantyhose with a luminous pearlescent shine and subtle reflective highlights, barefoot.\nPose: sitting naturally on the floor in a relaxed feminine pose, with one leg bent closer to the body and the other leg extended slightly forward or diagonally outward. One hand rests softly on the floor for support, while the other hand rests on her thigh.\nScene: a cozy modern Tokyo apartment at night, soft carpet floor, low table with magazines, warm floor lamp, bed nearby, large windows showing blurred city lights.\nLighting: Ricoh GR III HDF effect, soft highlight diffusion, dreamy bloom, glowing halation, soft haze, warm indoor light mixed with cool night city ambience, subtle film grain, nostalgic Japanese photobook mood.",
+      "image": "https://pbs.twimg.com/media/HK1q5CEbkAAkoDE.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HK1q5CEbkAAkoDE.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK1q5CEbkAAkoDE.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2066425489041023111",
+      "url": "https://x.com/BubbleBrain/status/2066425489041023111",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2080628424465387591",
+      "title": "窗边灰色背心甜美特写",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a photorealistic 3:4 close-up smartphone portrait of an exceptionally beautiful adult East Asian woman in her late 20s, sitting beside a sunlit window in a quiet, simple room.\nShe has a sweet, charming and approachable appearance: a softly rounded oval face, warm fair skin, clear almond-shaped dark-brown eyes, gently curved eyebrows, a small delicate nose, soft cheeks and naturally full peach-pink lips. Her eyes look directly into the camera with a warm, affectionate gaze, while her lips form a very subtle closed-mouth smile.\nHer dark-brown hair is gathered into a loose low bun with a deep side part. Long smooth side-swept bangs curve across her forehead and softly frame one cheek, with several fine flyaway strands glowing in the sunlight. She wears a delicate white lace choker with a small silver cross pendant.\nShe wears a fitted opaque light-gray scoop-neck tank top with pale blue trim, bold collegiate-style lettering across the chest and three small red heart graphics underneath. The fabric shows realistic stretch, seams and natural folds.\nFrame her from the top of her head to slightly below the chest. One arm rests horizontally beneath her chest, while her other hand is held loosely near her shoulder with softly curled fingers. Her head tilts slightly toward one shoulder.\nStrong golden afternoon sunlight enters from the lower-left side, illuminating her hair, cheek, collarbones and hand while leaving soft shadows on the opposite side of her face. Warm-gray wall and a dark chair in the background, casual unposed phone photo, slightly imperfect exposure, visible skin pores, fine facial hairs and subtle phone-camera grain.",
+      "image": "https://pbs.twimg.com/media/HN_ggoMXgAAyE7F.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HN_ggoMXgAAyE7F.jpg",
+        "https://pbs.twimg.com/media/HN_ggoJXoAAcSg0.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN_ggoMXgAAyE7F.jpg",
+        "https://pbs.twimg.com/media/HN_ggoJXoAAcSg0.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/johnAGI168/status/2080628424465387591",
+      "url": "https://x.com/johnAGI168/status/2080628424465387591",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082327465935171941",
+      "title": "湖边金日落情侣肖像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-realistic romantic couple portrait using the uploaded reference image. Preserve both faces and identities exactly. The couple stands by a peaceful lake at golden sunset beneath a white lace umbrella decorated with flowers. The man wears a formal white dress shirt, white trousers, and white sneakers. The woman wears a modest white lace A-line dress with a cream hijab fully covering her chest and a matching cream niqab, with white heels. Warm golden reflections on the water, cinematic lighting, shallow depth of field, photorealistic, 8K, DSLR quality.",
+      "image": "https://pbs.twimg.com/media/HOXpyUzbQAAyoFP.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXpyUzbQAAyoFP.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXpyUzbQAAyoFP.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ayeshaafzal55/status/2082327465935171941",
+      "url": "https://x.com/ayeshaafzal55/status/2082327465935171941",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082309902936989785",
+      "title": "女性与黑色长毛猫窗边肖像",
+      "category": "动物",
+      "tags": [
+        "动物",
+        "人像",
+        "摄影",
+        "猫",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use face image of the uploaded photo with the exact facial proportions and facial structure. \nCreate an ultra-high-definition, photorealistic vertical portrait photograph of a young woman posing closely beside a large, fluffy black long-haired cat, recreating the same composition, body position, body angle, facial orientation, framing, and intimate selfie-style perspective as the reference image.\nSubject & Pose:\nThe woman is positioned on the right side of the frame, with her upper body angled slightly toward the camera while her head is subtly turned and tilted toward the viewer. Her shoulders are relaxed, with her right shoulder slightly closer to the camera. Her face is captured in a three-quarter frontal angle, looking directly into the camera with a calm, neutral, slightly dreamy expression. Her chin is gently lowered. Her head and upper torso occupy the upper-right and center-right portion of the frame. She is standing or sitting very close beside the cat, creating a natural companion portrait. The cat is positioned prominently on the left side of the frame, sitting upright and facing directly toward the camera.\nFace & Skin:\nRender a realistic human face with extremely detailed natural skin texture, subtle visible pores, fine peach fuzz, delicate skin micro-texture, realistic skin translucency, soft tonal variations, natural under-eye texture, faint facial imperfections, and lifelike highlights. Avoid plastic-looking or overly airbrushed skin. The complexion is fair with a soft warm-neutral undertone and naturally luminous appearance. Preserve realistic facial proportions and subtle asymmetry.\nEyes & Makeup:\nLarge light hazel-green eyes with detailed irises, natural catchlights, realistic reflections, and fine eyelashes. Soft brown eyeliner is subtly applied along the upper lash line, with delicate mascara definition. The eyebrows are naturally shaped and softly filled with warm medium-brown tones. Makeup is minimal and refined: soft peachy-beige eyeshadow, subtle blush across the cheeks and nose, and naturally glossy muted rose-pink lips with a soft satin finish. The makeup should look like realistic contemporary editorial beauty makeup rather than heavy cosmetics.\nHair:\nThe woman has dark brown hair, rich auburn tones with subtle warm highlights. Her hairstyle is an intentionally loose, slightly messy updo, with the majority of her hair gathered into a low, relaxed bun positioned toward the back-right side of her head. The hair has natural volume and realistic individual strands. She has long, wispy, slightly separated curtain-style bangs falling naturally across her forehead and framing both sides of her face. A few loose strands extend around her temples, cheeks, ears, and neck. Reproduce highly detailed individual hair fibers, natural flyaways, soft shine, and realistic strand separation.\nOutfit:\nShe wears an oversized off-white/cream white graphic T-shirt with a relaxed, slightly slouchy fit. The neckline is wide and loosely stretched, falling off one shoulder and exposing part of the shoulder and collarbone. Underneath, a thin black spaghetti-strap top is visible. The T-shirt features bold black graphic typography and large star illustrations across the front. The visible typography should resemble the reference composition, with large black lettering and graphic elements, while keeping the design naturally integrated into the fabric. The shirt has realistic cotton texture, subtle wrinkles, folds, and natural draping around the torso and shoulders.\nAccessories:\nShe wears several layered silver-tone chain necklaces of different thicknesses and link styles. One necklace features a prominent silver heart-shaped pendant, while another longer chain has a second dark silver or metallic heart pendant. Include a thin purple cord or necklace mixed among the layered chains. The jewelry should have realistic metallic reflections, small scratches, and polished silver highlights.\nCat:\nBeside her is a large, majestic long-haired black cat with a thick, luxurious coat. The cat is sitting upright on the left side of the composition, facing directly toward the camera. Its fur is predominantly deep black with subtle charcoal-brown highlights visible under the light. The chest and neck have a particularly thick, fluffy mane with individual strands clearly defined. The cat has striking yellow-green/golden eyes with realistic pupils and detailed reflective catchlights. Its ears are upright and alert, and its expression is calm and composed. Render extremely detailed individual fur strands, especially around the face, cheeks, ears, chest, and whiskers.\nBackground & Setting:\nThe scene takes place indoors beside a large floor-to-ceiling window. On the far left, the window allows soft natural daylight into the room, with a bright, slightly overexposed exterior view and a subtle blurred cityscape visible in the distance. The window has dark vertical framing. Behind the woman on the right is a neutral-toned interior with soft beige or taupe curtains featuring subtle vertical folds. The overall environment feels like a modern apartment or bedroom with a cozy, intimate atmosphere. Keep the background naturally blurred while retaining enough detail to establish the setting.\nLighting:\nUse soft natural daylight coming primarily from the large window on the left, creating gentle illumination across the woman's face and the cat's fur. Add subtle directional highlights along the hair, cheekbones, nose, and jewelry. Maintain realistic shadow gradients and soft contrast. The light should feel like a naturally captured indoor photograph rather than studio lighting.\nCamera & Composition:\nShot as a vertical 3:4 close-up environmental portrait / intimate selfie-style photograph, approximately 24–28mm equivalent wide-angle smartphone lens, similar to a modern flagship smartphone camera such as an iPhone 17 Pro Max. Camera positioned approximately at eye level, very close to the subjects, with a slight natural handheld perspective. The woman occupies the right half of the frame while the cat occupies the left half, both faces positioned prominently near the upper-middle portion of the image. The framing includes the woman's head, shoulders, upper torso, and part of her shirt, while capturing most of the cat's upper body and fluffy chest.\nUse natural smartphone computational photography, realistic HDR, balanced exposure, subtle depth separation, accurate skin tones, crisp facial detail, and realistic lens rendering. Maintain a shallow-to-moderate depth of field, keeping both the woman's face and cat's face sharply focused while the distant window and curtains gradually soften into natural background blur.\nImage Quality & Realism:\nUltra-photorealistic, 8K-quality detail, highly accurate anatomy, authentic human skin, visible pores and fine facial texture, realistic hair fibers, individual cat fur strands, natural fabric texture, physically accurate metallic jewelry reflections, realistic glass and window reflections, subtle photographic grain, high dynamic range, natural color science, professional editorial photography, lifelike details, authentic photographic imperfections, no artificial plastic skin.\nNegative Prompt:\ncartoon, anime, illustration, painting, CGI, 3D render, digital art, doll-like face, plastic skin, waxy skin, excessive airbrushing, oversmoothing, beauty filter, unrealistic eyes, deformed facial features, asymmetrical eyes, distorted hands, extra fingers, malformed anatomy, duplicated cat, extra limbs, blurry face, low-resolution, oversaturated colors, excessive makeup, exaggerated body proportions, unnatural hair, fake-looking fur, text distortion, warped jewelry, artificial lighting, extreme bokeh, fisheye distortion, overprocessed HDR, uncanny valley, unrealistic skin texture.\nAspect Ratio: 3:4 — ultra-photorealistic close-up editorial smartphone portrait.",
+      "image": "https://pbs.twimg.com/media/HOXZbfXbMAAfyb0.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXZbfXbMAAfyb0.jpg",
+        "https://pbs.twimg.com/media/HOXZbfWaIAA5MLc.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXZbfXbMAAfyb0.jpg",
+        "https://pbs.twimg.com/media/HOXZbfWaIAA5MLc.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ZaraIrahh/status/2082309902936989785",
+      "url": "https://x.com/ZaraIrahh/status/2082309902936989785",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082303638295478278",
+      "title": "涂鸦墙街头东亚女性",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A cinematic street-style portrait of a beautiful young East Asian woman standing against a weathered concrete wall covered in colorful urban graffiti and layered street art. She has long, silky black hair with soft face-framing layers, natural glowing skin, subtle warm-toned makeup, defined brows, winged eyeliner, and matte nude-peach lips. She gazes thoughtfully upward with a calm, confident expression while one hand gently touches her hair and the other rests casually in her pocket. She wears an oversized white baseball jersey with bold black geometric and tribal-inspired graphics, paired with relaxed beige cargo pants. Dramatic nighttime flash photography creates crisp highlights, deep shadows, and a vintage film aesthetic, emphasizing the raw urban atmosphere. The textured graffiti wall, muted colors, and gritty setting contrast beautifully with her clean, modern fashion. Editorial streetwear photography, cinematic composition, shallow depth of field, soft film grain, moody color grading, ultra-photorealistic, DSLR quality, 85mm lens, f/1.8, HDR, 8K, highly detailed skin texture, premium fashion magazine aesthetic.",
+      "image": "https://pbs.twimg.com/media/HOXUHDZXwAElrzA.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXUHDZXwAElrzA.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXUHDZXwAElrzA.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2082303638295478278",
+      "url": "https://x.com/Aqsahere_/status/2082303638295478278",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082303573539573854",
+      "title": "90s叛逆多身份分裂构图",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic multi-scene composition in a single frame, featuring [SUBJECT FROM REFERENCE IMAGE - maintain exact face, hairstyle, and facial structure], portraying a fragmented identity split during a chaotic morning with strong 90s rebellious energy.\nThe frame contains multiple versions of the same subject, each representing a different personality/emotion. All faces must be clearly visible, sharp, and recognizable, with distinct expressions.\nCENTER (MAIN IDENTITY):\nSubject sitting on the edge of the bed, just woke up, leaning forward slightly, staring blankly but intense. Expression: empty, tired, emotionally detached.\nMessy room, crumpled sheets.\nCamera: 35mm lens, eye-level, cinematic close-medium.\nIDENTITY SPLIT SCENES (ALL FACES VISIBLE, DIFFERENT EXPRESSIONS):\nLeft fragment (ANGRY REBEL): subject in front of mirror, slightly aggressive posture, messy movement while brushing teeth or splashing water. Expression: angry, frustrated.\nMirror reflection shows a slightly different expression (more intense).\nCamera: 50mm lens, mirror shot.\nRight fragment (COOL DETACHED): subject holding coffee, leaning casually, eyes half-lidded, effortless \"don't care\" attitude. Expression: cold, numb.\nCamera: 85mm lens, shallow depth.\nTop fragment (WILD ENERGY): subject near window, shirt half open or layered outfit, body stretching but chaotic, head tilted, eyes sharp. Expression: manic, restless.\nCamera: 24mm wide lens, low angle.\nBottom fragment (SELF-AWARE / TIRED): subject crouching or tying shoes, looking up directly to camera with raw, honest gaze. Expression: vulnerable but aware.\nCamera: 70mm lens, slight top-down.\nAdditional floating shards: broken-frame pieces showing close-ups of eyes, smirks, clenched jaw, different micro-expressions across identities.\nOUTFIT & STYLE (REBEL 90s):\nGrunge / punk / 90s rebel aesthetic:\noversized flannel, ripped jeans, band tee, leather jacket, chain accessories, messy or slightly sweaty look.\nOutfit transitions between scenes (sleepwear → grunge streetwear).\nHair slightly messy, natural, imperfect.\nCHAOTIC VISUAL EFFECTS:\nFractured mirror aesthetic, overlapping frames, torn film edges, double/triple exposure.\nSubtle motion ghosting to show emotional instability.\nSome elements breaking out of frame aggressively (hands, shoulders, face edges).\nLIGHTING & COLOR GRADING:\nMixed lighting: soft morning light + harsh contrast shadows.\nColor grading:\nmuted warm tones (yellow/orange)\ndeep teal/green shadows\nslight vintage 90s film fade\nsubtle grain & halation\nInspired by 90s grunge photography + raw cinematic tone.\nMOOD:\nRebellious, restless, anti-establishment energy, emotional chaos, identity confusion.\nFeels like waking up not knowing which version of yourself will take control.\nDETAILS:\nUltra-realistic skin texture, visible pores, fabric detail, dust particles, texture, light leaks.\nTECHNICAL:\nUltra-realistic, 8K, HDR, cinematic, no illustration, no cartoon, no stylized abstraction that hides realism.\nAR 4:5",
+      "image": "https://pbs.twimg.com/media/HOXUC3ra4AA3-fS.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXUC3ra4AA3-fS.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXUC3ra4AA3-fS.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/arsalannazir07/status/2082303573539573854",
+      "url": "https://x.com/arsalannazir07/status/2082303573539573854",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082301857138123045",
+      "title": "日系低角度全身护栏",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A photorealistic full-body portrait of a completely fictional 20-year-old Japanese woman with long platinum-blonde hair, soft natural makeup, large expressive light-brown eyes, and a cute yet realistic face. She stands confidently on a low metal guardrail in a quiet Japanese residential street under a vivid blue summer sky, looking calmly down toward the camera while lightly touching the edge of her oversized hood with one hand. A gentle breeze lifts loose strands of hair and the hem of her hoodie.\n\nExtreme worm's-eye perspective from almost ground level, vertical 9:16 composition, natural smartphone ultra-wide lens (18–20mm equivalent). The camera is positioned directly below her, causing dramatic perspective exaggeration with long legs extending toward the sky while the upper body remains naturally proportioned. Her feet occupy the lower foreground, the body rises diagonally through the frame, and the face is positioned near the upper third. Utility poles, overhead power lines, rooftops, and residential buildings remain softly recognizable in the background without distracting from the subject.\n\nShe wears an oversized white streetwear hoodie with subtle black graphic prints, realistic cotton texture, visible stitching, natural wrinkles, slightly oversized sleeves, and soft folds. A black pleated mini skirt moves gently in the breeze. White crew socks and chunky white-and-pink fashion sneakers complete the outfit.\n\nBright midday sunlight serves as the primary light source, while the blue sky provides cool ambient fill. White pavement and nearby buildings bounce soft reflected light back onto the lower face and legs. Keep most of the skin naturally matte and textured. Place restrained highlights only on the forehead, nose bridge, cheekbones, collarbones, thighs, knees, and light-facing planes. Hair displays fine individual strands with soft golden highlights only where illuminated. Different reflective responses for skin, hair, cotton fabric, leather, rubber soles, painted metal railings, and concrete.\n\nNatural pores, fine baby hairs, subtle skin tone variation, realistic fabric weave, authentic smartphone HDR, slight handheld tilt, mild lens distortion from the ultra-wide perspective, restrained digital sharpening, faint JPEG compression, slight highlight bloom around the brightest areas, realistic depth without studio lighting.\n\nAvoid: cartoon, anime, CGI, plastic skin, perfect symmetry, excessive beauty retouching, overexposed highlights, unreadable logos, watermark, social-media interface, text.",
+      "image": "https://pbs.twimg.com/media/HOXOk2iaQAAuTau.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXOk2iaQAAuTau.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXOk2iaQAAuTau.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AI_money_club/status/2082301857138123045",
+      "url": "https://x.com/AI_money_club/status/2082301857138123045",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082300086889959869",
+      "title": "Quiet luxury 咖啡厅肖像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "quiet luxury",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "An ultra-realistic quiet luxury fashion portrait photographed inside an elegant boutique café or luxury hotel lounge with warm walnut wood interiors, inspired by The Row, Toteme, Khaite, Saint Laurent, Ralph Lauren, and contemporary old-money aesthetics.\n\nA breathtakingly beautiful young woman stands naturally beside a polished walnut wood wall inside an upscale café. Her body is positioned in a relaxed three-quarter stance with one leg casually crossed in front of the other, creating a long, elegant silhouette. Both hands rest comfortably behind her waist beneath a relaxed leather jacket, while her head turns slightly toward the left as if quietly observing someone across the room.\n\nShe has naturally beautiful facial features with warm olive skin, soft sculpted cheekbones, feathered brows, subtle brown eyes, naturally glossy nude lips, and understated luxury makeup. Her expression is calm, confident, effortless, and sophisticated without smiling.\n\nHer long chestnut-brown hair falls perfectly straight with soft face-framing layers and subtle caramel balayage highlights near the ends. The hair is silky, healthy, and naturally reflective under warm ambient lighting.\n\nShe wears a fitted ivory long-sleeve bodysuit tucked seamlessly into a pair of high-waisted dark indigo flared jeans with an elongated 1970s-inspired silhouette. A wide chocolate-brown leather belt with a polished rectangular buckle defines the waist.\n\nOver the outfit she casually wears an oversized black buttery leather bomber jacket draped loosely across her shoulders, adding effortless luxury styling.\n\nThe background features floor-to-ceiling walnut wall paneling, vertical wood slats, framed black-and-white photography, brushed brass hardware, marble flooring, warm architectural lighting, and a simple wooden café stool positioned beside her. Every design element reflects timeless quiet luxury.\n\nLighting is soft warm ambient hotel lighting mixed with subtle window daylight, creating natural skin tones, gentle shadows, realistic reflections on the leather jacket, and cinematic editorial depth.\n\nColor palette:\nespresso brown,\nwarm walnut,\nivory,\ndeep indigo,\nmatte black,\naged brass,\ncream marble,\nsoft amber lighting.\n\nShot on a Leica Q3 with a 50mm Summilux lens, shallow depth of field, natural perspective, Vogue editorial composition, photorealistic skin texture, luxury fashion campaign, effortless elegance, quiet luxury lifestyle, cinematic realism, masterpiece, ultra detailed, 8K.",
+      "image": "https://pbs.twimg.com/media/HNQ2cF0aoAA8Rhh.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HNQ2cF0aoAA8Rhh.jpg",
+        "https://pbs.twimg.com/media/HNQ2gPpbQAEIjDZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNQ2cF0aoAA8Rhh.jpg",
+        "https://pbs.twimg.com/media/HNQ2gPpbQAEIjDZ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CliQi_AI/status/2082300086889959869",
+      "url": "https://x.com/CliQi_AI/status/2082300086889959869",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082312362795860125",
+      "title": "东亚女性卧室自拍",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Smartphone selfie of a beautiful young East Asian woman indoors in a cozy bedroom. She has porcelain-fair skin, large expressive dark brown eyes, naturally full lips, a small straight nose, and soft oval facial features. Her medium-length dark brown hair is slightly messy with airy wispy bangs falling naturally across her forehead, giving a fresh just-woke-up look. She is making a subtle duck-lips expression while looking directly into the phone camera. She wears an oversized fuzzy knitted navy-blue off-shoulder sweater that casually slips off one shoulder. The background features a white bookshelf filled with books, candles, small decorative jars, framed artwork, and cute vintage-style room decor, creating a warm, aesthetic atmosphere. Captured casually with a modern smartphone at arm's length, eye-level angle, vertical portrait orientation. Natural indoor ambient lighting mixed with warm room light, soft shadows, realistic skin texture, slight smartphone HDR processing, tiny sensor noise, subtle lens distortion from a 26mm equivalent mobile camera, automatic white balance, authentic exposure, casual composition, slightly imperfect framing, no professional lighting, no beauty filter, no AI look, everyday social media selfie, ultra-photorealistic.",
+      "image": "https://pbs.twimg.com/media/HOXcCrAaAAANURG.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXcCrAaAAANURG.jpg",
+        "https://pbs.twimg.com/media/HOXcDXKawAA7XLm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXcCrAaAAANURG.jpg",
+        "https://pbs.twimg.com/media/HOXcDXKawAA7XLm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/saniaspeaks_/status/2082312362795860125",
+      "url": "https://x.com/saniaspeaks_/status/2082312362795860125",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082295110071656539",
+      "title": "粉色缎面裙草地奔跑回眸",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Full-length candid editorial photo of the same young woman from the reference image, preserving her exact facial identity, facial structure, skin tone, and all defining features with complete accuracy. She has long, voluminous, softly wavy hair flowing naturally as she runs barefoot across a lush green grassy lawn. She is wearing a backless, flowing dusty pink satin dress that moves elegantly with the breeze, creating beautiful natural motion. While running, she gracefully turns her upper body to look back over her shoulder toward the camera with a gentle, joyful smile and warm, expressive eyes. The background features a dense line of rich deep-green trees beneath soft, natural overcast daylight, producing a calm, cinematic atmosphere. Ultra-photorealistic outdoor fashion editorial, authentic candid movement, realistic fabric physics, subtle wind effect, shallow depth of field, cinematic 35mm film texture, premium luxury fashion photography, soft natural colour grading, highly detailed skin with realistic pores, magazine-quality composition, vertical 9:16 aspect ratio.",
+      "image": "https://pbs.twimg.com/media/HOXMWi9bYAEW5Ue.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXMWi9bYAEW5Ue.jpg",
+        "https://pbs.twimg.com/media/HOXMXKDboAAFaIo.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXMWi9bYAEW5Ue.jpg",
+        "https://pbs.twimg.com/media/HOXMXKDboAAFaIo.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/mehvishs25/status/2082295110071656539",
+      "url": "https://x.com/mehvishs25/status/2082295110071656539",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785325856560,
+      "collectedAt": "2026-07-29T11:50:56.560Z",
+      "githubSyncedAt": "2026-07-29T11:50:56.560Z",
       "domesticSyncedAt": null
     },
     {

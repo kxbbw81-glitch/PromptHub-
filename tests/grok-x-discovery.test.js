@@ -64,6 +64,24 @@ test('accepts a direct official candidate handoff object', () => {
   assert.equal(payload.candidates.length, 1);
 });
 
+test('accepts a collection snapshot as a recovery import without trusting its sync fields', () => {
+  const payload = discovery.extractCandidatePayload({
+    collections: [{
+      sourceUrl: 'https://x.com/example/status/124',
+      githubSyncedAt: 'untrusted'
+    }]
+  });
+
+  assert.equal(payload.candidates[0].sourceUrl, 'https://x.com/example/status/124');
+});
+
+test('keeps the public-search cap but evaluates every record in a recovery snapshot', () => {
+  const candidates = Array.from({ length: 12 }, (_, index) => ({ sourceUrl: `https://x.com/example/status/${index}` }));
+
+  assert.equal(discovery.selectCandidatesForImport({ candidates }, { candidates }, 10).length, 10);
+  assert.equal(discovery.selectCandidatesForImport({ collections: candidates }, { candidates }, 10).length, 12);
+});
+
 test('accepts a UTF-8 BOM on CLI output files', () => {
   const text = `\uFEFF${JSON.stringify({ candidates: [{ sourceUrl: 'https://x.com/example/status/123' }] })}`;
   const payload = discovery.parseCliOutputText(text);

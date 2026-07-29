@@ -79,6 +79,9 @@ function findJsonCandidate(value) {
 
 function extractCandidatePayload(rawOutput) {
   if (rawOutput && typeof rawOutput === 'object' && Array.isArray(rawOutput.candidates)) return rawOutput;
+  if (rawOutput && typeof rawOutput === 'object' && Array.isArray(rawOutput.collections)) {
+    return { candidates: rawOutput.collections };
+  }
   const direct = findJsonCandidate(rawOutput);
   if (direct) return direct;
   const queue = [rawOutput];
@@ -96,6 +99,12 @@ function extractCandidatePayload(rawOutput) {
     if (parsed) return parsed;
   }
   throw new Error('Grok output does not contain a candidates JSON object');
+}
+
+function selectCandidatesForImport(rawOutput, payload, maxCandidates) {
+  const candidates = payload.candidates;
+  if (rawOutput && typeof rawOutput === 'object' && Array.isArray(rawOutput.collections)) return candidates;
+  return candidates.slice(0, maxCandidates || 10);
 }
 
 function parseCliOutputText(value) {
@@ -229,7 +238,7 @@ function run(argv = process.argv) {
   const rawOutput = parseCliOutputText(fs.readFileSync(options.input, 'utf8'));
   const payload = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'collections.json'), 'utf8'));
   const collections = Array.isArray(payload) ? payload : payload.collections;
-  const candidates = extractCandidatePayload(rawOutput).candidates.slice(0, config.maxCandidatesTotal || 10);
+  const candidates = selectCandidatesForImport(rawOutput, extractCandidatePayload(rawOutput), config.maxCandidatesTotal);
   const result = acceptCandidates(candidates, collections);
 
   if (options.apply && result.accepted.length) {
@@ -251,5 +260,6 @@ module.exports = {
   normalizeSourceUrl,
   parseCliOutputText,
   promptFingerprint,
+  selectCandidatesForImport,
   validateCandidate
 };
