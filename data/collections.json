@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:15:57.616Z",
+  "updatedAt": "2026-07-29T07:16:13.830Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5r3rnf_vhc6",
+      "image": "https://pbs.twimg.com/media/HOS0YeXbkAACWSe?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOS0YeXbkAACWSe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS0YehacAAz5FI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS0YekawAAOE42?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS0YeebQAEG3__?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaWBaUAE_yVA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV_akAATupi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8aIAAN_-h?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8bcAABrSL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "现代高层公寓内的一张奢华电影肖像，夜晚时分。\n一位女性站在落地推拉玻璃门旁，身体倾斜约45°，一只手自然抬起握住肩部上方门框，另一只手轻轻放在臀部。她微微弓背，拉长身形，一条腿放松，前膝微微弯曲，回首直接看向镜头，带着自信、优雅的表情。\n第二位女性优雅地坐在门边地板上，一膝抬起朝向镜头，对侧腿斜向伸展，创造出优雅的长引导线。一只手轻轻支撑地板，另一只手自然放在大腿上。她的肩膀保持放松，下巴微微抬起朝向镜头。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOS0YeXbkAACWSe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS0YehacAAz5FI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS0YekawAAOE42?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS0YeebQAEG3__?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaWBaUAE_yVA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV_akAATupi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8aIAAN_-h?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8bcAABrSL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2081987267963560063",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785309371835,
+      "title": "我们都会为一个人沉醉",
+      "url": "https://x.com/YUKIMASTERAI/status/2081987267963560063",
+      "collectedAt": "2026-07-29T07:16:13.830Z",
+      "githubSyncedAt": "2026-07-29T07:16:13.830Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
