@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:25:49.211Z",
+  "updatedAt": "2026-07-29T02:25:52.743Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -273,38 +273,6 @@
       "timestamp": 1785291573517,
       "title": "A professional",
       "url": "https://x.com/Minahil42298354/status/2074505205429735763",
-      "collectedAt": "2026-07-29T02:19:33.516Z",
-      "githubSyncedAt": "2026-07-29T02:19:33.516Z",
-      "domesticSyncedAt": null
-    },
-    {
-      "aspectRatio": "2:3",
-      "category": "美食",
-      "date": "2026-07-29",
-      "domain": "x.com",
-      "id": "codex_x_2074707807925059871",
-      "image": "https://pbs.twimg.com/media/HMrXwU3W8AAW5ie?format=jpg&name=large",
-      "images": [
-        "https://pbs.twimg.com/media/HMrXwU3W8AAW5ie?format=jpg&name=large",
-        "https://pbs.twimg.com/media/HMrXwYlXAAADdlR?format=jpg&name=large"
-      ],
-      "model": "ChatGPT Image",
-      "prompt": "Create a premium, ultra-realistic beverage advertisement poster featuring a large transparent plastic cup filled with vibrant blueberry lemonade. The drink has a rich purple-blue gradient, sparkling ice cubes, fresh whole blueberries floating",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HMrXwU3W8AAW5ie?format=jpg&name=large",
-        "https://pbs.twimg.com/media/HMrXwYlXAAADdlR?format=jpg&name=large"
-      ],
-      "referenceImages": [],
-      "source": "Codex 自动收集 · X 全部书签",
-      "sourceUrl": "https://x.com/kingofdairyque/status/2074707807925059871",
-      "tags": [
-        "美食",
-        "X 自动收集",
-        "ChatGPT Image"
-      ],
-      "timestamp": 1785291573517,
-      "title": "GPT IMAGE 2 on CHATGPT",
-      "url": "https://x.com/kingofdairyque/status/2074707807925059871",
       "collectedAt": "2026-07-29T02:19:33.516Z",
       "githubSyncedAt": "2026-07-29T02:19:33.516Z",
       "domesticSyncedAt": null
