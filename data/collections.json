@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T10:59:31.812Z",
+  "updatedAt": "2026-07-29T11:47:36.343Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "抽象",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms60sqqc_r69k",
+      "image": "https://pbs.twimg.com/media/HOYAEqJaIAApife?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HOYAEqJaIAApife?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOYAEqAaUAAxeEL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYAEqMakAAhZ8y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYAEqKbUAAPS0P?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWRbgAAnfOI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWbawAAo-iN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWba0AAWKV9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWRaMAAKhKK?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ở đời, nói ít không phải vì không biết, mà vì hiểu rằng nhiều chuyện thành hay bại đều từ cái miệng mà ra.\nDưới đây là prompt chi tiết để tái tạo phong cách, bố cục và bầu không khí của bức ảnh, không sao chép danh tính người trong ảnh:  x.com/yukimasterai/s…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYAEqJaIAApife?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOYAEqAaUAAxeEL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYAEqMakAAhZ8y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYAEqKbUAAPS0P?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWRbgAAnfOI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWbawAAo-iN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWba0AAWKV9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOVGNWRaMAAKhKK?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2082351965607243965",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785325653588,
+      "title": "Ở đời nói ít không phải vì không",
+      "url": "https://x.com/YUKIMASTERAI/status/2082351965607243965",
+      "collectedAt": "2026-07-29T11:47:36.343Z",
+      "githubSyncedAt": "2026-07-29T11:47:36.343Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082396899168997827",
       "title": "霓虹夜街短发蓝眸人像",
