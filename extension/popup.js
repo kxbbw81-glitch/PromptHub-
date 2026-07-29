@@ -22,6 +22,15 @@ async function getQueue() {
   return Array.isArray(result?.queue) ? result.queue : [];
 }
 
+async function getCollectionFeedback() {
+  return chrome.runtime.sendMessage({ action: 'getCollectionFeedback' });
+}
+
+async function getCollectionReceipt(id) {
+  const result = await chrome.runtime.sendMessage({ action: 'getCollectionReceipt', id });
+  return result?.receipt || null;
+}
+
 async function addToQueue(item) {
   const result = await chrome.runtime.sendMessage({
     action: 'addToQueue',
@@ -42,7 +51,7 @@ async function clearQueue() {
 }
 
 async function updateQueueUI() {
-  const queue = await getQueue();
+  const [queue, feedback] = await Promise.all([getQueue(), getCollectionFeedback()]);
   const bar = $('#queue-bar');
   const num = $('#queue-num');
   const hq = $('#header-queue');
@@ -56,6 +65,47 @@ async function updateQueueUI() {
     bar.style.display = 'none';
     hq.style.display = 'none';
   }
+  renderVerificationStatus(feedback, queue.length);
+}
+
+function renderVerificationStatus(feedback, queueLength = 0) {
+  const panel = $('#verification-status');
+  const icon = $('#verification-status-icon');
+  const text = $('#verification-status-text');
+  const receipt = feedback?.latest;
+  if (!receipt && queueLength === 0) {
+    panel.style.display = 'none';
+    return;
+  }
+
+  const state = receipt?.state || (queueLength > 0 ? 'queued' : 'idle');
+  panel.className = `verification-status${state === 'verified' ? ' success' : state === 'failed' ? ' error' : ''}`;
+  icon.textContent = state === 'verified' ? '✓' : state === 'failed' ? '!' : '⏳';
+  text.textContent = receipt?.message || (queueLength > 0 ? `正在处理 ${queueLength} 个待验证收藏` : '暂无收藏验证记录');
+  panel.style.display = 'flex';
+}
+
+async function waitForCollectionVerification(id, button) {
+  for (let attempt = 0; attempt < 45; attempt += 1) {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    const receipt = await getCollectionReceipt(id);
+    if (!receipt) continue;
+    if (receipt.state === 'verified') {
+      button.textContent = '✓ 已验证主站';
+      button.classList.add('mini-btn-collected');
+      await updateQueueUI();
+      return;
+    }
+    if (receipt.state === 'failed') {
+      button.disabled = false;
+      button.textContent = '↻ 重试收藏';
+      showToast(receipt.error || '收藏验证失败，已保留在队列');
+      await updateQueueUI();
+      return;
+    }
+    button.textContent = receipt.state === 'syncing' ? '正在验证…' : '已加入队列';
+  }
+  await updateQueueUI();
 }
 
 // --- 复制到剪贴板 ---
@@ -447,9 +497,10 @@ function renderPrompts(prompts) {
         result = { success: false, error: error?.message || '收藏失败，请稍后重试' };
       }
       if (result?.success) {
-        btn.textContent = result.githubSynced ? '✓ 已写入主站' : result.alreadyQueued ? '✓ 已在队列' : '✓ 已收藏';
-        btn.classList.add('mini-btn-collected');
+        btn.textContent = result.alreadyQueued ? '已在队列' : '已加入队列';
         await updateQueueUI();
+        showToast(result.alreadyQueued ? '该提示词已在验证队列中' : `已加入收藏队列，等待 GitHub 主站验证`);
+        await waitForCollectionVerification(prompts[idx].id, btn);
         return;
       } else {
         showToast(result?.error || '收藏失败，请稍后重试');
@@ -528,6 +579,13 @@ $('#btn-scan').addEventListener('click', async () => {
 // --- 打开网站 ---
 $('#btn-site').addEventListener('click', () => {
   chrome.tabs.create({ url: WEBSITE_URL });
+});
+
+$('#btn-notice').addEventListener('click', async () => {
+  const feedback = await getCollectionFeedback();
+  renderVerificationStatus(feedback, feedback?.queueCount || 0);
+  const receipt = feedback?.latest;
+  showToast(receipt?.message || (feedback?.queueCount ? `正在验证 ${feedback.queueCount} 个收藏` : '暂无收藏验证记录'));
 });
 
 // --- 可复用：同步到指定站点 ---

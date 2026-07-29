@@ -12,7 +12,9 @@ const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
 const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
 const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
+const RECEIPT_KEY = 'prompthub_collection_receipts';
 let queueMutation = Promise.resolve();
+let receiptMutation = Promise.resolve();
 
 try {
   importScripts('prompt-parser.js');
@@ -273,15 +275,13 @@ async function addToQueue(item) {
     return { success: true, count: queue.length + 1 };
   });
 
-  try {
-    const syncResult = await queueAutomaticPrimarySync();
-    if (!syncResult?.success) {
-      return { success: false, queued: true, error: syncResult?.error || '已暂存本地，但 GitHub 主站写入失败' };
-    }
-    return { ...queued, githubSynced: true, syncedCount: syncResult.count || 0 };
-  } catch (error) {
-    return { success: false, queued: true, error: error?.message || '已暂存本地，但 GitHub 主站写入失败' };
-  }
+  await setCollectionReceipts([safeItem], 'queued', {
+    message: queued.alreadyQueued
+      ? '已在队列，正在重新验证 GitHub 主站'
+      : `已加入队列，等待 GitHub 主站验证（队列 ${queued.count} 个）`
+  });
+  queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue sync failed:', error?.message));
+  return { ...queued, pendingVerification: true, queued: !queued.alreadyQueued };
 }
 
 async function getQueue() {
@@ -298,6 +298,51 @@ function withQueueLock(task) {
   const run = queueMutation.then(task, task);
   queueMutation = run.catch(() => undefined);
   return run;
+}
+
+function withReceiptLock(task) {
+  const run = receiptMutation.then(task, task);
+  receiptMutation = run.catch(() => undefined);
+  return run;
+}
+
+async function setCollectionReceipts(items, state, details = {}) {
+  const safeItems = (Array.isArray(items) ? items : []).filter(item => trimText(item?.id, 120));
+  if (safeItems.length === 0) return;
+
+  await withReceiptLock(async () => {
+    const data = await chrome.storage.local.get(RECEIPT_KEY);
+    const current = data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {};
+    const updatedAt = new Date().toISOString();
+    for (const item of safeItems) {
+      current[item.id] = {
+        id: item.id,
+        sourceUrl: trimText(item.sourceUrl || item.url, 2048),
+        state,
+        message: trimText(details.message, 240),
+        error: trimText(details.error, 240),
+        verifiedAt: details.verifiedAt || null,
+        updatedAt
+      };
+    }
+    const latest = Object.values(current)
+      .sort((left, right) => Date.parse(right.updatedAt || 0) - Date.parse(left.updatedAt || 0))
+      .slice(0, 40);
+    await chrome.storage.local.set({ [RECEIPT_KEY]: Object.fromEntries(latest.map(entry => [entry.id, entry])) });
+  });
+}
+
+async function getCollectionReceipt(id) {
+  const data = await chrome.storage.local.get(RECEIPT_KEY);
+  const receipts = data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {};
+  return receipts[trimText(id, 120)] || null;
+}
+
+async function getCollectionFeedback() {
+  const [queue, data] = await Promise.all([getQueue(), chrome.storage.local.get(RECEIPT_KEY)]);
+  const receipts = Object.values(data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {});
+  const latest = receipts.sort((left, right) => Date.parse(right.updatedAt || 0) - Date.parse(left.updatedAt || 0))[0] || null;
+  return { queueCount: queue.length, latest };
 }
 
 async function removeQueueItem(prompt) {
@@ -365,6 +410,16 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
   if (request.action === 'addToQueue') {
     addToQueue(request.data).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
+    return true;
+  }
+
+  if (request.action === 'getCollectionReceipt') {
+    getCollectionReceipt(request.id).then(receipt => sendResponse({ receipt }));
+    return true;
+  }
+
+  if (request.action === 'getCollectionFeedback') {
+    getCollectionFeedback().then(sendResponse);
     return true;
   }
 
@@ -591,11 +646,29 @@ async function syncQueuedItems() {
   const queueSnapshot = await getQueue();
   if (queueSnapshot.length === 0) return { success: false, error: '待同步队列为空' };
 
-  const result = await syncQueueToGitHub(queueSnapshot);
-  if (!result.success) return result;
+  await setCollectionReceipts(queueSnapshot, 'syncing', { message: '正在写入并验证 GitHub 主站' });
+  try {
+    const result = await syncQueueToGitHub(queueSnapshot);
+    if (!result.success || !result.verified) {
+      const error = result.error || 'GitHub 主站验证未完成';
+      await setCollectionReceipts(queueSnapshot, 'failed', { error, message: '收藏未确认，保留在队列中等待重试' });
+      return { ...result, success: false, error };
+    }
 
-  await removeSyncedQueueItems(queueSnapshot);
-  return { success: true, count: result.count, skipped: result.skipped || 0 };
+    await removeSyncedQueueItems(queueSnapshot);
+    const message = result.count > 0
+      ? `已验证写入 GitHub 主站 ${result.count} 个提示词`
+      : `GitHub 主站已确认，${result.skipped || queueSnapshot.length} 个提示词已存在`;
+    await setCollectionReceipts(queueSnapshot, 'verified', {
+      message,
+      verifiedAt: new Date().toISOString()
+    });
+    return { success: true, count: result.count, skipped: result.skipped || 0, verified: true, verifiedCount: result.verifiedCount || queueSnapshot.length };
+  } catch (error) {
+    const message = error?.message || 'GitHub 主站写入失败';
+    await setCollectionReceipts(queueSnapshot, 'failed', { error: message, message: '收藏失败，已保留在队列中等待重试' });
+    return { success: false, error: message };
+  }
 }
 
 async function removeSyncedQueueItems(syncedItems) {
@@ -853,6 +926,21 @@ async function writeGitHubCollections(token, collections, sha) {
   if (!response.ok) throw new Error(`GitHub 保存失败 (${response.status})`);
 }
 
+async function verifyGitHubCollections(token, entries) {
+  const snapshot = await readGitHubCollections(token);
+  const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
+  const sourceKeys = new Set(collections.map(collectionSourceKey).filter(Boolean));
+  const fingerprints = new Set(collections.map(collectionFingerprint).filter(Boolean));
+  const missing = entries.filter(entry => {
+    const sourceKey = collectionSourceKey(entry);
+    return !(sourceKey && sourceKeys.has(sourceKey)) && !fingerprints.has(collectionFingerprint(entry));
+  });
+  if (missing.length) {
+    throw new Error(`GitHub 写入后验证失败：${missing.length} 个提示词未确认`);
+  }
+  return { success: true, count: entries.length };
+}
+
 async function scheduleDomesticRelease(ids) {
   const validIds = [...new Set(ids.map(id => trimText(id, 120)).filter(Boolean))];
   if (validIds.length === 0) return;
@@ -958,7 +1046,7 @@ async function syncQueueToGitHub(queue) {
     const additions = entries.filter(entry => !savedFingerprints.has(collectionFingerprint(entry)) && !savedSources.has(collectionSourceKey(entry)));
     const skipped = entries.length - additions.length;
 
-    if (additions.length === 0) return { success: true, count: 0, skipped };
+    if (additions.length === 0) return { success: true, count: 0, skipped, verified: true, verifiedCount: entries.length };
 
     const now = new Date().toISOString();
     const newCollections = additions
@@ -967,8 +1055,9 @@ async function syncQueueToGitHub(queue) {
 
     try {
       await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
+      const verification = await verifyGitHubCollections(token, additions);
       await scheduleDomesticRelease(newCollections.map(entry => entry.id));
-      return { success: true, count: additions.length, skipped };
+      return { success: true, count: additions.length, skipped, verified: true, verifiedCount: verification.count };
     } catch (error) {
       if (!error.retryable || attempt === 4) throw error;
       await waitForRetry(attempt);
@@ -1008,7 +1097,10 @@ chrome.alarms.onAlarm.addListener(alarm => {
   if (alarm.name === DOMESTIC_ALARM_NAME) releaseDomesticCollections();
 });
 
-chrome.runtime.onStartup.addListener(() => releaseDomesticCollections());
+chrome.runtime.onStartup.addListener(() => {
+  releaseDomesticCollections();
+  queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue recovery failed:', error?.message));
+});
 
 async function waitForTabComplete(tabId) {
   await new Promise(resolve => {

@@ -59,11 +59,17 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /function withQueueLock\(task\)/);
   assert.match(background, /await chrome\.storage\.local\.set\(\{ \[QUEUE_KEY\]: \[\.\.\.queue, safeItem\] \}\);/);
   assert.match(background, /const queueSnapshot = await getQueue\(\);/);
+  assert.match(background, /const RECEIPT_KEY = 'prompthub_collection_receipts';/);
+  assert.match(background, /async function verifyGitHubCollections\(token, entries\)/);
+  assert.match(background, /已验证写入 GitHub 主站/);
   assert.match(background, /const result = await syncQueueToGitHub\(queueSnapshot\);/);
   assert.match(background, /await removeSyncedQueueItems\(queueSnapshot\);/);
   assert.match(background, /for \(let attempt = 0; attempt < 5; attempt\+\+\)/);
   assert.match(background, /formatGitHubError\(error\)/);
   assert.match(popup, /action: 'addToQueue'/);
+  assert.match(popup, /已加入收藏队列，等待 GitHub 主站验证/);
+  assert.match(popup, /function waitForCollectionVerification/);
+  assert.match(popup, /#btn-notice/);
   assert.match(popup, /await updateQueueUI\(\);/);
   assert.doesNotMatch(popup, /已识别并推送成功；国内站将在 30 分钟后同步/);
 });
@@ -76,8 +82,8 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.6\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.6\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.7\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.7\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 

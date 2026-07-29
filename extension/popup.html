@@ -68,6 +68,11 @@
       background: #fff; border: 1.5px solid #1A1A1A; color: #1A1A1A;
     }
     .btn-site:hover { background: #F5F5F0; }
+    .btn-notice {
+      width: 40px; min-width: 40px; padding: 10px;
+      background: #fff; border: 1.5px solid #1A1A1A; color: #1A1A1A;
+    }
+    .btn-notice:hover { background: #F5F5F0; }
     .settings-panel {
       margin: 0 16px 12px; padding: 12px;
       border: 1px solid #E8E6DE; border-radius: 8px; background: #fff;
@@ -174,6 +179,17 @@
       font-size: 12px; color: #666; flex: 1;
     }
     .queue-count strong { color: #1A1A1A; }
+    .verification-status {
+      margin: 0 16px 10px;
+      display: flex; align-items: center; gap: 8px;
+      padding: 9px 10px; border-radius: 8px;
+      background: #F4F4EF; color: #666;
+      font-size: 11px; line-height: 1.4;
+    }
+    .verification-status.success { background: #E7F8F1; color: #087A5D; }
+    .verification-status.error { background: #FFF0EE; color: #B63A2B; }
+    .verification-status-icon { flex: 0 0 auto; }
+    .verification-status-text { min-width: 0; flex: 1; }
     .btn-sync {
       padding: 8px 16px;
       background: #FFD93D; color: #1A1A1A;
@@ -245,7 +261,7 @@
       <div class="header-icon">🍌</div>
       <div>
         <div class="header-title">PromptHub</div>
-        <div class="header-sub">AI 提示词收集器 v3.5</div>
+        <div class="header-sub">AI 提示词收集器 v3.7</div>
       </div>
     </div>
     <div class="header-queue" id="header-queue" style="display:none;">
@@ -256,6 +272,7 @@
   <!-- Toolbar -->
   <div class="toolbar">
     <button class="btn btn-scan" id="btn-scan">🔍 扫描当前页面</button>
+    <button class="btn btn-notice" id="btn-notice" type="button" title="查看收藏验证结果" aria-label="查看收藏验证结果">🔔</button>
     <button class="btn btn-site" id="btn-site">🌐</button>
   </div>
 
@@ -286,10 +303,15 @@
     💡 提示：在任意网页选中提示词文字，右键即可快速收藏
   </div>
 
+  <div class="verification-status" id="verification-status" style="display:none;">
+    <span class="verification-status-icon" id="verification-status-icon">⏳</span>
+    <span class="verification-status-text" id="verification-status-text"></span>
+  </div>
+
   <!-- Queue Bar -->
   <div class="queue-bar" id="queue-bar" style="display:none;">
     <div class="queue-bar-inner">
-      <div class="queue-count">待同步 <strong id="queue-num">0</strong> 个提示词</div>
+      <div class="queue-count">待验证 <strong id="queue-num">0</strong> 个提示词</div>
       <button class="btn-sync" id="btn-sync">🔄 同步到网站</button>
     </div>
   </div>

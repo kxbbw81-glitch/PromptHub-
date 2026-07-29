@@ -76,6 +76,15 @@ function prompt(id, body) {
   };
 }
 
+async function waitForReceipt(context, id) {
+  for (let attempt = 0; attempt < 20; attempt += 1) {
+    const receipt = await context.getCollectionReceipt(id);
+    if (receipt?.state === 'verified') return receipt;
+    await new Promise(resolve => setTimeout(resolve, 1));
+  }
+  return context.getCollectionReceipt(id);
+}
+
 test('concurrent collections are saved locally before automatic GitHub primary sync', async () => {
   const { context, remote, storage } = createHarness();
   const first = prompt('first', 'A cinematic studio portrait of an adult woman with soft window light, natural skin texture, a dark tailored jacket, editorial composition, 85mm lens, shallow depth of field, subtle film grain, detailed shadows, photorealistic finish, no text, no logo, no watermark.');
@@ -83,7 +92,9 @@ test('concurrent collections are saved locally before automatic GitHub primary s
 
   const results = await Promise.all([context.addToQueue(first), context.addToQueue(second)]);
 
-  assert.ok(results.every(result => result.success && result.githubSynced));
+  assert.ok(results.every(result => result.success && result.pendingVerification));
+  assert.equal((await waitForReceipt(context, 'first')).state, 'verified');
+  assert.equal((await waitForReceipt(context, 'second')).state, 'verified');
   assert.ok(remote.putCalls >= 1);
   assert.deepEqual(remote.collections.map(item => item.id), ['second', 'first']);
   assert.equal(storage.prompthub_queue, undefined);
@@ -96,11 +107,14 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   const incomplete = prompt('incomplete', 'A cinematic portrait with soft light,');
 
   const first = await context.addToQueue(complete);
+  await context.queueAutomaticPrimarySync();
   const duplicate = await context.addToQueue(samePost);
+  await context.queueAutomaticPrimarySync();
   const rejected = await context.addToQueue(incomplete);
 
-  assert.equal(first.githubSynced, true);
-  assert.equal(duplicate.githubSynced, true);
+  assert.equal(first.pendingVerification, true);
+  assert.equal(duplicate.pendingVerification, true);
   assert.equal(rejected.success, false);
   assert.deepEqual(remote.collections.map(item => item.id), ['complete']);
+  assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
 });
