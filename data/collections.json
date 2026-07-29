@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T10:55:12.172Z",
+  "updatedAt": "2026-07-29T10:55:15.773Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5yxbu5_z33g",
+      "image": "https://pbs.twimg.com/media/HOYSJN1bgAAcP1i?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOYSJN1bgAAcP1i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXAluBaEAEA0PA?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "高级写实女性内衣海报，蕾丝睡袍与内搭套组主题，一位成年年轻女性模特站在酒店卧室或高端家居空间中，穿一套柔雾白蕾丝睡袍与同系列内搭，睡袍边缘蕾丝精细，绑带和垂坠结构清楚，内搭轮廓简洁克制，模特轻轻拢住\n袍身，一侧肩部和腰线在柔光中自然呈现，整体优雅、私密、成熟，像高端 bridal loungewear 或 premium sleepwear 广告，真实蕾丝细节、真实面料垂感、真实空间光影，竖版 3:4。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYSJN1bgAAcP1i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXAluBaEAEA0PA?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2082371841981915609",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785322508333,
+      "title": "海报文字内容",
+      "url": "https://x.com/Mrpinecone888/status/2082371841981915609",
+      "collectedAt": "2026-07-29T10:55:15.773Z",
+      "githubSyncedAt": "2026-07-29T10:55:15.773Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
