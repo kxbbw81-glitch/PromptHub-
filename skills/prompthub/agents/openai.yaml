@@ -1,0 +1,4 @@
+interface:
+  display_name: "PromptHub Operations"
+  short_description: "Operate PromptHub collection and release workflows."
+  default_prompt: "Use $prompthub-operations to safely collect, validate, sync, and release PromptHub content."
