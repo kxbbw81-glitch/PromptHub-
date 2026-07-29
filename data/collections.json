@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:01:29.343Z",
+  "updatedAt": "2026-07-29T02:02:17.113Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5fvzxs_enaq",
+      "image": "https://pbs.twimg.com/media/HNlUEtKW0AEf2RL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNlUEtKW0AEf2RL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlUEtJWIAAkSEf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlUEtKWgAAYnjX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlUEtKWIAAacXE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "创作一幅写实风格的竖幅极简主义影棚时尚肖像，描绘一位21岁以上的东亚成年女性，她站在柔和光线照射下的暖白色无缝背景前。构图从她的大腿上部到头部，略偏左侧，周围留出大片干净的空白区域。她的躯干主要面向前方，略微侧转四分之三，双肩微微倾斜，姿态放松。双臂置于身后，使肩膀自然上扬，腰部曲线柔和流畅。她的头部微微向下倾斜，转向观众的右侧，目光看向别处，营造出一种安静内省的氛围。\n\n她拥有一头深棕黑色的头发，中分，在后颈处挽成一个松散的低髻。保留几缕自然的碎发垂落在额头、脸颊和颈项，几缕轻柔的碎发在光线下闪闪发光。她的妆容精致而低调：光滑透亮的肌肤，质感自然逼真；眉毛修饰得恰到好处；淡淡的棕色眼线；自然的睫毛；淡淡的蜜桃色腮红；柔和的轮廓修饰；以及柔和的玫瑰裸色唇妆。她的表情平静、沉思，略带疏离感，面部肌肉放松，双唇微微闭合。\n\n她身着一件修身的黑色蕾丝长款胸衣或短款吊带背心，宽蕾丝肩带，深V领，立体不透明罩杯，精致的花卉蕾丝覆层，细密的网纱拼接，扇形花边，以及胸部上方和下摆处微妙的半透明设计。保留不透明黑色衬里与透明蕾丝之间的微妙对比，蕾丝上饰有精细的刺绣，面料质感逼真。搭配宽松的浅蓝色牛仔裤，裤腰随意敞开，露出内衬的黑色腰带。牛仔裤应呈现逼真的水洗牛仔布质感，配有腰带环、金属纽扣、拉链门襟、可见的缝线、柔和的褶皱、轻微的褪色效果，以及臀部和大腿处自然放松的褶皱。整体造型应保持优雅、现代且时尚大片风格。\n\n使用从右上角和正前方照射的柔和漫射日光，在她额头、颧骨、鼻子、锁骨、肩膀、手臂、躯干、蕾丝面料和牛仔布上营造温暖的高光。画面右侧应更明亮，光线向左侧逐渐减弱。在下颌线下方、蕾丝边缘、腰部以及牛仔裤褶皱处添加柔和的阴影。整体色调应为暖白色、柔和米色、黑色蕾丝、浅蓝色牛仔布和自然的暖色调肤色。\n\n背景应保持完全简洁、平滑，并从暖白色柔和地过渡到浅奶油色。使用浅景深，使主体清晰锐利，背景柔和淡化。展现细密的发丝、逼真的皮肤毛孔、自然的体型比例、精致的蕾丝刺绣、细致的牛仔布缝线以及柔和的面料过渡。\n\n风格：极简主义写实风格影棚时尚摄影，模特为东亚成年模特，身穿黑色花卉蕾丝长款胸衣，宽松的浅色牛仔裤，低髻中垂落几缕碎发，侧目向下凝视，双手背在身后，温暖柔和的自然光，干净的白色背景，营造宁静私密的时尚氛围，逼真的肌肤纹理，精致的蕾丝和牛仔布细节，柔和的胶片质感，高分辨率，2:3竖幅比例，无文字、无水印、无logo、无珠宝、无其他人物、无扭曲的人体结构、无夸张的比例、无卡通风格、无强光、无杂物、无裸露镜头。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNlUEtKW0AEf2RL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlUEtJWIAAkSEf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlUEtKWgAAYnjX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNlUEtKWIAAacXE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785290533552,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2078785146812002729",
+      "collectedAt": "2026-07-29T02:02:17.113Z",
+      "githubSyncedAt": "2026-07-29T02:02:17.113Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
