@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:05:59.783Z",
+  "updatedAt": "2026-07-29T02:06:33.447Z",
   "collections": [
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5g1h0b_qboo",
+      "image": "https://pbs.twimg.com/media/HG4XC_5WMAAcm7q?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HG4XC_5WMAAcm7q?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "editorial portrait, Korean female idol, subtly sensual  outfit: silk shirt or soft fabric top, slightly loose, elegant and flowing  pose: body slightly turned away, face partially visible, one hand near collar or neck  expression: soft but unreadable, eyes partially hidden  lighting: strong directional light (window light), casting shadows across face and body  background: dark or minimal interior  composition: partial visibility, half-lit face, shadow covering features  mood: mysterious, intimate, quiet tension  style: cinematic editorial, light and shadow storytelling  sensuality: created through concealment and ambiguity --3:2",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HG4XC_5WMAAcm7q?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1785290788956,
+      "title": "Today's Portrait",
+      "url": "https://x.com/BubbleBrain/status/2048600232577933720",
+      "collectedAt": "2026-07-29T02:06:33.447Z",
+      "githubSyncedAt": "2026-07-29T02:06:33.447Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:3",
       "category": "人像",
