@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:18:33.174Z",
+  "updatedAt": "2026-07-29T07:23:07.708Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "城市",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rci7v_j9d4",
+      "image": "https://pbs.twimg.com/media/HOTeUcxWIAEH-zt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOTeUcxWIAEH-zt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTed3JW0AE8v34?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTeeuDXQAA6zJp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTefokWYAAGTcD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hUMyaYAATlvo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hV9xaUAAe43v?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hWXmbkAAnPhS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hWyJbAAA9m1R?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Made four urban shots with GPT-Image2\nThe shoes hit first, then the long legs, styling, and attitude take over.\nSilver straps, black ankle straps, burgundy pumps, and nude slingbacks — shot in real, everyday city  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTeUcxWIAEH-zt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTed3JW0AE8v34?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTeeuDXQAA6zJp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTefokWYAAGTcD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hUMyaYAATlvo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hV9xaUAAe43v?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hWXmbkAAnPhS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN0hWyJbAAA9m1R?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2082034054388494748",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785309779516,
+      "title": "This low angle makes high heels command the entire frame!",
+      "url": "https://x.com/MrLarus/status/2082034054388494748",
+      "collectedAt": "2026-07-29T07:23:07.707Z",
+      "githubSyncedAt": "2026-07-29T07:23:07.707Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082323053015712163",
       "title": "Burgundy velvet palace fashion portrait",
