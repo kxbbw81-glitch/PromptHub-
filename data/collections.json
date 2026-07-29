@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T04:44:19.433Z",
+  "updatedAt": "2026-07-29T07:08:56.312Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5qudew_9ce5",
+      "image": "https://pbs.twimg.com/media/HOXsdbJbAAAdN_J?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOXsdbJbAAAdN_J?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXse8baoAAnfp0?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "竖版 3:4，单张创意人像图片，真实摄影质感与超现实动画元素结合，不要拼贴，不要四宫格，不要信息图，不要文字。\n\n一位年轻亚洲女性站在傍晚的城市街头，背对镜头后微微回头，身形修长，气质安静高级。她穿一条黑色优雅长裙，裙摆被双手自然轻轻提起展开。人物本身保持真实人像摄影质感，皮肤细腻自然，头发盘起或低扎，整体高级简洁。\n\n最核心的创意是：裙摆内部不是普通布料，而是一整座发光的微缩城市。在黑色裙摆之中，清晰可见夜晚城市的街道、车流、楼宇、窗户灯光、十字路口和高楼之间的纵深感，仿佛一座繁华城市被装进了她的裙子里。裙摆边缘仍然保留真实布料的垂坠感，但内部世界像一个独立的夜景宇宙，灯光温暖、细节丰富、层次分明。\n\n背景是真实但略微虚化的都市街道，冷色傍晚环境，远处有路灯和散景光斑，营造电影感。整体画面要兼具时尚大片气质与超现实想象力，构图干净，人物居中偏下，裙摆成为视觉焦点。风格高级、梦幻、具有故事感。\n\n负面提示词：\n\n不要卡通脸，不要低幼插画感，不要廉价特效，不要畸形手，不要多余人物，不要文字水印，不要夸张科幻机甲感，不要婚纱感，不要杂乱背景。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXsdbJbAAAdN_J?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXse8baoAAnfp0?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2082330631909114151",
+      "tags": [
+        "人像",
+        "插画",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785308933481,
+      "title": "创意人像实验 01｜把一座城市穿在身上",
+      "url": "https://x.com/Adam38363368936/status/2082330631909114151",
+      "collectedAt": "2026-07-29T07:08:56.312Z",
+      "githubSyncedAt": "2026-07-29T07:08:56.312Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
