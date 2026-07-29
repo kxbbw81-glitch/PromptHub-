@@ -15,7 +15,7 @@
 
   // --- Collections (GitHub is the canonical source) ---
   const REMOTE_COLLECTIONS_URL = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
-  const DOMESTIC_COLLECTIONS_URL = '/data/collections.json';
+  const DOMESTIC_COLLECTIONS_URL = '/data/collections.json?v=20260729b';
   const DOMESTIC_HOST = 'prompthub.kxbbw81.workers.dev';
   let collectionsCache = [];
   let collectionsLoading = null;
