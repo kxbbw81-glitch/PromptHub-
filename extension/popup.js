@@ -578,16 +578,23 @@ $('#btn-sync').addEventListener('click', async () => {
       return;
     }
 
-    btn.textContent = '正在同步到网站…';
+    btn.textContent = '正在写入 GitHub 主站…';
     const syncResult = await chrome.runtime.sendMessage({ action: 'syncToWebsite' });
 
     if (syncResult?.success) {
       await updateQueueUI();
+      const savedCount = Number(syncResult.count || 0);
+      const skippedCount = Number(syncResult.skipped || 0);
+      const syncMessage = savedCount > 0
+        ? `已写入 GitHub 主站 ${savedCount} 个提示词`
+        : skippedCount > 0
+          ? `GitHub 主站无新增，${skippedCount} 个提示词已存在`
+          : 'GitHub 主站无新增提示词';
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">✓</div>
           <div class="empty-text" style="font-size:14px;color:#00B894;font-weight:600;">
-            已同步 ${syncResult.count || 0} 个提示词
+            ${syncMessage}
           </div>
         </div>
       `;
@@ -608,12 +615,12 @@ $('#btn-sync').addEventListener('click', async () => {
         </div>
       `;
     } else {
-      showToast(syncResult?.error || 'GitHub Pages 同步失败');
+      showToast(syncResult?.error || 'GitHub 主站写入失败');
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">❌</div>
           <div class="empty-text" style="font-size:14px;color:#e74c3c;font-weight:600;">
-            GitHub Pages 同步失败
+            GitHub 主站写入失败
           </div>
           <div class="empty-hint" style="margin-top:8px;">
             请检查网络连接后重试

@@ -73,8 +73,8 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.5\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.5\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.5\.1\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.5\.1\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
@@ -83,4 +83,9 @@ test('the extension records an image aspect ratio during prompt recognition', ()
   assert.match(popup, /aspectRatio: imageData\.aspectRatio \|\| extractAspectRatio\(promptText\)/);
   assert.match(content, /aspectRatio: imageData\.aspectRatio \|\| extractAspectRatio\(promptText\)/);
   assert.match(background, /aspectRatio: extractAspectRatio\(promptText\)/);
+});
+
+test('the extension reports the GitHub primary-site write result precisely', () => {
+  assert.match(popup, /已写入 GitHub 主站 \$\{savedCount\} 个提示词/);
+  assert.match(popup, /GitHub 主站无新增，\$\{skippedCount\} 个提示词已存在/);
 });
