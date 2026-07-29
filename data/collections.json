@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T04:24:35.981Z",
+  "updatedAt": "2026-07-29T04:30:17.601Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5l6bjo_ancu",
+      "image": "https://pbs.twimg.com/media/HOKAdBkbUAAY-AO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOKAdBkbUAAY-AO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图·镜头：\n竖长 3:4。全身容纳的长镜头。镜头位置略低于腰部，几乎正面，略带仰视角度。人物置于中央略偏右，凳子腿部完全纳入画面。相当于 50mm，抑制畸变，对人物的眼睛和上半身清晰对焦。背景略微柔化，轮廓和服装线条精细解析。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKAdBkbUAAY-AO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785299413236,
+      "title": "坐在木凳上",
+      "url": "https://x.com/CyberTotal2026/status/2081911013407154477",
+      "collectedAt": "2026-07-29T04:30:17.601Z",
+      "githubSyncedAt": "2026-07-29T04:30:17.601Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
