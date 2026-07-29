@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:33:39.692Z",
+  "updatedAt": "2026-07-29T02:36:16.535Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082194382078324772",
+      "image": "https://pbs.twimg.com/media/HOUNthjWMAABWq5?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOUNthjWMAABWq5?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUNthzWgAASVcU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUNthzXwAAabX6?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "一位年轻成年东亚女性坐在半露天温泉会所或森林度假屋的湿润木质露台上，画面从头顶拍至大腿中部。人物位于中央略偏左，身体正面略向画面右侧转动，双腿向前自然弯曲并轻微交叠。上半身微微后靠，双手分别撑在身体左右两侧的湿木地板上，手指自然展开，肩膀放松。她平静直视镜头，神情安静、克制、略带疏离和疲倦感，嘴唇自然微启。 她拥有精致柔和的鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁和低饱和裸粉色嘴唇。妆容极淡，肤色白皙偏暖，保留真实毛孔、细小绒毛、水汽、自然肤色变化和细腻高光，不要塑料磨皮。 深黑色长发完全湿润，自然披散，湿发成束贴在额头、脸颊、颈部、锁骨和肩膀，发梢滴水。少量湿发横过眼睛和面部，保留真实凌乱感。肩膀、手臂和腿部有少量细小水珠。 她仅以厚实纯白色浴巾包裹身体，浴巾从胸口上方横向围住，右侧胸前形成明显打结或折叠固定结构，下摆覆盖至大腿上部。浴巾为不透明棉质毛圈面料，具有真实纤维、吸水后的重量、柔软褶皱和湿润暗部，整体自然含蓄。 环境为日式森林温泉度假屋或木质露台，深棕色木地板被水打湿，存在自然水迹、反光和小片积水；背景有粗壮木柱、木栏杆和大面积玻璃门窗，远处绿色树木柔和虚化。黄金时刻夕阳从画面右后方低角度照入，形成暖金色逆光，勾亮湿发、水珠、肩颈和浴巾边缘，木地板出现长条暖色反光。人物面部使用柔和自然环境补光，整体低饱和、低对比，暖金、深棕、森林绿和奶油白协调。 摄影风格：50mm或85mm人像镜头，f/2，平视略高机位，浅景深，面部和双手清晰，背景柔和散景，真实湿发、皮肤、水珠、毛巾和木材纹理，轻微ISO 400胶片颗粒，柔和高光晕染，Japanese onsen lifestyle editorial，cinematic natural-light portrait，photorealistic。 避免：未成年人特征、裸体、露点、透明浴巾、浴巾滑落、色情姿势、干燥头发、塑料皮肤、过度磨皮、夸张身材、错误手指、融合手臂、畸形腿脚、异常水迹、强HDR、过度锐化、杂乱背景、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUNthjWMAABWq5?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUNthzWgAASVcU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUNthzXwAAabX6?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 指定帖子",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082194382078324772",
+      "tags": [
+        "人像",
+        "日式温泉",
+        "电影感",
+        "ChatGPT Image",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292563078,
+      "title": "日式温泉湿发人像",
+      "url": "https://x.com/ToroJushiAi/status/2082194382078324772",
+      "collectedAt": "2026-07-29T02:36:03.078Z",
+      "githubSyncedAt": "2026-07-29T02:36:03.078Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
