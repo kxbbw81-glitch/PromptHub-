@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:26:19.558Z",
+  "updatedAt": "2026-07-29T07:26:54.484Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rhhc5_eryl",
+      "image": "https://pbs.twimg.com/media/HORwtBkWoAAHvJ2?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HORwtBkWoAAHvJ2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORw-cMXQAAzo8c?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "生成一张 4:5 竖版、目标 1122×1402 像素的独立当代东方女性写真海报。唯一人物是一位 24–30 岁、明确成年的虚构东方女性，自然古典东方侧脸，黑色低盘发，清透淡妆，神情安静而微微沉思。她穿完整的象牙白现代新中式上衣，袖口和下装为低饱和青绿色，盘扣和边缘以细钴蓝收边。画面融合真实人像、蓝白瓷片、青绿山水、宣纸窗面、木刻线、瓷釉开片与旧纸裂纹，形成蓝调时刻的东方版画写真。\n\n时间切片是蓝调时刻，室内刚刚入夜但还没有点灯。人物坐在纸窗边的低木凳上，双手把一盏未点亮的钴蓝青瓷灯放到窗台中央；一只手扶住灯底，另一只手轻轻收回，视线停在灯面和窗外最后一层青绿天光之间。只保留“放下未点亮的灯”这一件小事，肩颈放松，不制造恐怖氛围，不看镜头。\n\n采用大半身三分之二侧面构图，人物位于画面左下方，右上保留约 45% 暖灰宣纸白和半透明纸窗留白。前景焦点是青瓷灯，背景只保留窄幅蓝白瓷片边框、纸窗上的竹影和一块淡青绿远山面板；深色木窗框形成一条竖线，画面主记忆点是“未点亮的灯与最后的天光”。\n\n冷色窗外漫射光从右侧照亮脸侧、手指、青瓷灯釉面和衣料纹理，灯本身不能发光，深色木框暗部保持可读，青绿与钴蓝只作小面积锚点。整体低饱和、克制、沉静而不阴森，保留纸面纤维、瓷釉冷白反光、木刻刀线和细微颗粒。禁止文字、汉字、Logo、水印、恐怖血腥、灯具变形、复杂家具、多人或额外肢体。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HORwtBkWoAAHvJ2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORw-cMXQAAzo8c?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081973424331915658",
+      "tags": [
+        "东方",
+        "版画",
+        "青绿",
+        "人像",
+        "写真"
+      ],
+      "timestamp": 1785310011653,
+      "title": "白天把山折进纸里，夜里把最后一点天光放进青瓷灯",
+      "url": "https://x.com/chenlinspark/status/2081973424331915658",
+      "collectedAt": "2026-07-29T07:26:54.484Z",
+      "githubSyncedAt": "2026-07-29T07:26:54.484Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
