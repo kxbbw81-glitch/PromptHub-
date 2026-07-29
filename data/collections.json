@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:29:10.967Z",
+  "updatedAt": "2026-07-29T07:29:14.718Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rkfku_wu5p",
+      "image": "https://pbs.twimg.com/media/HORvijRa0AEfE5m?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HORvijRa0AEfE5m?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use the attached face reference image as the ONLY facial identity source. Preserve the exact face, facial proportions, eye shape, eyebrows, nose, lips, jawline, skin tone, hairstyle, and overall identity with extremely high accuracy. Do not alter the person's facial identity in any way. Only replace the face with the referenced face while keeping the pose, clothing, composition, and environment exactly as described.\n\nCreate an ultra-realistic full-body portrait of the subject standing beside a textured gray concrete wall, smiling softly while making a peace sign (V-sign) near the face. The subject stands casually with one leg crossed in front of the other, creating a relaxed fashion pose.\n\nBeside the subject, create a life-sized black ink manga illustration of the same girl in the identical pose, also making a peace sign. The manga drawing should appear professionally sketched directly onto the concrete wall. Add cute manga doodles including stars, sparkles, tiny hearts, and comic accent lines surrounding the illustration.\n\nThe subject wears an oversized dark green T-shirt tucked slightly into high-waisted black denim shorts, white crew socks, black-and-white retro sneakers, a delicate necklace, and a small black crossbody bag.\n\nThe manga artwork should feature expressive anime eyes, long flowing hair, clean black ink outlines, pencil sketch textures, detailed cross-hatching, elegant linework, realistic proportions, and subtle shading while perfectly matching the real subject's pose.\n\nSoft natural daylight, realistic concrete texture, cinematic street photography, eye-level angle, 50mm lens, shallow depth of field, photorealistic skin, realistic hair strands, HDR lighting, ultra-sharp focus, editorial fashion photography, whimsical manga mural interaction, masterpiece, 8K, ultra-detailed, premium quality, extremely realistic.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HORvijRa0AEfE5m?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AizaAi12/status/2081911591059255400",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785310149342,
+      "title": "GPT IMAGE 2 on higgesfield",
+      "url": "https://x.com/AizaAi12/status/2081911591059255400",
+      "collectedAt": "2026-07-29T07:29:14.718Z",
+      "githubSyncedAt": "2026-07-29T07:29:14.718Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
