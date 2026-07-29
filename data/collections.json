@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:02:17.113Z",
+  "updatedAt": "2026-07-29T02:05:59.783Z",
   "collections": [
+    {
+      "aspectRatio": "4:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5g0htd_k8zp",
+      "image": "https://pbs.twimg.com/media/HGjcGZLaMAAR5Qi?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HGjcGZLaMAAR5Qi?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjcGZLbEAA6kEb?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjcGZKaEAAQ5mJ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjcGZKbgAAilse?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYawAA5Y18?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYboAAH7Q3?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYb0AAtib6?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYaoAA7166?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "一位女性坐在地铁座位上看向窗外，画面采用从膝部附近向上看的广角透视，保留真实生活化、偶遇抓拍感；车厢灯光冷白，金属扶手与车门形成纵深线条，人物穿日常冬季外套，神情自然，摄影风格写实，浅景深，公共交通纪实感，但不带偷拍或窥视意味。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGjcGZLaMAAR5Qi?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjcGZLbEAA6kEb?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjcGZKaEAAQ5mJ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjcGZKbgAAilse?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYawAA5Y18?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYboAAH7Q3?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYb0AAtib6?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HGjMJEYaoAA7166?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785290743345,
+      "title": "继续测评｜实拍地铁女孩提示词",
+      "url": "https://x.com/ponyodong/status/2047128041982398480",
+      "collectedAt": "2026-07-29T02:05:59.783Z",
+      "githubSyncedAt": "2026-07-29T02:05:59.783Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
