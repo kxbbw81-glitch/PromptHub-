@@ -1,5 +1,7 @@
 # PromptHub UX Architecture
 
+> 状态：历史 UX 参考。采集、同步、可编辑性和已废止功能以 [OPERATING_RULES.md](OPERATING_RULES.md) 为准；本文中关于 `Try / 去生成` 的历史描述已不再生效。
+
 ## 目标
 
 把 BananaPrompts 详情页的核心交互迁移到 PromptHub：用户从探索流进入提示词详情后，可以看图、读结构化提示词、复制、去生成、收藏、点标签继续探索，并能回到来时的上下文。

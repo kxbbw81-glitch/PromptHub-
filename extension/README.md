@@ -1,86 +1,31 @@
-# PromptHub Collector 浏览器插件 v2.7
+# PromptHub 浏览器扩展
 
-一键抓取网页上的 AI 提示词，保存到 PromptHub 收藏库。
+用于从网页识别并收藏 AI 图像提示词。完整运行规则见 [../OPERATING_RULES.md](../OPERATING_RULES.md)。
 
-## v2.7 新特性
+## 当前同步方式
 
-- 🍌 **右键快速收藏** — 在任意网页选中文字，右键 →「🍌 收藏到 PromptHub」
-- 🔍 **智能页面扫描** — 点击插件图标自动扫描当前页面的 AI 提示词
-- 📦 **队列管理** — 收集的提示词暂存在插件队列中，支持批量同步
-- 🔄 **一键同步** — 将队列中的提示词同步到 PromptHub 网站
-- 🎯 **精准识别** — 支持 Midjourney / Stable Diffusion / DALL-E 等格式
-- 🖼️ **自动提取图片** — 智能查找提示词附近的关联图片
-- 🏷️ **自动分类** — 识别提示词主题并自动分类和打标签
-- 🧠 **更稳的识别模块** — 优先识别 `标题 / Prompt / 完整提示词` 等结构化字段，减少 UI 文案混入
-- ⏱️ **固定同步顺序** — 先同步 GitHub Pages，30 分钟后自动同步国内 Workers 站点
-- 🚫 **零干扰** — 不再自动注入浮动按钮，不影响正常浏览
+1. 扩展先将识别完成的内容放入短暂本机队列，避免同时收藏时相互覆盖。
+2. 队列立即自动写入 GitHub 主站的 `data/collections.json`。
+3. 只有 GitHub 返回成功后，扩展才显示“已写入 GitHub 主站”。失败项目保留在队列中重试。
+4. GitHub 主站成功 30 分钟后，GitHub Action 自动将其发布到国内站；正常发布无需用户操作。
 
-## 安装步骤
+本机存储不是收藏数据源，仅保存失败重试队列和用户本机的 GitHub Token。跨设备浏览时，应以主站数据为准。
 
-### Chrome / Edge 安装
+## 安装
 
-1. 打开浏览器，地址栏输入 `chrome://extensions/`（Edge 用户输入 `edge://extensions/`）
-2. 打开右上角的 **开发者模式** 开关
-3. 点击 **加载已解压的扩展程序**
-4. 选择 `extension` 文件夹（即本目录）
-5. 安装完成！浏览器工具栏会出现 🍌 图标
+1. 打开 `chrome://extensions/`（Edge 使用 `edge://extensions/`）。
+2. 开启“开发者模式”。
+3. 点击“加载已解压的扩展程序”。
+4. 选择本 `extension` 文件夹，或从 PromptHub 的导入页面下载当前扩展包。
+5. 在扩展设置中配置拥有仓库 Contents 读写权限的 GitHub Token。
 
-## 使用方法
+## 使用
 
-### 方式一：右键快速收藏
+- 在网页选中文本后使用右键收藏，或打开扩展扫描当前页面。
+- 扩展会过滤短片段、界面文案、重复来源和没有结果媒体的候选项。
+- 识别成功后，会显示 GitHub 主站的实际写入结果；“待同步”仅表示写入失败后等待重试的项目数。
+- X 帖子会保存具体状态页链接，不会把书签列表页当作来源。
 
-1. 在任意网页选中一段提示词文字
-2. 右键 → 点击 **「🍌 收藏到 PromptHub」**
-3. 提示词自动加入待同步队列（插件图标会显示角标提示）
+## 何时需要更新扩展
 
-### 方式二：扫描页面
-
-1. 打开包含 AI 提示词的网页（如 Twitter、Reddit、Civitai 等）
-2. 点击浏览器工具栏的 🍌 插件图标
-3. 插件自动扫描页面，弹窗中列出检测到的所有提示词
-4. 点击 **📋 复制** 复制提示词文本，或点击 **❤️ 收藏** 加入队列
-
-### 同步到网站
-
-1. 收集足够多的提示词后，点击弹窗底部的 **🔄 同步到网站**
-2. 系统先打开 GitHub Pages 版 PromptHub
-3. 提示词自动导入到 GitHub Pages 的「我的收藏」页面
-4. GitHub Pages 写入成功后，队列自动清空
-5. 30 分钟后后台自动同步到国内 Workers 站点
-
-## 支持的网站
-
-- Twitter / X
-- Reddit
-- Discord（网页版）
-- Midjourney 社区
-- Civitai
-- 小红书
-- 任何包含 AI 提示词的网页
-
-## 技术架构
-
-| 文件 | 说明 |
-|------|------|
-| `manifest.json` | MV3 配置，权限：activeTab, storage, scripting, contextMenus |
-| `background.js` | Service Worker，右键菜单 + 队列管理 + 同步逻辑 |
-| `content.js` | 内容脚本，提示词检测 + 扫描响应 + 数据写入 |
-| `popup.html` | 弹窗 UI |
-| `popup.js` | 弹窗逻辑，页面扫描 + 收藏 + 同步 |
-| `icons/` | 4 种尺寸 PNG 图标（16/32/48/128） |
-
-## 数据流
-
-```
-用户操作 → chrome.storage.local 队列 → GitHub Pages localStorage → 收藏库
-         ↑                                                   ↓
-    右键收藏 / 扫描收藏                              app.js 轮询读取
-         ↓
-   GitHub Pages 成功后 → 30 分钟后 → 国内 Workers localStorage
-```
-
-## 网站
-
-主收藏地址：https://kxbbw81-glitch.github.io/PromptHub-/
-
-国内同步地址：https://prompthub.kxbbw81.workers.dev/
+仅当扩展本身的识别、权限、收藏交互、同步协议或扩展内状态文案变更时，才需要安装新的扩展包。主站页面、SEO、数据或国内站发布变更不需要更新扩展。
