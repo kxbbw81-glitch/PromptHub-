@@ -20,6 +20,8 @@ test('builds a public-only Grok search prompt with strict acceptance criteria', 
   assert.match(prompt, /private bookmarks, home timelines/i);
   assert.match(prompt, /specific x\.com/);
   assert.match(prompt, /at most 10 candidates total/);
+  assert.match(prompt, /"schemaVersion":1/);
+  assert.match(prompt, /grok-cli-public-x-search/);
 });
 
 test('the test configuration caps discovery at ten candidates with enough agent turns', () => {
