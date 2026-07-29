@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:26:54.484Z",
+  "updatedAt": "2026-07-29T07:29:10.967Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rkfkt_6mcx",
+      "image": "https://pbs.twimg.com/media/HOWnxagWUAAdYcD?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOWnxagWUAAdYcD?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use the attached face reference image as the ONLY facial identity source. Preserve the exact face, facial proportions, eye shape, nose, lips, jawline, skin tone, hairstyle, and overall identity with extremely high accuracy. Do not change the person's identity or make them look like someone else. Only replace the face with the referenced face while keeping the pose, expression, clothing, composition, and environment exactly as described.\n\nCreate an ultra-realistic full-body portrait of the subject walking beside a plain textured gray concrete wall. The subject is looking over their left shoulder with a surprised yet delighted expression, mouth slightly open, while their right hand is being playfully held and pulled by a life-sized black ink manga girl drawn directly on the wall. The illustrated anime girl appears to step out of the mural, creating a seamless interaction between reality and illustration. Add hand-drawn motion lines around the joined hands and body, along with two small comic-style exclamation marks above the subject's head.\n\nOutfit: cream-colored knitted cardigan worn open over a dark burgundy cropped tank top, olive-green high-waisted cargo pants with oversized side pockets, brown leather belt, cream retro sneakers with gum soles, and a small brown leather shoulder bag.\n\nThe manga illustration should depict a stylish anime girl wearing an open jacket, fitted crop top, loose high-waisted pants, belt, and lace-up boots. Draw the character entirely with clean black ink sketch lines, expressive manga eyes, detailed cross-hatching, flowing hair, confident smile, and dynamic motion. The illustrated hand must align perfectly with the real subject's hand to create the illusion that the drawing is pulling the person forward.\n\nPhotorealistic skin, natural soft makeup, realistic hair strands, soft overcast daylight, subtle shadows, textured concrete wall, cinematic street photography, eye-level angle, 50mm lens, shallow depth of field, ultra-sharp focus, HDR, masterpiece, editorial fashion photography, premium quality, whimsical illusion art, manga mural interaction, highly detailed, 8K, extremely realistic.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOWnxagWUAAdYcD?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AizaAi12/status/2082254979830784074",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785310149341,
+      "title": "Gpt Image 2 | Nano banana 2 | Grok | Gemini",
+      "url": "https://x.com/AizaAi12/status/2082254979830784074",
+      "collectedAt": "2026-07-29T07:29:10.967Z",
+      "githubSyncedAt": "2026-07-29T07:29:10.967Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
