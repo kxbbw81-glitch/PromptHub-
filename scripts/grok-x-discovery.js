@@ -52,7 +52,7 @@ function buildDiscoveryPrompt(config) {
   const signals = config.recognitionSignals.join(', ');
   const excluded = config.excludedSignals.join(', ');
 
-  return `Use only the built-in X Search tool to discover public posts. Do not open, read, or infer any private bookmarks, home timelines, cookies, accounts, or browser state.\n\nSearch window: the last ${config.lookbackDays} days.\nMaximum accepted candidates per query: ${config.maxCandidatesPerQuery}.\nMaximum accepted candidates across this entire run: ${config.maxCandidatesTotal}.\nRecognition signals: ${signals}.\nReject signals: ${excluded}.\n\nQueries:\n${queries}\n\nA candidate is valid only when it has all of the following: (1) a specific x.com/<handle>/status/<id> source URL, (2) a complete reusable image-generation or video-generation prompt of at least ${MIN_PROMPT_LENGTH} characters after removing social/model labels, and (3) a direct HTTPS result image URL, or for video a direct HTTPS poster URL. Skip tutorials, product promotions, incomplete prompts, repost-only content, and posts without result media.\n\nReturn at most ${config.maxCandidatesTotal} candidates total as JSON only, with no Markdown or explanatory prose. Use this exact handoff schema. Do not include githubSyncedAt or domesticSyncedAt:\n{"schemaVersion":1,"generatedAt":"ISO 8601 UTC timestamp","count":1,"producer":"grok-cli-public-x-search","candidates":[{"id":"x_status_id","sourceUrl":"https://x.com/handle/status/id","url":"https://x.com/handle/status/id","domain":"x.com","source":"x_search","title":"short title","prompt":"full prompt only","mediaType":"image or video","images":["https://..."],"image":"https://...","videoPoster":"https://... or empty string","aspectRatio":"4:5 or empty string","category":"category","tags":["tag"],"model":"model or empty string","collectedAt":"ISO 8601 UTC timestamp","signals":["matched signal"]}]}`;
+  return `Use only the built-in X Search tool to discover public posts. Do not open, read, or infer any private bookmarks, home timelines, cookies, accounts, or browser state.\n\nSearch window: the last ${config.lookbackDays} days.\nMaximum accepted candidates per query: ${config.maxCandidatesPerQuery}.\nMaximum accepted candidates across this entire run: ${config.maxCandidatesTotal}.\nRecognition signals: ${signals}.\nReject signals: ${excluded}.\n\nQueries:\n${queries}\n\nA candidate is valid only when it has all of the following: (1) a specific x.com/<handle>/status/<id> source URL, (2) a complete reusable image-generation or video-generation prompt of at least ${MIN_PROMPT_LENGTH} characters after removing social/model labels, and (3) a direct HTTPS result image URL, or for video a direct HTTPS poster URL. Skip tutorials, product promotions, incomplete prompts, repost-only content, and posts without result media.\n\nReturn at most ${config.maxCandidatesTotal} candidates total as JSON only, with no Markdown or explanatory prose. Use this exact handoff schema. Do not include githubSyncedAt or domesticSyncedAt:\n{"schemaVersion":1,"generatedAt":"ISO 8601 UTC timestamp","count":1,"producer":"grok-cli-public-x-search","candidates":[{"id":"x_status_id","sourceUrl":"https://x.com/handle/status/id","url":"https://x.com/handle/status/id","domain":"x.com","source":"x_search","title":"short title","prompt":"full prompt only","mediaType":"image or video","images":["https://..."],"image":"https://...","videoPoster":"https://... or empty string","videoUrl":"https://...mp4 or empty string","aspectRatio":"4:5 or empty string","category":"category","tags":["tag"],"model":"model or empty string","collectedAt":"ISO 8601 UTC timestamp","signals":["matched signal"]}]}`;
 }
 
 function findJsonCandidate(value) {
@@ -122,6 +122,7 @@ function validateCandidate(candidate) {
   const imageUrls = [...new Set(rawImageUrls.filter(isHttpsUrl))];
   const mediaType = candidate.mediaType === 'video' ? 'video' : 'image';
   const videoPoster = isHttpsUrl(candidate.videoPoster) ? candidate.videoPoster : '';
+  const videoUrl = isHttpsUrl(candidate.videoUrl) ? candidate.videoUrl : '';
 
   if (!X_STATUS_URL.test(sourceUrl)) return { valid: false, reason: 'missing concrete X status URL' };
   if (prompt.length < MIN_PROMPT_LENGTH) return { valid: false, reason: 'prompt shorter than 160 characters' };
@@ -136,6 +137,7 @@ function validateCandidate(candidate) {
       imageUrls: [...new Set(imageUrls)],
       mediaType,
       videoPoster,
+      videoUrl,
       title: normalizeText(candidate.title) || firstPromptLine(prompt),
       category: normalizeText(candidate.category) || (mediaType === 'video' ? '视频' : '图像'),
       tags: Array.isArray(candidate.tags) ? candidate.tags.map(normalizeText).filter(Boolean).slice(0, 8) : [],
@@ -173,7 +175,7 @@ function toCollection(candidate, now = new Date().toISOString()) {
     aspectRatio: candidate.aspectRatio,
     model: candidate.model,
     mediaType: candidate.mediaType,
-    ...(candidate.mediaType === 'video' ? { videoPoster: candidate.videoPoster || images[0], videoSourceUrl: candidate.sourceUrl } : {}),
+    ...(candidate.mediaType === 'video' ? { videoPoster: candidate.videoPoster || images[0], videoSourceUrl: candidate.videoUrl || candidate.sourceUrl } : {}),
     source: 'Grok X 公开搜索',
     sourceUrl: candidate.sourceUrl,
     url: candidate.sourceUrl,

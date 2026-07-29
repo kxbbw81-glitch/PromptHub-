@@ -39,6 +39,7 @@ Return JSON only, without Markdown or explanatory prose:
       ],
       "image": "https://pbs.twimg.com/media/example?format=jpg&name=large",
       "videoPoster": "",
+      "videoUrl": "",
       "aspectRatio": "4:5",
       "category": "人像",
       "tags": ["cinematic", "portrait"],
@@ -51,7 +52,8 @@ Return JSON only, without Markdown or explanatory prose:
 ```
 
 For `mediaType: "video"`, `images` may be empty only when `videoPoster`
-is a direct HTTPS poster URL. For images, `images` must contain at least one
+is a direct HTTPS poster URL. Provide `videoUrl` when a direct HTTPS video URL
+is available. For images, `images` must contain at least one
 direct HTTPS result image URL.
 
 `imageUrls` is accepted as a backwards-compatible alias for `images`. Grok

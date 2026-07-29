@@ -40,6 +40,22 @@ test('accepts the official handoff images and image fields', () => {
   assert.deepEqual(result.accepted[0].images, ['https://pbs.twimg.com/media/official.jpg?format=jpg&name=large']);
 });
 
+test('keeps a direct video URL and poster for video-only collections', () => {
+  const result = discovery.acceptCandidates([{
+    sourceUrl: 'https://x.com/example/status/901',
+    prompt: COMPLETE_PROMPT,
+    mediaType: 'video',
+    images: [],
+    videoPoster: 'https://pbs.twimg.com/amplify_video_thumb/example.jpg',
+    videoUrl: 'https://video.twimg.com/amplify_video/example.mp4',
+    category: '视频'
+  }], [], '2026-07-29T10:00:00.000Z');
+
+  assert.equal(result.accepted.length, 1);
+  assert.equal(result.accepted[0].videoPoster, 'https://pbs.twimg.com/amplify_video_thumb/example.jpg');
+  assert.equal(result.accepted[0].videoSourceUrl, 'https://video.twimg.com/amplify_video/example.mp4');
+});
+
 test('the test configuration caps discovery at ten candidates with enough agent turns', () => {
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, '../config/grok-x-discovery.json'), 'utf8'));
   assert.equal(config.maxCandidatesTotal, 10);
