@@ -139,6 +139,14 @@
     return value.length >= 40 && promptScore(value) >= 3;
   }
 
+  function isCompletePrompt(text) {
+    const value = cleanText(text);
+    if (value.length < 160 || promptScore(value) < 3) return false;
+
+    // Collapsed social posts commonly end mid-clause. Keep those out of the library.
+    return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
+  }
+
   function extractLabeledPrompt(lines) {
     let start = -1;
     let inline = '';
@@ -296,6 +304,7 @@
     extractImageUrls,
     parsePromptText,
     looksLikePrompt,
+    isCompletePrompt,
     isGenericTitle,
     titleLooksLikePrompt
   };

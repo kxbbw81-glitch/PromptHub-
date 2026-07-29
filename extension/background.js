@@ -257,16 +257,31 @@ async function addToQueue(item) {
   const safeItem = sanitizeRemoteItem(item);
   if (!safeItem) throw new Error('Invalid prompt item');
 
-  return withQueueLock(async () => {
+  if (!isCompleteCollectionItem(safeItem)) {
+    return { success: false, error: '提示词不完整、缺少结果图，或无法定位原帖，未收藏' };
+  }
+
+  const queued = await withQueueLock(async () => {
     const queue = await getQueue();
     const fingerprint = collectionFingerprint(safeItem);
-    if (queue.some(entry => collectionFingerprint(entry) === fingerprint)) {
+    const sourceKey = collectionSourceKey(safeItem);
+    if (queue.some(entry => collectionFingerprint(entry) === fingerprint || (sourceKey && collectionSourceKey(entry) === sourceKey))) {
       return { success: true, count: queue.length, alreadyQueued: true };
     }
 
     await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, safeItem] });
     return { success: true, count: queue.length + 1 };
   });
+
+  try {
+    const syncResult = await queueAutomaticPrimarySync();
+    if (!syncResult?.success) {
+      return { success: false, queued: true, error: syncResult?.error || '已暂存本地，但 GitHub 主站写入失败' };
+    }
+    return { ...queued, githubSynced: true, syncedCount: syncResult.count || 0 };
+  } catch (error) {
+    return { success: false, queued: true, error: error?.message || '已暂存本地，但 GitHub 主站写入失败' };
+  }
 }
 
 async function getQueue() {
@@ -552,6 +567,14 @@ async function syncToWebsiteLegacy() {
 
 // --- 后台延迟同步到 Cloudflare Workers ---
 let activeQueueSync = null;
+let automaticPrimarySync = Promise.resolve();
+
+function queueAutomaticPrimarySync() {
+  automaticPrimarySync = automaticPrimarySync
+    .catch(() => undefined)
+    .then(() => syncToWebsite());
+  return automaticPrimarySync;
+}
 
 async function syncToWebsite() {
   if (activeQueueSync) return activeQueueSync;
@@ -677,6 +700,34 @@ function collectionFingerprint(item) {
     .trim();
 }
 
+function collectionSourceKey(item) {
+  const rawUrl = trimText(item?.sourceUrl || item?.url, 2048);
+  if (!/^https:\/\//i.test(rawUrl)) return '';
+
+  try {
+    const parsed = new URL(rawUrl);
+    const hostname = parsed.hostname.toLowerCase().replace(/^www\./, '');
+    const statusMatch = hostname === 'x.com' && parsed.pathname.match(/^\/([^/]+)\/status\/(\d+)/i);
+    if (statusMatch) return `x:${statusMatch[1].toLowerCase()}:${statusMatch[2]}`;
+    if (hostname === 'x.com') return '';
+    return `${hostname}${parsed.pathname.replace(/\/$/, '')}`;
+  } catch {
+    return '';
+  }
+}
+
+function isCompleteCollectionItem(item) {
+  const prompt = trimText(item?.prompt, 30000);
+  const parserComplete = globalThis.PromptHubParser?.isCompletePrompt;
+  const isComplete = typeof parserComplete === 'function'
+    ? parserComplete(prompt)
+    : prompt.length >= 160 && !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(prompt);
+
+  if (!isComplete) return false;
+  if (!Array.isArray(item?.images) || item.images.length === 0) return false;
+  return Boolean(collectionSourceKey(item));
+}
+
 function sanitizeRemoteItem(item) {
   if (!item || typeof item !== 'object') return null;
   const id = trimText(item.id, 120);
@@ -689,6 +740,8 @@ function sanitizeRemoteItem(item) {
     .map(url => trimText(url, 2048))
     .filter(url => /^https:\/\//i.test(url)))]
     .slice(0, 12);
+
+  const sourceCandidate = trimText(item.sourceUrl || item.url, 2048);
 
   return {
     ...item,
@@ -704,7 +757,7 @@ function sanitizeRemoteItem(item) {
     aspectRatio: trimText(item.aspectRatio, 32),
     model: trimText(item.model, 100),
     source: trimText(item.source, 100),
-    sourceUrl: /^https:\/\//i.test(trimText(item.sourceUrl, 2048)) ? trimText(item.sourceUrl, 2048) : '',
+    sourceUrl: /^https:\/\//i.test(sourceCandidate) ? sourceCandidate : '',
     date: /^\d{4}-\d{2}-\d{2}$/.test(String(item.date || '')) ? item.date : new Date().toISOString().slice(0, 10)
   };
 }
@@ -820,6 +873,9 @@ async function mutateGitHubCollections(operation, item) {
   const token = await getGitHubToken();
   const safeItem = operation === 'delete' ? { id: trimText(item?.id, 120) } : sanitizeRemoteItem(item);
   if (!safeItem?.id) return { success: false, error: '收藏数据不完整' };
+  if (operation === 'create' && !isCompleteCollectionItem(safeItem)) {
+    return { success: false, error: '提示词不完整、缺少结果图，或无法定位原帖，未收藏' };
+  }
 
   for (let attempt = 0; attempt < 3; attempt++) {
     const snapshot = await readGitHubCollections(token);
@@ -836,8 +892,10 @@ async function mutateGitHubCollections(operation, item) {
       }
     } else if (operation === 'create') {
       const duplicate = collections.find(entry => collectionFingerprint(entry) === collectionFingerprint(safeItem));
-      if (index !== -1 || duplicate) {
-        return { success: true, count: 0, alreadySaved: true, duplicateId: (collections[index] || duplicate).id };
+      const sourceKey = collectionSourceKey(safeItem);
+      const sameSource = sourceKey && collections.find(entry => collectionSourceKey(entry) === sourceKey);
+      if (index !== -1 || duplicate || sameSource) {
+        return { success: true, count: 0, alreadySaved: true, duplicateId: (collections[index] || duplicate || sameSource).id };
       }
       collections.unshift({ ...safeItem, collectedAt: now, githubSyncedAt: now, domesticSyncedAt: null });
       releaseIds.push(safeItem.id);
@@ -876,13 +934,16 @@ async function mutateGitHubCollections(operation, item) {
 
 async function syncQueueToGitHub(queue) {
   const queueEntries = Array.isArray(queue) ? queue : [];
-  const seen = new Set();
+  const seenFingerprints = new Set();
+  const seenSources = new Set();
   const entries = queueEntries
     .map(sanitizeRemoteItem)
     .filter(item => {
       const fingerprint = collectionFingerprint(item);
-      if (!fingerprint || seen.has(fingerprint)) return false;
-      seen.add(fingerprint);
+      const sourceKey = collectionSourceKey(item);
+      if (!isCompleteCollectionItem(item) || !fingerprint || seenFingerprints.has(fingerprint) || seenSources.has(sourceKey)) return false;
+      seenFingerprints.add(fingerprint);
+      seenSources.add(sourceKey);
       return true;
     });
 
@@ -893,7 +954,8 @@ async function syncQueueToGitHub(queue) {
     const snapshot = await readGitHubCollections(token);
     const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
     const savedFingerprints = new Set(collections.map(collectionFingerprint));
-    const additions = entries.filter(entry => !savedFingerprints.has(collectionFingerprint(entry)));
+    const savedSources = new Set(collections.map(collectionSourceKey).filter(Boolean));
+    const additions = entries.filter(entry => !savedFingerprints.has(collectionFingerprint(entry)) && !savedSources.has(collectionSourceKey(entry)));
     const skipped = entries.length - additions.length;
 
     if (additions.length === 0) return { success: true, count: 0, skipped };

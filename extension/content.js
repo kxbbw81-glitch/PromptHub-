@@ -298,6 +298,20 @@
     return imageData.images[0] || '';
   }
 
+  function findPostUrl(el) {
+    const article = el.closest('article') || el.closest('[data-testid="tweet"]');
+    const link = [...(article?.querySelectorAll('a[href*="/status/"]') || [])]
+      .map(anchor => anchor.href)
+      .find(href => /\/status\/\d+$/.test(href));
+    return link || location.href;
+  }
+
+  function isCompleteCandidate(text) {
+    const value = String(text || '').trim();
+    if (value.length < 160) return false;
+    return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
+  }
+
   // --- 提取标题 ---
   function extractTitle(text, el) {
     // 尝试从前一个标题元素获取
@@ -352,7 +366,7 @@
         pageTitle: document.title
       });
 
-      if (isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) {
+      if ((isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) && isCompleteCandidate(parsed?.prompt || text)) {
         seen.add(text);
 
         const promptText = parsed?.prompt || text;
@@ -372,8 +386,9 @@
           image,
           images,
           aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
-          url: location.href,
-          domain: location.hostname,
+          url: findPostUrl(el),
+          sourceUrl: findPostUrl(el),
+          domain: new URL(findPostUrl(el)).hostname,
           source: '插件扫描',
           date: new Date().toISOString().slice(0, 10),
           timestamp: Date.now()

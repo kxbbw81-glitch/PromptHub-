@@ -67,7 +67,8 @@ function prompt(id, body) {
     tags: ['cinematic'],
     image: 'https://example.com/image.jpg',
     images: ['https://example.com/image.jpg'],
-    url: 'https://example.com/post',
+    url: `https://example.com/post/${id}`,
+    sourceUrl: `https://example.com/post/${id}`,
     domain: 'example.com',
     source: 'test',
     date: '2026-07-28',
@@ -75,17 +76,31 @@ function prompt(id, body) {
   };
 }
 
-test('concurrent collections are queued locally and committed to GitHub in one batch', async () => {
+test('concurrent collections are saved locally before automatic GitHub primary sync', async () => {
   const { context, remote, storage } = createHarness();
-  const first = prompt('first', 'a cinematic studio portrait with soft light');
-  const second = prompt('second', 'a detailed editorial fashion portrait in daylight');
+  const first = prompt('first', 'A cinematic studio portrait of an adult woman with soft window light, natural skin texture, a dark tailored jacket, editorial composition, 85mm lens, shallow depth of field, subtle film grain, detailed shadows, photorealistic finish, no text, no logo, no watermark.');
+  const second = prompt('second', 'A detailed editorial fashion portrait in daylight with a full-body pose, modern architecture, clean styling, soft reflected light, realistic fabric texture, a 50mm lens, balanced composition, high-end magazine photography, photorealistic finish, no text, no watermark.');
 
-  await Promise.all([context.addToQueue(first), context.addToQueue(second)]);
-  assert.equal(storage.prompthub_queue.length, 2);
+  const results = await Promise.all([context.addToQueue(first), context.addToQueue(second)]);
 
-  const result = await context.syncToWebsite();
-  assert.deepEqual({ success: result.success, count: result.count, skipped: result.skipped }, { success: true, count: 2, skipped: 0 });
-  assert.equal(remote.putCalls, 1);
+  assert.ok(results.every(result => result.success && result.githubSynced));
+  assert.ok(remote.putCalls >= 1);
   assert.deepEqual(remote.collections.map(item => item.id), ['second', 'first']);
   assert.equal(storage.prompthub_queue, undefined);
+});
+
+test('incomplete prompts and duplicate source posts never reach the primary site', async () => {
+  const { context, remote } = createHarness();
+  const complete = prompt('complete', 'A cinematic editorial portrait of an adult woman standing in a quiet modern gallery, soft directional daylight, tailored black coat, realistic fabric texture, 85mm lens, shallow depth of field, gentle shadows, refined color palette, high-end magazine photography, photorealistic finish, no text, no watermark.');
+  const samePost = { ...complete, id: 'same-post', prompt: `${complete.prompt} Additional styling notes.`, title: 'Same source' };
+  const incomplete = prompt('incomplete', 'A cinematic portrait with soft light,');
+
+  const first = await context.addToQueue(complete);
+  const duplicate = await context.addToQueue(samePost);
+  const rejected = await context.addToQueue(incomplete);
+
+  assert.equal(first.githubSynced, true);
+  assert.equal(duplicate.githubSynced, true);
+  assert.equal(rejected.success, false);
+  assert.deepEqual(remote.collections.map(item => item.id), ['complete']);
 });

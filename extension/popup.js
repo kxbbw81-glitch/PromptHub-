@@ -324,6 +324,20 @@ const SCAN_FUNCTION = () => {
     return '未命名提示词';
   }
 
+  function findPostUrl(el) {
+    const article = el.closest('article') || el.closest('[data-testid="tweet"]');
+    const link = [...(article?.querySelectorAll('a[href*="/status/"]') || [])]
+      .map(anchor => anchor.href)
+      .find(href => /\/status\/\d+$/.test(href));
+    return link || location.href;
+  }
+
+  function isCompleteCandidate(text) {
+    const value = String(text || '').trim();
+    if (value.length < 160) return false;
+    return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
+  }
+
   const prompts = [];
   const seen = new Set();
   const sels = [
@@ -345,7 +359,7 @@ const SCAN_FUNCTION = () => {
       pageTitle: document.title
     });
 
-    if (isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) {
+    if ((isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) && isCompleteCandidate(parsed?.prompt || text)) {
       seen.add(text);
         const imageData = findImgs(el);
         const promptText = parsed?.prompt || text;
@@ -358,8 +372,9 @@ const SCAN_FUNCTION = () => {
         image: imageData.images[0] || '',
         images: imageData.images,
         aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
-        url: location.href,
-        domain: location.hostname,
+        url: findPostUrl(el),
+        sourceUrl: findPostUrl(el),
+        domain: new URL(findPostUrl(el)).hostname,
         source: '插件扫描',
         date: new Date().toISOString().slice(0, 10),
         timestamp: Date.now()
@@ -432,7 +447,7 @@ function renderPrompts(prompts) {
         result = { success: false, error: error?.message || '收藏失败，请稍后重试' };
       }
       if (result?.success) {
-        btn.textContent = result.alreadyQueued ? '✓ 已在队列' : '✓ 已收藏';
+        btn.textContent = result.githubSynced ? '✓ 已写入主站' : result.alreadyQueued ? '✓ 已在队列' : '✓ 已收藏';
         btn.classList.add('mini-btn-collected');
         await updateQueueUI();
         return;
@@ -472,6 +487,18 @@ $('#btn-scan').addEventListener('click', async () => {
       $('#content').innerHTML = '<div class="status"><div class="status-icon">⚠️</div>浏览器内置页面无法扫描</div>';
       return;
     }
+
+    // Expand collapsed social posts before extracting their complete prompt text.
+    await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: async () => {
+        const buttons = [...document.querySelectorAll('button, [role="button"]')];
+        buttons
+          .filter(button => /^(show more|显示更多|展开)$/i.test((button.textContent || '').trim()))
+          .forEach(button => button.click());
+        await new Promise(resolve => setTimeout(resolve, 350));
+      }
+    });
 
     // 注入扫描函数
     const results = await chrome.scripting.executeScript({

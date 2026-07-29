@@ -73,8 +73,8 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.5\.1\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.5\.1\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.6\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.6\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
