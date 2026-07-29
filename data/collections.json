@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T03:06:47.869Z",
+  "updatedAt": "2026-07-29T03:10:06.927Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5ib5b1_53o2",
+      "image": "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMsO_9XcAAxsc2?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n生成一张独立的 4:5 竖版新中式女性 fashion editorial 摄影海报。人物为明确成年的 20–30 岁虚构东亚女性，成熟、克制、自信，古典自然脸型与真实皮肤，低盘发配一枚极简玉簪，不使用繁复宫廷头饰。极简新中式室内，背景是一面大面积墨黑圆形漆屏，旁边只有一只高挑青瓷瓶与一枝白玉兰，墨色圆屏、白花和人物共同构成强烈但干净的视觉锚点。服装从传统长裙发散为现代新中式：象牙白立领结构上衣、低饱和玉绿色高腰阔腿裤、极淡桃色窄腰带，面料高级，有少量香槟金暗纹，无暴露设计。人物全身或接近全身，站在画面右侧，身体形成轻微 S 形但姿态自然；一只手轻轻整理袖口，另一只手放松垂于身体另一侧，两手空间分离、关节清楚，不交叠。50–85mm 镜头，平视，浅景深，来自左上方的大面积窗光形成明确方向，漆屏吸收暗部，白玉兰和面部被柔和点亮，象牙白、墨黑、玉绿与极淡桃色构成现代东方低饱和配色，40% 留白，奢侈品广告与文化 editorial 的交界感。无文字、无 logo、无水印；避免古装影楼感、仙侠、现代办公家具、过度极简到空洞、塑料皮肤、模特假脸、夸张姿势、手部交叠、额外手臂、多手多指、错误肢体连接。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMsO_9XcAAxsc2?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "东方",
+        "海报",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785294599581,
+      "title": "汉服换成裤装，东方气质还在",
+      "url": "https://x.com/chenlinspark/status/2082141535056048180",
+      "collectedAt": "2026-07-29T03:10:06.927Z",
+      "githubSyncedAt": "2026-07-29T03:10:06.927Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "动物",
