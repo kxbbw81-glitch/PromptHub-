@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:23:15.645Z",
+  "updatedAt": "2026-07-29T07:23:25.337Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rd0x0_4bzh",
+      "image": "https://pbs.twimg.com/media/HOUXjp2bwAA8TGE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUXjp2bwAA8TGE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUXjqGa4AAwfWM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUXvjzbgAAz2xG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUXvkZbUAEcBzJ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a photorealistic editorial portrait.\n\nFull-body portrait, worm's-eye view, left profile view\n\nA 20s seductive stunning Japanese or Korean woman, Sexy tall slim-curvy silhouette, 94-58-92 body proportion anchor, narrow defined waist, rounded hips, flat abdomen.\n\nShe has her head naturally facing the camera, and presents a squatting pose.\n\nIn Soho street corner, pub frontage reflections, turning wall.\n\nsmartphone HDR JPEG rendering, automatic exposure balance.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUXjp2bwAA8TGE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUXjqGa4AAwfWM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUXvjzbgAAz2xG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUXvkZbUAEcBzJ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082096611308843051",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785309803748,
+      "title": "Gpt Image 2 & Grok Imagine Quality mode",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082096611308843051",
+      "collectedAt": "2026-07-29T07:23:25.337Z",
+      "githubSyncedAt": "2026-07-29T07:23:25.337Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
