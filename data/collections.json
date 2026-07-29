@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:22:09.507Z",
+  "updatedAt": "2026-07-29T02:25:49.211Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -779,36 +779,6 @@
       "timestamp": 1785291573518,
       "title": "GPT Image 2 on ChatGPT 光从纸窗漫进来，什么也没发生，又好像什么都发生了",
       "url": "https://x.com/ToroJushiAi/status/2074169969429111183",
-      "collectedAt": "2026-07-29T02:19:33.516Z",
-      "githubSyncedAt": "2026-07-29T02:19:33.516Z",
-      "domesticSyncedAt": null
-    },
-    {
-      "aspectRatio": "16:9",
-      "category": "人像",
-      "date": "2026-07-29",
-      "domain": "x.com",
-      "id": "codex_x_2073450347167944992",
-      "image": "https://pbs.twimg.com/media/HMZgCoNaoAEMc2p?format=jpg&name=large",
-      "images": [
-        "https://pbs.twimg.com/media/HMZgCoNaoAEMc2p?format=jpg&name=large"
-      ],
-      "model": "ChatGPT Image",
-      "prompt": "如下： 【文章内容】 --- 围绕内容主题，生成一组 10个汉字以内字形图标，矩阵排列，16:9横版构图，留白克制。 一个大号黑体汉字，主题相关形体替代或嵌入局部笔画，字下配极小号灰色索引文字。",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HMZgCoNaoAEMc2p?format=jpg&name=large"
-      ],
-      "referenceImages": [],
-      "source": "Codex 自动收集 · X 全部书签",
-      "sourceUrl": "https://x.com/vista8/status/2073450347167944992",
-      "tags": [
-        "人像",
-        "X 自动收集",
-        "ChatGPT Image"
-      ],
-      "timestamp": 1785291573518,
-      "title": "一整篇文章丢过去，让Codex或ChatGPT生图解读",
-      "url": "https://x.com/vista8/status/2073450347167944992",
       "collectedAt": "2026-07-29T02:19:33.516Z",
       "githubSyncedAt": "2026-07-29T02:19:33.516Z",
       "domesticSyncedAt": null
