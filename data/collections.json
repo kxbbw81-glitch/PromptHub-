@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:54:47.596Z",
+  "updatedAt": "2026-07-29T11:55:03.875Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms612dgt_e718",
+      "image": "https://pbs.twimg.com/media/HOTFQZRbgAAIu1O?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOTFQZRbgAAIu1O?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成一张真实摄影与手绘涂鸦结合的竖版照片。\n\n一位年轻成年东亚女性站在阳光照射的极简墙面或现代建筑空间中，严格保留参考人物的脸型、五官比例、自然肤色、长直黑发和刘海，人物身份清晰稳定。她穿宽松白色上衣、休闲衬衫、阔腿工装裤和运动鞋，整体为自然随性的日常街头穿搭，不出现品牌、Logo或文字。\n\n人物本人表面上站得比较安静，双手插兜或轻松靠墙，但表情要明显更调皮、机灵：\n\n微微挑眉\n\n眼神斜看旁边的涂鸦\n\n嘴角带一点忍笑或得意\n\n偶尔做出疑惑、嫌弃、憋笑、偷偷使坏的神态\n\n不要每张都直视镜头，不要只有同一种眼神\n\n墙面、地面或人物影子位置出现一位与她外形相呼应的黑色铅笔涂鸦小人。涂鸦像她隐藏起来的另一面，动作比真人夸张很多，可以跳起来、伸舌头、举双手比耶、踢腿、张牙舞爪、偷偷恶作剧，周围加入手绘问号、星星、爱心、感叹号和运动线。\n\n涂鸦需要自然融入墙面纹理与真实光影，像被阳光投射出来的“第二人格”，而不是后期贴纸。真人与涂鸦之间要有明确互动，例如互相指手指、偷偷对视、涂鸦在背后搞怪、真人假装没看见。\n\n整体效果：\n\n真实手机或生活方式摄影，温暖自然阳光，清晰墙面纹理，柔和肤质，真实毛孔，正常身体比例，轻松、俏皮、带一点反差喜剧感。人物表情自然灵动，不僵硬、不诡异，不过度磨皮，不做网红塑料脸。\n\n画幅：4:5竖版，单张独立成图，不是拼图，不是四宫格。\n\n禁止：\n\n水印、平台界面、账号名、品牌Logo、乱码文字、重复人物、多余手指、畸形肢体、怪异眼神、僵硬笑容、过度性感、夸张身材、卡通化真人脸、明显AI贴图感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTFQZRbgAAIu1O?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/you1873118/status/2082005825237962801",
+      "tags": [
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785326102957,
+      "title": "X 上的 serein ｜买美股上币安：“重新让 ChatGPT",
+      "url": "https://x.com/you1873118/status/2082005825237962801",
+      "collectedAt": "2026-07-29T11:55:03.875Z",
+      "githubSyncedAt": "2026-07-29T11:55:03.875Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
