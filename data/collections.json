@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:23:25.337Z",
+  "updatedAt": "2026-07-29T07:26:19.558Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rgqm0_3a5p",
+      "image": "https://pbs.twimg.com/media/HOKTbRDXsAAmEU9?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HOKTbRDXsAAmEU9?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKTbRlXoAENrrv?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKTbRCWoAAGwNB?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKTbRKWUAAyZwL?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性坐在英国巴斯古罗马浴场的古老石质池沿上，画面从头顶拍至小腿附近。人物位于中央略偏左，身体背向镜头并侧向画面右侧，臀部坐在粗糙石台上；左腿向前弯曲抬起，膝盖形成明显三角形轮廓，右腿折叠在后方并部分被身体遮挡。右手向后撑在石台上支撑身体，左手也自然落在身侧石面。她从左肩上方回头看向镜头，头部微微下压，神情平静、克制、优雅，嘴唇自然微启。\n\n她有精致鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁和裸玫瑰色嘴唇。妆容清淡精致，肤色暖白，保留真实毛孔、细小绒毛、自然肤色变化和阳光高光，不要塑料磨皮。深棕黑色头发松散盘成略凌乱的低发髻，额前、耳侧和颈后有湿润碎发，少量发丝贴在脸颊和肩部。佩戴小巧金色耳环。\n\n她穿一件古铜金色或暖棕金色高级丝质吊带礼服，极细肩带，大面积低垂露背，背部布料自然堆叠，裙身贴合腰臀，布面带细密金属亮片、刺绣或闪光织纹；裙摆在腿部形成自然褶皱，整体复古、奢华、含蓄。\n\n背景为真实的巴斯古罗马浴场庭院：乳黄色古老石墙、拱廊、圆柱、雕像栏杆和中央远处高耸的哥特式修道院塔楼。石台和池沿有明显风化、裂纹和粗糙纹理。背景建筑清晰但略柔化，空间深远，少量壁灯在拱廊中发出暖光。\n\n黄金时刻夕阳从画面右上方低角度照入，照亮人物脸侧、肩背、腿部和金色礼服，在建筑表面形成温暖高光与长阴影。整体低饱和、暖金、古石灰、深棕和自然肤色调，电影感强但不夸张。\n\n摄影风格：35mm或50mm镜头，低机位略微仰拍，f/2.8，中浅景深，人物清晰，建筑可辨认，真实石材、皮肤和丝织物纹理，轻微ISO 400胶片颗粒，柔和高光晕染，cinematic editorial portrait，photorealistic。\n\n避免：现代泳池、错误建筑、正面坐姿、错误腿部结构、错误回眸方向、过度裸露、透明礼服、夸张身材、塑料皮肤、错误手指、畸形腿脚、强HDR、过度锐化、卡通、CG、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKTbRDXsAAmEU9?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKTbRlXoAENrrv?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKTbRCWoAAGwNB?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKTbRKWUAAyZwL?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082284979820880226",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "摄影",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1785309977017,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2082284979820880226",
+      "collectedAt": "2026-07-29T07:26:19.558Z",
+      "githubSyncedAt": "2026-07-29T07:26:19.558Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
