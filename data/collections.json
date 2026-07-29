@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:38:44.328Z",
+  "updatedAt": "2026-07-29T09:01:17.289Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5uuuo7_tukd",
+      "image": "https://pbs.twimg.com/media/HOUPNrDXUAAjgKL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUPNrDXUAAjgKL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUPNrPXwAA9N7B?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUPNrKWgAAdRjJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUPNraXUAABnwj?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性坐在复古东方风格室内的藤编木扶手椅上，画面从头顶拍至膝部附近。人物位于中央略偏右，身体微微侧向画面左侧，腰背自然挺直，右臂横向放松搭在腿部，右手自然垂落于膝侧；左臂弯曲，手肘支撑在椅子扶手上，左手轻轻捏住颈前长围巾。头部转向画面左侧，视线看向窗外远处，不直视镜头，神情平静、自信、克制，嘴角带极轻微柔和笑意。\n\n她拥有精致偏长的鹅蛋脸、清晰柔和的下颌线、杏仁形深棕眼睛、自然细眉、挺直鼻梁和低饱和裸玫瑰色嘴唇。妆容清淡精致，保留自然睫毛、细眼线、暖棕眼影和柔和珊瑚腮红。肤色暖白偏小麦色，保留真实毛孔、细小绒毛、自然肤色变化和细腻皮脂高光，不要塑料磨皮。\n\n深棕黑色长发自然披散，带松散大波浪和轻微凌乱感，大部分垂落在左肩、背部与胸前，保留真实发丝层次、重量感和少量碎发。\n\n她穿浅鼠尾草绿、灰绿色或淡玉石色修身长裙，细肩带或无袖方领结构，面料为柔软真丝或哑光缎面，带低饱和手绘植物花卉纹样。裙身贴合自然腰臀，腿部形成柔和褶皱。搭配同花色长围巾，从颈部自然垂落至腿部，布料轻盈、有真实垂坠感。\n\n背景为高级东方复古室内：木质花格屏风、藤编木椅、深色木柜，两只大型奶油白陶瓷罐分别置于人物左右后方；左侧有白色半透明窗帘和柔和自然窗光，窗外绿色植物轻微可见。整体色调低饱和、低对比，以鼠尾草绿、暖木色、奶油白、自然肤色组成。\n\n摄影风格：85mm人像镜头，f/2，平视略高机位，浅景深，面部和手部清晰，背景轻柔虚化，真实皮肤、头发、真丝、藤编、木材和陶瓷纹理，轻微ISO 200胶片颗粒，东方复古时尚编辑人像，photorealistic。\n\n避免：直视镜头、夸张表情、浓妆、塑料皮肤、过度磨皮、透明服装、错误手指、畸形手臂、围巾穿模、背景杂乱、强HDR、过度锐化、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUPNrDXUAAjgKL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUPNrPXwAA9N7B?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUPNrKWgAAdRjJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUPNraXUAABnwj?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082254782551482577",
+      "tags": [
+        "photorealistic",
+        "东方",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785315674311,
+      "title": "(1) X 上的 ToroJushiAi：“Prompt ⬇️⬇️⬇️ https://t.co/ENmhk81rie”",
+      "url": "https://x.com/ToroJushiAi/status/2082254782551482577",
+      "collectedAt": "2026-07-29T09:01:17.289Z",
+      "githubSyncedAt": "2026-07-29T09:01:17.289Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
