@@ -1,7 +1,361 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T10:55:15.773Z",
+  "updatedAt": "2026-07-29T10:59:31.812Z",
   "collections": [
+    {
+      "id": "grok_x_2082396899168997827",
+      "title": "霓虹夜街短发蓝眸人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A cinematic medium shot of a young woman with short dark hair and vibrant blue eyes, standing on a bustling city street at night illuminated by glowing neon lights. She is wearing a dark grey textured wool coat over a grey turtleneck sweater. The scene features a shallow depth of field with a beautifully blurred background of colorful blue and magenta bokeh lights. Vibrant neon glow casts highlights on her face and hand, creating a moody, atmospheric ambiance with sharp focus, realistic textures, and dramatic cyber-noir lighting.",
+      "image": "https://pbs.twimg.com/media/HOYos-5XEAANbxj.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYos-5XEAANbxj.jpg",
+        "https://pbs.twimg.com/media/HOYoxnRXYAAXGF8.jpg",
+        "https://pbs.twimg.com/media/HOYo2GnXkAAU5wp.jpg",
+        "https://pbs.twimg.com/media/HOYo5kKWQAA3P3E.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYos-5XEAANbxj.jpg",
+        "https://pbs.twimg.com/media/HOYoxnRXYAAXGF8.jpg",
+        "https://pbs.twimg.com/media/HOYo2GnXkAAU5wp.jpg",
+        "https://pbs.twimg.com/media/HOYo5kKWQAA3P3E.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "Gemini Nano Banana",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2082396899168997827",
+      "url": "https://x.com/Minahil42298354/status/2082396899168997827",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082389934149890427",
+      "title": "斯利那加金时刻街头人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic full-body portrait of a confident young man standing in the heart of Lal Chowk, Srinagar, Kashmir, during golden hour. The iconic Clock Tower and bustling city streets are visible in the background, with modern shops, local traffic, colorful signboards, and distant Himalayan mountains creating an authentic Srinagar atmosphere. The man stands facing the camera with a calm, powerful expression and relaxed posture. He is wearing a premium black bomber jacket, a fitted black crew-neck T-shirt, slim black jeans, and clean white sneakers. His outfit is stylish, modern, and minimal. Soft golden sunlight creates cinematic highlights and realistic shadows, while pedestrians and vehicles are slightly motion-blurred to emphasize the subject. Ultra-detailed facial features, realistic skin texture, sharp focus, shallow depth of field, HDR, natural colors, editorial fashion photography, DSLR look, 85mm lens, f/1.8, 8K, photorealistic, highly detailed, luxury street-style aesthetic, dramatic yet natural lighting, masterpiece quality.",
+      "image": "https://pbs.twimg.com/media/HOYimbga0AEOMPm.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYimbga0AEOMPm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYimbga0AEOMPm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/de_mon010/status/2082389934149890427",
+      "url": "https://x.com/de_mon010/status/2082389934149890427",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082387778869055793",
+      "title": "维多利亚蕾丝书柜暮色人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 9:16 photorealistic editorial portrait.\nWaist-up portrait, waist-level view, front-left three-quarter view\nA 20s seductive stunning Japanese or Korean woman, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, long straight hair with a side part, smooth polished length, elegant face-framing line, milk-tea brown hair.\nWearing Victorian-inspired outfit, high-neck lace blouse, corset structure, layered skirt volume.\nIn vintage white bookcase bedroom corner, tall white bookshelf filled with books, large window edge, lit by indoor dusk afterglow environment, faint warm residual daylight, minimal nocturnal subject rim light, faint cool edge tracing along face hair shoulders and body outline, mostly dark subject mass.\nInspired by Orie Ichihashi, transparent natural-light image language, shot on 24mm wide-angle lens, localized veiling flare, Kodak Portra film rendering.",
+      "image": "https://pbs.twimg.com/media/HOYer9za4AAJkRe.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYer9za4AAJkRe.jpg",
+        "https://pbs.twimg.com/media/HOYer_mbUAA57KK.jpg",
+        "https://pbs.twimg.com/media/HOYfSgnbYAEzxu3.jpg",
+        "https://pbs.twimg.com/media/HOYfSekaUAAVxkM.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYer9za4AAJkRe.jpg",
+        "https://pbs.twimg.com/media/HOYer_mbUAA57KK.jpg",
+        "https://pbs.twimg.com/media/HOYfSgnbYAEzxu3.jpg",
+        "https://pbs.twimg.com/media/HOYfSekaUAAVxkM.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082387778869055793",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082387778869055793",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082376834675564735",
+      "title": "暗黑学院风大衣低角度人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A full-length portrait captures a male model with dark hair and a well-groomed beard, striking a confident, guarded stance in the center-right of the frame. He is dressed in minimalist dark academia urban street style, wearing a long, tailored black overcoat over a crisp white shirt, paired with black trousers and chunky black loafers. His body is angled forty-five degrees to the left, leaning slightly back with centered weight and level shoulders, while his head turns further left, his eyes completely obscured by dark sunglasses above a closed, neutral mouth. His relaxed left hand is raised to chest level revealing a sleek silver watch on his wrist, while his right hand remains entirely concealed within the deep right pocket of his overcoat. The scene unfolds against an asymmetrically balanced outdoor setting of a pristine modern urban building, where wide, dark grey stone foreground stairs on the bottom left, framed by black metal handrails and holding a solitary fallen yellow leaf, lead the eye upward. The midground is dominated by a sleek architectural facade featuring perfectly smooth, dark charcoal grey matte composite cladding with clean grid lines, black metal balcony railings and modern black outdoor planters. The model stands on grey concrete pavement marked by a large rectangular grid pattern. A slightly blurred background introduces medium spatial depth on the right, showcasing a weathered tall pine tree alongside dormant deciduous trees with bare branches, framing an aged building with brown and orange paneling and standard rectangular windows in the top right distance. An overcast sky casts moody, mysterious, and sophisticated illumination from a single diffused light source directly above, washing the scene in a cool, blue-tinted ambient fill that creates a soft, flat, low-contrast, and deeply desaturated monochromatic color palette. Soft, gradual short grey shadows pool beneath the subject and the building balconies, while subtle specular highlights gently catch on his forehead, his raised left hand, his metallic watch, and the dark frames of his sunglasses. Captured through realistic digital photography from a low-angle perspective, the composition isolates the tack-sharp subject with a medium depth of field, bringing a matte texture and moderate digital noise to the image, enhanced by post-processing that lifts crushed blacks for a faded shadow look, clarifies structural lines, and applies a cool white balance bias, all beautifully framed in a 4:5 aspect ratio.",
+      "image": "https://pbs.twimg.com/media/HNgP5WQWQAAV0gL.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HNgP5WQWQAAV0gL.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNgP5WQWQAAV0gL.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "Gemini Nano Banana",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/pictsbyai/status/2082376834675564735",
+      "url": "https://x.com/pictsbyai/status/2082376834675564735",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082376370773217539",
+      "title": "车内玫瑰夜景印度女性肖像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded image only as the facial identity reference. Preserve the person's facial identity with a strict 100% face lock. Maintain the exact facial structure, eyes, eyebrows, nose, lips, jawline, skin tone, facial proportions, and natural expression from the uploaded image. Do not copy or inherit the hairstyle, hair length, hair color, clothing, accessories, pose, background, or lighting from the reference image. Instead, create a new elegant hairstyle that naturally complements her face, such as soft, voluminous, silky dark hair with graceful side-parted loose waves.\nCreate an ultra-realistic close-up cinematic portrait of a beautiful Indian woman sitting inside a luxurious premium car at night. She is wearing a sophisticated black full-length one-piece gown with full fitted sleeves, tailored to perfection with a classy and elegant silhouette. She is accessorized with a minimal diamond necklace, elegant rings on different fingers, and 2–3 delicate bracelets on one wrist, creating a luxurious yet refined look.\nShe is gently holding an iPhone 17 Pro Max in one hand and a stunning bouquet of fresh deep red roses mixed with white gypsophila (baby's breath) in the other. The bouquet is beautifully wrapped in a soft baby off-white semi-transparent premium wrapper with elegant ribbon detailing.\nShe is looking directly at the camera with a soft, warm smile, radiating confidence, elegance, and grace. The luxurious car interior features premium leather seats with subtle ambient lighting. Through the side window, beautiful night city lights appear softly blurred (bokeh effect), adding depth and a cinematic atmosphere.\nThe lighting is soft and natural, illuminating her face with realistic reflections from the car interior and city lights. Capture authentic skin texture with visible pores, natural makeup, lifelike eyes, realistic reflections, and premium DSLR-quality depth of field.\nHyper-realistic photography, 8K resolution, cinematic luxury aesthetic, true-to-life colors, ultra-detailed, natural shadows, realistic reflections, premium editorial fashion photography, original smartphone camera realism, no AI artifacts, no beauty filter, no face distortion, photorealistic masterpiece.",
+      "image": "https://pbs.twimg.com/media/HOYWRCZa0AAwel9.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYWRCZa0AAwel9.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYWRCZa0AAwel9.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MahnoorAi12/status/2082376370773217539",
+      "url": "https://x.com/MahnoorAi12/status/2082376370773217539",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082405920618037288",
+      "title": "帆船甲板阳光斜躺人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a realistic vertical portrait in 9:15 format, in a warm cinematic style with a woman from the provided identity reference on a moving sailing ship. Composition is the most important requirement: perspective from a low angle from the deck, the subject lies diagonally in the lower half with his legs extending beyond the lower left edge, the body is thrown back, supported by a boom, a large white sail stretched behind her as a monumental fabric background, and the stormy dark ocean space visible below the horizontal boat rail.\nThe lighting design should be the warm sun just before the golden hour, strong enough to cut through the body, but still natural, with shining ivory reflections on the sail, soft gray sail shadows and the dark shimmering texture of the sea. The strongest visual contrast should be shown in the texture of the ocean in the lower right corner against the background of a bright white sail and pale clothes. She has very tanned skin, perfectly highlighted with a shimmer.\nPosture and expression: numb immobility from sun intoxication, head thrown back, eyes closed, lips relaxed, one hand lightly touching the waistline and shirt fabric, one elbow slightly bent at the railing, shoulders free. The pose should feel like a spontaneous fashion moment, not like a staged promotional swimsuit shot.\nClothes: oversized-a pale blue shirt, very wide and soft, blowing in the wind, hanging from the shoulders and forearms, bare feet, without brand tags, without large jewelry. Hair should have realistic stray strands, soft, shiny, blowing in the wind.\nFilter and camera view: realistic editorial style of 35mm film, warm grainy noise, creamy highlights, deep desaturated blue tones, slight softness of the lens, faint gall on the sunlit canvas, real skin texture.\nNo text, no watermarks, no logos, no unnecessary people.",
+      "image": "https://pbs.twimg.com/media/HOYxIp5a8AEToX4.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYxIp5a8AEToX4.jpg",
+        "https://pbs.twimg.com/media/HOYxJSzaMAA1Lz5.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYxIp5a8AEToX4.jpg",
+        "https://pbs.twimg.com/media/HOYxJSzaMAA1Lz5.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/oye_samia/status/2082405920618037288",
+      "url": "https://x.com/oye_samia/status/2082405920618037288",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082388737770586474",
+      "title": "蓝花蝴蝶梦幻肖像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra realistic artistic portrait of a beautiful woman with long flowing wavy dark hair, natural warm skin tone, expressive eyes, soft makeup, and a gentle confident smile. Her hair is beautifully decorated with delicate blue flowers, tiny blossoms, and realistic butterflies in shades of blue, silver, and gold. Butterflies are naturally placed around her hair, shoulders, neck, hands, and outfit, creating a magical connection between nature and beauty. She is wearing an elegant deep blue floral embroidered dress with intricate lace, fine fabric textures, and detailed floral patterns. The background is a soft textured blue backdrop with subtle floating petals and butterflies. Use soft cinematic studio lighting, realistic skin texture, shallow depth of field, rich details, elegant dreamy atmosphere, luxury fashion editorial style, professional photography, ultra detailed, photorealistic, 8K quality.",
+      "image": "https://pbs.twimg.com/media/HOYhgarW4AA6JgI.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYhgarW4AA6JgI.jpg",
+        "https://pbs.twimg.com/media/HOYhhEsWQAATFxC.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYhgarW4AA6JgI.jpg",
+        "https://pbs.twimg.com/media/HOYhhEsWQAATFxC.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Maevehere1/status/2082388737770586474",
+      "url": "https://x.com/Maevehere1/status/2082388737770586474",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082383381606826451",
+      "title": "浅蓝针织裙石柱街拍",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A fashionable editorial portrait of a young woman with a soft, cheerful expression, looking off-camera with a subtle smile. She has a glass-like complexion and a delicate Douyin-style makeup with soft pink blush on her cheeks. Her light brown hair is styled in a messy, elegant, low chignon with soft curtain bangs framing her face.\nShe is wearing a tight-fitting, ribbed light blue mini dress; the dress has a low neckline and fine gathered details on the sides. She is wearing a long layered gold chain necklace with a distinctive figure design, a thin gold bracelet on her wrist, and classic hoop earrings. She holds a smartphone in each hand and carries a luxurious monogrammed cream and nude-toned melon-shaped bag on her arm.\nStanding outdoors next to a textured, cream-colored stone architectural column. The natural, bright midday sunlight creates soft shadows across the scene, highlighting the textures of the stone and the dress. Captured with professional lighting, clear details, high-end fashion magazine quality, full-body shot.\nAesthetics and Makeup: Inspired by contemporary East Asian beauty trends, clean soft glamorous look with radiant glass complexion and delicate blush.\nStyle: A minimal yet elegant outfit that combines a simple body-hugging silhouette with distinctive layered statement jewelry and high-end accessories.\nComposition: A vertical and slightly angled full-body shot taken using bright natural outdoor lighting in front of a clean neutral architectural background.",
+      "image": "https://pbs.twimg.com/media/HOYcodabQAADP6l.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYcodabQAADP6l.jpg",
+        "https://pbs.twimg.com/media/HOYcpMpbwAAmwM5.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYcodabQAADP6l.jpg",
+        "https://pbs.twimg.com/media/HOYcpMpbwAAmwM5.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/oye_samia/status/2082383381606826451",
+      "url": "https://x.com/oye_samia/status/2082383381606826451",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082381168700514716",
+      "title": "过肩回眸含泪情绪肖像",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "摄影",
+        "写实",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Masterpiece, ultra-realistic anime realism, cinematic emotional portrait, 8K, fine art photography, melancholic atmosphere.\nA beautiful young woman with an ethereal anime-realistic appearance, captured in an intimate close-up portrait from a three-quarter over-the-shoulder angle.\nShe looks back silently toward the camera, her expression filled with quiet despair and loneliness. Her eyes are glossy with tears, a single tear slowly sliding down her cheek, capturing the fragile moment between heartbreak and acceptance. She is not crying dramatically, but carrying an overwhelming sadness hidden behind a calm and distant gaze.\nHer delicate facial features combine idealized anime beauty with realistic human imperfections: natural skin texture, subtle pores, slightly uneven facial symmetry, soft redness around the eyes, and a fragile emotional expression.\nHer hair is softly tied up with loose wisps falling naturally around her face. Fine individual hair strands catch the soft backlight, creating a delicate halo effect.\nShe wears a pale vintage-inspired dress with intricate lace details, slightly aged fabric texture, subtle wear and imperfections, combined with a dark ribbon collar and elegant gothic accessories.\nSoft cinematic backlighting, cool muted color palette, shallow depth of field, realistic tear reflections, natural skin rendering, emotional storytelling, Japanese cinematic melancholy, quiet tragedy, poetic loneliness.\n85mm portrait lens, f/1.4 aperture, extremely shallow depth of field, soft diffused sunlight, gentle rim light, cinematic color grading, realistic photography style.",
+      "image": "https://pbs.twimg.com/media/HOYaoMsaMAA52Pm.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYaoMsaMAA52Pm.jpg",
+        "https://pbs.twimg.com/media/HOYaoLyb0AADtfw.jpg",
+        "https://pbs.twimg.com/media/HOYaoMlacAAjlEw.jpg",
+        "https://pbs.twimg.com/media/HOYaoLwbsAAftDW.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYaoMsaMAA52Pm.jpg",
+        "https://pbs.twimg.com/media/HOYaoLyb0AADtfw.jpg",
+        "https://pbs.twimg.com/media/HOYaoMlacAAjlEw.jpg",
+        "https://pbs.twimg.com/media/HOYaoLwbsAAftDW.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liluocheng13/status/2082381168700514716",
+      "url": "https://x.com/liluocheng13/status/2082381168700514716",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082380780806787141",
+      "title": "蓝粉衬衫绿点裙腰上人像",
+      "category": "时尚",
+      "tags": [
+        "时尚",
+        "editorial",
+        "摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-realistic 8K Ultra-HD, hyper-detailed, photorealistic portrait of a young South Asian woman in a waist-up composition. She has radiant glowing skin, warm brown eyes, a natural friendly smile, a small black bindi, and black hair tied in a slightly messy ponytail. She has a curvy physique with a subtle visible midriff.\nShe is wearing a blue-and-pink short-sleeve unbuttoned crop shirt paired with a low-waisted light green pleated skirt decorated with elegant gold polka dots. A simple gold bangle adorns her wrist, with both hands placed naturally behind her back.\nBackground: a plain off-white wall illuminated by soft natural daylight, creating gentle shadows and a clean, minimalist atmosphere. Capture realistic skin texture, fine fabric details, accurate lighting, cinematic depth of field, high dynamic range, sharp focus, lifelike colors, professional fashion photography, premium editorial quality.",
+      "image": "https://pbs.twimg.com/media/HOYaRTVXUAAN2VI.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYaRTVXUAAN2VI.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYaRTVXUAAN2VI.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/alizagori1/status/2082380780806787141",
+      "url": "https://x.com/alizagori1/status/2082380780806787141",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785322771807,
+      "collectedAt": "2026-07-29T10:59:31.807Z",
+      "githubSyncedAt": "2026-07-29T10:59:31.807Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",

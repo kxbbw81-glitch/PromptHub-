@@ -78,6 +78,7 @@ function findJsonCandidate(value) {
 }
 
 function extractCandidatePayload(rawOutput) {
+  if (rawOutput && typeof rawOutput === 'object' && Array.isArray(rawOutput.candidates)) return rawOutput;
   const direct = findJsonCandidate(rawOutput);
   if (direct) return direct;
   const queue = [rawOutput];

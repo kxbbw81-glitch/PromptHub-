@@ -54,6 +54,16 @@ test('extracts candidate JSON from a Grok CLI response envelope', () => {
   assert.equal(payload.candidates[0].sourceUrl, 'https://x.com/example/status/123');
 });
 
+test('accepts a direct official candidate handoff object', () => {
+  const payload = discovery.extractCandidatePayload({
+    schemaVersion: 1,
+    producer: 'grok-cli-public-x-search',
+    candidates: [{ sourceUrl: 'https://x.com/example/status/123' }]
+  });
+
+  assert.equal(payload.candidates.length, 1);
+});
+
 test('accepts a UTF-8 BOM on CLI output files', () => {
   const text = `\uFEFF${JSON.stringify({ candidates: [{ sourceUrl: 'https://x.com/example/status/123' }] })}`;
   const payload = discovery.parseCliOutputText(text);
