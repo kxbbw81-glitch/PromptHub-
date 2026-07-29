@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:38:19.477Z",
+  "updatedAt": "2026-07-29T07:38:31.523Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rwfwx_skxw",
+      "image": "https://pbs.twimg.com/media/HOWwXupb0AA12Ow?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOWwXupb0AA12Ow?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWwXn5aUAA7cYB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Waist-up portrait, waist-level view, front-right three-quarter view\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, side-parted medium soft waves, collarbone-length flow, elegant face-framing movement, chestnut-brown hair.\nWearing gray sheer layered Y2K punk camisole look, smoky gray translucent ruffle camisole with thin straps, distressed black denim micro shorts with side button straps and frayed hems, layered chain choker and black cross pendant necklace.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOWwXupb0AA12Ow?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWwXn5aUAA7cYB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082264456156127452",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785310709649,
+      "title": "Gpt Image 2",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082264456156127452",
+      "collectedAt": "2026-07-29T07:38:31.523Z",
+      "githubSyncedAt": "2026-07-29T07:38:31.523Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
