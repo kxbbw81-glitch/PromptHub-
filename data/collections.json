@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:29:14.718Z",
+  "updatedAt": "2026-07-29T07:34:20.048Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rr18y_02bd",
+      "image": "https://pbs.twimg.com/media/HOTdY0DaQAAmSjN?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOTdY0DaQAAmSjN?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOTdY0Ca8AAAUr-?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOTdY02bUAALcO9?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "Create a photorealistic editorial portrait.\n\nWaist-up portrait, shoulder-level view, front view\n\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, long straight hair with a center part, sleek clean vertical flow, honey caramel-brown hair.\n\nShe has her head naturally facing the camera, and presents a lying pose.\n\nIn construction-material corner, stacked boards, cement bags.\n\nInspired by Nan Goldin, intimate diaristic image language, VHS camcorder image degradation, analog tape noise.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTdY0DaQAAmSjN?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOTdY0Ca8AAAUr-?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOTdY02bUAALcO9?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082033282859085891",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785310457362,
+      "title": "Create a photorealistic editorial portrait Waist-up portrait",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082033282859085891",
+      "collectedAt": "2026-07-29T07:34:20.048Z",
+      "githubSyncedAt": "2026-07-29T07:34:20.048Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
