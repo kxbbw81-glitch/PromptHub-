@@ -1,7 +1,375 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:16:13.830Z",
+  "updatedAt": "2026-07-29T07:18:33.174Z",
   "collections": [
+    {
+      "id": "grok_x_2082323053015712163",
+      "title": "Burgundy velvet palace fashion portrait",
+      "category": "fashion editorial",
+      "tags": [
+        "fashion",
+        "portrait",
+        "velvet gown",
+        "palace",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A stunning full-length fashion portrait of an elegant young woman wearing a luxurious deep burgundy velvet maxi gown with long sleeves, fitted bodice, sparkling embellished cuffs and waist, and a dramatic flowing pleated skirt with a subtle thigh-high slit. She has long glossy dark brown wavy hair, delicate statement earrings, and elegant champagne-colored heels. She is standing gracefully in a luxurious classic palace-style interior with ornate gold mirror frames, warm ambient lighting, marble floors, and a beautiful arrangement of deep red roses. High-end fashion editorial photography, cinematic lighting, photorealistic, ultra-detailed, sophisticated and glamorous, full dress clearly visible from head to toe, vertical 9:16 composition.",
+      "image": "https://pbs.twimg.com/media/HOXle06a8AAvNQW.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXle06a8AAvNQW.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXle06a8AAvNQW.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Romi2656/status/2082323053015712163",
+      "url": "https://x.com/Romi2656/status/2082323053015712163",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082284983683805554",
+      "title": "Rock star photo beside wall sketch",
+      "category": "portrait mixed media",
+      "tags": [
+        "portrait",
+        "line art",
+        "rock on",
+        "photorealistic",
+        "vertical",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A realistic full-body photograph of a young South Asian woman leaning casually against a white wall. She has dark brown hair tied in a low messy bun with soft strands framing her face, warm medium skin tone, and a bright cheerful smile. She is wearing an oversized black button-down shirt with sleeves rolled up over a plain white crew-neck t-shirt, paired with black skinny jeans. Her right hand is raised making the ‘rock on’ hand gesture (index and pinky fingers extended), left hand resting behind her head. Soft warm lighting with out-of-focus bokeh lights visible in a dark hallway on the right. Clean studio composition, high detail, photorealistic.\n\nTo her left on the white wall is a large black-and-white line-art cartoon illustration of the same woman in a matching pose: right hand making the ‘rock on’ gesture, smiling, with the bold handwritten text “ROCK STAR!” above her head, plus several star shapes and sparkles around her. The cartoon figure has the same hairstyle, open shirt over t-shirt, and jeans, drawn in a clean modern cartoon style with bold outlines and motion lines.\n\nVertical portrait orientation, natural colors, sharp focus on the real woman, artistic contrast between photorealism and line art.",
+      "image": "https://pbs.twimg.com/media/HOW3mE-aQAABJQT.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOW3mE-aQAABJQT.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW3mE-aQAABJQT.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "GPT Image 2.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Arina_hoqe/status/2082284983683805554",
+      "url": "https://x.com/Arina_hoqe/status/2082284983683805554",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082232742968787358",
+      "title": "Luxury car golden-hour lifestyle portrait",
+      "category": "lifestyle portrait",
+      "tags": [
+        "luxury car",
+        "golden hour",
+        "streetwear",
+        "identity lock",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use my uploaded photo as the face and identity reference. Preserve my face 100% recognizable, including my facial features, skin tone, hairstyle, beard (if any), body proportions, and overall identity. Do not change my ethnicity or make me look like someone else.\n\nCreate an ultra-realistic, 8K cinematic lifestyle portrait of me leaning out of the driver's side window of a modern luxury car during golden hour. I am wearing a purple-to-pink gradient windbreaker with the hood up, a white baseball cap underneath the hood, sleek black wraparound sunglasses, a silver chain necklace, multiple ear piercings, and rings on my fingers. One hand rests casually on the car door while the other lightly touches the brim of my cap.\n\nCapture a confident, calm, effortlessly stylish expression with slightly parted lips and a relaxed pose. The background should feature a dramatic blue sky with soft golden clouds, warm sunset lighting, and shallow depth of field with blurred cars in the distance.\n\nUse professional fashion photography, soft natural skin texture, realistic reflections on the sunglasses, detailed fabric texture, subtle lens flare reflecting from the car door, high dynamic range (HDR), crisp focus on the face, creamy bokeh, and premium color grading. The overall mood should feel like a luxury streetwear editorial shot taken with a Sony A7R V and an 85mm f/1.4 lens.\n\nImportant: Keep my face identical to my uploaded photo. Only improve the styling, lighting, and photographic quality. Do not beautify or alter my facial structure. Produce a vertical 4:5 portrait with magazine-quality realism.\n\nMatch the composition closely: subject leaning out of the driver's side window, head slightly tilted downward, camera positioned just outside the window at eye level, warm sunset lighting, identical framing, similar pose, and the same luxury editorial aesthetic while keeping my face exactly as in my uploaded photo.",
+      "image": "https://pbs.twimg.com/media/HOWTnpAXgAAxKFz.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOWTnpAXgAAxKFz.jpg",
+        "https://pbs.twimg.com/media/HOWTon4XkAAn2XF.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOWTnpAXgAAxKFz.jpg",
+        "https://pbs.twimg.com/media/HOWTon4XkAAn2XF.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/bluenblaq/status/2082232742968787358",
+      "url": "https://x.com/bluenblaq/status/2082232742968787358",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082165472347529415",
+      "title": "Neon green studio fitness editorial JSON",
+      "category": "fitness editorial",
+      "tags": [
+        "studio",
+        "activewear",
+        "JSON prompt",
+        "Nano Banana Pro",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "{\n  \"type\": \"image_prompt\",\n  \"version\": \"1.0\",\n  \"description\": {\n    \"subject\": {\n      \"identity\": \"Use the uploaded reference face exactly. Preserve identical facial identity, realistic body proportions, hairstyle, and natural skin texture.\",\n      \"appearance\": {\n        \"face\": \"Soft feminine facial features, naturally fair hydrated skin with visible pores, subtle blush, glossy nude lips, defined eyelashes, natural brows, smooth luminous complexion, realistic facial highlights and shadows.\",\n        \"hair\": \"Long wavy hair with soft curtain bangs, natural volume, silky texture, realistic individual strands.\",\n        \"expression\": \"Calm confident expression with soft direct eye contact over the shoulder, relaxed lips, elegant editorial mood.\"\n      },\n      \"body\": {\n        \"type\": \"Slim athletic feminine figure with naturally balanced curves and realistic anatomy.\"\n      }\n    },\n    \"clothing\": {\n      \"outfit\": [\n        \"Deep neon green athletic one-piece bodysuit\",\n        \"Smooth stretch performance fabric\",\n        \"Open racerback design\",\n        \"Minimal premium activewear aesthetic\"\n      ]\n    },\n    \"pose\": {\n      \"details\": [\n        \"Kneeling on both knees with feet tucked naturally underneath\",\n        \"Body facing away from the camera at about a 45-degree angle\",\n        \"Upper body gently twisted back toward the camera\",\n        \"Head turned over the shoulder maintaining direct eye contact\",\n        \"One hand resting softly on the thigh\",\n        \"Other arm relaxed beside the body\",\n        \"Straight posture with relaxed shoulders\",\n        \"Natural elegant fitness editorial pose\"\n      ]\n    },\n    \"environment\": {\n      \"location\": \"Professional photography studio\",\n      \"background\": [\n        \"Seamless white backdrop\",\n        \"Minimal clean studio setting\",\n        \"Softbox light partially visible at frame edge\",\n        \"High-end commercial photoshoot atmosphere\"\n      ]\n    },\n    \"lighting\": {\n      \"type\": \"Ultra realistic professional studio lighting\",\n      \"details\": [\n        \"Large diffused softbox key light\",\n        \"Soft fill light reducing harsh shadows\",\n        \"Natural skin reflections\",\n        \"Balanced exposure\",\n        \"True-to-life skin tones\",\n        \"Smooth highlight roll-off\",\n        \"Soft shadow transitions\",\n        \"Professional beauty lighting\"\n      ]\n    },\n    \"camera\": {\n      \"angle\": \"Eye-level portrait angle matching the reference\",\n      \"lens\": \"50mm portrait lens\",\n      \"framing\": \"Vertical three-quarter body composition\",\n      \"focus\": \"Sharp focus on face, hair and outfit with crisp studio detail\",\n      \"style\": \"Ultra realistic commercial fitness photography\"\n    },\n    \"quality\": {\n      \"render\": \"Ultra photorealistic 8K\",\n      \"details\": [\n        \"Visible skin pores\",\n        \"Natural hydrated glossy skin\",\n        \"Detailed fabric weave\",\n        \"Realistic hair strands\",\n        \"Professional studio photography quality\",\n        \"Natural cinematic color grading\",\n        \"True-to-life lighting physics\",\n        \"No AI-looking artifacts\"\n      ]\n    }\n  }\n}",
+      "image": "https://pbs.twimg.com/media/HOVWdXRW0AEBbvp.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOVWdXRW0AEBbvp.jpg",
+        "https://pbs.twimg.com/media/HOVWdYCWAAAxmFZ.jpg",
+        "https://pbs.twimg.com/media/HOVWdXWWgAAqpsW.jpg",
+        "https://pbs.twimg.com/media/HOVWdX-WYAAj4D5.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOVWdXRW0AEBbvp.jpg",
+        "https://pbs.twimg.com/media/HOVWdYCWAAAxmFZ.jpg",
+        "https://pbs.twimg.com/media/HOVWdXWWgAAqpsW.jpg",
+        "https://pbs.twimg.com/media/HOVWdX-WYAAj4D5.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Nano Banana Pro via Hailuo AI",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/KeorUnreal/status/2082165472347529415",
+      "url": "https://x.com/KeorUnreal/status/2082165472347529415",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082339157297496229",
+      "title": "Ambition shadow golden-hour male portrait",
+      "category": "cinematic portrait",
+      "tags": [
+        "golden hour",
+        "shadow",
+        "urban",
+        "editorial",
+        "male portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A cinematic ultra-realistic 4K portrait of a confident young man standing in the center of a modern minimalist urban environment during golden hour. He wears a premium fitted black t-shirt, slightly relaxed dark baggy jeans (not oversized), clean white sneakers, a classic brown leather-strap wristwatch with a silver case, and subtle accessories. His posture is calm and powerful, looking straight ahead with determination. Behind him, a massive shadow of himself stretches across a concrete wall—but the shadow is a darker, more imposing version of him, standing taller with a commanding stance, symbolizing ambition and inner strength. Soft volumetric sunlight creates dramatic long shadows, while cinematic rim lighting highlights his silhouette. The environment features sleek concrete architecture, glass panels, and subtle atmospheric haze. Hyper-detailed textures, lifelike skin, realistic fabric folds, HDR lighting, shallow depth of field, natural color grading, sharp focus, premium editorial fashion photography, IMAX composition, 8K-quality realism, Unreal Engine quality, masterpiece, photorealistic, dramatic yet minimal aesthetic.",
+      "image": "https://pbs.twimg.com/media/HOX0a0IbEAAkghz.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOX0a0IbEAAkghz.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOX0a0IbEAAkghz.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/de_mon010/status/2082339157297496229",
+      "url": "https://x.com/de_mon010/status/2082339157297496229",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082332014372692162",
+      "title": "Yellow satin gown studio beauty portrait",
+      "category": "fashion beauty",
+      "tags": [
+        "satin gown",
+        "studio",
+        "identity lock",
+        "jewelry",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-photorealistic portrait of the exact same woman from the reference image, keep the face 100% identical — same facial structure, eye shape, nose, lips, skin tone, beauty mark on cheek, expression, and identity. Do not alter the face in any way.\n\nShe is posing against a soft light lavender/purple seamless studio backdrop. Body slightly angled, left hand raised and gently running through her long, voluminous, wavy dark brown-black hair that cascades over her right shoulder and down her chest. Soft, alluring gaze looking directly at the camera with a subtle confident expression and full glossy nude-pink lips.\n\nShe is wearing a luxurious deep-yellow satin halter-neck gown with a plunging V-neckline that creates dramatic cleavage. The dress features three vertical crystal/rhinestone-embellished cut-out rings down the center of the bust, cinched waist with elegant draping, and smooth shiny satin fabric that catches the light with realistic folds and highlights. The fabric has a rich golden-yellow sheen.\n\nJewelry:\n- Large statement diamond/crystal necklace with a rectangular pendant resting in the cleavage\n- Matching diamond stud earrings\n- Thick wide diamond cuff bracelet on the left wrist\n- Large round diamond ring on the left ring finger\n- Slim rose-gold watch on the right wrist\n\nMakeup: Flawless natural glam — soft contour, defined brows, warm brown eyeshadow with subtle shimmer, long lashes, nude-pink glossy lips, and a small beauty mark on the left cheek.\n\nLighting: Soft studio beauty lighting with gentle key light from the front-right, subtle rim light on the hair and shoulders, smooth skin highlights, realistic fabric sheen on the satin, natural skin texture with visible pores and fine details. Shallow depth of field, creamy bokeh background.\n\nShot on Sony A7R V, 85mm f/1.4 lens, 8K UHD, hyper-detailed skin texture, realistic fabric texture, cinematic color grading, professional fashion editorial photography style.",
+      "image": "https://pbs.twimg.com/media/HOXt7Spb0AAliEB.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXt7Spb0AAliEB.jpg",
+        "https://pbs.twimg.com/media/HOXt7Sxa4AAeCdN.jpg",
+        "https://pbs.twimg.com/media/HOXt7SuaAAA5Lnr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXt7Spb0AAliEB.jpg",
+        "https://pbs.twimg.com/media/HOXt7Sxa4AAeCdN.jpg",
+        "https://pbs.twimg.com/media/HOXt7SuaAAA5Lnr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/jarvis_og_AI/status/2082332014372692162",
+      "url": "https://x.com/jarvis_og_AI/status/2082332014372692162",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082360357666853097",
+      "title": "B&W Rembrandt suit editorial with negatives",
+      "category": "black and white portrait",
+      "tags": [
+        "Rembrandt lighting",
+        "suit",
+        "glasses",
+        "studio",
+        "negative prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-realistic cinematic studio portrait of the person in the reference image. Preserve the person’s facial features and identity while styling them in a luxury editorial fashion. Give them a modern textured quiff hairstyle with medium-length hair, voluminous top, natural lift, slightly messy brushed-back texture, subtle side taper, clean sides, and realistic individual hair strands. Add thin silver metal aviator eyeglasses with large rounded lenses, minimalist frame, clear lenses, elegant luxury design, perfectly fitted to the face. Dress them in a tailored black suit, crisp white dress shirt, and black tie. Pose them looking directly into the camera with a calm, confident, serious expression. Use dramatic low-key studio lighting with a single large octabox positioned 45° above the subject, classic Rembrandt lighting, deep cinematic shadows, subtle rim light around the hair and shoulders, black seamless background, high contrast black-and-white grading, rich tonal range, crisp eyes with natural catchlights, highly detailed skin texture, realistic pores, subtle facial hair detail, shallow depth of field, Leica SL2 with APO-Summicron 90mm lens, f/2.2, ISO 100, HDR, editorial fashion photography, timeless Hollywood portrait, museum-quality, photorealistic, ultra-sharp, 8K resolution, masterpiece.\n\ncartoon, anime, illustration, CGI, plastic skin, beauty filter, overprocessed skin, blurry, low quality, low resolution, distorted face, asymmetrical eyes, duplicate face, extra glasses, oversized glasses, thick frames, text, watermark, logo, cropped head, poor lighting, noisy image, unrealistic hair, exaggerated hairstyle, overexposed, underexposed",
+      "image": "https://pbs.twimg.com/media/HOYHs8JaYAAHfhM.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYHs8JaYAAHfhM.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYHs8JaYAAHfhM.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Gemini Nano Banana 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/aatif_j/status/2082360357666853097",
+      "url": "https://x.com/aatif_j/status/2082360357666853097",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082345381237494133",
+      "title": "Milan blue-hour spinning circle of friends",
+      "category": "street photography",
+      "tags": [
+        "Milan",
+        "blue hour",
+        "group portrait",
+        "motion blur",
+        "film grain",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A dynamic, joyful photograph of eight young Asian women, around 20 years old — six Japanese, one Korean, one Chinese — holding hands and spinning together in a loose circle in the Piazza del Duomo during blue hour, the cathedral's floodlights just switched on against a still-deep-blue twilight sky, motion slightly blurred.\n\nThe two or three women facing the camera directly show clear, distinct East Asian facial features with genuine laughing expressions; the remaining figures are captured mid-turn with faces partially in profile or softly motion-blurred, consistent with the natural blur of spinning motion. Their skin shows realistic subsurface scattering where the floodlight catches their faces, specular micro-highlights visible on the clearly-lit figures, natural texture preserved.\n\nHairstyles vary across the group, hair swinging outward with the spinning motion, strands caught mid-air by centrifugal movement. They wear an eclectic but coordinated mix of fashion-forward coats and slip dresses in jewel tones, fabric flaring outward with their spin.\n\nThe lighting mixes the last deep-blue ambient twilight with the cathedral's warm architectural floodlights just turned on, creating a striking cool-warm contrast across the group. Subtle ISO 400 film grain sits in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "image": "https://pbs.twimg.com/media/HOHK5lqXoAATqc-.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOHK5lqXoAATqc-.jpg",
+        "https://pbs.twimg.com/media/HOHK5lhXkAATWaZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOHK5lqXoAATqc-.jpg",
+        "https://pbs.twimg.com/media/HOHK5lhXkAATWaZ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082345381237494133",
+      "url": "https://x.com/ToroJushiAi/status/2082345381237494133",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082064410596778046",
+      "title": "Frozen lake miniature ice-bridge video",
+      "category": "cinematic miniature video",
+      "tags": [
+        "miniature",
+        "winter",
+        "ice bridge",
+        "tilt-shift",
+        "9:16",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A cinematic macro miniature world set on a frozen lake in winter. Four tiny human figures wearing warm winter coats, hats, scarves, and boots stand on a transparent ice bridge made of crystal-clear ice blocks. A large crack suddenly forms in the center of the bridge, with water dripping through the gap. The tiny people react with fear and surprise as the bridge begins to break. Snow-covered landscape, soft snowfall, realistic frozen water reflections, shallow depth of field, tilt-shift macro photography, ultra-detailed textures, Pixar + Studio Ghibli-inspired style, dramatic lighting, emotional rescue atmosphere, highly realistic, 8K, vertical 9:16, smooth cinematic camera movement, AI-generated miniature world.",
+      "image": "https://pbs.twimg.com/media/HOT6h6PaQAAS4sh.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOT6h6PaQAAS4sh.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOT6h6PaQAAS4sh.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOT6h6PaQAAS4sh.jpg",
+      "videoSourceUrl": "https://x.com/Arzoo12sh/status/2082064410596778046",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Arzoo12sh/status/2082064410596778046",
+      "url": "https://x.com/Arzoo12sh/status/2082064410596778046",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082314386585055619",
+      "title": "15s ceramic detailer UGC car video timeline",
+      "category": "product UGC video",
+      "tags": [
+        "automotive",
+        "detailer",
+        "UGC",
+        "15s",
+        "timeline",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 15-second high-end automotive detailing UGC video utilizing the provided start frame as the main visual anchor and the subsequent timeline sequence as the strict visual and chronological flow. Maintain seamless cinematic continuity with a clear, natural male voiceover delivering the audio script, focusing heavily on macro mist spray physics, hydrophobic water-beading action, and dynamic studio lighting reflections across all specified timestamp cuts.\n\n0 to 4 seconds: The Spray Mist Hook\nVisual & Camera: Starts on the image frame. The camera quickly moves into a macro side-angle close-up focused on the car's dusty bonnet surface.\nAction/Movement: His gloved hand squeezes the trigger nozzle firmly. A fine, dense, ultra-wide mist fan of ceramic spray coats a section of the dark navy paint smoothly. The liquid droplets immediately start melting through the dust surface.\nAudio/Sound Cues: Pressurized hiss of a fine mist spray nozzle. Upbeat, driving cinematic bass beat fading in at a low volume.\nVoiceover (Off-camera male voice, spoken at a slow, steady, and moderate pace with clear articulation): \"Washing your entire car every time it gets a little dusty... is a complete waste of time.\"\n\n4 to 9 seconds: The Microfiber Wipe Reveal\nVisual & Camera: Quick cut to a crisp eye-level macro shot tracking alongside a plush, dark yellow microfiber towel.\nAction/Movement: The gloved hand glides the plush microfiber towel across the sprayed surface in one smooth, linear pass. Behind the towel, a flawless, mirror-like gloss finish is instantly revealed, reflecting the bright overhead hexagonal LED lights cleanly.\nAudio/Sound Cues: Crisp, soft friction sound of a microfiber towel gliding over smooth paint. Driving bass beat continues smoothly.\nVoiceover (Off-camera male voice, spoken slowly and deliberately): \"This ceramic detailer encapsulates surface dirt on contact, letting you wipe it completely clean in one smooth pass.\"\n\n9 to 12 seconds: The Water Beading Physics\nVisual & Camera: Extreme macro slow-motion shot angled directly onto the freshly polished paint surface.\nAction/Movement: A stream of clean water is splashed onto the panel. The water instantly shatters into tiny, perfectly round hydrophobic beads that slide right off the surface like liquid mercury, leaving the panel completely dry underneath.\nAudio/Sound Cues: Fluid splash sound followed by the soft trickle of rapid water beads sliding away.\nVoiceover (Off-camera male voice, spoken slowly with a calm, impressive cadence): \"The hydrophobic barrier forces water and road grime to slide right off...\"\n\n12 to 15 seconds: The Reflection & Sign-Off\nVisual & Camera: The camera pulls back smoothly into a clean, wide chest-level shot. He holds the matte-black bottle next to the gleaming car hood, leaning casually against the vehicle.\nAction/Movement: His mouth remains closed. He looks directly into the lens, giving a slow, satisfying nod of approval and pointing his gloved hand down at the glowing reflection on the hood. The video ends on a steady, hyper-focused shot of the bottle branding and his confident expression.\nAudio/Sound Cues: Music hits a clean closing bass note and fades out gently.\nVoiceover (Off-camera male voice, spoken slowly, clearly, and steadily up to the final second): \"...protecting your finish and keeping that slick mirror shine. Grab yours today.\"",
+      "image": "https://pbs.twimg.com/media/HOXd2hLXkAAaf3B.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXd2hLXkAAaf3B.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXd2hLXkAAaf3B.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Kling AI",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOXd2hLXkAAaf3B.jpg",
+      "videoSourceUrl": "https://x.com/yourPlugAI/status/2082314386585055619",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/yourPlugAI/status/2082314386585055619",
+      "url": "https://x.com/yourPlugAI/status/2082314386585055619",
+      "domain": "x.com",
+      "date": "2026-07-29",
+      "timestamp": 1785309513167,
+      "collectedAt": "2026-07-29T07:18:33.167Z",
+      "githubSyncedAt": "2026-07-29T07:18:33.167Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
