@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T09:58:30.755Z",
+  "updatedAt": "2026-07-29T10:55:12.172Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5yxbu4_iamp",
+      "image": "https://pbs.twimg.com/media/HOUS-18WkAAiQk4?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUS-18WkAAiQk4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUS-2DWYAA-6eE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUS-1_WUAAlmEg?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性坐在中式老宅的深色雕花木扶手椅上，画面从头顶拍至膝部。人物位于中央略偏右，身体微微侧向画面左侧，腰背自然挺直，肩膀放松。左前臂轻搭在椅子扶手上，手指自然下垂；右手放松落在右侧腿部或椅沿。头部轻轻转向镜头，双眼平静直视，神情端庄、克制、略带柔和疏离感，嘴唇自然微启。\n\n她有精致鹅蛋脸、柔和下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和低饱和裸玫瑰色嘴唇。妆容清淡精致，轻薄底妆、自然睫毛、细眼线、浅棕眼影与柔和暖粉腮红。肤色暖白，保留真实毛孔、细小绒毛、自然肤色变化和细腻高光，不要塑料磨皮。\n\n深棕黑色长发采用复古半盘发，头顶轻微蓬松，两侧发束向后固定，下半部柔软披散至肩背，发尾带轻微波浪，少量碎发被窗光勾亮。\n\n她穿深炭灰色短袖修身旗袍，立领、斜襟、传统盘扣，面料为细腻哑光棉麻或羊毛混纺，带低调暗纹。旗袍贴合自然腰线，裙身顺着坐姿形成真实褶皱，整体朴素、端庄、高级。\n\n背景为民国时期中式书房或老宅：深色木柜、古董陶罐、雕花家具，墙上悬挂一幅低饱和水墨山水画。左侧高窗透入温暖斜射阳光，照亮人物左侧脸部、头发、肩膀、手臂和旗袍纹理，背景保留深棕阴影与空气尘埃。整体低饱和、低对比，以炭灰、暖木棕、古纸米色和自然肤色为主。\n\n摄影风格：85mm镜头，f/2.8，平视略高机位，中浅景深，面部和手部清晰，背景柔和虚化，真实皮肤、发丝、旗袍、木材和陶瓷纹理，轻微ISO 400胶片颗粒，柔和高光晕染，民国东方电影人像，photorealistic。\n\n避免：现代家具、艳丽旗袍、夸张盘发、浓妆、塑料皮肤、错误盘扣、错误手指、畸形手臂、强HDR、过度锐化、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUS-18WkAAiQk4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUS-2DWYAA-6eE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUS-1_WUAAlmEg?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082375583816651100",
+      "tags": [
+        "photorealistic",
+        "东方",
+        "水墨",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785322508332,
+      "title": "主页 / X",
+      "url": "https://x.com/ToroJushiAi/status/2082375583816651100",
+      "collectedAt": "2026-07-29T10:55:12.172Z",
+      "githubSyncedAt": "2026-07-29T10:55:12.172Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
