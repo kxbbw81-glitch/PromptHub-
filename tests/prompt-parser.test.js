@@ -74,6 +74,14 @@ A cinematic night portrait inside a glass greenhouse, moonlight through wet wind
   assert.doesNotMatch(parsed.prompt, /月光下的玻璃花房/);
 });
 
+test('removes social-post platform labels before the real prompt', () => {
+  const raw = 'GPT Image 2 on ChatGPT 提示 一位年轻成年东亚女性站在纯净暖白色摄影棚背景前，柔和自然光，85mm 人像镜头，真实皮肤纹理，低饱和电影感，禁止文字和水印。';
+  const parsed = parser.parsePromptText(raw);
+
+  assert.match(parsed.prompt, /^一位年轻成年东亚女性/);
+  assert.doesNotMatch(parsed.prompt, /^GPT Image 2 on ChatGPT/);
+});
+
 test('domestic release is scheduled 30 minutes after the GitHub write', () => {
   const background = fs.readFileSync(path.join(__dirname, '../extension/background.js'), 'utf8');
 

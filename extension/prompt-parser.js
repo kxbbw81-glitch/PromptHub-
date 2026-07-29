@@ -44,6 +44,12 @@
     '不要文字', '不要水印', '人物', '服装', '姿态', '环境'
   ];
 
+  // Creator/platform labels often precede the real prompt in social posts.
+  const PUBLISHER_PREAMBLE_PATTERNS = [
+    /^\s*(?:gpt\s*image\s*\d+(?:\s+(?:on|via)\s+chatgpt)?|chatgpt\s*image\s*\d*)\s*(?:\u63d0\u793a\u8bcd?|prompt)\s*[:\uff1a\u2014-]*\s*/i,
+    /^\s*(?:gemini\s+)?nano\s+banana(?:\s+images?)?\s+prompt\s*[:\uff1a\u2014-]*\s*/i
+  ];
+
   function cleanText(value) {
     return String(value || '')
       .replace(/\u200b|\u200c|\u200d|\ufeff/g, '')
@@ -51,6 +57,14 @@
       .replace(/[ \t]+\n/g, '\n')
       .replace(/\n{3,}/g, '\n\n')
       .trim();
+  }
+
+  function stripPublisherPreamble(value) {
+    let text = cleanText(value);
+    for (const pattern of PUBLISHER_PREAMBLE_PATTERNS) {
+      text = text.replace(pattern, '');
+    }
+    return text.trim();
   }
 
   function extractImageUrls(text) {
@@ -259,7 +273,7 @@
 
   function parsePromptText(rawText, options) {
     const opts = options || {};
-    const text = cleanText(rawText);
+    const text = stripPublisherPreamble(rawText);
     if (!text) return null;
 
     const imageUrls = extractImageUrls(text);
@@ -278,6 +292,7 @@
   return {
     DEFAULT_TITLE,
     cleanText,
+    stripPublisherPreamble,
     extractImageUrls,
     parsePromptText,
     looksLikePrompt,

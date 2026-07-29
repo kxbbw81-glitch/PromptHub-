@@ -1,7 +1,587 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:25:52.743Z",
+  "updatedAt": "2026-07-29T02:33:39.692Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082135670273798625",
+      "image": "https://pbs.twimg.com/media/HOU7RROWcAAYdoN?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOU7RROWcAAYdoN?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "A close-up, soft-focus portrait of a young woman with dark, expressive eyes and loose dark hair gently framing her face. She has a natural, warm makeup look with soft pink lips and is resting her cheek gently against her",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOU7RROWcAAYdoN?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2082135670273798625",
+      "tags": [
+        "人像",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392031,
+      "title": "A close-up",
+      "url": "https://x.com/Minahil42298354/status/2082135670273798625",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2081991432743927967",
+      "image": "https://pbs.twimg.com/media/HOS3-sNbUAAFugB?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOS3-sNbUAAFugB?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "A photorealistic vintage analog 35mm film collage featuring the same beautiful young Indonesian woman across six candid moments. Soft natural beauty, long silky black hair, expressive eyes, effortless fashion, realistic skin texture with visible",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOS3-sNbUAAFugB?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2081991432743927967",
+      "tags": [
+        "时尚",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "A photorealistic vintage analog 35mm film collage featuring ",
+      "url": "https://x.com/MissDelulu9/status/2081991432743927967",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082129481779847211",
+      "image": "https://pbs.twimg.com/media/HOU03H4aEAE4luV?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOU03H4aEAE4luV?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Create a 16:9 photorealistic editorial portrait. Waist-up portrait, waist-level view, rear-left three-quarter view A 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, medium-to-long hair with a center part,",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOU03H4aEAE4luV?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082129481779847211",
+      "tags": [
+        "时尚",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Create a 16:9 photorealistic editorial portrait",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082129481779847211",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082049548072206674",
+      "image": "https://pbs.twimg.com/media/HOTs_VsbIAAnX1s?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOTs_VsbIAAnX1s?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTtAIgaEAACYVP?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTtAt2boAAnF7N?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTtBUaa0AEtRgR?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Ultra-photorealistic high-end fashion studio portrait of the same beautiful young woman, photographed in a luxury photography studio with a premium editorial aesthetic inspired by iconic 1990s fashion campaigns. The composition maintains the same",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTs_VsbIAAnX1s?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTtAIgaEAACYVP?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTtAt2boAAnF7N?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTtBUaa0AEtRgR?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/john_my07/status/2082049548072206674",
+      "tags": [
+        "时尚",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Ultra-photorealistic high-end fashion studio portrait of the",
+      "url": "https://x.com/john_my07/status/2082049548072206674",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2081963046298337373",
+      "image": "https://pbs.twimg.com/media/HOSd5JobAAADIwF?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOSd5JobAAADIwF?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSd7CeawAAzwza?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSd8dSasAA2ia7?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "1: \"A stunning close-up portrait of a graceful young East Asian woman(match face) wearing a luxurious deep crimson red off-shoulder satin gown with a clean, minimalist neckline that elegantly exposes her shoulders and",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOSd5JobAAADIwF?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSd7CeawAAzwza?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSd8dSasAA2ia7?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2081963046298337373",
+      "tags": [
+        "人像",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292392032,
+      "title": "1: \"A stunning close-up portrait of a graceful young East As",
+      "url": "https://x.com/gemini_prompts/status/2081963046298337373",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082074803423609301",
+      "image": "https://pbs.twimg.com/media/HOUD9uebQAAK6rD?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOUD9uebQAAK6rD?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUD-9zaIAA36Ko?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Ultra-realistic close-up beauty portrait of a stunning young East Asian woman with flawless porcelain skin and naturally radiant makeup, photographed indoors in a softly lit room at night. She gazes directly into the camera with warm,",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUD9uebQAAK6rD?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUD-9zaIAA36Ko?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/jzaib4269/status/2082074803423609301",
+      "tags": [
+        "人像",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Ultra-realistic close-up beauty portrait of a stunning young",
+      "url": "https://x.com/jzaib4269/status/2082074803423609301",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2081950321207886074",
+      "image": "https://pbs.twimg.com/media/HOSSxtWWoAAWC1v?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOSSxtWWoAAWC1v?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Full-length candid editorial photo of a young woman with long, voluminous, wavy blonde hair running barefoot across a lush green grassy lawn. She is wearing a backless, flowing dusty pink satin dress that catches the motion of the wind. She",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOSSxtWWoAAWC1v?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/chatgptpaglu/status/2081950321207886074",
+      "tags": [
+        "时尚",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Full-length candid editorial photo of a young woman with lon",
+      "url": "https://x.com/chatgptpaglu/status/2081950321207886074",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082073584927715833",
+      "image": "https://pbs.twimg.com/media/HON30OtasAASQZO?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HON30OtasAASQZO?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HON30PCbEAAg7eo?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HON30O3aMAAjTbi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HON30O-bYAA5JeS?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "] A photorealistic full-body portrait of a young East Asian woman with long, wavy dark brown hair cascading over her shoulders, fair skin, and a gentle smile while looking at the camera. She is seated on a glossy bright red metal chair with her legs crossed at",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HON30OtasAASQZO?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HON30PCbEAAg7eo?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HON30O3aMAAjTbi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HON30O-bYAA5JeS?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082073584927715833",
+      "tags": [
+        "人像",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292392032,
+      "title": "] A photorealistic full-body portrait of a young East Asian ",
+      "url": "https://x.com/woleswoosh/status/2082073584927715833",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2081935431076294879",
+      "image": "https://pbs.twimg.com/media/HOSFMlVaEAABvkI?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOSFMlVaEAABvkI?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSFNZnbMAAjtpk?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSFOPEbcAApfF-?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSFPAha0AAXmxM?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Ultra-realistic, high-resolution masterpiece with exceptional detail, professional-quality lighting, subtle cinematic shadows, and a vertical 9:16 composition. Create an authentic PAP-style smartphone selfie featuring the same young woman as the",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOSFMlVaEAABvkI?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSFNZnbMAAjtpk?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSFOPEbcAApfF-?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOSFPAha0AAXmxM?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/mehvishs25/status/2081935431076294879",
+      "tags": [
+        "人像",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Ultra-realistic",
+      "url": "https://x.com/mehvishs25/status/2081935431076294879",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082160828430610732",
+      "image": "https://pbs.twimg.com/media/HOVSOtHWUAAsER3?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOVSOtHWUAAsER3?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "A dramatic, moody portrait of a young woman with warm brown hair styled in soft waves framing her face and gathered back. She is wearing a deep purple, textured dress with a sweetheart neckline and puffed",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOVSOtHWUAAsER3?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2082160828430610732",
+      "tags": [
+        "时尚",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292392032,
+      "title": "A dramatic",
+      "url": "https://x.com/Minahil42298354/status/2082160828430610732",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082147503466844335",
+      "image": "https://pbs.twimg.com/media/HOVGEFyasAAJXVu?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOVGEFyasAAJXVu?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOVGFFWaYAAlWa7?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOVGF8Ka4AAa-Hi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOVGG4_bgAAgno6?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "1 (Relaxing in the Garden) > Ultra-realistic cinematic portrait of a young woman relaxing outdoors in a lush garden during golden hour, eyes gently closed with a peaceful smile, short slightly messy black bob haircut, thin round metal glasses,",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOVGEFyasAAJXVu?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOVGFFWaYAAlWa7?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOVGF8Ka4AAa-Hi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOVGG4_bgAAgno6?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/Taaruk_/status/2082147503466844335",
+      "tags": [
+        "人像",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "1 (Relaxing in the Garden) > Ultra-realistic cinematic portr",
+      "url": "https://x.com/Taaruk_/status/2082147503466844335",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082029313415942462",
+      "image": "https://pbs.twimg.com/media/HOTaimjbEAAjSYU?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOTaimjbEAAjSYU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTaimmaYAAQ_Jg?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "Create a photorealistic editorial portrait. Waist-up portrait, shoulder-level view, back view A 20s seductive stunning Japanese or Korean woman, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, medium-to-long hair with a deep",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTaimjbEAAjSYU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOTaimmaYAAQ_Jg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082029313415942462",
+      "tags": [
+        "时尚",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Create a photorealistic editorial portrait",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082029313415942462",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082128858023862318",
+      "image": "https://pbs.twimg.com/media/HOU1IDCbUAAEANU?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOU1IDCbUAAEANU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOU1IvdakAA0kkp?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOU1JaAaEAAtqa2?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOU1J_-acAAxxJ2?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Ultra-photorealistic mirror selfie in a cozy, stylish bedroom during golden hour. A beautiful young woman stands confidently in front of a large full-length mirror, captured in a natural smartphone mirror selfie. The composition shows her from",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOU1IDCbUAAEANU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOU1IvdakAA0kkp?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOU1JaAaEAAtqa2?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOU1J_-acAAxxJ2?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/john_my07/status/2082128858023862318",
+      "tags": [
+        "人像",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Ultra-photorealistic mirror selfie in a cozy",
+      "url": "https://x.com/john_my07/status/2082128858023862318",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082229109879427302",
+      "image": "https://pbs.twimg.com/media/HOOb2PGbYAAuJJf?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOOb2PGbYAAuJJf?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "手臂抬起的那一刻，连白色连衣裙的褶皱都裹上了光芒 #AIart #AI照片 #肖像 【GPT Image2 提示词】 主题： 汇聚光芒的手臂 主体： 纵向 3:4 的写实时尚肖像。女性位于画面中央稍右侧，单膝跪坐在明亮的米色沙发上，大幅摄入上半身至大腿。人物占据画面约",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOOb2PGbYAAuJJf?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2082229109879427302",
+      "tags": [
+        "时尚",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "手臂抬起的那一刻",
+      "url": "https://x.com/CyberTotal2026/status/2082229109879427302",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082113915765592296",
+      "image": "https://pbs.twimg.com/media/HOUniNJasAA8uo2?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOUniNJasAA8uo2?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUni8nbEAAOQoz?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUnjkBaYAAhZ5R?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUnkKDbEAA6e8D?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "Create an ultra-photorealistic premium lifestyle fashion portrait using the exact facial identity from the reference image. Preserve her face with complete accuracy, including all defining facial features, proportions, and overall appearance. Her",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUniNJasAA8uo2?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUni8nbEAAOQoz?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUnjkBaYAAhZ5R?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HOUnkKDbEAA6e8D?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/mehvishs25/status/2082113915765592296",
+      "tags": [
+        "时尚",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "Create an ultra-photorealistic premium lifestyle fashion por",
+      "url": "https://x.com/mehvishs25/status/2082113915765592296",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2081995706420887641",
+      "image": "https://pbs.twimg.com/media/HOS8COqbEAIyz1n?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOS8COqbEAIyz1n?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "那帮孙子已经开始 AI 靓妹骗流量，骗钱了 砸他们的锅 豆包，ChatGPT等都行，准备两张图，一张是你要的容貌，另一张是找的爆款素材，爆款素材可以去刷 Instagram 这是提示词： 将素材 1人物的样貌替换到素材",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOS8COqbEAIyz1n?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/UnicornBitcoin/status/2081995706420887641",
+      "tags": [
+        "人像",
+        "X 自动收集",
+        "ChatGPT Image"
+      ],
+      "timestamp": 1785292392032,
+      "title": "那帮孙子已经开始 AI 靓妹骗流量",
+      "url": "https://x.com/UnicornBitcoin/status/2081995706420887641",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082269881806827670",
+      "image": "https://pbs.twimg.com/media/HNQ1buGasAACNzD?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HNQ1buGasAACNzD?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HNQ1fk0akAAYJMU?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "An ultra-realistic cozy café portrait inspired by Japanese kawaii aesthetics, Korean soft-girl fashion, coquette style, and early-2000s digital camera photography. A breathtakingly beautiful young East Asian woman sits inside a warm minimalist",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNQ1buGasAACNzD?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HNQ1fk0akAAYJMU?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/CliQi_AI/status/2082269881806827670",
+      "tags": [
+        "时尚",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292392032,
+      "title": "An ultra-realistic cozy café portrait inspired by Japanese k",
+      "url": "https://x.com/CliQi_AI/status/2082269881806827670",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082062301004460413",
+      "image": "https://pbs.twimg.com/media/HOT4UnOagAAdTt3?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HOT4UnOagAAdTt3?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "整理一下王虹的最近热点信息，做成网页版我好看 下面就是生成的页面，确实挺厉害 也让我坚信，中国AI必然会超越美国AI https://codebuddy.work/agents/share/aIaaS55BgmZCbYLecrGwFW7bX2WpgIjHjl7mm6hj_aY3rFXTOFm_VITCY0bFrEw7?platform=workbuddy…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOT4UnOagAAdTt3?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 全部书签",
+      "sourceUrl": "https://x.com/CryptoJHK/status/2082062301004460413",
+      "tags": [
+        "人像",
+        "X 自动收集"
+      ],
+      "timestamp": 1785292392032,
+      "title": "整理一下王虹的最近热点信息",
+      "url": "https://x.com/CryptoJHK/status/2082062301004460413",
+      "collectedAt": "2026-07-29T02:33:12.031Z",
+      "githubSyncedAt": "2026-07-29T02:33:12.031Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "时尚",
@@ -16,7 +596,7 @@
         "https://pbs.twimg.com/media/HORb7R9W4AA6g1I?format=jpg&name=large"
       ],
       "model": "ChatGPT Image",
-      "prompt": "GPT Image 2 on ChatGPT 提示 一位年轻成年东亚女性站在纯净暖白色摄影棚背景前，画面从头顶拍至胯部附近。人物位于中央略偏左，身体正面朝向镜头但轻微向画面右侧转动，肩膀放松，双臂自然垂落于身体两侧，双手藏在身后或裤侧。头部转向画面右侧，视线看向远处，不直视镜头；下巴略微抬起，神情平静、克制、若有所思，嘴唇自然微启。 她拥有精致柔和的鹅蛋脸、清晰但不过分尖锐的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和浅裸粉色嘴唇。妆容极淡，仅有轻薄底妆、自然睫毛、细眼线、柔和灰棕眼影和轻微腮红。肤色白皙偏暖，保留真实毛孔、细小绒毛、自然肤色变化与柔和高光，禁止塑料磨皮。 深棕黑色长直发自然披散，中分略偏侧，头发顺滑垂落至胸前和背后，右侧发丝覆盖部分肩膀，耳侧与脸颊有少量自然碎发。发丝保留真实重量、细节与轻微不规则感。 她穿浅燕麦色或灰米色无肩带短款抹胸，上衣为柔软细罗纹针织面料，贴合身体，长度至肋骨下方，边缘简洁。下身穿同色宽松亚麻抽绳长裤，低腰或中低腰设计，裤腰有自然褶皱、纽扣和细抽绳；一条细腰绳从腰部斜向交叉环绕，形成简约Y2K细节。整体配色统一、低饱和、自然朴素。 背景为无缝暖白或浅奶油灰墙面，无家具、无装饰。采用柔和自然窗光或大型柔光箱，从画面左前上方照射，右侧使用轻微反光板补光。阴影极浅，整体高键、低对比、低饱和，呈现奶油白、燕麦灰、暖肤色与深棕发色的柔和层次。 摄影风格：85mm人像镜头，f/2，平视略高机位，中浅景深，面部、锁骨和服装纹理清晰，背景均匀柔化，真实皮肤、发丝、针织与亚麻纹理，轻微ISO 200胶片颗粒，Japanese minimalist editorial portrait，soft natural beauty photography，photorealistic。 避免：直视镜头、夸张表情、浓妆、卷发、塑料皮肤、过度磨皮、夸张身材、错误肩颈比例、错误手指、腰绳结构混乱、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "prompt": "一位年轻成年东亚女性站在纯净暖白色摄影棚背景前，画面从头顶拍至胯部附近。人物位于中央略偏左，身体正面朝向镜头但轻微向画面右侧转动，肩膀放松，双臂自然垂落于身体两侧，双手藏在身后或裤侧。头部转向画面右侧，视线看向远处，不直视镜头；下巴略微抬起，神情平静、克制、若有所思，嘴唇自然微启。 她拥有精致柔和的鹅蛋脸、清晰但不过分尖锐的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和浅裸粉色嘴唇。妆容极淡，仅有轻薄底妆、自然睫毛、细眼线、柔和灰棕眼影和轻微腮红。肤色白皙偏暖，保留真实毛孔、细小绒毛、自然肤色变化与柔和高光，禁止塑料磨皮。 深棕黑色长直发自然披散，中分略偏侧，头发顺滑垂落至胸前和背后，右侧发丝覆盖部分肩膀，耳侧与脸颊有少量自然碎发。发丝保留真实重量、细节与轻微不规则感。 她穿浅燕麦色或灰米色无肩带短款抹胸，上衣为柔软细罗纹针织面料，贴合身体，长度至肋骨下方，边缘简洁。下身穿同色宽松亚麻抽绳长裤，低腰或中低腰设计，裤腰有自然褶皱、纽扣和细抽绳；一条细腰绳从腰部斜向交叉环绕，形成简约Y2K细节。整体配色统一、低饱和、自然朴素。 背景为无缝暖白或浅奶油灰墙面，无家具、无装饰。采用柔和自然窗光或大型柔光箱，从画面左前上方照射，右侧使用轻微反光板补光。阴影极浅，整体高键、低对比、低饱和，呈现奶油白、燕麦灰、暖肤色与深棕发色的柔和层次。 摄影风格：85mm人像镜头，f/2，平视略高机位，中浅景深，面部、锁骨和服装纹理清晰，背景均匀柔化，真实皮肤、发丝、针织与亚麻纹理，轻微ISO 200胶片颗粒，Japanese minimalist editorial portrait，soft natural beauty photography，photorealistic。 避免：直视镜头、夸张表情、浓妆、卷发、塑料皮肤、过度磨皮、夸张身材、错误肩颈比例、错误手指、腰绳结构混乱、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
       "rawImages": [
         "https://pbs.twimg.com/media/HORb7SFWwAAMOPl?format=jpg&name=large",
         "https://pbs.twimg.com/media/HORb7SFXIAAw7_V?format=jpg&name=large",
