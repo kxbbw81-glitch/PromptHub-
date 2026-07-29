@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:48:09.557Z",
+  "updatedAt": "2026-07-29T11:50:51.732Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms60wyqj_68jb",
+      "image": "https://pbs.twimg.com/media/HORc8NwWoAAaRvf?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HORc8NwWoAAaRvf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORc8OhW4AAzVNe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORc8OfWoAAxtVU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORc8OfXQAAmysE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示\n一位年轻成年东亚女性坐在极简浅色室内空间中，画面从头顶拍至大腿附近。人物位于中央略偏右，身体微微侧向画面左侧，上半身自然前倾，肩膀放松。双手在身体前方轻轻交叠，一只手握住另一侧手腕，姿态安静、松弛、优雅。头部略微低下并转向画面左侧，目光看向左下方远处，不直视镜头，神情平静、温柔、克制，嘴唇自然闭合。\n她拥有精致柔和的鹅蛋脸、清晰但不过分尖锐的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和低饱和裸玫瑰色嘴唇。妆容极淡，仅保留轻薄底妆、自然睫毛、细眼线、轻微暖色腮红。肤色暖白偏自然，保留真实毛孔、细小绒毛、轻微肤色变化与柔和皮脂高光，禁止塑料磨皮。\n深棕黑色超长头发自然披散，带柔软大波浪与真实重量感，大部分发丝垂落在画面左侧肩前与胸前，发量丰富，保留细碎发丝、自然凌乱感和柔和光泽。\n她穿一件浅香槟色、奶油米色或淡燕麦色真丝长袍，宽松落肩设计，领口自然滑落至一侧肩膀，露出锁骨和肩颈。布料为柔软哑光真丝或细腻缎面，带真实褶皱、垂坠感和低调反光；长袖宽松，衣摆自然铺在腿部和地面，整体含蓄、纯净、轻盈。\n背景为奶油白或浅灰白极简室内，无明显家具，仅有柔和墙面、浅色地面和远处轻微模糊的水平线条。强烈但柔和的自然窗光从画面右后方和左前方共同进入，形成高键漫射光、头发边缘轮廓光、肩颈和丝绸高光。阴影极浅，整体低饱和、低对比，以奶油白、香槟色、暖肤色和深棕发色为主。\n摄影风格：85mm人像镜头，f/1.8，平视略高机位，浅景深，眼睛和面部清晰，背景奶油化虚化，真实皮肤、发丝和丝绸纤维纹理，轻微ISO 200胶片颗粒，Kodak Portra 160色彩倾向，soft fine-art editorial portrait，photorealistic。\n避免：直视镜头、夸张表情、浓妆、塑料皮肤、过度磨皮、透明服装、夸张身材、错误手指、畸形手臂、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HORc8NwWoAAaRvf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORc8OhW4AAzVNe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORc8OfWoAAxtVU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORc8OfXQAAmysE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082103786521382997",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785325850587,
+      "title": "GPT Image 2 在 ChatGPT 上",
+      "url": "https://x.com/ToroJushiAi/status/2082103786521382997",
+      "collectedAt": "2026-07-29T11:50:51.732Z",
+      "githubSyncedAt": "2026-07-29T11:50:51.732Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
