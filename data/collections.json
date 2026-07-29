@@ -1,7 +1,123 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T03:00:42.037Z",
+  "updatedAt": "2026-07-29T03:06:47.869Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "动物",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5i6sqw_q1ev",
+      "image": "https://pbs.twimg.com/media/HOUnkx2XcAAzFNV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUnkx2XcAAzFNV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUnkyDWoAAf3w-?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use the uploaded product image as the single source of truth and create one outstanding vertical ad ready for a premium campaign.\n\nProduct Analysis\n\nSilently determine the category, function, audience, price segment, brand character, materials,",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUnkx2XcAAzFNV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOUnkyDWoAAf3w-?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785294396680,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/i/bookmarks",
+      "collectedAt": "2026-07-29T03:06:47.869Z",
+      "githubSyncedAt": "2026-07-29T03:06:47.869Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5i6squ_0bhu",
+      "image": "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMsO_9XcAAxsc2?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "生成一张独立的 4:5 竖版新中式女性 fashion editorial 摄影海报。人物为明确成年的 20–30",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMsO_9XcAAxsc2?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1785294396678,
+      "title": "汉服换成裤装，东方气质还在",
+      "url": "https://x.com/i/bookmarks",
+      "collectedAt": "2026-07-29T03:06:47.869Z",
+      "githubSyncedAt": "2026-07-29T03:06:47.869Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5i6sqv_ovdk",
+      "image": "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMsO_9XcAAxsc2?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "生成一张独立的4:5竖版东方古风女性高级时尚 editorial  x.com/chenlinspark/s…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOUpKgFWkAAmkBT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMsO_9XcAAxsc2?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "东方",
+        "古风"
+      ],
+      "timestamp": 1785294396679,
+      "title": "这张很有感觉 ~",
+      "url": "https://x.com/i/bookmarks",
+      "collectedAt": "2026-07-29T03:06:47.869Z",
+      "githubSyncedAt": "2026-07-29T03:06:47.869Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5i6sqt_2d5y",
+      "image": "",
+      "images": [],
+      "model": "",
+      "prompt": "模特行业已肉眼可见地消失了\n\n这个甜酷风连续换装视频不是真人表演\n\n不需要摄影灯光化妆师\n\n不需要几万元的高额费用预算\n\n只要一台手机就能免费搞定\n\n一行提示词就可以生成\n\nseedance prompt 视频提示词如下\n\n主页还有更多提示词",
+      "rawImages": [],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785294396678,
+      "title": "你相信吗？",
+      "url": "https://x.com/i/bookmarks",
+      "collectedAt": "2026-07-29T03:06:47.869Z",
+      "githubSyncedAt": "2026-07-29T03:06:47.869Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "codex_x_2082113920102224099",
       "title": "高端产品竖版广告",
@@ -199,7 +315,7 @@
         "ChatGPT Image"
       ],
       "timestamp": 1785292392032,
-      "title": "A photorealistic vintage analog 35mm film collage featuring ",
+      "title": "A photorealistic vintage analog 35mm film collage featuring",
       "url": "https://x.com/MissDelulu9/status/2081991432743927967",
       "collectedAt": "2026-07-29T02:33:12.031Z",
       "githubSyncedAt": "2026-07-29T02:33:12.031Z",
@@ -395,7 +511,7 @@
         "X 自动收集"
       ],
       "timestamp": 1785292392032,
-      "title": "] A photorealistic full-body portrait of a young East Asian ",
+      "title": "] A photorealistic full-body portrait of a young East Asian",
       "url": "https://x.com/woleswoosh/status/2082073584927715833",
       "collectedAt": "2026-07-29T02:33:12.031Z",
       "githubSyncedAt": "2026-07-29T02:33:12.031Z",
