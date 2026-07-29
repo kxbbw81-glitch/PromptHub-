@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:34:20.048Z",
+  "updatedAt": "2026-07-29T07:35:01.137Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rroqd_edja",
+      "image": "https://pbs.twimg.com/media/HOTcY28awAAy3hR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOTcY28awAAy3hR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTcY2tbUAAD7PK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTcY2laoAA7IUR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTcY2la8AA29NB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A young East Asian woman in her early 20s with fair skin, long dark brown hair loosely tied back with soft strands framing her face, subtle natural makeup and soft pink lips, standing in a modern hotel bedroom. She is wrapped in a light mint-green terry-cloth towel worn strapless like a mini dress, covering from just above the bust to mid-thigh, the soft textured fabric clinging naturally. She poses confidently with her right hand on her hip and her left hand raised slightly near her shoulder, looking directly at the camera with a gentle, slightly shy smile. Soft warm indoor lighting from a wall sconce, white hotel bed with crisp white sheets and pillows behind her, wooden headboard, pastel walls in beige and light blue-gray, a closed door in the background. Realistic photography style, high detail, natural skin texture, shallow depth of field, intimate and elegant atmosphere.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTcY28awAAy3hR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTcY2tbUAAD7PK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTcY2laoAA7IUR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTcY2la8AA29NB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082194383340798366",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785310487797,
+      "title": "[Kling V3 Omni Prompt]",
+      "url": "https://x.com/woleswoosh/status/2082194383340798366",
+      "collectedAt": "2026-07-29T07:35:01.137Z",
+      "githubSyncedAt": "2026-07-29T07:35:01.137Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
