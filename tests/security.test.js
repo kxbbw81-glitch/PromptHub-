@@ -46,6 +46,8 @@ test('Cloudflare static assets enforce baseline browser security headers', () =>
   assert.match(headers, /Referrer-Policy: strict-origin-when-cross-origin/);
   assert.match(headers, /Content-Security-Policy: default-src 'self';/);
   assert.match(headers, /frame-ancestors 'none';/);
+  assert.match(headers, /\/data\/collections\.json\s+Cache-Control: public, max-age=300/);
+  assert.match(headers, /\/js\/\*\s+Cache-Control: public, max-age=86400/);
 });
 
 test('interactive pages do not rely on inline event handlers or inline executable scripts', () => {

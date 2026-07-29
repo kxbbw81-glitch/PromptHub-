@@ -7,3 +7,18 @@
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
+
+/
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+/index.html
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+/data/collections.json
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+/js/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/css/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
