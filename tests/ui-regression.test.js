@@ -37,7 +37,10 @@ test('the homepage uses the requested copy without Nano Banana branding', () => 
 
 test('collections use GitHub as their source of truth instead of browser local storage', () => {
   assert.match(app, /const REMOTE_COLLECTIONS_URL = 'https:\/\/raw\.githubusercontent\.com\/kxbbw81-glitch\/PromptHub-\/main\/data\/collections\.json';/);
-  assert.match(app, /await fetch\(REMOTE_COLLECTIONS_URL/);
+  assert.match(app, /const DOMESTIC_COLLECTIONS_URL = '\/data\/collections\.json';/);
+  assert.match(app, /return isDomesticSite\(\) \? DOMESTIC_COLLECTIONS_URL : REMOTE_COLLECTIONS_URL;/);
+  assert.match(app, /await fetch\(getCollectionsUrl\(\)/);
+  assert.match(app, /isDomesticSite\(\) \? 300000 : 60000/);
   assert.doesNotMatch(app, /localStorage\.setItem\(COLLECTIONS_KEY/);
   assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
   assert.match(background, /async function syncQueueToGitHub\(queue\)/);

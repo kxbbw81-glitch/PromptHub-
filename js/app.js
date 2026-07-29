@@ -15,6 +15,7 @@
 
   // --- Collections (GitHub is the canonical source) ---
   const REMOTE_COLLECTIONS_URL = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
+  const DOMESTIC_COLLECTIONS_URL = '/data/collections.json';
   const DOMESTIC_HOST = 'prompthub.kxbbw81.workers.dev';
   let collectionsCache = [];
   let collectionsLoading = null;
@@ -117,6 +118,12 @@
     return window.location.hostname === DOMESTIC_HOST;
   }
 
+  function getCollectionsUrl() {
+    // The domestic deployment already contains the released data. Avoid making
+    // visitors wait for raw.githubusercontent.com from inside mainland China.
+    return isDomesticSite() ? DOMESTIC_COLLECTIONS_URL : REMOTE_COLLECTIONS_URL;
+  }
+
   function getCollectionSortTime(item) {
     const candidates = [item?.collectedAt, item?.githubSyncedAt, item?.timestamp, item?.date];
     for (const value of candidates) {
@@ -138,7 +145,11 @@
     if (collectionsLoading && !force) return collectionsLoading;
 
     const request = (async () => {
-      const response = await fetch(REMOTE_COLLECTIONS_URL, { cache: 'no-store' });
+      const response = await fetch(getCollectionsUrl(), {
+        // The primary site needs the latest GitHub write immediately. The
+        // domestic site revalidates its local, released asset instead.
+        cache: isDomesticSite() ? 'no-cache' : 'no-store'
+      });
       if (!response.ok) throw new Error(`Unable to load collections (${response.status})`);
       const payload = await response.json();
       const list = Array.isArray(payload) ? payload : payload?.collections;
@@ -2496,7 +2507,7 @@
       loadCollections({ force: true }).then(() => {
         if (currentRoute === 'collections') renderCollections();
       }).catch(() => {});
-    }, 60000);
+    }, isDomesticSite() ? 300000 : 60000);
   }
 
   if (document.readyState === 'loading') {
