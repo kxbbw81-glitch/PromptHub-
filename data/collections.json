@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:08:56.312Z",
+  "updatedAt": "2026-07-29T07:11:29.598Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5qxns9_1mwo",
+      "image": "https://pbs.twimg.com/media/HOXq7S7aUAAxz9u?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOXq7S7aUAAxz9u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXq8QJbsAAo91L?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXq893bsAAxko5?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A cinematic café portrait of a beautiful young woman sitting alone in a cozy retro diner at sunset, wearing a black oversized turtleneck sweater, long soft wavy dark hair with loose face-framing strands, natural makeup, calm introspective expression, gazing directly into the camera, seated in a leather booth beside a large window glowing with warm golden-hour light. The interior is dimly lit with deep shadows, warm amber practical lights, soft red neon signs, blurred patrons in the background, dreamy city bokeh outside the window, subtle reflections on the glass, moody evening atmosphere, quiet urban solitude, minimalist composition, rich contrast, warm orange and deep black color palette, cinematic storytelling, Kodak Vision3 500T film look, soft film grain, natural skin texture, creamy depth of field, realistic lighting, volumetric glow, Leica SL2, Summilux 50mm f/1.4, shallow DOF, ultra-photorealistic, editorial fashion photography, award-winning composition, 8K HDR.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXq7S7aUAAxz9u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXq8QJbsAAo91L?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOXq893bsAAxko5?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Taaruk_/status/2082328745378238519",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "dreamy"
+      ],
+      "timestamp": 1785309086889,
+      "title": "GPT IMAGE 2 on Chatgpt",
+      "url": "https://x.com/Taaruk_/status/2082328745378238519",
+      "collectedAt": "2026-07-29T07:11:29.598Z",
+      "githubSyncedAt": "2026-07-29T07:11:29.598Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
