@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:47:36.343Z",
+  "updatedAt": "2026-07-29T11:48:09.557Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms60thkf_r5ey",
+      "image": "https://pbs.twimg.com/media/HOW3WjzaMAAZBjZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOW3WjzaMAAZBjZ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图·镜头：\n接近竖构2:3的画面，从坐姿人物胸部高度略微俯视的膝上肖像。脸部置于上部中央，深V领口置于中央，右手和杯子置于右中央，左手置于中央下方，明亮的大腿置于右下方。人物占据画面高度约九成，裙摆和大腿位于下端，披肩和杯子在右端自然截断。以左侧吧台作为强烈的斜线引导至后方酒架，右侧障子和行灯营造空间深度。将脸部和眼睛、右手、杯子、裙子胸口清晰呈现，酒瓶和花枝柔和虚化。采用标准至短焦肖像镜头的平静压缩感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW3WjzaMAAZBjZ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2082423138046890385",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785325688367,
+      "title": "每次冰块发出声响，琥珀色的夜晚便稍稍靠近。视线仍停留在杯外",
+      "url": "https://x.com/CyberTotal2026/status/2082423138046890385",
+      "collectedAt": "2026-07-29T11:48:09.557Z",
+      "githubSyncedAt": "2026-07-29T11:48:09.557Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "抽象",
