@@ -6,3 +6,4 @@ _replace_*.py
 *.log
 captures/
 ux-audit/
+staging/

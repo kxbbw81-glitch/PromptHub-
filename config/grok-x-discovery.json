@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "maxCandidatesPerQuery": 5,
+  "maxCandidatesTotal": 10,
+  "maxTurns": 12,
+  "lookbackDays": 7,
+  "recognitionSignals": [
+    "Prompt:",
+    "Image prompt",
+    "Video prompt",
+    "完整提示词",
+    "提示词",
+    "Negative prompt",
+    "文生图",
+    "文生视频"
+  ],
+  "discoveryQueries": [
+    "Find recent public X posts containing a complete, reusable AI image-generation prompt and a result image.",
+    "Find recent public X posts containing a complete, reusable AI video-generation prompt and a result video or video poster.",
+    "Find public X posts marked Prompt, Image prompt, Video prompt, 完整提示词, 提示词, or Negative prompt that include a concrete generation result."
+  ],
+  "excludedSignals": [
+    "tutorial only",
+    "tool promotion",
+    "giveaway",
+    "link in bio"
+  ]
+}
