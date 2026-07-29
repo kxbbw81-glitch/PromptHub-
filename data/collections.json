@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T11:53:12.221Z",
+  "updatedAt": "2026-07-29T11:54:47.596Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms6120uu_1d32",
+      "image": "https://pbs.twimg.com/media/HON23THaQAAJiWO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HON23THaQAAJiWO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HON23TIbkAAy9N9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HON23TJaMAA9yXD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HON23ThbMAE3LYb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A beautiful young East Asian woman with fair skin and sleek black hair styled in a neat low bun, sitting gracefully on a wooden chair in an elegant indoor setting. She wears a form-fitting, floor-length off-shoulder taupe-beige satin dress with a soft draped sleeve and a delicate bow detail on one shoulder. She poses with a gentle, closed-mouth smile, one hand lightly touching her earring near her face while the other rests relaxed on her thigh. She wears a thin silver necklace and clear open-toe high-heeled mules with small bow accents. The background features a textured gray wall with rich dark wood wainscoting, several framed paintings (floral still lifes and a dramatic seascape with a beam of light), and a round dark wooden table holding a black vase with a single soft pink rose. Warm natural indoor lighting, realistic photographic style, high detail, elegant and refined atmosphere.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HON23THaQAAJiWO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HON23TIbkAAy9N9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HON23TJaMAA9yXD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HON23ThbMAE3LYb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082043387234922783",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785326086614,
+      "title": "[Seedream 5.0 Pro]",
+      "url": "https://x.com/woleswoosh/status/2082043387234922783",
+      "collectedAt": "2026-07-29T11:54:47.596Z",
+      "githubSyncedAt": "2026-07-29T11:54:47.596Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
