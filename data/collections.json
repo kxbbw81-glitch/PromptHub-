@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:36:16.535Z",
+  "updatedAt": "2026-07-29T02:46:32.309Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "codex_x_2082133988488147408",
+      "image": "https://pbs.twimg.com/media/HORd-D9XQAATKnl?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HORd-D9XQAATKnl?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HORd-D7XEAApSkp?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HORd-EBWoAA_QFK?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HORd-D_WkAACe-O?format=jpg&name=large"
+      ],
+      "model": "ChatGPT Image",
+      "prompt": "两位年轻成年东亚女性并排坐在明亮极简公寓厨房的小型木质台面上，画面为完整坐姿全身构图，人物位于中央。左侧女性身体略朝画面右侧，右腿屈膝抬起，左腿自然向下伸展，赤脚悬空；她穿纯白色细肩带三角比基尼，侧腰系带清晰。右侧女性正面略朝左坐着，双腿自然垂下，赤脚悬空，穿深海军蓝色简洁连体泳衣，宽肩带、低圆领。 两人彼此对视，不看镜头，表情安静、自然、略带亲近感。左侧女性的右手轻扶右侧女性的左上臂，左手自然放在台面或两人之间；右侧女性左手放在两人之间，右手撑在台面边缘。两人的手臂、手指和腿部关系必须清晰，不交叉穿模。 左侧女性为深黑色长直发，带整齐薄刘海；右侧女性为深棕黑色高马尾，同样有轻薄刘海。两人均为自然淡妆，白皙中性肤色，保留真实毛孔、细小绒毛、轻微肤色差异和自然高光，不要塑料磨皮。 环境为冷白色小厨房或公寓角落：浅灰白墙面、白色柜体、浅木色台面。画面左侧有银白色小冰箱，上方放一台白色意式咖啡机和小型绿植；右侧为大面积白色纱帘和明亮窗光。地面浅灰，空间干净、无杂物。 光线为右侧窗户照入的柔和冷调自然漫射光，整体高键、低饱和、低对比，以冷白、浅灰、浅木色、海军蓝和自然肤色为主。摄影风格：50mm镜头，f/3.2，平视机位，中等景深，人物和脚部清晰，背景轻柔虚化，真实泳装、皮肤、木材和金属纹理，轻微ISO 200数码颗粒，日系生活方式摄影，photorealistic。 避免：未成年人特征、裸体、透明泳装、色情动作、夸张身材、双人脸部混淆、额外人物、错误手指、融合手臂、重复腿脚、悬浮肢体、错误脚趾、强HDR、过度锐化、杂乱厨房、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HORd-D9XQAATKnl?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HORd-D7XEAApSkp?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HORd-EBWoAA_QFK?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HORd-D_WkAACe-O?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Codex 自动收集 · X 书签补录",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082133988488147408",
+      "tags": [
+        "人像",
+        "双人构图",
+        "日系生活方式",
+        "ChatGPT Image",
+        "X 自动收集"
+      ],
+      "timestamp": 1785293181379,
+      "title": "公寓厨房双人泳装人像",
+      "url": "https://x.com/ToroJushiAi/status/2082133988488147408",
+      "collectedAt": "2026-07-29T02:46:21.379Z",
+      "githubSyncedAt": "2026-07-29T02:46:21.379Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
