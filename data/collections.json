@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:14:32.302Z",
+  "updatedAt": "2026-07-29T07:15:57.616Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5r2m3a_urg4",
+      "image": "https://pbs.twimg.com/media/HOS8OMXbEAAnG0o?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOS8OMXbEAAnG0o?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS7d8hbsAAaZNA?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "高级写实女性内衣海报，bralette 三角内衣主题，一位成年年轻女性模特坐在浅米色沙发边缘，穿一件奶油白三角 bralette，下搭宽松衬衫半披肩与同色内裤，面料柔软轻薄，三角罩杯、细肩带和下围弹性带清晰，模特单手\n扶在沙发边，神态自然轻松，整体像高端家居轻内衣广告，真实棉感纹理、真实肤感与自然午后光线，竖版 3:4。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOS8OMXbEAAnG0o?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOS7d8hbsAAaZNA?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2081995904249413755",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785309317974,
+      "title": "扶在沙发边，神态自然轻松，整体像高端家居轻内衣广告，真实棉感纹理、真实肤感与自然午后光线，竖版 3:4",
+      "url": "https://x.com/Mrpinecone888/status/2081995904249413755",
+      "collectedAt": "2026-07-29T07:15:57.616Z",
+      "githubSyncedAt": "2026-07-29T07:15:57.616Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
