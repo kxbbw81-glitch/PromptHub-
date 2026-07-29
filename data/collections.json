@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:38:31.523Z",
+  "updatedAt": "2026-07-29T07:38:44.328Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rwp7j_b77u",
+      "image": "https://pbs.twimg.com/media/HOTOsrnbAAEToay?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOTOsrnbAAEToay?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTOsrkbAAAXX4r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTOsrhbMAAuQwp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTOsrxaMAAH_xM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaWBaUAE_yVA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV_akAATupi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8aIAAN_-h?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8bcAABrSL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实奢华生活方式编辑肖像，描绘一位美丽的年轻成年东亚女性站在温暖的木质日光室中，旁边是轻薄的白纱窗帘，时间为金色时段。\n半身特写，肖像方向。主体优雅地扭转上身面向相机，同时回头望向肩后。一只手臂自然举过头顶，手指轻轻搭在头发中，另一只手臂放松地沿腰部线条，形成优雅的 S 曲线身形和拉长的肩部线条。柔和、诱人却自然的表情，放松的嘴唇，与相机直视眼神接触。\n凌乱的松散发髻发型，精致的面部框架发丝自然飘动。穿着精致的象牙色蕾丝婴儿娃娃睡裙，细吊带，轻薄透明刺绣面料，女性化且轻盈的质感。\n温暖的金色阳光透过宽大的木框窗户倾泻而入，在头发周围营造出美丽的光缘效果，在肩部形成柔和的高光，皮肤呈现微妙的光泽，以及逼真的窗户阴影。飘逸的白纱窗帘轻轻捕捉光线。丰富的深色木质室内，电影般的氛围，浅景深，奶油般的背景虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTOsrnbAAEToay?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTOsrkbAAAXX4r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTOsrhbMAAuQwp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOTOsrxaMAAH_xM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaWBaUAE_yVA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV_akAATupi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8aIAAN_-h?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HORhaV8bcAABrSL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2082016202562630077",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785310721696,
+      "title": "花会盛开，风会吹来，所有美好都会如期而至",
+      "url": "https://x.com/YUKIMASTERAI/status/2082016202562630077",
+      "collectedAt": "2026-07-29T07:38:44.328Z",
+      "githubSyncedAt": "2026-07-29T07:38:44.328Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
