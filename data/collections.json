@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T02:20:05.831Z",
+  "updatedAt": "2026-07-29T02:22:09.507Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -1322,40 +1322,6 @@
       "timestamp": 1785290485468,
       "title": "Qualitymode & Gpt Image 2",
       "url": "https://x.com/VIBEQUIRKLABS/status/2078801450977931397",
-      "collectedAt": "2026-07-29T02:01:29.343Z",
-      "githubSyncedAt": "2026-07-29T02:01:29.343Z",
-      "domesticSyncedAt": null
-    },
-    {
-      "aspectRatio": "16:9",
-      "category": "人像",
-      "date": "2026-07-29",
-      "domain": "x.com",
-      "id": "ext_ms5fu59g_qvgt",
-      "image": "https://pbs.twimg.com/media/HNliGT3bsAAwWIq?format=jpg&name=360x360",
-      "images": [
-        "https://pbs.twimg.com/media/HNliGT3bsAAwWIq?format=jpg&name=360x360",
-        "https://pbs.twimg.com/media/HNliHsebAAAKUmd?format=jpg&name=360x360",
-        "https://pbs.twimg.com/media/HNlis_uasAEuzZk?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNlis_vaUAAfUDJ?format=jpg&name=small"
-      ],
-      "model": "",
-      "prompt": "Create a photorealistic editorial portrait.\n\nFacial-detail close-up, eye-level view, left profile view\n\nA 20s seductive stunning Japanese or Korean woman. sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HNliGT3bsAAwWIq?format=jpg&name=360x360",
-        "https://pbs.twimg.com/media/HNliHsebAAAKUmd?format=jpg&name=360x360",
-        "https://pbs.twimg.com/media/HNlis_uasAEuzZk?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNlis_vaUAAfUDJ?format=jpg&name=small"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "",
-      "tags": [
-        "photorealistic"
-      ],
-      "timestamp": 1785290447140,
-      "title": "Qualitymode & Gpt Image 2",
-      "url": "https://x.com/i/bookmarks",
       "collectedAt": "2026-07-29T02:01:29.343Z",
       "githubSyncedAt": "2026-07-29T02:01:29.343Z",
       "domesticSyncedAt": null
