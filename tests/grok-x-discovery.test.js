@@ -22,6 +22,22 @@ test('builds a public-only Grok search prompt with strict acceptance criteria', 
   assert.match(prompt, /at most 10 candidates total/);
   assert.match(prompt, /"schemaVersion":1/);
   assert.match(prompt, /grok-cli-public-x-search/);
+  assert.match(prompt, /Do not include githubSyncedAt/);
+});
+
+test('accepts the official handoff images and image fields', () => {
+  const result = discovery.acceptCandidates([{
+    id: 'x_900',
+    sourceUrl: 'https://x.com/example/status/900',
+    prompt: COMPLETE_PROMPT,
+    mediaType: 'image',
+    images: ['https://pbs.twimg.com/media/official.jpg?format=jpg&name=large'],
+    image: 'https://pbs.twimg.com/media/official.jpg?format=jpg&name=large'
+  }], [], '2026-07-29T10:00:00.000Z');
+
+  assert.equal(result.accepted.length, 1);
+  assert.equal(result.accepted[0].image, 'https://pbs.twimg.com/media/official.jpg?format=jpg&name=large');
+  assert.deepEqual(result.accepted[0].images, ['https://pbs.twimg.com/media/official.jpg?format=jpg&name=large']);
 });
 
 test('the test configuration caps discovery at ten candidates with enough agent turns', () => {

@@ -16,6 +16,7 @@ test('the operating rulebook matches the primary collection architecture', () =>
   assert.match(rules, /具体状态页/);
   assert.match(rules, /只有 GitHub 成功确认才是主站同步成功/);
   assert.match(rules, /Grok CLI/);
+  assert.match(rules, /GROK_CANDIDATE_FORMAT\.md/);
   assert.match(rules, /禁止使用浏览器自动操作 X/);
   assert.match(rules, /默认不启用定时运行/);
   assert.match(app, /REMOTE_COLLECTIONS_URL/);

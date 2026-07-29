@@ -52,7 +52,7 @@ function buildDiscoveryPrompt(config) {
   const signals = config.recognitionSignals.join(', ');
   const excluded = config.excludedSignals.join(', ');
 
-  return `Use only the built-in X Search tool to discover public posts. Do not open, read, or infer any private bookmarks, home timelines, cookies, accounts, or browser state.\n\nSearch window: the last ${config.lookbackDays} days.\nMaximum accepted candidates per query: ${config.maxCandidatesPerQuery}.\nMaximum accepted candidates across this entire run: ${config.maxCandidatesTotal}.\nRecognition signals: ${signals}.\nReject signals: ${excluded}.\n\nQueries:\n${queries}\n\nA candidate is valid only when it has all of the following: (1) a specific x.com/<handle>/status/<id> source URL, (2) a complete reusable image-generation or video-generation prompt of at least ${MIN_PROMPT_LENGTH} characters after removing social/model labels, and (3) a direct HTTPS result image URL, or for video a direct HTTPS poster URL. Skip tutorials, product promotions, incomplete prompts, repost-only content, and posts without result media.\n\nReturn at most ${config.maxCandidatesTotal} candidates total as JSON only, with no Markdown or explanatory prose. Use this exact handoff schema:\n{"schemaVersion":1,"generatedAt":"ISO 8601 UTC timestamp","producer":"grok-cli-public-x-search","candidates":[{"sourceUrl":"https://x.com/handle/status/id","title":"short title","prompt":"full prompt only","mediaType":"image or video","imageUrls":["https://..."],"videoPoster":"https://... or empty string","aspectRatio":"4:5 or empty string","category":"category","tags":["tag"],"model":"model or empty string","signals":["matched signal"]}]}`;
+  return `Use only the built-in X Search tool to discover public posts. Do not open, read, or infer any private bookmarks, home timelines, cookies, accounts, or browser state.\n\nSearch window: the last ${config.lookbackDays} days.\nMaximum accepted candidates per query: ${config.maxCandidatesPerQuery}.\nMaximum accepted candidates across this entire run: ${config.maxCandidatesTotal}.\nRecognition signals: ${signals}.\nReject signals: ${excluded}.\n\nQueries:\n${queries}\n\nA candidate is valid only when it has all of the following: (1) a specific x.com/<handle>/status/<id> source URL, (2) a complete reusable image-generation or video-generation prompt of at least ${MIN_PROMPT_LENGTH} characters after removing social/model labels, and (3) a direct HTTPS result image URL, or for video a direct HTTPS poster URL. Skip tutorials, product promotions, incomplete prompts, repost-only content, and posts without result media.\n\nReturn at most ${config.maxCandidatesTotal} candidates total as JSON only, with no Markdown or explanatory prose. Use this exact handoff schema. Do not include githubSyncedAt or domesticSyncedAt:\n{"schemaVersion":1,"generatedAt":"ISO 8601 UTC timestamp","count":1,"producer":"grok-cli-public-x-search","candidates":[{"id":"x_status_id","sourceUrl":"https://x.com/handle/status/id","url":"https://x.com/handle/status/id","domain":"x.com","source":"x_search","title":"short title","prompt":"full prompt only","mediaType":"image or video","images":["https://..."],"image":"https://...","videoPoster":"https://... or empty string","aspectRatio":"4:5 or empty string","category":"category","tags":["tag"],"model":"model or empty string","collectedAt":"ISO 8601 UTC timestamp","signals":["matched signal"]}]}`;
 }
 
 function findJsonCandidate(value) {
@@ -104,7 +104,12 @@ function parseCliOutputText(value) {
 function validateCandidate(candidate) {
   const sourceUrl = normalizeSourceUrl(candidate.sourceUrl);
   const prompt = stripPlatformPrefix(String(candidate.prompt || '')).trim();
-  const imageUrls = Array.isArray(candidate.imageUrls) ? candidate.imageUrls.filter(isHttpsUrl) : [];
+  const rawImageUrls = [
+    ...(Array.isArray(candidate.imageUrls) ? candidate.imageUrls : []),
+    ...(Array.isArray(candidate.images) ? candidate.images : []),
+    candidate.image
+  ];
+  const imageUrls = [...new Set(rawImageUrls.filter(isHttpsUrl))];
   const mediaType = candidate.mediaType === 'video' ? 'video' : 'image';
   const videoPoster = isHttpsUrl(candidate.videoPoster) ? candidate.videoPoster : '';
 

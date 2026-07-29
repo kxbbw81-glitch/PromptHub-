@@ -22,30 +22,41 @@ Return JSON only, without Markdown or explanatory prose:
 {
   "schemaVersion": 1,
   "generatedAt": "2026-07-29T12:00:00.000Z",
+  "count": 1,
   "producer": "grok-cli-public-x-search",
   "candidates": [
     {
+      "id": "x_1234567890123456789",
       "sourceUrl": "https://x.com/creator/status/1234567890123456789",
+      "url": "https://x.com/creator/status/1234567890123456789",
+      "domain": "x.com",
+      "source": "x_search",
       "title": "Short, descriptive prompt title",
       "prompt": "The complete reusable image or video generation prompt only. Do not include a model label, social caption, tutorial, or commentary.",
       "mediaType": "image",
-      "imageUrls": [
+      "images": [
         "https://pbs.twimg.com/media/example?format=jpg&name=large"
       ],
+      "image": "https://pbs.twimg.com/media/example?format=jpg&name=large",
       "videoPoster": "",
       "aspectRatio": "4:5",
       "category": "人像",
       "tags": ["cinematic", "portrait"],
       "model": "GPT Image",
+      "collectedAt": "2026-07-29T12:00:00.000Z",
       "signals": ["Prompt:"]
     }
   ]
 }
 ```
 
-For `mediaType: "video"`, `imageUrls` may be empty only when `videoPoster`
-is a direct HTTPS poster URL. For images, `imageUrls` must contain at least one
+For `mediaType: "video"`, `images` may be empty only when `videoPoster`
+is a direct HTTPS poster URL. For images, `images` must contain at least one
 direct HTTPS result image URL.
+
+`imageUrls` is accepted as a backwards-compatible alias for `images`. Grok
+must not provide `githubSyncedAt` or `domesticSyncedAt`: Codex creates those
+timestamps only after a successful canonical write and later domestic release.
 
 ## Acceptance rules
 
