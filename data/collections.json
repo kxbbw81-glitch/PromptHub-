@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T07:23:07.708Z",
+  "updatedAt": "2026-07-29T07:23:15.645Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-07-29",
+      "domain": "x.com",
+      "id": "ext_ms5rcthc_2i3z",
+      "image": "https://pbs.twimg.com/media/HOGN6GVXcAA0vgM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOGN6GVXcAA0vgM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOGN6GeXgAADFMO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOGN6G_WwAAXLXg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOGN6GZWkAA4RHP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A high-contrast street-style photograph of four young Japanese women, around 20 years old, walking together across the sunlit Piazza del Duomo at midday, shopping bags in hand, sunglasses on, the cathedral's white marble facade rendered in sharp high-contrast noon light behind them.\n\nEach face is distinct in bone structure — varying jaw sharpness and cheekbone height across the four — all with classic Japanese features and calm, confident expressions. Their skin shows realistic subsurface scattering under the harsh overhead sun, sharp specular micro-highlights on their cheekbones and collarbones, natural texture preserved despite the strong light.\n\nTheir hairstyles vary — one bob cut, one long straight, two mid-length waves — each with strands displaced naturally by their walking motion. They wear coordinated yet individual fashion-forward outfits — tailored blazers, wide-leg trousers, statement sunglasses — in a mix of neutral and pastel tones.\n\nThe lighting is harsh overhead midday sun, creating strong contrast and short hard shadows beneath each figure, the cathedral's marble nearly blinding white against a deep blue sky. Subtle ISO 400 film grain sits in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOGN6GVXcAA0vgM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOGN6GeXgAADFMO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOGN6G_WwAAXLXg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOGN6GZWkAA4RHP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2081952790440505394",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": 1785309794112,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081952790440505394",
+      "collectedAt": "2026-07-29T07:23:15.645Z",
+      "githubSyncedAt": "2026-07-29T07:23:15.645Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "城市",
