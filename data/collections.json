@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:03:57.683Z",
+  "updatedAt": "2026-07-30T13:16:44.227Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "时尚",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jf8eb_k4ie",
+      "image": "https://pbs.twimg.com/media/HKhh3jBbgAAra5u?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKhh3jBbgAAra5u?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "兄弟们，最近我扒了全网比较好用的电商提示词，做了一套「全平台通用电商视觉引擎工作流」。\n\n目前已经在 SkildArt 跑通：\n上传一张产品图，就能生成 12 张电商套图。\n\n重点不是让 AI 随便出一张好看的商品图，而是把电商视\n觉拆成可复用流程：\n主视觉/产品中心图/卖点图/场景图/细节图/规格图/横版首屏图\n\n每张图都有明确用途。\n\n产品不能变形，Logo 不能乱跑，卖点不能瞎编，整组图风格要统一。\n\n我实测下来，SkildArt 这类电商视觉工作台确实更适合做成套内容：\n\n无限画布适合搭复杂生图流程；\n\nAgent 对话适合单张图灵活设计；\n\n局部修改很方便；\n\n视频模型也能和画布结合使用。\n\n我还复刻了最近很火的「低能量穿搭换装」视频。\n\n先在画布生成两组穿搭场景：\n\n一组普通职业 Look，\n\n一组明亮夏日多巴胺配色。\n\n再切到视频模型，输入简单的转场和运镜描述，就能生成换装视频原素材。后面简单剪辑加 BGM 就能发。\n\n以前这类内容要实拍两套造型，还要对镜头和节奏，现在工作流能直接把门槛拉低很多。\n\n我觉得 AI 电商图真正的价值，不是单张图好看，而是稳定生成一整套能卖货的视觉资产。\n\n完整工作流和低能量穿搭复刻提示词，可以去 SkildArt 广场搜关键词：\n电商系统通用、夏日多巴胺换装\n全部开源到里面了",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKhh3jBbgAAra5u?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2065036051580960808",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785417402179,
+      "title": "兄弟们，最近我扒了全网比较好用的电商提示词，做了一套「全平台通用电商视觉引擎工作流」。",
+      "url": "https://x.com/GeekCatX/status/2065036051580960808",
+      "collectedAt": "2026-07-30T13:16:44.227Z",
+      "githubSyncedAt": "2026-07-30T13:16:44.227Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
