@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:30:20.875Z",
+  "updatedAt": "2026-07-30T12:07:14.312Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7eq9up_f7o4",
+      "image": "https://pbs.twimg.com/media/HL3fLDLawAAj5r5?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HL3fLDLawAAj5r5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL3fMp_bEAA_v95?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt :\nCreate a photorealistic editorial portrait of one 20-year-old Japanese or Korean female portrait subject, tall slim-curvy hourglass body, long legs, narrow waist, rounded hips, seductive mature face, defined eyes and lips, side-parted medium soft waves, collarbone-length flow, elegant face-framing movement, milk-tea brown hair, direct eye contact, innocent clear eyes, delicate soft expression.\n\nThe setting is small urban hotel room, compact bedding, practical lamp fixtures, narrow bedside table, close wall surfaces, luggage corner, enclosed room layout, indoor late-afternoon daylight environment, bright softened room illumination, warm-neutral daylight spread, mellow exterior brightness if visible, warm golden-amber subject light color, honey-orange cast on skin and clothing, peach-toned highlights, subdued warm shadows, no sunset or sky cues, Scene priority: (small urban hotel room, compact bedding:1.35), keep the recognizable selected environment visible behind the subject, preserve clear spatial context and background details, avoid plain or empty background.\n\nShe wears structured leather corset outfit, cinched waist, sculpted overbust cups, boned panels, lace-up closure, grommet and ring hardware, lace or mesh accent panels, refined corset boudoir finish, selected leather color, the corset bodice, the main leather panels, and the lower-half base panels in red, paired with red lace-top thigh-high stockings, fitted sheer hosiery.\n\nrelaxed supine pose, lying on her back, one arm above the head, other arm resting beside the body, legs softly bent, upright non-inverted orientation.\n\nInspired by Osamu Yokonami, high-key minimalist image language. high-key minimalist portraiture, muted pastels, luminous whites, flat overcast softness, structured spacing, generous negative space.\n\nThe composition uses medium shot, waist up framing, moderate background presence, shoulder-level camera, level lens axis, upper-body portrait height, 315-degree front-right view, front three-quarter torso angle, shot on 135mm long telephoto lens, strong background compression, narrow field of view, flattened spatial layers, pronounced subject isolation, distant working distance, blurred foreground occlusion near the lens, out-of-focus shapes crossing one or more frame edges, meaningful partial frame coverage, thick near-field bokeh veil, clear opening toward the subject.\n\nglossy Japanese portrait color grade, lifted midtones, creamy pale highlights, warm peach skin-tone protection, cyan-green shadows, vivid saturation, clean deep blacks, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HL3fLDLawAAj5r5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL3fMp_bEAA_v95?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2071056956350251202",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "bokeh"
+      ],
+      "timestamp": 1785409519201,
+      "title": "Prompt :",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2071056956350251202",
+      "collectedAt": "2026-07-30T12:07:14.312Z",
+      "githubSyncedAt": "2026-07-30T12:07:14.312Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082147178902945982",
       "title": "LTX-2.3 audio-to-video silver-haired guitarist lip-sync",
