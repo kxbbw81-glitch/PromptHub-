@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T10:11:38.255Z",
+  "updatedAt": "2026-07-30T10:14:08.833Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7cwbxy_ahju",
+      "image": "https://pbs.twimg.com/media/HMMHBcOaEAAE6Lv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMMHBcOaEAAE6Lv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "终于上了！\n\n藏师傅现在这个 Skills 可以帮你做 Live Photo。\n\n我过去一段时间用下来，发现这个能力非常有用。它比做成视频的难度要低得非常非常多\n\n又可以帮你展示一些需要动态展示的东西，比如：\n1. 步骤说明\n2. 不同角度的产品细节\n3. 带动效的网页展示等等\n\n这个 Skills 基本上把做 Live Photo 的门槛拉得非常低。\n\n你只需要给它文案和你随便录制的一段视频，它就可以帮你编辑排版，变成一个带文字的 Live Photo。\n\n当然，一些基础的 Live Photo 编辑它也能帮你做（比如拼图、夹子等），比你在市面上能找到的对应产品要方便很多。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMMHBcOaEAAE6Lv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/op7418/status/2072510211626336740",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785406442615,
+      "title": "终于上了！",
+      "url": "https://x.com/op7418/status/2072510211626336740",
+      "collectedAt": "2026-07-30T10:14:08.832Z",
+      "githubSyncedAt": "2026-07-30T10:14:08.832Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "抽象",
