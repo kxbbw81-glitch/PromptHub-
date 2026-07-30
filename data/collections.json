@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T08:06:57.574Z",
+  "updatedAt": "2026-07-30T08:08:25.366Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms78eptl_sxx6",
+      "image": "https://pbs.twimg.com/media/HOcggRvWEAAnWfk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcggRvWEAAnWfk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcghenXoAE_Td-?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use case: ads-marketing.\nAsset type: a single premium vertical Korean fashion editorial poster, soft 3:4 aspect ratio. Generate a new photograph; Image 1 is style_reference and mechanism_reference only. Borrow only its quiet indoor-pool minimalism and the principle that ordered louver light continues across wall, adult model, and water. Do not preserve or copy the original woman's identity, exact pose, framing, swimsuit, or typography.\nCreate a photorealistic indoor pool fashion poster featuring one fictional 23-year-old adult Korean woman, unmistakably adult, healthy athletic proportions, natural Korean facial features, clean brows, subtle peach lip, real skin texture, and a calm focused expression. She wears a complete matte coral-red high-neck athletic one-piece swimsuit with secure coverage, opaque technical fabric, no cutouts, no logo, and no transparent areas. Her damp hair is tied in a low athletic knot. She has just stepped into shallow water and pauses in a stable three-quarter standing pose near the left third; weight balanced, shoulders open, both arms relaxed and fully visible, fingers natural, chin slightly turned toward the bright wall rather than posing seductively.\nDistinct extension concept 01 — diagonal sundial: a huge warm ivory wall occupies about 70% of the frame and pale aqua water the lower 30%. Hard afternoon sun passes through narrow diagonal louvers from upper right to lower left, producing perfectly parallel broad bands that travel continuously over the architectural wall, her face and full torso, the pool surface, and the stone coping. Keep the stripes geometrically coherent in direction and perspective, with subtle water distortion only where they hit moving water. Use a restrained palette of warm ivory, coral, pale aqua, and charcoal shadow.\nEye-level 50mm editorial camera, full figure from head to mid-thigh with generous architectural negative space above and right, crisp subject, medium depth of field, believable indoor-pool perspective, quiet premium Korean magazine mood. Small exact poster copy only: \"LIGHT / WATER 01\" in thin black modern sans-serif, upper right, horizontal; no other text. The typography must be legible and correctly spelled. Bright directional sunlight, clean-edged shadows, moist but non-glamorous skin, subtle fabric texture, realistic ripples, fine photographic grain.\nConstraints: one adult woman only; non-erotic athletic fashion; no school uniform, no juvenile styling, no childlike features; no exposed nipples or genitals; no thong, lingerie, transparent fabric, extreme cleavage, provocative arching, body-part close-up, or low voyeuristic angle. No extra people, no brands, no logo, no watermark, no extra words. Avoid duplicated limbs, malformed hands, extra fingers, broken anatomy, warped pool edges, incoherent light stripes, plastic skin, CGI look, excessive retouching, or collage.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcggRvWEAAnWfk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcghenXoAE_Td-?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082692668799205589",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785398902330,
+      "title": "光影海报最怕的，是“有光没结构",
+      "url": "https://x.com/chenlinspark/status/2082692668799205589",
+      "collectedAt": "2026-07-30T08:08:25.366Z",
+      "githubSyncedAt": "2026-07-30T08:08:25.366Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
