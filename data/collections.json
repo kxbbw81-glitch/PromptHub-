@@ -1,7 +1,99 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:44:12.348Z",
+  "updatedAt": "2026-07-30T10:11:38.255Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7csccz_lpjf",
+      "image": "https://pbs.twimg.com/media/HMO_hGSXMAAmxIk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMO_hGSXMAAmxIk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMO_kbwWUAAAERJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMO_kurW4AEFrF_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMO_lMRXUAABcNc?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "用 ChatGPT-Image2 生成螺蛳粉品牌提案，隔着屏幕都上头了！\n\n一个年轻化夜宵品牌：嗦粉局 SLURP CLUB \n把螺蛳粉做成一套更有质感的品牌系统：\n1、暗夜红油主视觉\n2、夜宵视觉系统档案\n3、产品矩阵与包装系统\n4、深夜门店与传播场景\n\n用暖灰、骨汤白、辣油红和食材本色，做出有层次的夜宵质感~\n从菜品、包装、外卖物料，到门店空间和社媒海报，一次性跑完整套品牌提案！\n\n完整提示词放评论区",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMO_hGSXMAAmxIk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMO_kbwWUAAAERJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMO_kurW4AEFrF_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMO_lMRXUAABcNc?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2072710919843430487",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785406256531,
+      "title": "用 ChatGPT-Image2 生成螺蛳粉品牌提案，隔着屏幕都上头了！",
+      "url": "https://x.com/MrLarus/status/2072710919843430487",
+      "collectedAt": "2026-07-30T10:11:38.255Z",
+      "githubSyncedAt": "2026-07-30T10:11:38.255Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7csccy_p3br",
+      "image": "https://pbs.twimg.com/media/HMMwVHta4AAUSYs?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMMwVHta4AAUSYs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "想申请技术专利但在交底书时，要画系统框图和流程图，还得改 Word 文档，颇为麻烦。\n\n在 GitHub 上看到「中国专利.skill」这个 Claude Code 技能，把从项目文档到专利交底书成稿的整个流程跑通了。\n\n自动扫描项目文档和代码挖专利点，还能联网国知局公布公告站做查新对比，避开和已有专利撞车。\n\nGitHub：http://github.com/handsomestWei/patent-disclosure-skill…\n\n产出的交底书带系统框图和流程图，脱敏后直接出 Word，方便转给代理人修改。\n\n补材料或纠错也不用推倒重写，能在原稿基础上迭代追加。\n\n适合手里有技术方案、又不想在写交底书上耗太多时间的开发者。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMMwVHta4AAUSYs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GitHub_Daily/status/2072553404715631079",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785406256530,
+      "title": "想申请技术专利但在交底书时，要画系统框图和流程图，还得改 Word 文档，颇为麻烦。",
+      "url": "https://x.com/GitHub_Daily/status/2072553404715631079",
+      "collectedAt": "2026-07-30T10:11:38.255Z",
+      "githubSyncedAt": "2026-07-30T10:11:38.255Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7c3w3o_f5s1",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2073254096727879680/img/6HlzJaUYcfnD68FO.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073254096727879680/img/6HlzJaUYcfnD68FO.jpg",
+        "https://pbs.twimg.com/media/HMNnkmDaIAAUhY_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "说实话，Codex做设计其实可以很好的！\n\n不只是文章介绍的方法，甚至不用 Fable 5，用 codex 或 Claude Code 也能做成视频这种设计效果。\n\n按我的思维，看到即可复刻，想象力到位了，就能驱动AI破解出来。\n当然，尊重原视频老师的版权，是dy“言言老师”分享的设计实践！我这里只是二剪搬运，支持观点\n\n顺带一提，Jacky兄真的是干货输出机啊，一天一篇爆款长文，吾自叹不如！",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2073254096727879680/img/6HlzJaUYcfnD68FO.jpg",
+        "https://pbs.twimg.com/media/HMNnkmDaIAAUhY_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/leaf_sanren/status/2073254988659179574",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785405115716,
+      "title": "说实话，Codex做设计其实可以很好的！",
+      "url": "https://x.com/leaf_sanren/status/2073254988659179574",
+      "collectedAt": "2026-07-30T10:11:38.255Z",
+      "githubSyncedAt": "2026-07-30T10:11:38.255Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "美食",
