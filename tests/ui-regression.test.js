@@ -28,6 +28,12 @@ test('home gallery is three times longer and category totals include saved colle
   assert.match(app, /getAllPromptItems\(\)\.forEach\(p =>/);
 });
 
+test('video prompts have a dedicated homepage category and filter', () => {
+  assert.match(data, /name: "视频提示词"/);
+  assert.match(app, /item\.mediaType === 'video'\s*\?\s*'视频提示词'/);
+  assert.match(app, /'video': '视频提示词'/);
+});
+
 test('the homepage uses the requested copy without Nano Banana branding', () => {
   assert.match(app, /探索高品质纳米提示词库。/);
   assert.doesNotMatch(app, /Nano Banana/);

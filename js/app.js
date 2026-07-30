@@ -42,13 +42,20 @@
     'Character': '角色',
     'Abstract': '抽象',
     'Nature': '自然',
-    'Cityscape': '城市'
+    'Cityscape': '城市',
+    'Video': '视频提示词',
+    '视频': '视频提示词',
+    'portrait': '人像',
+    'fashion': '时尚',
+    'product': '静物',
+    'cinematic': '人像',
+    'video': '视频提示词'
   };
 
   function normalizeCategory(cat) {
     if (!cat) return '抽象';
-    if (CATEGORY_LEGACY_MAP[cat]) return CATEGORY_LEGACY_MAP[cat];
-    return cat;
+    const value = String(cat).trim();
+    return CATEGORY_LEGACY_MAP[value] || CATEGORY_LEGACY_MAP[value.toLowerCase()] || value;
   }
 
   function limitedText(value, maxLength) {
@@ -86,10 +93,14 @@
     if (!item || typeof item !== 'object') return null;
 
     const prompt = limitedText(item.prompt, 30000);
+    const tags = normalizeTags(item.tags);
     const requestedCategory = normalizeCategory(limitedText(item.category, 32));
-    const category = CATEGORIES.some(option => option.name === requestedCategory)
-      ? requestedCategory
-      : autoCategorize(prompt);
+    const categoryText = [item.title, ...tags, prompt].filter(Boolean).join(' ');
+    const category = item.mediaType === 'video'
+      ? '视频提示词'
+      : CATEGORIES.some(option => option.name === requestedCategory)
+        ? requestedCategory
+        : autoCategorize(categoryText);
     const images = sanitizeImageUrls([
       ...(Array.isArray(item.images) ? item.images : []),
       item.image
@@ -101,7 +112,7 @@
       title: limitedText(item.title, 180),
       prompt,
       category,
-      tags: normalizeTags(item.tags),
+      tags,
       image: images[0] || '',
       images,
       rawImages: images,

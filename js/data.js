@@ -17,6 +17,7 @@ const CATEGORIES = [
   { name: "抽象",      icon: "🌀", desc: "抽象艺术与视觉实验" },
   { name: "自然",      icon: "🌿", desc: "自然生态与植物花卉" },
   { name: "城市",      icon: "🌆", desc: "城市景观与街景风貌" },
+  { name: "视频提示词", icon: "🎬", desc: "文生视频与动态镜头提示词" },
 ];
 
 const PROMPTS = [

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:08:24.484Z",
+  "updatedAt": "2026-07-30T06:12:34.743Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -70,7 +70,7 @@
     {
       "id": "grok_x_2082705809226813643",
       "title": "Realistic woman with doodle-shadow selfie",
-      "category": "portrait",
+      "category": "人像",
       "tags": [
         "mixed-media",
         "doodle",
@@ -104,7 +104,7 @@
     {
       "id": "grok_x_2082700214364717324",
       "title": "Korean fashion indoor pool radial light poster",
-      "category": "fashion",
+      "category": "时尚",
       "tags": [
         "editorial",
         "pool",
@@ -138,7 +138,7 @@
     {
       "id": "grok_x_2082704258080637233",
       "title": "Luxury mirror selfie bedroom portrait",
-      "category": "portrait",
+      "category": "时尚",
       "tags": [
         "mirror-selfie",
         "luxury",
@@ -176,7 +176,7 @@
     {
       "id": "grok_x_2082661048369430550",
       "title": "Japanese café fashion editorial portrait",
-      "category": "fashion",
+      "category": "时尚",
       "tags": [
         "café",
         "editorial",
@@ -212,7 +212,7 @@
     {
       "id": "grok_x_2082557816888283531",
       "title": "JSON lifestyle portrait with reference face",
-      "category": "portrait",
+      "category": "时尚",
       "tags": [
         "json-prompt",
         "lifestyle",
@@ -252,7 +252,7 @@
     {
       "id": "grok_x_2082691516581986806",
       "title": "Desert woman with black horse cinematic portrait",
-      "category": "cinematic",
+      "category": "风景",
       "tags": [
         "horse",
         "desert",
@@ -286,7 +286,7 @@
     {
       "id": "grok_x_2082691449158865175",
       "title": "Night record-store street fashion portrait",
-      "category": "fashion",
+      "category": "时尚",
       "tags": [
         "night",
         "street",
@@ -320,7 +320,7 @@
     {
       "id": "grok_x_2082690306906955897",
       "title": "Thermos bottle UGC product review video",
-      "category": "product",
+      "category": "视频提示词",
       "tags": [
         "ugc",
         "commercial",
@@ -424,7 +424,7 @@
     {
       "id": "grok_x_2082616378675089643",
       "title": "Hyper-realistic yacht golden-hour iPhone selfie",
-      "category": "portrait",
+      "category": "人像",
       "tags": [
         "selfie",
         "yacht",
@@ -459,7 +459,7 @@
     {
       "id": "grok_x_2082616168062603269",
       "title": "Umbrella opens into a living universe",
-      "category": "fantasy",
+      "category": "奇幻",
       "tags": [
         "umbrella",
         "universe",
@@ -494,7 +494,7 @@
     {
       "id": "grok_x_2082027881186877691",
       "title": "Three-layer out-of-frame xianxia COS movie poster",
-      "category": "poster",
+      "category": "时尚",
       "tags": [
         "xianxia",
         "COS",
@@ -535,7 +535,7 @@
     {
       "id": "grok_x_2081753730895302811",
       "title": "Classical oriental bridal boudoir close-up portrait",
-      "category": "portrait",
+      "category": "人像",
       "tags": [
         "classical",
         "bridal",
@@ -572,7 +572,7 @@
     {
       "id": "grok_x_2081943232964182485",
       "title": "Night urban color-negative film portrait",
-      "category": "portrait",
+      "category": "人像",
       "tags": [
         "film-look",
         "night",
@@ -607,7 +607,7 @@
     {
       "id": "grok_x_2082675918565495235",
       "title": "Seedream café lifestyle portrait",
-      "category": "portrait",
+      "category": "时尚",
       "tags": [
         "portrait",
         "lifestyle",
@@ -644,7 +644,7 @@
     {
       "id": "grok_x_2082669642313535801",
       "title": "Yellow silk dramatic portraits",
-      "category": "portrait",
+      "category": "人像",
       "tags": [
         "portrait",
         "studio",
@@ -683,7 +683,7 @@
     {
       "id": "grok_x_2082669518003065268",
       "title": "Mixed-media floating editorial figure",
-      "category": "illustration",
+      "category": "抽象",
       "tags": [
         "mixed-media",
         "editorial",
@@ -718,7 +718,7 @@
     {
       "id": "grok_x_2082668756203896958",
       "title": "Dusty-blue hoodie close-up portrait",
-      "category": "portrait",
+      "category": "时尚",
       "tags": [
         "portrait",
         "hoodie",
@@ -753,7 +753,7 @@
     {
       "id": "grok_x_2082667750028378112",
       "title": "Flower-shade coffee street portrait",
-      "category": "portrait",
+      "category": "时尚",
       "tags": [
         "street-portrait",
         "japan",
@@ -788,7 +788,7 @@
     {
       "id": "grok_x_2082666646024409215",
       "title": "Hot air balloon festival portrait",
-      "category": "portrait",
+      "category": "时尚",
       "tags": [
         "portrait",
         "festival",
@@ -825,7 +825,7 @@
     {
       "id": "grok_x_2082677569539940569",
       "title": "Milan Duomo nighttime group portrait",
-      "category": "group-portrait",
+      "category": "时尚",
       "tags": [
         "group",
         "milan",
@@ -862,7 +862,7 @@
     {
       "id": "grok_x_2081563318498845172",
       "title": "AI creation process infographic",
-      "category": "infographic",
+      "category": "人像",
       "tags": [
         "infographic",
         "文生图",
@@ -896,7 +896,7 @@
     {
       "id": "grok_x_2082493783879614820",
       "title": "东方古典嘟嘴托腮人像提示词",
-      "category": "portrait",
+      "category": "人像",
       "tags": [
         "oriental",
         "cinematic",
@@ -931,7 +931,7 @@
     {
       "id": "grok_x_2082423303181123682",
       "title": "夜间浅水红柱东方暗黑时尚写真",
-      "category": "fashion",
+      "category": "时尚",
       "tags": [
         "night",
         "direct-flash",
@@ -966,7 +966,7 @@
     {
       "id": "grok_x_2082482452270834129",
       "title": "孔雀墨绿单色比基尼时尚大片",
-      "category": "fashion",
+      "category": "时尚",
       "tags": [
         "bikini",
         "monochrome",
@@ -1000,7 +1000,7 @@
     {
       "id": "grok_x_2082588260862193666",
       "title": "敞篷车后备箱取浴巾海边人像",
-      "category": "lifestyle",
+      "category": "自然",
       "tags": [
         "convertible",
         "bikini",
@@ -1034,7 +1034,7 @@
     {
       "id": "grok_x_2082587861061411026",
       "title": "敞篷车驾驶位系安全带人像",
-      "category": "fashion",
+      "category": "人像",
       "tags": [
         "convertible",
         "driving",
@@ -1068,7 +1068,7 @@
     {
       "id": "grok_x_2082587448018940204",
       "title": "白色敞篷车旁墨镜夏日写真",
-      "category": "lifestyle",
+      "category": "自然",
       "tags": [
         "convertible",
         "bikini",
@@ -1102,7 +1102,7 @@
     {
       "id": "grok_x_2082469223385944070",
       "title": "双人背后视角针织裙时尚摄影",
-      "category": "fashion",
+      "category": "时尚",
       "tags": [
         "dual-subject",
         "rear-view",
@@ -1136,7 +1136,7 @@
     {
       "id": "grok_x_2080612244703035408",
       "title": "iPhone前置居家自拍生活照",
-      "category": "lifestyle",
+      "category": "自然",
       "tags": [
         "selfie",
         "iphone",
@@ -1208,7 +1208,7 @@
     {
       "id": "grok_x_2081614603541500366",
       "title": "5 秒固定机位时尚换装视频",
-      "category": "视频",
+      "category": "视频提示词",
       "tags": [
         "时尚",
         "换装",
@@ -1735,7 +1735,7 @@
     {
       "id": "grok_x_2082135947085529592",
       "title": "赛博朋克镜面机械人像",
-      "category": "抽象",
+      "category": "赛博朋克",
       "tags": [
         "抽象",
         "赛博朋克",
@@ -1768,7 +1768,7 @@
     {
       "id": "grok_x_2082359250681217219",
       "title": "法租界墙角湿发夏日人像",
-      "category": "时尚",
+      "category": "人像",
       "tags": [
         "时尚",
         "摄影",
@@ -1842,7 +1842,7 @@
     {
       "id": "grok_x_2082316535146971187",
       "title": "副驾驶抹香鲸项链自拍",
-      "category": "人像",
+      "category": "自然",
       "tags": [
         "人像",
         "摄影",
@@ -2054,7 +2054,7 @@
     {
       "id": "grok_x_2077193311669162035",
       "title": "日式清晨卧室窗边人像",
-      "category": "时尚",
+      "category": "人像",
       "tags": [
         "时尚",
         "摄影",
@@ -2093,7 +2093,7 @@
     {
       "id": "grok_x_2081043477291585761",
       "title": "米色针织挂脖情绪肖像",
-      "category": "时尚",
+      "category": "人像",
       "tags": [
         "时尚",
         "摄影",
@@ -2233,7 +2233,7 @@
     {
       "id": "grok_x_2082309902936989785",
       "title": "女性与黑色长毛猫窗边肖像",
-      "category": "动物",
+      "category": "人像",
       "tags": [
         "动物",
         "人像",
@@ -2654,7 +2654,7 @@
     {
       "id": "grok_x_2082387778869055793",
       "title": "维多利亚蕾丝书柜暮色人像",
-      "category": "时尚",
+      "category": "人像",
       "tags": [
         "时尚",
         "editorial",
@@ -2693,7 +2693,7 @@
     {
       "id": "grok_x_2082376834675564735",
       "title": "暗黑学院风大衣低角度人像",
-      "category": "时尚",
+      "category": "人像",
       "tags": [
         "时尚",
         "editorial",
@@ -3460,7 +3460,7 @@
     {
       "id": "grok_x_2082323053015712163",
       "title": "Burgundy velvet palace fashion portrait",
-      "category": "fashion editorial",
+      "category": "时尚",
       "tags": [
         "fashion",
         "portrait",
@@ -3495,7 +3495,7 @@
     {
       "id": "grok_x_2082284983683805554",
       "title": "Rock star photo beside wall sketch",
-      "category": "portrait mixed media",
+      "category": "人像",
       "tags": [
         "portrait",
         "line art",
@@ -3530,7 +3530,7 @@
     {
       "id": "grok_x_2082232742968787358",
       "title": "Luxury car golden-hour lifestyle portrait",
-      "category": "lifestyle portrait",
+      "category": "时尚",
       "tags": [
         "luxury car",
         "golden hour",
@@ -3567,7 +3567,7 @@
     {
       "id": "grok_x_2082165472347529415",
       "title": "Neon green studio fitness editorial JSON",
-      "category": "fitness editorial",
+      "category": "人像",
       "tags": [
         "studio",
         "activewear",
@@ -3608,7 +3608,7 @@
     {
       "id": "grok_x_2082339157297496229",
       "title": "Ambition shadow golden-hour male portrait",
-      "category": "cinematic portrait",
+      "category": "时尚",
       "tags": [
         "golden hour",
         "shadow",
@@ -3643,7 +3643,7 @@
     {
       "id": "grok_x_2082332014372692162",
       "title": "Yellow satin gown studio beauty portrait",
-      "category": "fashion beauty",
+      "category": "时尚",
       "tags": [
         "satin gown",
         "studio",
@@ -3682,7 +3682,7 @@
     {
       "id": "grok_x_2082360357666853097",
       "title": "B&W Rembrandt suit editorial with negatives",
-      "category": "black and white portrait",
+      "category": "时尚",
       "tags": [
         "Rembrandt lighting",
         "suit",
@@ -3717,7 +3717,7 @@
     {
       "id": "grok_x_2082345381237494133",
       "title": "Milan blue-hour spinning circle of friends",
-      "category": "street photography",
+      "category": "时尚",
       "tags": [
         "Milan",
         "blue hour",
@@ -3754,7 +3754,7 @@
     {
       "id": "grok_x_2082064410596778046",
       "title": "Frozen lake miniature ice-bridge video",
-      "category": "cinematic miniature video",
+      "category": "视频提示词",
       "tags": [
         "miniature",
         "winter",
@@ -3791,7 +3791,7 @@
     {
       "id": "grok_x_2082314386585055619",
       "title": "15s ceramic detailer UGC car video timeline",
-      "category": "product UGC video",
+      "category": "视频提示词",
       "tags": [
         "automotive",
         "detailer",
@@ -4064,7 +4064,7 @@
     {
       "id": "codex_x_2082054096715137434",
       "title": "10 秒甜酷风极速变装视频",
-      "category": "时尚",
+      "category": "视频提示词",
       "tags": [
         "视频提示词",
         "Seedance",
@@ -6502,7 +6502,7 @@
     },
     {
       "aspectRatio": "3:4",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4htpe4_1l8l",
@@ -6532,7 +6532,7 @@
     },
     {
       "aspectRatio": "3:4",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4htk7t_89t3",
@@ -6566,7 +6566,7 @@
     },
     {
       "aspectRatio": "9:16",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4hsq55_yn11",
@@ -6604,7 +6604,7 @@
     },
     {
       "aspectRatio": "9:16",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4hmbz8_j6eu",
@@ -6642,7 +6642,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4gzu8b_ik1k",
@@ -6681,7 +6681,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4gsbyz_8fv4",
@@ -6715,7 +6715,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "时尚",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4grykr_v2v4",
@@ -6753,7 +6753,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4gqqex_prag",
@@ -6781,7 +6781,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "抽象",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4gc10i_a2k6",
@@ -6818,7 +6818,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "时尚",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4gbj6t_y4ux",
@@ -6855,7 +6855,7 @@
       "domesticSyncedAt": "2026-07-28T10:13:19.624Z"
     },
     {
-      "category": "??",
+      "category": "人像",
       "date": "2026-07-27",
       "domain": "x.com",
       "id": "ext_ms3anuof_j4ut",
@@ -6885,7 +6885,7 @@
       "domesticSyncedAt": "2026-07-28T10:13:19.624Z"
     },
     {
-      "category": "??",
+      "category": "时尚",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4c8b5r_6ff4",
@@ -6918,7 +6918,7 @@
       "domesticSyncedAt": "2026-07-28T10:13:19.624Z"
     },
     {
-      "category": "??",
+      "category": "人像",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4c820z_vq60",
@@ -6948,7 +6948,7 @@
       "domesticSyncedAt": "2026-07-28T10:13:19.624Z"
     },
     {
-      "category": "??",
+      "category": "人像",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4c4euu_p8vs",
@@ -6980,7 +6980,7 @@
     },
     {
       "aspectRatio": "",
-      "category": "??",
+      "category": "自然",
       "date": "2026-07-27",
       "domain": "x.com",
       "id": "ext_ms3aofjh_c7n2",
@@ -7008,7 +7008,7 @@
       "domesticSyncedAt": "2026-07-28T10:13:19.624Z"
     },
     {
-      "category": "??",
+      "category": "时尚",
       "date": "2026-07-28",
       "domain": "x.com",
       "id": "ext_ms4bukd0_lixu",

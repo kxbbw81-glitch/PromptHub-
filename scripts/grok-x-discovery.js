@@ -1,6 +1,7 @@
 const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
+const { classifyCollection } = require('./category-rules');
 
 const MIN_PROMPT_LENGTH = 160;
 const X_STATUS_URL = /^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/\d+\/?(?:\?.*)?$/i;
@@ -172,7 +173,7 @@ function toCollection(candidate, now = new Date().toISOString()) {
   return {
     id: `grok_x_${postId}`,
     title: candidate.title,
-    category: candidate.category,
+    category: classifyCollection(candidate),
     tags: [...new Set([...candidate.tags, candidate.mediaType === 'video' ? '文生视频' : '文生图', 'Grok X 公开搜索'])],
     prompt: candidate.prompt,
     image: images[0],

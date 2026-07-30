@@ -54,6 +54,20 @@ test('keeps a direct video URL and poster for video-only collections', () => {
   assert.equal(result.accepted.length, 1);
   assert.equal(result.accepted[0].videoPoster, 'https://pbs.twimg.com/amplify_video_thumb/example.jpg');
   assert.equal(result.accepted[0].videoSourceUrl, 'https://video.twimg.com/amplify_video/example.mp4');
+  assert.equal(result.accepted[0].category, '视频提示词');
+});
+
+test('replaces untrusted Grok category labels with the shared Chinese rules', () => {
+  const result = discovery.acceptCandidates([{
+    sourceUrl: 'https://x.com/example/status/902',
+    prompt: COMPLETE_PROMPT,
+    mediaType: 'image',
+    image: 'https://pbs.twimg.com/media/fashion.jpg',
+    category: 'portrait',
+    tags: ['fashion', 'couture', 'editorial']
+  }], []);
+
+  assert.equal(result.accepted[0].category, '时尚');
 });
 
 test('the test configuration caps discovery at ten candidates with enough agent turns', () => {
