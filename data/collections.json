@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:22:20.133Z",
+  "updatedAt": "2026-07-30T13:24:12.800Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7joss5_pbhx",
+      "image": "https://pbs.twimg.com/media/HHsRFrGbUAAvzdJ?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HHsRFrGbUAAvzdJ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHsRFrDbYAAHiPI?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHsRFrGbsAEhQ4i?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHsRFrHbEAARH_I?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 生成AI智能换装试穿对比海报，特别适用电商服饰做效果图、美妆博主分享穿搭。\n\n提示词\n\n创建一张横版 16:9 四格式时尚换装完整参考海报，适用于 AI 换装训练与商业展示。\n\n 版面布局（从左至右）：\n\n① 左格 —— Character（角色原型） 原始参考角色肖像，正面标准站姿，面部五官清晰可辨，发型与肤色真实自然，纯净浅灰色棚拍背景，专业人像摄影光效，半身至全身构图。\n\n② 中格 —— Outfit（穿搭平铺） 完整服装套组的精致平铺展示：上衣 / 外套 / 裤装或裙装 / 鞋履 / 包袋 / 配饰（腰带、帽子、首饰等），白色或浅米色无缝背景，商业产品级打光，每件单品边缘清晰，面料材质肌理清晰可见，按穿着逻辑从上至下有序排列。\n\n③ 右格 —— Result（换装效果） 同一角色穿着新服装的完整上身效果图，完美匹配原始角色的体型、肤色与面部特征，服装贴合身形自然，褶皱与垂感真实，光线与左格角色原图保持完全一致，姿态自然流畅，商业大片氛围。\n\n④ 右侧附加格 —— Pose Reference（姿势参考区） 六宫格小图排列，展示角色多角度姿态参考，具体包括：\n\n正面半身特写（强调表情与面部细节）\n背面全身站立姿势（发型与服装背部细节）\n侧面 45° 斜角站姿（轮廓线与侧颜）\n蹲坐姿势（双手抱膝或其他自然动作）\n跪姿或低角度回头姿态（动态感与戏剧张力）\n特征性标志动作（角色专属的自然习惯姿势）\n\n 整体视觉规格：\n\n画面比例：16:9 横版超宽构图\n画质标准：4K Ultra HD，锐度极高，无噪点\n背景风格：各格独立简洁棚拍背景，整体色调统一协调\n光线处理：三段式专业影棚布光，四格之间光线方向与色温高度统一\n摄影风格：高级时尚大片美学，Vogue / Elle 商业广告级质感\n材质表现：面料纹理、皮革光泽、金属配件反光均须真实还原\n字体标注：各格底部居中标注英文标签，细线无衬线字体，低调优雅\n\n 核心生成要求： 角色面部一致性 ≥ 95%｜服装上身贴合度真实自然｜四格视觉风格高度统一｜直出可用商业级图像",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHsRFrGbUAAvzdJ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHsRFrDbYAAHiPI?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHsRFrGbsAEhQ4i?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHsRFrHbEAARH_I?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2052253104482156905",
+      "tags": [
+        "人像",
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1785417848501,
+      "title": "GPT Image 2 生成AI智能换装试穿对比海报，特别适用电商服饰做效果图、美妆博主分享穿搭。",
+      "url": "https://x.com/GeekCatX/status/2052253104482156905",
+      "collectedAt": "2026-07-30T13:24:12.800Z",
+      "githubSyncedAt": "2026-07-30T13:24:12.800Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
