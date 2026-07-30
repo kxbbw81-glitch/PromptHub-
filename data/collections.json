@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:24:12.800Z",
+  "updatedAt": "2026-07-30T13:24:15.371Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7joss5_5703",
+      "image": "https://pbs.twimg.com/media/HHsJPpjboAEij5h?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHsJPpjboAEij5h?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我通过大量调试，\n终于通过ChatGPT—Image2制作出了一个可以拿来直接进行个人形象商业的海报；\n\n如果你觉得不错，可以试用一下（别忘了改内容）；\n\n上传你照片即可\n以下是提示词：\n————————————————分割线\n使用上传的人物照片作为参考，设计一张高端、极简、Apple 风格的中文教练宣传海报。\n\n整体视觉风格：\n现代、干净、克制、高级、极简，类似 Apple 产品发布会海报的视觉语言。画面以大量留白、柔和光影、浅灰白背景、精致排版为主。不要出现 Apple 标志，不要出现多余装饰，不要复杂背景。\n\n人物呈现：\n保留人物真实五官特征和气质，让人物看起来专业、亲和、自信。人物穿着浅灰西装外套 + 白色圆领内搭 / 白衬衫，保持干净利落的棚拍质感。人物放在画面右侧或中右侧，上半身构图，光线柔和自然，面部清晰，背景为白色到浅灰色渐变。\n\n版式设计：\n左侧为文字排版，右侧为人物肖像。文字使用现代无衬线中文字体，黑色或深灰色，层级清晰，排版有呼吸感。主标题最大，副标题中等，能力介绍较小，整体对齐整齐，保持高级品牌感。\n\n海报文字：\n主标题：\n觉醒的熊Bear\n\n副标题：\n文字创作艺术家\n\n能力介绍：\n专精短篇推文写作\n行动力强化和启蒙\n流量获取和破局\n\n设计要求：\n竖版海报，4:5比例。整体色彩以白色、浅灰、深灰、黑色为主。避免花哨颜色，避免卡通风，避免夸张动作，避免杂乱元素。画面要像高端个人品牌宣传海报，简洁、有力量、专业、温和。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHsJPpjboAEij5h?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AwakeningBear01/status/2052244790461571554",
+      "tags": [
+        "海报",
+        "极简"
+      ],
+      "timestamp": 1785417848501,
+      "title": "我通过大量调试，",
+      "url": "https://x.com/AwakeningBear01/status/2052244790461571554",
+      "collectedAt": "2026-07-30T13:24:15.371Z",
+      "githubSyncedAt": "2026-07-30T13:24:15.371Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
