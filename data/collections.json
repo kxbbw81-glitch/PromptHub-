@@ -1,7 +1,93 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:00:23.264Z",
+  "updatedAt": "2026-07-30T11:02:49.096Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7en0ui_m8ya",
+      "image": "https://pbs.twimg.com/media/HMCQ02YXwAACBWW?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMCQ02YXwAACBWW?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "POV: you took three selfies and accidentally built a personality arc.\n\nFirst frame: don’t ask.\nSecond frame: maybe.\nThird frame: okay, but I’m still judging you.\n\nWarm bedroom light, messy hair, bare shoulders, and three tiny shifts in expression doing all the storytelling.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMCQ02YXwAACBWW?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2071815081483182235",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785409367562,
+      "title": "POV: you took three selfies and accidentally built",
+      "url": "https://x.com/sidona/status/2071815081483182235",
+      "collectedAt": "2026-07-30T11:02:49.095Z",
+      "githubSyncedAt": "2026-07-30T11:02:49.095Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7en0uh_rvqb",
+      "image": "https://pbs.twimg.com/media/HMB443UaAAE3Shn?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMB443UaAAE3Shn?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "神仙提示词分享\n\nGPT居然被我驯服了，慎用啊XDM\n\n提示词prompt：\n         对面女生@参考图坐在餐桌另一侧的卡座上，身体正对镜头方向，上半身位于餐桌后方，只露出胸口以下或局部上半身，姿态安静放松。 她的双腿从桌下向前伸出，脚部自然搭在前景人物的大腿或裤腿上，双脚轻轻交错，脚尖放松下垂，带有熟人之间随意、亲近、撒娇、玩闹的互动感。  脚部不是用力踩踏，而是轻轻放置、搭靠在对方腿上，动作自然随意，像饭后坐在对面时把脚伸过来休息。 整体关系感是“对面女生坐着不动，双脚伸到桌下，搭在拍摄者腿上”，形成一种真实日常、亲密、轻松的餐厅卡座互动。\n#SFW #PromptEngineering",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMB443UaAAE3Shn?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/dannywayli/status/2071790428874260809",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785409367561,
+      "title": "神仙提示词分享",
+      "url": "https://x.com/dannywayli/status/2071790428874260809",
+      "collectedAt": "2026-07-30T11:02:49.095Z",
+      "githubSyncedAt": "2026-07-30T11:02:49.095Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7en0ug_lx01",
+      "image": "https://pbs.twimg.com/media/HL-vbu-akAALFar?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HL-vbu-akAALFar?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL4TemcbEAAQoGX?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "发现一个闲鱼神器！难怪那些大卖家能年入百万，原来都在用自动化工具。\n\nxianyu-super-butler（闲鱼超级管家），在原有项目基础上二次开发的，功能更全用起来更顺。\n\n特别适合：\n- 闲鱼卖家天天回消息回到手软的\n- 要批量发货懒得一单点的\n- 想把客服交给机器干的\n\n开源免费，想研究就下载，想直接用也行。\n\n https://github.com/Mxucc/xianyu-super-butler…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HL-vbu-akAALFar?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL4TemcbEAAQoGX?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/QT9277/status/2071567281776439378",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785409367560,
+      "title": "发现一个闲鱼神器！难怪那些大卖家能年入百万，原来都在用自动化工具。",
+      "url": "https://x.com/QT9277/status/2071567281776439378",
+      "collectedAt": "2026-07-30T11:02:49.095Z",
+      "githubSyncedAt": "2026-07-30T11:02:49.095Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
