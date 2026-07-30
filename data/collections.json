@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T10:21:34.105Z",
+  "updatedAt": "2026-07-30T10:22:37.760Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7d73q0_4aru",
+      "image": "https://pbs.twimg.com/media/HLjusPEWIAA6EKz?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLjusPEWIAA6EKz?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "非常实用的Codex实用小技巧\n\n1.  额度管理（5小时滚动窗口）\n\n•  窗口从你发第一条消息开始算，5小时内用完就得等。\n•  技巧：每天干活前 3 小时先发一句消息激活窗口（可设自动化定时任务）。这样能多吃到一个窗口期，避免干等。\n\n2.  记忆功能一定要开\n\n•  路径开启后，Codex 会慢慢记住你的项目偏好、常用约束、习惯。\n•  长期使用后效果明显，新会话不再像“带新人”一样从零开始。\n\n3.  长任务别硬打断，用 /side 查进度\n\n•  跑长时间任务时，用 /side 开旁路聊天，能拿到当前进度，又不会中断主任务。\n•  特别适合已经跑了十几分钟的任务。\n\n4.  额度快用完时，用 Goal 模式收尾\n\n•  Goal 模式下，即便只剩 1% 额度，也会尽量把目标完成并交付。\n•  建议把最后请求写成有明确边界和验收标准的任务（修 bug、补测试、改完文章等），中途别乱插话。\n\n5.  频繁 Reconnecting，优先试 TUN 模式\n•  先把代理改成 TUN 模式（最直接）。改之前记得备份当前配置，以防出问题。\n\n6.  Windows 命令执行卡顿，升级PowerShell\n\n•  默认用 PowerShell 5.1 容易出问题。\n•  用管理员打开 PowerShell 执行升级命令，升级到 7.6.x 版本后重启终端即可。\n\n7.  Computer Use / Chrome 插件搜不到的修复\n\n•  大多是 Windows 版 bundled 插件源异常导致。\n•  把特定提示词发给 Codex 修复，修复后完全退出并重启 Codex 即可（比直接重装靠谱）。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLjusPEWIAA6EKz?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Pluvio9yte/status/2071889825834398095",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785406945176,
+      "title": "非常实用的Codex实用小技巧",
+      "url": "https://x.com/Pluvio9yte/status/2071889825834398095",
+      "collectedAt": "2026-07-30T10:22:37.760Z",
+      "githubSyncedAt": "2026-07-30T10:22:37.760Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:3",
       "category": "美食",
