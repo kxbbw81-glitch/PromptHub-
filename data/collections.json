@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:02:32.476Z",
+  "updatedAt": "2026-07-30T13:03:57.683Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7iyta8_ze43",
+      "image": "https://pbs.twimg.com/media/HLelwY4aoAAjwwH?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLelwY4aoAAjwwH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLelwY8acAACkSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLelwZvaYAAuKYa?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLelwZKbsAAZIPy?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词：\n\n使用上传的主体人像作为人物身份参考，保留她的五官比例、脸型轮廓、眼神气质、发型特征与整体辨识度，不要生成陌生人脸，不要过度美颜，不要塑料感。\n\n参考原图的动作、表情、镜头角度、构图和光影氛围，生成一组竖版高级情绪人像海报。人物需要保持原图姿势与表情逻辑：低头、侧脸、仰头、靠墙、眼神失焦、头发被风吹乱、微微张唇、半闭眼、疲惫但克制的表情。\n\n整体氛围是微醺、失焦、孤独、思念、凌晨情绪、信号断开但情绪还在。画面要有电影感红蓝光影，暗调背景，柔焦胶片颗粒，轻微噪点，风吹发丝，高级杂志感，带一点赛博故障风和复古暗夜氛围。\n\n服装保持高级黑色系，露肩或暗色礼服风格即可，必须优雅克制，不色情、不暴露、不低俗。不要出现真实品牌 Logo、平台水印、版权海报、动漫角色、真实商标和小红书水印。\n\n加入英文故障风排版，字体要高级、克制、破碎感强，像音乐专辑封面或暗黑时尚杂志。文字可以使用：\n\nFADING SIGNAL\nLONELY FREQUENCY\nBROKEN HEARTBEAT\nSTATIC LOVE\nAFTERGLOW MEMORY\nMIDNIGHT ECHO\nmiss you in the noise\nsome memories refuse to disappear\nthe signal breaks but the feeling stays\n\n排版要求：大标题使用破碎 serif 字体或 glitch typography，小字使用细长英文衬线字体，加入细线、编号、时间码、信号条、断裂横线、微弱噪点、扫描线和蓝红色错位效果。文字不要太满，要留出高级留白，整体像一张孤独又上头的情绪海报。\n\n高清细节，真实皮肤纹理，真实发丝，电影级灯光，浅景深，高级摄影质感，竖版 3:4 或 4:5。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLelwY4aoAAjwwH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLelwY8acAACkSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLelwZvaYAAuKYa?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLelwZKbsAAZIPy?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/you1873118/status/2069304836420776413",
+      "tags": [
+        "人像",
+        "海报",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785416636096,
+      "title": "提示词：",
+      "url": "https://x.com/you1873118/status/2069304836420776413",
+      "collectedAt": "2026-07-30T13:03:57.683Z",
+      "githubSyncedAt": "2026-07-30T13:03:57.683Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
