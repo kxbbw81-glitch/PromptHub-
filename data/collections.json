@@ -1,7 +1,136 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T12:26:56.190Z",
+  "updatedAt": "2026-07-30T12:32:01.769Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7htqnn_i1ru",
+      "image": "https://pbs.twimg.com/media/HLbe2hwacAIS4PI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLbe2hwacAIS4PI?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Codex别裸装！这 9 个 Skills 必须安排上！\n\n① humanizer — 去 AI 味 让 AI 生成的文字像真人写的，再也不怕被看出来是 AI\n② claude-design — 产品界面设计 一句话生成 UI 原型，设计效率拉满\n③ research-paper-writing — 科研论文 自动检索文献 + 论文框架，学术党狂喜\n④ arxiv — 文献雷达 自动追踪最新论文，科研前沿不掉队\n⑤ jupyter-live-kernel — 数据科学 对话里直接跑Python，数据分析一气呵成\n⑥ writing-plans — 规划与写作 梳理选题大纲，写作不再卡壳\n⑦ powerpoint — 汇报输出 一键 PPT，从此告别熬夜做幻灯片\n⑧ popular-web — 审美提升 网页设计灵感库，审美在线不跑偏\n⑨ ideation — 选题灵感 创意枯竭时的救星，选题不再头秃",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLbe2hwacAIS4PI?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MoonInAI/status/2069398667015094348",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785414719795,
+      "title": "Codex别裸装！这 9 个 Skills 必须安排上！",
+      "url": "https://x.com/MoonInAI/status/2069398667015094348",
+      "collectedAt": "2026-07-30T12:32:01.769Z",
+      "githubSyncedAt": "2026-07-30T12:32:01.769Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7htqnn_8jpz",
+      "image": "https://pbs.twimg.com/media/HLlKZkSXQAADPAC?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLlKZkSXQAADPAC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLlKauPbAAADOZH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLlKbnubQAAHoqF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLlKcl7bYAAcmJY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT\n\nPrompt:\n\nCinematic Japanese-style bedroom portrait of an adult East Asian woman, kneeling beside a white bed in a minimalist room, leaning forward with arms resting on the mattress, one hand supporting her cheek, soft melancholic eye contact, short tousled dark brown hair, natural makeup, realistic skin texture.\n\nWearing a fitted black short-sleeve top and light beige cotton skirt. Warm natural window light, wooden floor, clean background, vertical 9:16 composition, 85mm lens, f/1.8, shallow depth of field, subtle film grain, soft golden backlight, ultra-realistic photography, cinematic mood, authentic expression, high detail, professional editorial quality.\nNegative: blurry, low-res, bad hands, extra fingers, distorted face, extra limbs, plastic skin, messy background, anime, illustration, CGI, oversexualized clothing, cheap AI look.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLlKZkSXQAADPAC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLlKauPbAAADOZH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLlKbnubQAAHoqF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLlKcl7bYAAcmJY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2069767520110989676",
+      "tags": [
+        "cinematic",
+        "anime",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1785414719795,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/MissDelulu9/status/2069767520110989676",
+      "collectedAt": "2026-07-30T12:32:01.769Z",
+      "githubSyncedAt": "2026-07-30T12:32:01.769Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7htqnm_hm5m",
+      "image": "https://pbs.twimg.com/media/HLlj0VTbYAAsYPv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLlj0VTbYAAsYPv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLjPDTLW8AALIp2?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "今晚学习使用软链接的方式管理skill，然后正好开源一个skill洁癖skill\n\n你是不是也遇到过安装了很多skill，但是想不起来装了哪些；\n或者安装了之后很久没用了，想要删除的时候又想不起来放到哪了。\n\n可以使用这个skill来扫描安装过的skill，并统计你的使用频率，给出skill清理意见\n\n开源地址\nhttps://github.com/Pluviobyte/jiepi-skill…\n\n效果见图",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLlj0VTbYAAsYPv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLjPDTLW8AALIp2?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Pluvio9yte/status/2069795267172544569",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785414719794,
+      "title": "今晚学习使用软链接的方式管理skill，然后正好开源一个skill洁癖skill",
+      "url": "https://x.com/Pluvio9yte/status/2069795267172544569",
+      "collectedAt": "2026-07-30T12:32:01.769Z",
+      "githubSyncedAt": "2026-07-30T12:32:01.769Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7htqnl_rd8s",
+      "image": "https://pbs.twimg.com/media/G99yDxCbcAEsdIb?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/G99yDxCbcAEsdIb?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/G99yD1WagAAtJ-9?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/G99yDw-bcAMHTFs?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/G99yDw-bcAcUtEd?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "变现了！！AI搞定图形化LOGO设计！（非专业场景）\n\n这应该是最近最简单快捷的一次变现了吧，虽然不多，就是个88的“感谢红包”，但也挺好，有趣可抵一切。\n\n一个老哥找到我，想让我给他设计一个品牌logo，不需要很复杂，简约现代，和他名字的字母简写做图形结合，我一听，有的搞！AI做logo设计没问题，要结合字母做图形融合的创意，应该问题也不大，应该也有大佬做过这个。\n\n于是研究了一版提示词，主要针对字母和图形进行融合创意的几何图案logo，实际上老哥要求很简单，但交付的成品看起来必须专业，于是又丰富了一下，除了logo的设计成品，还得有设计草图、创意说明、颜色规范、样机展示。\n\n果然，老哥很满意，大赞专业度高，我也不知道专不专业，但如果是我，我会觉得已经够用了！",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G99yDxCbcAEsdIb?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/G99yD1WagAAtJ-9?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/G99yDw-bcAMHTFs?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/G99yDw-bcAcUtEd?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yyyole/status/2008449384858460551",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785414719793,
+      "title": "变现了！！AI搞定图形化LOGO设计！（非专业场景）",
+      "url": "https://x.com/yyyole/status/2008449384858460551",
+      "collectedAt": "2026-07-30T12:32:01.769Z",
+      "githubSyncedAt": "2026-07-30T12:32:01.769Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082749842707861902",
       "title": "Oriental fantasy hush gesture portrait",
