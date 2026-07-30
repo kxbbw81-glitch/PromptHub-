@@ -1,7 +1,190 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T04:12:30.219Z",
+  "updatedAt": "2026-07-30T05:02:25.805Z",
   "collections": [
+    {
+      "id": "grok_x_2082616378675089643",
+      "title": "Hyper-realistic yacht golden-hour iPhone selfie",
+      "category": "portrait",
+      "tags": [
+        "selfie",
+        "yacht",
+        "photorealistic",
+        "golden-hour",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A hyper-realistic vertical iPhone selfie captured at arm's length by a confident young man relaxing shirtless on the deck of a luxury yacht during golden hour. The framing feels completely natural and unposed, with slight handheld movement, realistic perspective distortion, and subtle lens imperfections typical of a modern smartphone front camera. The camera sits just below eye level, creating an authentic social-media selfie composition.\n\nHis face is turned slightly toward the warm sunlight while his gaze looks past the camera toward the distant horizon, wearing a calm, composed expression that conveys quiet confidence. His skin shows realistic pores, tiny facial imperfections, natural texture, soft peach fuzz, slightly glossy lips, and lifelike catchlights in the eyes. His short haircut is clean and sharp, with individual hair strands visible.\n\nGolden-hour sunlight wraps around his face, shoulders, and chest, creating rich warm highlights, soft shadows, and beautiful natural contrast. Behind him, a luxurious white yacht, blurred Mediterranean mountains, sparkling blue sea, and crystal-clear sky create a premium summer atmosphere. Gentle reflections from the water add subtle light to the underside of his face.\n\nShot on an iPhone front camera, 26mm equivalent lens, HDR Smart processing, shallow computational depth of field, authentic smartphone dynamic range, realistic exposure roll-off, soft background bokeh, cinematic color science, premium travel photography aesthetic, documentary realism, editorial quality, ultra-photorealistic, impossible to distinguish from a genuine smartphone selfie.\n\nComposition: close-up portrait from upper chest to top of head, subject slightly off-center, relaxed shoulders, authentic handheld framing, natural breathing posture, no forced pose.\n\nMood: effortless luxury, quiet confidence, success, peace, summer freedom.\n\nNegative prompt: AI-generated look, CGI, 3D render, illustration, cartoon, anime, plastic skin, beauty filter, airbrushed face, waxy skin, over-sharpening, over-smoothing, exaggerated muscles, unnatural anatomy, asymmetrical eyes, extra limbs, duplicate body parts, blurry, noisy, low resolution, watermark, logo, text, oversaturated colors, unrealistic lighting, fake reflections.",
+      "image": "https://pbs.twimg.com/media/HObwiCFWwAA29tl.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HObwiCFWwAA29tl.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObwiCFWwAA29tl.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Problemitzbest/status/2082616378675089643",
+      "url": "https://x.com/Problemitzbest/status/2082616378675089643",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785387745798,
+      "collectedAt": "2026-07-30T05:02:25.798Z",
+      "githubSyncedAt": "2026-07-30T05:02:25.798Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082616168062603269",
+      "title": "Umbrella opens into a living universe",
+      "category": "fantasy",
+      "tags": [
+        "umbrella",
+        "universe",
+        "magical-realism",
+        "rain",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a breathtaking cinematic fantasy scene on a charming European street just after sunset during a gentle rain. A beautiful young woman wearing an elegant long coat and flowing dress slowly opens a classic black umbrella. Instead of ordinary fabric, the inside of the umbrella reveals an entire living universe filled with magnificent spiral galaxies, glowing nebulae, colorful planets, distant moons, comets, constellations, and brilliant stars stretching infinitely overhead.\n\nAs she gazes upward in quiet wonder, tiny stars begin falling from the umbrella like delicate raindrops, glowing softly before disappearing into the wet cobblestone street. Every raindrop reflects miniature galaxies, while the puddles mirror the entire universe above. Soft golden street lamps blend beautifully with the cool blue, violet, turquoise, and magenta light radiating from the cosmic umbrella, creating a magical harmony between reality and space.\n\nAround her, historic European architecture, flower-filled balconies, vintage cafés, and glowing windows create a timeless atmosphere. A few curious birds fly through the cosmic sky inside the umbrella while gentle mist drifts across the street. The rain remains soft and elegant, with sparkling droplets suspended in the air. Rich reflections cover the wet pavement, enhancing the dreamlike lighting.\n\nThe composition should feel peaceful, emotional, and impossible yet completely believable. Hyper-realistic, cinematic masterpiece, impossible realism, volumetric lighting, god rays, atmospheric perspective, ultra-detailed textures, HDR, 8K, Unreal Engine quality, award-winning fantasy photography, magical realism, National Geographic meets fantasy cinema, dramatic color contrast, no text, no logos, no watermark, vertical 4:5 composition.",
+      "image": "https://pbs.twimg.com/media/HObwXfHaMAAB-SH.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HObwXfHaMAAB-SH.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObwXfHaMAAB-SH.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "GPT Image 2.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/nagarjuncreates/status/2082616168062603269",
+      "url": "https://x.com/nagarjuncreates/status/2082616168062603269",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785387745798,
+      "collectedAt": "2026-07-30T05:02:25.798Z",
+      "githubSyncedAt": "2026-07-30T05:02:25.798Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082027881186877691",
+      "title": "Three-layer out-of-frame xianxia COS movie poster",
+      "category": "poster",
+      "tags": [
+        "xianxia",
+        "COS",
+        "magazine-layout",
+        "out-of-frame",
+        "完整提示词",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "以【角色】为主体，创作一张 2:3 竖版真人 COS 东方仙侠电影海报。\n\n画面采用 Editorial Magazine 三层横向拼贴构图。整体由三张横向照片组成，三层宽度一致、横向铺满画布，高度接近平均，层与层之间使用黑色细分割线。\n\n第一层为春日东方园林环境远景，包含樱花、湖面、古树、亭台楼阁与天空留白。人物位于画面偏右，手持角色武器，建立完整环境与世界观。\n\n第二层为横向人物近景，人物位于右侧，突出面部、妆容、瞳色、发型、标志性饰品与服装细节；左侧保留园林、花枝、湖面与自然景深。\n\n第三层为整张海报的主视觉人物层，使用超广角近距离拍摄。第三层不是被限制在底部框内的普通照片，而是位于所有拼贴照片上方的最高图层。人物主体占据整张海报约 80%，头部、身体、长发、衣袖、飘带与武器从第三层向上延伸，明显突破第三层边界，跨越并遮挡第二层，局部进入第一层。\n\n人物必须打断黑色分割线，身体与武器覆盖前两层局部区域，形成清晰的 Out-of-Frame、Breaking the Grid、Magazine Cutout、Hero Image Overlay 裸眼 3D 跨框效果。第一层与第二层作为背景照片存在，第三层人物主图悬浮在整个拼贴版式最上方，不可被限制在第三层矩形内部。\n\n第三层采用强透视超广角构图，靠近镜头的武器、手臂、衣袖或飘带明显放大，人物面部保持清晰，高低层次明确，形成冲出画面的空间纵深感。\n\n保留【角色】原有发型、发色、瞳色、标志性饰品、武器、主题配色与核心设计元素，将服装改造为高还原真人 COS 版本，使用真实刺绣、织锦、轻纱、金属饰件与层叠布料。\n\n整体风格为新中式仙侠、东方幻想、春日园林、商业 COS 摄影、高亮度低饱和、清透空气感、柔和胶片色彩、电影级光影、真实皮肤质感与真实服装材质。\n\n左上角加入简洁的 stylized “V” 与猫元素图形 Logo；右下角加入小型签名“voxCAT”，其中 vox 小写、CAT 大写；服装、腰带或武器局部低调融入 VOXCAT 织标、金属铭牌或暗纹细节。\n\n画面干净清晰，人物比例自然，手部结构准确，服装细节稳定，三层拼贴关系明确，主图跨框效果强烈。",
+      "image": "https://pbs.twimg.com/media/HOTZTqLaQAAf9az.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOTZTqLaQAAf9az.jpg",
+        "https://pbs.twimg.com/media/HOTZTqLa0AEnYZv.jpg",
+        "https://pbs.twimg.com/media/HOTZTnbbAAAzkM9.jpg",
+        "https://pbs.twimg.com/media/HOTZTnbagAE6maR.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOTZTqLaQAAf9az.jpg",
+        "https://pbs.twimg.com/media/HOTZTqLa0AEnYZv.jpg",
+        "https://pbs.twimg.com/media/HOTZTnbbAAAzkM9.jpg",
+        "https://pbs.twimg.com/media/HOTZTnbagAE6maR.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2082027881186877691",
+      "url": "https://x.com/VoxcatAI/status/2082027881186877691",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785387745798,
+      "collectedAt": "2026-07-30T05:02:25.798Z",
+      "githubSyncedAt": "2026-07-30T05:02:25.798Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2081753730895302811",
+      "title": "Classical oriental bridal boudoir close-up portrait",
+      "category": "portrait",
+      "tags": [
+        "classical",
+        "bridal",
+        "boudoir",
+        "cinematic",
+        "COS",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "一位成年女性角色，东方古典美人气质，黑色齐刘海长发，精致白皙肌肤，佩戴华丽金色头饰、红色珠宝发饰与流苏耳坠。身穿红白配色的改良古风婚服，红色抹胸上衣，白色轻纱披帛层叠覆盖，金色刺绣滚边，细节加入珠链、流苏、金属装饰，整体呈现华贵宫廷感。\n\n人物侧躺在柔软床榻或锦缎软垫上，身体呈自然舒展的横向姿态，采用极近距离低机位广角拍摄，镜头贴近人物，前景出现轻微虚化遮挡，形成沉浸式私房写真视角。头部靠近画面左侧，身体向右侧延伸，通过斜向构图制造空间张力。\n\n表情安静柔和，双眼微闭，嘴角自然放松，呈现慵懒、宁静、梦境般的情绪。手部轻触脸侧，另一只手自然搭在身体旁，姿态优雅。\n\n场景：\n古风宫廷寝殿，红色帷幔，暖色纱帐，木质家具，金色烛光装饰，丝绸床品，柔软白色毛绒材质，营造东方贵族卧房氛围。\n\n摄影语言：\n电影级人像摄影，35mm广角镜头，低机位贴近视角，浅景深，前景虚化，柔焦光晕，暖金色逆光，红色与金色高贵配色。\n\n调色：\n高级古风电影色调，暖红、香槟金、象牙白综合色彩，柔和高光，低对比胶片质感，细腻皮肤纹理，真实布料材质，商业 COS 摄影质感。\n\n画面要求：\n高清真人摄影，真实皮肤，服装纹理清晰，珠宝细节丰富，手部结构自然，比例准确，氛围感强。\n\n左上角加入简洁品牌图形 logo，由 stylized “V” 与猫元素结合构成，现代极简设计；右下角加入小型签名“voxCAT”，其中 vox 小写、CAT 大写；服装局部加入低调“VOXCAT”织标、金属铭牌或暗纹细节，与整体服装自然融合。",
+      "image": "https://pbs.twimg.com/media/HOPfyZsa4AA58ze.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOPfyZsa4AA58ze.jpg",
+        "https://pbs.twimg.com/media/HOPfyZqaUAA-ftL.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOPfyZsa4AA58ze.jpg",
+        "https://pbs.twimg.com/media/HOPfyZqaUAA-ftL.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2081753730895302811",
+      "url": "https://x.com/VoxcatAI/status/2081753730895302811",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785387745798,
+      "collectedAt": "2026-07-30T05:02:25.798Z",
+      "githubSyncedAt": "2026-07-30T05:02:25.798Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2081943232964182485",
+      "title": "Night urban color-negative film portrait",
+      "category": "portrait",
+      "tags": [
+        "film-look",
+        "night",
+        "urban",
+        "color-negative",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a realistic vertical 9:16 photographed portrait. Subject and action: a young woman standing in front of a building at night with her hair blowing in the wind. Composition: Vertical three-quarter portrait, cropped from above the head to mid-thigh; subject slightly right of center with extensive dark negative space above and to the left; low-angle camera looking upward from close conversation distance; natural 40–50mm lens feel with mild background separation. Wardrobe: Chloe soft cotton blouse, caramel suede midi skirt, clogs. Setting: Outdoor urban night beside a large warm-lit rectangular advertising display or kiosk, with a nearly black building facade on the left and a few scattered, soft distant lights. Finish: Underexposed consumer color-negative film look with a pronounced warm orange tungsten cast in highlights, green-teal shadows, moderate coarse grain, soft focus at the edges, gentle highlight bloom around the display, muted saturation outside the orange light, crushed blacks, and soft highlight roll-off; visible pores and faint skin unevenness remain beneath fine grain, with no plastic smoothing.",
+      "image": "https://pbs.twimg.com/media/HOSMUlybUAEDJ8l.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOSMUlybUAEDJ8l.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOSMUlybUAEDJ8l.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sidona/status/2081943232964182485",
+      "url": "https://x.com/sidona/status/2081943232964182485",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785387745798,
+      "collectedAt": "2026-07-30T05:02:25.798Z",
+      "githubSyncedAt": "2026-07-30T05:02:25.798Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082675918565495235",
       "title": "Seedream café lifestyle portrait",
