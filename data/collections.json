@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T12:07:14.312Z",
+  "updatedAt": "2026-07-30T12:09:13.840Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7h0fm0_zvne",
+      "image": "https://pbs.twimg.com/media/HLpoogKa8AAha0a?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLpoogKa8AAha0a?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLpoppZbwAEbjCN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLpoq3ObwAAgMjM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLppGuHaYAA4_Jh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT image2的顶级审美！\n蓝色美学，将颜色的把控做到极致。\n\n清冷、安静、优雅，\n适合儿童读物插画。\n\n提示词：\n一张极简主义现代编辑风格插画，主体为【xxx】。画面以干净流畅的优雅线条塑造主体轮廓，强调修长比例、简洁造型与高级审美。背景保留大面积留白，并搭配少量抽象几何构成、半透明叠层、弧线或简化自然元素。整体色彩以蓝色为主，包括冷白、雾灰、浅灰蓝、冰蓝、湖蓝、钢蓝、钴蓝等冷调色系，辅以少量米白与银灰平衡画面，并在局部加入一处高纯度亮蓝或宝石蓝作为视觉焦点。整体氛围清冷、安静、现代、优雅，具有高级杂志插画与现代艺术海报质感。无文字、无水印、无复杂背景、无低幼卡通感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLpoogKa8AAha0a?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLpoppZbwAEbjCN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLpoq3ObwAAgMjM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLppGuHaYAA4_Jh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yyyole/status/2070084443793166792",
+      "tags": [
+        "海报",
+        "插画",
+        "极简"
+      ],
+      "timestamp": 1785413352456,
+      "title": "GPT image2的顶级审美！",
+      "url": "https://x.com/yyyole/status/2070084443793166792",
+      "collectedAt": "2026-07-30T12:09:13.839Z",
+      "githubSyncedAt": "2026-07-30T12:09:13.839Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
