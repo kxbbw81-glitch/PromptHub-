@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:03:31.933Z",
+  "updatedAt": "2026-07-30T11:04:12.253Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7eos05_8xwz",
+      "image": "https://pbs.twimg.com/media/HL1JJMqaIAA2gKC?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HL1JJMqaIAA2gKC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL1JJMga8AAIQLa?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT \n\nPrompt;\n\nA minimalist watercolor illustration of a young woman immersed in a quiet everyday moment, seated at a cozy table while reading a book and writing notes in an open journal. Soft hand-painted anime aesthetic with delicate ink outlines and expressive facial features. Her loose oversized blouse drapes naturally with elegant flowing fabric folds, while wisps of hair fall gently around her face. A ceramic mug of tea, stacked books, and a small glass vase with dried flowers rest nearby, enhancing the peaceful atmosphere.\n\nRendered on textured watercolor paper with a muted pastel color palette of warm beige, cream, soft gray, dusty blue, and subtle peach tones. Highly detailed watercolor shading with soft edges, visible pigment blooms, organic paint splashes, and artistic brush textures surrounding the subject. Clean negative space allows the figure to remain the focal point while maintaining an airy, balanced composition.\n\nGentle morning light filters across the scene, creating subtle shadows and a calm, contemplative mood. Sketchbook-style artwork with elegant brushwork, natural imperfections, delicate paint splatter accents, and a dreamy handcrafted quality. Modern Japanese watercolor art style, lifestyle fashion illustration, centered composition, light beige paper texture, emotional storytelling, high-quality traditional watercolor painting.\n\nStyle Keywords:\nwatercolor on textured paper, minimalist composition, soft pastel tones, anime-inspired illustration, delicate line art, paint splatter accents, hand-painted aesthetic, sketchbook style, airy negative space, subtle shadows, elegant fashion illustration, cozy everyday moments, reading and journaling, watercolor pigment blooms, traditional brushwork, peaceful atmosphere, modern Japanese watercolor art, expressive pose, artistic imperfections, dreamy illustration.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HL1JJMqaIAA2gKC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL1JJMga8AAIQLa?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/j_smeaton99/status/2070891839146914168",
+      "tags": [
+        "watercolor",
+        "anime",
+        "minimalist",
+        "dreamy"
+      ],
+      "timestamp": 1785409449413,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/j_smeaton99/status/2070891839146914168",
+      "collectedAt": "2026-07-30T11:04:12.253Z",
+      "githubSyncedAt": "2026-07-30T11:04:12.253Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
