@@ -1,7 +1,296 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T03:29:39.364Z",
+  "updatedAt": "2026-07-30T04:02:17.438Z",
   "collections": [
+    {
+      "id": "grok_x_2082675918565495235",
+      "title": "Seedream café lifestyle portrait",
+      "category": "portrait",
+      "tags": [
+        "portrait",
+        "lifestyle",
+        "fashion",
+        "seedream",
+        "cafe",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A charming photorealistic lifestyle portrait of a beautiful young japani woman posing playfully outside a modern minimalist café on a bright sunny day. She is slightly leaning forward while making a cute peace sign near her face, wearing a gentle smile with closed eyes. She has long dark brown hair styled in soft twin braids, glowing porcelain skin, rosy cheeks, soft natural makeup, defined brows, long lashes, and coral pink lips. She wears an oversized white polo shirt tucked into a beige pleated mini skirt, a white baseball cap with a small red embroidered logo, and a delicate bracelet. A luxury dark brown leather shoulder bag with gold hardware hangs from her shoulder. The background features a clean white building with black-framed doors and windows, potted pink and white flowers, and a modern café entrance. Bright natural daylight creates soft shadows and a fresh, airy atmosphere. Korean fashion aesthetic, casual summer outfit, cute college style, ultra-realistic DSLR photography, cinematic composition, shallow depth of field, creamy bokeh, 50mm lens, f/1.8, HDR, 8K, highly detailed skin texture, premium color grading, Vogue-style editorial, minimalist architecture, vibrant yet soft colors, magazine-quality photography.",
+      "image": "https://pbs.twimg.com/media/HOcmsVBXsAABpZH.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOcmsVBXsAABpZH.jpg",
+        "https://pbs.twimg.com/media/HOcmtBCW0AEOrix.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcmsVBXsAABpZH.jpg",
+        "https://pbs.twimg.com/media/HOcmtBCW0AEOrix.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Seedream 5.0 Pro",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/saniaspeaks_/status/2082675918565495235",
+      "url": "https://x.com/saniaspeaks_/status/2082675918565495235",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082669642313535801",
+      "title": "Yellow silk dramatic portraits",
+      "category": "portrait",
+      "tags": [
+        "portrait",
+        "studio",
+        "silk",
+        "gemini",
+        "series",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A series of three photorealistic studio portraits featuring the same young woman. The central subject has dark hair styled in a low bun, striking blue eyes, and full lips. She is wearing a distinct, high-necked, long-sleeved yellow silk blouse with gathered fabric details. In the first image, she is in a three-quarter profile looking directly at the camera. In the second image, she is in a sharper profile, looking to the right of the frame. The third image is a more dramatic, close-up profile view, also looking to the right. The lighting is low-key and dramatic, with a soft, warm key light illuminating one side of her face and the yellow fabric, creating deep shadows on the dark, textured background. The focus is sharp on her face and the texture of the silk. The overall aesthetic is elegant and mysterious.",
+      "image": "https://pbs.twimg.com/media/HOcg-FVWQAAqNre.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOcg-FVWQAAqNre.jpg",
+        "https://pbs.twimg.com/media/HOcg-7-WsAEAM-1.jpg",
+        "https://pbs.twimg.com/media/HOcg_sDWEAAPUQP.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcg-FVWQAAqNre.jpg",
+        "https://pbs.twimg.com/media/HOcg-7-WsAEAM-1.jpg",
+        "https://pbs.twimg.com/media/HOcg_sDWEAAPUQP.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Gemini Nano Banana",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2082669642313535801",
+      "url": "https://x.com/Minahil42298354/status/2082669642313535801",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082669518003065268",
+      "title": "Mixed-media floating editorial figure",
+      "category": "illustration",
+      "tags": [
+        "mixed-media",
+        "editorial",
+        "surreal",
+        "chatgpt",
+        "spiritual",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A breathtakin real mixed-media editorial illustration of a young man floating floating weightlessly weightless in midair in a graceful cross-legged pose, with both arms extended curward in complete surrender, freedom, and inner peace. His head is slightly lowered beneath an oversized ivory white hood, partially concealing his face in soft shadow, creating an atmosphere of mystery and spiritual awakening. He wears an oversized off-white hooded jacket layered over a white shirt, rolaxed beige cargo pants with realistic fabric folds, and rugged tan combat boots. The clothing appears to dissolve into thousands of geometric paper fragments, translucent crystal shards, watercolor splashes, and floating polygonal pieces. The entire body is undergoing a dramatic transformation: Left side (Cool Energy): composed of icy blue crystalline fragments, translucent paper shards, white feathers, cool mist, delicate vines, soft green leaves, botanical textures, and floating white doves. Everything flows outward as if carried by a gentle breath. Right side (Warm Energy): erupts into glowing amber light, fiery orange petals, autumn leaves, flowers, luminous embers, molten paint, golden butterflies, and radiant energy particles. The transition feels organic, as though life itself is blooming from within. Behind the figure is a large soft glowing peach-orange circular sun, perfectly centered, creating a luminous halo that silhouettes the floating body. Several white doves fly around the figure with fully spread wings, symbolizing peace, freedom, purity, and transcendence. The artwork combines surreal mixed-media collage, cinematic digital matte painting, abstract polygon art, paper-cut collage, translucent crystal geometry, watercolor diffusion, acrylic paint textures, botanical illustration, floating floral arrangements, glowing particle effects, volumetric lighting, soft smoke simulation, painterly brush strokes, organic paper fragments, fantasy realism. Color palette restricted to Warm Ivory, Soft White, magical dust particles, Peach Orange, Burnt Amber, Golden Yellow, Coral, Slate Blue, Ice Blue, Muted Teal, Sage Green, Warm Beige. Minimal off-white gallery background with abundant negative space. Luxury editorial poster design, contemporary fine art collage, Behance featured artwork, Adobe Photoshop mixed media composition, ArtStation quality, museum-quality illustration, cinematic volumetric lighting, soft atmospheric haze, premium fashion editorial aesthetic, ultra detailed textures, elegant painterly realism, HDR, masterpiece, 8K, 4:5 aspect ratio. No text, no watermark, no logo, no border. The image should communicate transformation, spiritual rebirth, harmony between opposing energies, and the feeling of becoming one with nature, light, and freedom.",
+      "image": "https://pbs.twimg.com/media/HOcg4UjaMAA4u3b.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOcg4UjaMAA4u3b.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcg4UjaMAA4u3b.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/arsalannazir07/status/2082669518003065268",
+      "url": "https://x.com/arsalannazir07/status/2082669518003065268",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082668756203896958",
+      "title": "Dusty-blue hoodie close-up portrait",
+      "category": "portrait",
+      "tags": [
+        "portrait",
+        "hoodie",
+        "fashion",
+        "photorealistic",
+        "budgetpixel",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic close-up portrait of a young East Asian woman wearing an oversized dusty-blue hoodie with the hood up, standing outdoors beneath a clear pastel-blue sky. She has long, silky dark brown hair cascading naturally from the hood, with soft windblown strands partially framing her face. Delicate porcelain skin, subtle rosy cheeks, naturally full soft pink lips, large expressive brown eyes with a calm, dreamy gaze looking directly into the camera. Minimal natural makeup, youthful facial features, gentle melancholic expression. Soft diffused daylight with clean natural shadows, crisp outdoor lighting, shallow depth of field, creamy bokeh, ultra-fine skin texture, highly detailed hair strands, cinematic color grading with cool blue tones, peaceful minimalist composition, centered framing, 85mm portrait lens, f/1.8, professional fashion photography, photorealistic, 8K, HDR, RAW quality, masterpiece, extremely detailed.",
+      "image": "https://pbs.twimg.com/media/HOcd4_HasAIPosX.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOcd4_HasAIPosX.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcd4_HasAIPosX.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "budgetpixel",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamahmedfaraz66/status/2082668756203896958",
+      "url": "https://x.com/iamahmedfaraz66/status/2082668756203896958",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082667750028378112",
+      "title": "Flower-shade coffee street portrait",
+      "category": "portrait",
+      "tags": [
+        "street-portrait",
+        "japan",
+        "gpt-image",
+        "negative-prompt",
+        "fashion",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "主題：花陰のコーヒー。主体：鮮やかなオレンジ色の花が茂る夏の街角で、灰白色の柱へ右肩を預け、紙カップを持つ20代の女性を膝上まで縦長に写す。女性は画面中央から右半分を占め、頭は上部中央、上体は中央右、腰と短いスカートは下半分、太ももは下端で切れる。人物自身の右手で蓋付き紙カップを胸下の高さに持ち、指をカップの茶色いスリーブへ自然に回す。人物自身の左腕は体に沿って下げ、左手をスカート前の右寄りに置いて指を力なく伸ばす。上体を柱へ軽く傾け、顔と視線だけを画面左の通りへ向ける。人物・表情：小さな卵形の顔、明るいアイボリー系の肌、細く整えたブラウンの眉、大きなライトブラウンの瞳、細いアイラインと長いまつ毛、淡いピンクの頬、コーラルオレンジの唇。口を閉じ、画面左へ少し遠い視線を向けた落ち着いた表情。髪は肩下までのミディアム丈で淡いアッシュブラウン、薄い前髪と顔まわりのレイヤーを作り、毛先を外側へ柔らかくはねさせる。頭頂、前髪、頬、鼻筋、肩、鎖骨に木漏れ日の小さな明るい斑点が落ちる。首には細い金色のチェーンと小さな一粒ペンダント、耳には控えめな小粒ピアスを付ける。服装・ポーズ：生成りに近い白の細い肩ひも付きリブニットトップス。胸元は深いV字で細いレースを縁に沿わせ、前中央を同色の細いリボンで結ぶ。体に沿う細かな縦リブ、脇の細い縫い目、腰骨付近までの丈を明瞭にする。ボトムは淡いクリームベージュの小花柄ミニスカート。細いゴム入りの高いウエスト、腰から人物自身の左側へ斜めに寄せたシャーリング、段差のある二重フリルの裾を持ち、薄布に小さな青灰色と橙色の花柄を散らす。右手はカップの重さを支え、親指と四本の指の位置を自然にし、左手は太ももの前でリラックスさせる。背景・光：画面左半分は緑の細い枝葉と多数の小さなオレンジ色の花、ところどころの白い花で満たし、上部中央には大きな茶色の吊り鉢を置く。葉の隙間の奥に歩道、道路、街路灯、赤く光る信号を浅い被写界深度でぼかす。画面右半分は粗い凹凸のある灰白色の柱。女性の頭上に古びたベージュ色の押しボタン箱、肩の右側に赤枠の縦長標識を付け、標識上部は赤地に白い大きな「消火器」、下部は白地に黒と赤の小さな使用図解を並べる。右下端には赤い消火器の上部だけが見える。カップは白い蓋、白い本体、茶色い紙スリーブ、中央の小さな暗色円形模様を持つが、ブランド名は判読できない。画面左上から強い暖かな自然光が入り、花、髪、顔、胸元、腕、スカート、脚に細かな木漏れ日を作り、柱側に柔らかな影を落とす。構図・カメラ：縦位置3:4、立った人物の胸の高さに近いカメラからの膝上ファッションポートレート。女性の顔を上部中央、カップを中央左、標識を中央右、花の塊を左側の前景と背景に置く。人物は画面高の約八割を占め、髪と肩の周囲に葉の隙間を残し、スカートの裾と両太ももを下端で自然に切る。右端の柱と標識を垂直線、左の枝を斜めのフレームとして使う。顔と瞳、右手とカップ、トップスのレースを鮮明にし、奥の道路と建物を大きくぼかす。標準から短いポートレートレンズの自然な圧縮感。質感・スタイル：高解像度の写実的な夏のストリート写真。肌の自然なきめと淡い血色、髪の細い反射、ニットの縦リブ、レース、スカートの薄い布とシャーリング、紙カップ、柱の粗い塗装、標識の古い金属、葉の艶、花弁の厚みを精密に描く。色は生成り、クリーム、暖かな肌色を中心に、葉の濃緑、花と標識の鮮やかな橙赤を強いアクセントにする。明るい日向のハイライトを残しつつ肌を白飛びさせず、背景の丸いぼけと木漏れ日の細部を両立する。ネガティブ：顔や視線の崩れ、余分な指、カップを持つ指の融合、手首や腕の変形、肩と柱の不自然な接触、衣服の食い込み、スカートの柄とフリルの破綻、枝葉や花の重複、柱と標識の透視歪み、指定した消火器標識以外の判読可能な文字、誤ったブランド、logo、透かし、左右反転、不自然な木漏れ日、過度な美肌処理を避ける。",
+      "image": "https://pbs.twimg.com/media/HOW6W-Pa8AAc-wF.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOW6W-Pa8AAc-wF.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW6W-Pa8AAc-wF.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2082667750028378112",
+      "url": "https://x.com/CyberTotal2026/status/2082667750028378112",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082666646024409215",
+      "title": "Hot air balloon festival portrait",
+      "category": "portrait",
+      "tags": [
+        "portrait",
+        "festival",
+        "travel",
+        "chatgpt-image",
+        "fashion",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A vibrant outdoor portrait of a beautiful young East Asian woman smiling sweetly at a colorful hot air balloon festival during golden hour. She has long, silky light brown hair flowing naturally, radiant fair skin, soft rosy cheeks, warm brown eyes, subtle natural makeup, and glossy pink lips. She is wearing a stylish blue denim short-sleeve romper layered over a black camisole, cinched with a black belt, paired with a small round black crossbody bag and sunglasses tucked into her chest pocket. She stands with her hands gently clasped, tilting her head slightly with a cheerful, heartwarming expression. Behind her, giant rainbow-striped hot air balloons rise above a grassy field filled with festival visitors, creating a lively and colorful atmosphere. A golden decorative statue and distant balloons enhance the festive setting. Bright natural sunlight, soft shadows, vivid colors, shallow depth of field, creamy bokeh, ultra-realistic DSLR photography, travel lifestyle editorial, Korean fashion aesthetic, cinematic composition, 85mm lens, f/1.8, HDR, 8K, highly detailed skin texture, premium color grading, joyful summer festival ambiance, magazine-quality photography.",
+      "image": "https://pbs.twimg.com/media/HOceQ-ubAAA29W6.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOceQ-ubAAA29W6.jpg",
+        "https://pbs.twimg.com/media/HOceRf1bIAAi8cG.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOceQ-ubAAA29W6.jpg",
+        "https://pbs.twimg.com/media/HOceRf1bIAAi8cG.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "ChatGPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2082666646024409215",
+      "url": "https://x.com/Aqsahere_/status/2082666646024409215",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082677569539940569",
+      "title": "Milan Duomo nighttime group portrait",
+      "category": "group-portrait",
+      "tags": [
+        "group",
+        "milan",
+        "night",
+        "gpt-image",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A cinematic nighttime group photograph of nine young Asian women, around 20 years old — six Japanese, two Korean, one Chinese — gathered loosely in front of the fully illuminated Piazza del Duomo cathedral at night, the floodlit Gothic facade glowing bright white-gold against the dark night sky. The four women in the front row show clear, individually distinct East Asian facial features with warm, relaxed expressions; the remaining figures in the second row are captured with softer focus and partial profile angles, consistent with natural depth-of-field falloff in a group photograph. Their skin shows realistic subsurface scattering where the floodlight catches the front row, specular micro-highlights visible on their cheekbones, natural texture preserved. Hairstyles vary across the group for visual distinction, a few strands displaced by the cool night air near each face. They wear a coordinated mix of evening-appropriate fashion — tailored coats, slip dresses, ankle boots — polished for a night out. The lighting is the cathedral's dramatic architectural floodlighting against the dark night sky, strong directional illumination from below and front creating sculptural shadow on their faces, deep contrast between the lit facade and the black sky. Subtle ISO 400 film grain sits in the deep shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "image": "https://pbs.twimg.com/media/HOHM-D1XUAA0YjG.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOHM-D1XUAA0YjG.jpg",
+        "https://pbs.twimg.com/media/HOHM-D5XgAAIof6.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOHM-D1XUAA0YjG.jpg",
+        "https://pbs.twimg.com/media/HOHM-D5XgAAIof6.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082677569539940569",
+      "url": "https://x.com/ToroJushiAi/status/2082677569539940569",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2081563318498845172",
+      "title": "AI creation process infographic",
+      "category": "infographic",
+      "tags": [
+        "infographic",
+        "文生图",
+        "提示词",
+        "midjourney",
+        "educational",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "【AI创作解析图 · 随机生成的瞬间】高级科普信息图设计，主题为“为什么同一个AI提示词，每次生成的图片都不一样？”，将AI文生图过程视觉化为一个AI画家的随机创作旅程。整体构图：竖版9:16，电影级科技艺术信息图，干净高级排版，类似苹果发布会视觉风格，真实3D空间与平面信息设计结合，未来感但不过度科幻，简洁、易懂、适合大众传播。画面中央：一个温暖灯光下的AI数字画家坐在书桌前，像一位拥有无限想象力的小画家，正在创作一幅历史人物摄影作品。桌面上放着一张提示词纸，上面写着：“春秋吴宫 · 西施 · 烛火宴席 · 真实历史纪实摄影”。左侧区域：标题“① 输入提示词”展示用户输入文字进入AI系统。旁边用简洁视觉标签表示AI理解：人物、时代、环境、摄影风格、情绪。表现AI不是复制答案，而是在理解创作方向。中间区域：标题“② 无限可能性空间”展示一个巨大的透明梦境空间，里面漂浮大量视觉卡片和照片碎片。卡片内容：西施回眸；西施低头；西施端酒；吴宫烛火；群臣震惊；吴王凝视；85mm长焦；手机抓拍；电影纪实；低光胶片。这些可能性像抽卡池一样排列，但整体高级艺术化。从中央向右出现多条发光路径：路线A：宫廷电影剧照风；路线B：历史纪录片摄影风；路线C：iPhone真实抓拍风；路线D：古典人物肖像风。右侧区域：标题“③ 生成唯一瞬间”展示4张不同结果的小照片：同一个提示词生成不同画面：第一张：西施在吴宫烛火中回眸；第二张：西施坐在宴席中被众人注视；第三张：远处侍从偷偷拍摄的真实瞬间；第四张：具有历史厚重感的人物特写。底部区域：制作一个概率漏斗视觉：10000种可能↓100种符合描述↓10种优秀构图↓1张最终作品。旁边文字：“AI不是复制图片，而是在无限可能中选择一次创作。”整体风格：真实高级视觉设计，Apple产品发布会风格，Midjourney艺术信息图质感，真实光影，细腻材质，清晰文字区域，专业UI排版，未来科技与人文艺术结合。避免：低级科技风，赛博朋克，复杂代码界面，游戏UI，卡通风，过度发光，廉价AI海报感，文字乱码，杂乱布局。画面左下角保留低调艺术签名“DeepBlue”，签名字体自然、精致，与画面融为一体。",
+      "image": "https://pbs.twimg.com/media/HOMyzRCbgAAHWvD.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOMyzRCbgAAHWvD.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMyzRCbgAAHWvD.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/DeepBlueAIX/status/2081563318498845172",
+      "url": "https://x.com/DeepBlueAIX/status/2081563318498845172",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785384137432,
+      "collectedAt": "2026-07-30T04:02:17.432Z",
+      "githubSyncedAt": "2026-07-30T04:02:17.432Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082493783879614820",
       "title": "东方古典嘟嘴托腮人像提示词",
