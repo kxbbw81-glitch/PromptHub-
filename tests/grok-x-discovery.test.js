@@ -25,6 +25,27 @@ test('builds a public-only Grok search prompt with strict acceptance criteria', 
   assert.match(prompt, /Do not include githubSyncedAt/);
 });
 
+test('scans a rotating priority creator batch before general keyword queries', () => {
+  const creators = discovery.selectCreatorBatch([
+    { handle: 'standard', tier: 'standard', focus: ['tools'] },
+    { handle: 'core_a', tier: 'core', focus: ['image'] },
+    { handle: 'core_b', tier: 'core', focus: ['video'] }
+  ], 2, 0);
+  const prompt = discovery.buildDiscoveryPrompt({
+    lookbackDays: 7,
+    maxCandidatesPerQuery: 5,
+    maxCandidatesPerCreator: 1,
+    maxCandidatesTotal: 10,
+    recognitionSignals: ['Prompt:'],
+    excludedSignals: ['tutorial only'],
+    discoveryQueries: ['Find image prompts']
+  }, creators);
+
+  assert.deepEqual(creators.map(creator => creator.handle), ['core_a', 'core_b']);
+  assert.match(prompt, /Priority creator phase[\s\S]*from:core_a/);
+  assert.match(prompt, /Keyword phase \(run only after the creator phase\)/);
+});
+
 test('accepts the official handoff images and image fields', () => {
   const result = discovery.acceptCandidates([{
     id: 'x_900',
@@ -86,10 +107,14 @@ test('stores an e-commerce use-case type without losing video media metadata', (
 
 test('the test configuration caps discovery at ten candidates with enough agent turns', () => {
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, '../config/grok-x-discovery.json'), 'utf8'));
+  const creators = discovery.loadCreatorLibrary(path.join(__dirname, '../config/grok-x-creators.json'));
   assert.equal(config.maxCandidatesTotal, 10);
   assert.equal(config.maxTurns, 12);
+  assert.equal(config.creatorBatchSize, 5);
   assert.ok(config.recognitionSignals.includes('Logo/VI proposal'));
   assert.match(config.discoveryQueries.at(-1), /brand identity, logo design, visual identity/i);
+  assert.ok(creators.length >= 30);
+  assert.ok(creators.some(creator => creator.handle === 'op7418'));
 });
 
 test('extracts candidate JSON from a Grok CLI response envelope', () => {

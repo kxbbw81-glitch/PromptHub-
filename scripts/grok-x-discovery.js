@@ -6,6 +6,7 @@ const { classifyCollection, classifyCommerceType } = require('./category-rules')
 const MIN_PROMPT_LENGTH = 160;
 const X_STATUS_URL = /^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/\d+\/?(?:\?.*)?$/i;
 const PLATFORM_PREFIX = /^(?:gpt\s*image\s*2(?:\s+on\s+chatgpt)?|nano\s+banana(?:\s+prompt)?|prompt\s*[:：])\s*/i;
+const HOUR_MS = 60 * 60 * 1000;
 
 function normalizeText(value) {
   return String(value || '').replace(/\s+/g, ' ').trim();
@@ -48,12 +49,36 @@ function firstPromptLine(prompt) {
   return normalizeText(prompt).split(/[。.!?]/)[0].slice(0, 60).trim() || 'AI 生成提示词';
 }
 
-function buildDiscoveryPrompt(config) {
+function normalizeCreatorHandle(value) {
+  return String(value || '').trim().replace(/^@/, '').replace(/^https?:\/\/(?:www\.)?x\.com\//i, '').split(/[/?#]/)[0];
+}
+
+function loadCreatorLibrary(filePath) {
+  const payload = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  return (Array.isArray(payload.creators) ? payload.creators : [])
+    .map(creator => ({ ...creator, handle: normalizeCreatorHandle(creator.handle) }))
+    .filter(creator => /^[A-Za-z0-9_]{1,15}$/.test(creator.handle));
+}
+
+function selectCreatorBatch(creators, size, now = Date.now()) {
+  if (!creators.length || !size) return [];
+  const orderedCreators = [...creators].sort((left, right) => Number(right.tier === 'core') - Number(left.tier === 'core'));
+  const batchSize = Math.min(Math.max(Number(size) || 1, 1), orderedCreators.length);
+  const batchCount = Math.ceil(orderedCreators.length / batchSize);
+  const batchIndex = Math.floor(Number(now) / HOUR_MS) % batchCount;
+  const start = batchIndex * batchSize;
+  return Array.from({ length: batchSize }, (_, index) => orderedCreators[(start + index) % orderedCreators.length]);
+}
+
+function buildDiscoveryPrompt(config, priorityCreators = []) {
   const queries = config.discoveryQueries.map((query, index) => `${index + 1}. ${query}`).join('\n');
   const signals = config.recognitionSignals.join(', ');
   const excluded = config.excludedSignals.join(', ');
+  const creatorPhase = priorityCreators.length
+    ? `Priority creator phase (run this first): search these public creator accounts before any general keyword query. Use from:<handle> together with the recognition signals, inspect full public threads when necessary, and accept at most ${config.maxCandidatesPerCreator || 1} candidate per creator. Current rotating batch:\n${priorityCreators.map(creator => `- from:${creator.handle} (${(creator.focus || []).join(', ') || 'AI prompts'})`).join('\n')}\n\nKeyword phase (run only after the creator phase): use the general queries below to fill any remaining candidate capacity.`
+    : 'Keyword phase: use the general queries below.';
 
-  return `Use only the built-in X Search tool to discover public posts. Do not open, read, or infer any private bookmarks, home timelines, cookies, accounts, or browser state.\n\nSearch window: the last ${config.lookbackDays} days.\nMaximum accepted candidates per query: ${config.maxCandidatesPerQuery}.\nMaximum accepted candidates across this entire run: ${config.maxCandidatesTotal}.\nRecognition signals: ${signals}.\nReject signals: ${excluded}.\n\nQueries:\n${queries}\n\nA candidate is valid only when it has all of the following: (1) a specific x.com/<handle>/status/<id> source URL, (2) a complete reusable image-generation or video-generation prompt of at least ${MIN_PROMPT_LENGTH} characters after removing social/model labels, and (3) a direct HTTPS result image URL, or for video a direct HTTPS poster URL. Skip tutorials, product promotions, incomplete prompts, repost-only content, and posts without result media.\n\nReturn at most ${config.maxCandidatesTotal} candidates total as JSON only, with no Markdown or explanatory prose. Use this exact handoff schema. Do not include githubSyncedAt or domesticSyncedAt:\n{"schemaVersion":1,"generatedAt":"ISO 8601 UTC timestamp","count":1,"producer":"grok-cli-public-x-search","candidates":[{"id":"x_status_id","sourceUrl":"https://x.com/handle/status/id","url":"https://x.com/handle/status/id","domain":"x.com","source":"x_search","title":"short title","prompt":"full prompt only","mediaType":"image or video","images":["https://..."],"image":"https://...","videoPoster":"https://... or empty string","videoUrl":"https://...mp4 or empty string","aspectRatio":"4:5 or empty string","category":"category","tags":["tag"],"model":"model or empty string","collectedAt":"ISO 8601 UTC timestamp","signals":["matched signal"]}]}`;
+  return `Use only the built-in X Search tool to discover public posts. Do not open, read, or infer any private bookmarks, home timelines, cookies, accounts, or browser state.\n\nSearch window: the last ${config.lookbackDays} days.\nMaximum accepted candidates per query: ${config.maxCandidatesPerQuery}.\nMaximum accepted candidates across this entire run: ${config.maxCandidatesTotal}.\nRecognition signals: ${signals}.\nReject signals: ${excluded}.\n\n${creatorPhase}\n\nQueries:\n${queries}\n\nA candidate is valid only when it has all of the following: (1) a specific x.com/<handle>/status/<id> source URL, (2) a complete reusable image-generation or video-generation prompt of at least ${MIN_PROMPT_LENGTH} characters after removing social/model labels, and (3) a direct HTTPS result image URL, or for video a direct HTTPS poster URL. Skip tutorials, product promotions, incomplete prompts, repost-only content, and posts without result media.\n\nReturn at most ${config.maxCandidatesTotal} candidates total as JSON only, with no Markdown or explanatory prose. Use this exact handoff schema. Do not include githubSyncedAt or domesticSyncedAt:\n{"schemaVersion":1,"generatedAt":"ISO 8601 UTC timestamp","count":1,"producer":"grok-cli-public-x-search","candidates":[{"id":"x_status_id","sourceUrl":"https://x.com/handle/status/id","url":"https://x.com/handle/status/id","domain":"x.com","source":"x_search","title":"short title","prompt":"full prompt only","mediaType":"image or video","images":["https://..."],"image":"https://...","videoPoster":"https://... or empty string","videoUrl":"https://...mp4 or empty string","aspectRatio":"4:5 or empty string","category":"category","tags":["tag"],"model":"model or empty string","collectedAt":"ISO 8601 UTC timestamp","signals":["matched signal"]}]}`;
 }
 
 function findJsonCandidate(value) {
@@ -243,7 +268,9 @@ function run(argv = process.argv) {
   const options = parseArgs(argv);
   const config = JSON.parse(fs.readFileSync(options.config, 'utf8'));
   if (!options.input) {
-    console.log(buildDiscoveryPrompt(config));
+    const creatorLibraryPath = path.resolve(path.dirname(options.config), config.creatorLibraryPath || 'grok-x-creators.json');
+    const creators = loadCreatorLibrary(creatorLibraryPath);
+    console.log(buildDiscoveryPrompt(config, selectCreatorBatch(creators, config.creatorBatchSize)));
     return { mode: 'prompt' };
   }
 
@@ -268,10 +295,12 @@ module.exports = {
   MIN_PROMPT_LENGTH,
   acceptCandidates,
   buildDiscoveryPrompt,
+  loadCreatorLibrary,
   extractCandidatePayload,
   normalizeSourceUrl,
   parseCliOutputText,
   promptFingerprint,
   selectCandidatesForImport,
+  selectCreatorBatch,
   validateCandidate
 };

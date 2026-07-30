@@ -3,6 +3,9 @@
   "enabled": true,
   "maxCandidatesPerQuery": 5,
   "maxCandidatesTotal": 10,
+  "creatorLibraryPath": "grok-x-creators.json",
+  "creatorBatchSize": 5,
+  "maxCandidatesPerCreator": 1,
   "maxTurns": 12,
   "lookbackDays": 7,
   "recognitionSignals": [

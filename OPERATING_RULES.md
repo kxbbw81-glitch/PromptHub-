@@ -76,6 +76,7 @@
 - 禁止使用浏览器自动操作 X 的书签页、首页、搜索页或任何登录态页面；旧的每小时书签/首页扫描任务已暂停并废止。
 - 公开内容发现仅允许通过本机已登录的官方 Grok CLI 使用其托管 X Search 能力完成，不使用 X API，也不传入 X Cookie、书签或首页数据。
 - 检索规则由 `config/grok-x-discovery.json` 维护：只以文生图、文生视频、完整 Prompt 等关键词和识别信号寻找公开帖子，不以个人时间线为输入。
+- `config/grok-x-creators.json` 是重点创作者库。每轮公开采集先按优先级轮换扫描其中的创作者账号，再用通用关键词补充候选；创作者名单不构成任何校验豁免。
 - Grok 候选批次必须遵循 `GROK_CANDIDATE_FORMAT.md`，写入本机 `staging/grok-x-cli-output.json`；候选文件不包含或声明 `githubSyncedAt`、`domesticSyncedAt`。
 - Grok 只能输出候选 JSON。候选必须经过 PromptHub 的完整提示词、结果媒体、具体 X 状态页 URL、唯一性与安全校验后，才可以写入 GitHub 主站。
 - 自动采集与手动插件采集共用同一份去重、校验和同步状态机；Grok 不得直接提交 GitHub，也不得绕过测试。

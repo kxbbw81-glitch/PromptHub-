@@ -14,6 +14,14 @@ staging/grok-x-cli-output.json
 This directory is intentionally not committed. The file is a local candidate
 handoff, not PromptHub collection data.
 
+## Creator-first discovery
+
+`config/grok-x-creators.json` is the separate priority-creator library. Each
+hourly run first scans a rotating batch of five creator accounts, ordered with
+the `core` contributors first, and only then uses the general keyword queries
+to fill the remaining candidate capacity. A creator account is a discovery
+hint, not a bypass: every candidate still follows the validation rules below.
+
 ## Required JSON shape
 
 Return JSON only, without Markdown or explanatory prose:
