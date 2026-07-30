@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:24:09.656Z",
+  "updatedAt": "2026-07-30T09:24:44.764Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7b4u0t_kl6a",
+      "image": "https://pbs.twimg.com/media/HMmLzCbXAAAyTep?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMmLzCbXAAAyTep?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMmLzCVXMAAbVCH?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A minimalist editorial fashion photoshoot featuring a young woman with a short black bob haircut and soft wispy bangs, wearing a sleeveless navy blue midi dress with a clean silhouette and black strappy sandals. She is holding a compact white premium camera with a bright lime-green wrist strap. Modern art gallery interior with a wall covered in large black-and-white Swiss typography posters inspired by Helvetica and Bauhaus graphic design. Soft natural indoor lighting, muted neutral color palette, clean composition, Scandinavian/Japanese minimalism, luxury lifestyle photography, candid yet elegant pose, calm expression, high-end fashion magazine aesthetic, cinematic color grading, shallow depth of field, ultra-sharp details, realistic skin texture, premium mirrorless camera look, 35mm lens, f/2, full-body editorial, contemporary museum atmosphere.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMmLzCbXAAAyTep?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMmLzCVXMAAbVCH?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ChillaiKalan__/status/2074342833515855902",
+      "tags": [
+        "cinematic",
+        "minimalist"
+      ],
+      "timestamp": 1785403480061,
+      "title": "Gpt Image 2 on ChatGPT",
+      "url": "https://x.com/ChillaiKalan__/status/2074342833515855902",
+      "collectedAt": "2026-07-30T09:24:44.764Z",
+      "githubSyncedAt": "2026-07-30T09:24:44.764Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
