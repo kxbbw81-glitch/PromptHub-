@@ -74,6 +74,13 @@ function findJsonCandidate(value) {
       if (Array.isArray(parsed?.candidates)) return parsed;
     } catch {}
   }
+  const schemaStart = text.indexOf('{"schemaVersion"');
+  if (schemaStart >= 0 && end > schemaStart) {
+    try {
+      const parsed = JSON.parse(text.slice(schemaStart, end + 1));
+      if (Array.isArray(parsed?.candidates)) return parsed;
+    } catch {}
+  }
   return null;
 }
 

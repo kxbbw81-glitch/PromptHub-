@@ -70,6 +70,12 @@ test('extracts candidate JSON from a Grok CLI response envelope', () => {
   assert.equal(payload.candidates[0].sourceUrl, 'https://x.com/example/status/123');
 });
 
+test('extracts a schema handoff preceded by Grok explanatory text', () => {
+  const payload = discovery.extractCandidatePayload('Searching public X now.{"schemaVersion":1,"candidates":[{"sourceUrl":"https://x.com/example/status/128"}]}');
+
+  assert.equal(payload.candidates[0].sourceUrl, 'https://x.com/example/status/128');
+});
+
 test('accepts a direct official candidate handoff object', () => {
   const payload = discovery.extractCandidatePayload({
     schemaVersion: 1,
