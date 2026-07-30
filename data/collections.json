@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:41:17.759Z",
+  "updatedAt": "2026-07-30T06:47:45.363Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms75iyw7_jbbc",
+      "image": "https://pbs.twimg.com/media/HOWElP_WYAEqXSS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOWElP_WYAEqXSS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWElP_XkAIfEUz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWElQLW8AAWVZE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWElP9WkAAcuvf?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性赤脚蹲坐在白色无缝摄影棚内，身体位于中央略偏右，背部轻靠白色几何方台。右腿屈曲横向收在身体前方，左膝向画面左侧抬起，双脚自然落地，脚趾结构清晰。上半身微微前倾，左臂沿身体前方自然下垂，左手靠近地面；右手隐藏在身体或腿侧。头部轻轻向画面左侧倾斜，正面直视镜头，眼神柔和安静，嘴唇自然闭合，带轻微克制的亲和感。\n\n她有精致鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁、裸粉色嘴唇，右眼下方有一颗细小美人痣。淡妆，肤色冷白偏暖，保留真实毛孔、细小绒毛、自然肤色变化和柔和皮脂高光，不要塑料磨皮。\n\n深棕色超长直发自然披散，偏分，大部分垂落在画面左侧肩前和胸前，少量发丝散落脸侧，发尾延伸至腰部，保留真实重量、层次与轻微凌乱感。\n\n她穿浅灰米色宽松长袖衬衫，纽扣自然敞开，内搭奶油白色细肩带吊带背心；下身为同色浅灰米色高腰短裤。面料柔软轻薄，袖口偏长覆盖部分手背，衣服形成自然褶皱与垂坠感，整体低饱和、极简、干净。\n\n背景为纯白无缝摄影棚与白色方台，无其他道具。大型柔光箱从左前上方照射，右侧反光板轻微补光，阴影极浅，整体高键、低对比、低饱和。85mm镜头，f/2.8，平视略高机位，中浅景深，人物面部、手脚和服装纹理清晰，轻微ISO 200胶片颗粒，Japanese minimalist editorial portrait，photorealistic。\n\n避免：未成年人特征、夸张身材、错误蹲姿、畸形手指、重复腿脚、错误脚趾、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOWElP_WYAEqXSS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWElP_XkAIfEUz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWElQLW8AAWVZE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWElP9WkAAcuvf?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082466175519248425",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785394061863,
+      "title": "主页 / X",
+      "url": "https://x.com/ToroJushiAi/status/2082466175519248425",
+      "collectedAt": "2026-07-30T06:47:45.363Z",
+      "githubSyncedAt": "2026-07-30T06:47:45.363Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
