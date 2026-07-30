@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T10:22:37.760Z",
+  "updatedAt": "2026-07-30T11:00:10.371Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7ejlp7_sj4j",
+      "image": "https://pbs.twimg.com/media/HMDj-fKWYAA0Srb?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMDj-fKWYAA0Srb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Today's Portrait. \n\n---prompt---\n9:16 vertical composition, high-end Korean editorial studio portrait, soft-focus CCD aesthetic, dreamy haze, strong highlight bloom, halation glow, visible fine film grain, slightly overexposed highlights, creamy warm tone, shallow depth of field.\n\nScene: minimalist private studio set, beige/ivory seamless backdrop, soft draped fabric in background, controlled diffused studio lighting with gentle side fill, creating soft shadows and glowing skin texture.\n\nSubject: young adult Taiwanese woman, short pastel pink bob hair, slightly messy and airy, fashionable idol-like presence.\n\nExpression & vibe: cold, confident “bad girl / cool boss girl” energy, slightly raised chin, direct eye contact with camera, minimal emotion but highly controlled attitude.\n\nPose: close-up portrait framing (chest-up to tight close-up). One finger placed vertically in front of lips making a “ shh” gesture. Lips slightly parted, emphasis on sensual silence and attitude. Face angled slightly toward camera for dimensional lighting.\n\nMakeup: Korean-style glass skin makeup, dewy luminous base, soft peach-pink blush, subtle contour, clean straight brows, soft brown eyeliner, long separated lashes, inner-eye highlight. Lip makeup is the focal point: glossy gradient lips (Korean ombré lip), high shine, hydrated texture, sharp focus on lip detail.\n\nWardrobe: elegant studio lingerie-inspired styling (tasteful, non-explicit), ivory silk camisole or off-shoulder soft robe, delicate straps visible, soft fabric texture catching light.\n\nLighting: soft diffused key light from side, gentle backlight creating halo around hair, specular highlights on lips and nose bridge, dreamy bloom around highlights.\n\nCamera style: 85mm portrait lens, shallow depth of field, focus locked on eyes + lips, cinematic editorial magazine look, ultra-detailed skin texture, soft blur in background.\n\nMood keywords: cool, silent, intimate, high-fashion, expensive, minimalist luxury, Korean magazine cover, editorial silence moment.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMDj-fKWYAA0Srb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2071906559425380591",
+      "tags": [
+        "cinematic",
+        "minimalist",
+        "dreamy",
+        "studio lighting"
+      ],
+      "timestamp": 1785409207963,
+      "title": "Today's Portrait.",
+      "url": "https://x.com/BubbleBrain/status/2071906559425380591",
+      "collectedAt": "2026-07-30T11:00:10.371Z",
+      "githubSyncedAt": "2026-07-30T11:00:10.371Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "抽象",
