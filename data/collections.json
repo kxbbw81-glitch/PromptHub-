@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T08:08:25.366Z",
+  "updatedAt": "2026-07-30T08:37:00.459Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms79fgb9_5nwa",
+      "image": "https://pbs.twimg.com/media/HOULRp7WsAAUqIt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOULRp7WsAAUqIt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOULRp9WgAA47fc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOULRp6XsAAsPbV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOULRp_XgAAkg6B?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性坐在明亮卧室的白色床铺边缘，画面从头顶拍至大腿中部。人物位于中央略偏右，身体微微侧向画面左侧，上半身自然挺直。双臂抬起伸向左上方，双手正在用木质衣夹把白色床单固定在横向晾衣绳上。她头部轻轻转向镜头，平静直视，神情柔和、安静、略带慵懒感，嘴唇自然微启。\n\n她有精致鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁和浅裸粉色嘴唇。妆容极淡，肤色白皙偏暖，保留真实毛孔、细小绒毛、轻微肤色变化和自然皮脂高光，不要塑料磨皮。深黑色长直发自然披散，中分略偏侧，发丝垂落肩前与背后，保留真实重量、少量碎发和柔和光泽。\n\n她穿纯白色简约棉质内衣套装：细肩带无钢圈背心式文胸，搭配白色中腰三角内裤，面料哑光、完全不透明、无图案、无品牌标识，造型清爽、自然、含蓄。\n\n环境为温暖极简卧室：后方是白框大窗和半透明白纱帘，晾衣绳横穿画面，两侧悬挂白色床单与衣物并由木夹固定；左下角可见藤编洗衣篮，右下角是白色床品。清晨或傍晚阳光从后方窗户照入，形成柔和金色逆光、发丝轮廓光和半透明布料的发光边缘，人物面部由自然环境光柔和补亮。整体高键、低饱和、低对比，以奶油白、浅木色、暖肤色和淡金色为主。\n\n摄影风格：50mm或85mm镜头，f/2，平视略高机位，浅景深，面部和双手清晰，背景柔和虚化，真实皮肤、发丝、棉布、木夹和床品质感，轻微ISO 200胶片颗粒，柔和高光晕染，日系生活方式摄影，photorealistic。\n\n避免：未成年人特征、裸体、露点、透明内衣、色情姿势、夸张身材、错误手指、融合手臂、畸形关节、塑料皮肤、强HDR、过度锐化、杂乱房间、可读文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOULRp7WsAAUqIt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOULRp9WgAA47fc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOULRp6XsAAsPbV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOULRp_XgAAkg6B?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082224579624501460",
+      "tags": [
+        "photorealistic",
+        "摄影",
+        "清晨",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785400616277,
+      "title": "(1) X",
+      "url": "https://x.com/ToroJushiAi/status/2082224579624501460",
+      "collectedAt": "2026-07-30T08:37:00.459Z",
+      "githubSyncedAt": "2026-07-30T08:37:00.459Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
