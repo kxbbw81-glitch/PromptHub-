@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:27:45.408Z",
+  "updatedAt": "2026-07-30T14:27:52.695Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7lyqlz_753b",
+      "image": "https://pbs.twimg.com/media/HK_EyEWa0AAr2Mt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK_EyEWa0AAr2Mt?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic summer seaside portrait, dreamy Japanese photobook aesthetic, vertical 2:3 composition, medium-full body shot, soft high-key morning light, slightly overexposed backlit glow, soft haze, white sand beach, pale sea mist, sparkling ocean bokeh, distant blurred rocks, airy gray-white pastel tones, refined cinematic fashion editorial mood.\n\nAn elegant young adult East Asian woman in her mid-20s standing on a quiet white sand beach, facing the camera directly. She has a naturally curvy feminine figure, soft S-shaped silhouette, defined waist, fuller hips, graceful proportions, pale luminous skin, natural skin texture, and delicate realistic features. Long dry ash-gray hair, softly tousled by a gentle sea breeze, not wet.\n\nMakeup: cool dewy watery makeup, clear luminous base, soft taupe-gray eye makeup, subtle shimmer highlight, natural lashes, faint cool pink blush, muted rose-nude glossy lips, calm distant expression, slightly melancholic and clean.\n\nOutfit: black two-piece bikini, simple triangle-style top and matching bikini bottom, tasteful and non-explicit. A loose oversized cream-beige semi-sheer button-up shirt is worn open and draped loosely off the shoulders, soft fabric moving in the sea breeze.\n\nPose: elegant and attractive front-facing pose, relaxed contrapposto stance, one leg slightly forward, subtle hip shift, torso gently angled, one hand lightly holding a sunflower near the waist, the other hand softly touching the shirt collar or hair. Calm eye contact, refined, graceful, captivating but not provocative.\n\nProp: a single sunflower with soft yellow petals and green leaves, held naturally in front of the body, adding a gentle warm contrast to the cool white beach tones.\n\nStyle: photorealistic, ultra detailed, natural skin texture, soft film grain, dreamy backlight, high-key overexposure, soft haze, gentle sea breeze, Japanese seaside fashion editorial, clean minimalist background, ethereal, airy, refined, non-explicit.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK_EyEWa0AAr2Mt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2067087196574892331",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1785421671479,
+      "title": "Portrait",
+      "url": "https://x.com/BubbleBrain/status/2067087196574892331",
+      "collectedAt": "2026-07-30T14:27:52.695Z",
+      "githubSyncedAt": "2026-07-30T14:27:52.695Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "风景",
