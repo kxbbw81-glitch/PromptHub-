@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:21:00.646Z",
+  "updatedAt": "2026-07-30T13:21:27.030Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jl9ks_gkkt",
+      "image": "https://pbs.twimg.com/media/HI1wILUWcAA0jhg?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HI1wILUWcAA0jhg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HI1wJJqXEAAKJ32?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "ChatGPT-Image2 生成 4K性感人像写真，提示词直通方法！\n\n性感人像生成很容易触发“违反内容政策”\n我的经验是：不要把提示词写成擦边描述，要改为专业术语表达！\n\n可套用的提示词方法：\n\n1、先明确年龄边界\n可以写：成年女性、20岁出头、轻熟、年轻女子\n不要写：学生妹、少女、未成年感\n\n2、定义成摄影类型\n可以写：时尚写真、杂志大片、编辑部人像、电影感人像\n不要写：私房、诱惑、裸露、挑逗\n\n3、把性感落在服装和气质上\n可以写：缎面材质、V领剪裁、贴身服饰、上半身曲线、眼神动人\n不要写：露哪里、动作暗示、提及敏感部位\n\n4、把 4K 细节写清楚\n可以写：真实皮肤纹理、可见毛孔、自然高光、发丝细节、衣料纹理\n不要写：美颜、CG、网红感\n\n5、主动加边界词\n可以写：高级、克制、不低俗、无文字、无水印\n\n核心思路：\n不要写“露哪里”，要写“服装、光影、眼神、材质”等\n性感来自摄影语言，而不是露骨身体描述！\n\n本期模特：黑色缎面礼服 + 白色V领衬衫，单张约10MB\n\n4K 生成办法在评论区",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HI1wILUWcAA0jhg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HI1wJJqXEAAKJ32?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2057423961894404119",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785417683644,
+      "title": "ChatGPT-Image2 生成 4K性感人像写真，提示词直通方法！",
+      "url": "https://x.com/MrLarus/status/2057423961894404119",
+      "collectedAt": "2026-07-30T13:21:27.030Z",
+      "githubSyncedAt": "2026-07-30T13:21:27.030Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "风景",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jl9kr_pqgc",
+      "image": "https://pbs.twimg.com/media/HI6wzjwXgAEXb4u?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HI6wzjwXgAEXb4u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HI6w1ikWgAAzYJC?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HI6w3Z-XwAA26dw?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HI6w5K9WoAA2XTm?format=jpg&name=4096x4096",
+        "https://pbs.twimg.com/media/HI1CIRUW8AAZ6Pn?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "用ChatGPT-Image2做丝袜电商详情页，直接可上架使用！\n\n5张专业电商详情页信息量拉满，高级干净风，质感天花板！\n这款柔雾透肤显瘦丝袜，主打细腻贴合+自然修饰腿型+高弹不勒\n柔雾肤感、均匀显白、视觉拉长腿部线条~\n通勤、约会、日常穿搭都提升精致感，值得囤的百搭神器\n\n提示词在评论区  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HI6wzjwXgAEXb4u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HI6w1ikWgAAzYJC?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HI6w3Z-XwAA26dw?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HI6w5K9WoAA2XTm?format=jpg&name=4096x4096",
+        "https://pbs.twimg.com/media/HI1CIRUW8AAZ6Pn?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2057779579230556645",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785417683643,
+      "title": "用ChatGPT-Image2做丝袜电商详情页，直接可上架使用！",
+      "url": "https://x.com/MrLarus/status/2057779579230556645",
+      "collectedAt": "2026-07-30T13:21:27.030Z",
+      "githubSyncedAt": "2026-07-30T13:21:27.030Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "抽象",
