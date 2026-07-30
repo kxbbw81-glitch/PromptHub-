@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:28:12.187Z",
+  "updatedAt": "2026-07-30T09:28:24.263Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7b9l0h_ze87",
+      "image": "https://pbs.twimg.com/media/HMjT1feaUAAj_Cb?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMjT1feaUAAj_Cb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A stunning mid-20s Japanese or Korean woman. with gold metal thin-frame glasses. wearing a long shirt and pleated maxi skirt outfit, sitting on a bar stool with grounded forward-leaning seated arrangement, upper body angled forward with stable seated weight and facing the camera. The central scene is a broad panoramic floor-to-ceiling glass wall, New York skyline, and soft white hotel bed with bedside props. Use a shoulder-level 0-degree front view inside the fixed set, under indoor early-morning daylight environment with hard side key light on the subject, captured as an editorial film still with Inspired by Leslie Kee, polished commercial portrait image language, soft-tonal Japanese portrait color grade, luminous pale highlights. --chaos 25 --ar 4:5 --profile ogvql31 --hd",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMjT1feaUAAj_Cb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2074140646164845024",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785403701665,
+      "title": "Midjourney v8.1",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2074140646164845024",
+      "collectedAt": "2026-07-30T09:28:24.263Z",
+      "githubSyncedAt": "2026-07-30T09:28:24.263Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "建筑",
