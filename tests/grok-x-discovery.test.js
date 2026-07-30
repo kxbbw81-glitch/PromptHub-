@@ -116,6 +116,7 @@ test('the test configuration caps discovery at ten candidates with enough agent 
   assert.ok(creators.length >= 30);
   assert.ok(creators.some(creator => creator.handle === 'op7418'));
   assert.ok(creators.some(creator => creator.handle === 'GrayNoteLab' && creator.tier === 'core'));
+  assert.ok(creators.some(creator => creator.handle === 'ToroJushiAi' && creator.tier === 'core'));
 });
 
 test('extracts candidate JSON from a Grok CLI response envelope', () => {
