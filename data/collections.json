@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T05:02:25.805Z",
+  "updatedAt": "2026-07-30T05:54:12.725Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms73m4oa_kt5z",
+      "image": "https://pbs.twimg.com/media/HOZuPA9WAAI2dtq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOZuPA9WAAI2dtq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOZuPA-WQAAXSNv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOY8QgrWkAA2lUw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOY8RcFWEAAjki0?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n使用 01 成品作为人物身份参考，生成一张新的 3:4 竖版人物摄影海报。严格保留同一位 22 岁韩国成年女性的面部、发型、泪痣、体型和成年气质，只把服装切换为同一系列的白色短袖运动上衣、深色过膝百褶运动裙、白袜和网球鞋。将青春活力转译成“球场白线与记分牌共同建立海报网格”：前景一条球场白线从左下切入人物脚边，网带横向压住中段，远处记分牌在右上角承担标题，三者形成清晰的纵横秩序，而不是把球拍、网球和运动器材散落成广告陈列。\n人物站在球网前，右手自然握住完整球拍，左手托一颗网球，肩背放松，刚运动后的发梢稍乱，视线直接看向镜头，神情明亮但不夸张大笑。采用略低于胸口的视点拍摄半身到膝下构图，人物偏左，右侧记分牌与夕阳留出平衡。第一眼看见人物与球拍形成的斜线，第二眼发现球场线、网带和记分牌把照片锁成网格，最后读到标题。球拍结构必须完整，手必须正确握住拍柄，不能让器物消失或穿过身体。\n文字只放在记分牌和左下角：右上记分牌逐字写“LOVE ALL”，其下小号数字写“18:30”；左下角放一条细窄赛事信息纹理。不要添加品牌 Logo、校徽、比分数字阵列或无意义英文。色彩从球场、运动服与余晖提取：大面积低饱和场地色托住人物，白色衣料承担亮部，深色裙装和球拍稳定轮廓，夕阳只给皮肤和发丝一层薄暖光。轻微运动颗粒放在背景与球网，不糊掉脸和手。\n失败状态是人物身份漂移、看起来未成年、变成运动品牌广告、球拍变形、手指错误、裙装过短或出现第二个人。最终必须保留同一成年女主、球场线与记分牌构成的网格、“LOVE ALL / 18:30”以及自然运动后的呼吸感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZuPA9WAAI2dtq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOZuPA-WQAAXSNv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOY8QgrWkAA2lUw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOY8RcFWEAAjki0?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082473097534324860",
+      "tags": [
+        "海报",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785390850090,
+      "title": "系列感不是复制粘贴",
+      "url": "https://x.com/chenlinspark/status/2082473097534324860",
+      "collectedAt": "2026-07-30T05:54:12.725Z",
+      "githubSyncedAt": "2026-07-30T05:54:12.725Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082616378675089643",
       "title": "Hyper-realistic yacht golden-hour iPhone selfie",
