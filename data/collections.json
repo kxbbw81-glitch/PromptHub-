@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:19:47.246Z",
+  "updatedAt": "2026-07-30T13:20:47.752Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jkgmf_t4f4",
+      "image": "https://pbs.twimg.com/media/HJGsYGgXEAAkwXp?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJGsYGgXEAAkwXp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJGsdaDWgAAe_s1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJGsfRXWMAA66Uh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJGsopdWcAAflKh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "高阶辣妹走进摄影棚，拍了一组拿捏气场的高预算时尚大片\n成熟、利落、性感、强势、会拿捏镜头，有攻击性\n\nGPT Image 2提示词分享\n请基于我上传的清晰本人照片，生成一组 9 张单独成片的时尚写真，统一为 3:4 竖构图，不要拼图，不要九宫格。\n\n人物必须严格保留我本人的真实长相和辨识度，包括脸型、五官比例、眼睛、鼻子、嘴唇、肤色、年龄感、发型基础和整体气质。9 张都必须明显是同一个真实女生，不能变成陌生人，不能欧美化，不能过度网红化，不能出现 AI 假脸。\n\n主题：甜辣酷飒棚拍写真，风格参考高级时尚摄影棚样片，整体气质要成熟、性感、利落、很会拿捏镜头，带一点坏坏的酷感和强势的女性魅力，像很会打扮、很会出片的高阶辣妹。\n\n服装造型：黑色挂脖/深V贴身连体短裤或超短裙造型，搭配金属链条腰饰、灰棕色毛绒腰部装饰或毛绒小围饰，腿部搭配毛绒腿套，脚穿细带高跟凉鞋。可搭配黑色项链、十字架吊坠、手链、戒指等配饰。整体造型要统一、完整、时髦、有攻击性。\n\n妆发：长直黑发或微直顺长发，发质顺滑有光泽，轻微风吹发丝；妆容精致，高级感底妆，眼妆立体，唇妆饱满，皮肤有光泽感，整体偏时尚杂志风。\n\n场景：纯色极简摄影棚，背景是干净的暖橘色到浅橙粉的渐变背景和地面，画面简洁，没有多余杂物。灯光为商业棚拍布光，人物皮肤通透发亮，轮廓清晰，带一点暖调和轻微红色边缘光，成片质感高级、昂贵、干净。\n\n画面要求：9 张都要是单独完整成片，构图干净，姿态不同，包含全身、中景、半身和近景，风格统一但姿势和镜头变化明显，像一整组专业摄影棚时尚写真。不要夸张畸形，不要肢体错误，不要手脚异常，不要低俗擦边。\n\n9 张镜头可分别为：\n1）坐姿全身，双腿舒展，气场强，直视镜头  \n2）站姿半身，手扶腰部毛绒装饰，冷感表情  \n3）跪姿侧身，长发被风吹起，回头看镜头  \n4）俯身靠近镜头，突出脸和长腿，姿态张力强  \n5）站姿全身，微微转身展示身材曲线和腿部线条  \n6）近景半身，表情冷艳，发丝掠过脸部  \n7）侧背身回眸，突出背部线条和整体造型  \n8）坐地侧腿姿势，姿态慵懒但有攻击性  \n9）强气场封面感站姿，像时尚大片收尾图\n\n最终效果要像一组高预算摄影棚时尚大片，统一造型、统一色调、统一高级质感，每一张都能单独发小红书。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJGsYGgXEAAkwXp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJGsdaDWgAAe_s1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJGsfRXWMAA66Uh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJGsopdWcAAflKh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/zhongying14/status/2059251202882416820",
+      "tags": [
+        "写真",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785417646119,
+      "title": "高阶辣妹走进摄影棚，拍了一组拿捏气场的高预算时尚大片",
+      "url": "https://x.com/zhongying14/status/2059251202882416820",
+      "collectedAt": "2026-07-30T13:20:47.752Z",
+      "githubSyncedAt": "2026-07-30T13:20:47.752Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jkgme_ii26",
+      "image": "https://pbs.twimg.com/media/HJP07egaEAACrpO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJP07egaEAACrpO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP097zbQAAlv_1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP1AzIasAAPFVv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一开始人们还不知道这套提示词模板的“威力”\n\nGPT Image 2生成品牌KV海报：内衣品牌。\n\n这次选了内衣品牌方向做测试：\n\n从 Victoria’s Secret 的性感奢华，到梦涟娜的柔美浪漫，再到 Shirley of Hollywood 的甜美潮流感，每张图都不是简单产品图。\n\n而是围绕品牌识别、人物气质、包装道具、广告语和画面氛围做完整 KV 设计。\n\n这类提示词最有价值的地方在于：\n它不是让 AI 随机出图，而是让 AI 先理解品牌，再进行视觉转译。\n\n品牌感、产品感、广告感、社交传播感，缺一不可。\n\n提示词见引用帖。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJP07egaEAACrpO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP097zbQAAlv_1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP1AzIasAAPFVv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2059259418060222620",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785417646119,
+      "title": "一开始人们还不知道这套提示词模板的“威力”",
+      "url": "https://x.com/liyue_ai/status/2059259418060222620",
+      "collectedAt": "2026-07-30T13:20:47.752Z",
+      "githubSyncedAt": "2026-07-30T13:20:47.752Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
