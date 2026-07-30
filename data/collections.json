@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:01:54.697Z",
+  "updatedAt": "2026-07-30T13:02:03.486Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7iwapk_3ecl",
+      "image": "https://pbs.twimg.com/media/HLgfXohbYAAB5gm?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLgfXohbYAAB5gm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLgi6f1WcAAgJyU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLgi6f8WQAA9MZ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLgi6fyXQAEt-gd?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "AI just unlocked portrait freedom!\nDark Bedroom Hosiery Editorial, made with ChatGPT-Image2\n\nGrey bedding, soft window light, seated pose, black styling, closed-toe heels.\n4 hosiery directions:\n1. Sheer black\n2. Back seam\n3. Subtle jacquard\n4. Fine vertical rib\n\nA clean  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLgfXohbYAAB5gm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLgi6f1WcAAgJyU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLgi6f8WQAA9MZ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLgi6fyXQAEt-gd?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2069442443901083934",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785416518712,
+      "title": "AI just unlocked portrait freedom!",
+      "url": "https://x.com/MrLarus/status/2069442443901083934",
+      "collectedAt": "2026-07-30T13:02:03.486Z",
+      "githubSyncedAt": "2026-07-30T13:02:03.486Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
