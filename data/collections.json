@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:19:01.840Z",
+  "updatedAt": "2026-07-30T09:24:09.656Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7b438b_2b9s",
+      "image": "https://pbs.twimg.com/media/HMpkkWTWUAAPQwf?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMpkkWTWUAAPQwf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMpic_bXcAAzI7U?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "一位美丽的女性站在极简纯白房间里，侧身站立，望向一扇巨大的窗户，一只手轻轻搭在窗台上。 她拥有白皙的肌肤、红唇、黑色头发，发型为优雅的低盘发，并带有几缕被微风吹起的散落发丝。 她身穿一条深海军蓝色缎面拖地吊带长裙，背部为深 V 露背设计，细吊带，背部沿线带有一条低调的金色滚边。她佩戴长款金色垂坠耳环。 明亮而强烈的阳光透过窗户照射进来，形成高对比度的戏剧性光影、清晰硬朗的阴影，以及勾勒人物轮廓的强烈边缘光。 电影感，时尚编辑大片风格，2.5D 插画，高分辨率，杰作，最佳质量，超高细节，8K，真实皮肤质感，氛围感光照，白色背景。 --v 8.1 --ar 2:3 --raw --stylize 150 --preview",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMpkkWTWUAAPQwf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMpic_bXcAAzI7U?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2074644639315886565",
+      "tags": [
+        "8k",
+        "插画",
+        "电影感",
+        "极简"
+      ],
+      "timestamp": 1785403445339,
+      "title": "Midjourney v8.1 --Preview",
+      "url": "https://x.com/ToroJushiAi/status/2074644639315886565",
+      "collectedAt": "2026-07-30T09:24:09.656Z",
+      "githubSyncedAt": "2026-07-30T09:24:09.656Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "抽象",
