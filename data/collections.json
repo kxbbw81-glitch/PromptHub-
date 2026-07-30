@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T08:05:59.150Z",
+  "updatedAt": "2026-07-30T08:06:54.716Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms78cqzj_mdai",
+      "image": "https://pbs.twimg.com/media/HOaZJd2XYAAmeiH?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOaZJd2XYAAmeiH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaZJd7W4AArCdv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaZJd-W8AA88Z3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaZJeiWQAA_oDL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "女孩拥有精致自然的鹅蛋脸，柔和流畅的下颌线，细长深棕色眼睛，浅卧蚕，自然平直眉，秀气鼻梁，柔和裸粉色嘴唇，皮肤白皙细腻但保留真实毛孔、轻微皮肤纹理和自然血色。没有浓妆，仅有透明底妆、浅棕眼影、自然睫毛、淡粉腮红、裸色唇妆。\n\n黑色长发自然盘起成略微松散的低发髻，额前细碎空气刘海和几缕发丝自然垂落，两侧耳边散落少量碎发，呈现刚洗完澡后的自然状态。她神情平静、安静、略带思考感，没有笑容，目光轻轻望向画面左侧，不直视镜头。右手轻轻拨动耳边发丝，左手隐藏于浴袍内，动作自然克制。\n\n她穿着厚实柔软的纯白色五星级酒店毛巾浴袍，翻领宽松，腰带自然系紧，浴袍具有真实毛圈纤维纹理和柔软体积感，没有任何品牌Logo。\n\n环境为现代极简豪华浴室，大面积米白色天然大理石墙面，暖金色龙头和五金，白色独立浴缸位于背景左侧并完全虚化，高级酒店氛围。镜框采用细窄香槟金金属边框。整体背景简洁，没有杂物。\n\n晨间柔和自然阳光从画面左侧窗户进入，与室内暖色环境光融合，形成柔和侧逆光。皮肤具有真实次表面散射，眼睛有自然Catchlight，整体低对比、低饱和、暖米色电影色调，空气感充足。\n\n摄影参数：85mm人像镜头，f/1.8，浅景深，背景奶油般虚化，眼睛与睫毛锐利，电影级生活方式摄影，高级美容广告风格，photorealistic，ultra realistic，natural skin texture，micro skin details，subsurface scattering，soft cinematic lighting，high-end editorial，Kodak Portra 400 colour palette，轻微ISO100胶片颗粒。\n\n避免：CG感、AI塑料皮肤、HDR过强、锐化过度、动漫、插画、磨皮、夸张妆容、错误手指、畸形五官、重复倒影、文字、水印、Logo、边框。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOaZJd2XYAAmeiH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaZJd7W4AArCdv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaZJd-W8AA88Z3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaZJeiWQAA_oDL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082617174099730834",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "人像",
+        "插画",
+        "摄影"
+      ],
+      "timestamp": 1785398810527,
+      "title": "X 上的 ToroJushiAi：“Prompt ⬇️⬇️⬇️ https://t.co/BQUJsCwxMP” / X",
+      "url": "https://x.com/ToroJushiAi/status/2082617174099730834",
+      "collectedAt": "2026-07-30T08:06:54.716Z",
+      "githubSyncedAt": "2026-07-30T08:06:54.716Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082716067978481818",
       "title": "Strawberry persona archive poster",
