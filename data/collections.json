@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:22:11.107Z",
+  "updatedAt": "2026-07-30T06:26:37.368Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms74rsrd_vx2d",
+      "image": "https://pbs.twimg.com/media/HOcg0qSXEAA5Nf9?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcg0qSXEAA5Nf9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcg3TdWQAAe25x?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use case: ads-marketing.\nAsset type: one premium vertical Korean fashion editorial poster, soft 3:4 aspect ratio. Generate a new photograph; Image 1 is style_reference and mechanism_reference only. Use only its quiet minimal indoor-pool mood and the concept of ordered louver light crossing architecture, an adult model, and water. Do not preserve or copy the original woman's identity, pose, framing, swimsuit, or typography.\nPhotorealistic indoor pool fashion poster with one fictional 23-year-old adult Korean woman, unmistakably adult, healthy athletic swimmer build, natural Korean facial features, clean minimal makeup, realistic skin, composed confident expression. She wears a complete opaque ivory high-neck athletic one-piece swimsuit with secure coverage, thick technical fabric, no cutouts, logo, transparency, or lingerie styling. Damp black hair forms a clean low braid. She walks one slow step along the shallow ledge, shown in a stable side profile facing left; rear foot planted, front knee relaxed, shoulders level, one arm naturally behind and one arm softly forward, both hands separated and visible, gaze toward the far pool wall, no seductive pose.\nDistinct extension concept 03 — horizontal tempo: camera placed very low at waterline but not voyeuristic, looking across a long terracotta-plaster indoor pool. The wall and water divide the frame almost exactly 50/50. A bank of horizontal clerestory louvers throws crisp, evenly spaced horizontal bands from left to right. The bands must cross the terracotta wall, her cheek, shoulders and full torso, continue over the water surface, then stretch toward the lens in perspective. The waterline itself becomes one additional horizontal rule. Palette: muted terracotta, ivory swimsuit, deep mineral green water, soft cream highlights.\nLow waterline 70mm editorial camera, respectful full-body side silhouette from head to below knee, long compressed perspective, model on the right third, open negative space on the left, crisp architectural geometry, medium-deep focus. Small exact copy only: \"HORIZONTAL TEMPO\" in cream condensed uppercase sans-serif at upper left, perfectly spelled; no other text. Warm 4:10 PM side light, controlled contrast, realistic damp skin, opaque fabric texture, tiny ripples, subtle film grain, premium independent fashion magazine finish.\nConstraints: one adult woman only, clearly age 23; non-erotic athletic fashion; no childlike or school cues; no exposed nipples or genitals, thong, lingerie, transparent fabric, extreme cleavage, provocative arch, body-part focus, or low-angle sexualization. No logo, watermark, brands, extra words, extra people, props. Avoid malformed hands, extra fingers, duplicated limbs, broken walking anatomy, warped pool lines, impossible waterline, discontinuous horizontal light bands, plastic skin, CGI, collage, or over-retouching.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcg0qSXEAA5Nf9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcg3TdWQAAe25x?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082707765131100429",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785392794202,
+      "title": "光栅一旦交叉，画面就从摄影变成了版式",
+      "url": "https://x.com/chenlinspark/status/2082707765131100429",
+      "collectedAt": "2026-07-30T06:26:37.368Z",
+      "githubSyncedAt": "2026-07-30T06:26:37.368Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
