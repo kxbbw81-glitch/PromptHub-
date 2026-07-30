@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:34:17.644Z",
+  "updatedAt": "2026-07-30T09:44:12.348Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "美食",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7btu4h_j3i3",
+      "image": "https://pbs.twimg.com/media/HMN-RapXcAAhn6A?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMN-RapXcAAhn6A?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMN-TLXXoAAyRwY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMN-VVIWAAA7WxZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMN-anFXQAA1ha5?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "用 ChatGPT-Image2 做外卖店铺视觉提案，一次生成整套系统！\n\n我生成了四个案例：\n\n1、精品咖啡店\n\n2、西式简餐店\n\n3、三明治轻食店\n\n4、澳门葡挞烘焙店\n\n把店招、头图、菜品卡、手机页面、标准色板放进同一套视觉里\n\n很适合做外卖店铺装修、菜品图升级和商业视觉探索！\n\n提示词在评论区  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMN-RapXcAAhn6A?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMN-TLXXoAAyRwY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMN-VVIWAAA7WxZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMN-anFXQAA1ha5?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2072639262764257412",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785404646593,
+      "title": "设计师狂喜！",
+      "url": "https://x.com/MrLarus/status/2072639262764257412",
+      "collectedAt": "2026-07-30T09:44:12.348Z",
+      "githubSyncedAt": "2026-07-30T09:44:12.348Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
