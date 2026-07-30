@@ -36,6 +36,7 @@
     { "handle": "MaxVOAO", "language": "en", "focus": ["cinematic-image", "prompts"], "tier": "core" },
     { "handle": "CharaspowerAI", "language": "en", "focus": ["vfx", "detailed-prompts"], "tier": "core" },
     { "handle": "Samann_ai", "language": "en", "focus": ["ai-video", "dynamic-art"], "tier": "core" },
+    { "handle": "GrayNoteLab", "language": "zh", "focus": ["image-prompts", "oriental-portraits", "cinematic-photography"], "tier": "core" },
     { "handle": "michaelrabone", "language": "en", "focus": ["midjourney", "education"], "tier": "standard" },
     { "handle": "craftian_keskin", "language": "en", "focus": ["dark-fantasy", "style-reference"], "tier": "standard" },
     { "handle": "MO_IAI", "language": "en", "focus": ["cinematic-scenes", "prompts"], "tier": "standard" },

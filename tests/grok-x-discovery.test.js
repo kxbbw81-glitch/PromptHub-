@@ -115,6 +115,7 @@ test('the test configuration caps discovery at ten candidates with enough agent 
   assert.match(config.discoveryQueries.at(-1), /brand identity, logo design, visual identity/i);
   assert.ok(creators.length >= 30);
   assert.ok(creators.some(creator => creator.handle === 'op7418'));
+  assert.ok(creators.some(creator => creator.handle === 'GrayNoteLab' && creator.tier === 'core'));
 });
 
 test('extracts candidate JSON from a Grok CLI response envelope', () => {
