@@ -13,12 +13,18 @@
     "提示词",
     "Negative prompt",
     "文生图",
-    "文生视频"
+    "文生视频",
+    "Brand identity prompt",
+    "Logo/VI proposal",
+    "品牌视觉提案",
+    "Logo 提案",
+    "VI 提案"
   ],
   "discoveryQueries": [
     "Find recent public X posts containing a complete, reusable AI image-generation prompt and a result image.",
     "Find recent public X posts containing a complete, reusable AI video-generation prompt and a result video or video poster.",
-    "Find public X posts marked Prompt, Image prompt, Video prompt, 完整提示词, 提示词, or Negative prompt that include a concrete generation result."
+    "Find public X posts marked Prompt, Image prompt, Video prompt, 完整提示词, 提示词, or Negative prompt that include a concrete generation result.",
+    "Find recent public X posts containing a complete reusable brand identity, logo design, visual identity, or four-direction Logo/VI proposal prompt with real result images."
   ],
   "excludedSignals": [
     "tutorial only",

@@ -75,6 +75,10 @@ Every candidate must meet all of these conditions before Codex can merge it:
    not reveal them.
 5. Skip tutorials, product promotions, repost-only posts, incomplete prompts,
    posts without result media, and duplicate candidates.
+6. Brand Logo/VI multi-direction proposals are valid e-commerce candidates when
+   they include a complete reusable prompt and actual result images. Mark the
+   relevant discovery signal and preserve enough tags to classify them as
+   `电商视觉` with the `品牌视觉` use-case.
 
 ## Handoff and release sequence
 

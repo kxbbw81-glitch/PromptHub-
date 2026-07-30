@@ -88,6 +88,8 @@ test('the test configuration caps discovery at ten candidates with enough agent 
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, '../config/grok-x-discovery.json'), 'utf8'));
   assert.equal(config.maxCandidatesTotal, 10);
   assert.equal(config.maxTurns, 12);
+  assert.ok(config.recognitionSignals.includes('Logo/VI proposal'));
+  assert.match(config.discoveryQueries.at(-1), /brand identity, logo design, visual identity/i);
 });
 
 test('extracts candidate JSON from a Grok CLI response envelope', () => {
