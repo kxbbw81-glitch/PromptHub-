@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:22:03.242Z",
+  "updatedAt": "2026-07-30T13:22:20.133Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jmf8s_abo8",
+      "image": "https://pbs.twimg.com/media/HH_nH_UaUAAcPqL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HH_nH_UaUAAcPqL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHxiwtoaEAA6iRI?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "有时候会觉得\n\n现在做图已经不只是\n\n用GPT-Image-2生成图片了\n\n更像是在把一个人的气质\n\n情绪、审美，甚至想表达的东西\n\n慢慢做成一种能被看见的数字人格\n\n这张图做出来的效果我很喜欢\n\n安静、干净\n\n但又有一点属于现在的孤独感\n\n提示词:\n\n奢华电影般的社交媒体编辑肖像，一位时尚女孩坐在柔软光滑的白色地板上，超大号白色西装外套，简约美学短发，自信的表情，极简单色时尚造型，周围环绕着漂浮的3D黑色X标志，带有发光白色描边，漂浮的推文截图在白色毛玻璃风格卡片中，未来主义影响者美学，奢华创作者品牌，柔和工作室灯光，梦幻阴影，高档杂志构图，干净的白色背景，现代数字混乱，超现实皮肤纹理，光泽反射，优雅单色调色板，电影般的景深，病毒式AI艺术风格，高端编辑摄影，精致而美学氛围，超详细，8K",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HH_nH_UaUAAcPqL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHxiwtoaEAA6iRI?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/you1873118/status/2053614087763099948",
+      "tags": [
+        "8k",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785417737644,
+      "title": "有时候会觉得",
+      "url": "https://x.com/you1873118/status/2053614087763099948",
+      "collectedAt": "2026-07-30T13:22:20.133Z",
+      "githubSyncedAt": "2026-07-30T13:22:20.133Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jmf8s_s65r",
+      "image": "https://pbs.twimg.com/media/HIB87HSbkAECsgU?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIB87HSbkAECsgU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIB87IvaUAA7wwz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIB87HPbUAAOhfp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIB87HRaMAEtB0_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "继续更新一版 GTP Image 2 生成古风+丝袜+左滑穿上适配小红书\n\n提示词\n你是一名资深角色概念设计师与文生图提示词专家。请基于以下关键词生成高质量图像提示词：古风、丝袜、3D人物、真实 cos、服饰拆解。目标是输出一张或一组成年女性古风角色的写实 3D 设定图与服装分层拆解图，并严格遵守以下要求：\n视觉核心：中式古风审美、高精度 3D 人物、真实 cosplay 服装质感、服饰结构清晰可读。\n\n角色限定：成年女性，五官自然，比例真实，气质冷静或雅致，避免幼态化。\n\n服饰限定：以汉服 / 国风改良服饰为基础，包含外袍、内衬、束腰、披帛、裙摆、腿部配饰与黑色或烟灰色半透丝袜；重点表现丝绸、纱、刺绣、金属扣件、绑带、皮革拼接等材质差异。\n\n构图限定：主图为全身角色立绘；副图为服装 exploded view / 分层拆解展示，清晰呈现各层穿搭顺序、连接结构与材质说明；背景简洁，不抢主体。\n\n风格限定：高端游戏角色设定图、PBR 材质、电影级布光、真实布料褶皱、细腻皮肤纹理、可用于 3D 建模参考。\n\n安全边界：不出现裸露敏感部位，不出现性暗示姿势，不生成 NSFW，不使用未成年化表达。\n\n输出要求：请输出\n\n主提示词\n\n负面提示词\n\n镜头与光线说明\n\n材质关键词\n\n可调变量（朝代感、丝袜透明度、配色、妆容、道具）\n\n请优先使用具体、可执行、可验证的视觉描述，不要使用空泛形容词。若存在不确定项，请明确写出默认假设。\n服饰：汉服\n\n丝袜类型：黑丝\n比例：  3:4",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIB87HSbkAECsgU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIB87IvaUAA7wwz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIB87HPbUAAOhfp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIB87HRaMAEtB0_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2053778819287290232",
+      "tags": [
+        "国风",
+        "古风"
+      ],
+      "timestamp": 1785417737644,
+      "title": "继续更新一版 GTP Image 2 生成古风+丝袜+左滑穿上适配小红书",
+      "url": "https://x.com/GeekCatX/status/2053778819287290232",
+      "collectedAt": "2026-07-30T13:22:20.133Z",
+      "githubSyncedAt": "2026-07-30T13:22:20.133Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
