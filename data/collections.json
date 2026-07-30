@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:04:24.879Z",
+  "updatedAt": "2026-07-30T11:04:53.253Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7epofd_ab4y",
+      "image": "https://pbs.twimg.com/media/HL0Hnc9W0AAEAfC?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HL0Hnc9W0AAEAfC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT\n\nPrompt:\n\n柔和写实竖幅极简室内人像，低调生活方式摄影风格。纯净暖白色墙面背景。从下半脸至大腿上部紧凑裁切——面部顶端部分在画面之外。构图聚焦于躯干、长发、放松姿态、柔和面料褶皱与中性色调，而非完整面部肖像。\n\n人物：成年女性站立靠近纯色墙面，略偏右。仅下半脸可见——放松自然的哑光粉唇色，平静中性表情。深棕色长直发顺滑垂落于双肩，光泽柔和高光与清晰单根发丝可见。挺立安静的姿态，双臂自然垂于身侧。\n\n服装：合身灰褐米色短袖T恤，柔软棉针织面料。胸部下方向上卷起或收拢形成横向褶皱——分层面料皱褶，随性短款感。端庄、写真感、无露骨细节——着重面料质感、干净躯干廓形与柔和自然光线。简约白色低腰内裤——顺滑哑光面料质感、干净接缝、极简腰头。安静中性的时尚研究感或亲密家居写真感，非挑逗性。\n\n背景与光线：极简整洁奶油色或浅米色墙面，细微纹理，柔和阴影渐变。来自附近窗户或大型柔光箱的柔和漫射低对比光线。锁骨、手臂、腰部、腹部、面料褶皱与发丝上有精致高光；卷起衬衫下方与身体侧面有柔和阴影。\n\n色调与输出：灰褐米色、象牙白、暖色肌肤、深棕发色、柔和灰米色阴影。真实肌肤质感，自然体态轮廓，顺滑发丝，棉质面料褶皱，内裤接缝，浅景深。平静、极简、自然、轻柔电影感。\n\n风格：写实极简室内人像摄影，柔和自然光，中性墙面，近景裁切躯干构图，深棕色长直发，带收褶的灰褐色短款T恤，简约白色内裤，低调暖色调，高细节，竖幅。无文字、无水印、无Logo、无卡通感、无强闪光、无变形人体、无多余人物、无杂乱元素、无露骨裸露。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HL0Hnc9W0AAEAfC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2070819781675032947",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感",
+        "极简"
+      ],
+      "timestamp": 1785409491433,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2070819781675032947",
+      "collectedAt": "2026-07-30T11:04:53.253Z",
+      "githubSyncedAt": "2026-07-30T11:04:53.253Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
