@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:00:16.748Z",
+  "updatedAt": "2026-07-30T13:01:54.697Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7iw56n_uuaz",
+      "image": "https://pbs.twimg.com/media/HLl5zTDXIAEv7DE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLl5zTDXIAEv7DE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "prompt：\n\n9:16，时尚杂志感棚拍、柔焦美妆广告\n\n高调曝光、冷白柔雾、低饱和、干净空灵，略带胶片柔焦感。\n\n背后视角，相机贴近地面，从脚踝和鞋跟位置向上仰拍，近距离广角带来腿部线条延伸感。\n\n年轻女性，黑色长发，五官清秀冷感，时尚模特气质，画面存在感集中在弯腰姿态、眼神和腿部线条。\n\n纤细修长的身形轮廓，肩臂线条柔和，腰部收紧，双腿修长，弯腰动作让上身与腿部形成折线轮廓。\n\n本身为白皙偏暖象牙肤调，受冷白棚光影响呈轻微冷调，腿部高光更明亮，阴影处带淡蓝灰。\n\n模特身体向前弯折，头肩方向保持一致，低头靠近脚踝，用手轻轻调整金色高跟鞋绑带；一只手扯长绑带，另一只藏在面部头发后方，眼神穿过散乱发丝看向镜头。\n\n眼神安静直视，带一点疏离和克制的冷感，嘴唇自然放松，无明显笑意，散发遮面增加慵懒与私密感。\n\n黑色蓬松长卷发，白色无袖短款褶皱连衣裙或吊带裙，金色细带高跟鞋，手腕有珍珠与金色装饰手链，妆容清淡。\n\n白色裙装上身贴合，腰部和裙身有自然拉伸与细密褶皱，短裙下摆随弯腰动作轻微上提，整体保持时装造型感。\n\n白色轻薄弹性针织或罗纹面料，哑光柔软，有细竖向褶纹；金色高跟鞋为亮面金属细带与反光鞋面。\n\n手臂、小腿和脚背有柔亮高光，皮肤质感平滑细腻，腿部受光形成冷白反射与淡淡蓝灰阴影。\n\n极简白色无缝棚拍背景，地面与背景过渡柔和，几乎无道具，突出人物姿态和鞋履。\n\n大面积冷白柔光，高调低阴影，整体偏蓝白，金色鞋履和手链形成少量暖金点缀，低饱和清透。\n柔焦时尚摄影质感，边缘略柔，皮肤和白裙高光轻微溢出，干净精修但保留少量胶片式柔雾。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLl5zTDXIAEv7DE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2069819576234430832",
+      "tags": [
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785416511552,
+      "title": "prompt：",
+      "url": "https://x.com/nanyuan0412/status/2069819576234430832",
+      "collectedAt": "2026-07-30T13:01:54.697Z",
+      "githubSyncedAt": "2026-07-30T13:01:54.697Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
