@@ -1,7 +1,158 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:24:15.371Z",
+  "updatedAt": "2026-07-30T13:33:25.997Z",
   "collections": [
+    {
+      "id": "grok_x_2082313690888696268",
+      "title": "Korean sweet-girl airport candid photo",
+      "category": "自然",
+      "tags": [
+        "image-prompt",
+        "portrait",
+        "korean-style",
+        "airport",
+        "photorealistic",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "超写实真人摄影，真实手机抓拍，一位22岁左右的成年东亚女性，韩系甜妹风格，小红书高赞生活照氛围，自然真实，不是摄影棚写真，不是二次元，不是CG建模。\n\n现代机场候机大厅，浅灰色大理石地面，黄色导盲砖横穿画面，远处值机柜台、旅客与行李箱自然虚化，顶部冷白色LED环境光均匀照明，真实机场空间质感。\n\n左下角放着黑色双肩包，右侧摆放淡紫色登机箱，地面有透明塑料杯冰美式咖啡，一张登机牌自然散落，整体生活化、旅行途中随手记录的瞬间。\n\n成年东亚女性，约22岁。鹅蛋脸，小巧精致。深棕色大眼睛，明显卧蚕。细长韩系眼线。淡粉色眼影。纤长睫毛。鼻梁自然。粉嫩水润嘴唇。脸颊大面积粉嫩腮红。鼻尖微微泛红。眼下少量细闪亮片。皮肤冷白偏粉，通透明亮，保留轻微毛孔与真实皮肤纹理，不过度磨皮。\n\n深棕色长发，自然披肩。空气刘海。发丝柔顺。两侧佩戴粉色蝴蝶结丝带发夹，丝带自然垂落。发顶轻微蓬松。\n\n淡紫色修身短款圆领短袖T恤，弹力棉面料，贴合身体，真实布料拉伸纹理。浅粉色格纹百褶超短裙。露出腰腹。银色脐钉。白色运动鞋。\n\n人物蹲在机场地面。身体朝向镜头约45°。左脚完全着地。右腿自然收起。左手握住行李箱拉杆。右手打开米白色手提包寻找物品。动作自然，像旅行途中临时翻包。\n\n嘴巴轻轻鼓起。微微嘟嘴。没有微笑。眼睛看向画面右侧。没有直视镜头。神情呆萌。略微放空。自然可爱。\n\n竖版3:4。摄影师距离约1米。24mm手机广角镜头。略微俯拍。完整拍摄头部至鞋子。人物占画面约75%。位于画面中央偏右。保持真实生活摄影构图。\n\niPhone生活摄影。手机原生HDR。真实抓拍。自然曝光。轻微HDR效果。轻微手机锐化。轻微JPEG压缩痕迹。轻微手机降噪。真实肤色。自然环境光。背景轻微虚化。没有电影滤镜。没有摄影棚布光。没有AI塑料皮肤。没有CG质感。没有过度磨皮。\n\n机场顶部均匀LED照明。柔和环境光。无明显阴影。亮度充足。肤色自然通透。整体偏冷白色调。\n\n超写实。电影级真实摄影。8K。极高细节。真实皮肤纹理。真实头发。真实布料纹理。真实塑料反光。真实旅行箱材质。真实机场环境。专业手机摄影质感。小红书生活照。韩国Instagram博主风格。\n\nNegative prompt: 低质量，模糊，AI感，CG，动漫，插画，3D渲染，游戏建模，塑料皮肤，蜡像感，过度锐化，HDR过强，滤镜感，磨皮严重，畸形手指，多余手指，多余四肢，人物重复，五官崩坏，眼神呆滞，背景杂乱，曝光过度，曝光不足，噪点严重，过饱和，过度美颜，摆拍感，摄影棚灯光，时尚大片风，广告风，假皮肤，低分辨率。",
+      "image": "https://pbs.twimg.com/media/HOXdQjeaoAAO13i.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOXdQjeaoAAO13i.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOXdQjeaoAAO13i.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ohmuyi/status/2082313690888696268",
+      "url": "https://x.com/ohmuyi/status/2082313690888696268",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785418405987,
+      "collectedAt": "2026-07-30T13:33:25.987Z",
+      "githubSyncedAt": "2026-07-30T13:33:25.987Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2081778309726187794",
+      "title": "Logo to Formula 1 car livery",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "logo",
+        "livery",
+        "formula-1",
+        "visual-identity",
+        "motorsport",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Transform the uploaded logo into the defining visual identity of a high-performance Formula 1-style race car. Preserve the logo’s exact shape, proportions, colors, and recognizable silhouette while integrating it naturally into the complete livery, aerodynamic surfaces, body graphics, halo details, wheel covers, sidepods, front wing, rear wing, and cockpit area.\n\nThe logo must not look like a flat sticker placed on a generic car. Its geometry should influence the livery flow, color blocking, panel transitions, stripe direction, aerodynamic accents, and overall racing identity. A refined version of the logo may appear on the nose, sidepod, engine cover, or rear wing, but the entire car should feel designed around the uploaded brand.\n\nAdapt the primary paint, secondary colors, metallic details, carbon fiber, wheel accents, and cockpit trim to the uploaded logo’s original palette. Keep the final result premium, balanced, fast, and competition-ready.\n\nUse realistic Formula 1-style engineering with exposed carbon fiber, sculpted sidepods, front and rear wings, halo protection, slick racing tires, brake ducts, suspension arms, floor edges, cooling vents, precise panel seams, and authentic aerodynamic proportions.\n\nShow physically accurate materials including matte and gloss paint, woven carbon fiber, rubber tires, metallic suspension parts, heat-treated exhaust components, reflective visor glass, and subtle race wear. Add light tire debris, fine dust, minor rubber marks, and restrained track grime without making the car look damaged.\n\nPlace the car on a modern Grand Prix circuit, pit lane, starting grid, or premium motorsport studio. Use realistic track markings, barriers, garage lighting, grandstands, or distant pit equipment with minimal distractions.\n\nUse one cinematic low front three-quarter hero view where the complete livery and uploaded logo integration are clearly visible. The car should appear stationary or moving at controlled speed with realistic motion blur only in the background and wheels.\n\nSingle photorealistic image only. No collage, no multiple cars, no team names, no driver names, no sponsor text, no extra logos, no distorted wheels, no duplicated wings, no malformed cockpit, no impossible aerodynamics, and no visible AI artifacts.\n\nStyle: ultra-realistic motorsport photography, premium Formula 1 campaign quality, physically accurate carbon fiber, paint, rubber, metal, reflections, lighting, and race-car proportions.",
+      "image": "https://pbs.twimg.com/media/HOP2TBXXAAAtq27.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOP2TBXXAAAtq27.jpg",
+        "https://pbs.twimg.com/media/HOP2TZVWAAAL-tc.jpg",
+        "https://pbs.twimg.com/media/HOP2TBTXAAAn-6A.jpg",
+        "https://pbs.twimg.com/media/HOP2TBYW4AAqaEx.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOP2TBXXAAAtq27.jpg",
+        "https://pbs.twimg.com/media/HOP2TZVWAAAL-tc.jpg",
+        "https://pbs.twimg.com/media/HOP2TBTXAAAn-6A.jpg",
+        "https://pbs.twimg.com/media/HOP2TBYW4AAqaEx.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SIELmarketing/status/2081778309726187794",
+      "url": "https://x.com/SIELmarketing/status/2081778309726187794",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785418405987,
+      "collectedAt": "2026-07-30T13:33:25.987Z",
+      "githubSyncedAt": "2026-07-30T13:33:25.987Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082815489676358100",
+      "title": "Alexandria golden-hour identity portrait",
+      "category": "时尚",
+      "tags": [
+        "image-prompt",
+        "portrait",
+        "identity-lock",
+        "alexandria",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded image as the ONLY identity reference. Preserve exact identity, facial features, hairstyle or hijab style, age appearance and all recognizable characteristics. Create an ultra-realistic cinematic golden-hour portrait in the exact same composition and pose, standing elegantly on a scenic overlook above the Mediterranean Sea of ancient Alexandria. In the background, replace the statue with the majestic Lighthouse of Alexandria (Pharos of Alexandria) in its historical golden-age glory, rising proudly beside the sparkling harbor. The subject turns gracefully toward the camera with wind flowing through hair or hijab, maintaining the same relaxed confident posture and travel-editorial mood. Men wear luxurious modern white summer couture with subtle gold embroidered Eye of Horus details. Non-hijabi women wear elegant white luxury summer dresses with refined gold Eye of Horus embroidery. Hijabi women wear modest white couture dresses with matching elegant hijab and sophisticated gold Eye of Horus accents. Warm sunset light, glowing rim light, cinematic lens flare, shimmering sea reflections, luxury Mediterranean atmosphere, ancient Alexandria skyline, realistic anatomy, full body visible, correct head-to-body proportions, no oversized head, no distortions, no extra people, ultra-detailed 8K photography, premium travel editorial aesthetic, natural skin texture, balanced HDR, Vertical 3:4, 1080x1440.",
+      "image": "https://pbs.twimg.com/media/HOelkdlXgAEumOO.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOelkdlXgAEumOO.jpg",
+        "https://pbs.twimg.com/media/HOeloiqW4AASf65.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOelkdlXgAEumOO.jpg",
+        "https://pbs.twimg.com/media/HOeloiqW4AASf65.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/EhabSalahArt/status/2082815489676358100",
+      "url": "https://x.com/EhabSalahArt/status/2082815489676358100",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785418405987,
+      "collectedAt": "2026-07-30T13:33:25.987Z",
+      "githubSyncedAt": "2026-07-30T13:33:25.987Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2081515559653380145",
+      "title": "Luxury character-inspired treehouse interior",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "image-prompt",
+        "character",
+        "treehouse",
+        "interior",
+        "identity-lock",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use up to four supplied character-reference images: @Image1 through @Image4.\n\n@Image1 is required and defines the visual identity, character design, and primary inspiration for the luxury treehouse.\n@Image2, @Image3, and @Image4 are optional character or companion references.\nInclude exactly one separate portrayal of every attached character or companion.\nIf only @Image1 is attached, include only that character.\nDo not duplicate, merge, replace, or invent characters or companions.\n\nTreehouse Design\n\nCreate an extraordinary luxury treehouse inspired by the likeness and character design of @Image1.\n\nTranslate @Image1’s recognizable features into elegant architectural and decorative elements, including their:\n\nEstablished color palette\nClothing or armor motifs\nMaterials and textures\nSymbols, markings, accessories, and signature details\nPersonality, atmosphere, and overall visual identity\n\nThe treehouse should feel inspired by the character without literally resembling a giant face, body, statue, or costume. Keep the result sophisticated, believable, comfortable, and architecturally functional.\n\nDesign a spacious, high-end interior constructed around and between enormous living trees. Include polished natural wood, exposed support beams, carved details, soft textiles, tasteful character-inspired decorations, indoor greenery, and subtle modern conveniences. Allow portions of the tree trunks and branches to pass naturally through the architecture without damaging the structure.\n\nLuxury Character-Inspired Sofa\n\nPlace one large, luxurious sofa in the main living area near the floor-to-ceiling windows.\n\nThe sofa must be inspired by @Image1’s character design. Incorporate their established colors, materials, patterns, symbols, markings, clothing details, and personality into its upholstery, pillows, carved frame, and decorative accents.\n\nThe sofa should remain elegant, comfortable, spacious, and functional—not shaped like the character’s literal body or face.\n\nSeat every attached character or companion together naturally on this single sofa. The sofa must be large enough for everyone to sit comfortably without crowding, overlapping, merging, or blocking one another.\n\nAll seated figures should:\n\nAppear relaxed and peacefully enjoy the calming environment\nRemain individually visible and recognizable\nBe correctly scaled relative to one another\nSit naturally on the cushions rather than floating, sinking, or clipping through the sofa\n\nAnimal companions should sit, lie, or rest naturally on the sofa according to their proper anatomy. Do not force an animal companion into a human sitting pose.\n\nUse a cinematic interior POV that shows the characters seated together, the character-inspired sofa, the luxurious interior, and the panoramic forest visible through the windows.\n\nInterior POV and Composition\n\nPosition the POV completely inside the treehouse, looking across the luxurious main living space.\n\nThe enormous floor-to-ceiling windows should provide a breathtaking panoramic view of the peaceful surrounding forest. Clearly show tall trees, layered green foliage, distant branches, and the elevated height of the structure.\n\nUse a wide cinematic perspective that clearly includes:\n\nThe luxurious treehouse interior\nThe entire character-inspired sofa\nEvery attached character or companion seated upon it\nThe expansive forest visible through the windows\n\nDo not place the camera outside the treehouse. Do not show the treehouse primarily from an exterior viewpoint.\n\nIdentity Lock\n\nPreserve every attached character or companion’s exact:\n\nFace and facial features\nHairstyle and hair color\nEye color\nSpecies and anatomy\nBody proportions\nSkin, fur, scales, markings, tails, ears, or other distinctive traits\nClothing, armor, accessories, and established color palette\nAge and gender presentation\n\nDo not redesign, simplify, humanize, duplicate, or combine them. Do not alter a companion’s species or anatomy.\n\nLighting and Atmosphere\n\nCreate a calm, warm, and restorative atmosphere.\n\nSoft golden sunlight should glimmer through the surrounding trees, filter between the leaves, and stream naturally through the large windows. Include delicate sunbeams, gently illuminated dust particles, soft leaf-shaped shadows, and warm highlights across the wooden interior and sofa.\n\nUse peaceful forest greens, warm natural browns, subtle golden light, and refined accents taken from @Image1’s established palette.\n\nThe finished image should feel luxurious, serene, intimate, and deeply connected to nature—like an exclusive woodland retreat created especially for @Image1 and their companions.\n\nRestrictions\n\nNo unrelated people, animals, or background characters\nNo duplicated or merged characters\nNo exterior camera angle\nNo characters standing around the room\nNo separate chairs or additional sofas for the referenced cast\nNo character or companion placed outside the windows\nNo gloomy, frightening, abandoned, or ruined atmosphere\nNo crude wooden shack or ordinary cabin\nNo blocked forest view\nNo overcrowded furniture or clutter\nNo distorted windows, furniture, or architecture\nNo floating, clipping, or fused bodies\nNo character redesigns\nNo text, captions, labels, logos, or watermarks",
+      "image": "https://pbs.twimg.com/media/HOMHPSWXIAAJGKE.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOMHPSWXIAAJGKE.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMHPSWXIAAJGKE.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Rogey_Bear/status/2081515559653380145",
+      "url": "https://x.com/Rogey_Bear/status/2081515559653380145",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785418405987,
+      "collectedAt": "2026-07-30T13:33:25.987Z",
+      "githubSyncedAt": "2026-07-30T13:33:25.987Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
