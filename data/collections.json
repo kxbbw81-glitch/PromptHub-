@@ -1,7 +1,281 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T02:54:23.699Z",
+  "updatedAt": "2026-07-30T03:29:39.364Z",
   "collections": [
+    {
+      "id": "grok_x_2082493783879614820",
+      "title": "东方古典嘟嘴托腮人像提示词",
+      "category": "portrait",
+      "tags": [
+        "oriental",
+        "cinematic",
+        "hanfu",
+        "portrait",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "3:4竖构图，超写实东方古典女性电影肖像摄影（Oriental Classical Cinematic Portrait），中国古风园林写真，高级Editorial艺术人像摄影风格，真实电影摄影机拍摄质感，非插画，非动漫，非CG渲染。\n\n画面主体为一位22岁以上原创东方成年女性角色。\n\n人物设计：\n人物拥有清透温柔的东方古典气质，五官精致自然，脸型柔和小巧，皮肤保留真实细腻纹理，不要塑料感。眼睛清澈明亮，带有轻微无辜感与少女般的灵动气质，眼神直视镜头，表情安静可爱，嘴唇嘟起，呈现轻柔俏皮的情绪。人物脸颊靠近眼下位置保留一颗自然的小痣，作为独特面部特征，不能遗漏。\n\n人物姿态：\n采用坐姿近距离半身构图，身体微微前倾，双肘自然支撑于身前。双侧前臂与手腕自然紧密贴合在一起，由手腕至手肘形成流畅连续的线条，不留明显缝隙。双手置于下巴两侧形成花瓣般展开的托腮姿势，双掌保持完全伸直，不弯曲包裹脸部，不以手掌托压脸颊。掌心自然朝上微微向外展开，手掌与脸颊保持约45°夹角，距离脸颊保留自然间距，仅在下巴附近轻微靠近作为视觉支撑，使脸部完整露出，整体姿态轻盈、优雅、自然，没有刻意摆拍感。肩膀自然放松，头部保持正面朝向镜头，视线略微下压，营造亲近温柔的观看关系。\n\n发型设计：\n黑色长发盘成精致古代高髻，发丝细腻柔顺，顶部保持自然蓬松感。发髻点缀白色小花与珍珠流苏发饰，花朵细节精致，垂落珠链随着发丝自然下垂，具有宋代仕女般的雅致气质。额前保留少量自然碎发，增加真实感。\n\n服饰设计：\n身穿浅雾蓝色古代汉服长裙，整体色调清雅柔和。外层为轻薄透明质感的大袖衫，袖口与衣身布满细密白色花卉刺绣。内层交领衣襟层次清晰，腰间系浅蓝色绣花腰带，垂落细长流苏。裙摆采用多层轻纱材质，自然铺散于周围，面料柔软轻盈，具有高级古装电影服装质感。\n\n背景环境：\n人物位于江南古典园林中的湖畔庭院，背景是一片静谧的青绿色湖水，远处传统中式亭台掩映于树影之间。岸边分布自然石块与浅色砂石，周围种植柳树、竹林及庭院绿植。背景采用大光圈浅景深虚化，远处建筑与植物形成柔和散景，不抢主体。整体环境如清晨或傍晚的江南园林，空气湿润，宁静柔和。\n\n光影设计：\n柔和自然阳光自人物侧后方穿过树叶洒落，形成轻微轮廓光。人物脸部保持均匀柔光，没有明显阴影。绿色环境自然反射出冷暖交织的环境光。整体采用低饱和电影级调色，柔和胶片质感，层次丰富，光影自然。\n\n摄影参数：\n真实摄影，85mm人像镜头，f/1.4大光圈，浅景深，电影级景深效果，自然散景，RAW摄影质感，高细节皮肤纹理，真实发丝细节，专业古装电影剧照风格。\n\nNegative Prompt：\n动漫，插画，二次元，3D渲染，CG感，塑料皮肤，AI生成感，过度磨皮，假脸，夸张美颜，HDR光晕，过曝，低清晰度，五官变形，多余手指，手部畸形，错误肢体，弯曲手掌包脸，手掌贴脸，双手分开，手腕分离，僵硬姿势，现代服装，现代建筑，背景过度清晰，杂乱环境，浓妆，夸张表情，性感姿势。",
+      "image": "https://pbs.twimg.com/media/HOaBDRoaMAAMCUr.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOaBDRoaMAAMCUr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOaBDRoaMAAMCUr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/GrayNoteLab/status/2082493783879614820",
+      "url": "https://x.com/GrayNoteLab/status/2082493783879614820",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082423303181123682",
+      "title": "夜间浅水红柱东方暗黑时尚写真",
+      "category": "fashion",
+      "tags": [
+        "night",
+        "direct-flash",
+        "wet-fabric",
+        "editorial",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "1:1 方形构图，夜间浅水中的东方暗黑浪漫时尚写真。一名成年东亚女性跪坐在黑色浅水中，身体靠近画面右侧一根巨大的朱红色圆柱，人物呈四分之三侧背角度，骨盆和上半身朝向红柱，肩膀自然回转，头部回眸看向镜头。表情冷静、疏离、略带忧郁，嘴唇自然闭合，眼神克制而有故事感。人物身材丰满但自然，胸、腰、胯比例协调，腰腹保留真实厚度，臀腿具有自然脂肪和肌肉支撑，不过度夸张沙漏曲线。双腿在水中自然弯曲跪坐，膝盖、脚踝和小腿受力清晰，身体姿态稳定，不扭曲。右手在腰部以上的位置轻扶红柱，手掌以侧面贴合柱体，手腕与前臂保持自然直线，手指轻微错落分开，五根手指数量正确，食指和中指稍长，无名指和小指略微弯曲，拇指自然贴在柱体侧面，手掌大小与人物比例协调。左手自然隐藏在身体后方，不出现额外手臂。人物拥有柔和精致的东亚五官，鹅蛋脸，略微清冷的妆容。黑色长发完全湿润，发丝成束贴在额头、脸颊、颈部和后背，湿刘海自然凌乱，发梢带少量水珠。冷白自然肤色，保留细小毛孔、轻微肤色不均、鼻翼淡红、眼下纹理、自然唇纹和少量皮肤反光，避免磨皮和塑料感。灰棕色眼妆，细长自然眼线，低饱和豆沙红湿润唇妆，佩戴细长银色流苏耳坠。身穿浅米白色、淡裸粉色的复古蕾丝长裙，完整的同色不透内衬，层叠荷叶边领口、宽松泡袖和精细刺绣。衣服被水浸湿后自然变重，面料贴合但不过分勾勒身体，腰胯和腿部覆盖完整。水线以下布料颜色略深，褶皱被水流向下拖拽，具有真实湿布重量和吸水质感。人物后脑与肩背位置装饰两至三簇奶油白色绣球花，花饰位于湿发后方，不遮挡手臂、手腕和肘部。花瓣大小不一、边缘自然，部分受潮后轻微塌陷，带奶油色差和细小阴影，避免爆米花质感。巨大的朱红色圆柱占据画面右侧约三分之一，柱体表面潮湿，保留真实刷漆纹理、水珠、刮痕和不均匀反光。背景为深黑色水面和若隐若现的第二根红柱，左侧水面出现银白色不规则波纹与零碎闪光，远处环境消失在黑暗中。整体形成黑、红、米白三色对比。使用夜间机顶闪光灯直闪摄影，闪光从镜头前方略偏左照射，人物面部、湿发、手部、蕾丝纹理和红柱水珠形成清晰高光，背景明显压暗。红柱的暖红反射轻微映在人物发丝和肩膀边缘，冷青色水面反光落在下颌、前臂和裙摆暗部。高光不过曝，暗部保留湿发、水纹和服装细节。真实专业相机拍摄，50mm 标准镜头，平视略低机位，中远景，焦点锁定双眼，f/2.8，1/125s，ISO 800，轻微高感颗粒，自然暗角，少量色散，有限动态范围，真实夜间直闪，时尚杂志编辑摄影，潮湿、静谧、神秘、电影感，photorealistic, cinematic fashion editorial, direct flash photography, realistic anatomy, natural fuller figure, wet fabric physics, natural skin texture, realistic water reflections.\n\n负面提示词：多手，多臂，多手指，缺少手指，六根手指，手指等长，手指粘连，手掌过大，手腕折断，悬浮手掌，前臂消失，肘部缺失，手臂从花朵中长出，花朵与手指融合，身体扭曲，肩膀脱臼，骨盆错位，腰部断裂，跪姿受力错误，多腿，少腿，膝盖变形，脚踝错位，夸张胸臀，极细腰，塑料皮肤，蜡像脸，过度磨皮，左右眼不一致，假发质感，衣服透明走光，无内衬，过度暴露，裙子悬浮，干燥薄纱漂浮在水面，错误水线，水纹重复，花朵像爆米花，过度HDR，过度锐化，动漫感，3D渲染感，AI生成痕迹，文字，水印，logo。",
+      "image": "https://pbs.twimg.com/media/HOZAxEObQAAtKnj.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOZAxEObQAAtKnj.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZAxEObQAAtKnj.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/uknowiyourtime1/status/2082423303181123682",
+      "url": "https://x.com/uknowiyourtime1/status/2082423303181123682",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082482452270834129",
+      "title": "孔雀墨绿单色比基尼时尚大片",
+      "category": "fashion",
+      "tags": [
+        "bikini",
+        "monochrome",
+        "fashion",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "绝美 23 岁东亚美女，丰腴匀称沙漏型身材，腰臀比例优雅，曲线自然柔美，气质时尚、自信、温柔，性感但含蓄端庄。单色背景系带比基尼风格，孔雀墨绿色细带比基尼，利落三角杯搭配低腰双侧系带下装，腰侧细绳自然打结，微纹理缎感面料浓郁高级，带少量墨绿色金属珠饰点缀。\n\n清冷柔亮妆容，浅橄榄棕与香槟米色眼妆，玫瑰奶茶色唇妆，黑茶色高束马尾，银绿色宝石耳钉与极细脚链。\n\n她正面坐在墨绿色雕塑感高脚凳前缘，右手自然放在大腿侧面，左手完整扶住凳面边缘，双腿稳定向前落地，轻轻抬脸直视镜头。背景有深墨绿色弧形墙面、同色雕塑高脚凳、低矮半圆体块与哑光树脂地面，单色空间冷静利落。\n\n105mm人像摄影，大腿以上构图，左侧窄幅柔光划过脸颊、锁骨与腰线，背后低强度轮廓光分离人物与背景，浅景深与细腻散景，真实皮肤纹理，精致泳装材质，冷调高级时尚大片，电影感写实摄影，8K。",
+      "image": "https://pbs.twimg.com/media/HOZ2vswXMAA2goM.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOZ2vswXMAA2goM.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZ2vswXMAA2goM.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082482452270834129",
+      "url": "https://x.com/sdjn_wgc/status/2082482452270834129",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082588260862193666",
+      "title": "敞篷车后备箱取浴巾海边人像",
+      "category": "lifestyle",
+      "tags": [
+        "convertible",
+        "bikini",
+        "beach",
+        "lifestyle",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "绝美23岁东亚美女，丰腴匀称沙漏型身材，腰臀比例优雅，气质时尚、自信、温柔，性感但含蓄端庄。敞篷车比基尼风格，柔雾樱粉色细带比基尼，胸前细褶三角杯与低腰蝴蝶结侧绑设计温柔精致，面料柔滑细腻，轻熟迷人。\n\n温润通透妆容，蜜桃棕与浅粉米色眼妆，杏桃豆沙色唇妆，栗棕色低马尾，花瓣耳饰与细链手环。\n\n她站在敞篷车尾部正面微俯身，双手从打开的后备箱里拿出一条折叠好的条纹浴巾，抬眼朝镜头露出柔和神情。背景有码头停车位、停泊游艇、木质栈桥、草编包与冰镇饮料箱，氛围轻松自然又带夏日海边生活感。\n\n50mm人像摄影，环境叙事构图，大光圈浅景深，奶油散景，真实皮肤质感，清亮午后自然光，高级生活方式写真，电影感，ultra realistic, masterpiece, best quality。",
+      "image": "https://pbs.twimg.com/media/HObW-xDXoAECBk7.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HObW-xDXoAECBk7.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObW-xDXoAECBk7.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082588260862193666",
+      "url": "https://x.com/sdjn_wgc/status/2082588260862193666",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082587861061411026",
+      "title": "敞篷车驾驶位系安全带人像",
+      "category": "fashion",
+      "tags": [
+        "convertible",
+        "driving",
+        "bikini",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "绝美23岁东亚美女，丰腴匀称沙漏型身材，腰臀比例优雅，气质时尚、自信、温柔，性感但含蓄端庄。敞篷车比基尼风格，海盐雾蓝色细带比基尼，低领包裹式杯型与低腰细绳侧结设计清爽利落，面料柔润贴身，清新轻熟。\n\n明净通透妆容，灰粉棕与银米色眼妆，水润玫瑰裸粉色唇妆，乌黑低盘发，银色耳圈与极细手链。\n\n她正面坐在敞篷车驾驶位上，一手扶住方向盘，另一手把安全带轻轻拉过腰侧，微侧身抬脸看向镜头露出清晰五官。背景有整齐延伸的棕榈树大道、明亮车流虚化、白色中控台与阳光照亮的挡风玻璃边缘，画面时尚清爽又很有都市度假感。\n\n85mm人像摄影，中近景构图，大光圈浅景深，真实皮肤质感，柔亮日光与车内反光交织，高级时尚写真，电影感，ultra realistic, masterpiece, best quality。",
+      "image": "https://pbs.twimg.com/media/HObWnfIWUAAiPXK.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HObWnfIWUAAiPXK.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObWnfIWUAAiPXK.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082587861061411026",
+      "url": "https://x.com/sdjn_wgc/status/2082587861061411026",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082587448018940204",
+      "title": "白色敞篷车旁墨镜夏日写真",
+      "category": "lifestyle",
+      "tags": [
+        "convertible",
+        "bikini",
+        "summer",
+        "coastal",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "绝美23岁东亚美女，丰腴匀称沙漏型身材，腰臀比例优雅，气质时尚、自信、温柔，性感但含蓄端庄。敞篷车比基尼风格，香槟珍珠白色细带比基尼，简洁三角杯与低腰双侧系带设计轻盈精致，面料柔亮微光，清雅轻奢。\n\n清透柔亮妆容，浅金棕与香槟米色眼妆，柔雾玫瑰豆沙色唇妆，深栗色高束马尾，珍珠耳钉与纤细脚链。\n\n她站在打开车门的白色敞篷车旁，正面微侧身一手扶住车门上缘，另一手把墨镜轻轻抬到发顶，脸自然转向镜头露出清晰笑意。背景有海岸公路护栏、湛蓝海面、低矮灌木与明亮夏日天光，氛围轻松明快又充满出发前的期待感。\n\n50mm人像摄影，环境人像构图，大光圈浅景深，奶油散景，真实皮肤质感，通透自然光，高级夏日写真，电影感，ultra realistic, masterpiece, best quality。",
+      "image": "https://pbs.twimg.com/media/HObWPdSWQAAHT-4.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HObWPdSWQAAHT-4.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObWPdSWQAAHT-4.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "GPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082587448018940204",
+      "url": "https://x.com/sdjn_wgc/status/2082587448018940204",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082469223385944070",
+      "title": "双人背后视角针织裙时尚摄影",
+      "category": "fashion",
+      "tags": [
+        "dual-subject",
+        "rear-view",
+        "fashion",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "两名年轻成年东亚女性，长直黑发，严格从背后视角拍摄，并排跪在室内瓷砖地板上。两人均穿着修身长袖包臀针织连衣裙，服装自然贴合身体线条。左侧为深棕色罗纹连衣裙，右侧为浅米色连衣裙，斜挎浅粉色菱格链条包。两人拥有比例鲜明的沙漏型身材，纤细腰线，圆润饱满的臀部轮廓，整体造型具有强烈的时尚摄影感。室内柔和自然光，背景镜面墙，照片级真实，皮肤质感与布料纹理高度细节，8K，超高细节，锐利对焦，真实摄影。左下艺术签名“DeepBlue”",
+      "image": "https://pbs.twimg.com/media/HOZqtrnbkAA-PkD.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOZqtrnbkAA-PkD.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZqtrnbkAA-PkD.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/DeepBlueAIX/status/2082469223385944070",
+      "url": "https://x.com/DeepBlueAIX/status/2082469223385944070",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2080612244703035408",
+      "title": "iPhone前置居家自拍生活照",
+      "category": "lifestyle",
+      "tags": [
+        "selfie",
+        "iphone",
+        "candid",
+        "indoor",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "9:16竖版，超写实iPhone前置摄像头自拍，真实手机原片质感，像伴侣在家里随手记录的一瞬间。\n\n25岁年轻东亚成年女性，长黑发自然披散，略微凌乱，成熟优雅气质，自然丰满身材，比例协调，身体线条符合真实人体结构。眼神放松温柔，带一点慵懒和自信，不刻意微笑。\n\n坐在夏日客厅沙发或窗边，刚刚休息时拿起手机自拍，身体自然后靠，一只手伸向镜头，轻微手臂入镜，手机距离较近，24mm前置广角轻微变形，脸部略靠近镜头，构图随意，不对称，不像摆拍。\n\n穿冰蓝色或薄荷绿色轻薄居家服，柔软面料，自然褶皱，真实穿着痕迹。\n\n室内桌面有半杯柠檬茶，可口可乐，杯壁水珠，旁边随意放着切开的冰西瓜，窗边有盛夏阳光和生活杂物，营造真实居家午后氛围。\n\niPhone照片原片，自动曝光，真实白平衡，轻微HDR，高光自然溢出，阴影保留细节，真实皮肤纹理，轻微手机噪点，普通家庭环境，像朋友手机里的一张生活照片，没有影棚感，没有商业写真感，没有AI生成痕迹。\n\n画面左下角保留低调艺术签名“DeepBlue”。",
+      "image": "https://pbs.twimg.com/media/HN_RzbiaYAAokMc.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HN_RzbiaYAAokMc.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HN_RzbiaYAAokMc.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/DeepBlueAIX/status/2080612244703035408",
+      "url": "https://x.com/DeepBlueAIX/status/2080612244703035408",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785382179358,
+      "collectedAt": "2026-07-30T03:29:39.358Z",
+      "githubSyncedAt": "2026-07-30T03:29:39.358Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
