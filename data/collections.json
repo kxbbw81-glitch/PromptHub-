@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:09:24.485Z",
+  "updatedAt": "2026-07-30T09:18:17.973Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7awlrm_conu",
+      "image": "https://pbs.twimg.com/media/HMov8MEa4AAQUvs?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMov8MEa4AAQUvs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMov9hAbEAAYTkd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMov_kSbEAAvL05?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMowA8CaQAAXzsN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhL49b0AAHr3Q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhJKHbQAAdoz7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhJ1qakAA-eFn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhLdAbQAAxWD6?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "主题是「取快递的瑜伽裤」\n提示词是：晚上七点，中国美丽年轻女性，居家慵懒状态，蹲在小区单元楼门口的快递堆中翻找包裹，头发随意扎起，精致韩系妆容，穿紧身瑜伽裤，脚踩拖鞋在水泥地面磨蹭，左手持手机查看取件码，右手翻找纸箱，昏暗楼道灯光，小区楼道实景，低机位平视构图，手机随手抓拍质感，轻微动态模糊，日常纪实风格，暖黄冷调混合光影，生活感故事感，复古CCD滤镜。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMov8MEa4AAQUvs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMov9hAbEAAYTkd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMov_kSbEAAvL05?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMowA8CaQAAXzsN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhL49b0AAHr3Q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhJKHbQAAdoz7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhJ1qakAA-eFn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMnhLdAbQAAxWD6?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AirdropAlchemis/status/2074523544160178687",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785403096114,
+      "title": "叔的新职业是提示词工程师",
+      "url": "https://x.com/AirdropAlchemis/status/2074523544160178687",
+      "collectedAt": "2026-07-30T09:18:17.973Z",
+      "githubSyncedAt": "2026-07-30T09:18:17.973Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082697614001160608",
       "title": "Italian summer lakeside portrait prompt",
