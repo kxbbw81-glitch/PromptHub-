@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:02:49.096Z",
+  "updatedAt": "2026-07-30T11:03:00.759Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7en9z3_dxyw",
+      "image": "https://pbs.twimg.com/media/HMAITLKb0AAdlIe?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMAITLKb0AAdlIe?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "前版本的變體\n\n一名23歲日本女性，只穿著寬鬆的薄款粗針織毛衣，毛衣滑落單側肩膀。靠著清晨的窗邊，陽光從背後灑落，逆光穿透針織縫隙形成柔和的光暈，優美的身形輪廓展露無遺。她用一手整理散亂的長髮，神情放鬆。色調自然柔和，畫面唯美且不暴露敏感部位。 --ar 3:4\n\n#chatgpt\n#grok\n#flownb2\n#meta",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMAITLKb0AAdlIe?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/SOPHIA_AIART/status/2071664957952004530",
+      "tags": [
+        "清晨"
+      ],
+      "timestamp": 1785409379391,
+      "title": "前版本的變體",
+      "url": "https://x.com/SOPHIA_AIART/status/2071664957952004530",
+      "collectedAt": "2026-07-30T11:03:00.759Z",
+      "githubSyncedAt": "2026-07-30T11:03:00.759Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
