@@ -32,16 +32,28 @@ $promptPath = Join-Path $outputDirectory 'grok-x-discovery-prompt.txt'
 Set-Content -Encoding UTF8 $promptPath $prompt
 
 # No browser automation, cookies, X API calls, Git writes, or extension changes occur here.
-& grok --prompt-file $promptPath --output-format json --max-turns $config.maxTurns | Set-Content -Encoding UTF8 $OutputPath
-if ($LASTEXITCODE -ne 0) {
-  throw "Grok CLI exited with code $LASTEXITCODE."
+$validated = $false
+for ($attempt = 1; $attempt -le 2; $attempt += 1) {
+  & grok --prompt-file $promptPath --output-format json --max-turns $config.maxTurns --no-memory --no-plan --no-subagents --verbatim | Set-Content -Encoding UTF8 $OutputPath
+  if ($LASTEXITCODE -ne 0) {
+    if ($attempt -eq 2) { throw "Grok CLI exited with code $LASTEXITCODE." }
+    continue
+  }
+  if (-not (Test-Path $OutputPath)) {
+    if ($attempt -eq 2) { throw 'Grok CLI did not create a candidate output file.' }
+    continue
+  }
+  & node $importScript --config $configPath --input $OutputPath
+  if ($LASTEXITCODE -eq 0) {
+    $validated = $true
+    break
+  }
+  if ($attempt -lt 2) {
+    Write-Warning 'Grok returned no usable candidate JSON. Retrying once.'
+  }
 }
-if (-not (Test-Path $OutputPath)) {
-  throw 'Grok CLI did not create a candidate output file.'
-}
-& node $importScript --config $configPath --input $OutputPath
-if ($LASTEXITCODE -ne 0) {
-  throw "Candidate validation exited with code $LASTEXITCODE."
+if (-not $validated) {
+  throw 'Grok did not return a valid candidate JSON handoff after two attempts.'
 }
 
 Write-Output "CANDIDATE_FILE=$OutputPath"

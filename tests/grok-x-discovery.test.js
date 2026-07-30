@@ -153,6 +153,8 @@ test('the Grok runner is limited to public candidate discovery, not browser or G
   const runner = fs.readFileSync(path.join(__dirname, '../scripts/run-grok-x-discovery.ps1'), 'utf8');
   assert.match(runner, /grok --prompt-file \$promptPath/);
   assert.match(runner, /No browser automation, cookies, X API calls, Git writes/);
+  assert.match(runner, /--no-memory --no-plan --no-subagents --verbatim/);
+  assert.match(runner, /for \(\$attempt = 1; \$attempt -le 2/);
   assert.match(runner, /Join-Path \$projectPath 'staging\\grok-x-cli-output\.json'/);
   assert.match(runner, /Grok CLI exited with code/);
   assert.doesNotMatch(runner, /bookmarks|git push|api\.x\.com/i);
