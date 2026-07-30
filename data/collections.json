@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:00:10.371Z",
+  "updatedAt": "2026-07-30T11:00:23.264Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7ejwf8_p0dv",
+      "image": "https://pbs.twimg.com/media/HMBpBlQboAAVCqK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMBpBlQboAAVCqK?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Your phone background, handled.\n\nphotorealistic high-angle selfie portrait of a beautiful young East Asian Japanese woman in her early twenties sitting on a bed beside a floor-to-ceiling high-rise apartment window with a bright city skyline of tall buildings behind her in soft morning daylight. She has long dark brown hair and is tying it up into a high ponytail, both arms raised and bent behind her head, holding a thin black elastic hair tie between her lips in her mouth. She has a slim hourglass figure, fair smooth skin, delicate natural makeup with soft brown eyes looking directly at the camera, lips slightly parted around the hair tie. She wears a fitted brown ribbed knit spaghetti-strap camisole tank top that hugs her torso. White rumpled bedsheets, a cream fleece blanket and a white pillow around her. Realistic skin texture, sharp focus, high detail, natural window light, candid intimate bedroom selfie, professional photography, young east asian japanese woman, photorealistic.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMBpBlQboAAVCqK?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Kunda623270/status/2071771313379959157",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785409221860,
+      "title": "Your phone background, handled.",
+      "url": "https://x.com/Kunda623270/status/2071771313379959157",
+      "collectedAt": "2026-07-30T11:00:23.264Z",
+      "githubSyncedAt": "2026-07-30T11:00:23.264Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7ejwf8_28nc",
+      "image": "https://pbs.twimg.com/media/HMC-v3mXcAAE5iv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMC-v3mXcAAE5iv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMC-w4TXoAA8E6D?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMC-x4uWcAA3B0N?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMC-y28W0AA1wTl?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT IMAGE 2 ON CHATGPT \n\nPrompt:\n\nA beautiful Japanese woman with blunt bangs and a neat updo leans slightly toward the camera indoors against a warm beige wall, captured in a tight half-body framing. She wears a tasteful fitted red spaghetti-strap mini dress with a higher, well-fitted neckline, subtle side ruching, and smooth tailored fabric that sits naturally on the body without revealing cleavage. \n\nPair it with sheer black tights and a delicate gold necklace. Her makeup features refined cat-eye eyeliner and a soft natural lip color. Warm, soft indoor lighting with clean shadows, realistic skin texture, elegant fashion photography, classy, sophisticated, high-end editorial style.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMC-v3mXcAAE5iv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMC-w4TXoAA8E6D?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMC-x4uWcAA3B0N?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMC-y28W0AA1wTl?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2071865999947686115",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785409221860,
+      "title": "GPT IMAGE 2 ON CHATGPT",
+      "url": "https://x.com/MissDelulu9/status/2071865999947686115",
+      "collectedAt": "2026-07-30T11:00:23.264Z",
+      "githubSyncedAt": "2026-07-30T11:00:23.264Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
