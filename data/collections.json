@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:26:37.368Z",
+  "updatedAt": "2026-07-30T06:27:11.549Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms74skhn_pjib",
+      "image": "https://pbs.twimg.com/media/HOYOoERasAAEWqv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOYOoERasAAEWqv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYOoEMbIAAgGfm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYOoEKb0AAmczc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYOoEub0AATO3u?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A young East Asian woman with long straight black hair, soft bangs, and sunglasses perched on her head, smiling gently at the camera. She is posing outdoors next to a black directional signpost in a lush green park. She wears a fitted brown off-shoulder short-sleeve top with ruched sides and an asymmetrical hem, a black mini skirt with a slight flare, white chunky sneakers, and light beige ankle socks. In her right hand she holds a small black checkered hobo bag. Her left hand rests on top of the signpost, one leg slightly lifted in a casual pose. The signpost has multiple arrow signs: “BUGGY STATION”, “TIGER”, “EXIT”, “MOUSE”, “CROCODILE”, “TOILET”, with Burmese script underneath some of them. Dense green bushes and trees fill the background under bright natural daylight. Realistic photography style, soft natural lighting, sharp details, full body shot.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYOoERasAAEWqv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYOoEMbIAAgGfm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYOoEKb0AAmczc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYOoEub0AATO3u?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082496376223457592",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785392830139,
+      "title": "[Midjourney Prompt]",
+      "url": "https://x.com/woleswoosh/status/2082496376223457592",
+      "collectedAt": "2026-07-30T06:27:11.549Z",
+      "githubSyncedAt": "2026-07-30T06:27:11.549Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
