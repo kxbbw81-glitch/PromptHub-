@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T08:03:37.260Z",
+  "updatedAt": "2026-07-30T08:05:59.150Z",
   "collections": [
     {
       "id": "grok_x_2082716067978481818",
@@ -4391,7 +4391,7 @@
     {
       "id": "codex_x_2082113920102224099",
       "title": "高端产品竖版广告",
-      "category": "静物",
+      "category": "电商视觉",
       "tags": [
         "产品广告",
         "商业视觉",
@@ -4419,7 +4419,8 @@
       "timestamp": 1785294042038,
       "collectedAt": "2026-07-29T03:00:42.037Z",
       "githubSyncedAt": "2026-07-29T03:00:42.037Z",
-      "domesticSyncedAt": "2026-07-29T04:24:35.980Z"
+      "domesticSyncedAt": "2026-07-29T04:24:35.980Z",
+      "commerceType": "广告海报"
     },
     {
       "id": "codex_x_2082054096715137434",

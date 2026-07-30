@@ -4,7 +4,7 @@ const COMMERCE_CATEGORY = '电商视觉';
 const COMMERCE_TYPES = [
   ['产品主图', ['product hero', 'product shot', 'packshot', 'white background', '产品主图', '白底图', '商品主图']],
   ['场景种草', ['lifestyle product', 'product in use', '场景种草', '使用场景', '生活方式产品']],
-  ['广告海报', ['product ad', 'advertising poster', '广告海报', '商品广告', '营销海报']],
+  ['广告海报', ['product ad', 'advertising poster', 'premium campaign', 'vertical ad', '广告海报', '商品广告', '产品广告', '产品竖版广告', '商业视觉', '营销海报']],
   ['商品详情页', ['product detail page', 'product feature', '详情页', '商品卖点', '功能展示']],
   ['模特展示', ['model wearing', 'product try-on', '模特展示', '试穿', '商品展示模特']],
   ['UGC / 口碑', ['ugc', 'unboxing', 'product review', 'testimonial', '开箱', '测评', '口碑']],
@@ -61,7 +61,9 @@ function classifyCollection(item = {}) {
 }
 
 function shouldReclassify(item = {}) {
+  const isAutomated = item.source === 'Grok X 公开搜索' || String(item.source || '').includes('自动收集');
   return item.mediaType === 'video'
+    || (isAutomated && Boolean(classifyCommerceType(item)))
     || item.source === 'Grok X 公开搜索'
     || !CATEGORY_RULES.some(([category]) => category === item.category);
 }

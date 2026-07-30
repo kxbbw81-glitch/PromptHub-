@@ -45,6 +45,20 @@ test('classifies persona templates and selfies without falling back to abstract'
   }), '人像');
 });
 
+test('moves automated product ads into the e-commerce advertising subtype', () => {
+  const result = reclassifyCollections({ collections: [{
+    source: 'Codex 自动收集 · X 书签',
+    title: '高端产品竖版广告',
+    category: '静物',
+    tags: ['产品广告', '商业视觉'],
+    prompt: 'Create one premium campaign vertical ad with the product as the main hero.'
+  }] });
+
+  assert.equal(result.changed, 1);
+  assert.equal(result.payload.collections[0].category, '电商视觉');
+  assert.equal(result.payload.collections[0].commerceType, '广告海报');
+});
+
 test('reclassifies Grok imports without overwriting user-managed categories', () => {
   const result = reclassifyCollections({ collections: [
     { source: 'Grok X 公开搜索', category: 'portrait', mediaType: 'image', prompt: 'A fashion editorial runway lookbook.' },
