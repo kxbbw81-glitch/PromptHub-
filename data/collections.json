@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:08:13.085Z",
+  "updatedAt": "2026-07-30T06:08:24.484Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms744f6c_jcsw",
+      "image": "https://pbs.twimg.com/media/HOYSDugboAAwTdu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOYSDugboAAwTdu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYSDunbgAASXDH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYSDuiakAAkQr3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYSDumaEAE_m7h?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A beautiful young woman cosplaying as Yor Forger from Spy x Family, kneeling on a soft white fluffy rug, long straight black hair with bangs, white headband, striking red eyes, glossy red lips slightly parted in a playful tipsy expression. She wears a tight long-sleeve red mini dress with ruched sides that hugs her figure, black sheer pantyhose. Holding a green glass wine bottle close to her face with both hands, one hand gently gesturing near the bottle. Elegant indoor setting with white walls, ornate gold empty picture frames leaning against the wall, white fireplace mantel with lit white candles, soft pastel flower arrangements (pink, blue, white roses and hydrangeas), white cherry blossom branches. Soft warm lighting, romantic and slightly dreamy atmosphere, highly detailed, realistic photography style, 8k",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYSDugboAAwTdu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYSDunbgAASXDH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYSDuiakAAkQr3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOYSDumaEAE_m7h?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082617171814092883",
+      "tags": [
+        "dreamy",
+        "8k"
+      ],
+      "timestamp": 1785391703509,
+      "title": "[Kontext Prompt]",
+      "url": "https://x.com/woleswoosh/status/2082617171814092883",
+      "collectedAt": "2026-07-30T06:08:24.484Z",
+      "githubSyncedAt": "2026-07-30T06:08:24.484Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
