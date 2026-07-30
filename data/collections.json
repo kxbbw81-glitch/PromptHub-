@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T05:55:53.170Z",
+  "updatedAt": "2026-07-30T06:08:13.085Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7445ci_4d9b",
+      "image": "https://pbs.twimg.com/media/HOcdJXnaYAA1HrN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcdJXnaYAA1HrN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcdKIGbgAAwHus?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a portrait without changing my facial features. A close-up portrait of me, with only one eye visible, peeking through long, voluminous wavy hair falling across the face. The eyelashes catch a warm golden glow from the sunlight. Flawless makeup, dusty rose lips, and naturally tanned, smooth skin.\nThe rest of the face is softly blurred and cropped out of the frame. A vintage film aesthetic, a slight tilt, and warm golden light leaks create a nostalgic atmosphere. The skin appears smooth and refined.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcdJXnaYAA1HrN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcdKIGbgAAwHus?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2082665434101448880",
+      "tags": [
+        "vintage"
+      ],
+      "timestamp": 1785391690771,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/MissDelulu9/status/2082665434101448880",
+      "collectedAt": "2026-07-30T06:08:13.084Z",
+      "githubSyncedAt": "2026-07-30T06:08:13.084Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082705809226813643",
       "title": "Realistic woman with doodle-shadow selfie",
