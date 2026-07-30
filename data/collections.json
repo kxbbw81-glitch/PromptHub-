@@ -1,7 +1,79 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:44:58.916Z",
+  "updatedAt": "2026-07-30T13:47:05.920Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7kiak3_b81o",
+      "image": "https://pbs.twimg.com/media/HNldVZ8WoAEdG_l?format=png&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNldVZ8WoAEdG_l?format=png&name=small",
+        "https://pbs.twimg.com/media/HNldVaGWUAA1IKH?format=png&name=small",
+        "https://pbs.twimg.com/media/HNldVZ8WUAA5jXV?format=png&name=small",
+        "https://pbs.twimg.com/media/HNldVaEWQAAE6Ml?format=png&name=small"
+      ],
+      "model": "",
+      "prompt": "电影感写实时尚人像，雅典卫城，宽屏16:9。时髦年轻成年女性，略偏右，大腿中部至头顶取景。放松的四分之三姿态——躯干轻柔向左倾斜，脸部向上略微朝镜头右侧倾斜。眼睛近乎闭合——恬静、日晒感、沉思的氛围。嘴唇微微张开，平静且充满自信的表情。\n人物：短款蓬松齐颌深棕色波浪发，松散轻盈，额头与面颊周围有微风自然掀起的碎发丝。温暖柔和发光的气色。低调优雅妆容：自然肌肤质感，柔和眉形，低调玫红唇色，精致眼线，轻柔暖色调眼周阴影。珠宝：小型雕塑感金色垂坠耳环，极细金色项链配微小吊坠，第二条精致链条悬挂其正上方。\n服装：轻盈象牙白亚麻扣扣式衬衫——柔软略带皱褶质感，宽松透气，袖子随意卷至肘部以下。上方纽扣敞开营造放松V形领口。衬衫下摆在右侧髋部系成柔和绳结，面料自然聚拢垂坠。高腰阔腿奶油色长裤——细腻前褶，结构感腰头，腰带环，同色调腰带配低调金属扣环。一手随意插入裤袋，另一臂自然垂于身侧。整套服装保持优雅单色调：暖白、象牙、燕麦色与浅米色。\n场景：帕特农神庙占据左侧与中央大部分背景——风化浅色石柱、柱顶结构与部分残损山形墙，略微虚焦但辨识度清晰。漂白大理石块、不平整考古石面、断裂石柱与散落废墟向背景延伸。远处一两个极小、模糊的参观者仅作为比例参考。\n光线：明亮自然地中海日光，晚上午或午后早些时候，阳光来自左上方/左前方。颧骨、鼻梁、发丝、衬衫褶皱与肩膀上有发光高光；下颌与面料褶皱中有柔和暖色阴影。略带薄雾的浅蓝灰色天空，干燥日晒氛围。石材背景呈低调白垩白、浅沙色、风化米色与冷灰色。肌肤与金色珠宝提供克制暖意。\n相机与调色：全画幅85mm人像镜头，f/2–f/2.8，浅景深，顺滑奶油感焦外，轻柔背景压缩，面部/发丝/珠宝/上半部分服装锐利对焦。真实肌肤毛孔，单根发丝，自然亚麻纤维，真实服装褶皱，准确手部，正宗古代石材质感。柔和胶片色调：暖色高光，略冷中性阴影，低至中等饱和度，轻微细腻颗粒，克制对比，通透高调质感。优雅、安静、感性而不挑逗，视觉平衡——左侧天空与建筑延展，人物锚定右中位置。\n负面限制：无强人工打光、无重度修图、无塑料感肌肤、无过饱和橙色调、无现代标识、无人群、无分散注意力的配饰、无文字、无水印、无变形石柱、无变形手部、无重复肢体、无人物过度虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNldVZ8WoAEdG_l?format=png&name=small",
+        "https://pbs.twimg.com/media/HNldVaGWUAA1IKH?format=png&name=small",
+        "https://pbs.twimg.com/media/HNldVZ8WUAA5jXV?format=png&name=small",
+        "https://pbs.twimg.com/media/HNldVaEWQAAE6Ml?format=png&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2078812097614340149",
+      "tags": [
+        "人像",
+        "电影感"
+      ],
+      "timestamp": 1785419224563,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2078812097614340149",
+      "collectedAt": "2026-07-30T13:47:05.920Z",
+      "githubSyncedAt": "2026-07-30T13:47:05.920Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7kiak2_43a3",
+      "image": "https://pbs.twimg.com/media/HNl4JfzX0AAb9Zh?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNl4JfzX0AAb9Zh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNl4JfzXkAAhDhv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNl4Jf3XQAAWGbe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNl4Jf3W4AMFF4J?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实全身棚拍时尚人像。优雅年轻成年东亚女性，极简摄影棚，从头顶至地面，四分之三背面视角。略偏右——左侧与头顶上方有宽裕顺滑的负空间。身体斜向背对镜头朝向右侧；头部从左肩回望，直视镜头。端庄、平静、低调自信的表情——嘴唇放松，柔和写真凝视。\n人物：纤细优雅身形，温暖浅至中等色调肌肤，精致五官，杏仁形深棕眼睛，柔和眉形，小巧精致鼻梁，自然玫红色唇色。精致低调妆容：发光肌肤，淡腮红，轻柔颧骨塑形，细眼线，中性眼影，柔和唇色。真实肌肤质感，细腻毛孔，自然肩胛骨，脊背轮廓，背部轻柔高光。\n发型：深棕黑色头发盘成宽松略显凌乱的低发髻。太阳穴、面颊、颈部与发顶周围有碎发丝。几缕细腻飞散发丝捕捉强逆光——在头顶与右侧形成精致发光轮廓光晕。优雅但刻意不刻板，非完美整齐发型。\n礼服：落地高定晚礼服——超低背部大露背设计，极细意大利面肩带，整个后背近至腰部下方几乎全部裸露。面料在上侧髋部与下背部聚拢成柔和垂坠的圆领形态。礼服贴合腰部与髋部后落成长而窄的流动柱形至地面。裙摆在脚部周围柔和堆积，小型裙尾向左下与右下角延伸。\n大理石印花：精致天然大理石图案——流动有机旋涡。色调：象牙白、温暖米色、沙色、焦糖色、棕灰色、烟熏灰、炭灰、低调棕色与偶有近黑色纹理。类似抛光洞石、玛瑙或流动石材，有沿身体自然包裹的长向性纹路条纹。上侧髋部与腰腹为较浅奶油色与棕褐色云石纹；下裙处有较深棕色与炭灰色流向；裙边附近有戏剧性深色石材感纹理。面料顺滑、轻盈、略微光泽，带有真实张力、垂感、褶皱与镜面高光。\n手臂与配饰：左臂轻柔横过上半身前方——左手搭于右肩，手指放松优雅，自然浅裸色指甲，人体解剖学准确的关节。右臂略弯垂于身侧，手放松靠近外侧大腿。右腕上有极细低调金色手链。无厚重珠宝、项链、耳环或分散注意力的配饰。\n背景：无缝温暖灰色棚拍幕墙——从顶部中等暖灰色到地板附近较亮米白色的顺滑渐变。地板与墙面无缝融合，无可见地平线。无设备、无道具、无杂乱元素。\n光线：来自模特背后略偏右的明亮漫射光源——发丝、右肩、手臂、腰部与礼服右侧边缘有发光光晕。来自左上方的大型柔和正面补光，在保留立体阴影的情况下呈现面部与礼服细节。清晰轮廓光，柔和面部塑形，肌肤暖色光晕，肩胛骨轻柔高光，顺滑阴影过渡。长条柔和边缘灰色阴影斜向投射至左下角。\n相机：腰至胸部高度，全画幅85mm，中等景深——女性与整件礼服锐利清晰，背景完全顺滑。自然讨好的视角，最小畸变。准确比例，真实手部，精细面料渲染，单根发丝，精细大理石纹理。豪华高定大片，优雅克制，精致中性色调，高动态范围，轻微胶片柔化。\n负面：无文字、无Logo、无水印、无家具、无道具、无背景物品、无多余人物、无过度珠宝、无变形人体、无多余手指、无重复肢体、无塑料感肌肤、无裁掉头部、无裁掉裙摆。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNl4JfzX0AAb9Zh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNl4JfzXkAAhDhv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNl4Jf3XQAAWGbe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNl4Jf3W4AMFF4J?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2079023487814193504",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785419224562,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2079023487814193504",
+      "collectedAt": "2026-07-30T13:47:05.920Z",
+      "githubSyncedAt": "2026-07-30T13:47:05.920Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
