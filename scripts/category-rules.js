@@ -1,4 +1,16 @@
 const VIDEO_CATEGORY = '视频提示词';
+const COMMERCE_CATEGORY = '电商视觉';
+
+const COMMERCE_TYPES = [
+  ['产品主图', ['product hero', 'product shot', 'packshot', 'white background', '产品主图', '白底图', '商品主图']],
+  ['场景种草', ['lifestyle product', 'product in use', '场景种草', '使用场景', '生活方式产品']],
+  ['广告海报', ['product ad', 'advertising poster', '广告海报', '商品广告', '营销海报']],
+  ['商品详情页', ['product detail page', 'product feature', '详情页', '商品卖点', '功能展示']],
+  ['模特展示', ['model wearing', 'product try-on', '模特展示', '试穿', '商品展示模特']],
+  ['UGC / 口碑', ['ugc', 'unboxing', 'product review', 'testimonial', '开箱', '测评', '口碑']],
+  ['品牌视觉', ['brand campaign', 'brand visual', 'key visual', '品牌视觉', '品牌广告', '品牌活动']],
+  ['电商视频', ['ecommerce video', 'product video', 'video ad', '电商视频', '商品视频', '短视频广告']]
+];
 
 const CATEGORY_RULES = [
   ['赛博朋克', [['cyberpunk', 8], ['赛博朋克', 8], ['dystopian', 5], ['hologram', 4], ['全息', 4], ['neon', 3], ['霓虹', 3]]],
@@ -24,7 +36,16 @@ function searchableText(item) {
     .toLowerCase();
 }
 
+function classifyCommerceType(item = {}) {
+  const text = searchableText(item);
+  for (const [type, terms] of COMMERCE_TYPES) {
+    if (terms.some(term => text.includes(term))) return type;
+  }
+  return '';
+}
+
 function classifyCollection(item = {}) {
+  if (classifyCommerceType(item)) return COMMERCE_CATEGORY;
   if (item.mediaType === 'video') return VIDEO_CATEGORY;
   const text = searchableText(item);
   let best = '抽象';
@@ -50,11 +71,12 @@ function reclassifyCollections(payload) {
   const collections = (payload.collections || []).map(item => {
     if (!shouldReclassify(item)) return item;
     const category = classifyCollection(item);
-    if (category === item.category) return item;
+    const commerceType = classifyCommerceType(item);
+    if (category === item.category && commerceType === (item.commerceType || '')) return item;
     changed += 1;
-    return { ...item, category };
+    return { ...item, category, ...(commerceType ? { commerceType } : {}) };
   });
   return { payload: { ...payload, collections }, changed };
 }
 
-module.exports = { VIDEO_CATEGORY, classifyCollection, reclassifyCollections };
+module.exports = { VIDEO_CATEGORY, COMMERCE_CATEGORY, COMMERCE_TYPES, classifyCollection, classifyCommerceType, reclassifyCollections };

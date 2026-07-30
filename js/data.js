@@ -18,6 +18,7 @@ const CATEGORIES = [
   { name: "自然",      icon: "🌿", desc: "自然生态与植物花卉" },
   { name: "城市",      icon: "🌆", desc: "城市景观与街景风貌" },
   { name: "视频提示词", icon: "🎬", desc: "文生视频与动态镜头提示词" },
+  { name: "电商视觉", icon: "🛍️", desc: "商品营销与电商内容视觉" },
 ];
 
 const PROMPTS = [

@@ -8,6 +8,7 @@
   // --- State ---
   let currentRoute = 'home';
   let currentCategory = 'All';
+  let currentCommerceType = 'All';
   let currentSearch = '';
   let currentPage = 1;
   let detailReturnContext = null;
@@ -49,8 +50,31 @@
     'fashion': '时尚',
     'product': '静物',
     'cinematic': '人像',
-    'video': '视频提示词'
+    'video': '视频提示词',
+    'ecommerce': '电商视觉',
+    'e-commerce': '电商视觉',
+    '电商': '电商视觉'
   };
+
+  const COMMERCE_TYPES = [
+    { name: '产品主图', signals: ['product hero', 'product shot', 'packshot', 'white background', '产品主图', '白底图', '商品主图'] },
+    { name: '场景种草', signals: ['lifestyle product', 'product in use', '场景种草', '使用场景', '生活方式产品'] },
+    { name: '广告海报', signals: ['product ad', 'advertising poster', '广告海报', '商品广告', '营销海报'] },
+    { name: '商品详情页', signals: ['product detail page', 'product feature', '详情页', '商品卖点', '功能展示'] },
+    { name: '模特展示', signals: ['model wearing', 'product try-on', '模特展示', '试穿', '商品展示模特'] },
+    { name: 'UGC / 口碑', signals: ['ugc', 'unboxing', 'product review', 'testimonial', '开箱', '测评', '口碑'] },
+    { name: '品牌视觉', signals: ['brand campaign', 'brand visual', 'key visual', '品牌视觉', '品牌广告', '品牌活动'] },
+    { name: '电商视频', signals: ['ecommerce video', 'product video', 'video ad', '电商视频', '商品视频', '短视频广告'] }
+  ];
+
+  function detectCommerceType(item = {}) {
+    if (COMMERCE_TYPES.some(type => type.name === item.commerceType)) return item.commerceType;
+    const text = [item.title, item.prompt, ...(Array.isArray(item.tags) ? item.tags : [])]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
+    return COMMERCE_TYPES.find(type => type.signals.some(signal => text.includes(signal)))?.name || '';
+  }
 
   function normalizeCategory(cat) {
     if (!cat) return '抽象';
@@ -94,9 +118,12 @@
 
     const prompt = limitedText(item.prompt, 30000);
     const tags = normalizeTags(item.tags);
+    const commerceType = detectCommerceType({ ...item, prompt, tags });
     const requestedCategory = normalizeCategory(limitedText(item.category, 32));
     const categoryText = [item.title, ...tags, prompt].filter(Boolean).join(' ');
-    const category = item.mediaType === 'video'
+    const category = commerceType
+      ? '电商视觉'
+      : item.mediaType === 'video'
       ? '视频提示词'
       : CATEGORIES.some(option => option.name === requestedCategory)
         ? requestedCategory
@@ -112,6 +139,7 @@
       title: limitedText(item.title, 180),
       prompt,
       category,
+      commerceType,
       tags,
       image: images[0] || '',
       images,
@@ -286,6 +314,7 @@
   ];
 
   function autoCategorize(text) {
+    if (detectCommerceType({ prompt: text })) return '电商视觉';
     const lower = (text || '').toLowerCase();
     let category = '抽象';
     let maxScore = 0;
@@ -381,6 +410,7 @@
   function getExploreHash() {
     const params = new URLSearchParams();
     if (currentCategory !== 'All') params.set('category', currentCategory);
+    if (currentCommerceType !== 'All') params.set('commerceType', currentCommerceType);
     if (currentSearch.trim()) params.set('q', currentSearch.trim());
     if (currentPage > 1) params.set('page', String(currentPage));
     const query = params.toString();
@@ -392,7 +422,7 @@
     const targetHash = getExploreHash();
     if (window.location.hash === targetHash) return;
     const method = replace ? 'replaceState' : 'pushState';
-    history[method]({ route: 'explore', category: currentCategory, search: currentSearch, page: currentPage }, '', targetHash);
+    history[method]({ route: 'explore', category: currentCategory, commerceType: currentCommerceType, search: currentSearch, page: currentPage }, '', targetHash);
   }
 
   function setNavActive(route) {
@@ -405,6 +435,7 @@
     if (route === 'collections') return '返回我的收藏';
     if (route === 'home') return '返回首页精选';
     if (currentSearch.trim()) return `返回「${currentSearch.trim()}」结果`;
+    if (currentCommerceType !== 'All') return `返回${currentCommerceType}内容`;
     if (currentCategory !== 'All') return `返回${currentCategory}分类`;
     return '返回探索';
   }
@@ -417,22 +448,24 @@
     detailReturnContext = {
       route,
       category: currentCategory,
+      commerceType: currentCommerceType,
       search: currentSearch,
       page: currentPage,
       label: getBrowseContextLabel(route)
     };
   }
 
-  function showExploreWithState({ category = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
+  function showExploreWithState({ category = 'All', commerceType = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
     currentRoute = 'explore';
     currentCategory = category;
+    currentCommerceType = category === '电商视觉' ? commerceType : 'All';
     currentSearch = search;
     currentPage = page;
     window.scrollTo(0, 0);
     renderExplore();
     setNavActive('explore');
     if (window.location.hash !== hash) {
-      history.pushState({ route: 'explore', category, search, page }, '', hash);
+      history.pushState({ route: 'explore', category, commerceType, search, page }, '', hash);
     }
   }
 
@@ -1217,7 +1250,7 @@
   };
 
   window.returnToBrowse = function () {
-    const context = detailReturnContext || { route: 'explore', category: 'All', search: '', page: 1 };
+    const context = detailReturnContext || { route: 'explore', category: 'All', commerceType: 'All', search: '', page: 1 };
     detailReturnContext = null;
 
     if (context.route === 'home') {
@@ -1234,6 +1267,7 @@
 
     currentRoute = 'explore';
     currentCategory = context.category || 'All';
+    currentCommerceType = context.commerceType || 'All';
     currentSearch = context.search || '';
     currentPage = context.page || 1;
     window.scrollTo(0, 0);
@@ -1247,6 +1281,7 @@
     detailReturnContext = null;
     showExploreWithState({
       category: catName,
+      commerceType: 'All',
       search: '',
       page: 1,
       hash: `#/category/${encodeURIComponent(catName)}`
@@ -1268,6 +1303,7 @@
     const catCounts = {};
     CATEGORIES.forEach(c => { catCounts[c.name] = 0; });
     getAllPromptItems().forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
+    catCounts['视频提示词'] = getAllPromptItems().filter(p => p.mediaType === 'video' || p.category === '视频提示词').length;
 
     app.innerHTML = `
       <section class="hero hero-gallery" aria-label="PromptHub prompt gallery">
@@ -1442,6 +1478,7 @@
             </div>
           </div>
           <div class="filter-chips" id="filter-chips"></div>
+          <div class="filter-chips" id="commerce-filter-chips" style="display:none;"></div>
           <div class="active-filter-bar" id="active-filter-bar"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
           <div class="prompts-grid" id="prompts-grid"></div>
@@ -1456,15 +1493,17 @@
 
     const chipsContainer = $('#filter-chips');
     const allChip = el('button', { class: 'filter-chip' + (currentCategory === 'All' ? ' active' : '') }, '全部');
-    allChip.addEventListener('click', () => { currentCategory = 'All'; currentPage = 1; updateChips(); renderPromptsGrid(); syncExploreHash(false); });
+    allChip.addEventListener('click', () => { currentCategory = 'All'; currentCommerceType = 'All'; currentPage = 1; updateChips(); renderCommerceChips(); renderPromptsGrid(); syncExploreHash(false); });
     chipsContainer.appendChild(allChip);
 
     CATEGORIES.forEach(cat => {
       const chip = el('button', { class: 'filter-chip' + (currentCategory === cat.name ? ' active' : '') }, `${cat.icon} ${cat.name}`);
       chip.addEventListener('click', () => {
         currentCategory = cat.name;
+        if (cat.name !== '电商视觉') currentCommerceType = 'All';
         currentPage = 1;
         updateChips();
+        renderCommerceChips();
         renderPromptsGrid();
         syncExploreHash(false);
       });
@@ -1478,6 +1517,7 @@
       syncExploreHash(true);
     });
 
+    renderCommerceChips();
     renderPromptsGrid();
   }
 
@@ -1489,13 +1529,46 @@
     });
   }
 
+  function renderCommerceChips() {
+    const container = $('#commerce-filter-chips');
+    if (!container) return;
+    const visible = currentCategory === '电商视觉';
+    container.style.display = visible ? '' : 'none';
+    container.innerHTML = '';
+    if (!visible) return;
+
+    const allChip = el('button', { class: 'filter-chip' + (currentCommerceType === 'All' ? ' active' : '') }, '全部电商类型');
+    allChip.addEventListener('click', () => {
+      currentCommerceType = 'All';
+      currentPage = 1;
+      renderCommerceChips();
+      renderPromptsGrid();
+      syncExploreHash(false);
+    });
+    container.appendChild(allChip);
+
+    COMMERCE_TYPES.forEach(type => {
+      const chip = el('button', { class: 'filter-chip' + (currentCommerceType === type.name ? ' active' : '') }, type.name);
+      chip.addEventListener('click', () => {
+        currentCommerceType = type.name;
+        currentPage = 1;
+        renderCommerceChips();
+        renderPromptsGrid();
+        syncExploreHash(false);
+      });
+      container.appendChild(chip);
+    });
+  }
+
   window.clearExploreFilters = function () {
     currentCategory = 'All';
+    currentCommerceType = 'All';
     currentSearch = '';
     currentPage = 1;
     const input = $('#explore-search-input');
     if (input) input.value = '';
     updateChips();
+    renderCommerceChips();
     renderPromptsGrid();
     syncExploreHash(false);
   };
@@ -1506,7 +1579,9 @@
     let allPrompts = [...collections, ...PROMPTS];
 
     let filtered = allPrompts;
-    if (currentCategory !== 'All') filtered = filtered.filter(p => p.category === currentCategory);
+    if (currentCategory === '视频提示词') filtered = filtered.filter(p => p.mediaType === 'video' || p.category === '视频提示词');
+    else if (currentCategory !== 'All') filtered = filtered.filter(p => p.category === currentCategory);
+    if (currentCommerceType !== 'All') filtered = filtered.filter(p => p.commerceType === currentCommerceType);
     if (currentSearch.trim()) {
       const q = currentSearch.toLowerCase().trim();
       filtered = filtered.filter(p =>
@@ -1532,6 +1607,7 @@
     if (countEl) {
       let countText = `找到 ${filtered.length} 个提示词`;
       if (currentCategory !== 'All') countText += ` · 分类: ${currentCategory}`;
+      if (currentCommerceType !== 'All') countText += ` · 类型: ${currentCommerceType}`;
       if (currentSearch) countText += ` · 搜索: "${currentSearch}"`;
       if (totalPages > 1) countText += ` · 第 ${currentPage}/${totalPages} 页（每页 ${PAGE_SIZE} 个）`;
       countEl.textContent = countText;
@@ -1540,6 +1616,7 @@
     if (activeBar) {
       const activeFilters = [];
       if (currentCategory !== 'All') activeFilters.push(`<span>分类：${escapeHtml(currentCategory)}</span>`);
+      if (currentCommerceType !== 'All') activeFilters.push(`<span>用途：${escapeHtml(currentCommerceType)}</span>`);
       if (currentSearch.trim()) activeFilters.push(`<span>关键词：${escapeHtml(currentSearch.trim())}</span>`);
       activeBar.innerHTML = activeFilters.length
         ? `${activeFilters.join('')}<button type="button" data-action="clear-explore-filters">清空筛选</button>`
@@ -1605,10 +1682,13 @@
 
   function filterByCategory(catName) {
     currentCategory = catName;
+    if (catName !== '电商视觉') currentCommerceType = 'All';
     currentPage = 1;
     if (currentRoute === 'explore') {
       updateChips();
+      renderCommerceChips();
       renderPromptsGrid();
+      syncExploreHash(false);
     }
   }
 
@@ -2324,7 +2404,7 @@
 
     if (route === 'home') renderHome();
     else if (route === 'explore') {
-      if (!opts.preserve) { currentCategory = 'All'; currentSearch = ''; currentPage = 1; }
+      if (!opts.preserve) { currentCategory = 'All'; currentCommerceType = 'All'; currentSearch = ''; currentPage = 1; }
       renderExplore();
     }
     else if (route === 'import') renderImport();
@@ -2411,6 +2491,7 @@
         if (e.key === 'Enter') {
           currentSearch = e.target.value;
           currentCategory = 'All';
+          currentCommerceType = 'All';
           currentPage = 1;
           navigate('explore', { preserve: true });
           syncExploreHash(false);
@@ -2437,6 +2518,7 @@
       const categoryMatch = path.match(/^category\/(.+)$/);
       if (categoryMatch) {
         currentCategory = decodeURIComponent(categoryMatch[1]);
+        currentCommerceType = 'All';
         currentSearch = '';
         currentPage = 1;
         navigate('explore', { preserve: true });
@@ -2445,6 +2527,7 @@
       const tagMatch = path.match(/^tag\/(.+)$/);
       if (tagMatch) {
         currentCategory = 'All';
+        currentCommerceType = 'All';
         currentSearch = decodeURIComponent(tagMatch[1]);
         currentPage = 1;
         navigate('explore', { preserve: true });
@@ -2453,6 +2536,8 @@
       if (path === 'explore') {
         const params = new URLSearchParams(queryString);
         currentCategory = params.get('category') || 'All';
+        currentCommerceType = params.get('commerceType') || 'All';
+        if (currentCategory !== '电商视觉') currentCommerceType = 'All';
         currentSearch = params.get('q') || '';
         currentPage = Number(params.get('page') || 1);
         navigate('explore', { preserve: true });

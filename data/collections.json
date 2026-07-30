@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:19:33.168Z",
+  "updatedAt": "2026-07-30T06:22:11.107Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -354,7 +354,7 @@
     {
       "id": "grok_x_2082690306906955897",
       "title": "Thermos bottle UGC product review video",
-      "category": "视频提示词",
+      "category": "电商视觉",
       "tags": [
         "ugc",
         "commercial",
@@ -385,7 +385,8 @@
       "timestamp": 1785390904221,
       "collectedAt": "2026-07-30T05:55:04.221Z",
       "githubSyncedAt": "2026-07-30T05:55:04.221Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": null,
+      "commerceType": "UGC / 口碑"
     },
     {
       "aspectRatio": "3:4",
@@ -3825,7 +3826,7 @@
     {
       "id": "grok_x_2082314386585055619",
       "title": "15s ceramic detailer UGC car video timeline",
-      "category": "视频提示词",
+      "category": "电商视觉",
       "tags": [
         "automotive",
         "detailer",
@@ -3857,7 +3858,8 @@
       "timestamp": 1785309513167,
       "collectedAt": "2026-07-29T07:18:33.167Z",
       "githubSyncedAt": "2026-07-29T07:18:33.167Z",
-      "domesticSyncedAt": "2026-07-29T09:58:30.755Z"
+      "domesticSyncedAt": "2026-07-29T09:58:30.755Z",
+      "commerceType": "UGC / 口碑"
     },
     {
       "aspectRatio": "9:16",

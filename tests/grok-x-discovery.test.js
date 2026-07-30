@@ -70,6 +70,20 @@ test('replaces untrusted Grok category labels with the shared Chinese rules', ()
   assert.equal(result.accepted[0].category, '时尚');
 });
 
+test('stores an e-commerce use-case type without losing video media metadata', () => {
+  const result = discovery.acceptCandidates([{
+    sourceUrl: 'https://x.com/example/status/903',
+    prompt: `${COMPLETE_PROMPT} Create an authentic UGC product review and unboxing for a premium thermos.`,
+    mediaType: 'video',
+    videoPoster: 'https://pbs.twimg.com/amplify_video_thumb/commerce.jpg',
+    videoUrl: 'https://video.twimg.com/amplify_video/commerce.mp4'
+  }], []);
+
+  assert.equal(result.accepted[0].category, '电商视觉');
+  assert.equal(result.accepted[0].commerceType, 'UGC / 口碑');
+  assert.equal(result.accepted[0].mediaType, 'video');
+});
+
 test('the test configuration caps discovery at ten candidates with enough agent turns', () => {
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, '../config/grok-x-discovery.json'), 'utf8'));
   assert.equal(config.maxCandidatesTotal, 10);

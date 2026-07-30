@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { classifyCollection, reclassifyCollections } = require('../scripts/category-rules');
+const { classifyCollection, classifyCommerceType, reclassifyCollections } = require('../scripts/category-rules');
 
 test('categorizes a fashion collection ahead of generic portrait terms', () => {
   assert.equal(classifyCollection({
@@ -11,6 +11,17 @@ test('categorizes a fashion collection ahead of generic portrait terms', () => {
 
 test('always categorizes video collections as video prompts', () => {
   assert.equal(classifyCollection({ mediaType: 'video', prompt: 'A cyberpunk city scene' }), '视频提示词');
+});
+
+test('uses e-commerce as the primary category while retaining its use-case type', () => {
+  const item = {
+    mediaType: 'video',
+    title: 'Thermos UGC product review video',
+    prompt: 'Create an authentic UGC product review video with a detailed thermos unboxing and testimonial.'
+  };
+
+  assert.equal(classifyCollection(item), '电商视觉');
+  assert.equal(classifyCommerceType(item), 'UGC / 口碑');
 });
 
 test('reclassifies Grok imports without overwriting user-managed categories', () => {

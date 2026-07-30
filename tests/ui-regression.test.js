@@ -34,6 +34,14 @@ test('video prompts have a dedicated homepage category and filter', () => {
   assert.match(app, /'video': '视频提示词'/);
 });
 
+test('e-commerce prompts use a primary category with second-level use-case filters', () => {
+  assert.match(data, /name: "电商视觉"/);
+  assert.match(app, /id="commerce-filter-chips"/);
+  assert.match(app, /const COMMERCE_TYPES = \[/);
+  assert.match(app, /p\.commerceType === currentCommerceType/);
+  assert.match(app, /p\.mediaType === 'video' \|\| p\.category === '视频提示词'/);
+});
+
 test('the homepage uses the requested copy without Nano Banana branding', () => {
   assert.match(app, /探索高品质纳米提示词库。/);
   assert.doesNotMatch(app, /Nano Banana/);
