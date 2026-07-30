@@ -1,7 +1,135 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:45:48.268Z",
+  "updatedAt": "2026-07-30T14:46:25.558Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mmk1k_yzhr",
+      "image": "https://pbs.twimg.com/media/HKnxfJhaAAAJYEN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKnxfJhaAAAJYEN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKnxfJoakAASFo3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKnxfJiasAAc_iz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKnxfJkbsAAu0y9?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A breathtakingly beautiful woman sitting on a luxurious velvet sofa, elegantly crossing her long, slender legs. She wears a **black high-slit satin dress**, the silky fabric draping over her thighs, revealing a glimpse of her smooth, toned legs. Her **pointed-toe stiletto",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKnxfJhaAAAJYEN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKnxfJoakAASFo3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKnxfJiasAAc_iz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKnxfJkbsAAu0y9?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Acitymedia/status/2065448641226235941",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785422782712,
+      "title": "(5) X",
+      "url": "https://x.com/Acitymedia/status/2065448641226235941",
+      "collectedAt": "2026-07-30T14:46:25.558Z",
+      "githubSyncedAt": "2026-07-30T14:46:25.558Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mmk1i_yzy4",
+      "image": "https://pbs.twimg.com/media/HKsBlnbbsAAUlec?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKsBlnbbsAAUlec?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKsBln3bcAEV-dF?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a photorealistic editorial portrait. The scene is luxury hotel balcony river-view terrace, glass railing. The subject is one 20-year-old Japanese or Korean female portrait subject., sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg lean visual weight, 94-58-92 body proportion anchor. She wears lightweight yukata outfit, crossed wrap front, ankle-length straight fall, wide kimono sleeves, lace inner collar, wide obi with floral-petal motif and pearl cord. Pose and composition: She is sitting on a sofa seat with both legs naturally extended in a seated pose; both hands gathered close in front of the lower abdomen with wrists and fingers softly folded together and elbows tucked inward near the knees in a compact low pose; head naturally facing the camera., medium shot, waist up framing, natural subject presence, showing some background. Lighting: snow-bright winter environment, cold pale sky, reflective snowy distance. Camera look: Inspired by Orie Ichihashi, transparent natural-light image language. quiet natural portraiture, transparent natural-light quality. Keep preserve the selected wardrobe as complete, realistic clothing with natural fabric texture, folds.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKsBlnbbsAAUlec?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKsBln3bcAEV-dF?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2065747152719253517",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785422782711,
+      "title": "Pure White",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2065747152719253517",
+      "collectedAt": "2026-07-30T14:46:25.558Z",
+      "githubSyncedAt": "2026-07-30T14:46:25.558Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "自然",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mmk1i_9qh0",
+      "image": "https://pbs.twimg.com/media/HKqfxoXaIAAFSil?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKqfxoXaIAAFSil?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqfxojasAAdWQ9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqfxogaQAAmNmc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqfxoda0AA6y2u?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "她躺在花丛里伸手，站在天台的风里，在街角摸一枝花，坐在海边的白色栏杆旁发呆，每一个瞬间都像春天按下了暂停键。\n\n现实里的很多东西都太重了，消息、工作、情绪、关系，每天都在把人往下拽，所以这种画面才会让人停住。\n\n它像在说：你可以慢一点，可以轻一点，可以不用一直保持清醒和强大，让风吹过来，让花瓣落下来，让阳光把人照得松一点。\n\n就是这些没什么用的小东西，会把人从疲惫里轻轻捞起来。 https://x.com/Mind_Boticni/s/Mind_Boticni/status/2065277493066784984…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKqfxoXaIAAFSil?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqfxojasAAdWQ9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqfxogaQAAmNmc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqfxoda0AA6y2u?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2065639063571632306",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785422782710,
+      "title": "这组图有一种很干净的春日感",
+      "url": "https://x.com/Soranlan/status/2065639063571632306",
+      "collectedAt": "2026-07-30T14:46:25.558Z",
+      "githubSyncedAt": "2026-07-30T14:46:25.558Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mmk1h_dwon",
+      "image": "https://pbs.twimg.com/media/HKqdyjNbMAAVWdJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKqdyjNbMAAVWdJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqdyjKa8AAywtv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a photorealistic editorial portrait. The scene is Temple Street eatery sidewalk table corner, plastic stools. The subject is one 20-year-old Japanese or Korean female portrait subject., sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg lean visual weight, 94-58-92 body proportion anchor. She wears aqua embellished denim street look. sheer mint off-shoulder wrap crop top with scalloped embroidered lace hem, low-rise wide-leg blue jeans with rhinestone swirl embellishment, silver butterfly belly chain draped around the exposed bare waist above the low-rise jeans, blue mirrored sunglasses, crystal butterfly necklace, belly piercing. Pose and composition: She is sitting on a window sill with natural seated arrangement. Let the image model choose natural varied hand placement fitted to the selected body pose support contact wardrobe and camera crop without defaulting to stiff arms at the sides. Let the image model choose a natural head angle and orientation compatible with the camera angle body orientation and selected pose., medium shot, waist up framing, natural subject presence, showing some background. Lighting: sunrise environment, early golden morning sky, fresh crisp air. Camera look: Inspired by Rinko Kawauchi, airy high-key image language. airy high-key photography, pale softly overexposed daylight glow. Keep preserve the selected wardrobe as complete, realistic clothing with natural fabric texture, folds.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKqdyjNbMAAVWdJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKqdyjKa8AAywtv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2065636984392183889",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785422782709,
+      "title": "Grok Imagine Quality mode",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2065636984392183889",
+      "collectedAt": "2026-07-30T14:46:25.558Z",
+      "githubSyncedAt": "2026-07-30T14:46:25.558Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
