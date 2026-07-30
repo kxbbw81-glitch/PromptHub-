@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T04:02:17.438Z",
+  "updatedAt": "2026-07-30T04:12:30.219Z",
   "collections": [
     {
       "id": "grok_x_2082675918565495235",
@@ -324,7 +324,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2082423303181123682",
@@ -359,7 +359,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2082482452270834129",
@@ -393,7 +393,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2082588260862193666",
@@ -427,7 +427,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2082587861061411026",
@@ -461,7 +461,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2082587448018940204",
@@ -495,7 +495,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2082469223385944070",
@@ -529,7 +529,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2080612244703035408",
@@ -563,7 +563,7 @@
       "timestamp": 1785382179358,
       "collectedAt": "2026-07-30T03:29:39.358Z",
       "githubSyncedAt": "2026-07-30T03:29:39.358Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "aspectRatio": "2:3",
@@ -601,7 +601,7 @@
       "url": "https://x.com/ToroJushiAi/status/2082586973340921985",
       "collectedAt": "2026-07-30T02:54:23.699Z",
       "githubSyncedAt": "2026-07-30T02:54:23.699Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-30T04:12:30.219Z"
     },
     {
       "id": "grok_x_2081614603541500366",
