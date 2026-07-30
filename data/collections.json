@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:18:17.973Z",
+  "updatedAt": "2026-07-30T09:18:58.977Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "建筑",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7axhnq_83ph",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082061759792418816/img/RxLlenui9iyQDriy.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082061759792418816/img/RxLlenui9iyQDriy.jpg"
+      ],
+      "model": "",
+      "prompt": "Reminder: Hridaye Nagpal, our Global Creative Head, is going live on July 30, 7:30 PM IST / 7 AM PST.\nHe's picking a scene from Julius Caesar as the demo and building the entire thing on Agent One in real time. Setting up the Agent and Context, location scouting, character",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082061759792418816/img/RxLlenui9iyQDriy.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Abhishruti12/status/2082359897933680996",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785403137446,
+      "title": "Reminder: Hridaye Nagpal our Global Creative Head is",
+      "url": "https://x.com/Abhishruti12/status/2082359897933680996",
+      "collectedAt": "2026-07-30T09:18:58.977Z",
+      "githubSyncedAt": "2026-07-30T09:18:58.977Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
