@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:26:27.591Z",
+  "updatedAt": "2026-07-30T14:27:45.408Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "风景",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7lykmh_ef71",
+      "image": "https://pbs.twimg.com/media/HK_HmmybwAAjNLe?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK_HmmybwAAjNLe?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "穿著緊身白色低領背心，突出豐滿胸部曲線，外搭黑色無袖針織開襟背心，淺藍色破洞牛仔短褲，戴精緻金項鍊、小圓環耳環、左手細金手鍊。\n坐在白色現代長椅上，微微靠著質感石頭牆背景，自然日光照明，溫暖陽光打在皮膚和頭髮上，極致寫實攝影風格，細膩肌膚紋理，自然妝容，光影自然，迷人優雅氛圍負面提示（Negative prompt）：blurry, deformed, extra limbs, bad anatomy, low quality, text, watermark, overexposed。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK_HmmybwAAjNLe?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ill_orz/status/2067090228566012201",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785421663721,
+      "title": "by Nano Banana",
+      "url": "https://x.com/ill_orz/status/2067090228566012201",
+      "collectedAt": "2026-07-30T14:27:45.408Z",
+      "githubSyncedAt": "2026-07-30T14:27:45.408Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
