@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:40:03.503Z",
+  "updatedAt": "2026-07-30T14:40:20.671Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mepn8_rr05",
+      "image": "https://pbs.twimg.com/media/HKxYbH1bkAAw2Xo?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKxYbH1bkAAw2Xo?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "9:16 format, A young East Asian woman in her early twenties bends deeply at the waist over a white laundry basket, soft half-lidded eyes gazing downward, lips barely parted in calm focus, faint pink blush on fair porcelain cheeks, delicate brows and subtle eyeliner framing dark-brown eyes. Dark brown-black hair piled in a messy high top bun, loose strands curling at temples catching soft side light. Arms extended into the basket sorting rumpled beige, pink, and gray garments, knees softly bent, torso angled toward the lens. Sheer cream camisole with spaghetti straps, plunging V-neck and satin bow at bust, translucent ruffled babydoll shorts skimming upper thighs. Dewy East Asian skin modeled by soft left daylight, warm fill on collarbone, shadow pooling at the waist bend. Intimate domestic stillness — everyday laundry becoming quiet sensual reverie. Foreground: white plastic basket brimming with wrinkled clothes, hands mid-fold. Midground: woman centered before gleaming front-loading washer. Background: neutral walls, wooden counter, detergent bottles, wicker basket of pink flowers. Warm linen-and-detergent calm, pastel neutrals. 35mm f/2.8, eye-level slight low, medium-full from mid-thigh up, basket anchoring lower third, Kodak Portra warm beige grade — bent-over chore suspended between routine and voyeuristic pause, gaze never meeting camera.\nNegative: bad anatomy, distorted face, extra fingers, blurry, low quality, watermark, text overlay, cropped, out of frame, deformed hands, cross-eyed, duplicate, poorly drawn face, plastic skin, floating laundry, warped washer, flat lighting.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKxYbH1bkAAw2Xo?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Kunda623270/status/2066123559681061020",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785422416724,
+      "title": "Compliment her outfit. Be honest",
+      "url": "https://x.com/Kunda623270/status/2066123559681061020",
+      "collectedAt": "2026-07-30T14:40:20.671Z",
+      "githubSyncedAt": "2026-07-30T14:40:20.671Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "抽象",
