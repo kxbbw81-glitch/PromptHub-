@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:24:21.883Z",
+  "updatedAt": "2026-07-30T14:26:27.591Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7lwv7s_m8zu",
+      "image": "https://pbs.twimg.com/media/HLBdaO1XEAApO4_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLBdaO1XEAApO4_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBdaO6WsAA44hi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBdaRgXIAEUtjq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBdaTxW8AA8xYN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A professional, high-end photograph of an elegant East Asian woman at a sophisticated evening cocktail event inside a luxury modern lounge. She is wearing a striking, form-fitting mermaid gown featuring a black spaghetti-strap bodice with shimmering sequined cups and a long, sweeping white floor-length skirt that trails slightly behind her. Her dark hair is styled in a graceful, neat updo, and she exudes a warm, confident smile. The upscale venue features marble tables, polished flooring, ambient warm lighting, a large decorative bonsai tree, and a golden abstract wall sculpture in the background. Other elegantly dressed guests in formal black attire are seen mingling and chatting softly in the soft-focus background, creating a chic, high-society atmosphere. The scene captures various candid angles of her interacting with the event, including holding a glass of champagne, waving gently forward, and posing elegantly in profile.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLBdaO1XEAApO4_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBdaO6WsAA44hi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBdaRgXIAEUtjq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBdaTxW8AA8xYN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2067254938653085845",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785421584136,
+      "title": "Sophisticated elegance at a luxury evening event",
+      "url": "https://x.com/Minahil42298354/status/2067254938653085845",
+      "collectedAt": "2026-07-30T14:26:27.591Z",
+      "githubSyncedAt": "2026-07-30T14:26:27.591Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
