@@ -24,8 +24,8 @@ const CATEGORY_RULES = [
   ['美食', [['food photography', 7], ['美食', 7], ['料理', 5], ['dish', 4], ['dessert', 4], ['餐桌', 3], ['烹饪', 3]]],
   ['时尚', [['fashion', 7], ['时尚', 7], ['editorial', 4], ['couture', 5], ['runway', 5], ['lookbook', 5], ['服装', 4], ['穿搭', 4], ['swimsuit', 3]]],
   ['静物', [['product photography', 7], ['产品摄影', 7], ['packaging', 5], ['包装', 5], ['still life', 5], ['静物', 5], ['bottle', 4], ['物品', 3]]],
-  ['角色', [['character design', 7], ['角色设计', 7], ['character sheet', 6], ['角色', 5], ['anime character', 5], ['游戏角色', 5]]],
-  ['人像', [['portrait', 7], ['人像', 7], ['headshot', 5], ['肖像', 5], ['face close-up', 5], ['面部特写', 5], ['full-body woman', 3], ['人物摄影', 4]]],
+  ['角色', [['character design', 7], ['角色设计', 7], ['character sheet', 6], ['persona', 7], ['character profile', 7], ['人格档案', 7], ['角色', 5], ['anime character', 5], ['游戏角色', 5]]],
+  ['人像', [['portrait', 7], ['人像', 7], ['selfie', 6], ['自拍', 6], ['headshot', 5], ['肖像', 5], ['face close-up', 5], ['面部特写', 5], ['full-body woman', 3], ['人物摄影', 4]]],
   ['抽象', [['abstract', 7], ['抽象', 7], ['surreal', 5], ['超现实', 5], ['geometric', 4], ['几何', 4], ['concept art', 3]]]
 ];
 

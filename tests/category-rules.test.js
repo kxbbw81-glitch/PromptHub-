@@ -34,6 +34,17 @@ test('recognizes reusable logo and visual-identity proposal prompts as brand vis
   assert.equal(classifyCommerceType(item), '品牌视觉');
 });
 
+test('classifies persona templates and selfies without falling back to abstract', () => {
+  assert.equal(classifyCollection({
+    title: 'Fruit persona archive template',
+    prompt: 'Create a detailed persona archive and character profile for a living adult character.'
+  }), '角色');
+  assert.equal(classifyCollection({
+    title: 'Korean bedroom smartphone selfie',
+    prompt: 'A photorealistic selfie of an adult woman in a bedroom.'
+  }), '人像');
+});
+
 test('reclassifies Grok imports without overwriting user-managed categories', () => {
   const result = reclassifyCollections({ collections: [
     { source: 'Grok X 公开搜索', category: 'portrait', mediaType: 'image', prompt: 'A fashion editorial runway lookbook.' },

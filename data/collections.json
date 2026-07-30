@@ -1,7 +1,199 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:47:48.024Z",
+  "updatedAt": "2026-07-30T08:03:37.260Z",
   "collections": [
+    {
+      "id": "grok_x_2082716067978481818",
+      "title": "Strawberry persona archive poster",
+      "category": "角色",
+      "tags": [
+        "persona",
+        "strawberry",
+        "editorial",
+        "poster",
+        "chinese",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "用途：小红书系列角色海报样片，ads-marketing。生成一张 1500×2000、3:4 竖版的“人格档案”编辑海报。这不是水果头套插画，而是一位由草莓的生长结构、表皮触感和酸甜性格共同塑造的真实活体年轻女性角色。人物占画面约 65%，略偏右站立，冷静直视镜头；上宽下收的短外套继承草莓轮廓，半哑光表层嵌入稀疏细小籽点，尖叶结构只转译为肩部与领口的锐利外翻，衣襟局部打开，露出浅亮、柔软、多汁的内部层次。不要给人物戴完整草莓帽，不要把水果直接替换成人头。画面第一眼看到人物清晰轮廓与巨大中文标题，第二眼才发现服装材质、籽点和果汁轨迹共同构成人格隐喻。大面积浅暖底场托住人物，主题自身最饱满的果肉色承担中面积情绪层，最深叶片色用于文字，少量高亮只落在液体边缘。文字形成五级档案系统：巨大中文主标题必须准确写“草莓”，从左上切入并被人物肩部遮住少量笔画；英文副题准确写“SWEETNESS WITH TEETH”；边缘窄栏写“PERSONA ARCHIVE”和“FRUIT–01”；其余小字用整齐线条和可信的排版纹理代替，避免乱码。字体采用粗重无衬线主标题、细字重英文与极小档案标记的明显字号跃迁，全部严格对齐。柔和侧光只强化面部、衣料绒面和液体边缘，颗粒只落在底场与暗部，人物五官、手、标题边缘保持干净。失败状态是普通红衣模特、草莓贴纸堆砌、卡通水果头、文字漂浮或全局脏滤镜。无水印，无品牌 logo。",
+      "image": "https://pbs.twimg.com/media/HOc9ilDXkAMM50O.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOc9ilDXkAMM50O.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOc9ilDXkAMM50O.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082716067978481818",
+      "url": "https://x.com/chenlinspark/status/2082716067978481818",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785398617161,
+      "collectedAt": "2026-07-30T08:03:37.161Z",
+      "githubSyncedAt": "2026-07-30T08:03:37.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082724819448054087",
+      "title": "Fruit persona archive template",
+      "category": "角色",
+      "tags": [
+        "persona",
+        "fruit",
+        "template",
+        "editorial",
+        "poster",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "请直接生成一张独立图片，不要输出解释，不要输出分析过程，不要生成多图拼版。\n\n围绕“【主题对象】人格”生成一张 1500×2000 像素、3:4 竖版的高密度人物档案海报。这不是给人戴上【主题对象】头套，也不是把主题图案印在普通衣服上，而是一位由【主题对象】真实生长结构与“【人格命题】”共同塑造的活体成年角色。人物设定为【角色设定】，使用腰部或大腿以上近景，占画面右侧约 60%—65%，脸部保持真实人类骨相、皮肤、头发和自然表情；人物不长出水果头、植物头或怪物皮肤。\n\n把【主题对象】的结构翻译成一件完整服装：外层由【外层结构】连续承担肩部、袖子和躯干轮廓，结构必须顺着身体曲面生长，而不是浮在表面的贴花；衣襟向两侧翻开，内部由【内层结构】形成清楚、饱满、可触摸的层次，内部结构属于服装，不与人体组织连接，不做解剖效果；再用【动态细节】穿过局部边缘，作为第二眼才能发现的生命信号，不要变成满屏飞溅或装饰特效。第一眼先读到巨大主题文字和人物轮廓，第二眼才看清外层、内层与动态细节如何共同解释“【人格命题】”。\n\n左上放置巨大中文主标题“【主题对象】”，使用粗重字体，从边缘切入并被人物肩部遮挡少量笔画，但主题文字必须准确、完整可辨。主标题下方写“【英文副题与编号中的英文副题】”；左边缘竖排“PERSONA ARCHIVE”，右上竖排“【英文副题与编号中的编号】”。左侧建立五段档案：`01 物种名称 / Species`、`02 核心特征 / Traits`、`03 生长环境 / Habitat`、`04 人格指数 / Personality`、`05 档案备注 / Notes`。档案短句围绕“【人格命题】”组织，底部横向元数据栏包含主题英文名、Collector、Status、Level。中文主标题优先保证准确；如果模型无法稳定书写小字，其余正文降级为整齐、可信的排版纹理和规则短线，不生成乱码式大标题。\n\n色彩从【主题对象】自身的表皮、内部、叶片或枝梗中提取：最浅、最低饱和的颜色覆盖约六成背景；外层结构承担人物主色；内部结构成为最集中的情绪焦点；文字和刻度使用最深、最稳定的信息色。用柔和侧光同时照亮脸部与衣襟内部，局部透射光只落在半透明果肉、籽粒、汁胞或薄膜；纸张颗粒只保留在背景与暗部，人物五官、双手、主标题和档案细线保持洁净。\n\n失败状态是主题头套、普通时装换色、表面贴满图案、内部结构消失、人体解剖化、全局脏滤镜、人物脸手畸形或中文主标题乱码。最终必须同时保留真实近景人物、外层与内层的结构反差、巨大准确中文标题、左侧五段档案和底部元数据栏；不要默认复制上一张的性别、姿态、色相和服装轮廓，每次都要根据新主题重新建立人物语言。\n\n——————\n本次主题：`【主题对象】 + 【人格命题】`\n人物：`【角色设定】`\n服装外层：`【外层结构】`\n衣襟内部：`【内层结构】`\n只保留一种动态细节：`【动态细节】`\n必须出现的字：`【主题对象】 / 【英文副题与编号】 / PERSONA ARCHIVE`\n画幅：`1500×2000 像素，3:4 竖版，单张独立图片`",
+      "image": "https://pbs.twimg.com/media/HOdS8i0XEAAImhy.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOdS8i0XEAAImhy.jpg",
+        "https://pbs.twimg.com/media/HOdS9R6WQAAGRDS.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOdS8i0XEAAImhy.jpg",
+        "https://pbs.twimg.com/media/HOdS9R6WQAAGRDS.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082724819448054087",
+      "url": "https://x.com/chenlinspark/status/2082724819448054087",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785398617161,
+      "collectedAt": "2026-07-30T08:03:37.161Z",
+      "githubSyncedAt": "2026-07-30T08:03:37.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082468021407285579",
+      "title": "Four-panel brand logo/VI proposal",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "logo",
+        "VI",
+        "brand",
+        "identity",
+        "proposal",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "你是一名资深品牌设计师、Logo设计师、视觉艺术指导与Editorial版式设计师。\n\n请根据我填写的品牌信息，为同一个品牌直接设计并生成一套【四图品牌视觉识别提案】。不要先输出图片提示词，也不要只给方案或页面大纲，直接生成4张独立图片。\n\n【品牌信息】\n\n中文品牌名：【填写】\n英文品牌名：【填写】\n品牌行业：【填写】\n主要产品或服务：【填写】\n品牌定位与目标人群：【填写】\n品牌核心理念：【填写】\n品牌性格关键词：【填写3—5个】\n品牌标语：【填写，或根据理念重新提炼】\n\nLogo灵感来源：【填写】\nLogo类型：【抽象符号 / 汉字融合 / 字母图形 / 几何符号 / 徽章等】\n希望Logo表达的含义：【填写】\n不希望出现的元素：【填写】\n\n整体视觉风格：【填写】\n主色调：【填写】\n辅助色与点缀色：【填写】\n主要材质：【填写3—5种】\n摄影或空间氛围：【填写】\n主要产品、包装与应用场景：【填写】\n\n画面比例：【默认4:5竖版】\n文字语言：【中文为主 / 英文为主 / 中英结合】\n补充要求：【填写】\n\n如果部分信息没有填写，请结合品牌行业、定位和理念自动补充合理方案，不要因为非关键字段为空而停止。\n\n━━━━━━━━━━━━━━━━━━\n【设计任务】\n━━━━━━━━━━━━━━━━━━\n\n先统一设计并锁定品牌系统，包括：\n\n- 一个原创、清晰、可独立使用的Logo图案\n- 中文与英文品牌字标\n- 主色、辅助色与点缀色\n- 字体、材质和摄影语言\n- 从Logo中延展出的辅助图形与纹样\n- 产品、包装、物料和空间应用方式\n\nLogo不能只有纯文字。必须包含一个具有设计感的独立Symbol，与品牌理念相关，具备清晰轮廓、负空间或几何结构，缩小后仍可识别，并适合压印、烫金、刺绣、雕刻和空间标识。\n\n避免直接使用普通行业图标，例如香炉、茶叶、女性侧脸、房屋、普通树叶、莲花、祥云、太极或传统印章。需要经过抽象、简化和重新构成，形成原创品牌符号。\n\nLogo一旦确定，四张图中的核心轮廓、内部结构、字标和组合方式必须保持一致，不能每张图重新设计。\n\n━━━━━━━━━━━━━━━━━━\n【四张图片内容】\n━━━━━━━━━━━━━━━━━━\n\n图1｜品牌世界观与概念封面\n\n用一张大型品牌主视觉建立品牌情绪和世界观，同时清晰展示完整Logo、中文名、英文名、概念主标题、品牌宣言、3—5张情绪或材质图片，以及少量手写概念注释。\n\n采用“大标题＋大型主视觉＋完整Logo＋非规则情绪拼贴”的结构。Logo必须明显可见，但不能压过主标题和品牌氛围。\n\n图2｜Logo概念与符号生成逻辑\n\n以超大的Logo Symbol作为视觉中心，展示完整Logo、中英文字标、横版与竖版组合、简化版本、概念来源草图、负空间与结构关系。\n\n加入少量手绘轮廓、箭头、圈选和设计师手写注释，让观众理解Logo为什么这样设计。页面要有研究感，但不能做成复杂工程图或传统VI表格。\n\n图3｜品牌视觉语言与设计系统\n\n展示品牌主色、辅助色、字体、材质、摄影语言、Logo局部裁切和辅助纹样。\n\n颜色需要与真实材质建立联系，例如石材、纸张、金属、玻璃、植物或织物。辅助图形必须从Logo轮廓、内部曲线、负空间或笔画中提取，不能添加无关装饰。\n\n版式采用规整网格与自由拼贴结合，加入大型字体、纵向文字、细线和少量手写标记。\n\n图4｜品牌应用与体验场景\n\n展示品牌如何进入真实产品、包装、纸品、织物和空间。根据行业选择5—7个合理触点，例如主产品、礼盒、手提袋、卡片、标签、制服、毛巾、金属标牌、门头、前台或空间导视。\n\n采用“一张大型产品或空间主视觉＋4—6张应用细节”的结构。完整Logo、独立Symbol和辅助纹样需要分层使用，不要让每件产品都重复印完整品牌名称。\n\n━━━━━━━━━━━━━━━━━━\n【整套视觉要求】\n━━━━━━━━━━━━━━━━━━\n\n整套图片采用高级品牌提案、Editorial杂志设计、艺术指导板与现代视觉识别案例相结合的设计语言。\n\n每张图都必须有：\n\n- 一个醒目的大型主标题\n- 一个简短副标题\n- 一句核心说明\n- 2—4个关键词或信息标签\n- 2—4处有意义的手写注释\n- 一个明确的视觉中心\n- 约25%—35%的留白\n\n主标题要参与构图，可以放大、裁切、错位、纵向排列，或与图片、Logo互相穿插，不能只是普通页眉。\n\n手写标记可以使用短句、箭头、圈选、下划线或简单草图，用于解释Logo、字体、颜色、材质和工艺。手写内容必须简短、清晰、有意义，避免无意义乱码和满屏涂鸦。\n\n四张图使用统一的品牌名、Logo、字体、配色、材质、摄影氛围、边距和辅助线，但版式不能完全相同：\n\n- 图1：大主视觉与情绪拼贴\n- 图2：超大Logo与结构研究\n- 图3：色彩字体与材质系统\n- 图4：产品空间与应用落地\n\n避免普通PPT、简单Moodboard、传统VI表格、素材网站Mockup合集、整齐重复的宫格、大段正文、信息拥挤、低质量3D材质、廉价金色、颜色漂移和Logo结构变化。\n\n━━━━━━━━━━━━━━━━━━\n【输出要求】\n━━━━━━━━━━━━━━━━━━\n\n请直接生成4张独立的4:5竖版图片，不要把四张内容合并成一张拼图，也不要先输出生图提示词。\n\n按照以下顺序生成：\n\n1. 品牌世界观与概念封面\n2. Logo概念与符号生成逻辑\n3. 品牌视觉语言与设计系统\n4. 品牌应用与体验场景\n\n如果当前一次只能生成一张图片，请直接从图1开始，并按照同一套已锁定的Logo和视觉系统继续生成图2、图3和图4，不需要重新规划或更换设计方向。",
+      "image": "https://pbs.twimg.com/media/HOZn7cNaQAAAEfT.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOZn7cNaQAAAEfT.jpg",
+        "https://pbs.twimg.com/media/HOZoBgPbkAA2cA9.jpg",
+        "https://pbs.twimg.com/media/HOZoCcXaQAAPs8R.jpg",
+        "https://pbs.twimg.com/media/HOZoDK_aAAA2lQ8.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZn7cNaQAAAEfT.jpg",
+        "https://pbs.twimg.com/media/HOZoBgPbkAA2cA9.jpg",
+        "https://pbs.twimg.com/media/HOZoCcXaQAAPs8R.jpg",
+        "https://pbs.twimg.com/media/HOZoDK_aAAA2lQ8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "GPT-Image2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MrLarus/status/2082468021407285579",
+      "url": "https://x.com/MrLarus/status/2082468021407285579",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785398617161,
+      "collectedAt": "2026-07-30T08:03:37.161Z",
+      "githubSyncedAt": "2026-07-30T08:03:37.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082735969849970918",
+      "title": "Korean bedroom smartphone selfie",
+      "category": "人像",
+      "tags": [
+        "selfie",
+        "korean",
+        "lifestyle",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-photorealistic vertical smartphone selfie of a beautiful young adult East Asian woman sitting inside a cozy Korean-style bedroom. She has porcelain-fair skin, large expressive dark brown eyes, naturally full soft-pink lips, a small straight nose, and delicate oval facial features. Her medium-length dark brown hair is slightly messy with airy wispy bangs and loose strands naturally framing her face, creating a fresh just-woke-up appearance.\nShe gently tilts her head to one side while touching and tucking her hair behind one ear with her free hand. She looks directly into the phone camera with a subtle romantic smile and a soft, relaxed expression. She wears an oversized fuzzy knitted navy-blue off-shoulder sweater that casually slips down from one shoulder, naturally revealing her shoulder and collarbone. The sweater has realistic fluffy wool fibres, loose folds, and oversized sleeves.\nThe background features a white bookshelf filled with books, glowing candles, small decorative glass jars, framed artwork, vintage-style photographs, cute room accessories, and a subtle green plant. Warm natural indoor ambient light is mixed with soft golden candlelight, creating gentle shadows and a cozy aesthetic atmosphere.\nCaptured casually at arm’s length using a modern smartphone, slightly above eye level, 26mm-equivalent mobile-camera lens, vertical 9:16 composition, mild realistic wide-angle distortion, authentic exposure, automatic white balance, slight smartphone HDR processing, tiny sensor noise, realistic skin pores, fine facial baby hairs, natural individual hair strands, and slightly imperfect everyday social-media framing.\nAdd small handwritten Korean romantic text near the lower-left area:\n“오늘도 보고싶어 ♡”\nUse a delicate cream-white handwritten Korean font. No professional studio lighting, no beauty filter, no excessive makeup, no plastic skin, no unrealistic facial proportions, no obvious AI-generated appearance, natural candid Korean lifestyle selfie, ultra-photorealistic.",
+      "image": "https://pbs.twimg.com/media/HOddTbiaAAA-MiC.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOddTbiaAAA-MiC.jpg",
+        "https://pbs.twimg.com/media/HOddT72bgAAo-A7.jpg",
+        "https://pbs.twimg.com/media/HOddUiLa4AEwyoI.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOddTbiaAAA-MiC.jpg",
+        "https://pbs.twimg.com/media/HOddT72bgAAo-A7.jpg",
+        "https://pbs.twimg.com/media/HOddUiLa4AEwyoI.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sha_zdiii/status/2082735969849970918",
+      "url": "https://x.com/sha_zdiii/status/2082735969849970918",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785398617161,
+      "collectedAt": "2026-07-30T08:03:37.161Z",
+      "githubSyncedAt": "2026-07-30T08:03:37.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082734187615048127",
+      "title": "Studio fashion with oversized teddy",
+      "category": "时尚",
+      "tags": [
+        "fashion",
+        "studio",
+        "editorial",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "High-fashion studio portrait of the woman in the uploaded reference image (DO NOT TOUCH FACE) posing with an oversized plush teddy bear in a clean, minimalist photography studio.\n\nComposition & Camera: Full-body vertical fashion composition photographed against a seamless neutral white studio backdrop. The camera is positioned slightly below waist height to create a leg-lengthening perspective and is captured using a 50mm fashion lens.\n\nPose: The woman stands with her body turned partially away from the camera, her back gently arched, and her head turned back over her shoulder as she looks directly toward the camera. She playfully holds a giant beige plush teddy bear beside her, gripping it naturally to create a charming, editorial pose.\n\nHair: Long, glossy hair styled in soft cascading waves flowing down her back. Several pastel pink ribbon bows are tied throughout her hair, adding a romantic, doll-inspired aesthetic.\n\nMakeup: Soft glamorous editorial makeup featuring luminous skin, subtle contouring, rosy pink blush, champagne highlighter on the cheekbones, softly blended brown eyeshadow, long curled lashes, defined brows, and glossy pink-nude lips.\n\nOutfit: A pink -colored lace corset mini dress with structured boning, delicate lace detailing, and a fitted silhouette. She wears sheer nude tights embellished with small decorative bow accents.\n\nFootwear: Ivory platform high heels with elegant ankle straps.\n\nProps: An oversized beige plush teddy bear adorned with a yellow satin ribbon tied neatly around its neck.\n\nEnvironment: A seamless blue minimalist studio backdrop creates a clean, luxury fashion campaign aesthetic with no visual distractions.\n\nLighting: Soft professional studio lighting using large diffused softboxes to produce smooth skin tones, balanced highlights, gentle shadows, and an elegant commercial-quality finish.\n\nStyle: Luxury fashion editorial photography with a playful doll-inspired aesthetic and romantic campaign styling. Ultra-detailed rendering of fabrics, lace textures, plush materials, skin, and hair, cinematic softness, photorealistic quality, and 8K ultra-high resolution.\n\nNegative Prompt: blurry details, distorted anatomy, extra limbs, incorrect proportions, warped clothing, poorly rendered hands, low resolution, excessive noise, harsh shadows, overexposure, underexposure, flat lighting, amateur photography, artifacts, watermark, logo, cropped subject, out-of-frame elements, duplicate objects, unrealistic textures.",
+      "image": "https://pbs.twimg.com/media/HOYgAjtbgAA9Stm.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOYgAjtbgAA9Stm.jpg",
+        "https://pbs.twimg.com/media/HOYgCXQawAAre4g.jpg",
+        "https://pbs.twimg.com/media/HOYgDeDbQAEq13f.jpg",
+        "https://pbs.twimg.com/media/HOYgE9IaoAATyb8.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOYgAjtbgAA9Stm.jpg",
+        "https://pbs.twimg.com/media/HOYgCXQawAAre4g.jpg",
+        "https://pbs.twimg.com/media/HOYgDeDbQAEq13f.jpg",
+        "https://pbs.twimg.com/media/HOYgE9IaoAATyb8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Nano Banana 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dreamydigiarts/status/2082734187615048127",
+      "url": "https://x.com/dreamydigiarts/status/2082734187615048127",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785398617161,
+      "collectedAt": "2026-07-30T08:03:37.161Z",
+      "githubSyncedAt": "2026-07-30T08:03:37.161Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
@@ -304,7 +496,7 @@
     {
       "id": "grok_x_2082704258080637233",
       "title": "Luxury mirror selfie bedroom portrait",
-      "category": "时尚",
+      "category": "人像",
       "tags": [
         "mirror-selfie",
         "luxury",
@@ -1303,7 +1495,7 @@
     {
       "id": "grok_x_2080612244703035408",
       "title": "iPhone前置居家自拍生活照",
-      "category": "自然",
+      "category": "人像",
       "tags": [
         "selfie",
         "iphone",
@@ -2009,7 +2201,7 @@
     {
       "id": "grok_x_2082316535146971187",
       "title": "副驾驶抹香鲸项链自拍",
-      "category": "自然",
+      "category": "人像",
       "tags": [
         "人像",
         "摄影",
