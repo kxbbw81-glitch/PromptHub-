@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:27:52.695Z",
+  "updatedAt": "2026-07-30T14:28:40.035Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7lzrab_345h",
+      "image": "https://pbs.twimg.com/media/HK_uaU4a8AAiFcS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK_uaU4a8AAiFcS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK_uamFaUAAAGtF?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic candid lifestyle photograph of a stunning young woman inside a stylish independent bookstore, captured from a three-quarter back angle as she turns toward the camera. She is holding an interesting oversized art magazine with a bold animal cover, wearing a sleek black sleeveless dress and carrying a glossy leather shoulder bag. Long wavy dark hair, natural beauty, minimal makeup, soft skin texture, calm mysterious expression.\n\nWarm cinematic bookstore lighting, floor-to-ceiling bookshelves, stacked design books, cozy urban atmosphere, shallow depth of field, subtle background customers browsing, modern industrial interior with concrete columns and wooden shelves. Shot on iPhone 16 Pro, realistic handheld photography, natural imperfections, soft film grain, premium fashion-editorial aesthetic, Vogue street-style energy, highly detailed, photorealistic, warm amber tones, candid moment, aesthetic Instagram photography, 9:16 vertical composition, no AI look, no over-editing.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK_uaU4a8AAiFcS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK_uamFaUAAAGtF?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AiwithSaad/status/2067132898571059290",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785421719012,
+      "title": "Made with GPT Image 2 on @itsPolloAI",
+      "url": "https://x.com/AiwithSaad/status/2067132898571059290",
+      "collectedAt": "2026-07-30T14:28:40.035Z",
+      "githubSyncedAt": "2026-07-30T14:28:40.035Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
