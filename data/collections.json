@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:28:24.263Z",
+  "updatedAt": "2026-07-30T09:29:29.052Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7babk8_tx00",
+      "image": "https://pbs.twimg.com/media/HMf1bFHXAAAd4fr?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMf1bFHXAAAd4fr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMf1bgVXgAEBgwf?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt;\nShot on a full-frame mirrorless camera such as the Sony A7R V or Canon EOS R5, using a 50mm prime lens at f/1.8 in cinematic portrait mode with shallow depth of field. The image is captured in high-resolution 8K detail with natural skin texture and realistic micro-details.Warm, dramatic cinematic lighting dominates the scene. Soft golden and deep red ambient light comes from multiple glowing red paper lanterns hanging throughout the traditional wooden interior, creating rich contrast and beautiful rim lighting on the subject’s hair and shoulders. Subtle highlights and gentle shadows sculpt the body and fabric, while a soft fill light gently illuminates the face without flattening the features.The subject is a breathtakingly beautiful Korean woman in her early to mid-20s with flawless, porcelain-smooth skin, delicate facial features, large expressive dark eyes with subtle eyeliner, full natural lips, and long silky black hair cascading over her shoulders. She has an elegant, feminine East Asian bone structure with high cheekbones and a gentle, confident expression.She is seated gracefully on a wooden stool at a rustic wooden table, wearing a form-fitting sleeveless blue silk qipao dress with delicate white floral embroidery and side slits revealing black lace-trimmed stockings. She holds an open blue folding fan with white floral patterns in her right hand near her face, while her left hand rests on the table. Her legs are elegantly crossed and extended toward the camera, wearing glossy black high heels.The shot is taken from a slightly low three-quarter angle, looking slightly up at the subject to emphasize her elegant posture, long legs, and confident presence while keeping the composition balanced and flattering.The atmosphere is intimate, warm, and seductive, set inside a traditional East Asian wooden teahouse or antique room at night. Rich wooden textures, carved panels, and hanging red lanterns create a cozy yet luxurious mood with deep red and golden tones throughout the background.The image evokes a powerful feeling of quiet confidence, sensual elegance, and timeless feminine allure — a breathtaking, almost dreamlike moment of poised beauty and quiet seduction.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMf1bFHXAAAd4fr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMf1bgVXgAEBgwf?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/aytacaltintepe/status/2073896013169844655",
+      "tags": [
+        "cinematic",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785403736072,
+      "title": "Let's have a little between ChatGPT and Grok",
+      "url": "https://x.com/aytacaltintepe/status/2073896013169844655",
+      "collectedAt": "2026-07-30T09:29:29.052Z",
+      "githubSyncedAt": "2026-07-30T09:29:29.052Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
