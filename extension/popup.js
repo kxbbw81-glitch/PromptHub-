@@ -96,14 +96,45 @@ function renderVerificationStatus(feedback, queueLength = 0) {
   panel.style.display = 'flex';
 }
 
+function renderCollectionOutcome(button, receipt) {
+  if (!button || !receipt) return;
+  button.classList.remove('mini-btn-collected', 'mini-btn-existing', 'mini-btn-rejected');
+  if (receipt.outcome === 'saved') {
+    button.textContent = '✓ 已写入主站';
+    button.classList.add('mini-btn-collected');
+  } else if (receipt.outcome === 'already_exists') {
+    button.textContent = '＝ 主站已存在';
+    button.classList.add('mini-btn-existing');
+  } else {
+    button.textContent = '✓ 已验证主站';
+    button.classList.add('mini-btn-collected');
+  }
+  button.disabled = true;
+}
+
+function renderInitialBatchOutcome(button, outcome) {
+  if (!button || !outcome) return;
+  if (outcome.outcome === 'batch_duplicate') {
+    button.textContent = '⏭ 本批重复';
+    button.classList.add('mini-btn-existing');
+    button.disabled = true;
+  } else if (outcome.outcome === 'rejected') {
+    button.textContent = '！无法收藏';
+    button.classList.add('mini-btn-rejected');
+    button.disabled = true;
+  } else if (outcome.outcome === 'already_queued') {
+    button.textContent = '已在验证队列';
+    button.disabled = true;
+  }
+}
+
 async function waitForCollectionVerification(id, button) {
   for (let attempt = 0; attempt < 45; attempt += 1) {
     await new Promise(resolve => setTimeout(resolve, 1000));
     const receipt = await getCollectionReceipt(id);
     if (!receipt) continue;
     if (receipt.state === 'verified') {
-      button.textContent = '✓ 已验证主站';
-      button.classList.add('mini-btn-collected');
+      renderCollectionOutcome(button, receipt);
       await updateQueueUI();
       return;
     }
@@ -119,13 +150,16 @@ async function waitForCollectionVerification(id, button) {
   await updateQueueUI();
 }
 
-async function waitForBatchVerification(ids, button) {
+async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
   const trackedIds = [...new Set(ids || [])];
   for (let attempt = 0; attempt < 45; attempt += 1) {
     await new Promise(resolve => setTimeout(resolve, 1000));
     const receipts = await Promise.all(trackedIds.map(getCollectionReceipt));
     const verified = receipts.filter(receipt => receipt?.state === 'verified').length;
     const failed = receipts.filter(receipt => receipt?.state === 'failed').length;
+    receipts.forEach((receipt, index) => {
+      if (receipt?.state === 'verified') renderCollectionOutcome(buttonsById.get(trackedIds[index]), receipt);
+    });
     if (failed) {
       button.disabled = false;
       button.textContent = `↻ ${failed} 个收藏待重试`;
@@ -134,8 +168,11 @@ async function waitForBatchVerification(ids, button) {
       return;
     }
     if (verified === trackedIds.length) {
-      button.textContent = `✓ 已验证主站 ${verified} 个`;
+      const saved = receipts.filter(receipt => receipt?.outcome === 'saved').length;
+      const existing = receipts.filter(receipt => receipt?.outcome === 'already_exists').length;
+      button.textContent = existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
       button.classList.add('mini-btn-collected');
+      showToast(existing ? `主站写入 ${saved} 个；${existing} 个已存在，未重复写入` : `已写入 GitHub 主站 ${saved} 个提示词`);
       await updateQueueUI();
       return;
     }
@@ -559,16 +596,22 @@ function renderPrompts(prompts) {
         return;
       }
 
+      const buttonsById = new Map();
       content.querySelectorAll('.mini-btn-collect').forEach(button => {
+        const prompt = prompts[Number(button.dataset.idx)];
+        if (prompt?.id) buttonsById.set(prompt.id, button);
         button.disabled = true;
         button.textContent = '已加入队列';
       });
+      const outcomeById = new Map((result.outcomes || []).map(outcome => [outcome.id, outcome]));
+      outcomeById.forEach((outcome, id) => renderInitialBatchOutcome(buttonsById.get(id), outcome));
       await updateQueueUI();
+      const skipped = (result.outcomes || []).filter(outcome => ['batch_duplicate', 'rejected'].includes(outcome.outcome)).length;
       const summary = result.added
-        ? `已加入 ${result.added} 个收藏，正在验证 GitHub 主站`
+        ? `已加入 ${result.added} 个收藏，正在验证 GitHub 主站${skipped ? `；${skipped} 条已标注跳过原因` : ''}`
         : '检测到的提示词已在待验证队列中';
       showToast(summary);
-      await waitForBatchVerification(result.trackedIds, collectAllButton);
+      await waitForBatchVerification(result.trackedIds, collectAllButton, buttonsById);
     });
   }
 }

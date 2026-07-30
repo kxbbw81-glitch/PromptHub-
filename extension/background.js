@@ -268,6 +268,7 @@ async function addToQueue(item) {
 async function addItemsToQueue(items) {
   const rejected = [];
   const candidates = [];
+  const outcomes = [];
   const batchFingerprints = new Set();
   const batchSources = new Set();
 
@@ -277,9 +278,13 @@ async function addItemsToQueue(items) {
     const sourceKey = collectionSourceKey(safeItem);
     if (!safeItem || !isCompleteCollectionItem(safeItem) || !fingerprint || !sourceKey) {
       rejected.push(item);
+      outcomes.push({ id: trimText(item?.id, 120), outcome: 'rejected', reason: '提示词不完整、缺少结果图或原帖链接' });
       continue;
     }
-    if (batchFingerprints.has(fingerprint) || batchSources.has(sourceKey)) continue;
+    if (batchFingerprints.has(fingerprint) || batchSources.has(sourceKey)) {
+      outcomes.push({ id: safeItem.id, outcome: 'batch_duplicate', reason: '与本次识别的另一条提示词重复' });
+      continue;
+    }
     batchFingerprints.add(fingerprint);
     batchSources.add(sourceKey);
     candidates.push(safeItem);
@@ -308,6 +313,8 @@ async function addItemsToQueue(items) {
       count: queue.length + additions.length,
       added: additions.length,
       alreadyQueued: candidates.length - additions.length,
+      additions,
+      alreadyQueuedItems: candidates.filter(item => !additions.includes(item)),
       trackedItems: candidates
     };
   });
@@ -321,6 +328,11 @@ async function addItemsToQueue(items) {
   return {
     ...queued,
     rejected: rejected.length,
+    outcomes: [
+      ...outcomes,
+      ...queued.additions.map(item => ({ id: item.id, outcome: 'queued', reason: '已加入验证队列' })),
+      ...queued.alreadyQueuedItems.map(item => ({ id: item.id, outcome: 'already_queued', reason: '已在验证队列中' }))
+    ],
     trackedIds: queued.trackedItems.map(item => item.id),
     pendingVerification: true
   };
@@ -361,6 +373,7 @@ async function setCollectionReceipts(items, state, details = {}) {
         id: item.id,
         sourceUrl: trimText(item.sourceUrl || item.url, 2048),
         state,
+        outcome: trimText(details.outcome, 40),
         message: trimText(details.message, 240),
         error: trimText(details.error, 240),
         verifiedAt: details.verifiedAt || null,
@@ -703,14 +716,42 @@ async function syncQueuedItems() {
     }
 
     await removeSyncedQueueItems(queueSnapshot);
-    const message = result.count > 0
-      ? `已验证写入 GitHub 主站 ${result.count} 个提示词`
-      : `GitHub 主站已确认，${result.skipped || queueSnapshot.length} 个提示词已存在`;
-    await setCollectionReceipts(queueSnapshot, 'verified', {
-      message,
+    const savedIds = new Set(result.savedIds || []);
+    const existingIds = new Set(result.existingIds || []);
+    const savedItems = queueSnapshot.filter(item => savedIds.has(item.id));
+    const existingItems = queueSnapshot.filter(item => existingIds.has(item.id));
+    if (savedItems.length) {
+      await setCollectionReceipts(savedItems, 'verified', {
+        outcome: 'saved',
+        message: '已写入 GitHub 主站',
+        verifiedAt: new Date().toISOString()
+      });
+    }
+    if (existingItems.length) {
+      await setCollectionReceipts(existingItems, 'verified', {
+        outcome: 'already_exists',
+        message: 'GitHub 主站已存在，未重复写入',
+        verifiedAt: new Date().toISOString()
+      });
+    }
+    const unclassifiedItems = queueSnapshot.filter(item => !savedIds.has(item.id) && !existingIds.has(item.id));
+    if (unclassifiedItems.length) {
+      await setCollectionReceipts(unclassifiedItems, 'verified', {
+        outcome: 'already_exists',
+        message: 'GitHub 主站已确认，未重复写入',
+        verifiedAt: new Date().toISOString()
+      });
+    }
+    return {
+      success: true,
+      count: result.count,
+      skipped: result.skipped || 0,
+      savedIds: result.savedIds || [],
+      existingIds: result.existingIds || [],
+      verified: true,
+      verifiedCount: result.verifiedCount || queueSnapshot.length,
       verifiedAt: new Date().toISOString()
-    });
-    return { success: true, count: result.count, skipped: result.skipped || 0, verified: true, verifiedCount: result.verifiedCount || queueSnapshot.length };
+    };
   } catch (error) {
     const message = error?.message || 'GitHub 主站写入失败';
     await setCollectionReceipts(queueSnapshot, 'failed', { error: message, message: '收藏失败，已保留在队列中等待重试' });
@@ -1082,7 +1123,7 @@ async function syncQueueToGitHub(queue) {
       return true;
     });
 
-  if (entries.length === 0) return { success: true, count: 0, skipped: 0 };
+  if (entries.length === 0) return { success: true, count: 0, skipped: 0, savedIds: [], existingIds: [] };
 
   const token = await getGitHubToken();
   for (let attempt = 0; attempt < 5; attempt++) {
@@ -1091,9 +1132,20 @@ async function syncQueueToGitHub(queue) {
     const savedFingerprints = new Set(collections.map(collectionFingerprint));
     const savedSources = new Set(collections.map(collectionSourceKey).filter(Boolean));
     const additions = entries.filter(entry => !savedFingerprints.has(collectionFingerprint(entry)) && !savedSources.has(collectionSourceKey(entry)));
+    const existingEntries = entries.filter(entry => !additions.includes(entry));
     const skipped = entries.length - additions.length;
 
-    if (additions.length === 0) return { success: true, count: 0, skipped, verified: true, verifiedCount: entries.length };
+    if (additions.length === 0) {
+      return {
+        success: true,
+        count: 0,
+        skipped,
+        savedIds: [],
+        existingIds: existingEntries.map(entry => entry.id),
+        verified: true,
+        verifiedCount: entries.length
+      };
+    }
 
     const now = new Date().toISOString();
     const newCollections = additions
@@ -1104,7 +1156,15 @@ async function syncQueueToGitHub(queue) {
       await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
       const verification = await verifyGitHubCollections(token, additions);
       await scheduleDomesticRelease(newCollections.map(entry => entry.id));
-      return { success: true, count: additions.length, skipped, verified: true, verifiedCount: verification.count };
+      return {
+        success: true,
+        count: additions.length,
+        skipped,
+        savedIds: additions.map(entry => entry.id),
+        existingIds: existingEntries.map(entry => entry.id),
+        verified: true,
+        verifiedCount: verification.count
+      };
     } catch (error) {
       if (!error.retryable || attempt === 4) throw error;
       await waitForRetry(attempt);

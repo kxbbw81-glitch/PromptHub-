@@ -120,6 +120,20 @@ test('one-click collection batches detected prompts into one queued GitHub write
   assert.equal(storage.prompthub_queue, undefined);
 });
 
+test('one-click collection identifies the prompt already on the GitHub primary site', async () => {
+  const { context, remote } = createHarness();
+  const existing = prompt('batch-existing', 'A refined interior portrait of an adult woman in a sunlit studio, linen textures, soft window shadows, a 50mm lens, realistic skin and fabric, warm neutral palette, editorial composition, shallow depth of field, photorealistic finish, no text, no watermark.');
+  const newPrompt = prompt('batch-new', 'A cinematic product photograph of a dark green glass bottle on textured stone, soft side light, restrained reflections, subtle atmospheric haze, 85mm lens, high-end commercial styling, natural material detail, balanced composition, photorealistic finish, no text, no watermark.');
+  remote.collections = [existing];
+
+  const result = await context.addItemsToQueue([existing, newPrompt]);
+
+  assert.deepEqual(Array.from(result.outcomes, outcome => outcome.outcome), ['queued', 'queued']);
+  assert.equal((await waitForReceipt(context, 'batch-existing')).outcome, 'already_exists');
+  assert.equal((await waitForReceipt(context, 'batch-new')).outcome, 'saved');
+  assert.deepEqual(remote.collections.map(item => item.id), ['batch-new', 'batch-existing']);
+});
+
 test('incomplete prompts and duplicate source posts never reach the primary site', async () => {
   const { context, remote } = createHarness();
   const complete = prompt('complete', 'A cinematic editorial portrait of an adult woman standing in a quiet modern gallery, soft directional daylight, tailored black coat, realistic fabric texture, 85mm lens, shallow depth of field, gentle shadows, refined color palette, high-end magazine photography, photorealistic finish, no text, no watermark.');
