@@ -1,7 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T10:14:08.833Z",
+  "updatedAt": "2026-07-30T10:15:12.595Z",
   "collections": [
+    {
+      "id": "grok_x_2082611424824623135",
+      "title": "Hard sci-fi desert 3x3 grid + Minimax H3 animation",
+      "category": "科幻",
+      "tags": [
+        "sci-fi",
+        "desert",
+        "storyboard",
+        "3x3-grid",
+        "animation",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "DIRECTIVE:\nCreate a cinematic 3x3 grid (9 panels) storyboarding a \"Hard Sci-Fi\" desert sequence.\n\nSUBJECT:\nThe bald, bearded man.\n\nCOSTUME:\nWearing a weathered, high-tech \"Stillsuit\" (desert survival armor) and a flowing linen cape aimed at dust protection.\n\nSETTING:\nA scorched desert planet with a massive brutalist tower in the distance.\n\nSTORY ARC:\n\nRow 1 (The Trek):\n    Panel 1: Extreme Wide Shot of the endless dunes. Heat waves distortion. The subject is a tiny dot walking.\n    Panel 2: Low angle tracking shot of the subject's boots sinking into the orange sand.\n    Panel 3: Medium shot of the subject drinking from a recycling tube in his suit.\n\nRow 2 (The Discovery):\n    Panel 4: POV shot looking through high-tech binoculars (digital overlay) at the Massive Tower silhouette against the giant sun.\n    Panel 5: The subject lowers the binoculars, looking concerned.\n    Panel 6: Close-up of his hand touching the sand, feeling the vibration of a massive machine approaching.\n\nRow 3 (The Confrontation):\n    Panel 7: The subject draws a crysknife (crystalline blade).\n    Panel 8: Extreme Close-up of his eyes (glowing blue) narrowing in focus.\n    Panel 9: Wide shot from behind the subject facing a wall of incoming sandstorm.\n\nTECHNICAL SPECS:\n\nDirector of Photography:\n    Greig Fraser style.\n\nColor Palette:\n    Monochromatic ochre, deep orange, stark blacks, blinding white highlights.\n\nCamera:\n    IMAX digital, telephoto compression for background scale.\n\nThen, with Mimiax H3 and the reference image you've just generated, use this for animating it:\n\nEpic desert sci-fi, harsh golden-hour light, volumetric sand haze, anamorphic lens flares, subtle handheld drift, heavy atmospheric particles, 35mm film texture.\n\nUse the provided 3x3 grid as the only visual reference. Lock the exact same woman (face, scars, green eyes, headscarf, desert armor, cape) and environments from every panel. Do not invent new outfits or faces.\n\n[TIMELINE] 0-1.7s: [Wide establishing] Lone figure walking across endless dunes toward twin massive suns. Heat shimmer, long shadow stretching behind her.\n1.7-3.4s: [Extreme close-up] Her scarred face fills the frame. Eyes locked on camera, wind tugging the dirty headscarf, grit on skin, unblinking intensity.\n\n3.4-5.1s: [Tight detail insert] Gloved hand grips the rusted multi-tool weapon. Metal catches the orange light, cable dangling, fingers adjusting the grip with quiet precision.\n\n5.1-6.8s: [Low wide silhouette] The towering industrial structure rises against the giant sun. Dust storms swirl at its base, scale feeling ancient and oppressive.\n\n6.8-8.5s: [Medium tracking] She advances through thick sandstorm, lower face wrapped, cape and scarf whipping hard. Eyes visible above the cloth, determined stride.\n\n8.5-10.2s: [Hero wide] She stands alone on the rocky outcrop, cape flowing, surveying the empty desert below. Wind howls, silhouette sharp against the hazy sky.\n\n10.2-11.9s: [Dynamic tracking + low angle] She charges down the steep dune face, boots kicking up thick clouds of sand, body leaning forward with full momentum.\n\n11.9-13.6s: [Macro atmospheric] Golden sand particles explode and float in extreme slow motion, backlit by the blazing sun, pure texture and light.\n\n13.6-15s: [Intimate close-up] Inside the dark cave, shafts of light cut through. She sits against the rock, armor dusted, breathing controlled, eyes sharp and watching the entrance.\n\nPhotorealistic, ultra-detailed skin and fabric textures, perfect sand physics, coherent character identity across every cut, cinematic color grade, heavy film grain, no artifacts, movie-level continuity.",
+      "image": "https://pbs.twimg.com/media/HObredBXUAESCYF.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HObredBXUAESCYF.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObredBXUAESCYF.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "nano banana pro / Minimax H3",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/techhalla/status/2082611424824623135",
+      "url": "https://x.com/techhalla/status/2082611424824623135",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785406512587,
+      "collectedAt": "2026-07-30T10:15:12.587Z",
+      "githubSyncedAt": "2026-07-30T10:15:12.587Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082766325316026800",
+      "title": "Premium cinematic coffee brand 2x2 campaign posters",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "coffee",
+        "advertising",
+        "campaign",
+        "2x2-grid",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic commercial advertising poster featuring the same confident young man appearing across four premium coffee brand-inspired posters arranged in a clean 2×2 grid collage. Each panel has its own unique color palette, typography, and fantasy world emerging from a coffee cup while maintaining a cohesive luxury advertising aesthetic.\n\nTop Left – Green Nature Theme: The man confidently extends a branded coffee cup toward the camera using dramatic forced perspective. From the cup grows a lush miniature forest with towering pine trees, rocky cliffs, cascading waterfalls, mist, floating leaves, and magical sunlight. Deep emerald-green background with oversized bold typography behind the subject. Luxury eco-premium coffee campaign style.\n\nTop Right – Urban City Theme: The man holds a red coffee cup toward the viewer while a futuristic metropolitan skyline emerges from the cup. Roads transform into flowing coffee streams with cinematic traffic, glowing skyscrapers, dramatic clouds, volumetric smoke, golden-hour lighting, and warm amber tones. Bold oversized typography in the background with premium editorial branding.\n\nBottom Left – Cozy Winter Theme: The man presents a coffee cup that opens into a warm wooden cabin with glowing fireplaces, snow-covered pine forests, warm interior lighting, soft snowfall, floating steam, and cozy cinematic atmosphere. Earthy beige and brown color palette with nostalgic premium coffee branding and elegant typography.\n\nBottom Right – Energy Explosion Theme: The man dynamically leaps beside a coffee cup bursting with colorful coffee splashes, donuts, sprinkles, planets, swirling liquid, glowing particles, neon energy trails, and vibrant orange-pink gradients. Bold oversized typography fills the background, creating a youthful, energetic campaign with playful motion and excitement.\n\nThe same man appears in every panel with short textured black hair, neatly trimmed beard and mustache, warm brown eyes, friendly confident smile, wearing outfits matching each theme. Each coffee cup is held close to the lens for a dramatic forced-perspective effect, making the cup appear oversized.\n\nDesign style: premium global advertising campaign, magazine cover quality, luxury branding, photorealistic fantasy compositing, cinematic storytelling, surreal miniature worlds, hyper-detailed textures, HDR, volumetric lighting, atmospheric fog, realistic reflections, depth of field, sharp focus, vibrant color grading, professional product photography, Adobe Photoshop compositing, Octane Render, Unreal Engine, 8K ultra-HD, award-winning commercial poster, clean modern layout, bold typography, premium editorial finish.",
+      "image": "https://pbs.twimg.com/media/HOd47SLaAAAChg1.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOd47SLaAAAChg1.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOd47SLaAAAChg1.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/mon010_de/status/2082766325316026800",
+      "url": "https://x.com/mon010_de/status/2082766325316026800",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785406512587,
+      "collectedAt": "2026-07-30T10:15:12.587Z",
+      "githubSyncedAt": "2026-07-30T10:15:12.587Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082766299768160414",
+      "title": "Expressive ink sketch mixed-media portrait",
+      "category": "人像",
+      "tags": [
+        "ink",
+        "mixed-media",
+        "portrait",
+        "editorial",
+        "sketch",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A dramatic, high-impact portrait rendered in an expressive ink sketch and mixed-media illustration style, using the uploaded image for exact facial likeness and proportions. The man is shown in side profile, his presence intense and chaotic. His face and upper body are layered with cryptic handwritten text, symbols, and abstract glyphs, partially wrapping around facial contours, suggesting inner turmoil and hidden meaning.\n\nHe wears a dark, abstract jacket, heavily textured with rough ink strokes, sharp angular linework, and vibrant ink splatters, creating a raw, rebellious visual energy. The illustration style is bold and experimental, blending fine pen detailing with aggressive brush marks, splashes, and controlled distortion.\n\nThe background is a pale, aged parchment tone, featuring subtle grain, faded paper texture, delicate linework, ink drips, and light stains-evoking an old manuscript or forgotten sketchbook.\n\nHigh contrast, expressive composition, artistic chaos balanced with precision, editorial art meets conceptual illustration, moody, intense, and emotionally charged.\n\nUse the attached image as reference. Facial characteristics should remain same.",
+      "image": "https://pbs.twimg.com/media/HOd454zaMAA_Y_s.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOd454zaMAA_Y_s.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOd454zaMAA_Y_s.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Arafathism/status/2082766299768160414",
+      "url": "https://x.com/Arafathism/status/2082766299768160414",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785406512587,
+      "collectedAt": "2026-07-30T10:15:12.587Z",
+      "githubSyncedAt": "2026-07-30T10:15:12.587Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "抽象",
