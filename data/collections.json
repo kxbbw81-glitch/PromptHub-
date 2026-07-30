@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:29:42.982Z",
+  "updatedAt": "2026-07-30T14:38:10.051Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mbxxa_kkal",
+      "image": "https://pbs.twimg.com/media/HK-MqAsa0AA0F1O?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK-MqAsa0AA0F1O?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK-MqAtasAAiTNB?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HK-MqAuaEAAV3hf?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "A seductive stunning 20-year-old Japanese or Korean woman wearing show off-white long white lace robe cardigan only through neckline, collar, wrap front, shoulder line, upper-chest fabric posing with natural squatting pose, relaxed low posture, balanced body weight, casual grounded body language in render selected Kowloon Walled City interior passage only through nearby surfaces, local objects, captured as an editorial film still with bold narrative fashion image language. bold narrative fashion portraiture, vivid color blocking.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK-MqAsa0AA0F1O?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK-MqAtasAAiTNB?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HK-MqAuaEAAV3hf?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2067026167002276166",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785422287486,
+      "title": "Be careful when using this set of prompts~ In Spee",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2067026167002276166",
+      "collectedAt": "2026-07-30T14:38:10.051Z",
+      "githubSyncedAt": "2026-07-30T14:38:10.051Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
