@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:40:20.671Z",
+  "updatedAt": "2026-07-30T14:45:48.268Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mlpec_svjr",
+      "image": "https://pbs.twimg.com/media/HKwG5hvasAAEzMK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKwG5hvasAAEzMK?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "9:16，棚拍搭景、真实相机摄影，复古中式时尚画报，TANG VISION 杂志封面风格。  一位成年东亚女性，冷白瓷肌，中式红妆，微哑光底妆，红棕色眼影，轻微烟熏眼妆，上扬细眼线，卧蚕，浆果红唇，微水光唇感，淡玫瑰色腮红，保留真实皮肤纹理与轻微绒毛感。  黑色蓬松低盘发，凌乱碎发，侧边大朵牡丹花发饰，松散复古。  身穿红色改良旗袍礼服，银白刺绣花纹，高开衩设计，珍珠长链叠戴，红色薄纱披搭，整体强调上围、丰腴身材与 S 型曲线。  人物侧坐在高台/箱体上，一条腿弯曲抬起，另一条腿自然下垂延伸，手持细长烟杆，仰头轻吐烟雾，神情慵懒、冷艳、不看镜头，具有民国画报式戏剧感。  场景为复古中式室内影棚，深色木质屏风、雕花木门、山水壁画、牡丹花墙、暗棕色墙面、花瓣铺地、白色蜡烛、白瓷茶具、珍珠链、鸟笼、红纱、瓷瓶、红牡丹与粉牡丹，奢华东方布景。前景有花束、茶具、蜡烛与珍珠虚化遮挡。  明亮暗调棚拍布光，左前方强暖柔光照亮人物，面部曝光充足并轻微过曝，皮肤有发光般的高光溢出感；右后方强侧逆光勾勒头发和红纱轮廓；空气中烟雾形成柔和体积光束；整体柔焦光晕、轻微 bloom、浅景深、暗部保留细节、不死黑、前景花瓣运动模糊，电影感商业大片。\n\n其实感觉照片还是缺少了点光感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKwG5hvasAAEzMK?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2066034211480588606",
+      "tags": [
+        "东方",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785422742997,
+      "title": "复古东方风情的魅惑室内",
+      "url": "https://x.com/nanyuan0412/status/2066034211480588606",
+      "collectedAt": "2026-07-30T14:45:48.268Z",
+      "githubSyncedAt": "2026-07-30T14:45:48.268Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
