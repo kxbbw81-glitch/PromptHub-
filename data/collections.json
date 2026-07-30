@@ -1,7 +1,111 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:38:12.680Z",
+  "updatedAt": "2026-07-30T14:39:08.825Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "静物",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7md8ao_9ou8",
+      "image": "https://pbs.twimg.com/media/HK0sSPPbsAA46jN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK0sSPPbsAA46jN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0sSPRbEAAYPY2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0sSPNbQAAVGDS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0sSPPb0AAqWAN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "这组我真的调了挺久。\n\n一开始很容易跑偏：\n\n要么变成大红大金国潮，\n\n要么变成茶壶香炉静物摆拍，\n\n要么画面一满就没了宋式的气质。\n\n后来发现重点其实就几个：\n\n1. 留白一定要大\n\n2. 颜色一定要低饱和\n\n3. 朱红只能小面积点到为止\n\n4. 不要堆传统元素\n\n5. 让主体“安静地存在”就够了\n\n这次整理了 3 组方向：\n\n茶饮、香文化、文创展 KV。\n\n以下图片均为 AI 生成。\n\n完整提示词见评论区第一条\n\n想做高级新中式的，可以收藏这组。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK0sSPPbsAA46jN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0sSPRbEAAYPY2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0sSPNbQAAVGDS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0sSPPb0AAqWAN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/YangOnchain/status/2066356541973012920",
+      "tags": [
+        "低饱和"
+      ],
+      "timestamp": 1785422347584,
+      "title": "宋式美学 x AI 海报提示词",
+      "url": "https://x.com/YangOnchain/status/2066356541973012920",
+      "collectedAt": "2026-07-30T14:39:08.825Z",
+      "githubSyncedAt": "2026-07-30T14:39:08.825Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7md8an_zy46",
+      "image": "https://pbs.twimg.com/media/HKyC7-yXQAAZ8Mg?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKyC7-yXQAAZ8Mg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKyC8GEW8AA3L8L?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKyC8OSW4AApdMt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKyC8DyWMAATBUB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A professional studio photography collection featuring diverse couples posing joyfully against clean, neutral white backdrops with soft, bright studio lighting. In each scene, the woman wears an elegant, full-length dark navy blue evening gown, styled beautifully with flowing skirts and sophisticated necklines, ranging from modern layered tulle to sleek satin textures. The men are dressed in sharp, formal attire, alternating between a classic dark tailored suit with a white collared shirt and sleek, monochromatic all-black button-down shirts with matching trousers. The collection showcases various expressions of romance and connection, including a couple sharing an intimate embrace while looking into each other's eyes, a candid, laughing moment as a man holds a woman spinning in her dress, a classic portrait of a couple smiling directly at the camera, and a tender profile view of a couple holding hands and smiling warmly at one another.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKyC7-yXQAAZ8Mg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKyC8GEW8AA3L8L?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKyC8OSW4AApdMt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKyC8DyWMAATBUB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2066170303701471382",
+      "tags": [
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1785422347583,
+      "title": "Couples in elegant navy and black attire",
+      "url": "https://x.com/Minahil42298354/status/2066170303701471382",
+      "collectedAt": "2026-07-30T14:39:08.825Z",
+      "githubSyncedAt": "2026-07-30T14:39:08.825Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7md8am_92gq",
+      "image": "https://pbs.twimg.com/media/HK0t1RYbgAAAptX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK0t1RYbgAAAptX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0t1RnaoAAESFW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0t1T_bwAAejIX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示：\n{\"image_type\":\"studio_fashion_portrait\",\"genre\":\"minimalist_editorial\",\"composition\":{\"orientation\":\"portrait\",\"framing\":\"full-body\",\"subject_position\":\"centered_slightly_left\",\"camera_angle\":\"eye_level\",\"crop\":\"full_length\",\"negative_space\":\"large_clean_space_above_and_around_subject\",\"balance\":\"asymmetrical_with_chair_on_right\"},\"subject\":{\"category\":\"person\",\"gender_presentation\":\"feminine\",\"pose\":\"standing_with_one_leg_raised_and_resting_on_chair\",\"body_orientation\":\"slightly_angled_toward_camera\",\"head_tilt\":\"subtle\",\"expression\":\"neutral_confident\",\"hair\":{\"color\":\"dark_brown_to_black\",\"length\":\"very_long\",\"style\":\"straight_with_soft_volume\"},\"accessories\":[\"small_necklace\",\"bracelets\",\"subtle_forearm_tattoos\"],\"hand_position\":\"one_hand_in_pocket_one_hand_resting_on_chair\"},\"wardrobe\":{\"top\":{\"type\":\"sleeveless_fitted_tank_top\",\"color\":\"black\"},\"bottom\":{\"type\":\"high_waisted_wide_leg_lounge_pants\",\"color\":\"light_beige_cream\",\"fit\":\"oversized_flowing\"},\"footwear\":{\"type\":\"minimal_flat_sandals\",\"color\":\"dark_brown\"}},\"environment\":{\"location\":\"photo_studio\",\"background\":\"seamless_light_gray_backdrop\",\"props\":[\"white_wooden_bar_chair\"],\"style\":\"clean_minimal\"},\"lighting\":{\"setup\":\"soft_studio_lighting\",\"quality\":\"diffused\",\"direction\":\"front_left_key_light\",\"contrast\":\"low_to_medium\",\"shadows\":\"soft_and_subtle\",\"highlights\":\"gentle_skin_highlights\"},\"color_palette\":{\"dominant\":[\"light_gray\",\"black\",\"cream_beige\",\"white\"],\"mood\":\"neutral_modern_elegant\"},\"technical\":{\"lens_look\":\"50mm_to_85mm_portrait_range\",\"depth_of_field\":\"moderate\",\"focus\":\"sharp_on_subject\",\"image_quality\":\"high_resolution\",\"noise\":\"minimal\"},\"aesthetic\":{\"style_keywords\":[\"editorial_fashion\",\"minimalist\",\"modern\",\"clean\",\"soft_luxury\",\"casual_chic\"],\"mood_keywords\":[\"confident\",\"relaxed\",\"refined\",\"effortless\"]},\"generation_prompt\":\"专业工作室中的全身极简时尚编辑肖像，女性主体拥有非常长的深色头发，身穿合身黑色无袖背心和超大码奶油色宽腿休闲裤，一手插兜，一腿搁在白色木质吧椅上，中性自信表情，柔和漫射工作室灯光，无缝浅灰色背景，干净现代美学，精致珠宝，柔和阴影，高端时尚摄影，自然肤色，锐利焦点，优雅构图，大量负空间，逼真纹理，优质编辑风格。\"}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK0t1RYbgAAAptX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0t1RnaoAAESFW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK0t1T_bwAAejIX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ZaraIrahh/status/2066358217349693799",
+      "tags": [
+        "minimalist",
+        "dark",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785422347582,
+      "title": "Nano Banana Pro",
+      "url": "https://x.com/ZaraIrahh/status/2066358217349693799",
+      "collectedAt": "2026-07-30T14:39:08.825Z",
+      "githubSyncedAt": "2026-07-30T14:39:08.825Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
