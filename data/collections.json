@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:03:00.759Z",
+  "updatedAt": "2026-07-30T11:03:31.933Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7envei_2zyu",
+      "image": "https://pbs.twimg.com/media/HL9vU4bbQAA_VZK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HL9vU4bbQAA_VZK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL9vU4Wa4AAcGRQ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HL9vU6UbMAAeyIt?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HL9vYtJboAA8wUB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Cigarettes pair really well with cheongsams and vinyl records \n\n#GrokImagine #Qualitymode\n\nPrompt :\nCreate a photorealistic editorial portrait of one 20-year-old Japanese or Korean female portrait subject, tall slim-curvy hourglass body, long legs, narrow waist, rounded hips, cool editorial face, sharp features, calm high-fashion presence, long straight hair with full Japanese bangs, smooth silhouette, soft black-tea brown hair.\n\nScene: The portrait takes place in British record listening corner, turntable setup, stacked vinyl sleeves, bookshelf speakers, aged wood cabinet, lamp fixture as a visible object, small side table, indoor cool artificial ambience, cool-white ambient cast, clean neutral room brightness, dim exterior if visible, window-frame pattern light cast on the subject, framed daylight shadows, visible geometric shadow bands on face and clothing, Scene priority: keep the selected environment readable with clear spatial context.\n\nShe wears embroidered sleeveless cheongsam outfit, shoulder-baring armholes, mandarin collar, diagonal frog-button placket, body-contouring cut, waist-high side slit, ornate floral and dragon embroidery, the cheongsam base fabric in white.\n\nShe is lying on a sofa with languid lying arrangement, relaxed uneven limbs, soft settled weight; a cigarette held naturally between the fingers in one hand, faint smoke around the hand; head slightly off-axis near lens, face angled diagonally.\n\nThe composition uses worm's-eye view, ultra-low upward camera, strong near-far scale distortion, 0-degree front view, frontal torso toward camera.\n\nglossy Japanese portrait color grade, lifted midtones, creamy pale highlights, warm peach skin-tone protection, cyan-green shadows, vivid saturation, clean deep blacks, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HL9vU4bbQAA_VZK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HL9vU4Wa4AAcGRQ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HL9vU6UbMAAeyIt?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HL9vYtJboAA8wUB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2071497220462112899",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785409407163,
+      "title": "Cigarettes pair really well with cheongsams and vi",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2071497220462112899",
+      "collectedAt": "2026-07-30T11:03:31.933Z",
+      "githubSyncedAt": "2026-07-30T11:03:31.933Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
