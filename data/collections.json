@@ -1,7 +1,153 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:01:18.464Z",
+  "updatedAt": "2026-07-30T09:09:24.485Z",
   "collections": [
+    {
+      "id": "grok_x_2082697614001160608",
+      "title": "Italian summer lakeside portrait prompt",
+      "category": "人像",
+      "tags": [
+        "portrait",
+        "italy",
+        "travel",
+        "chatgpt-image",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Subject: A close-up portrait of a young woman with dark brown hair styled in a loose, casual updo with face-framing strands. She has light freckles, soft natural makeup, subtle gold hoop earrings, and a delicate gold necklace. She is wearing a black floral sundress with thin spaghetti straps and looking back over her shoulder with a warm, gentle smile. Setting: A picturesque, cobbled narrow street in an Italian lakeside village (Lake Como style). In the background, lush green mountains slope into deep blue waters under a bright, sunny sky. Rustic stone buildings line the alley with classic wooden shutters, potted flowers, a dark green sign reading \"TRATTORIA IL PORTICO\", and a wooden chalkboard menu featuring Italian dishes like homemade pasta and tiramisu. Lighting & Atmosphere: Warm, golden Mediterranean sunlight with soft shadows, creating a relaxed, sun-kissed vacation aesthetic. High detail, photographic quality, shallow depth of field with soft background blur.",
+      "image": "https://pbs.twimg.com/media/HOc6aZQa0AAt9L5.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOc6aZQa0AAt9L5.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOc6aZQa0AAt9L5.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "ChatGPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ajeebmizaj/status/2082697614001160608",
+      "url": "https://x.com/ajeebmizaj/status/2082697614001160608",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785402564477,
+      "collectedAt": "2026-07-30T09:09:24.477Z",
+      "githubSyncedAt": "2026-07-30T09:09:24.477Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082666781953728535",
+      "title": "Salsa couple heart paint splash portrait",
+      "category": "人像",
+      "tags": [
+        "couple",
+        "paint-splash",
+        "portrait",
+        "gemini",
+        "grok",
+        "gpt-image",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A high-resolution, full-body portrait of a romantic couple dancing salsa against a dark gray background. The man has a well-styled beard and hair, wearing a sleek black dress shirt and black trousers. The woman is wearing an elegant, flowing red v-neck dress, with her hair styled in a neat bun. Surrounding them is a dynamic, fluid splash of glossy liquid paint that forms the shape of a large heart. The left side of the heart is made of thick, shiny black paint splashing behind the man, while the right side is made of vibrant, glossy red paint splashing around the woman. The paint droplets and splashes look hyper-realistic and perfectly sculpted in mid-air. The lighting is dramatic and cinematic, highlighting the expressions of the dancers and the reflective texture of the liquid paint, 8k resolution, photorealistic.",
+      "image": "https://pbs.twimg.com/media/HOceZCFakAArUzh.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOceZCFakAArUzh.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOceZCFakAArUzh.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Gemini / Grok / GPT Image 2.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AiWithTariq/status/2082666781953728535",
+      "url": "https://x.com/AiWithTariq/status/2082666781953728535",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785402564477,
+      "collectedAt": "2026-07-30T09:09:24.477Z",
+      "githubSyncedAt": "2026-07-30T09:09:24.477Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082660670651449725",
+      "title": "Botanical vine portrait on white canvas",
+      "category": "人像",
+      "tags": [
+        "botanical",
+        "minimalist",
+        "portrait",
+        "gemini",
+        "grok",
+        "gpt-image",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "An artistic portrait of a woman entirely constructed from delicate green vines, botanical stems, and small clovers arranged on a stark white canvas. The fine lines of her eyes, eyebrows, nose, lips, and flowing hair are meticulously outlined using thin, organic plant tendrils and moss-like details. Natural shade of lush green, minimalist composition, soft shadows giving a subtle 3D depth, clean and elegant visual style, photorealistic plant textures, 8k resolution.",
+      "image": "https://pbs.twimg.com/media/HOcYxkbagAAQUB-.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOcYxkbagAAQUB-.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcYxkbagAAQUB-.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "Gemini / Grok / GPT Image 2.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Arina_hoqe/status/2082660670651449725",
+      "url": "https://x.com/Arina_hoqe/status/2082660670651449725",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785402564477,
+      "collectedAt": "2026-07-30T09:09:24.477Z",
+      "githubSyncedAt": "2026-07-30T09:09:24.477Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082735296140247497",
+      "title": "Futurist Chinese courtyard villa Midjourney",
+      "category": "建筑",
+      "tags": [
+        "midjourney",
+        "chinese-courtyard",
+        "villa",
+        "architecture",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "未来主义的中国庭院别墅，当代东方建筑，极简主义的中国美学，带超薄屋檐的浮动屋顶，白色石灰华墙，温暖的柚木，落地无框玻璃，镜面反射池，黑色花岗岩垫脚石，天然太湖岩石，优雅的松树，竹林，苔藓花园，宁静的水景，隐藏的线性照明，柔和的雾系统，无缝的室内和室外连接，禅宗氛围，豪华景观设计，干净的几何形状，温暖的日落照明，电影构图，建筑摄影，超逼真，极其详细的纹理，优质材料，体积光，光线追踪，辛烷值渲染，虚幻引擎5，V射线质量，杰作，8K --ar 16:9 --风格化200-质量2 --chaos 8 --v 7",
+      "image": "https://pbs.twimg.com/media/HOdcn_EaAAAB1W3.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOdcn_EaAAAB1W3.jpg",
+        "https://pbs.twimg.com/media/HOdcn6eawAELZJR.jpg",
+        "https://pbs.twimg.com/media/HOdcn6eaoAEGTZe.jpg",
+        "https://pbs.twimg.com/media/HOdcn_Da8AAnm43.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOdcn_EaAAAB1W3.jpg",
+        "https://pbs.twimg.com/media/HOdcn6eawAELZJR.jpg",
+        "https://pbs.twimg.com/media/HOdcn6eaoAEGTZe.jpg",
+        "https://pbs.twimg.com/media/HOdcn_Da8AAnm43.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Midjourney",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/hvanvei/status/2082735296140247497",
+      "url": "https://x.com/hvanvei/status/2082735296140247497",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785402564477,
+      "collectedAt": "2026-07-30T09:09:24.477Z",
+      "githubSyncedAt": "2026-07-30T09:09:24.477Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2080969975087730979",
       "title": "AI微表情满眼深情古风特写",
