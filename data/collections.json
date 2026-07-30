@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:33:25.997Z",
+  "updatedAt": "2026-07-30T13:43:55.431Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7ke4o8_nvoo",
+      "image": "https://pbs.twimg.com/media/HK_s9d0a0AAX1yu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK_s9d0a0AAX1yu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK_s9d2bMAApQ4g?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "---gpt-image2-提示词---\n根据照片女人形象生成照片，比例9:16。1. 人物主体：头部低下看着镜头，眼神暧昧；双手举起在头后面撩头发，上身穿着简约白色短款露脐T恤，版型宽松，衣长较短，自然露出平坦的腰腹与肚脐，休闲又带点小性感；下装是橄榄绿色的布料，看起来像是宽松的裙子，布料松垮地挂在胯部，质感柔软。\n2. 互动动作：女生坐在男生的腿上，男生从后面用右手搂住女生的腰部，拇指轻按在人物腰侧的布料上，其余手指自然环住腰腹，动作轻柔，增添了亲密、随性的感觉。\n3. 环境与光线：背景是简洁的室内空间，能看到白色的墙面、门框与灯具，光线为室内柔和的自然光/灯光，亮度适中，在人物肩部形成轻微的光晕，整体色调干净，以白、绿、肤色为主，风格清新日常。\n4. 氛围与情绪：没有清晰的面部表情，低头的姿态、凌乱的发丝搭配露脐装，传递出一种慵懒、松弛、随性的感觉，手部的接触又让画面多了几分亲昵与暧昧，像是日常里不经意的瞬间抓拍。非残疾人形象，不能出现多手指，多手出现",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK_s9d0a0AAX1yu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK_s9d2bMAApQ4g?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ohmuyi/status/2067131305318572092",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785419030313,
+      "title": "盈盈一握的小蛮腰你顶不顶得住？",
+      "url": "https://x.com/ohmuyi/status/2067131305318572092",
+      "collectedAt": "2026-07-30T13:43:55.430Z",
+      "githubSyncedAt": "2026-07-30T13:43:55.430Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082313690888696268",
       "title": "Korean sweet-girl airport candid photo",
