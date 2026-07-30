@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T14:27:26.867Z",
+  "updatedAt": "2026-07-30T02:54:23.699Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms6x6vjr_atti",
+      "image": "https://pbs.twimg.com/media/HOaaQkuWUAAg5WF?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOaaQkuWUAAg5WF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaaQkvXwAAPr42?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaaQkxXwAEOKnh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaaQkyXMAA5hQo?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成一张竖幅2:3、照片级超写实运动时尚编辑人像。人物为一位20多岁的年轻成年东亚女性，低机位近距离仰拍，画面从大腿上方延伸至头顶，身体位于中央。她略微俯视镜头，头部轻轻向右倾斜，眼神平静、冷淡、略带疲惫感，嘴唇自然微启。她拥有精致鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁、低饱和裸粉色嘴唇，眼下与鼻梁附近有少量自然雀斑或小痣。肤色暖白，脸部、颈部和腹部带运动后的湿润光泽与细小汗珠，保留真实毛孔、绒毛、肤色变化和皮肤纹理，不要塑料磨皮。\n\n深棕黑色长直发自然披散，戴纯黑色棒球帽，帽檐向前压低；额前和脸侧有被汗水打湿的细碎发丝，发梢被暖色逆光勾亮。她穿黑色长袖修身运动上衣，双手抓住衣摆并向上提至胸下位置，胸部由黑色运动内衣或衣料完整遮挡，不露点；下身穿黑色宽松抽绳运动裤，裤腰略低，露出紧致自然的腰腹与肚脐。手指结构清晰，握衣动作真实，衣料具有自然张力和褶皱。\n\n环境为极简室内健身房、更衣区或水泥空间，背景是暖灰米色墙面与模糊建筑线条，无明显器械。暖色夕阳或钨丝灯从人物右后方照射，形成发丝轮廓光和肩颈暖金色边缘；左前方以大型柔光箱补亮面部和腹部。整体低饱和、低对比、暖棕灰电影色调。\n\n摄影参数：28mm或35mm镜头，明显低机位仰拍，f/2.0，浅景深，1/500秒凝固汗珠，ISO400，轻微胶片颗粒，真实广角透视，运动杂志编辑摄影，cinematic athletic portrait，photorealistic，natural imperfections，subsurface scattering，realistic sweat droplets，soft highlight roll-off。\n\n避免：裸体、露点、透明衣物、色情动作、夸张胸腰比例、未成年人特征、错误手指、多余手臂、畸形腹部、塑料皮肤、过度磨皮、过强HDR、过度锐化、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOaaQkuWUAAg5WF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaaQkvXwAAPr42?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaaQkxXwAEOKnh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOaaQkyXMAA5hQo?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082586973340921985",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785380060728,
+      "title": "X 上的 ToroJushiAi：“Prompt ⬇️⬇️⬇️ https://t.co/ugeXiJd0fN” / X",
+      "url": "https://x.com/ToroJushiAi/status/2082586973340921985",
+      "collectedAt": "2026-07-30T02:54:23.699Z",
+      "githubSyncedAt": "2026-07-30T02:54:23.699Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2081614603541500366",
       "title": "5 秒固定机位时尚换装视频",
