@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:12:34.743Z",
+  "updatedAt": "2026-07-30T06:19:33.168Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms74ipv6_s70u",
+      "image": "https://pbs.twimg.com/media/HOY8QgrWkAA2lUw?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOY8QgrWkAA2lUw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOY8RcFWEAAjki0?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use case: photorealistic-natural\n围绕具体主题内容生成一张 3:4 竖版人物摄影海报。这不是普通校园写真，而是一张把放学后的短暂停顿转译成“窗光切开时间”的编辑摄影：百叶窗投下的长条光带从画面右上方斜切课桌、人物肩颈与地面，承担时间流逝的物理刻度；半透明窗帘向室内鼓起，在人物背后夹出一块安静的亮区，而不是把教室拍成拥挤的青春偶像剧布景。\n同一位 22 岁韩国成年女性坐在靠窗课桌边缘，身体微侧，左手自然压住一本合起的练习册，右手轻触被风吹起的发梢；表情刚从走神中回到镜头，嘴唇放松，不刻意微笑。画面第一眼落在被夕阳照亮的脸和眼神，第二眼才发现光带像时间刻度穿过桌面，最后读到右上方标题。人物占下方约三分之二，头顶与窗边保留呼吸空间；手指完整自然，桌椅透视一致，不能出现多余肢体。\n文字系统只保留三层：右上方大号窄体无衬线标题逐字写“AFTER CLASS”，标题保持一行或两行整齐对齐；其下以小号数字写“17:10”；左下角放极小的英文排版纹理，不要求可读。文字不得遮挡眼睛、嘴和手，不要生成中文伪字、品牌标识、水印或多余编号。综合色彩从教室木桌、白衬衫和夕阳自身提取：最浅低饱和暖色覆盖大部分画面，深色制服承担人物轮廓，少量受光肤色作为视觉焦点。细微胶片颗粒只落在阴影和背景，脸部与文字边缘保持洁净；窗光柔和但方向明确，皮肤不能过度磨平。\n失败状态是人物看起来未成年、变成甜腻偶像摆拍、窗光失去条带节奏、文字盖住五官、手指错误或教室堆满无关物件。最终必须保留同一成年女主的身份特征、斜向窗光切开时间的机制，以及“AFTER CLASS / 17:10”的克制排版。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOY8QgrWkAA2lUw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOY8RcFWEAAjki0?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082443525166449077",
+      "tags": [
+        "photorealistic",
+        "写真",
+        "海报",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785392370546,
+      "title": "同一个人，不等于同一张脸",
+      "url": "https://x.com/chenlinspark/status/2082443525166449077",
+      "collectedAt": "2026-07-30T06:19:33.168Z",
+      "githubSyncedAt": "2026-07-30T06:19:33.168Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
