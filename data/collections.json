@@ -1,7 +1,198 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T11:23:35.030Z",
+  "updatedAt": "2026-07-30T11:30:20.875Z",
   "collections": [
+    {
+      "id": "grok_x_2082147178902945982",
+      "title": "LTX-2.3 audio-to-video silver-haired guitarist lip-sync",
+      "category": "视频提示词",
+      "tags": [
+        "lip-sync",
+        "audio-to-video",
+        "guitar",
+        "documentary",
+        "LTX",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded image as the exact identity reference. Preserve the woman's face, silver hair, tattoos, clothing, guitar, chair, and surrounding flower garden perfectly. Maintain perfect facial consistency throughout the performance. She gently sings while naturally fingerpicking the acoustic guitar. Perfect lip synchronization with the uploaded audio. Every mouth shape, breath, pause, and subtle facial movement must precisely match the vocals. Hyper-realistic documentary cinematography, warm golden-hour lighting, authentic skin texture, shallow depth of field, subtle breeze moving the flowers and loose strands of hair.\n\nKeep the camera movement extremely subtle. No dramatic camera moves, no orbits, no large pans. The emotion should come from her performance rather than the camera. Only gentle push-ins, tiny reframing, and slow tilts.\n\n\"I hear you in the kettle...\"\n\nOpen on an intimate close-up of her face. She fills almost the entire frame. Hold the shot with only a barely noticeable slow push-in. Her lips, breathing, wrinkles, and tiny facial expressions are the entire focus.\n\n\"...in the pipework and the rain.\"\n\nStay on her face. The camera remains almost completely still with only a subtle natural drift. She briefly lowers her eyes as she sings, sunlight softly illuminating her silver hair.\n\n\"In the spoon against the glass...\"\n\nSlowly widen just enough to begin revealing the upper body and the top of the acoustic guitar for the first time. The audience gradually realizes she has been playing all along. Her face still dominates the composition.\n\n\"...in the crack between my bones.\"\n\nGently tilt downward to reveal both her face and her hands together in frame. Her fingers naturally fingerpick the guitar while her lips remain clearly visible for the performance.\n\n\"Come back soft...\"\n\nHold this balanced composition. Her face remains the primary subject while the guitar occupies the lower portion of the frame. Only a tiny forward drift.\n\n\"...come back slow.\"\n\nFinish with a slow push back into her face. The guitar naturally falls out of focus while she softly sings the final words. Hold the close-up for a few seconds after the final chord, allowing only her breathing, blinking, and the gentle movement of the flowers in the background.",
+      "image": "https://pbs.twimg.com/media/HOVFHhfXgAAtfzz.png",
+      "images": [
+        "https://pbs.twimg.com/media/HOVFHhfXgAAtfzz.png",
+        "https://pbs.twimg.com/media/HOVFocnW0AAsazY.png"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOVFHhfXgAAtfzz.png",
+        "https://pbs.twimg.com/media/HOVFocnW0AAsazY.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "LTX-2.3 Pro",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOVFHhfXgAAtfzz.png",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2082146053915127809/vid/avc1/1080x1080/vkjdRMYZ3wterHgv.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/egeberkina/status/2082147178902945982",
+      "url": "https://x.com/egeberkina/status/2082147178902945982",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785411020865,
+      "collectedAt": "2026-07-30T11:30:20.865Z",
+      "githubSyncedAt": "2026-07-30T11:30:20.865Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082778573899710642",
+      "title": "MiniMax H3 Kingdom of Heaven 15s epic sequence",
+      "category": "视频提示词",
+      "tags": [
+        "epic",
+        "architecture",
+        "timeline-prompt",
+        "MiniMax",
+        "omni-reference",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "15-SECOND CINEMATIC SEQUENCE\nStyle lock: hyperrealistic 3D-render epic scale, monochrome marble-white and obsidian-black palette, single warm accent glow (gold ring / amber beam / halo), heavy rolling fog and mist, colossal architecture dwarfing tiny robed/human figures, overcast diffused sky, violent ocean waves crashing throughout, 35mm cinema lens language, orchestral/ambient score with roaring surf and wind.\n0–2s | HOOK — @material[harp_canyon_crow]\nOpen tight on the black bird diving between the two white-draped harpist guardians in the narrow slot canyon. Camera whip-tilts down the canyon throat as fog boils up from the black platform below. At 1s, a sudden bass hit as wind gusts rip through the fabric drapes.\n2–4.5s | ESTABLISHING — @material[twin_guardian_corridor]\nHard cut through the cave archway. Camera rockets forward low over churning white surf toward the lone cloaked figure at the shoreline, then rises past them into the glowing amber corridor between the two colossal armored statues. Fog rolls low across the water in thick bands. Slow crane-up at 2 ft/s revealing the mirrored spires beyond.\n4.5–7s | INTRODUCTION — @material[floating_disc]\nCut skyward: camera climbs vertically along the amber light-column, bursting up through drifting fog banks to reveal the colossal saucer-city hovering above the canyon, golden halo ring pulsing above it. The lone silhouetted figure stands at the platform's edge. Camera orbits 90° around the halo, mist swirling past frame in the foreground for depth.\n7–10s | RISING ACTION — @material[citadel_wave]\nWhip-pan down into the coastal citadel wall. A massive wave detonates against the marble base, spray rocketing 40 feet skyward and rolling into fog that clings to the black rock below. Camera accelerates to 5 ft/s, orbiting low around the golden ring atop the spire while bronze sentinels line the ramparts above the impact. Wave crest slams the seawall in sync with a rising musical crescendo.\n10–12.5s | CLIMAX — @material[harp_procession_wide]\nSnap cut along the black cube-wall coastline: camera flies low and fast (dolly-right, 5 ft/s) past the row of pale harpist figures, surf exploding just below frame, birds streaming through the fog in the foreground. At the peak, a rogue wave crashes clean over the ledge, drenching the nearest figure in white spray — the loudest musical hit, held for one frozen beat.\n12.5–15s | RESOLUTION — @material[spire_city]\nFinal pull-back and rise: camera lifts slow and steady (1.5 ft/s) over the fog-choked sheep-herd plain toward the towering white spired megacity on the cliff, crimson-gold laser beam still firing skyward, fog thinning to reveal the tiny shepherd figure below. Music resolves to a single sustained tone as mist swallows the frame edges. Hold on the wide symmetrical composition, fade to grey-white.\nCamera/Lighting spec: Flat overcast key light throughout, cool grey-blue color temp (~6500K), warm gold isolated to rings/beams/halo. Deep depth of field (f/4–f/8) for scale shots, shallow rack-focus only on the harpist close pass. Volumetric fog treated as a physical element — thick, low-lying, constantly drifting frame-to-frame, never static. Wave spray physically interacts with camera lens (subtle droplet blur) during impact beats.\nOutput: 15s, 720p, 9:16 vertical, synchronized audio: continuous ocean roar and wind bed, orchestral swells timed to wave-impact beats, bass hits at each cut.",
+      "image": "https://pbs.twimg.com/media/HOeDlDPWAAAsbW-.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOeDlDPWAAAsbW-.jpg",
+        "https://pbs.twimg.com/media/HOeDlB3WQAA0Km5.jpg",
+        "https://pbs.twimg.com/media/HOeDlB6WoAAQQTK.jpg",
+        "https://pbs.twimg.com/media/HOeDlDMWcAA_mCC.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeDlDPWAAAsbW-.jpg",
+        "https://pbs.twimg.com/media/HOeDlB3WQAA0Km5.jpg",
+        "https://pbs.twimg.com/media/HOeDlB6WoAAQQTK.jpg",
+        "https://pbs.twimg.com/media/HOeDlDMWcAA_mCC.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOeDlDPWAAAsbW-.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2082774367646162944/vid/avc1/3840x2160/EWAxnRpWYii6znE6.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MO_IAI/status/2082778573899710642",
+      "url": "https://x.com/MO_IAI/status/2082778573899710642",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785411020865,
+      "collectedAt": "2026-07-30T11:30:20.865Z",
+      "githubSyncedAt": "2026-07-30T11:30:20.865Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082774904878031313",
+      "title": "Grok Video pirate shoreline navigation dispute 15s",
+      "category": "视频提示词",
+      "tags": [
+        "pirates",
+        "dialogue-lock",
+        "timeline-prompt",
+        "Grok-Video",
+        "character-consistency",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A 15-second cinematic pirate adventure scene in realistic live-action style, with the grounded energy and atmosphere of a high-budget sea adventure film. Four female pirates emerge from a cave onto a windy shoreline. A sailing ship is visible far out on the sea on the left side of the frame. The mood is urgent, uneasy, and cinematic: they have just come out of danger, they need to move, but a navigation dispute immediately breaks out. The leader is the 1st person from the left. The 2nd person from the left carries the map and is the only other human allowed to speak. The 3rd and 4th persons from the left never speak and must express everything through reaction, movement, gaze, and tension.\n\nHuman character lock from left to right:\n- the 1st person from the left: the leader, female pirate captain, speaks, decisive, experienced, physically forward-moving, emotionally controlled, focused on getting the group back to the ship\n- the 2nd person from the left: map-holding female pirate, speaks, practical, urgent, intelligent, increasingly frustrated because she believes the direction is wrong\n- the 3rd person from the left: silent female pirate, watchful, tense, keeps looking between the ship and the leader, unsure who is right\n- the 4th person from the left: silent female pirate, alert, suspicious, keeps glancing back toward the cave and the surf, worried about danger behind and around them\n\nAbsolute dialogue lock:\n- ONLY the 2nd person from the left may speak first\n- ONLY the 1st person from the left may answer her\n- ONLY the 2nd person from the left may speak the third line\n- ONLY the 1st person from the left may speak the final line\n- the 3rd person from the left must never speak\n- the 4th person from the left must never speak\n- no one else may speak\n- no overlapping dialogue\n- no simultaneous speech\n- do not reassign any line to another character\n- the scene must clearly show that the argument is only between the 1st and 2nd persons from the left\n\nDialogue lock, exact lines, exact speakers:\n- the 2nd person from the left says: “No, wait. If the inlet is west of the wreck, that ship is too far north.”\n- the 1st person from the left says: “The storm dragged her. I can see the drift from here.”\n- the 2nd person from the left says: “Or you want it to be drift.”\n- the 1st person from the left says: “Then keep arguing and miss the tide.”\nNo other spoken lines.\n\nPerformance and emotional arc:\nThe 1st person from the left begins in forward-moving control, determined not to stop. She looks like someone who already made the decision to leave and does not want the group trapped on shore. Her emotion evolves from stern focus, to contained irritation, to final command authority.\nThe 2nd person from the left begins worried but rational. She is not complaining for drama; she genuinely believes the heading is wrong. Her emotion evolves from urgent correction, to frustration, to direct challenge.\nThe 3rd person from the left never speaks, but her face shows mounting uncertainty. She looks to the ship, then to the captain, then back again, trying to judge whose reading is right.\nThe 4th person from the left never speaks, but she contributes a different tension: she keeps glancing back toward the cave mouth, the shoreline, and the rocks, as if she fears they are exposed and do not have time for this argument.\n\nMicro-action lock:\n- the 1st person from the left: Walks first and does not want to stop. Strong stride, coat and hair driven by sea wind, jaw set, eyes forward most of the time. She only turns her head when forced to answer. At the end, she takes control by resuming movement immediately after the final line.\n- the 2nd person from the left: Keeps the map under control against the wind, using both hands or forearm and hand. She keeps glancing from the map to the ship to the coastline. When she argues, she may raise the map slightly, point with it, or use a short directional gesture. Her frustration should look intelligent and practical, not emotional chaos.\n- the 3rd person from the left: Silent, observant, tense. She narrows her eyes against the wind, studies the ship’s position, slows slightly during the sharpest part of the argument, and visibly reacts when the captain stops for half a beat.\n- the 4th person from the left: Silent, vigilant. She keeps checking the cave entrance and the surf line, adjusts footing on sand and rock, and looks like she wants the group moving faster.\n\nEnvironment and movement:\nThey must not stand still and argue. The argument happens while walking out from the cave and continuing along the shoreline toward the left-side distant ship. The sea on the left side of the frame is active and rolling. The distant ship moves subtly on the water. Strong coastal wind drives hair, coats, belts, map paper, and loose fabric. Waves strike the rocks and shore. The air feels salty, loud, and unstable. The environment itself adds pressure to the disagreement.\n\nCamera language:\nSmooth, natural, cinematic, and narrative-driven. No chaotic cutting, no montage, no overlay imagery. One continuous flowing shot is strongly preferred.\n- Begin near the cave mouth and rocky shadow, then move backward and slightly sideways as the four women come out\n- Let the shoreline and the distant ship on the left side of the frame become visible naturally\n- Drift closest to the 2nd person from the left when she speaks first, because the dispute begins with her\n- Then stay fluidly between the 1st and 2nd persons from the left while preserving the silent reactions of the 3rd and 4th\n- During the third line, let the 2nd person from the left gain a little ground, almost drawing level with the 1st\n- During the final line, let the 1st person from the left briefly check her pace, turn just enough to end the argument, then move forward again\nThe camera must show that the argument belongs only to the 1st and 2nd persons from the left, while the others remain silent but emotionally active.\n\n15-second scene progression:\n0-3 seconds: The camera begins near the cave opening and dark rock, then eases backward as the four women emerge into strong coastal wind. The 1st person from the left is already leading, moving with urgency but controlled composure. The 2nd person from the left is unfolding and fighting with the map in the wind. The 3rd person from the left looks toward the ship far out on the left-side sea. The 4th person from the left glances back once toward the cave before following. Hair, coats, and belts move hard in the wind. The sea is active and loud.\n3-6 seconds: The camera drifts closer to the 2nd person from the left as she looks from the map to the distant ship and finally speaks, clearly and urgently: “No, wait. If the inlet is west of the wreck, that ship is too far north.” She keeps walking while speaking, but faster now, trying to get the captain to acknowledge the mistake. The 1st person from the left does not stop yet.\n6-9 seconds: The camera stays fluid between the 2nd and 1st persons from the left. The 1st person from the left answers without fully turning, still moving forward: “The storm dragged her. I can see the drift from here.” Her tone is low and controlled, based on experience rather than panic. The 3rd person from the left silently looks from the ship to the captain. The 4th person from the left checks the cave and surf again, visibly tense.\n9-12 seconds: The 2nd person from the left presses harder, nearly drawing level with the 1st person from the left. The camera gives her the space to challenge directly. She says: “Or you want it to be drift.” This is the sharpest moment. The 1st person from the left finally checks her pace and turns her head enough to face the challenge. The 3rd and 4th persons from the left both react silently by tightening, slowing a fraction, and feeling the conflict sharpen.\n12-15 seconds: The 1st person from the left ends it. She says, with calm final authority: “Then keep arguing and miss the tide.” She immediately moves forward again, making the decision physical, not just verbal. The 2nd person from the left is forced to fall back into line, still unconvinced but no longer speaking. The 3rd person from the left follows with lingering doubt. The 4th person from the left gives one more uneasy glance behind, then moves on. End with all four continuing along the shoreline toward the distant ship, the wind and surf still pressing hard around them.\n\nAudio design:\n- Strong coastal wind, constant and forceful\n- Surf and waves hitting shore and rocks on the left side\n- Distant ship wood creak and sea presence, subtle but real\n- Boots on wet sand, rock, and uneven ground\n- Map paper snapping and straining in the wind\n- Coat flaps, belts, leather movement, hair whipping\n- Sparse but tense pirate-film score: low strings, restrained percussion, pressure building under the argument\n- No comedy, no fantasy exaggeration\n\nImportant rules:\n- Count the characters strictly from left to right as 1st, 2nd, 3rd, 4th person from the left\n- The argument belongs only to the 1st and 2nd persons from the left\n- The 3rd and 4th persons from the left never speak\n- No extra dialogue, no ad-libs, no overlapping voices\n- Keep the four women walking while the argument happens\n- Preserve realistic wind, coastal movement, and body-balance logic\n- Keep the ship visible far out on the left side of the sea\n- No subtitles, no on-screen text, no captions",
+      "image": "https://pbs.twimg.com/media/HOeAtmgbMAAClFA.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOeAtmgbMAAClFA.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeAtmgbMAAClFA.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Grok Video",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOeAtmgbMAAClFA.jpg",
+      "videoSourceUrl": "https://x.com/ou_zhen599/status/2082774904878031313",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ou_zhen599/status/2082774904878031313",
+      "url": "https://x.com/ou_zhen599/status/2082774904878031313",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785411020865,
+      "collectedAt": "2026-07-30T11:30:20.865Z",
+      "githubSyncedAt": "2026-07-30T11:30:20.865Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082784962890350601",
+      "title": "NovelAI impressionist prairie white-dress anime still",
+      "category": "自然",
+      "tags": [
+        "impressionism",
+        "NovelAI",
+        "prairie",
+        "white-dress",
+        "natural-language",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "illustration, year 2025, anime screenshot, -5::realistic::, 顔は日本のアニメ作品のセルシェーディング技法。広大な初夏の草原を、やや見上げる低い視点から眺めた情景。一面に青々とした草が風に揺れ、白や黄色の小さな野花が点在している。画面中央には、純白のロングドレスを身にまとった若い女性が立ち、片手で白いレースの日傘を高く掲げている。強い風を受けてドレスの裾やリボン、スカートの布地が大きくなびき、軽やかな動きを感じさせる。女性はやや横を向きながら穏やかな表情で遠くを見つめ、逆光気味の太陽光によって帽子のつばや顔の輪郭に柔らかな陰影が生まれている。\n女性の後方には、少し離れた場所に幼い男の子が立っている。白い服と帽子を身につけ、草原から半身ほど見える位置で女性を追いかけるように配置されている。人物同士の距離によって奥行きが強調され、広々とした空間が表現されている。\n空は画面の大部分を占める鮮やかな青空で、大きく盛り上がる純白の積雲がゆったりと流れている。雲の縁には太陽光が当たり、明るく輝いて見える。草原から吹き抜ける風によって雲や草木、衣服すべてが同じ方向へ流れるような一体感がある。\n画面全体は印象派特有の筆触で描かれ、輪郭は細密に描き込まず、短く軽快な筆致を何層にも重ねて質感と空気感を表現する。草原には黄緑、深緑、青緑、黄色のストロークを散りばめ、光が当たる部分はレモンイエローや黄白色で明るく表現する。空にはセルリアンブルー、コバルトブルー、ウルトラマリンを重ね、雲には純白だけでなく薄紫、水色、淡いグレーを混ぜることで自然な陰影を作る。\n女性の白いドレスにも純白だけではなく、空の青や草原の緑を反射した青白・薄緑・灰紫色の筆致を混ぜ込み、陽光の反射による柔らかな色彩変化を描写する。日傘は光を透過し、布越しに柔らかく輝いて見える。帽子には薄いベールやリボンが付き、風によって自然に揺れている。\n光は真昼から午後早い時間帯の強い自然光でありながら柔らかく拡散し、画面全体を明るく包み込む。コントラストは強すぎず、空気中に光が満ちているような透明感を重視する。陰影は黒ではなく青や紫、緑を用いて表現し、印象派らしい色彩理論に基づいた陰影とする。\n構図は人物をやや見上げるローアングルで、空が画面の約3分の2を占める大胆な構成。人物は中央付近に配置し、風の流れによる対角線構図を形成する。画面全体に軽快さ、爽やかさ、開放感、自然との一体感を感じさせる雰囲気とし、一瞬の風と陽光を切り取ったような印象を与える。全体として19世紀後半フランス印象派油彩画を思わせる、自然光の表現、色彩豊かな筆触を重視した作品。",
+      "image": "https://pbs.twimg.com/media/HOeJ4ncbYAEiBeD.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOeJ4ncbYAEiBeD.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeJ4ncbYAEiBeD.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "NovelAI Diffusion V5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/tohofrog/status/2082784962890350601",
+      "url": "https://x.com/tohofrog/status/2082784962890350601",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785411020865,
+      "collectedAt": "2026-07-30T11:30:20.865Z",
+      "githubSyncedAt": "2026-07-30T11:30:20.865Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082780509772685555",
+      "title": "Nordic winter forest road silver sedan 9:16",
+      "category": "自然",
+      "tags": [
+        "winter",
+        "road",
+        "photoreal",
+        "negative-prompt",
+        "nano-banana",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic winter road scene, rear view of a dusty silver-blue 1990s four-door sedan driving alone along a winding snow-covered forest road, towering frost-covered birch and pine trees on both sides, branches coated in thick white snow, soft tire tracks on the icy asphalt, cold purple-blue twilight sky with no visible sun, subtle winter haze, atmospheric fog in the distance, quiet Nordic wilderness, lonely and melancholic mood, ultra-detailed textures, realistic reflections on the car windows, natural snow accumulation, low camera positioned behind the vehicle, centered composition, wide-angle 24mm lens, volumetric lighting, muted colors with lavender and blue cinematic color grading, HDR, ray-traced global illumination, depth of field, filmic contrast, 8K, Unreal Engine 5, photorealistic, masterpiece, highly detailed, sharp focus, no people, no traffic, vertical 9:16.\n\nNegative Prompt:\nlow quality, blurry, cartoon, anime, oversaturated colors, people, pedestrians, extra vehicles, buildings, city, rain, sunlight, text, watermark, logo, artifacts, distorted car, duplicate trees, low-resolution, noise.",
+      "image": "https://pbs.twimg.com/media/HOeF0Inb0AAH9D8.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOeF0Inb0AAH9D8.jpg",
+        "https://pbs.twimg.com/media/HOeF1FFa8AAxt0r.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeF0Inb0AAH9D8.jpg",
+        "https://pbs.twimg.com/media/HOeF1FFa8AAxt0r.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Nano Banana Pro",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Madhuribhai/status/2082780509772685555",
+      "url": "https://x.com/Madhuribhai/status/2082780509772685555",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785411020865,
+      "collectedAt": "2026-07-30T11:30:20.865Z",
+      "githubSyncedAt": "2026-07-30T11:30:20.865Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
