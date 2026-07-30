@@ -8,7 +8,7 @@ const COMMERCE_TYPES = [
   ['商品详情页', ['product detail page', 'product feature', '详情页', '商品卖点', '功能展示']],
   ['模特展示', ['model wearing', 'product try-on', '模特展示', '试穿', '商品展示模特']],
   ['UGC / 口碑', ['ugc', 'unboxing', 'product review', 'testimonial', '开箱', '测评', '口碑']],
-  ['品牌视觉', ['brand campaign', 'brand visual', 'key visual', '品牌视觉', '品牌广告', '品牌活动']],
+  ['品牌视觉', ['brand campaign', 'brand visual', 'key visual', 'brand identity', 'visual identity', 'logo design', 'logo proposal', 'vi proposal', '品牌视觉', '品牌广告', '品牌活动', '品牌识别', '视觉识别', '标志设计', 'logo提案', 'vi提案']],
   ['电商视频', ['ecommerce video', 'product video', 'video ad', '电商视频', '商品视频', '短视频广告']]
 ];
 

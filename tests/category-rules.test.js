@@ -24,6 +24,16 @@ test('uses e-commerce as the primary category while retaining its use-case type'
   assert.equal(classifyCommerceType(item), 'UGC / 口碑');
 });
 
+test('recognizes reusable logo and visual-identity proposal prompts as brand visuals', () => {
+  const item = {
+    title: 'Four-panel Logo Proposal',
+    prompt: 'Create a brand identity and visual identity proposal with four logo design directions for a premium product brand.'
+  };
+
+  assert.equal(classifyCollection(item), '电商视觉');
+  assert.equal(classifyCommerceType(item), '品牌视觉');
+});
+
 test('reclassifies Grok imports without overwriting user-managed categories', () => {
   const result = reclassifyCollections({ collections: [
     { source: 'Grok X 公开搜索', category: 'portrait', mediaType: 'image', prompt: 'A fashion editorial runway lookbook.' },
