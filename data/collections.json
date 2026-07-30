@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T05:54:12.725Z",
+  "updatedAt": "2026-07-30T05:54:14.931Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms73m4oc_98e7",
+      "image": "https://pbs.twimg.com/media/HOZudbiW0AEVCW9?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOZudbiW0AEVCW9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOZuexwXIAAXrr-?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Use case: photorealistic-natural\n使用 01 成品作为人物身份参考，生成一张新的 3:4 竖版人物摄影海报。必须保留同一位 22 岁韩国成年女性的五官、发型、泪痣、体型、年龄感、自然皮肤与学院感服装，不复制参考图姿势。将一天结束前的游离感转译成“水纹光把清晰肖像分成现实与梦境两层”：人物站在大型水族箱玻璃前，脸部靠近画面中央，一道移动水纹掠过额头与肩膀，玻璃反射只保留一层极淡侧脸轮廓；几尾小鱼从人物背后横向穿过，形成缓慢时间线，而不是把人物泡在水中或堆满梦幻特效。\n人物半身面对镜头，一只手掌自然贴近玻璃但五指完整分开，另一只手轻握书包肩带；她的眼神安静直接，嘴角没有刻意笑容。人物偏左，右侧水体留出深色标题区，玻璃边缘竖线压住构图。第一眼被水纹掠过的眼神吸引，第二眼才发现淡淡侧脸反射与真实面孔错开，最后读到右侧标题。玻璃反射不得复制出第二个完整人物，鱼不能穿过脸和身体，手掌与玻璃的接触关系必须自然。\n文字像悬浮在玻璃夹层中：右侧大号细衬线标题逐字写“BLUE HOUR”，其下小号时间写“21:30”；左下角仅放极细线和微型英文纹理。不要出现水族馆品牌、票价、中文伪字、发光霓虹字或水印。色彩从深水、皮肤和制服提取：深冷色吞没画面大部分区域，水纹亮色在脸、肩与玻璃上形成少量流动高光，肤色保持真实且不过分偏蓝。颗粒只落在深水背景，玻璃、水纹、眼睛和文字边缘保持清楚；暗部保留衣料与发丝层次。\n失败状态是人物身份漂移、看起来未成年、人物像浸泡在水里、反射复制完整人脸、手指畸形、鱼群遮挡五官或蓝色淹没肤色。最终必须保留同一成年女主、水纹切分现实与梦境的机制、淡反射与真实面孔的错位，以及“BLUE HOUR / 21:30”。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZudbiW0AEVCW9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOZuexwXIAAXrr-?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082488317405483098",
+      "tags": [
+        "photorealistic",
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1785390850092,
+      "title": "夜景最怕蓝成一片",
+      "url": "https://x.com/chenlinspark/status/2082488317405483098",
+      "collectedAt": "2026-07-30T05:54:14.931Z",
+      "githubSyncedAt": "2026-07-30T05:54:14.931Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
