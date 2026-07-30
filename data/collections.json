@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:18:58.977Z",
+  "updatedAt": "2026-07-30T09:19:01.840Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7axhnr_wnjx",
+      "image": "https://pbs.twimg.com/media/HOavf0gWQAA4yR7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOavf0gWQAA4yR7?format=jpg&name=small",
+        "https://pbs.twimg.com/amplify_video_thumb/2082480992225484800/img/625LazPqXTxS3qaF?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Meet Agent Two, frontier intelligence for creative work. 4x faster, at half the price.\nFor the next 12 days, we're dropping one new Agent Two feature every single day.\nDay 1: Agent Intelligence. An agent with top-percentile creative expertise, infinite memory, and still working",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOavf0gWQAA4yR7?format=jpg&name=small",
+        "https://pbs.twimg.com/amplify_video_thumb/2082480992225484800/img/625LazPqXTxS3qaF?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/UnoParticular/status/2082545008687595601",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785403137447,
+      "title": "Meet Agent Two frontier intelligence for creative work",
+      "url": "https://x.com/UnoParticular/status/2082545008687595601",
+      "collectedAt": "2026-07-30T09:19:01.840Z",
+      "githubSyncedAt": "2026-07-30T09:19:01.840Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "建筑",
