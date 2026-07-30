@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:47:05.920Z",
+  "updatedAt": "2026-07-30T13:48:27.439Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "动物",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7kk13m_7d79",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2077327208453132288/img/Hd45d8nyYA3mr64Z.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2077327208453132288/img/Hd45d8nyYA3mr64Z.jpg"
+      ],
+      "model": "",
+      "prompt": "还有同风格的儿童读物内容。\n\n视觉风格简单，样式也不复杂，就是动态图文，\n\n感觉挺神奇，可能是因为观众接纳信息更轻松吧！！\n\n搞了个一键生成手绘讲解视频的Skill，\n\n内置了十种风格和样式选择！\n\n没有接任何需要付费的商业API。\n\n整体效果和知识猫老师之前发的差不多，\n\n有兴趣可以向他咨询学习 @GeekCatX\n\n我全程Codex，你问我什么技术，我也不懂！\n\n原理很简单，图+文字+简单遮罩动画+TTS配音，\n\n很多Agent都能搞定。\n\n这个关于理财习惯的视频，Codex几分钟做完！\n\n豆包也能用skill，晚点测试一下。\n\n都能跑通的话，就直接开源！！",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2077327208453132288/img/Hd45d8nyYA3mr64Z.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yyyole/status/2077330626542497894",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785419305618,
+      "title": "这种双语视频，在TikTok还有Youtube上非常火！",
+      "url": "https://x.com/yyyole/status/2077330626542497894",
+      "collectedAt": "2026-07-30T13:48:27.439Z",
+      "githubSyncedAt": "2026-07-30T13:48:27.439Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
