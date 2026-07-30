@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:47:45.363Z",
+  "updatedAt": "2026-07-30T06:47:48.024Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms75iyw6_gij9",
+      "image": "https://pbs.twimg.com/media/HOakgSSawAAofNG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOakgSSawAAofNG?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Use the face from the reference photo and preserve the exact identity, facial features, proportions, expression, skin tone, hairstyle, and natural skin texture. Maintain visible pores and authentic facial details. Do not beautify, reshape, or create an AI-looking face.\n\nCreate an ultra-realistic vintage 35mm film contact sheet collage featuring the same woman across six candid lifestyle moments with a warm, nostalgic editorial aesthetic.\n\nThe six frames show:\n\n1. Relaxing indoors beside a sunlit window.\n\n2. Browsing vinyl records in a retro record store.\n\n3. Sitting alone in a cozy café at night.\n\n4. Walking through a city street under warm streetlights.\n\n5. Taking a mirror selfie with a classic 35mm film camera.\n\n6. Sitting on the beach during sunset.\n\nThe subject has long silky black hair, expressive eyes, effortless casual style, and natural, realistic skin with visible pores and subtle imperfections.\n\nCapture every frame as authentic Kodak Portra 400 analog photography with a disposable-camera feel, warm nostalgic colour grading, soft direct flash, subtle film grain, faded colours, halation, light leaks, dust, fine scratches, slight vignette, imperfect framing, cinematic storytelling, and realistic candid composition.\n\nArrange the images as a six-photo contact sheet with black film borders, Kodak Portra 400 markings, authentic frame spacing, and timestamp imprints for a genuine developed-film look.\n\nUltra-realistic editorial photography, highly detailed, premium analog aesthetic.\n\nAspect ratio: 9:16\n\nNegative prompt: Changed identity, AI-looking or beautified face, plastic skin, distorted anatomy, repeated poses, duplicate frames, unrealistic lighting, over-processed colours, digital look, cartoon, illustration, anime, CGI, text, logo, watermark.\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOakgSSawAAofNG?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2082532761492222423",
+      "tags": [
+        "cinematic",
+        "anime",
+        "vintage"
+      ],
+      "timestamp": 1785394061862,
+      "title": "Trend 732",
+      "url": "https://x.com/gemini_prompts/status/2082532761492222423",
+      "collectedAt": "2026-07-30T06:47:48.024Z",
+      "githubSyncedAt": "2026-07-30T06:47:48.024Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
