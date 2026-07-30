@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:28:40.035Z",
+  "updatedAt": "2026-07-30T14:29:42.982Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7m03uy_uo0s",
+      "image": "https://pbs.twimg.com/media/HLAFlAfa4AA_eiO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLAFlAfa4AA_eiO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic luxury indoor portrait, Korean chaebol heiress mood, film photography aesthetic, strong highlight bloom, soft halation, subtle grain, slightly overexposed highlights, cold luxurious atmosphere, vertical 9:16 composition.\n\nA beautiful young Chinese Internet Celebrity with a refined Korean V-line face, luminous fair skin, realistic skin texture, and a naturally fuller curvy figure with a soft S-shaped silhouette, fuller bust, defined waist, and long graceful legs. She wears cold elegant chaebol-heiress makeup: clean matte-dewy base, softly defined brows, subtle cool-toned eye makeup, clear lashes, faint blush, and muted rose-brown glossy lips. Long slightly tousled dark hair, delicate earrings.\n\nOutfit: luxury at-home loungewear, elegant and tasteful, such as a soft ivory or champagne satin camisole with a loose knit cardigan or silky robe, paired with refined short lounge bottoms, creating a relaxed but expensive private-luxury feeling.\n\nScene: ultra-luxury penthouse living room at night, soft carpet floor, designer sofa nearby, dim ambient lighting, dark glass windows, subtle city lights in the background, polished interior, quiet wealthy private-night atmosphere.\n\nPose: squatting / crouched seated on the floor, facing the camera directly, body slightly tucked in naturally, one arm resting lightly on her knee, the other hand relaxed on the floor, both legs folded elegantly to emphasize curves and leg length. Expression: calm, distant, slightly tired and half-tipsy, half-lucid, looking straight into the camera.\n\nStyle: low-saturation navy obsidian mood, cold-toned luxury, film highlight bloom, rich-girl private snapshot, elegant, refined, non-explicit.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLAFlAfa4AA_eiO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2067158519477059762",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785421735306,
+      "title": "Today's Portrait",
+      "url": "https://x.com/BubbleBrain/status/2067158519477059762",
+      "collectedAt": "2026-07-30T14:29:42.982Z",
+      "githubSyncedAt": "2026-07-30T14:29:42.982Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
