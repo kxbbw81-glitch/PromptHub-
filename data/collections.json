@@ -1,7 +1,109 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:21:27.030Z",
+  "updatedAt": "2026-07-30T13:22:03.242Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jm2ym_tdp8",
+      "image": "https://pbs.twimg.com/media/HICm4OTasAArCdx?format=png&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HICm4OTasAArCdx?format=png&name=240x240",
+        "https://pbs.twimg.com/media/HICm5Kgb0AAUtD5?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT2 x 胎儿四维照片 x 推测还原 x 提示词\n\n想起了之前和家人一起 看这种四维照片的画面\n是一段很温馨的时光\n\n朋友说：现在用GPT2 轻松推测出长相\n这个需求在网上  需求旺盛\n\n不少店铺，此类服务销量破万\n\n预测这种闲鱼，小而美玩法\n接下来还会细化、丰富、有趣\n\n科技满足好奇心\n创意点虽小， 但实打实是一个，给人们创造了一种新的体验和记忆\n\n多年回顾对比AI推测的长相，可能成为家人间的谈资\n\n亲测， 和亲戚家小孩对比， 有神似...\n\n提示词中还可以垫如父母长相, 让GPT-image2 帮你发挥起来吧。 https://x.com/xiaoxiaodong01/xiaoxiaodong01/status/2053824606436511963…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HICm4OTasAArCdx?format=png&name=240x240",
+        "https://pbs.twimg.com/media/HICm5Kgb0AAUtD5?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaoxiaodong01/status/2053827459955728434",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785417721726,
+      "title": "GPT2 x 胎儿四维照片 x 推测还原 x 提示词",
+      "url": "https://x.com/xiaoxiaodong01/status/2053827459955728434",
+      "collectedAt": "2026-07-30T13:22:03.242Z",
+      "githubSyncedAt": "2026-07-30T13:22:03.242Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "自然",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jm2ym_dh2i",
+      "image": "https://pbs.twimg.com/media/HIDQgIhbUAAGZbt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIDQgIhbUAAGZbt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIDQgI3a0AAPr55?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIDQgIga0AAJEgc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIDQgIdbUAAssLy?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "古风丝袜服饰完了，怎么能少了美甲呢，要做做全套\nGPT Image 2 灵感主题美甲生成器\n\n提示词：\n请生成一张写实级手部美甲特写图，主题灵感为：{主体灵感}。\n\n画面主体是一只经过精致护理的女性手部近景特写，指甲为高级凝胶美甲设计，整体围绕 {主体灵感} 展开，呈现优雅、干净、精致、具有时尚杂志质感的视觉效果。重点突出指甲彩绘细节、光泽质感与主题氛围统一性。\n\n构图与主体要求\n画面聚焦于手部与指甲特写，手指姿态自然优雅，动作柔和，具有高级感。\n每根指甲都围绕 {主体灵感} 进行设计，采用以下组合方式：\n部分指甲使用与主题相关的手绘图案元素\n部分指甲使用纯色底色 + 闪粉或金属箔边缘/指尖点缀\n各指甲设计彼此有变化，但整体风格统一、配色协调\n指甲设计应包含：\n高级纯色底胶\n精致细腻的手绘图案\n与主题匹配的亮片、珠光、闪粉、金属箔、微光泽装饰\n图案风格要细腻真实、像专业美甲师完成的高端作品，不能幼稚，不能廉价。\n主题适配要求\n所有配色、纹样、装饰元素都要围绕 {主体灵感} 自动匹配\n如果主题是花卉、季节、自然、海洋、甜点、节日、东方元素等，需自动延展为对应的：\n主色调\n辅助色\n代表性纹样\n适合的装饰材质\n背景氛围\n指甲设计不能只是把主题字面贴上去，而要体现审美提炼后的主题化美甲设计\n光影与摄影要求\n光线：柔和自然光\n阴影：无生硬阴影\n景深：浅景深\n对焦：清晰聚焦在指甲细节与表面光泽\n摄影风格：高端美妆摄影、时尚杂志特写、专业商业拍摄\n质感：写实、细腻、高清、洁净\n背景要求\n背景为与 {主体灵感} 相呼应的轻柔虚化场景\n背景必须弱化处理，不抢主体\n可根据主题自动生成与之匹配的模糊背景氛围，例如：\n花卉主题：花枝、花瓶、花园、花瓣虚化背景\n海洋主题：海滩、海水、贝壳、阳光反射虚化背景\n甜点主题：奶油色桌面、甜品摆件、柔焦陈设背景\n背景作用是烘托主题，不是独立场景主体\n整体风格要求\n照片级写实\n美甲细节真实清晰\n凝胶甲面光泽强、表面平整精致\n手部皮肤细腻干净\n整体审美高级、优雅、简洁\n4K ultra HD\n直接生成成品图\n风格接近：高端美甲广告摄影、时尚美容品牌视觉、精致生活方式杂志封面细节图\n硬性限制\n不要卡通风\n不要插画风\n不要夸张手势\n不要畸形手指\n不要多余手指\n不要低质皮肤纹理\n不要廉价贴纸感\n不要过度复杂、堆砌装饰\n不要脏乱背景\n不要过饱和荧光色\n不要模糊焦点\n不要假手模型感\n不要恐怖手部细节\n不要非真实材质\n附加风格关键词\nphotorealistic hand close-up, luxury manicure photography, glossy gel nails, elegant nail art, soft natural lighting, shallow depth of field, ultra detailed nail design, beauty editorial, premium salon aesthetic, 4K ultra HD, realistic skin texture, delicate hand-painted nail art\n负面提示词\n卡通，插画，动漫，低清晰度，模糊，畸形手指，多余手指，比例错误，僵硬手势，假手模型感，塑料皮肤，廉价贴纸感，杂乱背景，过度装饰，荧光色过强，失焦，低质纹理，粗糙甲面，脏污手部，阴影过重，恐怖细节，不真实美甲\n变量填写方式\n将 {主体灵感} 替换为任意你想要的主题，例如：\n樱花\n海洋\n蝴蝶\n草莓甜点\n圣诞节\n法式玫瑰\n玉石东方风\n冰雪\n香槟金婚礼\n森林精灵\n\n主体灵感：水母\n比例：3:4",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIDQgIhbUAAGZbt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIDQgI3a0AAPr55?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIDQgIga0AAJEgc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIDQgIdbUAAssLy?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2053870919714812413",
+      "tags": [
+        "photorealistic",
+        "ultra detailed",
+        "东方",
+        "古风",
+        "插画"
+      ],
+      "timestamp": 1785417721726,
+      "title": "古风丝袜服饰完了，怎么能少了美甲呢，要做做全套",
+      "url": "https://x.com/GeekCatX/status/2053870919714812413",
+      "collectedAt": "2026-07-30T13:22:03.242Z",
+      "githubSyncedAt": "2026-07-30T13:22:03.242Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7jm2yl_t2ij",
+      "image": "https://pbs.twimg.com/media/HIIJjV3WMAAAU0A?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HIIJjV3WMAAAU0A?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIIJlbPXAAAgSNI?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIIJokiXEAATPND?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIIJsoRWoAAUt8e?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "用ChatGPT-Image2生成了《AI三点式泳装提案》，度假神装！\n\n干净、自信，适合高级度假、清爽女性向路线：\n1、海盐蓝清爽海岛感\n2、黑色极简高级度假感\n3、热带绿自然活力感\n4、椰奶白轻奢温柔感\n\n上身效果+产品拆解+色彩材质分析+搭配灵感都有~\n提示词看引用推  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIIJjV3WMAAAU0A?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIIJlbPXAAAgSNI?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIIJokiXEAATPND?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIIJsoRWoAAUt8e?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2054216469433491601",
+      "tags": [
+        "极简"
+      ],
+      "timestamp": 1785417721725,
+      "title": "用ChatGPT-Image2生成了《AI三点式泳装提案》，度假神装！",
+      "url": "https://x.com/MrLarus/status/2054216469433491601",
+      "collectedAt": "2026-07-30T13:22:03.242Z",
+      "githubSyncedAt": "2026-07-30T13:22:03.242Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
