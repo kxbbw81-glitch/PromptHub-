@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T13:48:27.439Z",
+  "updatedAt": "2026-07-30T14:21:45.084Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7lquc3_pgfq",
+      "image": "https://pbs.twimg.com/media/HLI3t0ObUAAfN6L?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HLI3t0ObUAAfN6L?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HLI3t03aUAAQWdC?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HLI3tznaYAAOmHM?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HLGvMy8aYAAsUwK?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "A seductive stunning 20-year-old Japanese or Korean woman posing with reclined pose supported by one arm, lifted upper body, natural relaxed asymmetry in Japanese commuter train car interior, slight offset view toward a blue fabric bench seat, captured in film photography style with Leica-like monochrome rendering, rich grayscale separation, fine salt-and-pepper grain, deep blacks, crisp micro-detail, luminous skin highlights., film grain.\n\nSometimes I really don’t understand Grok Imagine’s moderation standards",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLI3t0ObUAAfN6L?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HLI3t03aUAAQWdC?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HLI3tznaYAAOmHM?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HLGvMy8aYAAsUwK?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2067777910749212882",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785421303059,
+      "title": "This set of prompts forgot to specify the clothing",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2067777910749212882",
+      "collectedAt": "2026-07-30T14:21:45.084Z",
+      "githubSyncedAt": "2026-07-30T14:21:45.084Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "动物",
