@@ -1,7 +1,293 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T05:54:14.931Z",
+  "updatedAt": "2026-07-30T05:55:53.170Z",
   "collections": [
+    {
+      "id": "grok_x_2082705809226813643",
+      "title": "Realistic woman with doodle-shadow selfie",
+      "category": "portrait",
+      "tags": [
+        "mixed-media",
+        "doodle",
+        "reference-identity",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded reference image as the strict identity and outfit reference for a realistic Japanese woman, preserving her face identity, facial proportions, eye shape, nose, lips, skin tone, hairstyle, hair colour, visible accessories, overall vibe, and outfit exactly as shown in the reference. Do not invent or hardcode features that are not present in the uploaded image. Create a high-quality vertical mixed-media portrait featuring a realistic full-body Japanese woman standing beside a black hand-drawn doodle-shadow version of herself sketched directly onto a clean white, cream, or light grey indoor wall. The real woman should remain photorealistic, wearing the same outfit and styling as the reference, with a cute, slightly confused, mildly embarrassed expression as if wondering why she is playing along with her mischievous shadow. The doodle-shadow should be a lively black sketch version of the same Japanese woman, matching her hairstyle, outfit silhouette, and overall identity while having exaggerated cartoon expressions and energetic movements, surrounded by manga-style motion lines, hearts, sparkles, stars, and comic symbols. For every generation, invent a completely new playful pose where both the real woman and the doodle share the same general idea without perfectly mirroring each other. Avoid repeated pointing poses, finger-guns, or stiff standing poses, and instead create fresh playful actions such as dancing, balancing, sneaking, making a giant heart, peekaboo, dramatic overreaction, or other cute troublemaker poses. Place the real woman on one side of the frame and the doodle-shadow on the wall beside her so their interaction is immediately clear. Use a clean white, cream, or light grey indoor wall with minimal clutter, soft natural daylight, gentle shadows, and a polished editorial photography style. The final image should be ultra-detailed, social-media-friendly, with strong resemblance to the uploaded Japanese woman, faithful outfit reproduction, realistic photography combined with expressive black sketch line art, premium composition, and no AI artifacts. Avoid unrelated outfit changes, realistic second people, ordinary shadows, horror elements, coloured illustrations, anime humans instead of doodles, weak resemblance, cluttered backgrounds, repeated poses, text, logos, watermarks, distorted anatomy, extra limbs, extra fingers, or poorly drawn hands.",
+      "image": "https://pbs.twimg.com/media/HOdBjTMasAAthZ0.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOdBjTMasAAthZ0.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOdBjTMasAAthZ0.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/suwakopro/status/2082705809226813643",
+      "url": "https://x.com/suwakopro/status/2082705809226813643",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082700214364717324",
+      "title": "Korean fashion indoor pool radial light poster",
+      "category": "fashion",
+      "tags": [
+        "editorial",
+        "pool",
+        "architecture-light",
+        "korean-fashion",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use case: ads-marketing. Asset type: one premium vertical Korean fashion editorial poster, soft 3:4 aspect ratio. Generate a new photograph; Image 1 is style_reference and mechanism_reference only. Borrow only its calm indoor-pool minimalism and ordered louver-light principle. Do not preserve or copy the original woman's identity, exact pose, framing, swimsuit, or typography. Create a photorealistic indoor pool fashion poster featuring one fictional 23-year-old adult Korean woman, unmistakably adult, healthy athletic swimmer build, natural Korean facial features, subtle clean makeup, realistic pores, and a relaxed thoughtful expression. She wears a complete opaque muted-lilac high-neck athletic one-piece swimsuit with secure full coverage and ribbed technical fabric, no cutouts, logo, transparency, or lingerie styling. Damp dark hair is gathered in a neat low bun. She sits upright on a broad pale-stone pool edge with both legs together submerged to mid-calf, torso angled three-quarters away, back naturally straight, both palms resting separately on the stone beside her hips with all fingers visible, head turned toward a circular skylight, gaze upward; stable, quiet, non-seductive. Distinct extension concept 05 — fan of time: a circular oculus above is covered by radial louvers, casting a large fan-shaped sequence of curved/radial light-and-shadow spokes across a softly curved plaster wall, the seated adult model, the stone deck, and the circular shallow pool. The spokes converge at one clear off-frame vanishing point and expand across the composition with disciplined spacing; they become rippled arcs in the water. This is not random stripes and not the same diagonal wall from Image 1. Palette: muted lilac, warm limestone, pale lavender-gray shadow, clear blue-gray water, and soft golden late-afternoon light. High three-quarter 28mm architectural editorial camera, wide view with the curved wall and circular pool geometry dominant, model small on the lower-left third, ample radial negative space, full head, torso, both hands, knees and submerged lower legs visible. Minimal exact copy only: \"FAN OF TIME\" in small charcoal uppercase modern sans-serif following a gentle arc near the upper right, perfectly spelled and legible; no other text. 5:28 PM warm sunlight, precise shadow edges softening slightly across skin, realistic water refraction, detailed stone, opaque wet fabric, subtle fine grain, quiet experimental Korean fashion-magazine finish. Constraints: exactly one clearly adult 23-year-old woman; non-erotic athletic fashion; no minor, school, uniform, juvenile or childlike cues; no exposed nipples or genitals, thong, lingerie, transparent fabric, extreme cleavage, provocative pose, body-part close-up, or voyeuristic angle. No brand, logo, watermark, extra words, extra people or props. Avoid malformed hands, extra fingers, duplicated limbs, broken seated anatomy, fused legs, warped circular architecture, incoherent radial shadows, plastic skin, CGI, collage, excessive retouching or decorative fantasy effects.",
+      "image": "https://pbs.twimg.com/media/HOchY5IXAAAU2P0.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOchY5IXAAAU2P0.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOchY5IXAAAU2P0.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082700214364717324",
+      "url": "https://x.com/chenlinspark/status/2082700214364717324",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082704258080637233",
+      "title": "Luxury mirror selfie bedroom portrait",
+      "category": "portrait",
+      "tags": [
+        "mirror-selfie",
+        "luxury",
+        "reference-identity",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a realistic luxury mirror selfie of a tall, elegant young woman standing in front of a large full-length mirror in a beautiful modern bedroom. Keep her face and natural complexion exactly like the reference image, preserving her identity, facial features, long hair, and long nose. She is wearing a stylish modest shirt with elegant cream-coloured pants. Her hands are adorned with delicate rings, a bracelet, and a classy wristwatch, with a beautiful locket necklace around her neck. She is holding a smartphone naturally in front of the mirror, with the phone visible but not covering her face. The composition should be a close, chest-up to mid-body mirror selfie while still showing enough of the luxurious room and mirror background. Soft natural lighting, premium interior, elegant decor, realistic skin texture, high-end fashion photography, sharp details, natural proportions, photorealistic, sophisticated and classy aesthetic.",
+      "image": "https://pbs.twimg.com/media/HOdAdasW8AACHHx.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOdAdasW8AACHHx.jpg",
+        "https://pbs.twimg.com/media/HOdAeErWUAAhH77.jpg",
+        "https://pbs.twimg.com/media/HOdAesmWkAAJiL8.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOdAdasW8AACHHx.jpg",
+        "https://pbs.twimg.com/media/HOdAeErWUAAhH77.jpg",
+        "https://pbs.twimg.com/media/HOdAesmWkAAJiL8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "ChatGPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Maevehere1/status/2082704258080637233",
+      "url": "https://x.com/Maevehere1/status/2082704258080637233",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082661048369430550",
+      "title": "Japanese café fashion editorial portrait",
+      "category": "fashion",
+      "tags": [
+        "café",
+        "editorial",
+        "cinematic",
+        "japanese-portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic editorial portrait of an extraordinarily beautiful young Japanese woman with mesmerizing deep brown eyes and long, silky jet-black hair, sitting effortlessly in a cozy luxury café. She leans back in a vintage wooden chair with one knee raised, writing in an elegant leather notebook while gazing downward with an irresistibly mysterious expression that instantly stops the scroll. The atmosphere feels like a scene from a high-budget fashion film. She wears a bold cherry-red fitted knit top tucked into high-waisted black wide-leg trousers, paired with glossy black loafers, crisp white socks, layered silver jewelry, and a minimalist luxury watch. The rich red outfit dramatically contrasts with the warm café interior, making her the unmistakable focal point. A crystal-clear iced caramel latte with golden reflections sits in the foreground beside a glowing candle and premium stationery, creating depth and a luxurious lifestyle aesthetic. Soft cinematic bokeh, warm amber lighting, and subtle reflections transform the café into an intimate, sophisticated setting. Captured with a direct vintage flash on a full-frame camera, the image features dramatic shadows, luminous skin, ultra-realistic facial texture, glossy lips, naturally flushed cheeks, delicate flyaway hair strands, and breathtaking catchlights in her eyes. Every detail is razor-sharp, while the background melts into creamy bokeh for an expensive editorial look. The composition follows the rule of thirds with strong leading lines, creating an image that feels spontaneous yet perfectly composed. Rich color grading combines warm amber, deep espresso brown, black, and vibrant crimson for a striking visual impact that dominates social media feeds. Luxury fashion editorial, cinematic storytelling, premium lifestyle photography, nostalgic disposable-camera aesthetic, moody café ambiance, high contrast, HDR, ultra-photorealistic, hyper-detailed, 8K, masterpiece quality, magazine cover, award-winning photography, impossible to ignore, scroll-stopping, highly shareable, viral-worthy, aspect ratio 4:5.",
+      "image": "https://pbs.twimg.com/media/HOcZJDAaQAAh3j7.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOcZJDAaQAAh3j7.jpg",
+        "https://pbs.twimg.com/media/HOcZKwmaYAA7QTt.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcZJDAaQAAh3j7.jpg",
+        "https://pbs.twimg.com/media/HOcZKwmaYAA7QTt.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/jzaib4269/status/2082661048369430550",
+      "url": "https://x.com/jzaib4269/status/2082661048369430550",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082557816888283531",
+      "title": "JSON lifestyle portrait with reference face",
+      "category": "portrait",
+      "tags": [
+        "json-prompt",
+        "lifestyle",
+        "reference-face",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "{\n  \"type\": \"image_prompt\",\n  \"version\": \"1.0\",\n  \"description\": {\n    \"subject\": {\n      \"identity\": \"Use uploaded reference face exactly, preserve identity, facial proportions, hairstyle and natural beauty\",\n      \"appearance\": {\n        \"face\": \"Soft feminine facial features, playful expression with tongue slightly out, bright expressive eyes, naturally defined eyebrows, long realistic eyelashes, subtle blush, hydrated glossy lips, minimal premium makeup\",\n        \"hair\": \"Long hair, smooth texture, natural shine, straight with soft volume, realistic individual strands and subtle flyaway hairs\",\n        \"skin\": \"Natural fair porcelain skin tone, hydrated glossy finish, ultra-realistic pores, soft peach fuzz, lifelike skin translucency, healthy glow, realistic skin texture with subtle natural imperfections\",\n        \"body\": \"Healthy feminine silhouette, balanced naturally curvy proportions, elegant body contours, realistic anatomy\"\n      }\n    },\n    \"pose\": {\n      \"position\": \"Standing indoors while leaning slightly toward the camera\",\n      \"camera_relation\": \"Relaxed upper-body portrait captured from chest height\",\n      \"head\": \"Slightly tilted to one side\",\n      \"hands\": \"One hand casually adjusting the waistband while the other hangs naturally\",\n      \"expression\": \"Playful, teasing, confident lifestyle moment\"\n    },\n    \"outfit\": {\n      \"top\": \"White cropped deep neck button-up shirt with rolled sleeves, slightly open collar, loose black necktie hanging naturally, realistic cotton texture and fabric folds\",\n      \"bottom\": \"High-waisted red pleated skirt with a black leather belt, premium fabric texture and natural movement\",\n      \"accessories\": [\"Minimal silver bracelet\", \"Delicate necklace\"]\n    }\n  },\n  \"scene\": {\n    \"location\": \"Modern luxury apartment bedroom\",\n    \"environment\": {\n      \"elements\": [\"Minimal beige walls\", \"Wooden flooring\", \"Modern bed\", \"Soft natural interior\", \"Clean contemporary furniture\"],\n      \"atmosphere\": \"Bright, cozy, premium lifestyle aesthetic\"\n    }\n  },\n  \"lighting\": {\n    \"type\": \"Natural indoor daylight\",\n    \"sources\": [\"Large window daylight\", \"Soft ambient room light\"],\n    \"characteristics\": [\"Soft diffused natural sunlight\", \"Balanced facial illumination\", \"Gentle shadow transitions\", \"Natural skin highlights\", \"Accurate white balance\", \"True-to-life color temperature\", \"Realistic daylight reflections\", \"Premium editorial indoor lighting\"]\n  },\n  \"camera\": {\n    \"device\": \"Sony A7R V\",\n    \"lens\": \"50mm f/1.4 GM\",\n    \"angle\": \"Eye-level portrait perspective\",\n    \"settings\": {\"aperture\": \"f/2.0\", \"shutter\": \"1/200s\", \"ISO\": \"250\", \"format\": \"RAW\", \"focus\": \"Perfect focus on eyes and face with soft background separation\"},\n    \"quality\": [\"8K Ultra HD\", \"HDR\", \"Professional editorial photography\", \"Natural color science\", \"Ultra-photorealistic rendering\"]\n  },\n  \"rendering\": {\n    \"style\": \"Ultra-photorealistic luxury lifestyle portrait\",\n    \"details\": [\"Realistic skin pores\", \"Hydrated glossy skin\", \"Authentic hair strands\", \"Detailed cotton fabric texture\", \"Natural clothing folds\", \"Soft cinematic depth of field\", \"True-to-life shadows\", \"Premium fashion editorial quality\", \"Indistinguishable from a genuine professional photograph\"]\n  }\n}",
+      "image": "https://pbs.twimg.com/media/HOa7S1MXIAAgcGi.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOa7S1MXIAAgcGi.jpg",
+        "https://pbs.twimg.com/media/HOa7S1LWoAAs8qU.jpg",
+        "https://pbs.twimg.com/media/HOa7S1LWAAIazqH.jpg",
+        "https://pbs.twimg.com/media/HOa7S1PWEAApPby.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOa7S1MXIAAgcGi.jpg",
+        "https://pbs.twimg.com/media/HOa7S1LWoAAs8qU.jpg",
+        "https://pbs.twimg.com/media/HOa7S1LWAAIazqH.jpg",
+        "https://pbs.twimg.com/media/HOa7S1PWEAApPby.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Nano Banana Pro",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/KeorUnreal/status/2082557816888283531",
+      "url": "https://x.com/KeorUnreal/status/2082557816888283531",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082691516581986806",
+      "title": "Desert woman with black horse cinematic portrait",
+      "category": "cinematic",
+      "tags": [
+        "horse",
+        "desert",
+        "portrait",
+        "golden-hour",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic portrait of a mysterious young woman standing beside a majestic black horse in a vast desert landscape. She has long, voluminous wavy dark-brown hair, flawless fair skin, striking green-hazel eyes, naturally defined brows, soft matte makeup, and full nude lips. Her expression is calm, confident, and captivating as she looks directly into the camera. She is dressed in an elegant flowing black medieval-inspired cloak with subtle embroidered patterns over a luxurious black gown, cinched at the waist with an ornate antique silver belt. The rich fabric drapes gracefully, creating a dramatic silhouette. Beside her stands a sleek black horse with a glossy coat, leather bridle, and a small white star marking on its forehead, both appearing poised and regal. The background features a softly blurred golden desert with distant rocky mountains under warm natural daylight. Gentle wind lifts her hair and cloak, adding movement and cinematic depth. Warm golden-hour lighting, shallow depth of field, creamy bokeh, ultra-detailed skin texture, realistic fabric folds, photorealistic horse details, luxury editorial fashion photography, cinematic composition, HDR, 8K, ultra-sharp focus, natural color grading, captured on a Sony A7R V with an 85mm f/1.4 lens. --ar 1:1 --style raw --v 7",
+      "image": "https://pbs.twimg.com/media/HOc05EkXcAAuTs2.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOc05EkXcAAuTs2.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOc05EkXcAAuTs2.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "GPT Image 2.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithMinal/status/2082691516581986806",
+      "url": "https://x.com/AIwithMinal/status/2082691516581986806",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082691449158865175",
+      "title": "Night record-store street fashion portrait",
+      "category": "fashion",
+      "tags": [
+        "night",
+        "street",
+        "record-store",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "On a summer night, outside a vintage record store in the old town, red brick walls are half-covered with dried vines, and the window glows with warm light and vinyl covers. She leans sideways against the wall, one leg slightly bent with her heel against the base, the other extended, body tilting back slightly, one hand resting on her hip, the other holding a folding fan, its ribs half-spread, the fabric hanging beside her leg. She does not face the camera directly but turns her head, the outer corners of her eyes lifting slightly, lips pressed together in a lazy, teasing expression, as if she deliberately slowed her breath for the shutter. She wears a black high-neck cutout fitted knit top, with a ribbed elastic collar hugging her neck, and a vertical row of narrow openings from collarbone to sternum, revealing small patches of skin beneath. The lightweight cotton knit is high-stretch, hugging her from shoulder to waist, outlining her bust and cinched waist. She pairs it with an off-white high-waist ruffled mini skirt, with two overlapping curved panels at the hem, length at mid-thigh, a snug waistband, and a short side zipper. No outer layer — the top is tucked into the waistband, fully exposing her waistline. Light comes from the warm shop window on the right and the white streetlamp on the upper left, casting cool-warm interplay across her face and shoulders, with soft shadows on the ground. The backdrop includes the brick wall, vines, record store window, and a deep blue-purple night sky.",
+      "image": "https://pbs.twimg.com/media/HOc009Zb0AArY_W.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOc009Zb0AArY_W.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOc009Zb0AArY_W.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sada_ai/status/2082691449158865175",
+      "url": "https://x.com/sada_ai/status/2082691449158865175",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082690306906955897",
+      "title": "Thermos bottle UGC product review video",
+      "category": "product",
+      "tags": [
+        "ugc",
+        "commercial",
+        "thermos",
+        "product-video",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 10-second ultra-realistic vertical (9:16) premium UGC-style product review commercial featuring a 500ml Stainless Steel SUS304 Thermos Bottle with a cute pink and cream puppy illustration. The bottle should have a premium matte finish with realistic metallic accents, crisp printed artwork, and luxurious craftsmanship. Use soft natural morning sunlight, warm pastel color grading, cinematic handheld camera movements, shallow depth of field, smooth rack focus transitions, soft creamy background bokeh, HDR lighting, realistic reflections, accurate shadows, and ultra-detailed textures. The environment should feel clean, cozy, modern, and lifestyle-oriented with premium commercial quality. Fast-paced editing with seamless cinematic transitions between every scene. Scene 1 (0.0–1.2s) – Hook Shot: A hand holds the thermos close to the camera and slowly rotates it, revealing the adorable puppy design. The background is softly blurred with a warm, cozy morning atmosphere. Smooth handheld movement creates an engaging first impression. Scene 2 (1.2–2.4s) – Product & Packaging: Place the thermos neatly beside its matching premium packaging box on a clean wooden table. The camera performs a slow top-down cinematic movement, emphasizing elegant branding and presentation. Scene 3 (2.4–3.6s) – SUS304 Interior Macro: Extreme macro close-up inside the bottle, showcasing the polished SUS304 stainless steel interior with realistic metallic reflections, precision finishing, and premium craftsmanship. Scene 4 (3.6–4.8s) – One-Click Lid Mechanism: Close-up slow-motion demonstration of the one-touch lock and flip-open lid. Capture the satisfying click, smooth opening action, and detailed hinge mechanism with premium cinematic lighting. Scene 5 (4.8–6.0s) – Water Pour Test: Crystal-clear water is poured into the thermos, highlighting the 500ml capacity. Show realistic water physics, smooth ripples, natural reflections, and premium slow-motion detail. Scene 6 (6.0–7.2s) – Lifestyle Shot: The thermos stands on a cozy outdoor picnic table beside neatly arranged books and light snacks. The camera slowly orbits around the bottle while warm morning sunlight creates a relaxing lifestyle atmosphere. Scene 7 (7.2–8.4s) – Anti-Slip Base Macro: Extreme macro shot of the anti-slip silicone base. A slow rotating camera movement highlights the textured grip, premium finish, and product durability. Scene 8 (8.4–10.0s) – Hero Ending: A hand picks up the thermos and gently presents it toward the camera with a soft natural smile in the background (face subtly blurred). End with a clean cinematic hero shot as elegant animated text fades in: \"Cute • Practical • Keeps Your Drink Perfect\". Visual Style: Ultra-realistic • Premium Commercial • UGC Product Review • Soft Natural Morning Light • Pastel Pink Aesthetic • Cozy Lifestyle • Cinematic Camera Movements • Smooth Handheld Motion • Shallow Depth of Field • HDR • 4K • Hyper-Realistic Textures • Realistic Reflections • Soft Background Bokeh • Seamless Transitions • Luxury Advertising Style • No Watermark • No Extra Objects • Highly Detailed • Photorealistic • Modern Product Marketing.",
+      "image": "https://pbs.twimg.com/media/HOczwhuawAA1EIO.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOczwhuawAA1EIO.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOczwhuawAA1EIO.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOczwhuawAA1EIO.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2082690275160600576/vid/avc1/720x1280/Asdf3CKzfDFLSoTq.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/soaima70480/status/2082690306906955897",
+      "url": "https://x.com/soaima70480/status/2082690306906955897",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785390904221,
+      "collectedAt": "2026-07-30T05:55:04.221Z",
+      "githubSyncedAt": "2026-07-30T05:55:04.221Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
@@ -5609,44 +5895,6 @@
       "url": "https://x.com/ToroJushiAi/status/2080080457345986703",
       "collectedAt": "2026-07-28T13:18:49.755Z",
       "githubSyncedAt": "2026-07-28T13:18:49.755Z",
-      "domesticSyncedAt": "2026-07-28T14:41:49.651Z"
-    },
-    {
-      "aspectRatio": "2:3",
-      "category": "人像",
-      "date": "2026-07-28",
-      "domain": "x.com",
-      "id": "ext_ms4nhzzj_j8wa",
-      "image": "https://pbs.twimg.com/media/HNx7Gm7WkAAg-RV?format=jpg&name=small",
-      "images": [
-        "https://pbs.twimg.com/media/HNx7Gm7WkAAg-RV?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNx7GnXXYAAK1bJ?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNx7Gm-XgAI5-jj?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNx7Gm8WoAAomFN?format=jpg&name=small"
-      ],
-      "model": "",
-      "prompt": "一位年轻成年东亚女性，纤细清秀，坐姿近景到半身肖像。她上半身微微前倾，身体略向右侧，头部轻微倾斜，双眼温柔地看向镜头，神情安静、柔和、克制，带一点自然亲近感。她有白皙偏暖的肤色，真实细腻的皮肤质感，保留毛孔、轻微绒毛、自然阴影和柔和高光，不要塑料磨皮。五官精致，杏仁眼，柔和眉形，小巧鼻梁，自然裸色嘴唇，淡妆。\n\n发型为深黑或深棕黑色头发，松散盘成高位凌乱丸子头，带自然碎发和轻薄空气刘海，耳侧和颈侧有几缕散落发丝，呈现轻盈随性的居家感。\n\n服装是一件白色细肩带吊带上衣，轻薄柔软，带细腻蕾丝或镂空纹理细节，领口低调自然，不过分夸张，整体清爽、纯净、简约。前景可见一只弯曲抬起的膝盖，形成柔和的近景遮挡和亲密构图。\n\n背景是极简的白色或浅灰白室内空间，无明显杂物，干净、通透、安静。光线为高键柔光，像窗边自然散射光或柔和棚拍漫射光，从左前方轻柔照亮面部和肩颈，阴影极浅，整体低对比、低饱和，呈现奶油白、浅灰、裸粉肤色的高级日系空气感。\n\n摄影风格：85mm 人像镜头，浅景深，焦点清晰落在眼睛和面部，背景轻柔虚化，真实摄影质感，唯美但不假，干净克制，high-key soft portrait，editorial beauty portrait，photorealistic。\n\n避免： 卡通感、CG感、过度磨皮、浓妆、夸张表情、杂乱背景、错误手指、畸形手臂、过强锐化、过重滤镜、文字、水印、Logo。",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HNx7Gm7WkAAg-RV?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNx7GnXXYAAK1bJ?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNx7Gm-XgAI5-jj?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HNx7Gm8WoAAomFN?format=jpg&name=small"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/i/bookmarks",
-      "tags": [
-        "photorealistic",
-        "人像",
-        "摄影",
-        "低饱和",
-        "极简"
-      ],
-      "timestamp": 1785242851183,
-      "title": "GPT Image 2 on ChatGPT",
-      "url": "https://x.com/i/bookmarks",
-      "collectedAt": "2026-07-28T12:47:36.039Z",
-      "githubSyncedAt": "2026-07-28T12:47:36.039Z",
       "domesticSyncedAt": "2026-07-28T14:41:49.651Z"
     },
     {
