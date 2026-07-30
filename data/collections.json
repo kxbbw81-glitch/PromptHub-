@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T08:06:54.716Z",
+  "updatedAt": "2026-07-30T08:06:57.574Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms78cqzi_heky",
+      "image": "https://pbs.twimg.com/media/HObZ1p9W4AAlkUX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObZ1p9W4AAlkUX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObZ1p-W8AAeNk-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObZ1qMW0AAKnTH?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位20多岁的年轻成年东亚女性倚靠在深灰色粗糙混凝土墙面旁，画面从头顶拍至腰胯附近。人物位于中央略偏左，身体微微侧向镜头，肩背贴墙，双臂抬高并自然交叠于头顶上方，一只手腕压在另一只手掌附近，肘部形成舒展的三角构图。头部轻轻向后靠墙，下巴略抬，平静直视镜头，神情慵懒、克制、略带疏离感，嘴唇自然微启。\n\n她拥有精致鹅蛋脸、柔和下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和低饱和裸粉色嘴唇。妆容极淡，保留自然睫毛、浅灰棕眼影、淡粉腮红。肤色白皙偏中性暖调，保留真实毛孔、细小绒毛、轻微肤色变化与自然皮脂高光，禁止塑料磨皮。\n\n深黑色长直发自然披散，带轻薄碎刘海，大部分垂落肩前与背后，发尾略微凌乱，脸侧有少量细碎发丝。\n\n她穿浅灰色棉质三角运动文胸，柔软无钢圈结构，低V领，宽白色弹力下围带带有重复黑色极简品牌字样；外披一件宽松纯白色短袖衬衫，纽扣敞开，袖口宽松，衣摆自然垂落。下身为白色或浅灰色抽绳运动短裤，仅露出部分裤腰。面料完全不透明，造型简洁、运动感与生活感并存。\n\n背景右侧是大面积明亮窗户，窗外绿色植物完全虚化。柔和阴天窗光从右前方照入，形成冷白色漫射光，脸部、手臂、锁骨和腹部亮度均匀，左侧墙面保留柔和阴影。整体低饱和、低对比，以灰白、深灰、暖肤色和墨黑发色为主。\n\n摄影风格：85mm镜头，f/2，平视略低机位，浅景深，面部、双手和服装纹理清晰，背景奶油化虚化，真实皮肤、发丝、棉布和混凝土纹理，轻微ISO 400胶片颗粒，Japanese minimalist lifestyle editorial，photorealistic。\n\n避免：未成年人特征、透明服装、露点、夸张身材、错误手指、融合手臂、畸形肩颈、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObZ1p9W4AAlkUX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObZ1p-W8AAeNk-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObZ1qMW0AAKnTH?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082737968595489092",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785398810526,
+      "title": "X 上的 ToroJushiAi：“Prompt ⬇️⬇️⬇️ https://t.co/BQUJsCwxMP” / X",
+      "url": "https://x.com/ToroJushiAi/status/2082737968595489092",
+      "collectedAt": "2026-07-30T08:06:57.574Z",
+      "githubSyncedAt": "2026-07-30T08:06:57.574Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
