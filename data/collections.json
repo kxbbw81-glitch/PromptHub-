@@ -1,7 +1,188 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T12:09:13.840Z",
+  "updatedAt": "2026-07-30T12:26:56.190Z",
   "collections": [
+    {
+      "id": "grok_x_2082749842707861902",
+      "title": "Oriental fantasy hush gesture portrait",
+      "category": "人像",
+      "tags": [
+        "oriental-fantasy",
+        "cinematic-portrait",
+        "negative-prompt",
+        "hush-gesture",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "3:4竖构图，超写实东方幻想古典女性电影肖像摄影（Oriental Fantasy Cinematic Portrait），高级电影剧照质感，真实摄影机拍摄效果，非插画，非动漫，非CG渲染。\n\n画面主体为一位22岁以上原创东方成年女性角色。\n\n人物设计：\n人物拥有精致柔和的东方面容，脸型小巧自然，皮肤呈现高级真实质感，保留细微毛孔、自然皮肤纹理与柔和光泽，不使用塑料磨皮效果。\n\n人物姿态：\n近距离面部特写，人物正面面对镜头，身体保持正向，不左右歪头。头部轻微向上抬起，形成轻微俯视视角，带有安静而神秘的凝视感。左眼自然闭合，闭眼处眼影妆容明显，采用高级红棕色渐变眼影，眼影覆盖整个眼睑并自然向眼尾晕染，突出细长眼线与浓密睫毛层次。右眼自然睁开，眼神柔和而富有灵气。脸颊保留一颗自然小痣，位置清晰可见。嘴唇微微张开，唇部水润饱满，呈现自然玻璃唇质感。\n\n妆容设计：\n东方古典融合幻想妆容，精致眼妆，高级红棕色眼影、细长眼线、根根分明的睫毛。面部不要花钿，不添加任何额间纹样，整体妆容干净高级，强调眼部层次。\n\n发型与饰品：\n银灰色长发，自然蓬松，柔顺富有光泽。头顶采用东方古典盘发造型，两侧佩戴深酒红色花朵发饰，搭配金色流苏耳环与珍珠点缀，发丝边缘被月光勾勒出柔和轮廓光。\n\n动作：\n人物一只手自然抬起，食指轻触嘴唇中央，做“嘘”的动作。手指修长自然，手部比例准确，手掌与脸保持自然距离，不遮挡五官。\n\n服饰：\n浅色东方幻想古典轻纱长裙，细腻刺绣纹理，轻薄半透明纱袖，服装具有高级电影服装质感。\n\n背景环境：\n夜晚东方古典庭院，远处古代楼阁隐藏于夜色之中，暖黄色宫灯散发柔和光线，盛开的樱花树形成粉色虚化背景，花瓣缓缓飘落，天空悬挂朦胧圆月，冷色月光从人物身后照射，形成自然轮廓光。背景采用超浅景深，大面积柔和电影散景（Bokeh），营造梦幻电影氛围。\n\n摄影风格：\nARRI ALEXA 65电影摄影机质感，85mm电影人像镜头，超浅景深，电影级逆光，真实胶片颗粒，真实皮肤反射，高级Editorial电影人像摄影，自然曝光，真实摄影，高端电影剧照质感。\n\n整体氛围：\n神秘、安静、梦幻、东方幻想、月夜电影感、高级时尚人像摄影。\n\nNegative Prompt：\n动漫风、二次元、漫画风、插画风、CG感、3D渲染、游戏建模、AI塑料皮肤、蜡像皮肤、过度磨皮、假人脸、HDR光晕、过度锐化、过度饱和、滤镜感、低清晰度、低分辨率、细节模糊、背景空白、现代建筑、现代街景、现代室内、摄影棚背景。\n\n人物歪头、头部左右倾斜、侧脸、侧身、转头、低头、头部后仰过度、身体朝向错误、脸部比例异常、双眼同时睁开、右眼闭合、双眼闭合、眼神呆滞、眼妆缺失、闭眼没有眼影、额头花钿、额头纹样、脸上的痣缺失、痣位置错误。\n\n狐狸耳朵、猫耳、兽耳、动物耳朵、恶魔角、翅膀、巨大幻想特效、烟雾遮挡面部、火焰特效、夸张粒子光效。\n多余手指、缺少手指、融合手指、手掌畸形、手臂比例错误、动作僵硬、食指位置错误、手指遮挡眼睛。\n\n服装现代化、服装结构错误、布料僵硬、刺绣消失、饰品缺失、耳环变形、发饰错误、头发凌乱、头发穿模。\n五官变形、鼻子变形、嘴巴变形、牙齿异常、耳朵畸形、脖子过长、肩膀比例错误、身体解剖错误、人物裁切、画面裁切错误。",
+      "image": "https://pbs.twimg.com/media/HOdp795aYAAzKv6.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOdp795aYAAzKv6.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOdp795aYAAzKv6.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/GrayNoteLab/status/2082749842707861902",
+      "url": "https://x.com/GrayNoteLab/status/2082749842707861902",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785414416177,
+      "collectedAt": "2026-07-30T12:26:56.177Z",
+      "githubSyncedAt": "2026-07-30T12:26:56.177Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082791033793069515",
+      "title": "Luxury skincare commercial 8s",
+      "category": "视频提示词",
+      "tags": [
+        "skincare",
+        "commercial",
+        "luxury-product",
+        "macro",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an 8-second ultra-realistic luxury skincare commercial. A premium pink-and-white cosmetic cream jar is placed at the center on a glossy reflective surface. Soft white silk fabric flows elegantly around the product while delicate pink mist, floating dust particles, and cinematic light rays create a dreamy atmosphere. The camera starts with a slow macro close-up, smoothly circles the jar, then gently zooms in to reveal the product label in perfect focus. The background features a soft pastel pink gradient with luxury studio lighting, glossy reflections, and subtle bokeh. Every movement is smooth and cinematic, with realistic physics, premium commercial composition, shallow depth of field, HDR lighting, photorealistic textures, and an elegant high-end beauty brand aesthetic. No text, no watermark, no people, only the product. 8K, 24fps, luxury cosmetic advertisement quality.",
+      "image": "https://pbs.twimg.com/media/HOeN_MbawAAq6Zg.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOeN_MbawAAq6Zg.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeN_MbawAAq6Zg.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HOeN_MbawAAq6Zg.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2082789469418389504/vid/avc1/1280x720/iBrK614FSUsjJdvV.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Alina_with_Ai/status/2082791033793069515",
+      "url": "https://x.com/Alina_with_Ai/status/2082791033793069515",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785414416177,
+      "collectedAt": "2026-07-30T12:26:56.177Z",
+      "githubSyncedAt": "2026-07-30T12:26:56.177Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082476794758705589",
+      "title": "Logo-to-premium pen concept board",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "logo",
+        "product-concept",
+        "visual-identity",
+        "luxury-pen",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Transform the uploaded logo into a futuristic premium pen concept, where the entire pen design is inspired by the logo’s shape, colors, typography style, curves, and overall visual identity. The pen should feel like a real limited-edition release from a luxury stationery, lifestyle, or executive accessories brand.\n\nMain pen design:\nThe uploaded logo must influence: pen silhouette, barrel shape, cap structure, clip design, grip section, nib or tip details, material transitions, engraved accents.\nThe logo itself should appear naturally integrated as a clip emblem, barrel engraving, cap symbol, grip texture, nib detail, or subtle metallic mark.\n\nMaterials:\nUse a mix of premium materials such as: brushed metal, polished aluminum, matte lacquer, carbon fiber accents, soft-touch grip material, chrome details, glossy enamel, subtle translucent elements.\n\nColor palette:\nUse colors derived directly from the uploaded logo. Keep the palette balanced, elegant, premium, and modern. Make the pen feel refined, collectible, and desirable.\n\nProduct family / presentation:\nCreate a clean luxury concept presentation board featuring: one main hero pen render, additional smaller cap, nib, side, and detail views, optional premium pen box or desk stand, clean visual consistency across all product elements.\n\nInfographic details:\nInclude small clean callout sections showing: material breakdown, logo integration, color palette, writing system, grip design, luxury packaging concept, side profile sketch.\n\nEnvironment & presentation:\nUse a clean studio product presentation setup. Minimal premium background. Soft shadows beneath the pen. Optional elegant desk surface or display platform. Optional exploded-view or technical concept details around the pen.\n\nLighting:\nHigh-end luxury product commercial lighting. Strong highlights on metal, lacquer, and polished details. Soft gradient shadows. Premium reflective control.\n\nCamera & composition:\nMain hero pen in 3/4 perspective. Smaller supporting detail views arranged around it. Balanced infographic layout with a clean premium presentation style.\n\nTypography:\nUse only minimal clean presentation text. No random text. No clutter. Keep text organized like a premium Behance-style product concept board.\n\nFormat:\nAspect ratio: STRICT 4:5 vertical.\n\nStyle:\nPremium pen concept art. Luxury stationery product design. Behance presentation aesthetic. Ultra-realistic product visualization. Clean, polished, elegant, futuristic, and launch-ready.",
+      "image": "https://pbs.twimg.com/media/HOZxkKYWEAAwbAf.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOZxkKYWEAAwbAf.jpg",
+        "https://pbs.twimg.com/media/HOZxkKyWkAAp7cT.jpg",
+        "https://pbs.twimg.com/media/HOZxkKSWoAAYWXL.jpg",
+        "https://pbs.twimg.com/media/HOZxkWnXEAArlnu.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOZxkKYWEAAwbAf.jpg",
+        "https://pbs.twimg.com/media/HOZxkKyWkAAp7cT.jpg",
+        "https://pbs.twimg.com/media/HOZxkKSWoAAYWXL.jpg",
+        "https://pbs.twimg.com/media/HOZxkWnXEAArlnu.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SIELmarketing/status/2082476794758705589",
+      "url": "https://x.com/SIELmarketing/status/2082476794758705589",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785414416177,
+      "collectedAt": "2026-07-30T12:26:56.177Z",
+      "githubSyncedAt": "2026-07-30T12:26:56.177Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082804014450970672",
+      "title": "Neo-noir windowpane sunglasses portrait",
+      "category": "人像",
+      "tags": [
+        "neo-noir",
+        "editorial",
+        "sunglasses",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic IMAX-level Netflix-style cinematic neo-noir portrait, 4:5 vertical composition, use the uploaded image as the primary facial reference with maximum face consistency, create a handsome young adult man captured in an intimate three-quarter side-profile close portrait against a deep charcoal-black studio background. He wears round dark reflective sunglasses with a thin metallic frame, a matte-black crew-neck T-shirt and a minimal silver chain. His expression feels calm, guarded and quietly authoritative, with subtly lowered brows, focused eyes concealed behind the lenses, relaxed cheeks, lightly pressed lips and a defined masculine jawline. His dark hair is styled with polished lifted volume, paired with a dense neatly shaped beard. Cool blue-grey side lighting traces his forehead, glasses, nose, lips and beard while the opposite side fades into deep shadow. Add crisp rectangular window reflections across both lenses, subtle atmospheric haze, refined black-and-steel colour grading, shallow depth of field and premium editorial realism, highly detailed, 8K quality.\nNegative Prompt: front-facing pose, uneven lens reflections, flat lighting.",
+      "image": "https://pbs.twimg.com/media/HOebNRcaAAA5AnQ.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOebNRcaAAA5AnQ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOebNRcaAAA5AnQ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/aatif_j/status/2082804014450970672",
+      "url": "https://x.com/aatif_j/status/2082804014450970672",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785414416177,
+      "collectedAt": "2026-07-30T12:26:56.177Z",
+      "githubSyncedAt": "2026-07-30T12:26:56.177Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2082797783229374562",
+      "title": "Burgundy streetwear parking garage portrait",
+      "category": "时尚",
+      "tags": [
+        "streetwear",
+        "editorial",
+        "night",
+        "parking-garage",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A cinematic streetwear fashion portrait of a beautiful young East Asian woman in an underground parking garage at night. She is captured in a graceful side profile while gently adjusting the brim of her burgundy baseball cap, creating a confident yet elegant pose. She has long, silky dark brown hair, flawless porcelain skin, soft natural makeup, defined brows, subtle eyeliner, warm brown eyes, and matte rosy lips. She wears an oversized burgundy hoodie featuring a large embroidered star design on the back, paired with a matching burgundy cap, a silver wristwatch, delicate chain bracelet, and small hoop earrings. The background is a dark industrial parking garage with dramatic shadows and minimal ambient lighting. A soft off-camera flash illuminates her face and outfit, creating strong contrast, crisp details, and a premium editorial look. Moody urban atmosphere, luxury streetwear aesthetic, shallow depth of field, ultra-realistic DSLR photography, cinematic lighting, 85mm lens, f/1.8, HDR, 8K, high-detail skin texture, realistic fabric folds, rich burgundy tones, Vogue-style fashion editorial, modern minimalist composition, premium color grading.",
+      "image": "https://pbs.twimg.com/media/HOeViJsaMAAqRJT.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOeViJsaMAAqRJT.jpg",
+        "https://pbs.twimg.com/media/HOeVistaAAAw4P6.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeViJsaMAAqRJT.jpg",
+        "https://pbs.twimg.com/media/HOeVistaAAAw4P6.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "chatgpt image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2082797783229374562",
+      "url": "https://x.com/Aqsahere_/status/2082797783229374562",
+      "domain": "x.com",
+      "date": "2026-07-30",
+      "timestamp": 1785414416177,
+      "collectedAt": "2026-07-30T12:26:56.177Z",
+      "githubSyncedAt": "2026-07-30T12:26:56.177Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "抽象",
