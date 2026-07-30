@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:38:10.051Z",
+  "updatedAt": "2026-07-30T14:38:12.680Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7mbxxc_2kz4",
+      "image": "https://pbs.twimg.com/media/HK2gaM7X0AAlYVL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK2gaM7X0AAlYVL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK2heUcWQAA7Nj4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK2hfU-WQAAJZYZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK2hfuYXQAEhHgI?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT 生成的品牌：闻间 SCENT ROOM，轻 IP：香香云\n\n围绕卧室、办公桌、衣柜、车内和送礼场景\n\n把“按状态选香”做成一套可销售、可传播、可复用的品牌系统\n\n从品牌主视觉、IP 系统、香型标签、产品包装\n\n到电商详情页和真实使用场景\n\n一整套生活方式电商品牌链路都跑通了！\n\n提示词在评论区，引用推有其他案例",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK2gaM7X0AAlYVL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK2heUcWQAA7Nj4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK2hfU-WQAAJZYZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HK2hfuYXQAEhHgI?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2066485484692410611",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785422287488,
+      "title": "用 ChatGPT-Image2 做原创 IP 商品化提案，实用又高级！",
+      "url": "https://x.com/MrLarus/status/2066485484692410611",
+      "collectedAt": "2026-07-30T14:38:12.680Z",
+      "githubSyncedAt": "2026-07-30T14:38:12.680Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
