@@ -68,10 +68,11 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /alreadySaved: true, duplicateId:/);
   assert.match(background, /const skipped = entries\.length - additions\.length;/);
   assert.match(content, /alreadySaved: Boolean\(response\?\.alreadySaved\)/);
-  assert.match(background, /alreadyQueued: true/);
+  assert.match(background, /async function addItemsToQueue\(items\)/);
+  assert.match(background, /action === 'addItemsToQueue'/);
+  assert.match(background, /\[\.\.\.queue, \.\.\.additions\]/);
   assert.match(background, /let queueMutation = Promise\.resolve\(\);/);
   assert.match(background, /function withQueueLock\(task\)/);
-  assert.match(background, /await chrome\.storage\.local\.set\(\{ \[QUEUE_KEY\]: \[\.\.\.queue, safeItem\] \}\);/);
   assert.match(background, /const queueSnapshot = await getQueue\(\);/);
   assert.match(background, /const RECEIPT_KEY = 'prompthub_collection_receipts';/);
   assert.match(background, /async function verifyGitHubCollections\(token, entries\)/);
@@ -81,6 +82,8 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /for \(let attempt = 0; attempt < 5; attempt\+\+\)/);
   assert.match(background, /formatGitHubError\(error\)/);
   assert.match(popup, /action: 'addToQueue'/);
+  assert.match(popup, /action: 'addItemsToQueue'/);
+  assert.match(popup, /id="btn-collect-all"/);
   assert.match(popup, /已加入收藏队列，等待 GitHub 主站验证/);
   assert.match(popup, /function waitForCollectionVerification/);
   assert.match(popup, /#btn-notice/);
@@ -96,8 +99,8 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.7\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.7\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.8\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.8\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 

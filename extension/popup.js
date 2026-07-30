@@ -42,6 +42,17 @@ async function addToQueue(item) {
   return result;
 }
 
+async function addItemsToQueue(items) {
+  const result = await chrome.runtime.sendMessage({
+    action: 'addItemsToQueue',
+    data: items
+  });
+  if (!result?.success) {
+    return { success: false, error: result?.error || '批量收藏失败，请稍后重试' };
+  }
+  return result;
+}
+
 async function removeFromQueue(promptText) {
   return chrome.runtime.sendMessage({ action: 'removeFromQueue', prompt: promptText });
 }
@@ -104,6 +115,31 @@ async function waitForCollectionVerification(id, button) {
       return;
     }
     button.textContent = receipt.state === 'syncing' ? '正在验证…' : '已加入队列';
+  }
+  await updateQueueUI();
+}
+
+async function waitForBatchVerification(ids, button) {
+  const trackedIds = [...new Set(ids || [])];
+  for (let attempt = 0; attempt < 45; attempt += 1) {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    const receipts = await Promise.all(trackedIds.map(getCollectionReceipt));
+    const verified = receipts.filter(receipt => receipt?.state === 'verified').length;
+    const failed = receipts.filter(receipt => receipt?.state === 'failed').length;
+    if (failed) {
+      button.disabled = false;
+      button.textContent = `↻ ${failed} 个收藏待重试`;
+      showToast('部分收藏验证失败，已保留在队列');
+      await updateQueueUI();
+      return;
+    }
+    if (verified === trackedIds.length) {
+      button.textContent = `✓ 已验证主站 ${verified} 个`;
+      button.classList.add('mini-btn-collected');
+      await updateQueueUI();
+      return;
+    }
+    button.textContent = `正在验证 ${verified}/${trackedIds.length}`;
   }
   await updateQueueUI();
 }
@@ -449,7 +485,7 @@ function renderPrompts(prompts) {
     return;
   }
 
-  let html = `<div class="scan-badge">检测到 ${prompts.length} 个提示词</div>`;
+  let html = `<div class="scan-summary"><div class="scan-badge">检测到 ${prompts.length} 个提示词</div>${prompts.length > 1 ? '<button class="btn btn-collect-all" id="btn-collect-all">❤️ 一键收藏</button>' : ''}</div>`;
   prompts.forEach((p, idx) => {
     const imgHTML = p.image
       ? `<img class="prompt-item-thumb" src="${p.image}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="prompt-item-thumb-placeholder" style="display:none;">🍌</div>`
@@ -509,6 +545,32 @@ function renderPrompts(prompts) {
       }
     });
   });
+
+  const collectAllButton = $('#btn-collect-all');
+  if (collectAllButton) {
+    collectAllButton.addEventListener('click', async () => {
+      collectAllButton.disabled = true;
+      collectAllButton.textContent = `正在收藏 ${prompts.length} 个`;
+      const result = await addItemsToQueue(prompts);
+      if (!result.success) {
+        collectAllButton.disabled = false;
+        collectAllButton.textContent = '❤️ 一键收藏';
+        showToast(result.error);
+        return;
+      }
+
+      content.querySelectorAll('.mini-btn-collect').forEach(button => {
+        button.disabled = true;
+        button.textContent = '已加入队列';
+      });
+      await updateQueueUI();
+      const summary = result.added
+        ? `已加入 ${result.added} 个收藏，正在验证 GitHub 主站`
+        : '检测到的提示词已在待验证队列中';
+      showToast(summary);
+      await waitForBatchVerification(result.trackedIds, collectAllButton);
+    });
+  }
 }
 
 function escapeHTML(str) {

@@ -100,6 +100,26 @@ test('concurrent collections are saved locally before automatic GitHub primary s
   assert.equal(storage.prompthub_queue, undefined);
 });
 
+test('one-click collection batches detected prompts into one queued GitHub write', async () => {
+  const { context, remote, storage } = createHarness();
+  const first = prompt('batch-first', 'A cinematic portrait of an adult woman in a quiet gallery, soft side window light, tailored navy suit, realistic skin texture, 85mm lens, shallow depth of field, balanced editorial framing, muted color grade, photorealistic finish, no text, no watermark.');
+  const second = prompt('batch-second', 'A detailed architectural photograph of a calm concrete courtyard with reflecting water, warm dusk light, clean geometric composition, native plants, subtle film grain, 24mm lens, realistic materials, high-end editorial finish, photorealistic, no text, no logo.');
+  const duplicateSource = { ...first, id: 'batch-duplicate', title: 'Duplicate source', prompt: `${first.prompt} Extra wording.` };
+  const incomplete = prompt('batch-incomplete', 'A short prompt,');
+
+  const result = await context.addItemsToQueue([first, second, duplicateSource, incomplete]);
+
+  assert.equal(result.success, true);
+  assert.equal(result.added, 2);
+  assert.equal(result.rejected, 1);
+  assert.deepEqual([...result.trackedIds], ['batch-first', 'batch-second']);
+  assert.equal((await waitForReceipt(context, 'batch-first')).state, 'verified');
+  assert.equal((await waitForReceipt(context, 'batch-second')).state, 'verified');
+  assert.equal(remote.putCalls, 1);
+  assert.deepEqual(remote.collections.map(item => item.id), ['batch-second', 'batch-first']);
+  assert.equal(storage.prompthub_queue, undefined);
+});
+
 test('incomplete prompts and duplicate source posts never reach the primary site', async () => {
   const { context, remote } = createHarness();
   const complete = prompt('complete', 'A cinematic editorial portrait of an adult woman standing in a quiet modern gallery, soft directional daylight, tailored black coat, realistic fabric texture, 85mm lens, shallow depth of field, gentle shadows, refined color palette, high-end magazine photography, photorealistic finish, no text, no watermark.');

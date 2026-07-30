@@ -256,32 +256,74 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
 // --- 队列操作 ---
 async function addToQueue(item) {
-  const safeItem = sanitizeRemoteItem(item);
-  if (!safeItem) throw new Error('Invalid prompt item');
+  const result = await addItemsToQueue([item]);
+  if (!result.success) return result;
+  return {
+    ...result,
+    alreadyQueued: result.added === 0 && result.alreadyQueued > 0,
+    queued: result.added > 0
+  };
+}
 
-  if (!isCompleteCollectionItem(safeItem)) {
-    return { success: false, error: '提示词不完整、缺少结果图，或无法定位原帖，未收藏' };
+async function addItemsToQueue(items) {
+  const rejected = [];
+  const candidates = [];
+  const batchFingerprints = new Set();
+  const batchSources = new Set();
+
+  for (const item of Array.isArray(items) ? items : []) {
+    const safeItem = sanitizeRemoteItem(item);
+    const fingerprint = collectionFingerprint(safeItem);
+    const sourceKey = collectionSourceKey(safeItem);
+    if (!safeItem || !isCompleteCollectionItem(safeItem) || !fingerprint || !sourceKey) {
+      rejected.push(item);
+      continue;
+    }
+    if (batchFingerprints.has(fingerprint) || batchSources.has(sourceKey)) continue;
+    batchFingerprints.add(fingerprint);
+    batchSources.add(sourceKey);
+    candidates.push(safeItem);
+  }
+
+  if (candidates.length === 0) {
+    return { success: false, error: '没有可收藏的完整提示词：请确认包含结果图和原帖链接', rejected: rejected.length };
   }
 
   const queued = await withQueueLock(async () => {
     const queue = await getQueue();
-    const fingerprint = collectionFingerprint(safeItem);
-    const sourceKey = collectionSourceKey(safeItem);
-    if (queue.some(entry => collectionFingerprint(entry) === fingerprint || (sourceKey && collectionSourceKey(entry) === sourceKey))) {
-      return { success: true, count: queue.length, alreadyQueued: true };
-    }
+    const queuedFingerprints = new Set(queue.map(collectionFingerprint).filter(Boolean));
+    const queuedSources = new Set(queue.map(collectionSourceKey).filter(Boolean));
+    const additions = candidates.filter(item => {
+      const fingerprint = collectionFingerprint(item);
+      const sourceKey = collectionSourceKey(item);
+      if (queuedFingerprints.has(fingerprint) || queuedSources.has(sourceKey)) return false;
+      queuedFingerprints.add(fingerprint);
+      queuedSources.add(sourceKey);
+      return true;
+    });
 
-    await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, safeItem] });
-    return { success: true, count: queue.length + 1 };
+    if (additions.length) await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, ...additions] });
+    return {
+      success: true,
+      count: queue.length + additions.length,
+      added: additions.length,
+      alreadyQueued: candidates.length - additions.length,
+      trackedItems: candidates
+    };
   });
 
-  await setCollectionReceipts([safeItem], 'queued', {
-    message: queued.alreadyQueued
-      ? '已在队列，正在重新验证 GitHub 主站'
-      : `已加入队列，等待 GitHub 主站验证（队列 ${queued.count} 个）`
+  await setCollectionReceipts(queued.trackedItems, 'queued', {
+    message: queued.added
+      ? `已加入 ${queued.added} 个提示词，等待 GitHub 主站验证（队列 ${queued.count} 个）`
+      : '已在队列，正在重新验证 GitHub 主站'
   });
   queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue sync failed:', error?.message));
-  return { ...queued, pendingVerification: true, queued: !queued.alreadyQueued };
+  return {
+    ...queued,
+    rejected: rejected.length,
+    trackedIds: queued.trackedItems.map(item => item.id),
+    pendingVerification: true
+  };
 }
 
 async function getQueue() {
@@ -410,6 +452,11 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
   if (request.action === 'addToQueue') {
     addToQueue(request.data).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
+    return true;
+  }
+
+  if (request.action === 'addItemsToQueue') {
+    addItemsToQueue(request.data).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
     return true;
   }
 

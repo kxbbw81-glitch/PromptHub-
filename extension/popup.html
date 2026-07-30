@@ -252,6 +252,10 @@
       border-radius: 10px;
       margin-bottom: 10px;
     }
+    .scan-summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+    .scan-summary .scan-badge { margin-bottom: 0; }
+    .btn-collect-all { padding: 6px 10px; background: #FFD93D; color: #1A1A1A; white-space: nowrap; }
+    .btn-collect-all:hover { background: #FFC700; }
   </style>
 </head>
 <body>
@@ -261,7 +265,7 @@
       <div class="header-icon">🍌</div>
       <div>
         <div class="header-title">PromptHub</div>
-        <div class="header-sub">AI 提示词收集器 v3.7</div>
+        <div class="header-sub">AI 提示词收集器 v3.8</div>
       </div>
     </div>
     <div class="header-queue" id="header-queue" style="display:none;">
