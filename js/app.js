@@ -15,7 +15,7 @@
   const PAGE_SIZE = 24;
 
   // --- Collections (GitHub is the canonical source) ---
-  const REMOTE_COLLECTIONS_URL = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
+  const PRIMARY_COLLECTIONS_URL = 'data/collections.json';
   const DOMESTIC_COLLECTIONS_URL = '/data/collections.json?v=20260729b';
   const DOMESTIC_HOST = 'prompthub.kxbbw81.workers.dev';
   let collectionsCache = [];
@@ -159,8 +159,14 @@
 
   function getCollectionsUrl() {
     // The domestic deployment already contains the released data. Avoid making
-    // visitors wait for raw.githubusercontent.com from inside mainland China.
-    return isDomesticSite() ? DOMESTIC_COLLECTIONS_URL : REMOTE_COLLECTIONS_URL;
+    // visitors wait for external GitHub raw endpoints from inside mainland China.
+    return isDomesticSite() ? DOMESTIC_COLLECTIONS_URL : PRIMARY_COLLECTIONS_URL;
+  }
+
+  function getCollectionsRequestUrl() {
+    const url = new URL(getCollectionsUrl(), window.location.href);
+    if (!isDomesticSite()) url.searchParams.set('_', String(Date.now()));
+    return url.toString();
   }
 
   function getCollectionSortTime(item) {
@@ -184,7 +190,7 @@
     if (collectionsLoading && !force) return collectionsLoading;
 
     const request = (async () => {
-      const response = await fetch(getCollectionsUrl(), {
+      const response = await fetch(getCollectionsRequestUrl(), {
         // The primary site needs the latest GitHub write immediately. The
         // domestic site revalidates its local, released asset instead.
         cache: isDomesticSite() ? 'no-cache' : 'no-store'

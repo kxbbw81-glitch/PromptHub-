@@ -50,10 +50,13 @@ test('the homepage uses the requested copy without Nano Banana branding', () => 
 });
 
 test('collections use GitHub as their source of truth instead of browser local storage', () => {
-  assert.match(app, /const REMOTE_COLLECTIONS_URL = 'https:\/\/raw\.githubusercontent\.com\/kxbbw81-glitch\/PromptHub-\/main\/data\/collections\.json';/);
+  assert.match(app, /const PRIMARY_COLLECTIONS_URL = 'data\/collections\.json';/);
   assert.match(app, /const DOMESTIC_COLLECTIONS_URL = '\/data\/collections\.json\?v=20260729b';/);
-  assert.match(app, /return isDomesticSite\(\) \? DOMESTIC_COLLECTIONS_URL : REMOTE_COLLECTIONS_URL;/);
-  assert.match(app, /await fetch\(getCollectionsUrl\(\)/);
+  assert.match(app, /return isDomesticSite\(\) \? DOMESTIC_COLLECTIONS_URL : PRIMARY_COLLECTIONS_URL;/);
+  assert.match(app, /function getCollectionsRequestUrl\(\)/);
+  assert.match(app, /url\.searchParams\.set\('_', String\(Date\.now\(\)\)\);/);
+  assert.match(app, /await fetch\(getCollectionsRequestUrl\(\)/);
+  assert.doesNotMatch(app, /raw\.githubusercontent\.com\/kxbbw81-glitch\/PromptHub-\/main\/data\/collections\.json/);
   assert.match(app, /isDomesticSite\(\) \? 300000 : 60000/);
   assert.doesNotMatch(app, /localStorage\.setItem\(COLLECTIONS_KEY/);
   assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);

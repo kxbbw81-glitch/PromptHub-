@@ -18,6 +18,7 @@
 
 - `data/collections.json` 是收藏数据唯一的权威来源，位于 GitHub `main` 分支。
 - GitHub 主站 `https://kxbbw81-glitch.github.io/PromptHub-/` 从该数据源展示收藏。
+- GitHub 主站前端必须读取同源 `data/collections.json` 并追加刷新参数，避免依赖 `raw.githubusercontent.com` 导致页面端看起来未同步。
 - 国内站 `https://prompthub.kxbbw81.workers.dev/` 只展示已完成国内发布的数据。
 - 国内站读取随部署发布的本地 `/data/collections.json`，不得在用户浏览器中依赖 `raw.githubusercontent.com` 才能显示收藏数据。
 - 浏览器扩展的 `chrome.storage.local` 仅可保存短暂的失败重试队列和本机 Token；它不是收藏数据库，也不能成为跨设备数据来源。
