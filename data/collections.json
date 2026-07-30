@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:24:44.764Z",
+  "updatedAt": "2026-07-30T09:28:12.187Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "建筑",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7b90c3_kbzv",
+      "image": "https://pbs.twimg.com/media/HMltsYtb0AAVqEA?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMltsYtb0AAVqEA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMltsYqakAAEmq6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMltsY6bcAAWhhm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMltsYuaEAAL00C?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "1:搭配 SKU 直接一次性出多图\n2:单件 SKU 模型也要有提示词兜底，匹配适合的搭配（比如下装，比如鞋子），干过落地都知道，满足「需求」才是第一优先级\n3:目前每天各个部门，都有各自的出图需求，一套 work flow 并不一定能满足需求，这个时候就是「需要」沟通，和人打交道这也是最难的部分！ 有的人抵触这件事，有的人表达能力不足，也还不能说。\n所以…我理解我做的工作算是 FER ，也就是那个桥接「人」和「模型」的桥梁！你们在和人沟通的时候，怎么解决大量的人类语言的「噪音」？",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMltsYtb0AAVqEA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMltsYqakAAEmq6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMltsY6bcAAWhhm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMltsYuaEAAL00C?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/hx831126/status/2074309734476505096",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785403674867,
+      "title": "做落地的思路就是，先放下很多「概念」",
+      "url": "https://x.com/hx831126/status/2074309734476505096",
+      "collectedAt": "2026-07-30T09:28:12.187Z",
+      "githubSyncedAt": "2026-07-30T09:28:12.187Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
