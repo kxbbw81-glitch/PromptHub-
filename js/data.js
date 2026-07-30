@@ -3,6 +3,7 @@
 // ==========================================
 
 const CATEGORIES = [
+  { name: "电商视觉", icon: "🛍️", desc: "商品主图、广告海报与电商内容视觉" },
   { name: "人像",      icon: "👤", desc: "人物肖像与面部特写" },
   { name: "风景",      icon: "🏔️", desc: "自然风光与大地景观" },
   { name: "建筑",      icon: "🏛️", desc: "建筑设计与空间结构" },
@@ -18,7 +19,6 @@ const CATEGORIES = [
   { name: "自然",      icon: "🌿", desc: "自然生态与植物花卉" },
   { name: "城市",      icon: "🌆", desc: "城市景观与街景风貌" },
   { name: "视频提示词", icon: "🎬", desc: "文生视频与动态镜头提示词" },
-  { name: "电商视觉", icon: "🛍️", desc: "商品营销与电商内容视觉" },
 ];
 
 const PROMPTS = [

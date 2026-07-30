@@ -35,7 +35,7 @@ test('video prompts have a dedicated homepage category and filter', () => {
 });
 
 test('e-commerce prompts use a primary category with second-level use-case filters', () => {
-  assert.match(data, /name: "电商视觉"/);
+  assert.match(data, /const CATEGORIES = \[\s*\{ name: "电商视觉"/);
   assert.match(app, /id="commerce-filter-chips"/);
   assert.match(app, /const COMMERCE_TYPES = \[/);
   assert.match(app, /p\.commerceType === currentCommerceType/);
