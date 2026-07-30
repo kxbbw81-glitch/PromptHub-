@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:21:45.084Z",
+  "updatedAt": "2026-07-30T14:24:21.883Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7lu7fz_mhef",
+      "image": "https://pbs.twimg.com/media/HLBiCsrXkAAa06r?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HLBiCsrXkAAa06r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBiCsqWQAA6QiD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBiCssWsAAdh7F?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "写实户外民族舞人像，竖版 9:16。一位年轻成年东亚女性舞者站在开阔草坡上，背景为极简浅灰白天空与远处柔和虚化的山野地平线。黑发低盘发，淡雅妆容，低头微笑，气质清新温柔。上身穿米杏色贴身半高领短袖上衣，佩戴彩色大珠串项链；下身为亮姜黄色民族风大摆长裙，腰间系结，裙摆带毛绒流苏边和彩色几何织带装饰。她双手提起裙摆两侧，裙摆展开成优雅弧线，一条腿向前迈出，穿浅色舞鞋。柔和自然光，空气感，高写实摄影，干净背景，青春民族舞氛围，完整全身构图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HLBiCsrXkAAa06r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBiCsqWQAA6QiD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HLBiCssWsAAdh7F?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2067260061156544546",
+      "tags": [
+        "人像",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785421460015,
+      "title": "写实户外民族舞人像，竖版 9:16",
+      "url": "https://x.com/ToroJushiAi/status/2067260061156544546",
+      "collectedAt": "2026-07-30T14:24:21.882Z",
+      "githubSyncedAt": "2026-07-30T14:24:21.882Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
