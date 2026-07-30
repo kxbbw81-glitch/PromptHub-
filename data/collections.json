@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T10:15:12.595Z",
+  "updatedAt": "2026-07-30T10:17:00.272Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7d0291_srvn",
+      "image": "https://pbs.twimg.com/media/HME0xzqaUAIyf4q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HME0xzqaUAIyf4q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HME0xzqaUAEMDIv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "墨金CCD拍什么都有氛围感，强烈推荐\n\n提示词：\n黑珍珠墨金 CCD 闪光灯滤镜，low saturation black pearl dark gold CCD flash，低饱和黑珍珠暗部，咖啡馆暖金灯反光，柔和直闪提亮人物，奶油高光，轻颗粒，整体安静、慵懒、夜间生活感强。  x.com/liyue_ai/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HME0xzqaUAIyf4q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HME0xzqaUAEMDIv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2071995360554185095",
+      "tags": [
+        "dark",
+        "低饱和"
+      ],
+      "timestamp": 1785406616677,
+      "title": "墨金CCD拍什么都有氛围感，强烈推荐",
+      "url": "https://x.com/liyue_ai/status/2071995360554185095",
+      "collectedAt": "2026-07-30T10:17:00.271Z",
+      "githubSyncedAt": "2026-07-30T10:17:00.271Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2082611424824623135",
       "title": "Hard sci-fi desert 3x3 grid + Minimax H3 animation",
