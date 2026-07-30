@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:39:08.825Z",
+  "updatedAt": "2026-07-30T14:40:03.503Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7meefp_wk8d",
+      "image": "https://pbs.twimg.com/media/HKxD4IEaYAAk2BB?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKxD4IEaYAAk2BB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Codex 工作流，做笔记真香。\n\n打开 Codex 搜 Skill 库，\n\nawesome-claude-code 4 万多星，\n\n分写作、润色、配图、卡片。\n\n四步走：\n\n资料、拆解、执行、质检。\n\n第一步，资料。\n\n去 X、GitHub 复制三五条。\n\n第二步，拆解。\n\n素材拆成事实、数字、结论。\n\n第三步，执行。\n\n挑两三个 Skill 复制安装。\n\n跑出文案算成功，存模板复用。\n\n第四步，质检。\n\n不是一稿多发。\n\n同一事实下，\n\n钩子、封面、标签、引导话术全重写。\n\n视频流也能套。\n\n脚本→分镜→素材→配音→剪辑→封面\n\n六步拆开。\n\n适合一人顶三人的小团队。\n\n评论区告诉我，你也是？",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKxD4IEaYAAk2BB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/lixinbao_X/status/2066101002139582858",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785422402197,
+      "title": "我最近发现一个好东西",
+      "url": "https://x.com/lixinbao_X/status/2066101002139582858",
+      "collectedAt": "2026-07-30T14:40:03.503Z",
+      "githubSyncedAt": "2026-07-30T14:40:03.503Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7meefo_t3e7",
+      "image": "https://pbs.twimg.com/media/HK0rgFiaMAA16S3?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HK0rgFiaMAA16S3?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A beautiful young adult Chinese internet celebrity woman in her mid-20s sitting inside a lively Japanese izakaya during a World Cup match. She has a fuller curvy feminine figure with a pronounced natural S-shaped silhouette, soft voluptuous body lines, fuller bust and hips, defined slim waist, elegant waist-to-hip contrast, long graceful legs, realistic anatomy, visible collarbones, luminous fair skin with realistic texture, glossy highlights, healthy feminine beauty, and a confident playful presence. Her body shape should feel naturally full, feminine, soft, and photorealistic rather than exaggerated or artificial.\n\nPose: seated casually at a wooden izakaya table with a cute thoughtful “” expression. She leans slightly forward, one elbow resting on the table, fingers lightly touching her chin as if analyzing the match. Her body is slightly turned toward the camera, subtly emphasizing her fuller curves, defined waist, and elegant S-shaped silhouette. One leg crosses naturally over the other, creating a graceful long-leg line, with glossy black pantyhose catching the direct flash highlights. The pose feels candid, stylish, soft, feminine, and story-driven.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HK0rgFiaMAA16S3?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2066355720866640078",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785422402196,
+      "title": "Today's Portrait by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2066355720866640078",
+      "collectedAt": "2026-07-30T14:40:03.503Z",
+      "githubSyncedAt": "2026-07-30T14:40:03.503Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "静物",
