@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T09:29:29.052Z",
+  "updatedAt": "2026-07-30T09:34:17.644Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7bh2pa_5g2f",
+      "image": "https://pbs.twimg.com/media/HMJc5iVXsAEkrLi?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMJc5iVXsAEkrLi?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "柔和写实竖幅室内人像，明亮自然光生活方式摄影风格。成年女性，21岁以上，坐于透明白色薄纱窗帘旁大型窗户边的小圆形木质桌旁。画面右侧，侧面朝左，双手轻放在桌面上。放松优雅的姿态，略微前倾——安静沉思的表情，目光向上望向明亮的窗光。\n\n人物：利落齐颌黑色波波头，直刘海，发尾顺滑圆润。极简精致妆容：自然眉形、淡眼线、淡腮红、发光肌肤、柔和哑光粉唇色。平静、梦幻、内省的表情。\n\n服装：简约白色内衣或家居套装——软质白色文胸配细肩带与精致蕾丝装饰，配套白色下装。端庄、写真感——着重柔软质感、自然光线、干净面料纹理与宁静氛围，而非露骨细节。肩膀、手臂、腰部与腿部被柔和照亮，带有轻柔高光与自然阴影。\n\n场景：宁静卧室或酒店房间角落。左侧前景圆形浅木桌；她身后强烈漫射日光透过透明白色薄纱窗帘发光；右侧远处有米色侧帘；坐于浅色软装椅或床边。背景在窗户附近呈高调柔和过曝——通透、如梦似幻。\n\n光线与色调：来自左侧与背后的明亮漫射窗光——发丝、面颊、肩膀、手臂、腰部有柔和轮廓高光。低对比，粉彩色调，奶油感高光，浅景深，轻柔胶片感柔化。色调：纯白面料、暖色肌肤、浅米色窗帘、浅木色、柔和奶油阴影、细腻冷调日光。\n\n风格：写实柔和室内人像摄影，自然窗光，极简卧室场景，白色家居内衣套装，侧面坐姿，平静内省氛围，薄纱窗帘，高调光晕，浅景深，精致面料细节，自然肌肤质感，竖幅，高细节。无文字、无水印、无Logo、无卡通感、无强闪光、无变形人体、无多余人物、无杂乱元素、无露骨裸露。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMJc5iVXsAEkrLi?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2072621304554090885",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785404051182,
+      "title": "GPT Image 2 on. ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2072621304554090885",
+      "collectedAt": "2026-07-30T09:34:17.644Z",
+      "githubSyncedAt": "2026-07-30T09:34:17.644Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
