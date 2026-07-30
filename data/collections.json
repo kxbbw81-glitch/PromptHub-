@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T10:17:00.272Z",
+  "updatedAt": "2026-07-30T10:21:34.105Z",
   "collections": [
+    {
+      "aspectRatio": "4:3",
+      "category": "美食",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7d5x9i_hn9o",
+      "image": "https://pbs.twimg.com/media/HMC0xfCX0AEkK4z?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HMC0xfCX0AEkK4z?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HMC0xe6XcAAe4UP?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HMC0xe7WwAA3alQ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HMC0xe6WUAA2Z5A?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "生产力UP！\n用 ChatGPT-Image2 做外带包装样机提案，秒出的效率太赞！\n\n这组做了 4 个虚构品牌方向：\n1、DAYBEAN：精品咖啡外带包装\n2、竹间茶：新中式茶饮外带包装\n3、OVEN MOOD：日式烘焙外带包装\n4、GREEN YARD：健康轻食外带包装\n\n不只是做包装样机，把平面设计稿、包装结构、实物 mockup、应用场景都放进一张提案板里。\n\n从设计稿到落地效果，整体会更像真的品牌包装方案！\n\n提示词在评论区",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMC0xfCX0AEkK4z?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HMC0xe6XcAAe4UP?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HMC0xe7WwAA3alQ?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HMC0xe6WUAA2Z5A?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2071855339222253944",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785406890150,
+      "title": "生产力UP！",
+      "url": "https://x.com/MrLarus/status/2071855339222253944",
+      "collectedAt": "2026-07-30T10:21:34.104Z",
+      "githubSyncedAt": "2026-07-30T10:21:34.104Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-30",
+      "domain": "x.com",
+      "id": "ext_ms7d5x9h_0bnd",
+      "image": "https://pbs.twimg.com/media/HMDuQf_WYAAdQYM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMDuQf_WYAAdQYM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMDuRa7XAAEeSlh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Images Created with ChatGPT \n\nPrompt:\n\nA Korean East Asian woman in her late 20s–early 30s, serene and confident expression, looking off-camera left in sharp profile. Fair skin, smooth natural texture, refined facial features, elegant jawline, neat brows, minimalist no-makeup look. Wearing a perfectly tailored black blazer, black shirt/turtleneck, and black trousers with a minimalist silver watch. \n\nSeated on a metal folding chair in a powerful three-quarter profile pose, one hand resting on the chair. Minimal gray studio background, fine-art high-fashion editorial style, classic black and white portrait, softbox lighting, strong shadows, 85mm lens, full-body, ultra-realistic, 8K, highly detailed. Aspect ratio 3:4.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMDuQf_WYAAdQYM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMDuRa7XAAEeSlh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2071926950864752997",
+      "tags": [
+        "minimalist",
+        "8k"
+      ],
+      "timestamp": 1785406890149,
+      "title": "Images Created with ChatGPT",
+      "url": "https://x.com/MissDelulu9/status/2071926950864752997",
+      "collectedAt": "2026-07-30T10:21:34.104Z",
+      "githubSyncedAt": "2026-07-30T10:21:34.104Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
