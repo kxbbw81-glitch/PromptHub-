@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:54:15.134Z",
+  "updatedAt": "2026-07-31T11:54:40.801Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vxktw_64dd",
+      "image": "https://pbs.twimg.com/media/HIw7oVZbYAAf8xN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIw7oVZbYAAf8xN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7oX8aQAA8iZH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plHaIAAUs_y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plFbkAAuqLM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Grok Imagine Prompt :\nThe image shows an seductive stunning & beautiful 20-year-old Japanese or Korean woman, tall elegant fashion model body with balanced feminine curves, gently defined waist, natural body lines, graceful elongated torso-to-leg ratio, long shapely legs, toned refined silhouette, polished high-fashion proportions under properly worn clothing, looking away from the camera into the distance, thoughtful expression, reflective mood, quiet inward attention, standing pose with loosely crossed arms, relaxed closed posture, cool composed body language. Wardrobe details: white triangle bikini top, slim halter strings, minimal sliding triangle cups, smooth stretch swim fabric, clean beachwear styling, tight body-skimming fit, worn in a standard natural position, black low-rise jeans, casual denim silhouette, exposed waist styling, ultra-low-rise waist placement, tight body-skimming line, dark blue pointed-toe stiletto heels, sleek feminine silhouette, sharp elegant leg line, top length extending below the low-rise waistband, abdomen covered, not cropped into an unintended midriff reveal. The setting is Kowloon Walled City appliance shop wall, exposed conduits, old electrical boxes, peeling tiles, hanging shop signs, compressed alley edge, saturated clear blue sky, deeper vivid azure tone, brilliant clean white clouds, high-clarity daylight, open airy distance, crisp blue-and-white daytime atmosphere, back-side light, diagonal rear illumination, soft rim edges, cinematic subject separation. The composition uses full body shot, full-length figure framing, wide framing, environmental scale, complete lower-body visibility, hip-level camera height, camera positioned around the subject's waist or hip line, subtle low perspective, grounded fashion portrait viewpoint, front-facing camera position, straight-on subject view, symmetrical subject orientation, shot on 50mm lens, shallow depth of field, softly blurred background, gentle subject separation. Spacious documentary image language. spacious documentary portraiture, soft natural light, understated storytelling, calm emotional distance, open roadside stillness, Hasselblad medium format image, extreme ultra-high resolution, medium format organic depth, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIw7oVZbYAAf8xN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7oX8aQAA8iZH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plHaIAAUs_y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plFbkAAuqLM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2057085608913256940",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1785498879668,
+      "title": "韩系人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2057085608913256940",
+      "collectedAt": "2026-07-31T11:54:40.801Z",
+      "githubSyncedAt": "2026-07-31T11:54:40.801Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
