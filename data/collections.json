@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:26:42.183Z",
+  "updatedAt": "2026-07-31T13:38:14.427Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8zmqps_jzbq",
+      "image": "https://pbs.twimg.com/media/HHQHOMCaAAEbpX1?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHQHOMCaAAEbpX1?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Portrait. \n\n---prompt---\nJapanese street portrait at night, candid photography, direct flash mixed with ambient street lighting, harsh frontal flash with deep shadow falloff, slight motion blur, imperfect focus, raw snapshot aesthetic\n\na stunning beautiful japanese woman walking alone on a quiet street at night, subtle wind moving her hair, natural unposed movement, mid-step or slight pause, not aware of camera\n\nhair: natural black hair, slightly messy, wind-blown strands across face, soft volume catching light\n\nmakeup: understated but intentional, dewy skin with natural glow, subtle smudged reddish-brown eye shadow, lightly defined eyeliner, natural slightly glossy lips, no heavy makeup, slightly imperfect texture\n\nexpression: subtle smirk, relaxed half-lidded eyes, lips slightly parted, playful but calm, hint of teasing energy, not fully giving attention, soft charm with a touch of flirtiness, a balance of innocence and quiet seduction\n\nvibe: effortless sensuality, quiet playfulness, gentle attraction without trying, she feels present but emotionally slightly out of reach\n\nlighting: cold street lights (blue/green tint) mixed with occasional warm sodium lamps, direct flash freezing subject while background falls into uneven exposure, strong contrast between subject and environment\n\nbackground: empty japanese street, vending machines, street signs, convenience store glow in distance, wet pavement reflecting light, slight haze in air\n\ncomposition: slightly tilted frame, loose candid framing, subject not perfectly centered, partial crop, snapshot feel, imperfect timing\n\nmotion detail: slight blur in hair or legs, frozen face by flash, contrast between movement and stillness\n\nfilm texture: 35mm film look, subtle grain, muted tones, slight color shift, highlight halation, natural noise\n\nmood: late night, quiet, intimate but not close, subtle emotional ambiguity, “a moment that feels accidental but unforgettable”\n\n--ar 2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHQHOMCaAAEbpX1?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2050271699300704392",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785505092545,
+      "title": "Portrait.",
+      "url": "https://x.com/BubbleBrain/status/2050271699300704392",
+      "collectedAt": "2026-07-31T13:38:14.427Z",
+      "githubSyncedAt": "2026-07-31T13:38:14.427Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
