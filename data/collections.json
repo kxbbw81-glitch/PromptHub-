@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T14:00:53.851Z",
+  "updatedAt": "2026-07-31T14:03:11.226Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90ipgf_ppnq",
+      "image": "https://pbs.twimg.com/media/HGZlWQiakAAAlF_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGZlWQiakAAAlF_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Today's Portrait by GPT-Image-2 \n\n---prompt---\n9:16 vertical — editorial portrait, single subject  soft black mist filter, subtle haze, gentle highlight bloom, muted tones  minimal indoor space, clean background, slight texture  young Korean woman, minimal makeup, natural skin",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGZlWQiakAAAlF_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2046434670724907395",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785506583904,
+      "title": "Today's Portrait by GPT-Image-2",
+      "url": "https://x.com/BubbleBrain/status/2046434670724907395",
+      "collectedAt": "2026-07-31T14:03:11.225Z",
+      "githubSyncedAt": "2026-07-31T14:03:11.225Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
