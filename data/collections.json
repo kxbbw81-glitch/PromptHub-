@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:38:14.427Z",
+  "updatedAt": "2026-07-31T13:38:45.478Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8znd1v_530p",
+      "image": "https://pbs.twimg.com/media/HHS5y_dbIAANu6a?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHS5y_dbIAANu6a?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHS6SLGa8AANYTo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHS6_RibYAAYqHX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "高端人物杂志封面.\n---\nPrompt:\n\nHigh-end fashion magazine cover, title \"YOU\", portrait of a mysterious elegant woman, black background with soft gradient light,\n\nwearing structured couture outfit, satin and silk textures, minimal exposure, luxury styling,\n\ndramatic cinematic lighting, high contrast, deep shadows, premium editorial photography,\n\nblack and gold color palette, ultra refined, fashion week aesthetic,\n\n8K, sharp focus, magazine layout typography, bold serif masthead --ar 2:3 --style raw\n---",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHS5y_dbIAANu6a?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHS6SLGa8AANYTo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHS6_RibYAAYqHX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/aidavid125/status/2050469337392382242",
+      "tags": [
+        "cinematic",
+        "8k"
+      ],
+      "timestamp": 1785505121491,
+      "title": "高端人物杂志封面.",
+      "url": "https://x.com/aidavid125/status/2050469337392382242",
+      "collectedAt": "2026-07-31T13:38:45.478Z",
+      "githubSyncedAt": "2026-07-31T13:38:45.478Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
