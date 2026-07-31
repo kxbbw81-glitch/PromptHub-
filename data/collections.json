@@ -1,7 +1,103 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:50:03.542Z",
+  "updatedAt": "2026-07-31T11:50:14.136Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw3_xq0l",
+      "image": "https://pbs.twimg.com/media/HOetWJ_b0AAikfk?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HOetWJ_b0AAikfk?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HOetgXTaYAAwSqu?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "A beautiful young East Asian woman standing on a lively city street at night, wearing a fitted white spaghetti-strap mini dress with a ruffled hem and carrying a cream shoulder bag. She is laughing joyfully with her eyes closed, head tilted back slightly, leaning forward in a playful pose. Long, silky black hair flowing naturally in the wind. Warm cinematic streetlights, glowing bokeh, motion-blurred scooter passing behind her, wet pavement reflecting city lights, soft orange and golden tones, shallow depth of field, candid street photography, dreamy atmosphere, ultra-realistic, natural skin texture, 85mm lens, f/1.8, high detail, photorealistic, 8K, HDR, masterpiece.\n\nNegative Prompt: blurry face, low quality, bad anatomy, extra fingers, deformed hands, duplicate body, oversaturated, cartoon, CGI, watermark, text, logo, noise, distorted face, unnatural lighting, low resolution.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOetWJ_b0AAikfk?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HOetgXTaYAAwSqu?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2082824221328355565",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dreamy",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1785498598515,
+      "title": "东方人像",
+      "url": "https://x.com/MissDelulu9/status/2082824221328355565",
+      "collectedAt": "2026-07-31T11:50:14.136Z",
+      "githubSyncedAt": "2026-07-31T11:50:14.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw2_k6nk",
+      "image": "https://pbs.twimg.com/media/HOimidxb0AAUKlu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOimidxb0AAUKlu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhSiqOa8AAjJ2u?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2提示词：\n生成一张竖版 9:16 高清真实摄影人像，主题为真实世界的世界杯足球宝贝，整体风格甜酷、会拍、极具短视频\n封面感。近距离手机拍摄视角，低机位轻微仰拍，人物自然前探，一只手轻轻拉住袖口靠近镜头，另一只手放在\n大腿侧，形成自然前景。头部歪向一侧，下巴略扬，眼神自然向下看镜头，嘴角带甜甜笑意。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOimidxb0AAUKlu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhSiqOa8AAjJ2u?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083098019399074102",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785498598514,
+      "title": "足球宝贝",
+      "url": "https://x.com/Mrpinecone888/status/2083098019399074102",
+      "collectedAt": "2026-07-31T11:50:14.136Z",
+      "githubSyncedAt": "2026-07-31T11:50:14.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw2_hy8a",
+      "image": "https://pbs.twimg.com/media/HOh_jqbWAAAxaDr?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOh_jqbWAAAxaDr?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "绝美23岁东亚美女，身材匀称丰满，胸部自然丰满（约D至E杯视觉效果），腰部纤细，臀腿比例协调，曲线柔和自然，气质时尚、自信、温柔。酒店套房＋大提琴＋丝质睡裙风格，孔雀墨绿色丝质短睡裙，挂脖低领与贴身收腰剪裁清冷利落，裙身顺滑垂落，缎感面料高级细腻。\n\n清冷柔亮妆容，浅橄榄棕与香槟米色眼妆，玫瑰奶茶色唇妆，黑茶色低盘发，银绿色宝石耳钉与纤细脚链。\n\n她正面站在通向露台的玻璃门前，左手扶住身侧的大提琴琴颈，右手将琴弓缓缓收回身前，脸自然转向镜头露出清晰明净的表情。背景有半开的纱帘、米色长沙发、大理石边几、露台夜灯与远处模糊海景，氛围摩登安静又带演奏结束后的余韵感。\n\n50mm人像摄影，人物正面环境人像构图，面部清晰可见，大光圈浅景深，奶油散景，真实皮肤质感，柔和室内灯光与露台夜色交织，高级室内电影感写真，ultra realistic, masterpiece, best quality。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOh_jqbWAAAxaDr?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2083055088755478700",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785498598514,
+      "title": "东方人像",
+      "url": "https://x.com/sdjn_wgc/status/2083055088755478700",
+      "collectedAt": "2026-07-31T11:50:14.136Z",
+      "githubSyncedAt": "2026-07-31T11:50:14.136Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
