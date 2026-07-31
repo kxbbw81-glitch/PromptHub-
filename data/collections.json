@@ -1,7 +1,107 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:42:06.808Z",
+  "updatedAt": "2026-07-31T07:43:29.211Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8myi8j_1ob8",
+      "image": "https://pbs.twimg.com/media/HINvdaQWYAAHRxn?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HINvdaQWYAAHRxn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HINvddzW4AAh6IW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HINvdgNW0AEJPAB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HINvdkfXcAEh1Gb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Are they getting buff? \n\n Rebecca Ferguson, Madelyn Cline, Emma Myers and Madison Beer\n\nNano Banana 2  via Gemini App\n\nPrompt \n\n{\n  \"type\": \"image_prompt\",\n  \"description\": {\n    \"subject\": {\n      \"identity\": \"[NOME]\",\n      \"appearance\": {\n        \"hair\": \"Hair tied back in a loose ponytail, with long and defined face-framing strands falling on both sides.\",\n        \"expression\": \"Focused and calm.\",\n        \"gaze\": \"Looking forward and away from the camera.\",\n        \"makeup\": \"Subtle and natural makeup enhancing her features.\",\n        \"lipstick\": \"Bold berry-toned lipstick.\",\n        \"skin\": \"Soft natural glow with gentle highlights on the collarbones and shoulders.\"\n      },\n      \"body_type\": \"Fit\"\n    },\n    \"clothing\": {\n      \"top\": \"Tight yellow sports top with thin shoulder straps and a rounded neckline.\",\n      \"shorts\": \"High-waisted fitted workout shorts in light green.\",\n      \"socks\": \"Blue ankle socks.\",\n      \"shoes\": \"White athletic sneakers with black side details.\"\n    },\n    \"pose\": {\n      \"position\": \"Sitting upright on a black gym bench.\",\n      \"back\": \"Back pressed firmly and straight against the backrest.\",\n      \"arms\": \"Both arms extended horizontally to the sides at shoulder height, forming a T-shape.\",\n      \"action\": \"Holding dumbbells mid-lateral raise.\",\n      \"legs\": \"Relaxed, bent at the knees.\",\n      \"feet\": \"Fully planted on the floor.\"\n    },\n    \"setting\": {\n      \"location\": \"Indoor gym environment.\",\n      \"floor\": \"Dark gray rubber flooring with small texture details.\",\n      \"background\": \"Softly blurred, showing glimpses of other gym equipment.\"\n    },\n    \"props\": {\n      \"dumbbells\": \"Two black hexagonal dumbbells. The right dumbbell displays the text '3kg' and 'Giulia' in white letters.\",\n      \"bench\": \"Black adjustable gym bench with the word 'Giulia' printed in white on the lower frame.\"\n    },\n    \"lighting\": {\n      \"style\": \"High-key lighting.\",\n      \"mood\": \"Bright and airy.\",\n      \"face_light\": \"Flat beauty lighting.\",\n      \"shadows\": \"Extremely soft shadows.\",\n      \"contrast\": \"Low contrast.\"\n    },\n    \"mood\": \"Focused, disciplined, active, fitness-oriented, calm yet intense workout atmosphere.\",\n    \"technical\": {\n      \"framing\": \"Medium shot.\",\n      \"angle\": \"Side angle, slightly above head level.\",\n      \"depth_of_field\": \"Shallow depth of field with sharp subject focus and softly blurred background.\",\n      \"lens\": \"85mm full-frame\",\n      \"aperture\": \"f/2.8\",\n      \"iso\": \"400\",\n      \"shutter_speed\": \"1/320s\",\n      \"white_balance\": \"5200K\",\n      \"exposure\": \"Balanced exposure preserving natural skin tones and soft highlights.\"\n    },\n    \"style\": {\n      \"genre\": \"Candid gym photography.\",\n      \"look\": \"Photorealistic, highly realistic, true-to-life.\"\n    },\n    \"quality\": {\n      \"resolution\": \"8K\",\n      \"details\": \"Highly detailed, sharp focus, photorealistic skin textures, natural fabric folds.\"\n    },\n    \"aspect_ratio\": \"9:16\"\n  }\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HINvdaQWYAAHRxn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HINvddzW4AAh6IW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HINvdgNW0AEJPAB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HINvdkfXcAEh1Gb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Giulia_4i/status/2054608412676444398",
+      "tags": [
+        "photorealistic",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785483806419,
+      "title": "Are they getting buff?",
+      "url": "https://x.com/Giulia_4i/status/2054608412676444398",
+      "collectedAt": "2026-07-31T07:43:29.210Z",
+      "githubSyncedAt": "2026-07-31T07:43:29.210Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8myi8i_h44u",
+      "image": "https://pbs.twimg.com/media/HIM5DYqawAASHHm?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIM5DYqawAASHHm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIM5Dh6bwAAGotJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIM5DYubMAALz4-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIM5DZgbsAADbVx?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt :\nan elegant beautiful seductive stunning 20-year-old Japanese or Korean woman, tall elegant fashion model body with balanced feminine curves. main outfit: dark blue shirt with a soft short tie, slightly relaxed collar opening, light blue velvet flared pants, 70s retro style. setting: abandoned hospital ward. camera: tight bust-up portrait, high angle, shot on fisheye lens. lighting: neon night atmosphere, neon color spill. atmosphere: Canon full-frame portrait look.\n#GrokImagine",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIM5DYqawAASHHm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIM5Dh6bwAAGotJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIM5DYubMAALz4-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIM5DZgbsAADbVx?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2054548694540984489",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785483806418,
+      "title": "Prompt :",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2054548694540984489",
+      "collectedAt": "2026-07-31T07:43:29.210Z",
+      "githubSyncedAt": "2026-07-31T07:43:29.210Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8myi8g_1a72",
+      "image": "https://pbs.twimg.com/media/HIVLDTka4AEzM5f?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIVLDTka4AEzM5f?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Selfie by gpt image 2 \n\n---prompt---\nPhotorealistic full-body vertical portrait of a stylish and beautiful Chinese Internet Celebrity in her mid-20s, long hair with soft messy volume, long side bangs partially framing one side of her face, wearing elegant thin gold wire-frame glasses with delicate refined metal rims. She stands confidently with chin slightly lifted, looking directly at the camera with strong confident eye contact and a subtle cool smirk. Glossy nude-beige lips, sharp clean winged eyeliner, delicate lashes, flawless fair porcelain skin with subtle natural sheen, elegant collarbones, small cursive tattoo signature “BubbleBrain” near the collarbone. Large gold hoop earrings and a thick gold chain necklace.\n\nFull-body composition from head to toe, she is standing in a dim bedroom taking a mirror selfie with one arm extended holding the phone, the other hand casually resting on her hip. Body slightly angled, relaxed confident posture, one leg slightly bent to create a natural editorial silhouette. She wears a fitted black ribbed crop tank top layered with an oversized black-and-white plaid shirt draped loosely over her shoulders, paired with a short black leather skirt, semi-sheer patterned tights, and chunky black platform boots. Modern hip-hop inspired street fashion aesthetic, stylish and tasteful.\n\nDim private bedroom background with slightly messy dark bed sheets, dark wardrobe, small posters on the wall, wooden floor, low-light indoor atmosphere. On-camera flash photography, cool purplish-gray shadows, soft skin highlights, muted dark cinematic color grading, low contrast, subtle film grain, realistic phone-camera texture.\n\nMoody late-night bedroom full-body selfie aesthetic with strong street-fashion attitude, candid composition, imperfect framing, shallow depth of field, natural facial asymmetry, realistic anatomy and proportions, fashion editorial realism, cinematic yet casual.\n\nVertical portrait, 9:16 aspect ratio, full-body, flash-lit, dark ambient bedroom background.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIVLDTka4AEzM5f?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2055131336613286193",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785483806417,
+      "title": "Selfie by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2055131336613286193",
+      "collectedAt": "2026-07-31T07:43:29.210Z",
+      "githubSyncedAt": "2026-07-31T07:43:29.210Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
