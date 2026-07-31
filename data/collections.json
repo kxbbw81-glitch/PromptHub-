@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:12:58.906Z",
+  "updatedAt": "2026-07-31T13:13:33.949Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8yqzaa_0do5",
+      "image": "https://pbs.twimg.com/media/HH4mRP6a8AA6W9t?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HH4mRP6a8AA6W9t?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "elegance by grok imagine quality mode\n\nRealistic film photography, upper-body portrait of a beautiful adult Korean female idol with an elegant sensual aura, standing in a side-facing pose toward the camera, gently turning her head back with a calm, slightly alluring gaze. One arm is raised naturally, with her hand lightly touching the back of her neck, while the other hand rests softly on her waist, creating a graceful shoulder, neck and collarbone line and subtly emphasizing her slim waist, soft curves, and smooth glowing skin.\n\nFraming focuses on her upper body, from head to waist, close medium shot, intimate fashion editorial composition. Her posture is relaxed but seductive, torso slightly angled, one shoulder closer to the lens, creating a natural S-curve silhouette and refined feminine body line.\n\nOutfit: fitted off-shoulder knit top or sleek thin-strap satin camisole, tasteful and stylish, subtly highlighting the shoulder line, collarbone and body curve without being overly revealing. Minimal jewelry, delicate earrings, natural glossy lips, clean Korean idol makeup, porcelain skin with visible soft skin texture.\n\nScene: quiet indoor studio or dimly lit apartment corner, simple background, warm ambient light mixed with soft window light, subtle shadows on the wall, cinematic intimate atmosphere.\n\nStyle: analog 35mm film photography, Korean editorial portrait, soft focus, shallow depth of field, muted warm tones, low contrast, subtle highlight bloom, visible film grain, fine noise texture, slightly imperfect candid framing, nostalgic cinematic mood, premium fashion magazine aesthetic.\n\nLighting: soft side light, gentle facial fill, delicate rim light on hair and shoulders, smooth skin highlights, natural shadow gradients, warm and sensual but elegant mood.\n\nCamera: 50mm lens, close medium shot, shallow depth of field, realistic skin texture, natural proportions, no plastic skin, no over-retouching, high-end film portrait, cinematic color grading --2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HH4mRP6a8AA6W9t?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2053120577699983865",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785503610658,
+      "title": "elegance by grok imagine quality mode",
+      "url": "https://x.com/BubbleBrain/status/2053120577699983865",
+      "collectedAt": "2026-07-31T13:13:33.949Z",
+      "githubSyncedAt": "2026-07-31T13:13:33.949Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
