@@ -1,7 +1,66 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:53:53.067Z",
+  "updatedAt": "2026-07-31T11:54:15.134Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vx0tf_ipia",
+      "image": "https://pbs.twimg.com/media/HIxjs1JasAAPP8P?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIxjs1JasAAPP8P?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic late-night izakaya snapshot, Japanese negative film aesthetic, direct on-camera flash photography, Ricoh GR III / disposable film camera feeling, casual city-girl diary vibe, slightly awkward candid framing, rule-of-thirds composition with the subject positioned on the left side of the frame, subtle motion blur, imperfect handheld angle, random beautiful imperfection, realistic skin texture, visible film grain, low contrast shadows mixed with harsh flash highlights.\n\nA beautiful young adult Chinese woman with cool porcelain fair skin, refined delicate bone structure, modern internet-girl facial features, long flowing black hair slightly messy from the night air, translucent natural base makeup, glossy nude lips, subtle eyeliner, clean “web celebrity” makeup aesthetic, relaxed playful expression. She stands outside a small Japanese izakaya at night, beside warm wooden sliding doors, red paper lanterns, handwritten menu boards, noren curtains, beer crates, and narrow alley details.\n\nShe wears a fitted white off-shoulder top exposing one shoulder naturally, paired with dark tight denim shorts, simple silver earrings, and minimal accessories. She casually faces the camera and makes a playful “yeah / V-sign” gesture near her face, slightly leaning forward with a soft teasing smile, as if caught mid-moment by a friend after dinner.\n\nThe direct flash creates bright highlights on her face, shoulders, hair strands, and white top, while the izakaya background falls into warm dim shadows. Warm tungsten lantern light mixes with cold flash, creating a nostalgic night-film atmosphere, muted colors, slight overexposure on skin and fabric, deep but soft shadow edges, glossy reflections on the alley pavement, authentic Tokyo backstreet mood, candid flash snapshot, not studio-lit, not overly posed, premium yet imperfect film realism.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIxjs1JasAAPP8P?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2057128769828409543",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785498853731,
+      "title": "东方人像",
+      "url": "https://x.com/BubbleBrain/status/2057128769828409543",
+      "collectedAt": "2026-07-31T11:54:15.134Z",
+      "githubSyncedAt": "2026-07-31T11:54:15.134Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vx0te_3icx",
+      "image": "https://pbs.twimg.com/media/HIxOCM_XgAAoE92?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HIxOCM_XgAAoE92?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIxOCQmWAAA3FFP?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "A young East Asian person with striking facial features and an intense, confident gaze, wearing an oversized black blazer over an open-collar white dress shirt with a loosely knotted red diagonal-striped tie worn undone. Relaxed power stance, hands in pockets or at sides, slight three-quarter body angle. Studio portrait shot against a deep crimson-to-burgundy textured background. Dramatic split lighting with a bold red gel light raking across one side of the face, deep shadow falling on the opposite side, warm amber rim light defining the jawline and shoulders. High-contrast chiaroscuro lighting. Cinematic editorial fashion photography. Shallow depth of field, subject in sharp focus against softly rendered background. Moody, brooding, mysterious atmosphere. Film grain texture. 4K ultra-detailed.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIxOCM_XgAAoE92?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIxOCQmWAAA3FFP?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/doctorwasif/status/2057104934005264389",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785498853730,
+      "title": "东方人像",
+      "url": "https://x.com/doctorwasif/status/2057104934005264389",
+      "collectedAt": "2026-07-31T11:54:15.134Z",
+      "githubSyncedAt": "2026-07-31T11:54:15.134Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
