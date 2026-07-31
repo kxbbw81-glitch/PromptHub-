@@ -1,7 +1,134 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T08:51:27.024Z",
+  "updatedAt": "2026-07-31T08:52:13.567Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmu_qlu4",
+      "image": "https://pbs.twimg.com/media/HOfKwo0WoAIQiPg?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOfKwo0WoAIQiPg?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我爱看钢琴。\n提示词：绝美23岁东亚美女，身材匀称丰满，胸部自然丰满（约D至E杯视觉效果），腰部纤细，臀腿比例协调，曲线柔和自然，气质时尚、自信、温柔。现代客厅＋三角钢琴风格，酒红玫瑰色胸衣式上装，搭配低腰缎面短裤式下装，低领包边与收腰结构柔美贴身，面料浓郁顺滑，复古轻奢。\n\n柔润立体妆容，暖赤茶棕与铜金眼妆，红茶豆沙色唇妆，黑茶色低马尾，金色小耳圈与细戒。\n\n她正面坐在琴凳边缘，双手把练习中的乐谱轻轻夹回谱架中央，抬脸看向镜头露出安静神情。背景有胡桃木电视墙、焦糖棕皮沙发、几何地毯、黄铜边几与暖白侧光，空间温润精致又带成熟居家气质。\n\n85mm人像摄影，人物正面半身至大腿构图，面部清晰可见，大光圈浅景深，奶油散景，真实皮肤质感，柔和室内自然光，高级生活美学写真，电影感，ultra realistic, masterpiece, best quality。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOfKwo0WoAIQiPg?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082856299033772196",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785487929510,
+      "title": "我爱看钢琴。",
+      "url": "https://x.com/sdjn_wgc/status/2082856299033772196",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmu_0mn1",
+      "image": "https://pbs.twimg.com/media/HObz6sZXcAEbBBK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObz6sZXcAEbBBK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6sbXsAApnKi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6saWYAAw_en?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt \n一位20多岁的年轻成年白人女性坐在或半倚在室外泳池边，画面为紧凑近景，从头顶拍至腰部附近。人物位于中央略偏右，身体以三分之二侧面朝向画面右侧，左肩更靠近镜头。她轻轻转头越过肩膀直视镜头，下巴微抬，嘴唇自然微启，神情安静、慵懒、略带疏离感。\n\n她拥有精致偏长的鹅蛋脸、清晰柔和的下颌线、灰蓝色眼睛、浓密自然眉、挺直鼻梁和饱满水润的裸粉色嘴唇。肤色白皙偏暖，鼻梁和双颊带极淡自然雀斑。脸部、颈部、肩膀和手臂呈现刚出水后的湿润状态，保留真实毛孔、细小绒毛、水膜、细微水珠和自然肤色变化，不要塑料磨皮。\n\n超长浅金色头发完全湿润并自然披散，带略深发根，湿发成束贴在额头、脸颊、颈侧与肩膀，长度延伸至腰部以下。强烈夕阳逆光从画面左后方穿过头发，使大量发丝呈金色半透明发光效果，保留凌乱碎发、飞散细丝与真实湿发重量。\n\n她穿纯白色修身罗纹棉质细肩带背心，低圆领或浅U领，面料湿润后贴合身体但完全不透明，无图案、无品牌标识。背景为深色阴影中的室外泳池区域，右下方可见少量青绿色池水，背景建筑与环境几乎完全虚化，形成大面积深色负空间。\n\n光线采用极强暖金色侧逆光：夕阳从左后方低角度照射，强烈勾亮头发、肩膀和手臂边缘；人物面部由右前方柔和反光补亮，眼睛保留自然高光。整体暖金与深黑形成明显明暗对比，但高光过渡柔和，保留湿润皮肤细节。\n\n摄影风格：85mm或105mm人像镜头，f/1.8，平视略高机位，极浅景深，焦点落在双眼和嘴唇，背景奶油化虚化，1/500秒，ISO200，真实皮肤次表面散射、湿发细节、柔和高光晕染、轻微ISO400胶片颗粒，golden-hour poolside beauty editorial，cinematic wet-look portrait，photorealistic。\n\n避免：干燥头发、棕色或黑色头发、正面平视证件照构图、夸张笑容、浓妆、透明上衣、露点、过度油亮皮肤、塑料磨皮、错误肩颈、畸形手臂、强HDR、过度锐化、杂乱泳池背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObz6sZXcAEbBBK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6sbXsAApnKi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6saWYAAw_en?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083009754520060041",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "青绿",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785487929510,
+      "title": "Prompt",
+      "url": "https://x.com/ToroJushiAi/status/2083009754520060041",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "静物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmt_wst3",
+      "image": "https://pbs.twimg.com/media/HOioBg2b0AANhOW?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOioBg2b0AANhOW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOc_8_SboAAvaDK?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "高级写实黄桃罐头海报\n\nGPT Image  2提示词：\n高级写实水果甜品海报，黄桃罐头主题，一只透明玻璃罐置于浅金色与奶白背景中央，罐中黄桃果肉饱满厚实，\n糖水清澈透亮，玻璃表面挂有细密冷凝水珠，前景有一瓣黄桃被银叉轻轻叉起，周围仅点缀少量新鲜黄桃片、水\n痕与柔和夏日光线，整体明亮但克制，像高端水果罐头广告，真实玻璃折射、真实果肉纹理、真实液体层次，竖\n版 3:4。\n\n海报中加入中英文海报文字，内容为：\n品牌名：桃见\n产品名：黄桃罐头\n英文副标题：YELLOW PEACH IN SYRUP\nslogan：把夏天的甜，认真封存起来\n短标签：果肉厚实 / 清甜多汁\n\n排版要求：顶部放品牌名与英文，产品名位于下方主视觉区，slogan 与短标签较小，排版清爽，像高端果品海\n报。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOioBg2b0AANhOW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOc_8_SboAAvaDK?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083099780494893510",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785487929510,
+      "title": "高级写实黄桃罐头海报",
+      "url": "https://x.com/Mrpinecone888/status/2083099780494893510",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmt_y9lb",
+      "image": "https://pbs.twimg.com/media/HOisT_TagAAbyJ_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOisT_TagAAbyJ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOisT_WaEAArtvZ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt :\nA stunning mid-20s Japanese or Korean woman with soft hourglass body, fuller bust, wider hips, small refined Korean idol face, clear bright eyes, medium-to-long milk-tea brown hair with deep side part, mostly smooth texture, subtle natural bends, gently asymmetric face-framing flow. She wears a clean Y2K oversized denim outfit: white scoop-neck cropped tank top, low-rise light-wash wide-leg jeans with slouchy full-length pooling and rolled white waistband detail, dangling silver cross charm chain, cream chain-strap shoulder bag, pale lavender rectangular eyeglasses, layered silver necklaces, delicate earrings and bracelets, white pointed-toe ankle boots. She is squatting compactly on the ground in a low squatting arrangement, one hand pulling the glasses slightly down the nose bridge with eyes visible above the frame, chin slightly raised. The scene is set at the entrance of a Kabukicho bar, compact signboard, doorway recess, narrow threshold, wall texture, small exterior light fixture, side poster panel, post-rain freshly damp surfaces, rainy overcast environment with diagonal rear-side subject light creating soft rim along hair and shoulder. Photorealistic editorial film still, medium shot waist-up framing, worm's-eye ultra-low upward camera angle with strong near-far scale distortion, 90-degree left profile view, lateral torso orientation, f/11-style deep focus, broad depth of field, 1/30s slow-shutter portrait blur with visible face and body movement smear, neon-tinted Japanese portrait color grade, protected bright skin tones, cool cyan shadow bias, warm-magenta highlights, clean black levels, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth. --ar 16:9",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOisT_TagAAbyJ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOisT_WaEAArtvZ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2083104386151284782",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785487929509,
+      "title": "Prompt :",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2083104386151284782",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "抽象",
