@@ -48,8 +48,8 @@ https://cdn.example.com/ref.webp
 
   const parsed = parser.parsePromptText(raw);
 
-  assert.equal(parsed.title, '东方人像');
-  assert.ok([...parsed.title].length <= 10);
+  assert.equal(parsed.title, '她在织机前系好最后一段青缎');
+  assert.ok([...parsed.title].length <= 20);
   assert.match(parsed.prompt, /^参考上传的两张图片/);
   assert.match(parsed.prompt, /不生成任何文字或水印/);
   assert.doesNotMatch(parsed.prompt, /一键复制|分类|参考图片/);
@@ -60,7 +60,7 @@ test('generates a compact title when the first line is the prompt body', () => {
   const parsed = parser.parsePromptText(raw);
 
   assert.equal(parsed.title, '写真人像');
-  assert.ok([...parsed.title].length <= 10);
+  assert.ok([...parsed.title].length <= 20);
   assert.equal(parsed.prompt, raw);
 });
 
@@ -74,7 +74,7 @@ A beautiful Japanese woman with blunt bangs leans slightly toward the camera ind
   const parsed = parser.parsePromptText(raw, { titleCandidates: ['GPT Image 2 on ChatGPT'] });
 
   assert.equal(parsed.title, '东方人像');
-  assert.ok([...parsed.title].length <= 10);
+  assert.ok([...parsed.title].length <= 20);
 });
 
 test('separates an unlabeled heading from the prompt body', () => {

@@ -7,6 +7,7 @@
   'use strict';
 
   const DEFAULT_TITLE = '未命名提示词';
+  const MAX_AUTO_TITLE_LENGTH = 20;
 
   const PROMPT_LABELS = [
     'prompt', 'full prompt', 'complete prompt', 'positive prompt',
@@ -49,11 +50,15 @@
     /^by\s+(?:gemini\s+)?nano\s+banana$/i,
     /^(?:gemini\s+)?nano\s+banana(?:\s+(?:prompt|images?))?$/i,
     /^(?:today'?s\s+)?portrait\.?$/i,
-    /^(?:image|video)\s*prompt$/i
+    /^(?:image|video)\s*prompt$/i,
+    /^主页\s*\/\s*x$/i,
+    /^x\s+上的/i,
+    /^(?:这组图|兄弟们|姐妹们|今天|今晚|最近发现|跟大家分享|整理一下|非常实用|想申请|餐饮老板|我通过|be careful|compliment her outfit|meet agent|images created|no crew)/i
   ];
 
   const COMPACT_TITLE_RULES = [
     { title: '商品视频', pattern: /(product video|ecommerce video|商品视频|电商视频|短视频广告)/i },
+    { title: '产品广告', pattern: /(commercial|skincare|cosmetic|cream jar|packaging|takeaway packaging|产品广告|商业广告|护肤品|化妆品|包装设计|外卖包装)/i },
     { title: '品牌视觉', pattern: /(logo|brand identity|visual identity|brand campaign|livery|vi proposal|品牌视觉|品牌识别|视觉识别|标志设计|logo提案|品牌广告)/i },
     { title: '产品主图', pattern: /(product hero|product shot|packshot|white background|产品主图|白底图|商品主图)/i },
     { title: '电商海报', pattern: /(product ad|advertising poster|poster|广告海报|商品广告|营销海报)/i },
@@ -62,7 +67,8 @@
     { title: '机场人像', pattern: /(airport|候机|登机|机场)/i },
     { title: '韩系人像', pattern: /(korean|韩国|韩系|韩风)/i },
     { title: '东方人像', pattern: /(east asian|oriental|chinese|japanese|asian woman|东亚|东方|中式|日系|和风)/i },
-    { title: '时尚人像', pattern: /(fashion|editorial|couture|runway|时尚|高定|穿搭|大片)/i },
+    { title: '工具流程', pattern: /(codex|skill|agent|obsidian|github|claude code|workflow|专利|知识库|工作流|流程图|技能|自动扫描|开源地址)/i },
+    { title: '时尚人像', pattern: /(fashion|editorial|couture|runway|outfit|clothing|attire|时尚|高定|穿搭|大片|穿著|针织|針織|牛仔|妝容|妆容|连衣裙|背心)/i },
     { title: '运动人像', pattern: /(yoga|fitness|sportswear|运动|瑜伽|健身)/i },
     { title: '家居人像', pattern: /(bedroom|living room|home|sofa|室内|卧室|客厅|家居)/i },
     { title: '海边人像', pattern: /(beach|sea|ocean|mediterranean|shoreline|海边|海岸|海洋)/i },
@@ -267,10 +273,10 @@
     }
 
     const cn = value.match(/[\u4e00-\u9fff]{2,6}(?:人像|人物|写真|海报|短片|视频|主图|场景|角色|风景|空间|视觉)/);
-    if (cn) return cleanTitle(cn[0]).slice(0, 10);
+    if (cn) return cleanTitle(cn[0]).slice(0, MAX_AUTO_TITLE_LENGTH);
 
     const fallback = firstSentenceTitle(value);
-    if (/[\u4e00-\u9fff]/.test(fallback)) return fallback.slice(0, 10);
+    if (/[\u4e00-\u9fff]/.test(fallback)) return fallback.slice(0, MAX_AUTO_TITLE_LENGTH);
     return 'AI提示词';
   }
 
@@ -287,9 +293,31 @@
     if (TITLE_NOISE_PATTERNS.some(pattern => pattern.test(value))) return true;
     return !value || [
       'prompt', '提示词', '完整提示词', '未命名提示词', 'untitled', 'image', 'result image',
-      'portrait', 'video', 'photo', 'picture', '生成图', '结果图',
+      'portrait', 'video', 'photo', 'picture', '主页', '首页', '生成图', '结果图',
       'ai生成', 'ai generated', '请手动补充提示词', '（请手动补充提示词）'
     ].includes(value);
+  }
+
+  function normalizeAutoTitle(title, prompt) {
+    let cleaned = cleanTitle(stripPublisherPreamble(title))
+      .replace(/\s*[|｜/／]\s*(?:x|twitter|prompt|提示词).*$/i, '')
+      .replace(/\s*(?:提示词|prompt)\s*$/i, '')
+      .replace(/\s*(?:竖版|横版)\s*[\d:：xX×\s]*$/i, '')
+      .replace(/[，,。；;：:].*$/g, '')
+      .trim();
+
+    if (
+      cleaned &&
+      /[\u4e00-\u9fff]/.test(cleaned) &&
+      [...cleaned].length <= MAX_AUTO_TITLE_LENGTH &&
+      !isGenericTitle(cleaned) &&
+      !titleLooksLikePrompt(cleaned, prompt)
+    ) {
+      return cleaned;
+    }
+
+    const generated = compactTitleFromPrompt(prompt);
+    return generated ? generated.slice(0, MAX_AUTO_TITLE_LENGTH) : DEFAULT_TITLE;
   }
 
   function cleanTitle(title) {
@@ -321,15 +349,11 @@
     if (options.pageTitle) candidates.push(options.pageTitle.replace(/\s*[-|–—]\s*.*$/, ''));
 
     for (const candidate of candidates) {
-      const cleaned = cleanTitle(candidate);
-      if (cleaned.length >= 3 && cleaned.length <= 68 && !isGenericTitle(cleaned) && !titleLooksLikePrompt(cleaned, prompt)) {
-        if (/[\u4e00-\u9fff]/.test(cleaned) && [...cleaned].length <= 10) return cleaned;
-        return compactTitleFromPrompt(prompt) || cleaned.slice(0, 10);
-      }
+      const normalized = normalizeAutoTitle(candidate, prompt);
+      if (normalized && normalized !== DEFAULT_TITLE) return normalized;
     }
 
-    const generated = compactTitleFromPrompt(prompt);
-    return generated ? generated.slice(0, 10) : DEFAULT_TITLE;
+    return normalizeAutoTitle('', prompt);
   }
 
   function parsePromptText(rawText, options) {
@@ -356,6 +380,8 @@
     stripPublisherPreamble,
     extractImageUrls,
     compactTitleFromPrompt,
+    normalizeAutoTitle,
+    MAX_AUTO_TITLE_LENGTH,
     parsePromptText,
     looksLikePrompt,
     isCompletePrompt,

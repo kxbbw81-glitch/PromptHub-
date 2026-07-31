@@ -51,11 +51,7 @@ function firstPromptLine(prompt) {
 }
 
 function normalizeCandidateTitle(title, prompt) {
-  const cleaned = normalizeText(title);
-  if (!cleaned || promptParser.isGenericTitle(cleaned) || promptParser.titleLooksLikePrompt(cleaned, prompt)) {
-    return firstPromptLine(prompt);
-  }
-  return cleaned.slice(0, 10);
+  return promptParser.normalizeAutoTitle(normalizeText(title), prompt) || firstPromptLine(prompt);
 }
 
 function normalizeCreatorHandle(value) {

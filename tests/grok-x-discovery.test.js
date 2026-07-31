@@ -182,7 +182,7 @@ test('accepts an image candidate once and rejects source and prompt duplicates',
   assert.equal(first.accepted.length, 1);
   assert.doesNotMatch(first.accepted[0].prompt, /^GPT Image 2/);
   assert.equal(first.accepted[0].title, '时尚人像');
-  assert.ok([...first.accepted[0].title].length <= 10);
+  assert.ok([...first.accepted[0].title].length <= 20);
   assert.equal(first.accepted[0].id, 'grok_x_123');
 
   const repeatedSource = discovery.acceptCandidates([candidate], first.accepted);
