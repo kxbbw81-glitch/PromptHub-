@@ -1,7 +1,228 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:33:30.066Z",
+  "updatedAt": "2026-07-31T07:37:29.277Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8mc1cr_gy69",
+      "image": "https://pbs.twimg.com/media/HKc_aWmasAAfA7Q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKc_aWmasAAfA7Q?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Created with Gpt image 2.0\n\nPrompt:\n\nA breathtakingly beautiful young woman with a radiant, symmetrical face, featuring sparkling almond-shaped hazel eyes, sun-kissed skin, and long, flowing auburn hair with natural highlights. She has a genuine, joyful expression with a bright smile that emphasizes her high cheekbones and youthful energy. She is playfully swinging on a vintage wooden swing, leaning her torso back while kicking her legs forward directly toward the camera lens. This creates a dramatic wide-angle perspective effect known as foreshortening, where her feet and shoes appear significantly larger in the foreground, creating a sense of depth and movement., A breezy, light-blue summer sundress with a delicate white floral print that billows in the wind. She wears a pair of crisp white canvas sneakers, which are the focal point of the perspective, and a thin silver bracelet that catches the glint of the sun., A lush, sun-drenched public park during the golden hour. The background is a soft-focus dreamscape of green oak trees, a distant slide, and a sandbox, all bathed in warm, amber light. Tiny golden dust motes and a few stray cherry blossom petals float in the air, creating a nostalgic and magical atmosphere., Masterpiece, 8k resolution, highly detailed.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKc_aWmasAAfA7Q?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CaliraVal/status/2064688681315946862",
+      "tags": [
+        "vintage",
+        "golden hour",
+        "8k"
+      ],
+      "timestamp": 1785482758108,
+      "title": "海滨长廊金色人像",
+      "url": "https://x.com/CaliraVal/status/2064688681315946862",
+      "collectedAt": "2026-07-31T07:26:00.109Z",
+      "githubSyncedAt": "2026-07-31T07:26:00.109Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8m2xxz_cxdf",
+      "image": "https://pbs.twimg.com/media/HKr5uorbAAELFOt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKr5uorbAAELFOt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKr5us-b0AA4FiY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Created with Gpt image 2.0\n\nPrompt:\n\nUltra-realistic Korean luxury portrait photography, a beautiful Korean woman white porselain skin, perfect glas skin, sitting casually on a classic park bench, natural candid pose with crossed legs, gentle warm smile, long flowing dark brown hair with soft natural waves, flawless Korean glass skin with visible skin texture, smooth and radiant complexion, minimal natural Korean makeup (soft pink lips, subtle blush, clean brows), elegant casual outfit: whitelong-sleeve blouse with delicate details, high-waist dark blue jeans, brown leather lace-up boots, small luxury leather handbag beside her, outdoor park setting with lush green trees, soft daylight, cinematic natural lighting, shallow depth of field, creamy bokeh background, realistic fabric folds, realistic hair strands, high dynamic range, DSLR photo, 85mm lens, f/1.8, ultra-sharp focus, professional fashion photography, calm and classy Korean aesthetic, timeless luxury mood,ultra-high resolution, 8K, photorealistic. \nAdd tiny text luxury \" ChiVen\" In a wooden chair. \nNegative prompt (opsional):\nlow quality, blurry, overexposed, oversharpen, plastic skin, anime, cartoon, CGI, distorted face, bad anatomy, extra fingers, unrealistic proportions, heavy makeup, harsh lighting.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKr5uorbAAELFOt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKr5us-b0AA4FiY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CaliraVal/status/2065737969328419306",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "dark",
+        "bokeh"
+      ],
+      "timestamp": 1785482333784,
+      "title": "公园长椅电影感女性人像",
+      "url": "https://x.com/CaliraVal/status/2065737969328419306",
+      "collectedAt": "2026-07-31T07:18:57.424Z",
+      "githubSyncedAt": "2026-07-31T07:18:57.424Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lxgmv_0in6",
+      "image": "https://pbs.twimg.com/media/HOg3fSZacAAS0dT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOg3fSZacAAS0dT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeacAAFGio?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeb0AABSsd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSbagAArZzb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "女人面向大海，微微前倾，直视镜头。她用一只手缓缓放下蛛网状的眼镜，露出自动调暗的灯光。一件轻薄的外套披在她的肩上，银色的耳环在阳光下闪闪发光。微风吹拂着她的秀发，带来灵动的飘逸。背景简约而精致，留白优雅。\n\nPreview only. Full-resolution & premium concepts are available for  x.com/yukimasterai/s…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOg3fSZacAAS0dT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeacAAFGio?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeb0AABSsd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSbagAArZzb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2082975845392810134",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785482078071,
+      "title": "女人面向大海，微微前倾，直视镜头",
+      "url": "https://x.com/YUKIMASTERAI/status/2082975845392810134",
+      "collectedAt": "2026-07-31T07:14:43.964Z",
+      "githubSyncedAt": "2026-07-31T07:14:43.964Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8llw06_aodr",
+      "image": "https://pbs.twimg.com/media/HOfKXzQW8AAy6RL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOfKXzQW8AAy6RL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词：4:5竖幅，真实摄影风格，海边酒店露台场景，一位绝美23岁成年东亚女性，身材匀称丰满，胸部自然丰满，腰部纤细，臀腿比例协调，肩颈舒展，曲线柔和自然，气质温柔、自信、轻熟。她拥有柔和流畅的鹅蛋脸，眉形细长微挑，杏眼清亮含光，鼻梁自然挺直，唇形丰润清晰，肤色是带自然血色的冷白肤，面部保留真实皮肤纹理与细微明暗。妆容为通透晨光感妆容，浅香槟米棕眼妆，细致睫毛，卧蚕自然提亮，唇色为柔雾蜜桃豆沙，神情安静专注、带一点晨间松弛感。发型为深栗棕色低束发，耳侧留几缕轻柔碎发，被海风微微吹动；佩戴小颗珍珠耳钉与纤细金色手链。服装是一袭香槟色丝质长裙，细肩带设计，柔和方领，胸前有轻微立体褶线，腰线自然收束，裙身顺着身体垂落至脚踝，裙摆带轻微开衩与自然堆叠，丝缎面料细腻柔亮，反光克制高级，裙身结构稳定贴合身体。她坐在露台靠海一侧的细腿软包高凳上，身体微微侧向画面左前方，脸自然转向镜头，视线落在镜头附近；左手扶在竖琴琴柱中段，右手正轻轻拨动琴弦试音，双腿斜向一侧并拢落地，重心稳定。竖琴是一架金色框架的古典踏板竖琴，立于人物身前偏右位置，不遮挡面部与腰线。构图为从头顶到脚踝附近入画，人物位于画面中央偏右，占画面约70%，50mm镜头，平视略低机位，浅景深。前景有轻微虚化的白色栏杆边缘与透明玻璃水杯，中景为人物与竖琴，后景是海边酒店露台的白色石材地面、亚麻坐垫、远处湛蓝海面和晨间柔亮天空。光线以清晨柔和自然侧光为主，海面反光作为辅助补光，人物发丝和肩线有轻微轮廓光，整体色调为香槟金、米白与海蓝色，真实高级，具有高完成度人物摄影质感，手指结构清晰，五官清楚，面料纹理和发丝细节自然可信。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOfKXzQW8AAy6RL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082855874641395777",
+      "tags": [
+        "摄影",
+        "清晨"
+      ],
+      "timestamp": 1785481538118,
+      "title": "海边晨光女性人像",
+      "url": "https://x.com/sdjn_wgc/status/2082855874641395777",
+      "collectedAt": "2026-07-31T07:05:46.090Z",
+      "githubSyncedAt": "2026-07-31T07:05:46.090Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8llw05_glty",
+      "image": "https://pbs.twimg.com/media/HOb1EASW8AAIWpN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOb1EASW8AAIWpN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb1EAXWUAEXJSM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb1EATWIAIJMmU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb1EAWWAAA7eXs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A day at Fashion Week｜Alone in the early morning\n\nPrompt \nA quiet, documentary-style photograph of a young Eastern European model, around 20 years old, sitting alone by a floor-to-ceiling window in a minimalist Milan apartment at 6am — hours before she's due backstage for Milan Fashion Week. Her presence carries the stillness of someone rehearsing calm before a long day.\n\nStandard oval face with soft, natural cheekbones. Natural arched brows. Her eyes are half-awake, slightly heavy-lidded, with the faint remnants of yesterday's eyeliner — no fresh makeup applied. Her skin responds to light with realistic subsurface scattering, a faint warm glow beneath the surface; specular micro-highlights are visible on her cheekbones and nose bridge, and fine pore texture is left unretouched.\n\nHer light golden-brown hair is loosely disheveled from sleep, with two or three strands displaced by faint air movement, resting with natural, unplanned imperfection. She wears a loose silk robe slipping off one shoulder, revealing her collarbone, against a minimalist apartment backdrop with a sheer half-open curtain.\n\nThe light is a single soft window source in the Vermeer tradition — diffused, directionless, no hard shadow edge, skin luminous from within. The palette is desaturated warm-grey, the tired beauty of an aged silver gelatin print. This is a portrait of quiet solitude before performance made visible. Subtle film grain equivalent to ISO 400 sits in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOb1EASW8AAIWpN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb1EAXWUAEXJSM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb1EATWIAIJMmU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb1EAWWAAA7eXs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083039957606957461",
+      "tags": [
+        "anime",
+        "minimalist"
+      ],
+      "timestamp": 1785481538117,
+      "title": "时尚人像",
+      "url": "https://x.com/ToroJushiAi/status/2083039957606957461",
+      "collectedAt": "2026-07-31T07:05:46.090Z",
+      "githubSyncedAt": "2026-07-31T07:05:46.090Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8llw04_335c",
+      "image": "https://pbs.twimg.com/media/HOhLYHYbMAAJoSW?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhLYHYbMAAJoSW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhLi9LakAAaWMs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Midjourney V8 & Gpt Image 2\nPrompt :\nPhotorealistic editorial portrait of a 20yo East Asian woman, elongated oval face, almond deep brown eyes with lifted corners, double eyelids, arched dark brows, slim nose, muted rose satin lips. Tall athletic hourglass figure, long rich dark chestnut hair in polished S-waves. Glossy black patent triangle bikini, open black varsity bomber jacket with white trim and embroidery, black baseball cap, silver drop earrings, gold pendant necklace. Lying down, clean side profile head facing away. British vinyl listening corner: turntable, stacked vinyl, bookshelf speakers, aged wood, warm amber night light, hard side key light. Rinko Kawauchi airy high-key style, fisheye lens with barrel distortion, soft diffusion, low microcontrast. Medium waist-up shot, eye-level, 3/4 front-right angle. Transparent Japanese color grade: airy low contrast, milky highlights, pastel saturation, clean skin tones. No text.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhLYHYbMAAJoSW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhLi9LakAAaWMs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2082998026130637256",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785481538116,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2082998026130637256",
+      "collectedAt": "2026-07-31T07:05:46.090Z",
+      "githubSyncedAt": "2026-07-31T07:05:46.090Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8llw03_rl1r",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082497120935022592/img/BjXztxOJOxRKu9Xs?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082497120935022592/img/BjXztxOJOxRKu9Xs?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "换一个清纯风格，有人喜欢吗来交作业试试看～\n\n提示词：\n生成一段 10 秒、9:16 竖屏的纯欲风舞蹈直拍视频。单人出镜，年轻亚洲女生，黑色长发或低马尾，身材匀称偏纤细，妆容自然清透，真实皮肤质感，穿白色短款上衣或浅灰色贴身背心，下身百褶短裙、短裤或宽松练舞裤，整体清爽、干净、轻甜微性感。场景为明亮练舞室或简洁白墙空间，地面干净，背景简约，采用自然日光或柔和顶光，整体奶白暖调。镜头稳定，轻微推进和跟拍，像很有质感的练舞室直拍。\n0–2 秒，人物先微微低头整理发丝或衣摆，随后抬头看向镜头，轻轻歪头，露出一点淡淡的笑。\n2–4 秒，镜头到腰部以上，人物跟着节奏做肩部律动、小幅摆胯、手臂轻抬和小 wave，一只手落在腰侧，眼神和镜头有互动。\n4–6 秒，卡重拍，人物做轻转身再回正的动作，一只手轻触耳侧或脸颊，再顺势落到肩颈，腰部轻微定点，表情甜中带一点撩。\n6–8 秒，镜头推进到更近，突出脸部、锁骨和手部细节，她轻轻偏头，发丝晃动，做一个缓慢眨眼或轻微抿唇。\n8–10 秒，人物完成最后动作后自然站定，身体微侧，头转回来看向镜头，镜头推进到近景，最后 0.5 秒自然定格，像练舞室爆款封面。\n整体风格清爽、纯欲、自然、松弛，动作不要太大，重点突出眼神、肩颈、锁骨、发丝和练舞室直拍感。\n\n负面提示词：\n不要多人，不要群舞，不要夸张性感，不要大幅甩头，不要镜子反射混乱，不要五官漂移，不要手部畸形，不要镜头乱晃，不要服装变化，不要背景变化，不要磨皮过度。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082497120935022592/img/BjXztxOJOxRKu9Xs?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2082817706978640380",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785481538115,
+      "title": "视频短片",
+      "url": "https://x.com/Adam38363368936/status/2082817706978640380",
+      "collectedAt": "2026-07-31T07:05:46.090Z",
+      "githubSyncedAt": "2026-07-31T07:05:46.090Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
@@ -151,7 +372,7 @@
         "AI生成"
       ],
       "timestamp": 1785481034641,
-      "title": "现代办公室女性人像",
+      "title": "深夜书桌背心人像",
       "url": "https://x.com/woleswoosh/status/2082888960573923558",
       "collectedAt": "2026-07-31T06:58:01.981Z",
       "githubSyncedAt": "2026-07-31T06:58:01.981Z",
@@ -215,7 +436,7 @@
         "AI生成"
       ],
       "timestamp": 1785480682885,
-      "title": "婚纱氛围双人肖像",
+      "title": "针织背心双人肖像",
       "url": "https://x.com/Adam38363368936/status/2082987996580819294",
       "collectedAt": "2026-07-31T06:51:25.262Z",
       "githubSyncedAt": "2026-07-31T06:51:25.262Z",
@@ -664,7 +885,7 @@
         "AI生成"
       ],
       "timestamp": 1785422287486,
-      "title": "九龙城寨蕾丝长袍女性人像",
+      "title": "Soho街角蹲姿人像",
       "url": "https://x.com/VIBEQUIRKLABS/status/2067026167002276166",
       "collectedAt": "2026-07-30T14:38:10.051Z",
       "githubSyncedAt": "2026-07-30T14:38:10.051Z",
@@ -693,7 +914,7 @@
         "dark"
       ],
       "timestamp": 1785421735306,
-      "title": "夜晚窗边针织背心女性人像",
+      "title": "调皮表情美妆人像",
       "url": "https://x.com/BubbleBrain/status/2067158519477059762",
       "collectedAt": "2026-07-30T14:29:42.982Z",
       "githubSyncedAt": "2026-07-30T14:29:42.982Z",
@@ -757,7 +978,7 @@
         "bokeh"
       ],
       "timestamp": 1785421671479,
-      "title": "海边晨光双人泳装女性人像",
+      "title": "调皮表情美妆人像",
       "url": "https://x.com/BubbleBrain/status/2067087196574892331",
       "collectedAt": "2026-07-30T14:27:52.695Z",
       "githubSyncedAt": "2026-07-30T14:27:52.695Z",
@@ -819,7 +1040,7 @@
         "dark"
       ],
       "timestamp": 1785421584136,
-      "title": "奢华酒廊晚礼服女性人像",
+      "title": "浅蓝蕾丝礼服人像",
       "url": "https://x.com/Minahil42298354/status/2067254938653085845",
       "collectedAt": "2026-07-30T14:26:27.591Z",
       "githubSyncedAt": "2026-07-30T14:26:27.591Z",
@@ -1166,7 +1387,7 @@
     },
     {
       "id": "grok_x_2082815489676358100",
-      "title": "湖边日落电影感女性人像",
+      "title": "沙漠黑马斗篷人像",
       "category": "时尚",
       "tags": [
         "image-prompt",
@@ -1203,7 +1424,7 @@
     },
     {
       "id": "grok_x_2081515559653380145",
-      "title": "换装对比海报",
+      "title": "天鹅绒沙发角色树屋品牌视觉",
       "category": "电商视觉",
       "commerceType": "品牌视觉",
       "tags": [
@@ -1393,7 +1614,7 @@
         "AI生成"
       ],
       "timestamp": 1785417721726,
-      "title": "胎儿四维照片 x 推测还原 x 提示词 ",
+      "title": "胎儿四维照片 x 推测还原 x 提示词",
       "url": "https://x.com/xiaoxiaodong01/status/2053827459955728434",
       "collectedAt": "2026-07-30T13:22:03.242Z",
       "githubSyncedAt": "2026-07-30T13:22:03.242Z",
@@ -2344,7 +2565,7 @@
         "bokeh"
       ],
       "timestamp": 1785409519201,
-      "title": "机场候机人像",
+      "title": "城市高跟鞋街拍",
       "url": "https://x.com/VIBEQUIRKLABS/status/2071056956350251202",
       "collectedAt": "2026-07-30T12:07:14.312Z",
       "githubSyncedAt": "2026-07-30T12:07:14.312Z",
@@ -2434,7 +2655,7 @@
     },
     {
       "id": "grok_x_2082774904878031313",
-      "title": "海盗冒险短片",
+      "title": "复古电脑卧室人像",
       "category": "视频提示词",
       "tags": [
         "pirates",
@@ -2506,7 +2727,7 @@
     },
     {
       "id": "grok_x_2082780509772685555",
-      "title": "森林光影电影感",
+      "title": "紫色棚拍美发人像",
       "category": "自然",
       "tags": [
         "winter",
@@ -2662,7 +2883,7 @@
         "photorealistic"
       ],
       "timestamp": 1785409407163,
-      "title": "旗袍唱片写真",
+      "title": "城市高跟鞋街拍",
       "url": "https://x.com/VIBEQUIRKLABS/status/2071497220462112899",
       "collectedAt": "2026-07-30T11:03:31.933Z",
       "githubSyncedAt": "2026-07-30T11:03:31.933Z",
@@ -2746,7 +2967,7 @@
         "AI生成"
       ],
       "timestamp": 1785409367561,
-      "title": "餐厅卡座餐桌亲密互动",
+      "title": "餐厅卡座室内亲密合照",
       "url": "https://x.com/dannywayli/status/2071790428874260809",
       "collectedAt": "2026-07-30T11:02:49.095Z",
       "githubSyncedAt": "2026-07-30T11:02:49.095Z",
@@ -2963,7 +3184,7 @@
         "8k"
       ],
       "timestamp": 1785406890149,
-      "title": "黑色西装女性人像",
+      "title": "黄丝衬衫三联肖像",
       "url": "https://x.com/MissDelulu9/status/2071926950864752997",
       "collectedAt": "2026-07-30T10:21:34.104Z",
       "githubSyncedAt": "2026-07-30T10:21:34.104Z",
@@ -3037,7 +3258,7 @@
     },
     {
       "id": "grok_x_2082766325316026800",
-      "title": "霓虹夜街电影感人物海报",
+      "title": "城市巨影男装人像",
       "category": "电商视觉",
       "commerceType": "广告海报",
       "tags": [
@@ -3317,7 +3538,7 @@
         "8k"
       ],
       "timestamp": 1785403736072,
-      "title": "古风丝袜女性人像",
+      "title": "城市高跟鞋街拍",
       "url": "https://x.com/aytacaltintepe/status/2073896013169844655",
       "collectedAt": "2026-07-30T09:29:29.052Z",
       "githubSyncedAt": "2026-07-30T09:29:29.052Z",
@@ -4481,7 +4702,7 @@
     },
     {
       "id": "grok_x_2082734187615048127",
-      "title": "泰迪熊棚拍人像",
+      "title": "CEO感高定街拍",
       "category": "时尚",
       "tags": [
         "fashion",
@@ -4543,7 +4764,7 @@
         "vintage"
       ],
       "timestamp": 1785394061862,
-      "title": "咖啡馆夜景电影感女性人像",
+      "title": "现代卧室镜自拍",
       "url": "https://x.com/gemini_prompts/status/2082532761492222423",
       "collectedAt": "2026-07-30T06:47:48.024Z",
       "githubSyncedAt": "2026-07-30T06:47:48.024Z",
@@ -4786,7 +5007,7 @@
     },
     {
       "id": "grok_x_2082700214364717324",
-      "title": "室内泳池室内泳装海报",
+      "title": "紫色棚拍美发人像",
       "category": "时尚",
       "tags": [
         "editorial",
@@ -4858,7 +5079,7 @@
     },
     {
       "id": "grok_x_2082661048369430550",
-      "title": "咖啡馆夜景针织背心女性人像",
+      "title": "调皮表情美妆人像",
       "category": "时尚",
       "tags": [
         "café",
@@ -5107,7 +5328,7 @@
     },
     {
       "id": "grok_x_2082616378675089643",
-      "title": "帆船甲板电影感女性人像",
+      "title": "调皮表情美妆人像",
       "category": "人像",
       "tags": [
         "selfie",
@@ -5177,7 +5398,7 @@
     },
     {
       "id": "grok_x_2082027881186877691",
-      "title": "编辑写真产品海报",
+      "title": "宋式留白编辑写真产品海报",
       "category": "时尚",
       "tags": [
         "xianxia",
@@ -5366,7 +5587,7 @@
     },
     {
       "id": "grok_x_2082669518003065268",
-      "title": "混媒文字肖像",
+      "title": "城市巨影男装人像",
       "category": "抽象",
       "tags": [
         "mixed-media",
@@ -5471,7 +5692,7 @@
     },
     {
       "id": "grok_x_2082666646024409215",
-      "title": "牛仔短裙女性人像",
+      "title": "海滨长廊金色人像",
       "category": "时尚",
       "tags": [
         "portrait",
@@ -5980,7 +6201,7 @@
         "dark"
       ],
       "timestamp": 1785326086614,
-      "title": "缎面开衩裙女性人像",
+      "title": "浅蓝蕾丝礼服人像",
       "url": "https://x.com/woleswoosh/status/2082043387234922783",
       "collectedAt": "2026-07-29T11:54:47.596Z",
       "githubSyncedAt": "2026-07-29T11:54:47.596Z",
@@ -8213,7 +8434,7 @@
     },
     {
       "id": "grok_x_2082232742968787358",
-      "title": "草原蓝天电影感女性人像",
+      "title": "海滨长廊金色人像",
       "category": "时尚",
       "tags": [
         "luxury car",
@@ -8250,7 +8471,7 @@
     },
     {
       "id": "grok_x_2082165472347529415",
-      "title": "白色摄影棚电影感女性人像",
+      "title": "单眼发丝特写",
       "category": "人像",
       "tags": [
         "studio",
@@ -9438,7 +9659,7 @@
         "X 自动收集"
       ],
       "timestamp": 1785291573517,
-      "title": "石墙长椅混媒文字肖像",
+      "title": "海滨长廊金色人像",
       "url": "https://x.com/Minahil42298354/status/2081994709795569697",
       "collectedAt": "2026-07-29T02:19:33.516Z",
       "githubSyncedAt": "2026-07-29T02:19:33.516Z",
@@ -10829,7 +11050,7 @@
         "minimalist"
       ],
       "timestamp": 1785135210790,
-      "title": "草原蓝天女性人像",
+      "title": "大教堂夜景九人群像",
       "url": "https://x.com/ToroJushiAi/status/2081590406375170445",
       "images": [
         "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small"
@@ -11589,7 +11810,7 @@
         "8k"
       ],
       "timestamp": 1785223923327,
-      "title": "石墙长椅编辑写真女性人像",
+      "title": "海滨长廊金色人像",
       "url": "https://x.com/CliQi_AI/status/2081926868224409787",
       "rawImages": [
         "https://pbs.twimg.com/media/HMs5hxcawAIN0sP?format=jpg&name=small",
