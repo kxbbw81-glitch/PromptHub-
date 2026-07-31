@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:13:33.949Z",
+  "updatedAt": "2026-07-31T13:13:45.543Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8yqzab_pw8g",
+      "image": "https://pbs.twimg.com/media/HHxIAd3bIAAGwCU?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HHxIAd3bIAAGwCU?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HHxIC7nbwAAPRKT?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GM！\nhttps://promptsref.com/tool/AI-Image-Generator/share/b529dcbf29b6c5f0613ff675e834493f…\nprompt：A realistic and natural lifestyle bedroom photo of a 25-year-old Korean woman lying on her stomach on a bed. Her body is relaxed, facing slightly toward the camera, with both legs raised and bent naturally upward, feet in the air. She rests",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHxIAd3bIAAGwCU?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HHxIC7nbwAAPRKT?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/underwoodxie96/status/2052594903033745493",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785503610659,
+      "title": "未命名提示词",
+      "url": "https://x.com/underwoodxie96/status/2052594903033745493",
+      "collectedAt": "2026-07-31T13:13:45.543Z",
+      "githubSyncedAt": "2026-07-31T13:13:45.543Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
