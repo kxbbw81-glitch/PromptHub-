@@ -2,6 +2,7 @@ const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
 const { classifyCollection, classifyCommerceType } = require('./category-rules');
+const promptParser = require('../extension/prompt-parser.js');
 
 const MIN_PROMPT_LENGTH = 160;
 const X_STATUS_URL = /^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/\d+\/?(?:\?.*)?$/i;
@@ -46,7 +47,15 @@ function stripPlatformPrefix(value) {
 }
 
 function firstPromptLine(prompt) {
-  return normalizeText(prompt).split(/[。.!?]/)[0].slice(0, 60).trim() || 'AI 生成提示词';
+  return promptParser.compactTitleFromPrompt(prompt) || 'AI提示词';
+}
+
+function normalizeCandidateTitle(title, prompt) {
+  const cleaned = normalizeText(title);
+  if (!cleaned || promptParser.isGenericTitle(cleaned) || promptParser.titleLooksLikePrompt(cleaned, prompt)) {
+    return firstPromptLine(prompt);
+  }
+  return cleaned.slice(0, 10);
 }
 
 function normalizeCreatorHandle(value) {
@@ -171,7 +180,7 @@ function validateCandidate(candidate) {
       mediaType,
       videoPoster,
       videoUrl,
-      title: normalizeText(candidate.title) || firstPromptLine(prompt),
+      title: normalizeCandidateTitle(candidate.title, prompt),
       category: normalizeText(candidate.category) || (mediaType === 'video' ? '视频' : '图像'),
       tags: Array.isArray(candidate.tags) ? candidate.tags.map(normalizeText).filter(Boolean).slice(0, 8) : [],
       model: normalizeText(candidate.model),

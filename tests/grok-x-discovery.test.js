@@ -170,7 +170,7 @@ test('accepts a UTF-8 BOM on CLI output files', () => {
 test('accepts an image candidate once and rejects source and prompt duplicates', () => {
   const candidate = {
     sourceUrl: 'https://x.com/example/status/123?ref=x',
-    title: 'Gallery fashion portrait',
+    title: 'GPT Image 2 on ChatGPT',
     prompt: `GPT Image 2 on ChatGPT ${COMPLETE_PROMPT}`,
     mediaType: 'image',
     imageUrls: ['https://pbs.twimg.com/media/example.jpg?format=jpg&name=large'],
@@ -181,6 +181,8 @@ test('accepts an image candidate once and rejects source and prompt duplicates',
   const first = discovery.acceptCandidates([candidate], [], '2026-07-29T10:00:00.000Z');
   assert.equal(first.accepted.length, 1);
   assert.doesNotMatch(first.accepted[0].prompt, /^GPT Image 2/);
+  assert.equal(first.accepted[0].title, '时尚人像');
+  assert.ok([...first.accepted[0].title].length <= 10);
   assert.equal(first.accepted[0].id, 'grok_x_123');
 
   const repeatedSource = discovery.acceptCandidates([candidate], first.accepted);

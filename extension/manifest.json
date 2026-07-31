@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PromptHub Collector",
-  "version": "3.9.0",
+  "version": "3.10.0",
   "description": "一键抓取网页上的 AI 提示词，先加入待同步队列；手动同步到 GitHub 后，国内站点将在后台延迟发布",
   "permissions": [
     "activeTab",

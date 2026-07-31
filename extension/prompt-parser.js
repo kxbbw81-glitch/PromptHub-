@@ -44,6 +44,37 @@
     '不要文字', '不要水印', '人物', '服装', '姿态', '环境'
   ];
 
+  const TITLE_NOISE_PATTERNS = [
+    /^(?:made\s+with\s+)?gpt\s*image\s*\d+(?:\s+(?:on|via)\s+chatgpt)?(?:\s*(?:prompt|提示词?))?$/i,
+    /^by\s+(?:gemini\s+)?nano\s+banana$/i,
+    /^(?:gemini\s+)?nano\s+banana(?:\s+(?:prompt|images?))?$/i,
+    /^(?:today'?s\s+)?portrait\.?$/i,
+    /^(?:image|video)\s*prompt$/i
+  ];
+
+  const COMPACT_TITLE_RULES = [
+    { title: '商品视频', pattern: /(product video|ecommerce video|商品视频|电商视频|短视频广告)/i },
+    { title: '品牌视觉', pattern: /(logo|brand identity|visual identity|brand campaign|livery|vi proposal|品牌视觉|品牌识别|视觉识别|标志设计|logo提案|品牌广告)/i },
+    { title: '产品主图', pattern: /(product hero|product shot|packshot|white background|产品主图|白底图|商品主图)/i },
+    { title: '电商海报', pattern: /(product ad|advertising poster|poster|广告海报|商品广告|营销海报)/i },
+    { title: '口播视频', pattern: /(dialogue|speaks|voiceover|口播|旁白|台词|双语视频)/i },
+    { title: '电影短片', pattern: /(15-second|cinematic scene|video prompt|camera movement|电影短片|分镜|镜头运动)/i },
+    { title: '机场人像', pattern: /(airport|候机|登机|机场)/i },
+    { title: '韩系人像', pattern: /(korean|韩国|韩系|韩风)/i },
+    { title: '东方人像', pattern: /(east asian|oriental|chinese|japanese|asian woman|东亚|东方|中式|日系|和风)/i },
+    { title: '时尚人像', pattern: /(fashion|editorial|couture|runway|时尚|高定|穿搭|大片)/i },
+    { title: '运动人像', pattern: /(yoga|fitness|sportswear|运动|瑜伽|健身)/i },
+    { title: '家居人像', pattern: /(bedroom|living room|home|sofa|室内|卧室|客厅|家居)/i },
+    { title: '海边人像', pattern: /(beach|sea|ocean|mediterranean|shoreline|海边|海岸|海洋)/i },
+    { title: '街头人像', pattern: /(street|city|urban|街头|城市|街拍)/i },
+    { title: '写真人像', pattern: /(portrait|woman|girl|man|person|model|人物|人像|女性|男性|模特|写真)/i },
+    { title: '建筑空间', pattern: /(architecture|interior|room|house|building|treehouse|建筑|室内|空间|树屋)/i },
+    { title: '奇幻角色', pattern: /(fantasy|dragon|magic|character|creature|角色|奇幻|魔法)/i },
+    { title: '科幻场景', pattern: /(sci-fi|cyberpunk|futuristic|space|robot|科幻|赛博|未来)/i },
+    { title: '自然风景', pattern: /(landscape|mountain|forest|lake|sunset|sunrise|风景|山脉|森林|日出|日落)/i },
+    { title: '抽象视觉', pattern: /(abstract|surreal|concept art|抽象|超现实|概念)/i }
+  ];
+
   // Creator/platform labels often precede the real prompt in social posts.
   const PUBLISHER_PREAMBLE_PATTERNS = [
     /^\s*(?:gpt\s*image\s*\d+(?:\s+(?:on|via)\s+chatgpt)?|chatgpt\s*image\s*\d*)\s*(?:\u63d0\u793a\u8bcd?|prompt)\s*[:\uff1a\u2014-]*\s*/i,
@@ -224,6 +255,25 @@
     return cleanTitle(words.join(' '));
   }
 
+  function compactTitleFromPrompt(prompt) {
+    const value = stripPublisherPreamble(prompt)
+      .replace(/negative\s+prompt[\s\S]*$/i, '')
+      .replace(/(?:no|without)\s+(?:text|watermark|logo|logos)(?:\s*,\s*(?:text|watermark|logo|logos))*/ig, '')
+      .replace(/(?:不要|禁止|无)(?:文字|水印|logo|标志|商标)[，、,\s]*(?:文字|水印|logo|标志|商标)*/g, '');
+    if (!value) return '';
+
+    for (const rule of COMPACT_TITLE_RULES) {
+      if (rule.pattern.test(value)) return rule.title;
+    }
+
+    const cn = value.match(/[\u4e00-\u9fff]{2,6}(?:人像|人物|写真|海报|短片|视频|主图|场景|角色|风景|空间|视觉)/);
+    if (cn) return cleanTitle(cn[0]).slice(0, 10);
+
+    const fallback = firstSentenceTitle(value);
+    if (/[\u4e00-\u9fff]/.test(fallback)) return fallback.slice(0, 10);
+    return 'AI提示词';
+  }
+
   function titleLooksLikePrompt(title, prompt) {
     const t = cleanText(title);
     if (!t) return true;
@@ -234,8 +284,10 @@
 
   function isGenericTitle(title) {
     const value = normalizeLabel(title);
+    if (TITLE_NOISE_PATTERNS.some(pattern => pattern.test(value))) return true;
     return !value || [
       'prompt', '提示词', '完整提示词', '未命名提示词', 'untitled', 'image', 'result image',
+      'portrait', 'video', 'photo', 'picture', '生成图', '结果图',
       'ai生成', 'ai generated', '请手动补充提示词', '（请手动补充提示词）'
     ].includes(value);
   }
@@ -271,12 +323,13 @@
     for (const candidate of candidates) {
       const cleaned = cleanTitle(candidate);
       if (cleaned.length >= 3 && cleaned.length <= 68 && !isGenericTitle(cleaned) && !titleLooksLikePrompt(cleaned, prompt)) {
-        return cleaned.slice(0, 60);
+        if (/[\u4e00-\u9fff]/.test(cleaned) && [...cleaned].length <= 10) return cleaned;
+        return compactTitleFromPrompt(prompt) || cleaned.slice(0, 10);
       }
     }
 
-    const generated = firstSentenceTitle(prompt);
-    return generated ? generated.slice(0, 60) : DEFAULT_TITLE;
+    const generated = compactTitleFromPrompt(prompt);
+    return generated ? generated.slice(0, 10) : DEFAULT_TITLE;
   }
 
   function parsePromptText(rawText, options) {
@@ -302,6 +355,7 @@
     cleanText,
     stripPublisherPreamble,
     extractImageUrls,
+    compactTitleFromPrompt,
     parsePromptText,
     looksLikePrompt,
     isCompletePrompt,

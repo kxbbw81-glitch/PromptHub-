@@ -48,7 +48,8 @@ https://cdn.example.com/ref.webp
 
   const parsed = parser.parsePromptText(raw);
 
-  assert.equal(parsed.title, '她在织机前系好最后一段青缎，深色木线把人物和远山分成两层');
+  assert.equal(parsed.title, '东方人像');
+  assert.ok([...parsed.title].length <= 10);
   assert.match(parsed.prompt, /^参考上传的两张图片/);
   assert.match(parsed.prompt, /不生成任何文字或水印/);
   assert.doesNotMatch(parsed.prompt, /一键复制|分类|参考图片/);
@@ -58,8 +59,22 @@ test('generates a compact title when the first line is the prompt body', () => {
   const raw = 'A cinematic portrait of an astronaut sitting in a quiet greenhouse, soft morning light, 50mm lens, photorealistic, ultra detailed, gentle color grading, no text, no watermark.';
   const parsed = parser.parsePromptText(raw);
 
-  assert.equal(parsed.title, 'A cinematic portrait of an astronaut sitting');
+  assert.equal(parsed.title, '写真人像');
+  assert.ok([...parsed.title].length <= 10);
   assert.equal(parsed.prompt, raw);
+});
+
+test('replaces social platform titles with a ten-character prompt summary', () => {
+  const raw = `
+GPT Image 2 on ChatGPT
+
+Prompt
+A beautiful Japanese woman with blunt bangs leans slightly toward the camera indoors against a warm beige wall, soft natural light, 85mm portrait lens, realistic skin texture, editorial photography, low saturation, subtle film grain, no text, no watermark.
+`;
+  const parsed = parser.parsePromptText(raw, { titleCandidates: ['GPT Image 2 on ChatGPT'] });
+
+  assert.equal(parsed.title, '东方人像');
+  assert.ok([...parsed.title].length <= 10);
 });
 
 test('separates an unlabeled heading from the prompt body', () => {
