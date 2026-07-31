@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:39:05.161Z",
+  "updatedAt": "2026-07-31T13:56:20.071Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms909yid_vyof",
+      "image": "https://pbs.twimg.com/media/HHJAvlOa0AAF6cM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHJAvlOa0AAF6cM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Designed with ChatGPT (GPT Image 2.0). No shoot. Just vision.\n\nPrompt:\nLuxury fashion advertisement poster, ZARA style, minimalist editorial aesthetic, soft beige and warm neutral color palette, natural window light casting soft shadows, high-end magazine photography.\nThree elegant female models (same face across all poses), styled with smooth glowing skin, soft makeup, wavy brown hair, wearing premium neutral-toned outfits (flowy satin dress, wrap dress, tailored sleeveless suit in beige/cream tones), modern and classy styling.\nPoses:\nStanding relaxed, one hand touching hair, confident gaze\nStanding sideways, looking away, soft expression\nSitting pose, leaning slightly forward with hand on face, elegant posture\nBackground: minimal studio with curved arch wall, soft sunlight shadows, subtle plant silhouette, ceramic vase for aesthetic detail.\nTypography: Top: “ZARA” in large premium serif font\nBelow: “FASHION HAS NO BOUNDARIES.” in clean uppercase minimal font\nStyle: ultra-realistic, sharp focus, cinematic lighting, soft shadows, premium editorial composition, high fashion campaign look, 4K quality, clean layout, luxury branding.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHJAvlOa0AAF6cM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/auqibhabib/status/2049771976546533609",
+      "tags": [
+        "cinematic",
+        "minimalist"
+      ],
+      "timestamp": 1785506175733,
+      "title": "Designed with ChatGPT (GPT Image 2",
+      "url": "https://x.com/auqibhabib/status/2049771976546533609",
+      "collectedAt": "2026-07-31T13:56:20.070Z",
+      "githubSyncedAt": "2026-07-31T13:56:20.070Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
