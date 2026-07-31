@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T12:21:28.940Z",
+  "updatedAt": "2026-07-31T13:10:41.070Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8ynbcd_xm20",
+      "image": "https://pbs.twimg.com/media/HIFbFFqaAAAuvOA?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIFbFFqaAAAuvOA?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create image: A hyper-photorealistic shot of the same subject in the attached image.\n\nMain subject / quality details:\nRosy complexion with dewy skin and korean pinkish glow, authentic skin texture with visible pores, soft flushed cheeks, glossy lips with natural shine, realistic sunlit skin highlights on shoulders, collarbone and legs, sharp facial details without beauty-filter smoothing. Natural feminine proportions with soft skin texture preserved under harsh daylight.\n\nExpression or mood:\nPeaceful dreamy summer energy, eyes gently closed while feeling the sunlight and wind, relaxed lips, serene feminine confidence, candid carefree outdoor mood.\n\nCamera settings:\nA hyper-realistic, ultra-sharp photograph taken on an iPhone 15 Pro, characterized by digital clarity, focal point eye subject but rendere the background sharp with soft blur characterized by high end smartphone, shot at ISO 100. 4k rendered, normal white balance, natural lighting, no cinematic color grading. sharp facial details. Strong natural sunlight from upper left creating realistic lens flare streaks, bright sky exposure, subtle atmospheric haze and authentic smartphone HDR balancing between skin highlights and sky.\n\nHair:\nDark brown medium-length layered hair with inward upward curl at the ends, windswept sideways dramatically from outdoor breeze, separated silky strands glowing softly under sunlight.\n\nOutfit:\nSoft cream floral off-shoulder dress with blue flower patterns, fitted bodice with gathered chest detail, puff sleeves resting below shoulders, delicate gold bracelet and pearl pendant necklace.\n\nBackground:\nBright open sky with soft white clouds, intense blue daylight atmosphere, minimal outdoor environment emphasizing the airy summer feeling and large negative space around the subject.\n\nComposition:\nExtreme low-angle shot from below the subject, one knee dominating the foreground for strong perspective depth. Subject positioned slightly off-center while the sky occupies 20% of the frame. Hair movement creates diagonal motion lines across the composition. Lens flare from sunlight intersects naturally through the hair and shoulder area. Slight imperfect handheld framing for authentic smartphone realism.\n\nAspect ratio:\n9:16\n\nNegative prompt:\ncartoonish, AI-looking, plastic skin, distorted anatomy, over-smoothed face, blurry face, heavy bokeh, stiff pose, center-facing ID-photo style, fake sunlight, unrealistic clouds, warped limbs, extra fingers, CGI texture",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIFbFFqaAAAuvOA?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Chryzleenprompt/status/2054023055979188621",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1785503439661,
+      "title": "Create image: A hyper-photorealistic shot of the s",
+      "url": "https://x.com/Chryzleenprompt/status/2054023055979188621",
+      "collectedAt": "2026-07-31T13:10:41.070Z",
+      "githubSyncedAt": "2026-07-31T13:10:41.070Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "5:4",
       "category": "抽象",
