@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:57:21.553Z",
+  "updatedAt": "2026-07-31T13:57:33.671Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90baj0_q1xo",
+      "image": "https://pbs.twimg.com/media/HHE3gs6a8AAORTK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHE3gs6a8AAORTK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHE3gqSacAEX5T1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHE3gqSacAAEGsW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHE3gs6bYAA6RrQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我又改了一下提示词！\n\n这种根据上传的人物五官去搭配适合的穿搭。\n有没有应用‘场景’？\n设定很多种风格让模型来匹配。\n\n- 甜美系 Sweet\n- 公主系 Princess\n- 温柔系 Soft Feminine\n- 少女系 Girlish\n- 韩系 Korean Chic\n- 法式 French Chic\n- 日杂系 Japanese Casual Elegant\n- 轻熟系 Light Mature\n- 通勤系 Office Chic\n- 职业系 Professional\n- 知性系 Intellectual\n- 极简系 Minimalist\n- 高级简约系 Quiet Luxury\n- 复古系 Vintage\n- 港风系 Hong Kong Retro\n- 朋克系 Punk\n- 街头系 Street Style\n- 机能系 Functional Utility\n- 酷飒系 Cool Edgy\n- 中性系 Androgynous\n- 文艺系 Artistic\n- 森系 Natural Soft\n- 慵懒系 Relaxed Effortless\n- 轻奢系 Modern Luxury\n- 优雅名媛系 Elegant Lady\n- 度假系 Resort Style\n- 美式休闲系 American Casual\n- Old Money\n- Y2K\n- Clean Fit\n- Athflow 运动休闲风\n- 新中式 New Chinese Style",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHE3gs6a8AAORTK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHE3gqSacAEX5T1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHE3gqSacAAEGsW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHE3gs6bYAA6RrQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/hx831126/status/2049480352109035612",
+      "tags": [
+        "minimalist",
+        "vintage",
+        "极简"
+      ],
+      "timestamp": 1785506237964,
+      "title": "我又改了一下提示词！",
+      "url": "https://x.com/hx831126/status/2049480352109035612",
+      "collectedAt": "2026-07-31T13:57:33.670Z",
+      "githubSyncedAt": "2026-07-31T13:57:33.670Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
