@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:25:09.842Z",
+  "updatedAt": "2026-07-31T13:26:42.183Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8z6jnc_68gi",
+      "image": "https://pbs.twimg.com/media/HHjg-xuakAAnuWr?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HHjg-xuakAAnuWr?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HHjg-xPaMAAkzh2?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "Candid smartphone photo of two clearly adult Taiwanese women in their mid-20s on a windy Kenting beach roadside near a small food stall, sexy but non-explicit vacation snapshot. One is trying to take a selfie while the wind ruins her hair, the other laughs and holds a paper drink cup. Outfits: fitted cropped tee / loose linen shirt, high-waist shorts, beach sandals, no swimwear focus. Warm sunset, roadside scooters in background, imperfect framing with one arm partly blocking the lens, slight camera shake, realistic East Asian Taiwanese features, natural skin texture, lively friend energy. Avoid nudity, lingerie, explicit posing, teen cues, readable brand signs, watermark. Aspect ratio: vertical 4:5.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHjg-xuakAAnuWr?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HHjg-xPaMAAkzh2?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/msjiaozhu/status/2051637927520727423",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785504336888,
+      "title": "Candid smartphone photo of two clearly adult Taiwa",
+      "url": "https://x.com/msjiaozhu/status/2051637927520727423",
+      "collectedAt": "2026-07-31T13:26:42.182Z",
+      "githubSyncedAt": "2026-07-31T13:26:42.182Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8z6jnb_699t",
+      "image": "https://pbs.twimg.com/media/HHjgy8nbcAANBHp?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HHjgy8nbcAANBHp?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HHjgy8saEAApq0j?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Create a single 3:4 vertical image designed as a four-piece irregular puzzle collage made from four connected candid phone-photo fragments, with organic curved jigsaw-like seams instead of a neat grid. The same clearly adult East Asian woman appears across the four fragments, but each fragment feels like a different accidental moment from the same rainy night. Fragment ideas: leaving a convenience store with a plastic bag and wet umbrella, a too-close laughing flash snapshot under street glare, a cropped reflection in the store window, and a blurry walking-away street fragment with puddle highlights. Style: photorealistic casual phone-camera snapshots, believable amateur framing, lively but attractive face, direct flash mixed with wet neon reflections, natural skin texture, ordinary clothing, no fashion-editorial posing. The collage should feel like a spontaneous memory board, not a polished poster. Keep the four puzzle pieces visually readable and asymmetrical, with slight overlap shadows and white margin around the outer silhouette. Avoid readable signage, fake app UI, heavy doodles, childish puzzle colors, watermark, or over-designed scrapbook decoration.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHjgy8nbcAANBHp?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HHjgy8saEAApq0j?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/msjiaozhu/status/2051637923876061688",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785504336887,
+      "title": "Create a single 3:4 vertical image designed as a f",
+      "url": "https://x.com/msjiaozhu/status/2051637923876061688",
+      "collectedAt": "2026-07-31T13:26:42.182Z",
+      "githubSyncedAt": "2026-07-31T13:26:42.182Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8z6jna_ibih",
+      "image": "https://pbs.twimg.com/media/HHjRH8ObcAAB8ie?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HHjRH8ObcAAB8ie?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "这下是真正的一句话生成我想要的图片了！Codex 牛逼！\n\n只需要在 Prompt Lab Agent 说：“给我一批图片，生活随手拍类型，东亚面孔，一人两人都可以，大概十张吧，尺寸随机。”就能得到如下这一批图片\n\n这里面有一个特别关键的机制：扰动因子。\n\n我在别的平台看到好玩的 prompt、图片、海报、游戏 UI、自拍构图，直接丢给 Codex。\n\n它不是照抄，而是拆里面的机制：\n\n构图、镜头、介质、情绪、UI、为什么吸睛、哪些不能复制。\n\n然后结合我的偏好继续生成新方向。\n\n这就不是 prompt collection 了。\n\n它更像一个会自动探索、会吃反馈、会被外部灵感刺激的 Prompt Lab Agent。\n\n相关提示词放评论，可以试试看",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHjRH8ObcAAB8ie?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/msjiaozhu/status/2051637920231252170",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785504336887,
+      "title": "这下是真正的一句话生成我想要的图片了！Codex 牛逼！",
+      "url": "https://x.com/msjiaozhu/status/2051637920231252170",
+      "collectedAt": "2026-07-31T13:26:42.182Z",
+      "githubSyncedAt": "2026-07-31T13:26:42.182Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
