@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:05:46.090Z",
+  "updatedAt": "2026-07-31T07:14:43.964Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lxgmv_0in6",
+      "image": "https://pbs.twimg.com/media/HOg3fSZacAAS0dT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOg3fSZacAAS0dT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeacAAFGio?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeb0AABSsd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSbagAArZzb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "女人面向大海，微微前倾，直视镜头。她用一只手缓缓放下蛛网状的眼镜，露出自动调暗的灯光。一件轻薄的外套披在她的肩上，银色的耳环在阳光下闪闪发光。微风吹拂着她的秀发，带来灵动的飘逸。背景简约而精致，留白优雅。\n\nPreview only. Full-resolution & premium concepts are available for  x.com/yukimasterai/s…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOg3fSZacAAS0dT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeacAAFGio?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSeb0AABSsd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOg3fSbagAArZzb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2082975845392810134",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785482078071,
+      "title": "女人面向大海，微微前倾，直视镜头",
+      "url": "https://x.com/YUKIMASTERAI/status/2082975845392810134",
+      "collectedAt": "2026-07-31T07:14:43.964Z",
+      "githubSyncedAt": "2026-07-31T07:14:43.964Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
