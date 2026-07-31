@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:20:12.851Z",
+  "updatedAt": "2026-07-31T13:24:49.721Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8z5g36_kxj5",
+      "image": "https://pbs.twimg.com/media/HHng82Ma4AAJ0lt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHng82Ma4AAJ0lt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHkO7jgakAA_6YD?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "gpt image 2生成中式婚服人像。\n\n提示词：\n一位成年东方古典美人，9:16 竖版构图，写实风格人像，近景到半身偏全身构图。人物微微俯身侧转回眸，面向镜头，神情温柔、含蓄、迷人，眼神清澈而有吸引力，整体气质端庄、柔美、轻熟、优雅。\n\n她拥有精致柔和的东方五官，白皙细腻的真实肌肤，清透自然妆容，眉眼温婉，鼻梁秀挺，红润水光唇，脸部光影自然真实。黑色长发半盘起，发丝柔顺蓬松，部分长发自然垂落在肩后，佩戴白色花朵发饰、金色流苏发簪与珍珠耳饰，整体精致但不繁复。\n\n她身穿一袭红色中式婚服 / 改良旗袍礼服，服装为高级丝缎材质，贴合身体线条，带有细腻银白色刺绣花纹、云纹、牡丹纹与传统中式盘扣细节。上身剪裁修身，胸部轮廓自然饱满，展现成熟女性的柔美曲线；腰身收束明显，形成优雅的 S 型体态；下身裙摆贴合臀部与腰胯曲线，重点突出圆润、流畅、自然的臀部线条，呈现女性身体比例之美。整体性感但高级克制，不低俗，不暴露，强调东方审美中的含蓄、端庄与韵味。\n\n她一手握着一把红色中式团扇，团扇上带有金色“囍”字、花卉刺绣与流苏装饰，另一只手自然扶在身侧。人物姿态微微前倾，形成柔和的身体曲线和动态感，服装褶皱与丝缎反光真实细腻，突出胸部、腰线、臀部和腿部的自然比例。\n\n背景为冬日庭院或雪景园林，远处为深蓝灰色虚化树影与柔和雪地，空气中飘落少量细雪，背景大面积虚化，突出人物主体。光线为柔和冷暖结合的电影级自然光，面部有干净柔光，服装红色在冷色雪景中形成强烈但高级的视觉对比。整体画面唯美、写实、东方古典、婚服氛围浓厚，具有高端人像摄影质感。\n\n风格要求：高级写实人像，东方古典美人，中式婚服，红色旗袍礼服，真实皮肤质感，丝缎材质，精致刺绣，柔和电影感光影，浅景深，背景虚化，端庄性感，女性曲线美，胸部与臀部线条自然突出，高级克制，超高细节，8K，photorealistic，cinematic portrait，无文字，无水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHng82Ma4AAJ0lt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHkO7jgakAA_6YD?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2051918462025695625",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "8k",
+        "东方",
+        "人像"
+      ],
+      "timestamp": 1785504285618,
+      "title": "gpt image 2生成中式婚服人像。",
+      "url": "https://x.com/liyue_ai/status/2051918462025695625",
+      "collectedAt": "2026-07-31T13:24:49.721Z",
+      "githubSyncedAt": "2026-07-31T13:24:49.721Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
