@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:10:41.070Z",
+  "updatedAt": "2026-07-31T13:12:58.906Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8yq8pl_3lfj",
+      "image": "https://pbs.twimg.com/media/HIGDKiraEAARFTx?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIGDKiraEAARFTx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIGDMCtawAAgC4W?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIGDOX-agAA7vD-?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "回眸.\n---\nPrompt:\n\nLuxury extreme close-up portrait, magazine cover style, title \"VISION\",\n\nfeaturing an elegant Asian woman turning back over her shoulder,\ncapturing the cinematic moment of “回眸之间，倾国倾城”,\na calm yet devastatingly captivating gaze directed toward camera,  x.com/aidavid125/sta…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIGDKiraEAARFTx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIGDMCtawAAgC4W?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIGDOX-agAA7vD-?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/aidavid125/status/2054067487105569253",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785503576217,
+      "title": "未命名提示词",
+      "url": "https://x.com/aidavid125/status/2054067487105569253",
+      "collectedAt": "2026-07-31T13:12:58.906Z",
+      "githubSyncedAt": "2026-07-31T13:12:58.906Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8yq8pk_dt9c",
+      "image": "https://pbs.twimg.com/media/HIFgr-ZaQAAlwIj?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIFgr-ZaQAAlwIj?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Today's ootd by gpt image 2 \n\n---prompt---\nUse case: photorealistic-natural\nAsset type: editorial portrait variant\nPrimary request: Create a photorealistic adult Korean female idol portrait in the shared Japanese negative film style.\nScene/backdrop: empty neighborhood baseball",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIFgr-ZaQAAlwIj?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2054029294381502779",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785503576216,
+      "title": "Today's ootd by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2054029294381502779",
+      "collectedAt": "2026-07-31T13:12:58.906Z",
+      "githubSyncedAt": "2026-07-31T13:12:58.906Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
