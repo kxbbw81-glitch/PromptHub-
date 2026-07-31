@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:24:49.721Z",
+  "updatedAt": "2026-07-31T13:25:09.842Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8z5wx9_qkbw",
+      "image": "https://pbs.twimg.com/media/HHkO7jgakAA_6YD?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHkO7jgakAA_6YD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHfJEIVaQAACxjH?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "gpt image 2生成东方古典人像：一扇风月\n提示词：\n一位成年东方古典美人，9:16 竖版构图，侧身偏背面的人像构图，人物站在画面中央偏左位置，为绝对视觉中心。她微微侧身回眸低首，神情安静温柔，带有含蓄、柔美、优雅的东方气质。她拥有精致立体的五官，白皙细腻的肌肤，鼻梁秀挺，红唇柔润，睫毛纤长，整体气质清冷、温婉、典雅。\n\n她的黑发高高盘起，发髻精致优雅，发丝柔顺，佩戴白色花朵与金色枝叶点缀的中式发饰，辅以细腻流苏与小巧耳饰，整体华丽但克制。她身穿一袭修身的白色新中式长裙 / 旗袍风长裙，面料柔滑细腻，带有轻薄蕾丝与刺绣纹理。服装采用高领、露背设计，背部线条优雅流畅，腰身收束明显，裙身自然贴合身体曲线，重点展现女性柔和优雅的腰臀比例与饱满流畅的臀部线条，整体强调成熟女性婉约、迷人、端庄的体态美。臀部曲线清晰但表达要高级克制，突出东方审美中的柔美、含蓄与韵味。\n\n她双臂自然垂落并带有长而轻柔的白色披帛 / 水袖，布料垂坠轻盈，营造飘逸感。左手轻轻扶着桌边，右手轻握一把具有东方意境的小巧蒲扇，蒲扇造型雅致，带有竹柄或木柄，可融入浅青绿色、米白色、淡金色装饰细节，体现中式文雅气息。\n\n场景设定在朦胧梦幻的东方庭院或林间空间，背景有柔和雾气、树影、暖金色晨光或夕光，氛围静谧空灵。人物身旁放置一张深色木质中式长桌，桌面带有传统云纹装饰。地面可有淡淡发光的圆形纹样或柔和光晕，增强梦幻感，但不要过强的玄幻符号感。整体画面光线柔和细腻，背景虚化，突出人物轮廓、服装质感与身体线条。\n\n整体风格要求：\n唯美东方美学，古典新中式，柔和电影感光影，清雅、通透、克制、高级，强调女性身体曲线之美，尤其是背部、腰线、臀部与整体体态的优雅表达；画面梦幻、精致、细腻，富有轻奢感与东方韵味，高质量人像插画 / 高级写实风，无文字，无水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHkO7jgakAA_6YD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHfJEIVaQAACxjH?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2051687554442031350",
+      "tags": [
+        "东方",
+        "青绿",
+        "人像",
+        "插画",
+        "电影感"
+      ],
+      "timestamp": 1785504307437,
+      "title": "gpt image 2生成东方古典人像：一扇风月",
+      "url": "https://x.com/liyue_ai/status/2051687554442031350",
+      "collectedAt": "2026-07-31T13:25:09.842Z",
+      "githubSyncedAt": "2026-07-31T13:25:09.842Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
