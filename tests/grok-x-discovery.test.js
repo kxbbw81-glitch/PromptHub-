@@ -181,7 +181,7 @@ test('accepts an image candidate once and rejects source and prompt duplicates',
   const first = discovery.acceptCandidates([candidate], [], '2026-07-29T10:00:00.000Z');
   assert.equal(first.accepted.length, 1);
   assert.doesNotMatch(first.accepted[0].prompt, /^GPT Image 2/);
-  assert.equal(first.accepted[0].title, '时尚人像');
+  assert.equal(first.accepted[0].title, '电影感女性人像');
   assert.ok([...first.accepted[0].title].length <= 20);
   assert.equal(first.accepted[0].id, 'grok_x_123');
 

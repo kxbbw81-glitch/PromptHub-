@@ -59,12 +59,12 @@ test('generates a compact title when the first line is the prompt body', () => {
   const raw = 'A cinematic portrait of an astronaut sitting in a quiet greenhouse, soft morning light, 50mm lens, photorealistic, ultra detailed, gentle color grading, no text, no watermark.';
   const parsed = parser.parsePromptText(raw);
 
-  assert.equal(parsed.title, '写真人像');
+  assert.equal(parsed.title, '温室晨光电影感宇航员肖像');
   assert.ok([...parsed.title].length <= 20);
   assert.equal(parsed.prompt, raw);
 });
 
-test('replaces social platform titles with a ten-character prompt summary', () => {
+test('replaces social platform titles with a content-specific prompt summary', () => {
   const raw = `
 GPT Image 2 on ChatGPT
 
@@ -73,8 +73,29 @@ A beautiful Japanese woman with blunt bangs leans slightly toward the camera ind
 `;
   const parsed = parser.parsePromptText(raw, { titleCandidates: ['GPT Image 2 on ChatGPT'] });
 
-  assert.equal(parsed.title, '东方人像');
+  assert.equal(parsed.title, '暖白摄影棚编辑写真女性人像');
   assert.ok([...parsed.title].length <= 20);
+});
+
+test('extracts concrete scene and subject keywords for Chinese portrait prompts', () => {
+  const prompt = '一位20多岁的年轻成年东亚女性站在纯黑色摄影棚背景前，画面从头顶拍至胯部上方，人物位于中央略偏右，身体微微侧向画面左侧，带高级美容广告与电影肖像感。她拥有精致鹅蛋脸、杏仁形深棕眼睛、自然细眉、低饱和裸粉色嘴唇。妆容极淡，真实皮肤纹理，深黑色超长直发自然披散，乳白色丝质上衣，85mm 人像镜头，柔和轮廓光，不要文字和水印。';
+
+  assert.equal(parser.normalizeAutoTitle('东方人像', prompt), '黑色摄影棚美容广告');
+  assert.ok([...parser.normalizeAutoTitle('', prompt)].length <= 20);
+});
+
+test('extracts e-commerce and video-specific titles instead of broad categories', () => {
+  const livery = 'Transform the uploaded logo into the defining visual identity of a high-performance Formula 1-style race car. Preserve the logo shape and brand colors while integrating it into the complete livery, aerodynamic surfaces, body graphics, halo details, wheel covers, sidepods, front wing, rear wing, cockpit area, and motorsport sponsor layout. Ultra-realistic studio render, no text outside the provided logo, no watermark.';
+  const skincare = 'Create an 8-second ultra-realistic luxury skincare commercial video. A cosmetic cream jar sits on a glossy marble pedestal, soft studio light sweeps across translucent gel texture, water droplets, pearl reflections, slow camera push-in, premium beauty campaign mood, clean beige background, shallow depth of field, no text, no watermark.';
+
+  assert.equal(parser.normalizeAutoTitle('品牌视觉', livery), '赛车品牌涂装');
+  assert.equal(parser.normalizeAutoTitle('产品广告', skincare), '护肤品商业短片');
+});
+
+test('does not mistake ordinary fashion outfit prompts for try-on posters', () => {
+  const prompt = 'A beautiful young East Asian woman with fair skin and reddish-brown hair tied in a loose half-up ponytail, looking back over her shoulder at the camera. She is crouching low on a light wooden floor in a modern office, body twisted to the side, one arm resting on a light desk. She wears a fitted white blouse and tailored black skirt outfit, glossy red lips, cinematic office lighting, realistic skin texture, shallow depth of field, no text, no watermark.';
+
+  assert.equal(parser.normalizeAutoTitle('品牌视觉', prompt), '现代办公室电影感女性人像');
 });
 
 test('separates an unlabeled heading from the prompt body', () => {
