@@ -1,7 +1,103 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:50:14.136Z",
+  "updatedAt": "2026-07-31T11:50:35.638Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vsafl_ct8v",
+      "image": "https://pbs.twimg.com/media/HOcwb-xb0AAkikE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcwb-xb0AAkikE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-5bAAEgjGA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-2boAAT1zN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb_XaMAABUdQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A realistic full-body portrait of a beautiful young Indonesian high school girl, approximately 16-17 years old, standing confidently in a classroom. She has long straight black hair falling past her shoulders with soft bangs framing her face, fair skin, gentle",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcwb-xb0AAkikE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-5bAAEgjGA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-2boAAT1zN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb_XaMAABUdQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082949358035796310",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785498632913,
+      "title": "写真人像",
+      "url": "https://x.com/woleswoosh/status/2082949358035796310",
+      "collectedAt": "2026-07-31T11:50:35.638Z",
+      "githubSyncedAt": "2026-07-31T11:50:35.638Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "动物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vsafj_4ft1",
+      "image": "https://pbs.twimg.com/media/HOfbWCxboAAUGRP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOfbWCxboAAUGRP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbW2wasAAbOZg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbXeibQAAkEnj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbYNWbAAAikdt?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "There's something timeless about aviation-inspired fashion.\nCrisp tailoring, monochrome palettes, polished details, and structured silhouettes create a look that's both sophisticated and effortlessly confident.\nThis editorial reimagines those classic elements through a contemporary fashion lens, blending luxury, precision, and cinematic atmosphere into every frame.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOfbWCxboAAUGRP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbW2wasAAbOZg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbXeibQAAkEnj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbYNWbAAAikdt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/bennsonphilip/status/2082874571351576595",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785498632911,
+      "title": "时尚人像",
+      "url": "https://x.com/bennsonphilip/status/2082874571351576595",
+      "collectedAt": "2026-07-31T11:50:35.638Z",
+      "githubSyncedAt": "2026-07-31T11:50:35.638Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vsafi_hvts",
+      "image": "https://pbs.twimg.com/media/HOW8vBSawAAghM5?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOW8vBSawAAghM5?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图·镜头：\n纵向构图3:4，从靠近地板的低角度位置略微仰视拍摄室内生活方式肖像。脸部置于左上三分之一处，胸口在中央，白色短裤在右中央，前侧明亮的大腿和叠放的膝盖占据下半部分的较大面积。人物占据画面约四分之三，右臂部分、双脚尖、前景的摄影集在画面边缘自然截断。瞳孔和脸部作为最清晰的焦点，保留头发、服装、前侧腿部和摊开摄影集的细节。后方的观叶植物、书架、窗户以浅景深平滑虚化。采用标准焦段的镜头感，为前侧腿部赋予自然的透视感，避免极端广角畸变。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW8vBSawAAghM5?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2083075184840655010",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785498632910,
+      "title": "AIart #AI写真 #おうち時間",
+      "url": "https://x.com/CyberTotal2026/status/2083075184840655010",
+      "collectedAt": "2026-07-31T11:50:35.638Z",
+      "githubSyncedAt": "2026-07-31T11:50:35.638Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
