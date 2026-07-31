@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:52:57.465Z",
+  "updatedAt": "2026-07-31T11:53:53.067Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vwjyv_wphx",
+      "image": "https://pbs.twimg.com/media/HIvg2Q-a0AASQuR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIvg2Q-a0AASQuR?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Primary request: Create a photorealistic image of a fictional adult Korean female idol in her mid-20s, not resembling any real celebrity, with a poised but private fashion portrait mood.\n\nScene/backdrop: a small coastal weather station platform, concrete steps, pale instrument boxes, a simple wind vane, thin sea fog, soft clouds, no readable labels.\n\nSubject/clothing/pose: she wears a silver-grey windbreaker over a cream knit top, a pleated charcoal midi skirt over opaque tights, and minimal white sneakers. She sits on the concrete step with one knee raised and one foot lower, holding the string of a small matte white weather balloon just out of frame while her other hand steadies against the step. Hair moves gently in the wind; expression distant, lips relaxed.\n\nStyle/medium: Japanese negative film aesthetic, soft natural coastal light, slight overexposed fog highlights, low contrast, muted faded colors, subtle grain, imperfect composition, memory-like realism.\n\nConstraints: adult subject, tasteful non-explicit fashion portrait, no nudity, no minors, no logos, no readable text, no watermark.\n\nAvoid: rooftop, cold bottle, plastic bag, white oversized shirt, shorts, dramatic sci-fi lab look, real celebrity likeness.\n\n--ar 9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIvg2Q-a0AASQuR?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2056985084801220760",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785498831895,
+      "title": "韩系人像",
+      "url": "https://x.com/BubbleBrain/status/2056985084801220760",
+      "collectedAt": "2026-07-31T11:53:53.067Z",
+      "githubSyncedAt": "2026-07-31T11:53:53.067Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vwjyu_xhbt",
+      "image": "https://pbs.twimg.com/media/HIx5MrrbYAEHgSU?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIx5MrrbYAEHgSU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5MtcakAA5lZn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5NBpbkAA9SEH?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Ultra realistic full body fashion portrait of Ana de Armas standing elegantly inside a luxurious Parisian apartment with white classic wall panels, marble fireplace, golden wall candle holder, soft natural daylight from tall windows, wearing a tight black mini dress with thin straps, sheer black stockings, black high heels, long black opera gloves, gold bracelets, pearl necklace, wavy brunette hair, confident cinematic pose, high fashion editorial photography, luxury aesthetic, soft shadows, detailed skin texture, photorealistic, shallow depth of field, 85mm lens, Vogue magazine style, clean composition, elegant and sophisticated atmosphere\",\n\n\"negative_prompt\": \"low quality, blurry, distorted anatomy, extra fingers, bad hands, cropped feet, duplicate body parts, cartoon, anime, overexposed, oversaturated, messy background, watermark, text, logo\",\n\n\"settings\": {\n\n\"aspect_ratio\": \"2:3\",\n\n\"resolution\": \"1024x1536\",\n\n\"steps\": 35,\n\n\"cfg_scale\": 7.5,\n\n\"sampler\": \"DPM++ 2M Karras\",\n\n\"style\": \"cinematic fashion editorial\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIx5MrrbYAEHgSU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5MtcakAA5lZn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5NBpbkAA9SEH?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Strength04_X/status/2057152444615073822",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime"
+      ],
+      "timestamp": 1785498831894,
+      "title": "品牌视觉",
+      "url": "https://x.com/Strength04_X/status/2057152444615073822",
+      "collectedAt": "2026-07-31T11:53:53.067Z",
+      "githubSyncedAt": "2026-07-31T11:53:53.067Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "动物",
