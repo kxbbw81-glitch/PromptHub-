@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T08:56:23.330Z",
+  "updatedAt": "2026-07-31T08:56:45.833Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pkrcz_dj0v",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082863529607217152/img/UVM3SC59XY7WSUiK.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082863529607217152/img/UVM3SC59XY7WSUiK.jpg"
+      ],
+      "model": "",
+      "prompt": "Made with Seedance 2.0\n\nPrompt:\n\nCreate a 12-second Studio Ghibli-inspired animated video in a soft, hand-drawn style with warm natural lighting, lush greenery, and a peaceful rainy atmosphere. A person wearing a white ruffled sleeve opens a traditional wooden sliding glass door to reveal a rain-soaked garden, reaches out beneath a blooming lemon branch to catch a ripe lemon in their palm, then waters indoor potted plants with a white watering can as sunlight streams through the window, and finally pours steaming hot lemon tea from a ceramic teapot into a cup by the rainy window, creating a cozy, tranquil mood with gentle rain ambience and soft piano music.",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082863529607217152/img/UVM3SC59XY7WSUiK.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/luciaverseai/status/2082863678064648326",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488203907,
+      "title": "Made with Seedance 2.0",
+      "url": "https://x.com/luciaverseai/status/2082863678064648326",
+      "collectedAt": "2026-07-31T08:56:45.833Z",
+      "githubSyncedAt": "2026-07-31T08:56:45.833Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pkrcz_tn0u",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082700330509463553/img/U7AuLu94SsyptiD9.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082700330509463553/img/U7AuLu94SsyptiD9.jpg"
+      ],
+      "model": "",
+      "prompt": "Confidence starts with the perfect pair of sunglasses. \nSimple style, timeless elegance, and effortless charm in every step.\n\nCreated on seedance 2.0\n\nPrompt:\n15-second ultra-realistic cinematic fashion commercial. A stylish young woman wearing a white tailored blazer, white fitted square-neck top, high-waisted white trousers, oversized black square sunglasses, a thin gold necklace, and small gold hoop earrings walks confidently outside a modern luxury café with floor-to-ceiling glass windows, cream patio umbrellas, wooden tables, and beige stone flooring. Warm golden-hour sunlight creates soft natural shadows. She gently adjusts her sunglasses, smiles subtly, and walks toward the camera with graceful, confident movements. Smooth gimbal tracking, shallow depth of field, cinematic bokeh, 85mm portrait lens, HDR, premium color grading, realistic skin texture, luxury editorial fashion style, ultra-realistic, 4K, 60fps. No text, no logo, no watermark, no outfit changes, no background changes, no extra people, no blur, no distortion.",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082700330509463553/img/U7AuLu94SsyptiD9.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Lianaalane/status/2082700378437521838",
+      "tags": [
+        "cinematic",
+        "bokeh"
+      ],
+      "timestamp": 1785488203907,
+      "title": "Confidence starts with the perfect pair of sunglasses.",
+      "url": "https://x.com/Lianaalane/status/2082700378437521838",
+      "collectedAt": "2026-07-31T08:56:45.833Z",
+      "githubSyncedAt": "2026-07-31T08:56:45.833Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pkrcz_kb9f",
+      "image": "https://pbs.twimg.com/media/HOhMw4XawAAk_vz?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhMw4XawAAk_vz?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "ChatGpt Image\n#prompt\n Photorealistic mirror selfie of a fictional adult East Asian woman in her early twenties inside a modern, well-lit hotel suite. She is casually posing on top of a white rectangular table, sitting sideways with one leg folded beneath her and the other resting on a nearby upholstered dining chair, creating a playful yet relaxed pose. She twists her upper body over her shoulder toward a large wall mirror while holding a smartphone in one hand to capture the selfie.\n\nShe has long, naturally straight dark brown to black hair flowing freely down her back with a subtle side part, fair smooth skin, and wears thin gold-rimmed round eyeglasses. Her expression is warm and genuine with a soft smile as she looks at her phone screen instead of directly into the mirror.\n\nShe wears a fitted light pastel-blue spaghetti-strap camisole with delicate ruching around the bodice, paired with high-waisted black cargo-style mini shorts featuring oversized flap pockets. The outfit appears casual and modern with realistic fabric folds and natural wrinkles.\n\nThe hotel room has a contemporary minimalist interior featuring neutral beige walls, gray carpeting, a light-gray sofa, a white coffee table, a dark work desk with a modern black office chair, a desk lamp casting warm ambient light, framed cityscape artwork on the wall, and a tissue box placed on the table. The large rounded-edge mirror occupies the foreground, naturally framing the entire composition.\n\nThe lighting combines soft warm indoor lamps with subtle ambient room lighting, producing realistic skin tones, gentle highlights, and soft shadows. The image has the authentic look of a spontaneous smartphone mirror selfie rather than a professional photoshoot.\n\nVertical 9:16 composition, handheld smartphone camera, slightly tilted framing, realistic perspective distortion from the mirror, ultra-detailed skin texture, natural body proportions, realistic hair strands, high dynamic range, shallow computational smartphone depth of field, true-to-life colors, photorealistic, candid lifestyle photography, 8K quality.\n\n Copy, save, and try this prompt.\n\n Like &  Bookmark if it helped.\n\nI share new photorealistic ChatGPT image prompts every day.\n\n#ChatGPT #GPTImages #AIImages #PromptEngineering #Photorealistic #ImageGeneration #Selfie #AIPhotography #indonesia #chindo #bugil #bokep #jakarta #timnas #PromptCreator #PromptDesign #PromptSharing #ImageGeneration #Photorealism #VirtualModel #AIModel #CreativeAI #DailyPrompts #DigitalArt",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhMw4XawAAk_vz?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/PromptMuseey/status/2082999237802098705",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785488203907,
+      "title": "ChatGpt Image",
+      "url": "https://x.com/PromptMuseey/status/2082999237802098705",
+      "collectedAt": "2026-07-31T08:56:45.833Z",
+      "githubSyncedAt": "2026-07-31T08:56:45.833Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
