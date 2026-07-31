@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T10:13:38.040Z",
+  "updatedAt": "2026-07-31T11:50:03.542Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw1_bhjw",
+      "image": "https://pbs.twimg.com/media/HObymLlWsAA4iu6?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObymLlWsAA4iu6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLZWcAA1J9H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLVWgAEc3MW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLWW8AABPOA?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位20多岁的年轻成年东亚女性站在海边度假村的露天石质淋浴区，画面从头顶拍至大腿上部。人物位于中央略偏右，身体以侧面朝向画面右侧，腰背自然挺直，双臂抬高至头顶上方，双手在水流下轻轻合拢，手指自然清晰。肩膀放松，腰部形成柔和曲线。她转头越过左肩看向镜头，露出自然明亮的微笑，眼神轻松、亲切、带有度假时的愉悦感。\n\n她拥有精致柔和的鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁和水润浅粉色嘴唇。妆容清新自然，带柔和粉色腮红、细眼线和自然睫毛。肤色白皙偏暖，脸部、肩背、手臂和腰侧布满真实细小水珠，保留毛孔、绒毛、自然肤色变化和湿润高光，不要塑料磨皮。\n\n深棕色长发完全湿润，松散向后披落至肩胛下方，额前有轻薄湿刘海，脸侧和颈部有几缕湿发贴附，发尾自然成束。她穿浅粉色与奶油白云纹或大理石纹三角比基尼，上衣为细挂脖肩带、背后系带结构；下身为同花色低腰侧系带泳裤，右侧蝴蝶结清晰自然。面料哑光、完全不透明，无品牌标识。\n\n画面右上方可见密集淋浴水线从喷头落下，水滴在逆光中清晰悬停；左侧为浅米色粗糙天然石柱。背景是热带海滩度假村，虚化的碧蓝海水、浅色沙滩、棕榈树和木质躺椅。明亮午后阳光从画面右前方照射，形成清透侧光与轻微逆光，勾亮湿发、水滴、肩膀和手臂边缘。整体清新、低饱和、柔和暖调。\n\n摄影风格：85mm镜头，f/2.8，平视略低机位，中浅景深，面部、水珠、双手和泳装纹理清晰，背景奶油化虚化，1/1000秒凝固水滴，ISO200，真实皮肤次表面散射，细腻胶片颗粒，luxury tropical resort swimwear editorial，photorealistic。\n\n避免：未成年人特征、裸体、露点、透明泳装、夸张身材、色情姿势、错误手指、融合手臂、畸形肩颈、静止假水滴、干燥头发、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱游客、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObymLlWsAA4iu6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLZWcAA1J9H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLVWgAEc3MW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLWW8AABPOA?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082979556651098223",
+      "tags": [
+        "photorealistic",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785498598513,
+      "title": "品牌视觉",
+      "url": "https://x.com/ToroJushiAi/status/2082979556651098223",
+      "collectedAt": "2026-07-31T11:50:03.542Z",
+      "githubSyncedAt": "2026-07-31T11:50:03.542Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
