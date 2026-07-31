@@ -1,7 +1,128 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:54:40.801Z",
+  "updatedAt": "2026-07-31T12:05:30.725Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "赛博朋克",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wat0l_ofsu",
+      "image": "https://pbs.twimg.com/media/HIkHdIBXQAAEyVC?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIkHdIBXQAAEyVC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Today's ootd by gpt image 2 \n\n---prompt---\nUse case: photorealistic-natural\nAsset type: editorial portrait image, target final size 1536x1536 square\n\nPrimary request: A fictional adult Korean female idol in her mid-20s, no resemblance to any real person, inside a neon and acrylic sign workshop.\n\nScene/backdrop: Unlit colored acrylic shapes, bent neon tubes on a bench, masking tape, dusty shelves, no readable words or brand signs.\nSubject: Adult Korean female idol, playful but distant, natural skin texture, loose hair tucked behind one ear.\nWardrobe/props: Lemon-yellow cropped cardigan over a graphite sleeveless dress with opaque tights, flat black shoes, clear acrylic shape held at chest level.\nPose/composition: Square imperfect frame; half-kneeling beside the workbench, one elbow resting on her knee, acrylic shape catching pale light, looking away.\nLighting/mood: Japanese negative film aesthetic, soft workshop daylight mixed with faint pastel reflections, slight overexposed acrylic edges, low contrast, muted faded colors, subtle grain.\nConstraints: Adult subject; no real celebrity likeness; no legible text; no logos; no watermark; avoid commercial signage readability.\nAvoid: Rooftop, white shirt/shorts, cold bottle, plastic bag, nightclub neon glam, cyberpunk saturation.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIkHdIBXQAAEyVC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2056183058886496503",
+      "tags": [
+        "photorealistic",
+        "cyberpunk"
+      ],
+      "timestamp": 1785499496805,
+      "title": "Today's ootd by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2056183058886496503",
+      "collectedAt": "2026-07-31T12:05:30.725Z",
+      "githubSyncedAt": "2026-07-31T12:05:30.725Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wat0l_8rot",
+      "image": "https://pbs.twimg.com/media/HImJGcubIAA-glv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HImJGcubIAA-glv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Portrait. by gpt image 2 \n\n---prompt---\n\nPhotorealistic ultra-wide-angle selfie-style portrait with dynamic motion blur, direct flash film photography style, film grain, high contrast flash lighting, Douyin hot-girl diary aesthetic, casual daily snapshot vibe, not overly staged, not studio-lit, spontaneous and slightly imperfect framing. Medium-close composition from a slightly low upward angle, dynamic handheld selfie perspective, strong sense of movement and interaction with the camera.\nA beautiful young adult East Asian woman with waist-length deep brown wavy hair, doll-like cute facial features, cool fair skin, delicate oval face with a slightly pointed chin, translucent natural base makeup, glamorous lifted eyeliner, soft smoky eyes, glossy red lips, and a subtly alluring presence. She has a slim figure, small bust, pale luminous skin, and an effortlessly seductive yet shy attitude.\nHer expression is more sultry and flirtatious: half-lidded eyes, slightly parted lips, a faint teasing smile, relaxed lazy gaze, looking directly into the camera as if she is aware of being watched. Her head tilts slightly to one side, her body leans backward in a soft curve, one shoulder subtly lifted, hair blown across her face by the night wind. Her pose feels random but captivating, with a coy, graceful, slightly dangerous charm — playful, confident, and feminine without looking overly posed.\nShe wears a dark gray cropped sleeveless tank top revealing a slim waist, black short shorts, and a black multi-pocket underarm shoulder bag. Accessories include round hoop earrings and a black large-dial wristwatch. Her outfit feels casual, edgy, slightly chuunibyou, and street-fashion inspired.\nThe background is an artsy urban street at night, under warm streetlights mixed with strong direct camera flash, with a red brick wall, large roadside trees, scattered leaf shadows, and blurred city lights in the distance. Warm brown-gray-black color palette with dramatic flash highlights and deep shadows, shallow depth of field, soft background bokeh, natural skin texture, slightly messy hair, realistic phone-camera texture with visible film grain, everyday snapshot realism, candid nightlife atmosphere, dynamic motion blur, imperfect composition, 8K high-definition detail. \n\nadd small white handwriting signature text \"BubbleBrain\" on bottom right corner",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HImJGcubIAA-glv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2056325527712194708",
+      "tags": [
+        "photorealistic",
+        "dark",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1785499496805,
+      "title": "Portrait. by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2056325527712194708",
+      "collectedAt": "2026-07-31T12:05:30.725Z",
+      "githubSyncedAt": "2026-07-31T12:05:30.725Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wat0k_xxit",
+      "image": "https://pbs.twimg.com/media/HImeMaOaUAAJwZb?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HImeMaOaUAAJwZb?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HImeMilaUAA7dSp?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Prompt :\nan seductive stunning & beautiful 20-year-old Japanese or Korean woman, tall slim elegant hourglass figure with balanced proportions, thin-rimmed glasses, slightly curled relaxed low pose, deep side-parted long hair, soft polished waves, chestnut-brown hair, looking directly at the camera. She wearing green a classic elegant dress outfit, one-piece dress with tailored structure, black sheer pantyhose, delicate translucent legwear, black mary jane shoes, classic strap silhouette. setting: old London café corner. camera: 1:1, eye-level angle, front-facing camera position, shot on 50mm lens, lens flare, tight bust-up portrait. lighting: indoor cool artificial light, soft side light. atmosphere: Contax Zeiss look.\n#GrokImagine",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HImeMaOaUAAJwZb?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HImeMilaUAA7dSp?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2056348755239309685",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785499496804,
+      "title": "Prompt :",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2056348755239309685",
+      "collectedAt": "2026-07-31T12:05:30.725Z",
+      "githubSyncedAt": "2026-07-31T12:05:30.725Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wat0k_pex9",
+      "image": "https://pbs.twimg.com/media/HIkyMvhaMAESBvV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIkyMvhaMAESBvV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "这是一幅超写实电影感自然光人像，竖构图，展现一位年轻成年东亚女性的半身侧面肖像。她站在明亮窗边，头微微低垂，眼神下垂，神情静谧而脆弱。黑色松散盘发自然垂落的发丝被柔和逆光勾亮，肩颈线条与锁骨优雅呈现。轻薄奶油白色一字肩长裙的褶皱自然流动，左肩完全暴露，胸型曲线自然饱满。光线来自右上方窗户，强烈柔和，背景奶白高光略过曝，空气感和柔雾感突出。面部主要在阴影中，仅少量环境反光让轮廓可辨，头发边缘、肩膀、锁骨与衣物褶皱带柔和高光，整体明暗对比明显却柔和自然，低饱和冷白和米色调，浅景深，真实皮肤质感，轻微胶片颗粒，电影摄影风格，氛围安静私密、诗意柔和。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIkyMvhaMAESBvV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/tngqingtng15022/status/2056231575470346424",
+      "tags": [
+        "人像",
+        "摄影",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1785499496804,
+      "title": "这是一幅超写实电影感自然光人像，竖构图，展现一位年轻成年东亚女性的半身侧面肖像",
+      "url": "https://x.com/tngqingtng15022/status/2056231575470346424",
+      "collectedAt": "2026-07-31T12:05:30.725Z",
+      "githubSyncedAt": "2026-07-31T12:05:30.725Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
