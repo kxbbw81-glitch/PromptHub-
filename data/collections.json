@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T08:52:13.567Z",
+  "updatedAt": "2026-07-31T08:56:23.330Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pk6za_at7u",
+      "image": "https://pbs.twimg.com/media/HOhbNhDbEAAow8q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhbNhDbEAAow8q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhbNhDaQAAQXhC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Someone said smile, so I did \n\nGPT image 2\nPrompt:\nUse ONLY the face from the original photo: facial features, proportions, natural asymmetry, hair color and texture, and skin tone. Keep the face out of focus; recognizability should be preserved only through the head silhouette, face shape, and hair color.\n\nCompletely ignore everything else from the original photo.\n\nFocus inversion. The camera is focused on a field of daisies between small green hills. Thousands of daisies, tall grass, a winding path, and soft rays of sunlight are captured in perfect sharpness. The landscape is the main subject of the frame.\n\nIn the foreground, a girl is very close to the camera and heavily blurred. She unexpectedly leans down to pick a single daisy, and at that moment the wind blows her hair across her face. One hand holds the flower stem while the other instinctively moves her hair away. A subtle smile can be perceived through the blur. She is completely absorbed in the moment and unaware that she is being photographed.\n\nShe is wearing a fitted white bodysuit and high-waisted blue denim shorts.\n\nThe composition is spontaneous and candid: the girl occupies less than a quarter of the frame and is partially cropped by the edge of the image. Most of the space is occupied by the field, hills, and sky. The horizon is slightly tilted, as if shot handheld.\n\nBright summer daylight. The distant background is perfectly sharp while the foreground is softly blurred. Smartphone photography, dreamlike memory, subtle digital grain, natural colors, no HDR, no retouching, no text, and no watermarks.\n\n–ar 4:5 –raw",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhbNhDbEAAow8q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhbNhDaQAAQXhC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2083015124554772962",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488177495,
+      "title": "Someone said smile, so I did",
+      "url": "https://x.com/Naiknelofar788/status/2083015124554772962",
+      "collectedAt": "2026-07-31T08:56:23.330Z",
+      "githubSyncedAt": "2026-07-31T08:56:23.330Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
