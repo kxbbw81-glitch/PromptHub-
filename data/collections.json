@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:18:57.424Z",
+  "updatedAt": "2026-07-31T07:26:00.109Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8mc1cr_gy69",
+      "image": "https://pbs.twimg.com/media/HKc_aWmasAAfA7Q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKc_aWmasAAfA7Q?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Created with Gpt image 2.0\n\nPrompt:\n\nA breathtakingly beautiful young woman with a radiant, symmetrical face, featuring sparkling almond-shaped hazel eyes, sun-kissed skin, and long, flowing auburn hair with natural highlights. She has a genuine, joyful expression with a bright smile that emphasizes her high cheekbones and youthful energy. She is playfully swinging on a vintage wooden swing, leaning her torso back while kicking her legs forward directly toward the camera lens. This creates a dramatic wide-angle perspective effect known as foreshortening, where her feet and shoes appear significantly larger in the foreground, creating a sense of depth and movement., A breezy, light-blue summer sundress with a delicate white floral print that billows in the wind. She wears a pair of crisp white canvas sneakers, which are the focal point of the perspective, and a thin silver bracelet that catches the glint of the sun., A lush, sun-drenched public park during the golden hour. The background is a soft-focus dreamscape of green oak trees, a distant slide, and a sandbox, all bathed in warm, amber light. Tiny golden dust motes and a few stray cherry blossom petals float in the air, creating a nostalgic and magical atmosphere., Masterpiece, 8k resolution, highly detailed.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKc_aWmasAAfA7Q?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CaliraVal/status/2064688681315946862",
+      "tags": [
+        "vintage",
+        "golden hour",
+        "8k"
+      ],
+      "timestamp": 1785482758108,
+      "title": "Created with Gpt image 2.0",
+      "url": "https://x.com/CaliraVal/status/2064688681315946862",
+      "collectedAt": "2026-07-31T07:26:00.109Z",
+      "githubSyncedAt": "2026-07-31T07:26:00.109Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
