@@ -1,7 +1,169 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T08:56:45.833Z",
+  "updatedAt": "2026-07-31T08:58:31.020Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn074_efx9",
+      "image": "https://pbs.twimg.com/media/HOio5jEbUAAMZWG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOio5jEbUAAMZWG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOio6BeawAAdBKf?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Trend 737\nStay with me, nothing feels better without you \n\nPrompt 1:\n\"Use the uploaded reference photos as the identity references for both subjects. Preserve both subjects' exact facial identities, facial features, proportions, expressions, skin tones, and natural skin",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOio5jEbUAAMZWG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOio6BeawAAdBKf?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2083100550347038883",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488308672,
+      "title": "Trend 737",
+      "url": "https://x.com/gemini_prompts/status/2083100550347038883",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn073_agki",
+      "image": "https://pbs.twimg.com/media/HOhuZxZXYAAsYI0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhuZxZXYAAsYI0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhucVUXsAAXyUN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "她站在奶油色的光里，\n隔着头纱，笑得像一帧被珍藏很久的电影画面。\n\n提示词Prompt：\n\n9:16 竖幅单人室内婚礼近景写实人像，隔着一层细密柔软的白色婚礼头纱拍摄，一位年轻成年韩国偶像级新娘位于画面中央，胸部以上近景构图，平视机位，约 70 至 105 毫米中长焦镜头观感。头纱完整覆盖头发、额头、眼睛、鼻梁、嘴唇、肩颈、手掌和婚纱上身，纱面半透明，带均匀细网纹理，不是厚重遮挡，而是能清楚透出五官与笑容。头顶固定一圈白色叶片与花朵形蕾丝头饰，沿发际形成柔和弧形冠状边缘。   人物为深色松散低盘发，额前和脸侧保留细软碎发，佩戴小巧珍珠垂坠耳饰。头部轻微转向画面右侧，目光看向镜头右侧附近，不直视镜头，眉眼舒展，露齿自然微笑，笑容明亮、轻松、亲近，带真实喜悦的新娘神态。嘴唇为柔和珊瑚粉色，面颊带轻微暖粉红晕。  一只手自然横放在锁骨下方或胸前，手指轻松并拢，动作克制温柔，形成亲密感和婚礼情绪。婚纱为乳白色露肩或抹胸式蕾丝婚纱，上身贴合，面料带细密蕾丝与柔和珠光细节，但不过分闪亮。头纱与婚纱共同营造柔软、轻盈、细腻的婚礼质感。  光线为暖奶油色柔光，从左前方或正前方均匀照亮面部、肩颈、手背和头纱，整体低反差，背景为暖米色室内虚化环境，不出现复杂家具与强烈线条，只保留柔和暖色包围感。整体色调以乳白、暖米色、浅暖象牙肤色、柔和粉色和深棕发色为主，画面柔和、亲密、温暖、浪漫，具有婚礼私摄影和柔光新娘肖像气质。重点保留隔纱观看、近距离微笑、胸前手势、珍珠耳饰、暖色柔光和高调奶油色婚礼氛围。  负向提示词  粗网渔网头纱，头纱完全遮死五官，头纱贴死皮肤，没有独立纱层，透明塑料纱，头纱摩尔纹过重，直视镜头，夸张大笑，僵硬表情，浓妆，模板网红脸，幼态未成年形象，眼睛过大，塑料皮肤，过度磨皮，脸部过曝，肤色发黄发灰，五官不对称，嘴角歪斜，牙齿数量错误，牙龈异常，耳饰悬浮，头饰粘连头发，蕾丝头饰重复贴图，头发穿过头纱，手掌过大，多余手指，缺失手指，手指粘连，手掌穿胸口，婚纱领口变形，亮面缎子婚纱，廉价舞台婚纱，背景杂乱，家具抢主体，文字，水印，品牌标识，强烈闪光，硬阴影，HDR，8K 过度锐化，高饱和色，现代商业棚拍感过强。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhuZxZXYAAsYI0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhucVUXsAAXyUN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2083055057235218529",
+      "tags": [
+        "8k",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785488308671,
+      "title": "她站在奶油色的光里，",
+      "url": "https://x.com/chenlinspark/status/2083055057235218529",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn073_qsy2",
+      "image": "https://pbs.twimg.com/media/HOb2EawWgAAFylx?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOb2EawWgAAFylx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea0W0AAX6Oe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea2WMAEsA4e?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea7W8AAeOo_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A day at Fashion Week｜In  Fitting Room\n\nPrompt \nA high-fashion documentary photograph of the same young Eastern European model standing in a Milan Fashion Week fitting room, surrounded by three angled mirrors that fracture her reflection into multiple perspectives, a structured couture gown half-fastened on her frame.\n\nStandard oval face, cheekbones catching light from multiple angles. Her eyes hold a focused, sensual intensity, full glam makeup now complete — sharp winged liner and deep burgundy lips. Her skin shows realistic subsurface scattering, specular micro-highlights on her collarbone and shoulders, fine skin texture visible under the studio light, not overly smoothed.\n\nHer hair falls in loose waves down one shoulder, a few strands displaced by movement as she turns. The gown is structured black silk with a sharp asymmetric neckline, fabric draping with visible weight and natural creasing at the waist.\n\nThe lighting is a mix of studio softbox key light and the mirrors' bounced reflections, creating a layered, sculptural illumination across her figure. The palette is rich and desaturated — black silk against warm skin tones. Subtle ISO 400 film grain rests in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOb2EawWgAAFylx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea0W0AAX6Oe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea2WMAEsA4e?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea7W8AAeOo_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083100352572694778",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": 1785488308671,
+      "title": "A day at Fashion Week｜In  Fitting Room",
+      "url": "https://x.com/ToroJushiAi/status/2083100352572694778",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn072_g148",
+      "image": "https://pbs.twimg.com/media/HOeplUrXUAAyvkY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOeplUrXUAAyvkY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeplZiXUAA6J1i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOepmgAW4AAKpMq?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "夜色、直闪、黑色丝缎。\n\n这组想做的是一种克制的冷感，不讨好，也不刻意。\n\n提示词：\n\n9:16, CCD direct flash, 夜室内低照度暗调, 成年年轻女性\n冷欲猫系妆, 半哑光底妆, 窄T区克制高光, 眼下微醺红棕, 玻璃唇, 黑长直微卷/大波浪\n黑色丝质吊带/豹纹修身吊带/金属链条吊带, 上半身视觉重心, 突出肩颈线条, 清晰腰线\n金属细项链/银色choker/金属腰带/皮质手环（道具根据实际构图需求选取，不要将所有的道具全都塞进一个画面中）\n低机位平视/近距离俯拍, 上半身裁切到腰线以上, 人物占比70%, 背景压暗, 皮质沙发/深色墙面\n身体前倾靠向镜头/手扶墙面抬眼直视/轻拉吊带边缘, 眼神冷感带轻微挑衅, 表情放松不讨好\n机顶直闪正面打亮, 落在锁骨、胸口衣料高光、肩线、唇部, 硬阴影切割线条, 背景快速压暗, 皮肤局部轻微过曝, 保留真实纹理\n不要塑料皮肤、过度磨皮、幼态化、低俗暴露、多余肢体、背景抢主体",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeplUrXUAAyvkY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeplZiXUAA6J1i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOepmgAW4AAKpMq?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082819893066412203",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488308670,
+      "title": "夜色、直闪、黑色丝缎。",
+      "url": "https://x.com/chenlinspark/status/2082819893066412203",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn072_4k9w",
+      "image": "https://pbs.twimg.com/media/HOilMeCbQAA2ZYd?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOilMeCbQAA2ZYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOikm_JbQAAJUbN?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "东方古风贵女刺绣工坊美妆艺术肖像\n\nGPT Image 2提示词：\n9:16竖版，东方古风贵女刺绣工坊美妆艺术肖像，高精度真实人物摄影，采用巨型圆形绣架作为前景取景框。一位明确成年的年轻东方女性，视觉年龄约25–28岁，站在大型刺绣架后方，人物面部与上半身透过尚在绣制的花鸟图案显现。彩色丝线从画面四周向中央延伸，绣针停留在她指尖附近，形成创作进行中的瞬间。她一只手握着细长金针，另一只手轻抚垂落丝线，身体微微前倾，目光穿过绣架直视镜头，神情专注柔美，兼具贵女的矜持与女性创作者的沉静力量。\n\n人物拥有成熟自然的东方古典骨相，柔和鹅蛋脸，面中饱满，下颌轮廓纤细流畅，清亮杏眼带有安静眼神光，眼尾轻扬，鼻梁秀气，唇形圆润丰盈。底妆呈细腻瓷白质感，肌肤保留真实纹理与均匀柔光。眼窝以桃粉色铺陈，外眼角叠加烟紫玫瑰与深茶棕，眼中点入少量金色珠光，睫毛纤长卷翘。眼下与颧骨晕染清透玫瑰腮红，鼻梁和鼻尖高光细致明亮。唇妆采用桃红玫瑰玻璃唇釉，柔亮唇面与彩色丝线形成精致色彩呼应。\n\n黑色长发盘成圆润华丽的古典发髻，使用金色绣针形发钗、白玉花簪、珍珠细链和彩色丝线结装饰。发饰沿髻形形成优雅放射结构，耳侧佩戴珍珠与红玉组合的长耳坠。浅金线从发髻后方自然垂落，与前景绣线形成空间连接。\n\n人物胸部饱满圆润，胸腰比例自然柔和，整体呈现珠圆玉润的成熟曲线。服装采用珍珠白、柔藕紫与浅金色，交叠领口沿锁骨形成柔和弧线，贴合绢罗顺应丰满胸部与纤细腰线。胸前褶裥从领口向高腰位置汇聚，丝线刺绣沿圆润胸线展开，斜侧光掠过绢罗起伏，使丰润曲线成为画面优雅的视觉焦点。肩头覆着一层薄透藕紫轻纱，花纹与肌肤光影相互叠映，呈现柔美若隐若现的层次。浅金高腰腰封勾勒清晰腰线，宽袖与长裙保持华丽垂坠感。\n\n工坊内排列着木质线轴架、彩色丝线、白瓷线盘、金属绣针与数幅半成品刺绣。巨型圆绣架占据画面前景，绣制中的牡丹、蝴蝶与流云在人物周围形成疏密有序的天然框景。顶部天窗投下柔和暖白光，彩色丝线向人物脸部反射淡淡桃红、金黄与青绿色光泽。侧方窄光照亮锁骨、胸线、腰部和手指，绣架后方的深色工坊强化人物肤色与服装亮度。人物面部拥有最高细节密度，前景丝线呈现局部清晰与局部虚化，整体融合传统刺绣工艺、东方贵女气质和当代美妆摄影秩序。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOilMeCbQAA2ZYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOikm_JbQAAJUbN?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083096555947704665",
+      "tags": [
+        "东方",
+        "古风",
+        "青绿",
+        "瓷白",
+        "摄影"
+      ],
+      "timestamp": 1785488308670,
+      "title": "东方古风贵女刺绣工坊美妆艺术肖像",
+      "url": "https://x.com/Mrpinecone888/status/2083096555947704665",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
