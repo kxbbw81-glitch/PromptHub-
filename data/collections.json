@@ -1,7 +1,123 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T14:04:53.187Z",
+  "updatedAt": "2026-07-31T14:11:16.605Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90t7mw_v27l",
+      "image": "https://pbs.twimg.com/media/HGFwAOYbgAAKpPa?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGFwAOYbgAAKpPa?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Power starts from the floor.\nThe heels speak before she does.\n\n見上げる角度で完成する。\n这张的压迫感，是从低机位和鞋尖一起建立起来的。\n\n low-angle full body / chrome chair / oversized blazer with loose tie / sheer tights and patent stilettos\n 你先看到的是鞋尖的攻击性，还是整个人坐姿的压场感？\n\n Prompt ↓",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGFwAOYbgAAKpPa?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2045038867171164578",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785507074024,
+      "title": "Power starts from the floor.",
+      "url": "https://x.com/sidona/status/2045038867171164578",
+      "collectedAt": "2026-07-31T14:11:16.605Z",
+      "githubSyncedAt": "2026-07-31T14:11:16.605Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90t7mw_dtuo",
+      "image": "https://pbs.twimg.com/media/HGF8vR4bwAADpRi?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGF8vR4bwAADpRi?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Today's Portrait by GPT-Image-2 \n\n---prompt---\n35mm color film photography with harsh direct on-camera flash, specular highlights on skin and clothing, strong catchlights in eyes, high contrast flash illumination, authentic film grain and color shift, high fashion fresh innocent basketball court editorial style, intimate first-person low-angle POV shot from below, early 20s sexy Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless realistic porcelain skin with cool ivory undertone and visible flash specular highlights, fine delicate skin texture with subtle pores micro details and natural dewy glow under flash, fresh natural sporty makeup with soft dewy glow, subtle natural flush on cheeks, natural pink lips slightly parted, subtle natural freckles across nose and cheeks, long dark brown hair tied in a high playful ponytail with some loose strands framing the face and realistic loose strands, wearing a loose white tank top and white high-waisted basketball shorts, white knee-high sports socks, seductive natural leaning pose against the basketball hoop pole on the outdoor court at dusk, body angled sideways with naturally arched back and hips gently pushed back to accentuate perky round hips and sexy butt curve, one leg naturally extended forward toward the camera and the other leg slightly bent to emphasize long sexy legs, both hands lightly resting on the basketball pole at shoulder height, intensely seductive playful yet pitiable doe-eyed gaze straight at the viewer with soft vulnerable longing eyes and a gentle teasing smile full of quiet temptation and desire, harsh direct on-camera flash creating sharp specular highlights and strong catchlights, background with blurred basketball court and hoop under dusk sky, high contrast film color grading with natural flash look, extremely sharp yet soft skin rendering with authentic 35mm direct flash aesthetic, natural hair strands, realistic fabric texture on tank top and shorts with socks detail, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic 35mm direct flash film basketball court look --ar 9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGF8vR4bwAADpRi?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2045052982728016131",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785507074024,
+      "title": "Today's Portrait by GPT-Image-2",
+      "url": "https://x.com/BubbleBrain/status/2045052982728016131",
+      "collectedAt": "2026-07-31T14:11:16.605Z",
+      "githubSyncedAt": "2026-07-31T14:11:16.605Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90t7mv_yu2c",
+      "image": "https://pbs.twimg.com/media/HGGYeo1bYAAXzcy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGGYeo1bYAAXzcy?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Portrait By GPT-Image-2 \n\n---prompt---\n35mm film photography, warm vintage Japanese onsen ryokan aesthetic, soft ambient wooden lantern lighting mixed with gentle natural window light, subtle film grain, gentle color shift, high atmosphere editorial style, intimate medium shot, early 20s beautiful Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless porcelain skin with warm ivory undertone, visible subtle skin texture and micro pores, soft natural makeup with dewy glow, subtle rosy flush on cheeks, natural soft pink lips slightly parted, long dark brown hair tied in a loose low bun with some messy strands falling around face and neck, wearing a loose white yukata (traditional Japanese bathrobe) deliberately slipped off one shoulder and loosely tied at the waist, the fabric slightly open revealing smooth skin and subtle cleavage, barefoot, seductive relaxed sitting pose on the edge of a traditional wooden engawa veranda at a vintage onsen ryokan, body slightly turned toward the camera, one leg bent with foot resting on the wooden floor, the other leg gently dangling, one hand lightly holding the yukata collar, the other hand resting on the wooden floor behind her for support, softly arched back to gently accentuate curves, intensely seductive yet gentle and inviting gaze straight at the viewer with soft doe eyes full of quiet temptation and warmth, warm wooden interior with paper sliding doors and distant steaming hot spring in soft focus, gentle rim lighting highlighting skin and fabric texture, authentic vintage film color grading with warm tones, extremely sharp yet soft skin rendering, natural hair strands, realistic fabric wrinkles and drape on the yukata, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic 35mm film Japanese onsen ryokan atmosphere",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGGYeo1bYAAXzcy?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2045092449803284923",
+      "tags": [
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1785507074023,
+      "title": "Portrait By GPT-Image-2",
+      "url": "https://x.com/BubbleBrain/status/2045092449803284923",
+      "collectedAt": "2026-07-31T14:11:16.605Z",
+      "githubSyncedAt": "2026-07-31T14:11:16.605Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90t7mu_vzla",
+      "image": "https://pbs.twimg.com/media/HGMWXPObQAAPnA0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGMWXPObQAAPnA0?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT-image-2 生成汉服拆解图图鉴式风格，拆的很细！\n\n这个提示词是通用模板，把主题替换成你想生成的内容，就可以扩展到汉服、凤冠、盔甲、器物等各种拆解图。\n\n提示词：\n请根据【主题】自动生成一张“博物馆图鉴式中文拆解信息图”。\n\n要求整张图兼具真实写实主视觉、结构拆解、中文标注、材质说明、纹样寓意、色彩含义和核心特征总结。你需要根据【主题】自动判断最合适的主体对象、服饰体系、器物结构、时代风格、关键部件、材质工艺、颜色方案与版式结构，用户无需再提供其他信息。\n\n整体风格应为：国家博物馆展板、历史服饰图鉴、文博专题信息图，而不是普通海报、古风写真、电商详情页或动漫插画。背景采用米白、绢纸白、浅茶色等纸张质感，整体高级、克制、专业、可收藏。\n\n版式固定为：\n- 顶部：中文主标题 + 副标题 + 导语\n- 左侧：结构拆解区，中文引线标注关键部件，并配局部特写\n- 右上：材质 / 工艺 / 质感区，展示真实纹理小样并附说明\n- 右中：纹样 / 色彩 / 寓意区，展示主色板、纹样样本和文化解释\n- 底部：穿着顺序 / 构成流程图 + 核心特征总结\n\n若主题适合人物展示，则以真实人物全身站姿为中央主体；若更适合器物或单体结构，则改为中心主体拆解图，但整体仍保持完整中文信息图形式。所有文字必须为简体中文，清晰、规整、可读，不要乱码、错字、英文或拼音。重点突出真实结构、材质差异、文化说明与图鉴气质。\n\n避免：海报感、影楼感、电商感、动漫感、cosplay感、乱标注、错结构、糊字、假材质、过度装饰。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGMWXPObQAAPnA0?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2045504669401653414",
+      "tags": [
+        "古风",
+        "写真",
+        "海报",
+        "插画"
+      ],
+      "timestamp": 1785507074022,
+      "title": "GPT-image-2 生成汉服拆解图图鉴式风格，拆的很细！",
+      "url": "https://x.com/MrLarus/status/2045504669401653414",
+      "collectedAt": "2026-07-31T14:11:16.605Z",
+      "githubSyncedAt": "2026-07-31T14:11:16.605Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
