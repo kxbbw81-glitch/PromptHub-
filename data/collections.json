@@ -1,7 +1,105 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:39:57.775Z",
+  "updatedAt": "2026-07-31T07:42:06.808Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8mwq4o_3mya",
+      "image": "https://pbs.twimg.com/media/HKgnxuRbYAAxmdG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKgnxuRbYAAxmdG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgnx41awAAs6tE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgnx7QaQAAHq8i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgnx94boAA_kE8?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Another studio photoshoot using GPT Image 2 on ChatGPT.\n\nPrompt:\nCreate a premium fashion-editorial half-body portrait of a beautiful young East Asian woman (Japanese/Korean appearance, early-to-mid 20s) inside a bright contemporary daylight studio.\nThe model is seated naturally",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKgnxuRbYAAxmdG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgnx41awAAs6tE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgnx7QaQAAHq8i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgnx94boAA_kE8?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/john_my07/status/2064944172348662068",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785483723336,
+      "title": "Another studio photoshoot using GPT Image 2 on ChatGPT.",
+      "url": "https://x.com/john_my07/status/2064944172348662068",
+      "collectedAt": "2026-07-31T07:42:06.808Z",
+      "githubSyncedAt": "2026-07-31T07:42:06.808Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8mwq4n_2m8w",
+      "image": "https://pbs.twimg.com/media/HKcddQaawAAiX5X?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKcddQaawAAiX5X?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKcddSEaQAAJFpN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Trend 624\nThe white beauty \n\nPrompt:\n\"Ultra-realistic indoor portrait photography of a young woman(match face) standing beside a large apartment window with soft natural daylight illuminating the scene. Minimalist modern apartment interior with neutral gray walls and a blurred",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKcddQaawAAiX5X?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKcddSEaQAAJFpN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2064651351049773144",
+      "tags": [
+        "minimalist"
+      ],
+      "timestamp": 1785483723335,
+      "title": "Trend 624",
+      "url": "https://x.com/gemini_prompts/status/2064651351049773144",
+      "collectedAt": "2026-07-31T07:42:06.808Z",
+      "githubSyncedAt": "2026-07-31T07:42:06.808Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8mwq4m_xuhx",
+      "image": "https://pbs.twimg.com/media/HKgIrPfWYAAps1r?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKgIrPfWYAAps1r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgIrPWWEAAXRfL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Nano Banana Pro on Higgsfield \n\nPrompt:\n\nUse the uploaded reference photo only for the exact face identity and natural body proportions. Do not change the real face, eye shape, nose, lips, cheeks, or facial harmony. Maintain realistic proportions and authentic softness.\n\nA warm cinematic portrait of a young Asian woman standing outside a charming European-style flower shop during golden hour. The atmosphere feels romantic, cozy, and dreamy — like a peaceful Sunday morning flower market stroll in Paris.\n\nShe has long, soft dark brown hair with airy butterfly layers and curtain bangs, styled in loose voluminous waves with natural movement. Hair looks healthy, shiny, and softly tousled by the breeze.\n\nExpression:\nGentle relaxed smile, soft warm eyes, approachable feminine energy, natural candid feeling.\n\nOutfit:\nA delicate romantic floral midi dress in soft peach-pink tones with tiny vintage floral prints. The dress has subtle ruching at the bust and soft flowing fabric that flatters a petite curvy body naturally.\nLayered with a cozy dusty-pink cropped knit cardigan with slightly oversized sleeves.\nCarrying a woven crochet shoulder bag in warm brown tones.\nMinimal delicate gold jewelry.\n\nBody Type:\nSoft petite curvy proportions. Natural feminine silhouette. Realistic arms, waist, hips, and shoulders. Avoid exaggerated hourglass proportions or fashion-model body types.\n\nMakeup:\nNatural clean-girl aesthetic with glowing skin, peachy blush, soft pink lips, subtle eyeliner, fluffy brows, and dewy warm highlights. Fresh and effortless beauty.\n\nScene:\nLarge overflowing flower shop with pastel roses, ranunculus, hydrangeas, baby’s breath, and greenery surrounding the subject.\nEuropean street atmosphere with warm sunlight hitting the flowers and soft city blur in the background.\n\nLighting:\nGolden hour sunlight from the side/back creating warm rim light in the hair.\nSoft cinematic lens flare.\nWarm highlights and creamy shadows.\nDreamy romantic atmosphere.\n\nPhotography Style:\nUltra realistic cinematic lifestyle photography\nNatural candid pose\n85mm lens\nf/1.8 aperture\nShallow depth of field\nSoft creamy bokeh\nKodak Portra inspired tones\nWarm pastel color grading\nNatural skin texture\nAuthentic relaxed composition\nLuxury romantic lifestyle aesthetic\n\nMood:\nRomantic, cozy, feminine, approachable, dreamy, flower market morning in Europe, soft luxury, cinematic realism.\n\nNegative prompt:\nAI face, influencer pose, exaggerated curves, doll face, unrealistic proportions, missing limbs, stiff posture, plastic skin, fashion model body, over-sharpening, fake flowers, CGI, cartoonish rendering, heavy makeup, harsh lighting, distorted hands.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKgIrPfWYAAps1r?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKgIrPWWEAAXRfL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ZaraIrahh/status/2064909995360026912",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy",
+        "vintage",
+        "bokeh"
+      ],
+      "timestamp": 1785483723335,
+      "title": "Nano Banana Pro on Higgsfield",
+      "url": "https://x.com/ZaraIrahh/status/2064909995360026912",
+      "collectedAt": "2026-07-31T07:42:06.808Z",
+      "githubSyncedAt": "2026-07-31T07:42:06.808Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
