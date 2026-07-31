@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T12:11:36.452Z",
+  "updatedAt": "2026-07-31T12:12:51.067Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wkvw5_pn9x",
+      "image": "https://pbs.twimg.com/media/HImpUILbIAAcYfH?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HImpUILbIAAcYfH?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HImpUIKb0AAsXOa?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HImqnVubAAAEaja?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HImqnVuaAAAAzjS?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "今天继续拆一个抖音/小红书正在热门项目：AI女装带货。\n\n这类号有个特点：\n粉丝不一定多，很多号也就几千到1-2w，但橱窗照样能出单。\n核心不是“做女装”，\n而是这套玩法本身：\n\n不用自己囤货\n不用开店重投入\n\n适合矩阵化去跑\n可以用 Image 2 批量出图，明显降低人工成本\n女装能做，换成别的品类其实也一样能套\n你去抖音搜 “2026夏季女装”，切到图文，基本就能看到一批类似账号。\n很多人看见的是“美女图”。\n真正该看的是背后的模型：\n低成本内容测试 + 批量起号 + 图文带货变现。\n这条我主要是给大家一个思路。\n至于模版化提示词，我已经整理进教程里了，想直接上手的再去拿。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HImpUILbIAAcYfH?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HImpUIKb0AAsXOa?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HImqnVubAAAEaja?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HImqnVuaAAAAzjS?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2056362318804787413",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785499967093,
+      "title": "今天继续拆一个抖音/小红书正在热门项目：AI女装带货。",
+      "url": "https://x.com/GeekCatX/status/2056362318804787413",
+      "collectedAt": "2026-07-31T12:12:51.066Z",
+      "githubSyncedAt": "2026-07-31T12:12:51.066Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
@@ -31,8 +65,8 @@
       "timestamp": 1785499890579,
       "title": "GPT Image 2 on ChatGPT",
       "url": "https://x.com/john_my07/status/2056036216789966991",
-      "collectedAt": "2026-07-31T12:11:36.452Z",
-      "githubSyncedAt": "2026-07-31T12:11:36.452Z",
+      "collectedAt": "2026-07-31T12:12:51.066Z",
+      "githubSyncedAt": "2026-07-31T12:12:51.066Z",
       "domesticSyncedAt": null
     },
     {
@@ -61,8 +95,8 @@
       "timestamp": 1785499890579,
       "title": "portrait. by gpt image 2",
       "url": "https://x.com/BubbleBrain/status/2056286623382540650",
-      "collectedAt": "2026-07-31T12:11:36.452Z",
-      "githubSyncedAt": "2026-07-31T12:11:36.452Z",
+      "collectedAt": "2026-07-31T12:12:51.066Z",
+      "githubSyncedAt": "2026-07-31T12:12:51.066Z",
       "domesticSyncedAt": null
     },
     {
