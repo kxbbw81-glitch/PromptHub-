@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:56:20.071Z",
+  "updatedAt": "2026-07-31T13:56:30.755Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms909yie_6gri",
+      "image": "https://pbs.twimg.com/media/HHE05rNbcAA3BFZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHE05rNbcAA3BFZ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2.0 on ChatGPT.\n\nPrompt:\nLuxury fashion editorial poster, premium magazine collage style, earthy neutral color palette (beige, olive green, charcoal, soft gold accents).\nA confident elegant young East Asian woman standing in a relaxed pose, wearing a satin olive slip dress with soft draping and a beige oversized blazer. Natural makeup, glowing skin, soft wavy brown hair, minimal gold jewelry (earrings + delicate necklace).\nBackground: abstract artistic collage with layered textures — torn paper, marble circle, brush strokes, botanical leaf prints, subtle grid pattern, ink textures, and geometric shapes. Add a warm hanging bulb light with soft glow and shadow of leaves for depth.\nTypography: large vertical serif text “PREMIUM” on the left in metallic gold texture, high-end editorial font. Small elegant text elements like:\n“confidence. elegance. you.”\n“be you do you for you”\n“class is timeless quality is forever”\nComposition: clean hierarchy, balanced negative space, modern luxury layout, soft shadows, depth layering, slightly grainy editorial texture.\nLighting: soft diffused studio lighting with warm highlights, cinematic tone.\nStyle: Gucci-style premium fashion campaign, ultra-realistic, high resolution, editorial photography + graphic design fusion",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHE05rNbcAA3BFZ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/auqibhabib/status/2049477482471178408",
+      "tags": [
+        "cinematic",
+        "studio lighting"
+      ],
+      "timestamp": 1785506175735,
+      "title": "GPT Image 2.0 on ChatGPT.",
+      "url": "https://x.com/auqibhabib/status/2049477482471178408",
+      "collectedAt": "2026-07-31T13:56:30.755Z",
+      "githubSyncedAt": "2026-07-31T13:56:30.755Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms909yie_hiab",
+      "image": "https://pbs.twimg.com/media/HHFkeQkakAAKZ1E?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HHFkeQkakAAKZ1E?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHFkeScakAQx8ud?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "Nano Banana Pro on Google Gemini \n\nPrompt:\nThis very natural-looking smartphone photo depicts a young woman lying on green grass on a hillside under a bright blue sky during the day. It is a moment of relaxation outdoors, with a peaceful and dreamy atmosphere. The image is unedited, like something taken with a cell phone camera—not cinematic, not too pol-heavy, and not visible using AI.\n\nSubject: A slender Asian beauty with fair skin, a slender figure, and slightly burgundy long straight dark brown hair that is slightly wavy or curly at the bottom naturally in the grass. He lies on his back, facing upwards towards the sunlight, wearing stylish small oval glasses, a white baseball cap, wearing the same clothes as in the second picture. His posture relaxed, with one knee slightly bent, conveying a calm and peaceful attitude.\n\nForeground Detail: One arm is extended towards the camera as if taking a selfie handheld. A small portion of the hand is visible on the bottom edge, a realistic perspective distortion from the corner of the handheld selfie.\n\nEnvironment: Mountain hills or clear grasslands. The green hills stretch into the distance. A bright blue sky covered most of the frame. The sunlight is bright, with sunlight prominently in the upper left corner. Small and soft white clouds spread across the sky. Power poles and cables are visible in the distance on the right. The atmosphere is open and not crowded, without buildings nearby.\n\nComposition: Photo of a vertical smartphone. A very wide angle shot from the ground surface. The subject is at the bottom of the frame, with a large empty space provided by the sky above it. The arm is pulled from the front towards the subject. A composition of a snapshot of nature travel. A relaxed and natural framing.\n\nImage Style: A realistic mobile phone camera style. The appearance of an Android or iPhone camera. The bright natural sunlight. There is no filter. The casual picture is felt. Realistic colored skin with minor imperfections. Normal dynamic range. There is no excessive bokeh. There is no cinematic improvement. There is no over-the-top HDR. There is no artificial lighting. A real outdoor vacation photo.\n\nLighting: The strong natural midday sunlight. The sunlight was bright in the sky. Sharp reflections on grass and clothing. Realistic Shadow. The cool tone of the sky. Natural skin color. There was no flash. There is no studio lighting.\n\nMood Color: Bright dark blue sky, lush green hills, bright white sunlight. The atmosphere of the outdoors is cool. The calm summer atmosphere, the feel of a spacious natural landscape.\n\nNegative warning: It looks like AI, too cinematic, cartoons, anime, CGI, 3D rendering, plastic skin, doll-like face, fake blurred background, excessive sharpness, too smooth skin, surreal colors, extra limbs, deformed hands, distorted body, blurred face, low quality, watermarks, logos, text, app icons.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHFkeQkakAAKZ1E?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHFkeScakAQx8ud?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Kashberg_0/status/2049529785601397160",
+      "tags": [
+        "cinematic",
+        "anime",
+        "dark",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1785506175734,
+      "title": "Nano Banana Pro on Google Gemini",
+      "url": "https://x.com/Kashberg_0/status/2049529785601397160",
+      "collectedAt": "2026-07-31T13:56:30.755Z",
+      "githubSyncedAt": "2026-07-31T13:56:30.755Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "时尚",
