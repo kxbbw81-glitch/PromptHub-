@@ -9,7 +9,7 @@ const backgroundSource = fs.readFileSync(path.join(__dirname, '../extension/back
 
 function createHarness() {
   const storage = { prompthub_github_token: 'github_pat_test_token_with_write_permission' };
-  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawGetCalls: 0, conflictOnce: false, alwaysConflict: false };
+  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawGetCalls: 0, blobGetCalls: 0, conflictOnce: false, alwaysConflict: false };
   const alarms = [];
   const alarmListeners = [];
   const event = { addListener() {} };
@@ -60,6 +60,11 @@ function createHarness() {
       if (String(url).includes('raw.githubusercontent.com')) {
         remote.rawGetCalls += 1;
         return { ok: true, status: 200, text: async () => JSON.stringify({ collections: remote.collections }) };
+      }
+      if (String(url).includes('/git/blobs/')) {
+        remote.blobGetCalls += 1;
+        const content = Buffer.from(JSON.stringify({ collections: remote.collections }), 'utf8').toString('base64');
+        return { ok: true, status: 200, json: async () => ({ content, encoding: 'base64' }) };
       }
       const content = Buffer.from(JSON.stringify({ collections: remote.collections }), 'utf8').toString('base64');
       return {
@@ -172,7 +177,7 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
 });
 
-test('falls back to raw GitHub collections when the contents API omits large file content', async () => {
+test('reads GitHub blob content when the contents API omits large file content', async () => {
   const { context, remote } = createHarness();
   remote.omitApiContent = true;
   remote.collections = [prompt('existing-large-file', 'A cinematic portrait of an adult woman beside a large window, soft natural light, realistic skin texture, tailored coat, warm neutral interior, 85mm lens, shallow depth of field, editorial photography, photorealistic finish, no text, no watermark.')];
@@ -182,7 +187,8 @@ test('falls back to raw GitHub collections when the contents API omits large fil
 
   assert.equal(result.pendingVerification, true);
   assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
-  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.equal(remote.blobGetCalls >= 1, true);
+  assert.equal(remote.rawGetCalls, 0);
   assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
 });
 

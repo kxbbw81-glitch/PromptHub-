@@ -11,6 +11,7 @@ const CF_SYNC_DELAY_MINUTES = 30;
 const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
 const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
+const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/git/blobs/';
 const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
 const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
 const RECEIPT_KEY = 'prompthub_collection_receipts';
@@ -999,6 +1000,17 @@ async function readGitHubCollections(token) {
   try {
     if (typeof payload.content === 'string' && payload.content.trim()) {
       return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(payload.content)) };
+    }
+
+    if (payload.sha) {
+      const blobResponse = await fetch(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(payload.sha)}`, { headers: githubHeaders(token) });
+      if (blobResponse.ok) {
+        const blob = await blobResponse.json();
+        if (typeof blob.content === 'string' && blob.content.trim()) {
+          return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(blob.content)) };
+        }
+      }
+      console.warn('[PromptHub] GitHub blob read failed, falling back to raw:', blobResponse.status);
     }
 
     const rawUrl = payload.download_url || `${GITHUB_COLLECTIONS_RAW}?_=${Date.now()}`;

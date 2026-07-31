@@ -7,6 +7,7 @@ const root = path.join(__dirname, '..');
 const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
 const background = fs.readFileSync(path.join(root, 'extension/background.js'), 'utf8');
 const popup = fs.readFileSync(path.join(root, 'extension/popup.js'), 'utf8');
+const popupHtml = fs.readFileSync(path.join(root, 'extension/popup.html'), 'utf8');
 const content = fs.readFileSync(path.join(root, 'extension/content.js'), 'utf8');
 const data = fs.readFileSync(path.join(root, 'js/data.js'), 'utf8');
 const seoGenerator = fs.readFileSync(path.join(root, 'scripts/generate-seo-pages.js'), 'utf8');
@@ -60,6 +61,7 @@ test('collections use GitHub as their source of truth instead of browser local s
   assert.match(app, /isDomesticSite\(\) \? 300000 : 60000/);
   assert.doesNotMatch(app, /localStorage\.setItem\(COLLECTIONS_KEY/);
   assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
+  assert.match(background, /const GITHUB_BLOB_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/git\/blobs\/';/);
   assert.match(background, /async function syncQueueToGitHub\(queue\)/);
   assert.match(popup, /GitHub Token/);
 });
@@ -107,9 +109,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.14\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.14\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.15\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.15\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
+});
+
+test('the extension visible version matches the packaged manifest version', () => {
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.15\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.15\.0/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
