@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:57:33.671Z",
+  "updatedAt": "2026-07-31T13:59:46.513Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90edjl_1343",
+      "image": "https://pbs.twimg.com/media/HHCgu8wbwAAGjhV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHCgu8wbwAAGjhV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Today's Portrait by gpt image 2 \n\n---prompt---\nA sweet-cool Japanese girl with an alluring, soft-sensual look and a tall, slender figure.\n\nScene: A dimly lit bedroom or living space at night, near a bed or sofa. Soft ambient lighting with a mix of faint natural residual light and warm lamp glow. The environment is quiet and private, with subtle everyday traces, slightly moody yet intimate.\n\nOutfit: A thin-strap camisole or fitted knit tank top, layered with a loose cardigan or an unbuttoned shirt. Bottoms include relaxed shorts or low-rise pants. Color palette in gray-white, cream, soft black, and muted wine tones — minimal, soft, and body-contouring.\n\nMakeup & styling: Subtle “tipsy” flushed makeup. Lightweight luminous base, natural skin texture with a soft glow. A gentle flush spreads across cheeks, under-eyes, and lightly over the nose bridge, creating a natural, slightly intoxicated warmth.\n\nEyes: Low-saturation warm brown or dusty rose eyeshadow, softly diffused edges. Slightly elongated outer corners. Lashes naturally defined. Eyes appear slightly moist, with a soft, unfocused gaze.\n\nLips: Glossy rose-red or dusty berry lips, slightly blurred edges as if gently smudged, creating a natural “just sipped” effect.\n\nHair: Long black or dark brown hair, worn down, slightly tousled, with a few loose strands framing the face.\n\nPose: Kneeling softly on a bed or floor beside the sofa, body slightly leaning forward or resting lightly back on the heels. One hand loosely holding a wine glass, fingers relaxed, the other hand resting on the thigh or gently supporting the body. Posture relaxed but subtly vulnerable, with a quiet sense of tension.\n\nExpression: Looking toward the camera or slightly off to the side. Eyes soft, slightly delayed or unfocused, as if caught in a quiet moment. A faint, ambiguous smile — intimate, restrained, and emotionally open.\n\nStyle: Low contrast, shot on a Nikon DSLR. Realistic photography with slight grain. Soft low-light environment, natural straight-out-of-camera feel.\n\nDetails: Realistic skin texture with subtle tonal variation. Slight redness on cheeks and nose tip. Gentle highlights on skin. Wine glass catching soft reflections of light. Background softly blurred.\n\nMood: Quiet, intimate, slightly unguarded. A sense of emotional warmth mixed with ambiguity — as if something just happened, but remains unspoken.\n\nCamera: Medium close-up or mid-shot, slight handheld feel. Shallow depth of field. Cinematic, documentary-style realism.\n\nAspect ratio: 2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHCgu8wbwAAGjhV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2049314598373958044",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1785506381842,
+      "title": "Today's Portrait by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2049314598373958044",
+      "collectedAt": "2026-07-31T13:59:46.513Z",
+      "githubSyncedAt": "2026-07-31T13:59:46.513Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
