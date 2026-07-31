@@ -1,7 +1,192 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T06:59:46.774Z",
+  "updatedAt": "2026-07-31T07:02:35.093Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lemgu_e6pm",
+      "image": "https://pbs.twimg.com/media/HOep8BnWIAE3ySF?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOep8BnWIAE3ySF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOep9g1XwAA2mZH?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "夜色、直闪、酒店走廊。\n\n像一段没有后续的偶遇。\n\n9:16, direct flash, 夜间酒店走廊/电梯间, 低饱和冷调, 私密距离感\n冷白皮直闪妆, 半哑光底妆, 低饱和灰调眼妆, 裸色唇, 黑长直/低马尾\n黑色丝质吊带裙/灰色针织修身吊带/皮质吊带背心, 上半身视觉重心, 面料贴合身形, 腰线收紧\n金属细项链/房卡/电梯按键/皮质手环（道具根据实际构图需求选取，不要将所有的道具全都塞进一个画面中）\n门框窥视视角/低机位靠墙, 中景裁切到大腿中部, 人物占比60%, 走廊纵深感/电梯门背景\n靠墙抬眼直视/按电梯按键回头/手指搭吊带肩带, 表情冷淡疏离, 眼神带距离感\n机顶直闪正面打亮压暗环境, 落在肩线、胸口面料、锁骨、面部, 硬阴影切割身体线条, 金属饰品冷亮点, 皮肤半哑光仅窄高光\n不要端正摆拍、过度暴露、畸形肢体、背景杂乱、全脸油亮",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOep8BnWIAE3ySF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOep9g1XwAA2mZH?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082835354466369666",
+      "tags": [
+        "低饱和"
+      ],
+      "timestamp": 1785481199166,
+      "title": "夜色、直闪、酒店走廊",
+      "url": "https://x.com/chenlinspark/status/2082835354466369666",
+      "collectedAt": "2026-07-31T07:00:03.643Z",
+      "githubSyncedAt": "2026-07-31T07:00:03.643Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lemgu_wuwb",
+      "image": "https://pbs.twimg.com/media/HOeTqoFXoAA7Hrv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOeTqoFXoAA7Hrv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeTsU_WEAAclJ4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeTtlxX0AAv_oM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "本来以为婚纱照最难拍的是氛围，结果真正杀人的，是这种隔着头纱还笑得很干净的脸。\n\n[场景] 室内窗边暖白背景、近景半身到特写构图 → 画面没有杂讯，注意力会被完全锁到新娘的表情和头纱关系上，所以一眼就是“温柔到发光”的感觉。\n\n[服装] 一字肩蕾丝婚纱、珍珠耳饰、蕾丝长头纱 → 元素都不复杂，但彼此非常统一，婚纱的精致感和新娘的干净气质会自然叠起来，不需要堆太多配饰也很成立。\n\n[姿态] 一张正面对镜甜笑，一张轻捏头纱半遮脸，一张侧转身体再回眸 → 从直给的幸福感，过渡到含蓄，再落到亲近感，三张放一起就不会只是在重复“好看”。\n\n[光线] 奶油色柔光包住脸部和肩颈，整体低对比、无攻击性 → 这种光特别适合婚纱题材，会把皮肤、头纱和蕾丝都打得很柔，情绪也会更像“真的在结婚当天”。\n\n[质感] 头纱的细网纹、蕾丝花边、牙齿笑容、眼神里的湿润感 → 这些细节一出来，照片就不是单纯的棚拍美图，而是有“被爱着”的真实氛围。\n\n直接把图片发给模型，它自动识别人物，套进提示词出图。提示词见评论区，欢迎返图",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeTqoFXoAA7Hrv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeTsU_WEAAclJ4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeTtlxX0AAv_oM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2082795847654265034",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785481199166,
+      "title": "本来以为婚纱照最难拍的是氛围",
+      "url": "https://x.com/Soranlan/status/2082795847654265034",
+      "collectedAt": "2026-07-31T07:00:03.643Z",
+      "githubSyncedAt": "2026-07-31T07:00:03.643Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lemgt_foii",
+      "image": "https://pbs.twimg.com/media/HOhHoTLXwAA_tuL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhHoTLXwAA_tuL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhHoTTXUAAvLUK?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Keep exploring the possibilities \n\nSYSTEM PROMPT: ANCHOR BLOOM\n\nRewrite the user's text, image, or both as one prompt for GPT Image Gen V2 or Nano Banana Pro. Use GPT unless Nano is named. Write in the user's language, preserve exact text, and keep requested or source ratio.\n\nUse three systems. Anchor Structure preserves recognition through three to six stable facial, hair, body, posture, or distinguishing anchors. Exposure Bloom controls bright skin, pale clothing, flash, studio light, daylight, and similar light-toned surfaces without erasing form. Context Friction makes the subject occupy a specific situation through crop, phone distance, prop contact, clothing function, architecture, crowd, signage structure, furniture, or public space.\n\nDo not create a generic idol, influencer selfie, beauty advertisement, or pale doll portrait. Determine subject, crop class, capture class, identity anchors, exposure source, context pressure, clothing relation, two to four friction points, and one plain region.\n\nPreserve subject, count, age presentation, identity, action, setting, clothing, objects, colors, text, and reference roles. For edits, preserve all unrequested content. Do not copy faces, outfits, stadium branding, stickers, bows, pink props, interface marks, counters, or watermarks from references.\n\nIdentity anchors must use visible structure: eye spacing and tilt, brow direction, nose shape, mouth ratio, jaw, hairline, part, fringe, body proportion, posture, or stable marks. Do not rely only on “same face.”\n\nExposure needs one source, direction, shadow, falloff, and value separation. Pale skin, white clothing, and bright background must remain distinct through edge, fold, weave, local color, and shadow. No uniform luminous skin or erased nose structure.\n\nContext must affect pose, crop, light, scale, or object contact. A phone changes perspective. A stadium changes backlight and scale. A prop changes balance. A studio exposes garment and posture. Do not use context as wallpaper.\n\nChoose one crop: close face, upper body, full body, or context portrait. Detail must match distance. Full-body views prioritise silhouette, stance, hair, garment, and ground contact, not pores.\n\nRemove repetition, praise, status language, trend labels, generic beauty terms, fake technical detail, and unresolved alternatives. Use concrete nouns and active verbs. No em dash or en dash.\n\nGPT: return 500 to 800 words in five paragraphs covering scene, identity anchors, styling, exposure, context friction, composition, preservation, exact text, and failures.\n\nNANO: return valid JSON only, 1000 to 1800 tokens, using \"aspect_ratio\", \"references\", \"scene\", \"subjects\", \"anchor_structure\", \"exposure_bloom\", \"context_friction\", \"styling_and_material\", \"composition\", \"text\", \"avoid\". Omit unused fields. No metadata, IDs, weights, comments, branding copied from references, or repetition.\n\nReturn only the finished image prompt.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhHoTLXwAA_tuL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhHoTTXUAAvLUK?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/IamEmily2050/status/2082993698996916630",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785481199165,
+      "title": "时尚人像",
+      "url": "https://x.com/IamEmily2050/status/2082993698996916630",
+      "collectedAt": "2026-07-31T07:00:03.643Z",
+      "githubSyncedAt": "2026-07-31T07:00:03.643Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lb3iq_qcmw",
+      "image": "https://pbs.twimg.com/media/HOW7lvvbYAAZHIv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOW7lvvbYAAZHIv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "风吹起她的头发，树影斑驳洒落在脸颊上。夏天就是从这样的瞬间开始。\n\n#AIart #AI写真 #木漏れ日ポートレート\n\n【GPT Image2提示】\n\n主题：\n风中的树荫\n\n主体：\n在晴朗初夏的林荫公园中，20多岁的女性站在深色木制长椅前，迎着风眯起眼睛的瞬间，以近距离捕捉的纵向时尚肖像。人物占据画面中央，从头顶到大腿上部的大片区域，上半身微微向人物自身左侧扭转，人物自身右手置于画面右侧边缘的长椅靠背上。短款深棕色头发向画面左侧有力飘扬，象牙白蕾丝吊带背心和轻盈的分层短裤在绿色树荫中明亮浮现。背景配置为向深处笔直延伸的沙色园径、左右连绵的大树、绿色草坪，以及柔和的树影斑驳光线，将夏风、光线和人物自然的动作浓缩在一张完整的照片中。\n\n人物·表情：\n20多岁的女性，明亮的肤色带着健康的润泽，纤细而自然曲线的身材。下巴长度、湿润般的束感深棕色波波头，薄薄的前发散落在额头，左侧发梢被风吹散至近水平状态。脸庞微微上扬，双目极细微地闭合般眯起，自然的眉毛、日光照耀的鼻梁、淡桃色的脸颊、微微张开的润泽珊瑚粉色嘴唇，呈现出品味温暖微风的宁静而解放的表情。脸颊、鼻尖、下巴、颈部、锁骨、肩膀上放置汗水或细微水分的自然光泽。面容不过度稚嫩，保留照片般的肌理、细毛、颈部阴影。\n\n服装·姿势：\n穿着象牙白细肩带罗纹吊带背心。胸口为深V字，三角形边缘饰以精致花纹蕾丝，中央有小系带，下缘也有细蕾丝带，衣摆贴合腰部。下装为浅象牙白的轻盈短裤，腰部为松紧带和细绳，表面有同色细小植物图案，上、下两层褶边及透视感的蕾丝下摆。人物自身右臂斜向下伸展，右手置于长椅靠背的画面右侧边缘。左臂藏于身体后侧，胸部微微打开，腰部倚靠长椅。上半身左肩稍向前，右肩向后拉，表现风中反应的自然重心移动。手指、肩膀、衣物边界、腰部与腿部的连接解剖学上精确。\n\n背景·光线：\n画面左右规则排列粗壮树干的落叶树，上部覆盖黄绿色至深绿色的叶片。人物背后，沙色笔直园径向中央深处消失，左右为草坪，远处放置小标识和树木连续。人物腰部至画面右下方，斜置光泽抑制的深褐色木制长椅，展示横板的木纹、磨损、金属固定件。近正午的温暖太阳从画面左上方斜射，在头发轮廓、脸颊、肩膀、胸口、臂部、大腿上形成明亮高光。叶影以细小斑点形式落在锁骨和衣物上，背景融化为金绿色圆形玉兰晕。脸部明部不白飞，兼顾树荫的深绿与肌肤暖色。\n\n构图·相机：\n纵向3:4，相机从人物胸部至脸部微微仰视的低位，近距离拍摄。人物头部置于画面上部中央，脸部在上三分之一，腰部在中央下，短裤和大腿在下部，人物自身右臂向画面右下方延伸连接长椅。向左飘扬的头发填充画面左侧空白，与右侧粗壮树干平衡。50mm等效，F2.0前后，对双目、脸部、胸口蕾丝对焦，背后园径、树木、标识以平滑浅景深模糊。保持自然身体比例，不用广角扭曲脸部、胸部、臂部、大腿。只在风中移动的发梢保留极轻微的动感。\n\n质感·风格：\n高精度的实拍时尚摄影，日本夏季杂志编辑与自然光肖像的中间风格。头发湿润般的细束、肌肤微细纹理与光泽、罗纹针织的纵向编织、蕾丝的精致纱线、短裤的薄布与褶皱、木制长椅的划痕、叶与草的色彩层次，以照片般描绘。色调以象牙白、肌肤温暖的米色、鲜艳黄绿、深邃森林色、浓褐色为中心，表现强烈夏日阳光与凉爽树荫的对比。透明感高光、深邃但保留阶调的阴影、上品微细颗粒、自然镜头晕染、不过度加工的生命感完成。\n\n负面：\n看起来未成年的人物、幼稚体格、不自然的肩膀、长椅缺失、过多背景人物、动画风格、插图风格、3DCG感、过度HDR、塑料肌肤、水印、文字。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW7lvvbYAAZHIv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2082952124170961062",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1785481034642,
+      "title": "风吹起她的头发",
+      "url": "https://x.com/CyberTotal2026/status/2082952124170961062",
+      "collectedAt": "2026-07-31T06:58:01.981Z",
+      "githubSyncedAt": "2026-07-31T06:58:01.981Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lb3ip_6jgh",
+      "image": "https://pbs.twimg.com/media/HOcvQGyawAAP9tJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcvQGyawAAP9tJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcvQG5aQAA9F5Z?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcvQG1bUAA28Uj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcvQG8akAAq1EJ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "[Kling Prompt]\n\nA beautiful young East Asian woman with fair skin, soft features, and reddish-brown hair tied in a loose half-up ponytail, looking back over her shoulder at the camera with a gentle, slightly pouty expression and glossy red lips. She is crouching low on a light wooden floor in a modern office, body twisted to the side, one arm resting on a light wooden desk, the other hand raised behind her head. She wears a tight sleeveless maroon turtleneck crop top that hugs her figure, a form-fitting light grey mini skirt that clings to her hips and thighs, sheer nude pantyhose, and shiny white high-heeled pumps. Background shows a desk with a black monitor, tangled black cables, a white PC tower on the floor with a “T” logo, a beige office chair, grey curtains, and soft indoor lighting. Realistic photo, sharp focus, natural skin texture, office setting, side-rear view, highly detailed. @TopviewAIhq @topviewjapan #Topview",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcvQGyawAAP9tJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcvQG5aQAA9F5Z?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcvQG1bUAA28Uj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcvQG8akAAq1EJ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082888960573923558",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785481034641,
+      "title": "品牌视觉",
+      "url": "https://x.com/woleswoosh/status/2082888960573923558",
+      "collectedAt": "2026-07-31T06:58:01.981Z",
+      "githubSyncedAt": "2026-07-31T06:58:01.981Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8lb3io_e8j7",
+      "image": "https://pbs.twimg.com/media/HOhoZ0IbEAAV956?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhoZ0IbEAAV956?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhodvGakAAvpfE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "特别想分享一下我裸辞之后，整个人的状态变化。\n\n刚辞职的时候，我非常焦虑。\n\n那段时间，我几乎每天都能写一篇文章。满脑子想的都是多做点事情，多赚一点钱。也会不停地担心，万一辞职以后没有做起来怎么办？\n\n所以每天都想尽办法工作，忙得比上班的时候还狠。\n\n过了一段时间，收入确实有了一些提升，但我又开始迷茫了。\n\n因为我发现，继续增加工作量，好像也带不来多少增长。可能是方向需要调整，可我又不知道该往哪里走。一个人待在家里，很容易闭门造车，于是我开始出去参加各种社交活动。\n\n那段时间认识了很多新朋友，也看到很多人在用 AI 做不同的事情。\n\n但看得越多，我反而越找不到自己的方向。慢慢地，人就有点颓了。给自己列了很多计划，每次都完不成，不断拖延。每天都想躺平，什么事情也做不下去。\n\n最近我又觉得，不能再这样下去了，还是得想办法让自己重新动起来。\n\n于是我开始慢慢恢复工作状态，重新寻找方向，也把之前列下来的计划，一件一件捡起来做。\n\n我也说不好自己为什么又振作起来了，可能和健身有点关系。\n\n如果你也是独立开发者，或者辞职以后一个人在家工作，我很建议每天出去运动一下。我现在上午会去健身，运动完以后，整个人的精神状态会好很多，脑子也会活跃一点。\n\n现在回头看，我感觉自己的状态可能就是一个循环：\n\n焦虑一段时间，接着开始迷茫，然后躺平，最后又慢慢振作起来。以后可能还会再次焦虑，再次迷茫，再躺平一阵子。\n\n应该很多人都会这样。\n\n只要没有让自己长期困在某一种状态里，还能慢慢走出来，我觉得就已经算是一种比较健康的状态了。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhoZ0IbEAAV956?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhodvGakAAvpfE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/bozhou_ai/status/2083029778534474126",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785481034641,
+      "title": "特别想分享一下我裸辞之后",
+      "url": "https://x.com/bozhou_ai/status/2083029778534474126",
+      "collectedAt": "2026-07-31T06:58:01.981Z",
+      "githubSyncedAt": "2026-07-31T06:58:01.981Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
