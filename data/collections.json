@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T12:08:41.057Z",
+  "updatedAt": "2026-07-31T12:11:36.452Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wj8ur_9wks",
+      "image": "https://pbs.twimg.com/media/HIiCCr4boAARpC5?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HIiCCr4boAARpC5?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HIiCCsdaAAAMnV8?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 on ChatGPT \n\nPrompt:\nUltra-realistic studio fashion portrait of a beautiful Korean woman posing against a clean light-gray studio wall, turning slightly toward the camera with a soft confident expression and relaxed elegant posture. One hand gently resting in her hair while leaning subtly against the wall. Wearing a fitted long black ribbed off-shoulder top that fully covers the waist and hips with dark washed jeans, creating a sleek minimal modern fashion aesthetic. Long silky black hair flowing naturally, glossy eyes, soft natural Korean makeup, smooth realistic skin texture, youthful Korean beauty aesthetic.\n\nProfessional studio environment with visible softbox lighting equipment slightly blurred in the background, seamless white studio flooring, minimal neutral-toned backdrop, soft cinematic lighting with realistic shadows and highlights. Editorial fashion photography vibe with subtle moody contrast and clean composition.\n\nMinimalist Korean fashion aesthetic, calm elegant atmosphere, candid model pose, shallow depth of field, highly detailed, photorealistic studio portrait, luxury lifestyle magazine feel, soft glow, realistic DSLR photography, modern studio styling.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIiCCr4boAARpC5?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HIiCCsdaAAAMnV8?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/john_my07/status/2056036216789966991",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1785499890579,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/john_my07/status/2056036216789966991",
+      "collectedAt": "2026-07-31T12:11:36.452Z",
+      "githubSyncedAt": "2026-07-31T12:11:36.452Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wj8ur_hteu",
+      "image": "https://pbs.twimg.com/media/HIlhLZgaIAAp8kc?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIlhLZgaIAAp8kc?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "portrait. by gpt image 2 \n\n---prompt---\nPhotorealistic close-up selfie-style portrait of a stunning beautiful Chinese Internet Celebrity in her mid-20s, Long hair with soft messy volume, long side bangs partially framing one side of her face, wearing elegant thin gold wire-frame glasses with a refined delicate metal rim. She tilts her head slightly and gazes down toward the camera with a subtle seductive, playful, confident expression and a faint smile. Glossy vibrant red lips, sharp winged eyeliner, delicate lashes, smooth pale skin, elegant collarbones, small cursive tattoo signature “BubbleBrain” near the collarbone.\nShe is lying on her back on the bed taking a low-angle wide selfie, one arm extended downward holding the smartphone closer to her lower body, capturing from a low perspective looking up her body. Her legs are fully extended straight toward the camera with feet prominent in the foreground, creating a strong elongated leg effect through wide-angle perspective and foreshortening. Dynamic low-angle composition that dramatically emphasizes her long legs while keeping the face and expression as the focal point.\nShe wears a fitted black ribbed knit long-sleeve crop top with a deep scoop neckline, paired with high-waisted black shorts, casual but stylish and movement-friendly.\nDim private bedroom background, slightly messy bed sheets, dark wardrobe, small posters on the wall, low-light indoor atmosphere. On-camera flash photography, cool purplish-gray shadows, soft skin highlights, subtle skin sheen, muted dark color grading, low contrast, slight film grain, realistic phone-camera texture.\nMoody late-night bedroom selfie aesthetic, intimate but tasteful, fashion editorial realism, candid composition, imperfect framing, shallow depth of field, natural facial asymmetry, realistic anatomy, high-detail skin texture, cinematic yet casual.\nVertical portrait, 9:16 aspect ratio, flash-lit, dark ambient background, low-angle wide perspective from near the feet looking up, feet extended toward the lens, strong emphasis on long legs.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIlhLZgaIAAp8kc?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2056286623382540650",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785499890579,
+      "title": "portrait. by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2056286623382540650",
+      "collectedAt": "2026-07-31T12:11:36.452Z",
+      "githubSyncedAt": "2026-07-31T12:11:36.452Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "动物",
