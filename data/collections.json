@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:59:46.513Z",
+  "updatedAt": "2026-07-31T14:00:53.851Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90edjo_6qo5",
+      "image": "https://pbs.twimg.com/media/HG-sE8La0AAcIrv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HG-sE8La0AAcIrv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Gemini nano banana prompt\n\nCreate image: A hyper-photorealistic shot of the same subject in the attached image, ultra-detailed facial features, visible pores, natural skin texture, rosy complexion and dewy skin, Douyin/Korean glass-skin makeup, glossy lips, aegyosal, baby pink blush on cheeks and nose, high identity consistency, realistic human anatomy.\nExpression or mood:\nsoft serene gaze looking upward from an upside-down position, relaxed lips, calm eyes, dreamy bedroom stillness\nCamera settings:\nshot on an old CCD digital camera, early-2000s digicam aesthetic, direct on-camera flash, harsh flash falloff, visible grain and digital noise, slightly overexposed highlights, flattened shadows, soft contrast, mildly washed colors, cool-to-neutral white balance, slight motion blur, low-light snapshot feel, candid and imperfect composition\nMakeup style:\nluminous glass-skin finish, glossy lips, soft shimmer eyelids, aegyosal highlight, natural contour, blended blush across cheeks and nose\nHair:\nlong black hair spread across white bedding, soft flowing strands, natural shine, slightly messy curves around the face\nOutfit:\nwhite ribbed cutout crop top with delicate necklace, clean soft-girl minimal styling\nBackground:\nwhite satin sheets and fluffy bedding texture, bright indoor light, clean soft bedroom atmosphere\nComposition:\nupside-down vertical framing, face near lower edge, hair creating flowing lines around the body, dreamy editorial bed shot\nNegative prompt:\nover-smoothed skin, plastic texture, unrealistic proportions, studio lighting, overly sharp HDR, stiff pose, artificial symmetry, over-retouched face",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HG-sE8La0AAcIrv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Chryzleenprompt/status/2049045563275145417",
+      "tags": [
+        "photorealistic",
+        "dreamy",
+        "studio lighting"
+      ],
+      "timestamp": 1785506381845,
+      "title": "Gemini nano banana prompt",
+      "url": "https://x.com/Chryzleenprompt/status/2049045563275145417",
+      "collectedAt": "2026-07-31T14:00:53.851Z",
+      "githubSyncedAt": "2026-07-31T14:00:53.851Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90edjn_cpn3",
+      "image": "https://pbs.twimg.com/media/HHAH6skbIAAbv5p?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHAH6skbIAAbv5p?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Portrait by gpt image 2 \n\n---prompt---\nA sweet-cool Japanese girl with an alluring, soft-sensual look\n\nScene: A convenience store entrance at night, with glass doors, bright refrigerator lighting, and slightly wet streets reflecting ambient light. The environment is quiet, carrying a subtle sense of urban solitude. Cool white store lighting mixes with warmer street lights, creating a soft contrast.\n\nOutfit: A cropped top paired with loose-fit jeans or low-rise cargo pants, layered with a lightweight jacket or bomber. The styling feels clean and effortless, balancing sweetness with a subtle edge. The color palette leans toward white, gray, black, and light blue.\n\nMakeup & styling: Lightweight, translucent base makeup with a natural glow. Slightly cool-toned blush, soft eye makeup with a subtly emphasized outer corner, fine eyeliner, and naturally defined lashes. Lips are in a glossy rose or natural pink tone. Hair is worn down or loosely tied, with a few soft strands framing the face.\n\nPose: Standing near the store entrance or leaning lightly against the glass. One hand holding a drink or a small convenience store bag, the other resting naturally at her side. Body slightly angled, legs casually crossed or offset for a relaxed stance.\n\nExpression: Looking toward the camera with a faint, almost teasing smile. A slightly indifferent, effortless gaze—soft yet distant, carrying a subtle sense of cool detachment.\n\nStyle: Low contrast, shot on a Nikon DSLR. Nighttime ambient lighting with slight noise, giving a natural, candid, straight-out-of-camera feel.\n\nDetails: Realistic skin texture, gentle highlights from store lighting on the face. Background includes softly blurred signage, streetlights, and glass reflections. Hair slightly tousled, adding a lived-in, natural feel.\n\nMood: Quiet, urban, slightly distant yet intimate. A mix of everyday realism and subtle ambiguity, with a calm late-night atmosphere.\n\nCamera: Medium shot or medium close-up, waist-up framing, slight handheld feel, shallow depth of field, documentary-style street photography.\n\nAspect ratio: 2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHAH6skbIAAbv5p?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2049147018287956266",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785506381844,
+      "title": "Portrait by gpt image 2",
+      "url": "https://x.com/BubbleBrain/status/2049147018287956266",
+      "collectedAt": "2026-07-31T14:00:53.851Z",
+      "githubSyncedAt": "2026-07-31T14:00:53.851Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
