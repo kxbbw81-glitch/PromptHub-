@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:14:43.964Z",
+  "updatedAt": "2026-07-31T07:18:57.424Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8m2xxz_cxdf",
+      "image": "https://pbs.twimg.com/media/HKr5uorbAAELFOt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKr5uorbAAELFOt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKr5us-b0AA4FiY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Created with Gpt image 2.0\n\nPrompt:\n\nUltra-realistic Korean luxury portrait photography, a beautiful Korean woman white porselain skin, perfect glas skin, sitting casually on a classic park bench, natural candid pose with crossed legs, gentle warm smile, long flowing dark brown hair with soft natural waves, flawless Korean glass skin with visible skin texture, smooth and radiant complexion, minimal natural Korean makeup (soft pink lips, subtle blush, clean brows), elegant casual outfit: whitelong-sleeve blouse with delicate details, high-waist dark blue jeans, brown leather lace-up boots, small luxury leather handbag beside her, outdoor park setting with lush green trees, soft daylight, cinematic natural lighting, shallow depth of field, creamy bokeh background, realistic fabric folds, realistic hair strands, high dynamic range, DSLR photo, 85mm lens, f/1.8, ultra-sharp focus, professional fashion photography, calm and classy Korean aesthetic, timeless luxury mood,ultra-high resolution, 8K, photorealistic. \nAdd tiny text luxury \" ChiVen\" In a wooden chair. \nNegative prompt (opsional):\nlow quality, blurry, overexposed, oversharpen, plastic skin, anime, cartoon, CGI, distorted face, bad anatomy, extra fingers, unrealistic proportions, heavy makeup, harsh lighting.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKr5uorbAAELFOt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKr5us-b0AA4FiY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CaliraVal/status/2065737969328419306",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "dark",
+        "bokeh"
+      ],
+      "timestamp": 1785482333784,
+      "title": "Created with Gpt image 2.0",
+      "url": "https://x.com/CaliraVal/status/2065737969328419306",
+      "collectedAt": "2026-07-31T07:18:57.424Z",
+      "githubSyncedAt": "2026-07-31T07:18:57.424Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "抽象",
