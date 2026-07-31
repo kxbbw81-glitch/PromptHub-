@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T06:49:45.223Z",
+  "updatedAt": "2026-07-31T06:51:25.262Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8l3k3p_nwhx",
+      "image": "https://pbs.twimg.com/media/HOhBsGSaEAA3TqT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhBsGSaEAA3TqT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhBsFbbsAAQO76?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNthyENbkAADnz-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNthyEJbgAAK4YW?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT image2提示词：\n竖版 3:4，单张真实手机生活抓拍照片，不要拼贴，不要四宫格，不要文字，不要水印。\n仅参考上传图片中年轻成年亚洲女性的五官、脸型、黑色长直发、自然肤质和整体气质，保持女性外貌一致。重新构建甜品店双人互动场景，不照搬原图的单人姿势。\n一对年轻成年亚洲男女坐在安静温馨的甜品店靠窗座位，两个人都清晰出现在画面中。女生坐在靠窗的浅棕色沙发椅上，穿浅灰棕色无袖针织长裙，黑色长直发自然披肩，身体微微面向男生，表情开心又略带害羞。\n男生坐在女生旁边或斜对面，穿简洁干净的浅色短袖衬衫或白色T恤，黑色短发，外形自然清爽，不要明星脸，不要抢夺女生主体位置。男生一只手拿着甜品杯，另一只手拿着小勺，正自然地把一小口浅绿色冰淇淋递到女生嘴边。\n女生微微前倾，轻轻张嘴准备吃下勺子里的冰淇淋，眼睛带笑地看向男生，或短暂看向镜头，呈现被朋友突然抓拍到的自然瞬间。男生侧头看着女生，表情温柔轻松，嘴角带自然笑意。两人的动作要有真实的互动关系，距离自然，不要僵硬摆拍。\n桌面上可以放纸巾、另一杯甜品和一部手机，保留真实甜品店生活细节。背景是木质桌面、浅色墙壁、磨砂玻璃窗和暖棕色座椅，窗外透进柔和自然光，室内暖光与日光混合。\n使用手机近距离拍摄，略带随手抓拍的构图，镜头与人物视线高度接近。女生为主要视觉焦点，男生完整露出脸部和上半身，两个人的手部、勺子和甜品杯关系清晰准确。真实皮肤纹理，轻微毛孔、自然碎发和真实衣服褶皱，不要过度磨皮。整体氛围轻松、甜蜜、生活化，像情侣约会时被朋友无意间拍下的一瞬间，但不要婚纱照或商业广告感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhBsGSaEAA3TqT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhBsFbbsAAQO76?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNthyENbkAADnz-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNthyEJbgAAK4YW?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2082987996580819294",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785480682885,
+      "title": "续集来了",
+      "url": "https://x.com/Adam38363368936/status/2082987996580819294",
+      "collectedAt": "2026-07-31T06:51:25.262Z",
+      "githubSyncedAt": "2026-07-31T06:51:25.262Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
