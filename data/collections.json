@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:52:08.509Z",
+  "updatedAt": "2026-07-31T11:52:57.465Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "动物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vvcxj_p0gm",
+      "image": "https://pbs.twimg.com/media/HIqTXzdW0AAz9jK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIqTXzdW0AAz9jK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYBiXEAAb-xs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYQCXUAEaazd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYltWoAIzuLu?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"style\": \"Photorealistic fashion photography\",\n\n\"subject\": {\n\n\"name\": \"[NAME]\",\n\n\"features\": \"Slender, curvy, and fit physique, subtle makeup, pale pink lips, teal teardrop dangle earrings\",\n\n\"pose\": \"Sitting on the floor with her back to the camera, legs bent upward, looking back softly over her right shoulder with a neutral expression\"\n\n\"clothing\": {\n\n\"top\": \"Light-blue ribbed long-sleeve cropped top with an open back and crisscross tie details\",\n\n\"bottom\": \"Slim-fit light-blue jeans\",\n\n\"shoes\": \"Black patent leather stiletto high heels with ankle straps\"\n\n\"environment\": {\n\n\"setting\": \"Seamless light-gray studio background, minimal and distraction-free\",\n\n\"lighting\": \"Soft, diffused studio lighting, delicate highlights on hair and skin, subtle shadows emphasizing fabric textures\"\n\n\"technical\": {\n\n\"framing\": \"Medium shot, positioned slightly low to emphasize the seated pose\",\n\n\"quality\": \"Highly detailed, sharp focus, 8k resolution, professional studio quality\",\n\n\"aspect_ratio\": \"9:16\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIqTXzdW0AAz9jK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYBiXEAAb-xs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYQCXUAEaazd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYltWoAIzuLu?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Giulia_4i/status/2056782107993604313",
+      "tags": [
+        "photorealistic",
+        "studio lighting",
+        "8k"
+      ],
+      "timestamp": 1785498776120,
+      "title": "时尚人像",
+      "url": "https://x.com/Giulia_4i/status/2056782107993604313",
+      "collectedAt": "2026-07-31T11:52:57.465Z",
+      "githubSyncedAt": "2026-07-31T11:52:57.465Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "时尚",
