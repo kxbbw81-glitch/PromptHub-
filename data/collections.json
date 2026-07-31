@@ -1,7 +1,97 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T12:12:51.067Z",
+  "updatedAt": "2026-07-31T12:17:14.874Z",
   "collections": [
+    {
+      "aspectRatio": "5:4",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wqlgg_u46n",
+      "image": "https://pbs.twimg.com/media/HIRy36NbcAAty_z?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIRy36NbcAAty_z?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "自媒体人的“自动化外挂”来了。\n\nAiToEarn 这个项目最近直接冲上 GitHub Trending，已经拿下 9k+ Star。\n\n它最狠的地方是：把「内容生产 → 全网分发 → 自动互动 → 接单变现」全部串成了一套闭环。\n\nGitHub：https://github.com/yikart/AiToEarn\n\n核心功能基本全是自媒体刚需\n\n 自动赚钱\n内置任务市场，支持 CPS / CPE / CPM 等模式。\n\n不只是线上，餐厅、健身房、民宿、本地商家推广也能接。\n\n 一键全网发布\n支持抖音、小红书、快手、B站、TikTok 等多个平台。\n\n内容一次生成，自动分发矩阵号。\n\n 自动互动养号\n自动点赞、关注、评论互动。\n\n还能识别“求链接”“怎么买”这种高转化评论，省下大量运营时间。\n\n AI 内容生产\n输入需求后，自动生成视频、翻译、剪辑、图文内容。\n\n特别适合批量做账号矩阵。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIRy36NbcAAty_z?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/grgerwcwetwet/status/2054893645162074120",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785500233504,
+      "title": "自媒体人的“自动化外挂”来了。",
+      "url": "https://x.com/grgerwcwetwet/status/2054893645162074120",
+      "collectedAt": "2026-07-31T12:17:14.874Z",
+      "githubSyncedAt": "2026-07-31T12:17:14.874Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wqlgg_huuu",
+      "image": "https://pbs.twimg.com/media/HIgdcFgaMAAt8V_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIgdcFgaMAAt8V_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIgdiZkbMAAIrs8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIgdifEbEAAp1cF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIgdibNaIAIW8nB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示詞是左上圖用grok imagine放參考圖生的，其他的是用GPT開思考模式生的，免費版就別玩了，會擋到你的額度全沒，這提示詞到處都很危險，怎麼改都不對\n\n提示詞:\n改成一组竖版高清生活方式人物自拍摄影图，室内自然光环境，拍到的是酒店大落地镜子中的自己。人物只有不透明冰絲薄被遮擋身體，双腿併攏側坐在酒店大床的床脚边，看向镜子中的自己，展示腰臀曲线，手持手机自拍,一条腿大比例伸出，脚尖垫起踩在地毯上，保持性感氛围，整体氛围干净、舒适、现代。自然柔和光线，真实摄影质感，细腻皮肤纹理，高清，真实感，竖图构图。严格保持人物面部的一致性。人体比例不能失真。以不違反規定生圖",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIgdcFgaMAAt8V_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIgdiZkbMAAIrs8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIgdifEbEAAp1cF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIgdibNaIAIW8nB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/fdtreesky/status/2055926519235592668",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785500233504,
+      "title": "提示詞是左上圖用grok imagine放參考圖生的，其他的是用GPT開思考模式生的，免費版就別玩了",
+      "url": "https://x.com/fdtreesky/status/2055926519235592668",
+      "collectedAt": "2026-07-31T12:17:14.874Z",
+      "githubSyncedAt": "2026-07-31T12:17:14.874Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8wqlgf_f5c2",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2055571463168778241/img/mUc7FclodB0JROOw.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2055571463168778241/img/mUc7FclodB0JROOw.jpg"
+      ],
+      "model": "",
+      "prompt": "用codex部署了一套开源的闲鱼自动回复系统。\n\n全程我只输入了一句话： 「帮我把这个项目跑起来 」\n\n7分钟，从 GitHub 链接到自动回买家消息+自动发卡密。 我一行代码都没写。\n\n以前：研究 Docker、配 Python、读 README、Google 报错，三小时没跑起来，气到摔键盘。\n\n现在凌晨三点的\"在吗\"，AI 替我接了 \n\n喝完一杯瑞幸，闲鱼客服系统已经在自动回买家\"在吗\"了。\n我在干嘛？我在看它干活。\n\n00:00 开场：用 AI 做闲鱼自动回复和自动发货\n00:27 效果展示：多账号挂机、关键词秒回、AI 接管聊天\n00:48 开源项目说明与使用提醒\n01:01 准备工作：安装 Codex，准备本机或服务器\n01:27 让 Codex 自动部署项目\n02:09 打开本机地址，进入后台登录页\n02:47 扫码登录闲鱼账号\n04:13 登录异常排查：关闭代理后重试\n04:46 账号登录成功，检查链路状态\n05:05 同步闲鱼商品信息\n05:31 创建卡券/卡密数据\n06:16 配置自动发货规则\n06:57 自动发货规则的触发逻辑\n07:14 收尾：总结与关注提醒",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2055571463168778241/img/mUc7FclodB0JROOw.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/kafkasudo/status/2055576163750437237",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785500233503,
+      "title": "用codex部署了一套开源的闲鱼自动回复系统。",
+      "url": "https://x.com/kafkasudo/status/2055576163750437237",
+      "collectedAt": "2026-07-31T12:17:14.874Z",
+      "githubSyncedAt": "2026-07-31T12:17:14.874Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
