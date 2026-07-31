@@ -110,6 +110,13 @@ test('the browser extension pane provides a direct download for the current pack
   assert.match(app, /下载浏览器插件/);
 });
 
+test('paste and manual import flows expose a visible save button', () => {
+  assert.match(app, /id="imp-save-preview-btn"[^>]*>保存到收藏/);
+  assert.match(app, /data-action="save-manual">保存到收藏/);
+  assert.match(app, /action === 'save-manual'/);
+  assert.match(app, /window\.saveManual\(\)/);
+});
+
 test('the extension records an image aspect ratio during prompt recognition', () => {
   assert.match(popup, /img\.naturalWidth \|\| img\.width \|\| rect\.width/);
   assert.match(popup, /aspectRatio: imageData\.aspectRatio \|\| extractAspectRatio\(promptText\)/);

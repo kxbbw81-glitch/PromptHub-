@@ -2680,6 +2680,11 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+.imp-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4px;
+}
 .imp-req {
   color: #E53935;
   font-weight: 700;
@@ -3169,11 +3174,16 @@ button {
 }
 .imp-result-foot {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   gap: 12px;
   padding: 16px 28px;
   border-top: 1px solid var(--border);
   background: var(--bg-soft);
+}
+.imp-save-btn {
+  min-width: 132px;
+  justify-content: center;
 }
 
 /* Loading & error states */

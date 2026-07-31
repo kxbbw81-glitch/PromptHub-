@@ -1816,6 +1816,9 @@
                   <label>图片链接（可选）</label>
                   <input type="text" id="manual-image" placeholder="https://example.com/image.jpg" oninput="syncManualToEditor()" />
                 </div>
+                <div class="imp-form-actions">
+                  <button class="imp-btn-primary" type="button" data-action="save-manual">保存到收藏</button>
+                </div>
               </div>
             </div>
           </div>
@@ -1998,7 +2001,7 @@
         <div class="imp-result-head">
           <div class="imp-result-badge">${isManual ? '实时预览' : '解析结果'}</div>
           <h2>${isManual ? '编辑提示词信息' : '已自动提取，可直接收藏'}</h2>
-          <p>所有字段均可编辑，点击图片右上角的心形按钮即可收藏</p>
+          <p>所有字段均可编辑，确认无误后点击保存到收藏</p>
         </div>
 
         <div class="imp-result-body">
@@ -2037,6 +2040,7 @@
 
         <div class="imp-result-foot imp-result-foot-subtle">
           <button class="imp-mini-btn" id="imp-cancel-preview" type="button">取消</button>
+          <button class="imp-btn-primary imp-save-btn" id="imp-save-preview-btn" type="button">保存到收藏</button>
           <span class="imp-save-hint">快捷键 Ctrl + Enter 也可收藏</span>
         </div>
       </div>
@@ -2054,6 +2058,7 @@
       thumb.addEventListener('click', () => window.switchGalleryImage(index));
     });
     $('#imp-save-fab')?.addEventListener('click', () => window.saveFromPreview(source));
+    $('#imp-save-preview-btn')?.addEventListener('click', () => window.saveFromPreview(source));
     $('#imp-copy-preview')?.addEventListener('click', () => window.copyPreviewPrompt());
     $('#imp-cancel-preview')?.addEventListener('click', () => window.cancelResult());
 
@@ -2237,6 +2242,7 @@
   };
 
   window.saveManual = function () {
+    syncManualToEditor();
     saveFromPreview('manual');
   };
 
@@ -2480,6 +2486,10 @@
       }
       if (action === 'parse-and-preview') {
         window.parseAndPreview();
+        return;
+      }
+      if (action === 'save-manual') {
+        window.saveManual();
         return;
       }
       if (action === 'export-collections') {
