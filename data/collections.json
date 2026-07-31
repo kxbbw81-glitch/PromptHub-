@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:38:45.478Z",
+  "updatedAt": "2026-07-31T13:39:05.161Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8znr2l_oswk",
+      "image": "https://pbs.twimg.com/media/HHNJtYlbIAAzLGB?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HHNJtYlbIAAzLGB?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHNLs8qa4AAxuYt?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "Blue water, white deck, rose-tinted shade.\nA quiet kind of luxury under the yacht canopy.\n\n海風よりも、白い光が先に届く。\n\n 24-35mm yacht lifestyle frame / bright bounced daylight / low-cut white camisole + ripped denim / champagne prop\n\n Prompt*2 ↓",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHNJtYlbIAAzLGB?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HHNLs8qa4AAxuYt?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2050065782340747558",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785505139661,
+      "title": "Blue water, white deck, rose-tinted shade.",
+      "url": "https://x.com/sidona/status/2050065782340747558",
+      "collectedAt": "2026-07-31T13:39:05.161Z",
+      "githubSyncedAt": "2026-07-31T13:39:05.161Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
