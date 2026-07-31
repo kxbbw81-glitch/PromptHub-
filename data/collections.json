@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:56:30.755Z",
+  "updatedAt": "2026-07-31T13:57:21.553Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90baiy_0pqu",
+      "image": "https://pbs.twimg.com/media/HHIyHD0WAAAJ1cQ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHIyHD0WAAAJ1cQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHIy4bnWwAAjGZY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHIy5qXXwAAVGyq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHIy7oQWQAAaUrR?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "餐饮老板必学！\n我用ChatGPT-Image-2.0生成餐饮品牌全套VI，顶级专业！\n\n这套通用提示词，我生成了四个案例，一次出齐全套包装+菜单+促销物料+周边，完全对标设计公司做的提案板：\n1、山野茶事（国潮东方）  \n2、岛屿冰室（复古港风）  \n3、熊町日记（卡通治愈IP）  \n4、胖虎汉堡（美式街头潮牌）  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHIyHD0WAAAJ1cQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHIy4bnWwAAjGZY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHIy5qXXwAAVGyq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHIy7oQWQAAaUrR?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2049756879908184128",
+      "tags": [
+        "东方"
+      ],
+      "timestamp": 1785506237963,
+      "title": "餐饮老板必学！",
+      "url": "https://x.com/MrLarus/status/2049756879908184128",
+      "collectedAt": "2026-07-31T13:57:21.553Z",
+      "githubSyncedAt": "2026-07-31T13:57:21.553Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "抽象",
