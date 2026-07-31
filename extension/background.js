@@ -14,6 +14,8 @@ const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch
 const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
 const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
 const RECEIPT_KEY = 'prompthub_collection_receipts';
+const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';
+const PRIMARY_RETRY_DELAY_MINUTES = 2;
 let queueMutation = Promise.resolve();
 let receiptMutation = Promise.resolve();
 
@@ -713,6 +715,7 @@ async function syncQueuedItems() {
     if (!result.success || !result.verified) {
       const error = result.error || 'GitHub 主站验证未完成';
       await setCollectionReceipts(queueSnapshot, 'failed', { error, message: '收藏未确认，保留在队列中等待重试' });
+      await schedulePrimaryRetry();
       return { ...result, success: false, error };
     }
 
@@ -755,8 +758,10 @@ async function syncQueuedItems() {
     };
   } catch (error) {
     const message = error?.message || 'GitHub 主站写入失败';
-    await setCollectionReceipts(queueSnapshot, 'failed', { error: message, message: '收藏失败，已保留在队列中等待重试' });
-    return { success: false, error: message };
+    const displayMessage = formatGitHubError(error);
+    if (error?.retryable || /保存冲突|409|422/.test(message)) await schedulePrimaryRetry();
+    await setCollectionReceipts(queueSnapshot, 'failed', { error: displayMessage, message: '收藏失败，已保留在队列中等待自动重试' });
+    return { success: false, error: displayMessage };
   }
 }
 
@@ -958,7 +963,7 @@ function formatGitHubError(error) {
     return 'GitHub Token 无效，或缺少 PromptHub- 仓库的 Contents 读写权限';
   }
   if (/\b(409|422)\b|保存冲突/.test(message)) {
-    return 'GitHub 正在更新收藏数据，已保留队列，请稍后再次同步';
+    return 'GitHub 正在更新收藏数据，已保留队列并自动重试';
   }
   if (/Failed to fetch|NetworkError|网络/.test(message)) {
     return '无法连接 GitHub，已保留队列，请检查网络后重试';
@@ -968,6 +973,12 @@ function formatGitHubError(error) {
 
 function waitForRetry(attempt) {
   return new Promise(resolve => setTimeout(resolve, 400 * (attempt + 1)));
+}
+
+async function schedulePrimaryRetry() {
+  const queue = await getQueue();
+  if (queue.length === 0) return;
+  await chrome.alarms.create(PRIMARY_RETRY_ALARM_NAME, { delayInMinutes: PRIMARY_RETRY_DELAY_MINUTES });
 }
 
 async function readGitHubCollections(token) {
@@ -1066,7 +1077,7 @@ async function mutateGitHubCollections(operation, item) {
     return { success: false, error: '提示词不完整、缺少结果图，或无法定位原帖，未收藏' };
   }
 
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < 8; attempt++) {
     const snapshot = await readGitHubCollections(token);
     const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
     const index = collections.findIndex(entry => entry.id === safeItem.id);
@@ -1113,7 +1124,7 @@ async function mutateGitHubCollections(operation, item) {
       if (releaseIds.length) await scheduleDomesticRelease(releaseIds);
       return { success: true, count: changed };
     } catch (error) {
-      if (!error.retryable || attempt === 2) throw error;
+      if (!error.retryable || attempt === 7) throw error;
       await waitForRetry(attempt);
     }
   }
@@ -1139,7 +1150,7 @@ async function syncQueueToGitHub(queue) {
   if (entries.length === 0) return { success: true, count: 0, skipped: 0, savedIds: [], existingIds: [] };
 
   const token = await getGitHubToken();
-  for (let attempt = 0; attempt < 5; attempt++) {
+  for (let attempt = 0; attempt < 8; attempt++) {
     const snapshot = await readGitHubCollections(token);
     const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
     const savedFingerprints = new Set(collections.map(collectionFingerprint));
@@ -1179,7 +1190,7 @@ async function syncQueueToGitHub(queue) {
         verifiedCount: verification.count
       };
     } catch (error) {
-      if (!error.retryable || attempt === 4) throw error;
+      if (!error.retryable || attempt === 7) throw error;
       await waitForRetry(attempt);
     }
   }
@@ -1214,6 +1225,9 @@ async function releaseDomesticCollections() {
 }
 
 chrome.alarms.onAlarm.addListener(alarm => {
+  if (alarm.name === PRIMARY_RETRY_ALARM_NAME) {
+    queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Primary retry failed:', error?.message || error));
+  }
   if (alarm.name === DOMESTIC_ALARM_NAME) releaseDomesticCollections();
 });
 

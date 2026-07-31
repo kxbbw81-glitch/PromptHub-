@@ -83,7 +83,9 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /outcome: 'already_exists'/);
   assert.match(background, /const result = await syncQueueToGitHub\(queueSnapshot\);/);
   assert.match(background, /await removeSyncedQueueItems\(queueSnapshot\);/);
-  assert.match(background, /for \(let attempt = 0; attempt < 5; attempt\+\+\)/);
+  assert.match(background, /for \(let attempt = 0; attempt < 8; attempt\+\+\)/);
+  assert.match(background, /const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';/);
+  assert.match(background, /async function schedulePrimaryRetry\(\)/);
   assert.match(background, /formatGitHubError\(error\)/);
   assert.match(popup, /action: 'addToQueue'/);
   assert.match(popup, /action: 'addItemsToQueue'/);
@@ -105,8 +107,8 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.13\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.13\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.14\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.14\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 

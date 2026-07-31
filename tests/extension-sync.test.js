@@ -9,8 +9,11 @@ const backgroundSource = fs.readFileSync(path.join(__dirname, '../extension/back
 
 function createHarness() {
   const storage = { prompthub_github_token: 'github_pat_test_token_with_write_permission' };
-  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawGetCalls: 0 };
+  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawGetCalls: 0, conflictOnce: false, alwaysConflict: false };
+  const alarms = [];
+  const alarmListeners = [];
   const event = { addListener() {} };
+  const alarmsEvent = { addListener(listener) { alarmListeners.push(listener); } };
   const local = {
     async get(keys) {
       if (typeof keys === 'string') return { [keys]: storage[keys] };
@@ -26,14 +29,17 @@ function createHarness() {
     TextEncoder,
     URL,
     console,
-    setTimeout,
+    setTimeout: (callback, ms) => setTimeout(callback, Math.min(Number(ms) || 0, 1)),
     clearTimeout,
     btoa: value => Buffer.from(value, 'binary').toString('base64'),
     atob: value => Buffer.from(value, 'base64').toString('binary'),
     importScripts() {},
     chrome: {
       action: { setBadgeText() {}, setBadgeBackgroundColor() {} },
-      alarms: { create: async () => {}, onAlarm: event },
+      alarms: {
+        create: async (name, options) => { alarms.push({ name, options }); },
+        onAlarm: alarmsEvent
+      },
       contextMenus: { create() {}, onClicked: event },
       runtime: { onInstalled: event, onMessage: event, onStartup: event },
       scripting: { executeScript: async () => [] },
@@ -43,6 +49,9 @@ function createHarness() {
     fetch: async (url, options = {}) => {
       if ((options.method || 'GET') === 'PUT') {
         remote.putCalls += 1;
+        if (remote.alwaysConflict || (remote.conflictOnce && remote.putCalls === 1)) {
+          return { ok: false, status: 409, json: async () => ({ message: 'conflict' }) };
+        }
         const body = JSON.parse(options.body);
         const decoded = Buffer.from(body.content, 'base64').toString('utf8');
         remote.collections = JSON.parse(decoded).collections;
@@ -65,7 +74,7 @@ function createHarness() {
 
   vm.createContext(context);
   vm.runInContext(backgroundSource, context);
-  return { context, remote, storage };
+  return { context, remote, storage, alarms, alarmListeners };
 }
 
 function prompt(id, body) {
@@ -175,4 +184,37 @@ test('falls back to raw GitHub collections when the contents API omits large fil
   assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
   assert.equal(remote.rawGetCalls >= 1, true);
   assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
+});
+
+test('GitHub save conflicts are retried against a fresh remote snapshot', async () => {
+  const { context, remote, storage } = createHarness();
+  remote.conflictOnce = true;
+  const first = prompt('conflict-retry', 'A precise commercial product photograph of a brushed steel kettle on a black stone counter, soft side lighting, subtle steam, realistic metal reflections, shallow depth of field, premium catalog styling, 85mm lens, photorealistic finish, no text, no logo, no watermark.');
+
+  const result = await context.addToQueue(first);
+
+  assert.equal(result.pendingVerification, true);
+  assert.equal((await waitForReceipt(context, 'conflict-retry')).outcome, 'saved');
+  assert.equal(remote.putCalls, 2);
+  assert.deepEqual(remote.collections.map(item => item.id), ['conflict-retry']);
+  assert.equal(storage.prompthub_queue, undefined);
+});
+
+test('repeated GitHub save conflicts keep the queue and schedule automatic retry', async () => {
+  const { context, remote, storage, alarms } = createHarness();
+  remote.alwaysConflict = true;
+  const first = prompt('conflict-queued', 'A cinematic e-commerce hero image of a transparent perfume bottle on wet black acrylic, controlled rim light, clean reflection, luxury cosmetics styling, realistic glass refraction, soft background gradient, 100mm lens, photorealistic finish, no text, no logo, no watermark.');
+
+  await context.addToQueue(first);
+  for (let attempt = 0; attempt < 30; attempt += 1) {
+    const receipt = await context.getCollectionReceipt('conflict-queued');
+    if (receipt?.state === 'failed') break;
+    await new Promise(resolve => setTimeout(resolve, 1));
+  }
+
+  const receipt = await context.getCollectionReceipt('conflict-queued');
+  assert.equal(receipt.state, 'failed');
+  assert.equal(receipt.error, 'GitHub 正在更新收藏数据，已保留队列并自动重试');
+  assert.equal(storage.prompthub_queue.length, 1);
+  assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
 });
