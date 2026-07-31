@@ -9,7 +9,7 @@ const backgroundSource = fs.readFileSync(path.join(__dirname, '../extension/back
 
 function createHarness() {
   const storage = { prompthub_github_token: 'github_pat_test_token_with_write_permission' };
-  const remote = { collections: [], putCalls: 0 };
+  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawGetCalls: 0 };
   const event = { addListener() {} };
   const local = {
     async get(keys) {
@@ -40,7 +40,7 @@ function createHarness() {
       storage: { local },
       tabs: { create: async () => ({}), query: async () => [], update: async () => ({}) }
     },
-    fetch: async (_url, options = {}) => {
+    fetch: async (url, options = {}) => {
       if ((options.method || 'GET') === 'PUT') {
         remote.putCalls += 1;
         const body = JSON.parse(options.body);
@@ -48,8 +48,18 @@ function createHarness() {
         remote.collections = JSON.parse(decoded).collections;
         return { ok: true, status: 200, json: async () => ({}) };
       }
+      if (String(url).includes('raw.githubusercontent.com')) {
+        remote.rawGetCalls += 1;
+        return { ok: true, status: 200, text: async () => JSON.stringify({ collections: remote.collections }) };
+      }
       const content = Buffer.from(JSON.stringify({ collections: remote.collections }), 'utf8').toString('base64');
-      return { ok: true, status: 200, json: async () => ({ sha: 'test-sha', content }) };
+      return {
+        ok: true,
+        status: 200,
+        json: async () => remote.omitApiContent
+          ? { sha: 'test-sha', encoding: 'none' }
+          : { sha: 'test-sha', content }
+      };
     }
   };
 
@@ -151,4 +161,18 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   assert.equal(rejected.success, false);
   assert.deepEqual(remote.collections.map(item => item.id), ['complete']);
   assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
+});
+
+test('falls back to raw GitHub collections when the contents API omits large file content', async () => {
+  const { context, remote } = createHarness();
+  remote.omitApiContent = true;
+  remote.collections = [prompt('existing-large-file', 'A cinematic portrait of an adult woman beside a large window, soft natural light, realistic skin texture, tailored coat, warm neutral interior, 85mm lens, shallow depth of field, editorial photography, photorealistic finish, no text, no watermark.')];
+  const next = prompt('raw-fallback-new', 'A premium product photograph of a matte black ceramic cup on a stone table, warm side light, soft steam, subtle reflection, minimalist styling, 85mm lens, shallow depth of field, high-end commercial photography, realistic texture, no text, no logo, no watermark.');
+
+  const result = await context.addToQueue(next);
+
+  assert.equal(result.pendingVerification, true);
+  assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
+  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
 });

@@ -10,6 +10,7 @@ const QUEUE_KEY = 'prompthub_queue';
 const CF_SYNC_DELAY_MINUTES = 30;
 const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
+const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
 const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
 const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
 const RECEIPT_KEY = 'prompthub_collection_receipts';
@@ -978,11 +979,23 @@ async function readGitHubCollections(token) {
   if (!response.ok) throw new Error(`GitHub 读取失败 (${response.status})`);
 
   const payload = await response.json();
-  try {
-    const content = JSON.parse(decodeBase64Utf8(payload.content));
+  const parseCollectionsPayload = text => {
+    const content = JSON.parse(text);
     const collections = Array.isArray(content) ? content : content.collections;
-    return { sha: payload.sha || '', collections: Array.isArray(collections) ? collections : [] };
-  } catch {
+    return Array.isArray(collections) ? collections : [];
+  };
+
+  try {
+    if (typeof payload.content === 'string' && payload.content.trim()) {
+      return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(payload.content)) };
+    }
+
+    const rawUrl = payload.download_url || `${GITHUB_COLLECTIONS_RAW}?_=${Date.now()}`;
+    const rawResponse = await fetch(rawUrl, { headers: { Accept: 'application/json' } });
+    if (!rawResponse.ok) throw new Error(`GitHub raw 读取失败 (${rawResponse.status})`);
+    return { sha: payload.sha || '', collections: parseCollectionsPayload(await rawResponse.text()) };
+  } catch (error) {
+    console.warn('[PromptHub] GitHub collections parse failed:', error?.message || error);
     throw new Error('GitHub 收藏数据格式错误');
   }
 }
