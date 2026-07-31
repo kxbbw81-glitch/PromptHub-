@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T14:03:11.226Z",
+  "updatedAt": "2026-07-31T14:03:41.034Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms90jfj4_4r91",
+      "image": "https://pbs.twimg.com/media/HGXOoEMaAAU8itf?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGXOoEMaAAU8itf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HGVkD6bbMAA_sZD?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Collage Portrait looks awesome by GPT-Image-2 \n\n---prompt---\n9:16 vertical — Korean idol portrait photoshoot, 3x3 grid (nine frames), same person in all images, consistent facial features and styling.\n\nsoft black mist filter effect, lowered contrast, blooming highlights, subtle glow around light sources, slightly faded blacks\n\nnatural indoor setting near window, white curtains, clean wall background\n\nyoung Korean female idol, minimal makeup, soft realistic skin texture, slight imperfections\n\noutfit: white shirt + shorts, simple and relaxed styling\n\nhair: long dark hair, slightly messy, naturally flowing\n\nposes vary across nine frames: standing, slight movement, seated, looking away, close-up, over-shoulder glance, candid transitions\n\nlighting: diffused daylight, soft shadows, gentle highlight bloom\n\nmood: quiet, intimate, everyday poetic moment, photobook aesthetic\n\nquality: ultra-realistic, subtle film grain, soft focus edges, dreamy atmosphere",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGXOoEMaAAU8itf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HGVkD6bbMAA_sZD?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2046268941941850575",
+      "tags": [
+        "dark",
+        "dreamy"
+      ],
+      "timestamp": 1785506617696,
+      "title": "Collage Portrait looks awesome by GPT-Image-2",
+      "url": "https://x.com/BubbleBrain/status/2046268941941850575",
+      "collectedAt": "2026-07-31T14:03:41.033Z",
+      "githubSyncedAt": "2026-07-31T14:03:41.033Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
