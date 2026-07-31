@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T11:50:35.638Z",
+  "updatedAt": "2026-07-31T11:52:08.509Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vuabg_gwr0",
+      "image": "https://pbs.twimg.com/media/HI10MVTWoAAYDDP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HI10MVTWoAAYDDP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "2x2 four-panel editorial grid, Korean high-fashion magazine style, single female subject. Seamless white studio backdrop, soft diffused lighting, cool undertones.\n\nSTYLING: Oversized structured blazer in dusty mauve-grey over fitted pale ivory ribbed tank. High-waisted black skinny jeans, slim tapered. Sheer skin-tone stockings visible at ankle over jeans. Black or burgundy patent leather loafers or low-heel pumps. Minimal accessories.\n\nMAKEUP: Dewy skin-like foundation, micro-luminosity. Grey-brown and pale lavender-pink blended shadow, smudged lower lash line, subtle reddened under-eye. Cool-toned pink blush. Nude dusty mauve lips, slightly parted. Visible pores, faint freckles, no heavy retouching.\n\nHAIR: Slightly undone, loose flyaways, soft movement, editorial disheveled.\n\nPANELS:\n\nTL: Full body, seated on white floor/cube, long shot, full outfit visible, legs extended or loosely crossed, cold expression\n\nTR: Extreme face close-up forehead-to-chin, sharp lashes, visible pores, flyaways across face\n\nBL: Waist-up seated, hands in lap, downward gaze, blazer off one shoulder, blank ethereal expression\n\nBR: Extreme close-up lower face and eyes, lips parted, under-eye redness, one hair strand across nose bridge\n\nMOOD: Cold, melancholic, emotionally detached. W Korea / Vogue Korea / CELINE / ACNE Studios aesthetic. Slightly sick, slightly sad, completely beautiful. Ultra-realistic, 8K, medium format film, Hasselblad quality, real skin, no AI smoothing.\n\n--ar 1:1 --style raw --v 6.1\n\nTry Yourself Here",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HI10MVTWoAAYDDP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/doctorwasif/status/2057428364642914698",
+      "tags": [
+        "8k"
+      ],
+      "timestamp": 1785498726076,
+      "title": "韩系人像",
+      "url": "https://x.com/doctorwasif/status/2057428364642914698",
+      "collectedAt": "2026-07-31T11:52:08.508Z",
+      "githubSyncedAt": "2026-07-31T11:52:08.508Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "静物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vuabe_ewyp",
+      "image": "https://pbs.twimg.com/media/HJII2eCaoAAxf_f?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJII2eCaoAAxf_f?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eYaEAERjhB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eTasAA0Zw_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2f4bwAAxIm6?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成一张竖版真实手机随拍风格照片，画面中是一位20多岁成年东亚女性，正在温暖的室内餐桌旁摆放晚餐。她身体微微前倾，双手自然伸向木质餐桌，低头看着餐盘，表情安静专注，气质温柔自然。她留着深棕色或黑茶色头发，松散低盘发，额前有自然碎刘海，脸侧垂落几缕发丝，带有真实生活中的微微凌乱感。妆容自然清淡，柔和眼妆，轻微腮红，粉棕色或玫瑰色唇妆，皮肤在暖色室内灯光下呈现自然红润感。\n她穿着白色棉质短袖居家连衣裙，柔软棉麻材质，轻微V领或自然圆领，腰部自然收束，裙摆柔和垂落，布料有真实褶皱和自然纹理，整体干净、温柔、生活化。画面前景是木质餐桌，上面有白色餐盘、米饭碗、沙拉、炸物、小番茄、饮料杯等日常晚餐物件。背景是开放式厨房，有木架、碗碟、玻璃杯、调料瓶和小花瓶，环境略微杂乱但温馨真实。\n摄影风格为竖版手机生活记录照，轻微俯拍视角，中近景构图，手持拍摄感，画面有一点不完美的随拍感。暖色室内灯光，柔和环境光，桌面有自然反光，背景稍暗，主体被温柔照亮。真实手机HDR，轻微暗部噪点，柔和焦点，自然皮肤质感，自然布料褶皱，日系居家生活感，温暖、安静、真实、精致但不刻意摆拍。\n负面词：露骨裸露，色情构图，身体局部特写，过度强调胸部，夸张低角度，恋物化姿势，未成年感，学生服元素，塑料AI皮肤，过度磨皮，手指畸形，多余手指，身体比例错误，文字，水印，logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJII2eCaoAAxf_f?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eYaEAERjhB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eTasAA0Zw_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2f4bwAAxIm6?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaqingfeng666/status/2058717715276378607",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785498726074,
+      "title": "生成一张竖版真实手机随拍风格照片",
+      "url": "https://x.com/xiaqingfeng666/status/2058717715276378607",
+      "collectedAt": "2026-07-31T11:52:08.508Z",
+      "githubSyncedAt": "2026-07-31T11:52:08.508Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
