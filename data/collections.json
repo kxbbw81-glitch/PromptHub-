@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T13:13:45.543Z",
+  "updatedAt": "2026-07-31T13:20:12.851Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8yzey4_all7",
+      "image": "https://pbs.twimg.com/media/HHxrGqwaEAA5P6H?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHxrGqwaEAA5P6H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHxrl6ZboAAS06D?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHxswsHakAATZuw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "商业领袖杂志封面.\n---\nPrompt:\n\nLuxury commercial magazine cover, title \"BUSINESSS\",\n\nfeaturing a high-end portrait of [人物：asian model / business man / athlete / influencer],\n\nultra premium editorial photography, cinematic lighting, soft shadows,\n\nminimalist composition with  x.com/aidavid125/sta…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHxrGqwaEAA5P6H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHxrl6ZboAAS06D?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHxswsHakAATZuw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/aidavid125/status/2052635450444251615",
+      "tags": [
+        "cinematic",
+        "minimalist"
+      ],
+      "timestamp": 1785504004204,
+      "title": "商业领袖杂志封面.",
+      "url": "https://x.com/aidavid125/status/2052635450444251615",
+      "collectedAt": "2026-07-31T13:20:12.851Z",
+      "githubSyncedAt": "2026-07-31T13:20:12.851Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
