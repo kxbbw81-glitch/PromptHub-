@@ -1,7 +1,989 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:43:29.211Z",
+  "updatedAt": "2026-07-31T11:54:40.801Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vxktw_64dd",
+      "image": "https://pbs.twimg.com/media/HIw7oVZbYAAf8xN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIw7oVZbYAAf8xN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7oX8aQAA8iZH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plHaIAAUs_y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plFbkAAuqLM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Grok Imagine Prompt :\nThe image shows an seductive stunning & beautiful 20-year-old Japanese or Korean woman, tall elegant fashion model body with balanced feminine curves, gently defined waist, natural body lines, graceful elongated torso-to-leg ratio, long shapely legs, toned refined silhouette, polished high-fashion proportions under properly worn clothing, looking away from the camera into the distance, thoughtful expression, reflective mood, quiet inward attention, standing pose with loosely crossed arms, relaxed closed posture, cool composed body language. Wardrobe details: white triangle bikini top, slim halter strings, minimal sliding triangle cups, smooth stretch swim fabric, clean beachwear styling, tight body-skimming fit, worn in a standard natural position, black low-rise jeans, casual denim silhouette, exposed waist styling, ultra-low-rise waist placement, tight body-skimming line, dark blue pointed-toe stiletto heels, sleek feminine silhouette, sharp elegant leg line, top length extending below the low-rise waistband, abdomen covered, not cropped into an unintended midriff reveal. The setting is Kowloon Walled City appliance shop wall, exposed conduits, old electrical boxes, peeling tiles, hanging shop signs, compressed alley edge, saturated clear blue sky, deeper vivid azure tone, brilliant clean white clouds, high-clarity daylight, open airy distance, crisp blue-and-white daytime atmosphere, back-side light, diagonal rear illumination, soft rim edges, cinematic subject separation. The composition uses full body shot, full-length figure framing, wide framing, environmental scale, complete lower-body visibility, hip-level camera height, camera positioned around the subject's waist or hip line, subtle low perspective, grounded fashion portrait viewpoint, front-facing camera position, straight-on subject view, symmetrical subject orientation, shot on 50mm lens, shallow depth of field, softly blurred background, gentle subject separation. Spacious documentary image language. spacious documentary portraiture, soft natural light, understated storytelling, calm emotional distance, open roadside stillness, Hasselblad medium format image, extreme ultra-high resolution, medium format organic depth, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIw7oVZbYAAf8xN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7oX8aQAA8iZH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plHaIAAUs_y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIw7plFbkAAuqLM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2057085608913256940",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1785498879668,
+      "title": "韩系人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2057085608913256940",
+      "collectedAt": "2026-07-31T11:54:40.801Z",
+      "githubSyncedAt": "2026-07-31T11:54:40.801Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vx0tf_ipia",
+      "image": "https://pbs.twimg.com/media/HIxjs1JasAAPP8P?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIxjs1JasAAPP8P?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic late-night izakaya snapshot, Japanese negative film aesthetic, direct on-camera flash photography, Ricoh GR III / disposable film camera feeling, casual city-girl diary vibe, slightly awkward candid framing, rule-of-thirds composition with the subject positioned on the left side of the frame, subtle motion blur, imperfect handheld angle, random beautiful imperfection, realistic skin texture, visible film grain, low contrast shadows mixed with harsh flash highlights.\n\nA beautiful young adult Chinese woman with cool porcelain fair skin, refined delicate bone structure, modern internet-girl facial features, long flowing black hair slightly messy from the night air, translucent natural base makeup, glossy nude lips, subtle eyeliner, clean “web celebrity” makeup aesthetic, relaxed playful expression. She stands outside a small Japanese izakaya at night, beside warm wooden sliding doors, red paper lanterns, handwritten menu boards, noren curtains, beer crates, and narrow alley details.\n\nShe wears a fitted white off-shoulder top exposing one shoulder naturally, paired with dark tight denim shorts, simple silver earrings, and minimal accessories. She casually faces the camera and makes a playful “yeah / V-sign” gesture near her face, slightly leaning forward with a soft teasing smile, as if caught mid-moment by a friend after dinner.\n\nThe direct flash creates bright highlights on her face, shoulders, hair strands, and white top, while the izakaya background falls into warm dim shadows. Warm tungsten lantern light mixes with cold flash, creating a nostalgic night-film atmosphere, muted colors, slight overexposure on skin and fabric, deep but soft shadow edges, glossy reflections on the alley pavement, authentic Tokyo backstreet mood, candid flash snapshot, not studio-lit, not overly posed, premium yet imperfect film realism.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIxjs1JasAAPP8P?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2057128769828409543",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785498853731,
+      "title": "东方人像",
+      "url": "https://x.com/BubbleBrain/status/2057128769828409543",
+      "collectedAt": "2026-07-31T11:54:15.134Z",
+      "githubSyncedAt": "2026-07-31T11:54:15.134Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vx0te_3icx",
+      "image": "https://pbs.twimg.com/media/HIxOCM_XgAAoE92?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HIxOCM_XgAAoE92?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIxOCQmWAAA3FFP?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "A young East Asian person with striking facial features and an intense, confident gaze, wearing an oversized black blazer over an open-collar white dress shirt with a loosely knotted red diagonal-striped tie worn undone. Relaxed power stance, hands in pockets or at sides, slight three-quarter body angle. Studio portrait shot against a deep crimson-to-burgundy textured background. Dramatic split lighting with a bold red gel light raking across one side of the face, deep shadow falling on the opposite side, warm amber rim light defining the jawline and shoulders. High-contrast chiaroscuro lighting. Cinematic editorial fashion photography. Shallow depth of field, subject in sharp focus against softly rendered background. Moody, brooding, mysterious atmosphere. Film grain texture. 4K ultra-detailed.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIxOCM_XgAAoE92?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HIxOCQmWAAA3FFP?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/doctorwasif/status/2057104934005264389",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785498853730,
+      "title": "东方人像",
+      "url": "https://x.com/doctorwasif/status/2057104934005264389",
+      "collectedAt": "2026-07-31T11:54:15.134Z",
+      "githubSyncedAt": "2026-07-31T11:54:15.134Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vwjyv_wphx",
+      "image": "https://pbs.twimg.com/media/HIvg2Q-a0AASQuR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIvg2Q-a0AASQuR?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Primary request: Create a photorealistic image of a fictional adult Korean female idol in her mid-20s, not resembling any real celebrity, with a poised but private fashion portrait mood.\n\nScene/backdrop: a small coastal weather station platform, concrete steps, pale instrument boxes, a simple wind vane, thin sea fog, soft clouds, no readable labels.\n\nSubject/clothing/pose: she wears a silver-grey windbreaker over a cream knit top, a pleated charcoal midi skirt over opaque tights, and minimal white sneakers. She sits on the concrete step with one knee raised and one foot lower, holding the string of a small matte white weather balloon just out of frame while her other hand steadies against the step. Hair moves gently in the wind; expression distant, lips relaxed.\n\nStyle/medium: Japanese negative film aesthetic, soft natural coastal light, slight overexposed fog highlights, low contrast, muted faded colors, subtle grain, imperfect composition, memory-like realism.\n\nConstraints: adult subject, tasteful non-explicit fashion portrait, no nudity, no minors, no logos, no readable text, no watermark.\n\nAvoid: rooftop, cold bottle, plastic bag, white oversized shirt, shorts, dramatic sci-fi lab look, real celebrity likeness.\n\n--ar 9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIvg2Q-a0AASQuR?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2056985084801220760",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785498831895,
+      "title": "韩系人像",
+      "url": "https://x.com/BubbleBrain/status/2056985084801220760",
+      "collectedAt": "2026-07-31T11:53:53.067Z",
+      "githubSyncedAt": "2026-07-31T11:53:53.067Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vwjyu_xhbt",
+      "image": "https://pbs.twimg.com/media/HIx5MrrbYAEHgSU?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIx5MrrbYAEHgSU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5MtcakAA5lZn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5NBpbkAA9SEH?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Ultra realistic full body fashion portrait of Ana de Armas standing elegantly inside a luxurious Parisian apartment with white classic wall panels, marble fireplace, golden wall candle holder, soft natural daylight from tall windows, wearing a tight black mini dress with thin straps, sheer black stockings, black high heels, long black opera gloves, gold bracelets, pearl necklace, wavy brunette hair, confident cinematic pose, high fashion editorial photography, luxury aesthetic, soft shadows, detailed skin texture, photorealistic, shallow depth of field, 85mm lens, Vogue magazine style, clean composition, elegant and sophisticated atmosphere\",\n\n\"negative_prompt\": \"low quality, blurry, distorted anatomy, extra fingers, bad hands, cropped feet, duplicate body parts, cartoon, anime, overexposed, oversaturated, messy background, watermark, text, logo\",\n\n\"settings\": {\n\n\"aspect_ratio\": \"2:3\",\n\n\"resolution\": \"1024x1536\",\n\n\"steps\": 35,\n\n\"cfg_scale\": 7.5,\n\n\"sampler\": \"DPM++ 2M Karras\",\n\n\"style\": \"cinematic fashion editorial\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIx5MrrbYAEHgSU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5MtcakAA5lZn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIx5NBpbkAA9SEH?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Strength04_X/status/2057152444615073822",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime"
+      ],
+      "timestamp": 1785498831894,
+      "title": "品牌视觉",
+      "url": "https://x.com/Strength04_X/status/2057152444615073822",
+      "collectedAt": "2026-07-31T11:53:53.067Z",
+      "githubSyncedAt": "2026-07-31T11:53:53.067Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "动物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vvcxj_p0gm",
+      "image": "https://pbs.twimg.com/media/HIqTXzdW0AAz9jK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIqTXzdW0AAz9jK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYBiXEAAb-xs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYQCXUAEaazd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYltWoAIzuLu?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"style\": \"Photorealistic fashion photography\",\n\n\"subject\": {\n\n\"name\": \"[NAME]\",\n\n\"features\": \"Slender, curvy, and fit physique, subtle makeup, pale pink lips, teal teardrop dangle earrings\",\n\n\"pose\": \"Sitting on the floor with her back to the camera, legs bent upward, looking back softly over her right shoulder with a neutral expression\"\n\n\"clothing\": {\n\n\"top\": \"Light-blue ribbed long-sleeve cropped top with an open back and crisscross tie details\",\n\n\"bottom\": \"Slim-fit light-blue jeans\",\n\n\"shoes\": \"Black patent leather stiletto high heels with ankle straps\"\n\n\"environment\": {\n\n\"setting\": \"Seamless light-gray studio background, minimal and distraction-free\",\n\n\"lighting\": \"Soft, diffused studio lighting, delicate highlights on hair and skin, subtle shadows emphasizing fabric textures\"\n\n\"technical\": {\n\n\"framing\": \"Medium shot, positioned slightly low to emphasize the seated pose\",\n\n\"quality\": \"Highly detailed, sharp focus, 8k resolution, professional studio quality\",\n\n\"aspect_ratio\": \"9:16\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIqTXzdW0AAz9jK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYBiXEAAb-xs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYQCXUAEaazd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIqTYltWoAIzuLu?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Giulia_4i/status/2056782107993604313",
+      "tags": [
+        "photorealistic",
+        "studio lighting",
+        "8k"
+      ],
+      "timestamp": 1785498776120,
+      "title": "时尚人像",
+      "url": "https://x.com/Giulia_4i/status/2056782107993604313",
+      "collectedAt": "2026-07-31T11:52:57.465Z",
+      "githubSyncedAt": "2026-07-31T11:52:57.465Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "1:1",
+      "category": "时尚",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vuabg_gwr0",
+      "image": "https://pbs.twimg.com/media/HI10MVTWoAAYDDP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HI10MVTWoAAYDDP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "2x2 four-panel editorial grid, Korean high-fashion magazine style, single female subject. Seamless white studio backdrop, soft diffused lighting, cool undertones.\n\nSTYLING: Oversized structured blazer in dusty mauve-grey over fitted pale ivory ribbed tank. High-waisted black skinny jeans, slim tapered. Sheer skin-tone stockings visible at ankle over jeans. Black or burgundy patent leather loafers or low-heel pumps. Minimal accessories.\n\nMAKEUP: Dewy skin-like foundation, micro-luminosity. Grey-brown and pale lavender-pink blended shadow, smudged lower lash line, subtle reddened under-eye. Cool-toned pink blush. Nude dusty mauve lips, slightly parted. Visible pores, faint freckles, no heavy retouching.\n\nHAIR: Slightly undone, loose flyaways, soft movement, editorial disheveled.\n\nPANELS:\n\nTL: Full body, seated on white floor/cube, long shot, full outfit visible, legs extended or loosely crossed, cold expression\n\nTR: Extreme face close-up forehead-to-chin, sharp lashes, visible pores, flyaways across face\n\nBL: Waist-up seated, hands in lap, downward gaze, blazer off one shoulder, blank ethereal expression\n\nBR: Extreme close-up lower face and eyes, lips parted, under-eye redness, one hair strand across nose bridge\n\nMOOD: Cold, melancholic, emotionally detached. W Korea / Vogue Korea / CELINE / ACNE Studios aesthetic. Slightly sick, slightly sad, completely beautiful. Ultra-realistic, 8K, medium format film, Hasselblad quality, real skin, no AI smoothing.\n\n--ar 1:1 --style raw --v 6.1\n\nTry Yourself Here",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HI10MVTWoAAYDDP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/doctorwasif/status/2057428364642914698",
+      "tags": [
+        "8k"
+      ],
+      "timestamp": 1785498726076,
+      "title": "韩系人像",
+      "url": "https://x.com/doctorwasif/status/2057428364642914698",
+      "collectedAt": "2026-07-31T11:52:08.508Z",
+      "githubSyncedAt": "2026-07-31T11:52:08.508Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "静物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vuabe_ewyp",
+      "image": "https://pbs.twimg.com/media/HJII2eCaoAAxf_f?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJII2eCaoAAxf_f?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eYaEAERjhB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eTasAA0Zw_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2f4bwAAxIm6?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成一张竖版真实手机随拍风格照片，画面中是一位20多岁成年东亚女性，正在温暖的室内餐桌旁摆放晚餐。她身体微微前倾，双手自然伸向木质餐桌，低头看着餐盘，表情安静专注，气质温柔自然。她留着深棕色或黑茶色头发，松散低盘发，额前有自然碎刘海，脸侧垂落几缕发丝，带有真实生活中的微微凌乱感。妆容自然清淡，柔和眼妆，轻微腮红，粉棕色或玫瑰色唇妆，皮肤在暖色室内灯光下呈现自然红润感。\n她穿着白色棉质短袖居家连衣裙，柔软棉麻材质，轻微V领或自然圆领，腰部自然收束，裙摆柔和垂落，布料有真实褶皱和自然纹理，整体干净、温柔、生活化。画面前景是木质餐桌，上面有白色餐盘、米饭碗、沙拉、炸物、小番茄、饮料杯等日常晚餐物件。背景是开放式厨房，有木架、碗碟、玻璃杯、调料瓶和小花瓶，环境略微杂乱但温馨真实。\n摄影风格为竖版手机生活记录照，轻微俯拍视角，中近景构图，手持拍摄感，画面有一点不完美的随拍感。暖色室内灯光，柔和环境光，桌面有自然反光，背景稍暗，主体被温柔照亮。真实手机HDR，轻微暗部噪点，柔和焦点，自然皮肤质感，自然布料褶皱，日系居家生活感，温暖、安静、真实、精致但不刻意摆拍。\n负面词：露骨裸露，色情构图，身体局部特写，过度强调胸部，夸张低角度，恋物化姿势，未成年感，学生服元素，塑料AI皮肤，过度磨皮，手指畸形，多余手指，身体比例错误，文字，水印，logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJII2eCaoAAxf_f?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eYaEAERjhB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2eTasAA0Zw_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJII2f4bwAAxIm6?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaqingfeng666/status/2058717715276378607",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785498726074,
+      "title": "生成一张竖版真实手机随拍风格照片",
+      "url": "https://x.com/xiaqingfeng666/status/2058717715276378607",
+      "collectedAt": "2026-07-31T11:52:08.508Z",
+      "githubSyncedAt": "2026-07-31T11:52:08.508Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vsafl_ct8v",
+      "image": "https://pbs.twimg.com/media/HOcwb-xb0AAkikE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcwb-xb0AAkikE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-5bAAEgjGA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-2boAAT1zN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb_XaMAABUdQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A realistic full-body portrait of a beautiful young Indonesian high school girl, approximately 16-17 years old, standing confidently in a classroom. She has long straight black hair falling past her shoulders with soft bangs framing her face, fair skin, gentle",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcwb-xb0AAkikE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-5bAAEgjGA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb-2boAAT1zN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOcwb_XaMAABUdQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2082949358035796310",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785498632913,
+      "title": "写真人像",
+      "url": "https://x.com/woleswoosh/status/2082949358035796310",
+      "collectedAt": "2026-07-31T11:50:35.638Z",
+      "githubSyncedAt": "2026-07-31T11:50:35.638Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "动物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vsafj_4ft1",
+      "image": "https://pbs.twimg.com/media/HOfbWCxboAAUGRP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOfbWCxboAAUGRP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbW2wasAAbOZg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbXeibQAAkEnj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbYNWbAAAikdt?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "There's something timeless about aviation-inspired fashion.\nCrisp tailoring, monochrome palettes, polished details, and structured silhouettes create a look that's both sophisticated and effortlessly confident.\nThis editorial reimagines those classic elements through a contemporary fashion lens, blending luxury, precision, and cinematic atmosphere into every frame.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOfbWCxboAAUGRP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbW2wasAAbOZg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbXeibQAAkEnj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOfbYNWbAAAikdt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/bennsonphilip/status/2082874571351576595",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785498632911,
+      "title": "时尚人像",
+      "url": "https://x.com/bennsonphilip/status/2082874571351576595",
+      "collectedAt": "2026-07-31T11:50:35.638Z",
+      "githubSyncedAt": "2026-07-31T11:50:35.638Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vsafi_hvts",
+      "image": "https://pbs.twimg.com/media/HOW8vBSawAAghM5?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOW8vBSawAAghM5?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图·镜头：\n纵向构图3:4，从靠近地板的低角度位置略微仰视拍摄室内生活方式肖像。脸部置于左上三分之一处，胸口在中央，白色短裤在右中央，前侧明亮的大腿和叠放的膝盖占据下半部分的较大面积。人物占据画面约四分之三，右臂部分、双脚尖、前景的摄影集在画面边缘自然截断。瞳孔和脸部作为最清晰的焦点，保留头发、服装、前侧腿部和摊开摄影集的细节。后方的观叶植物、书架、窗户以浅景深平滑虚化。采用标准焦段的镜头感，为前侧腿部赋予自然的透视感，避免极端广角畸变。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOW8vBSawAAghM5?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2083075184840655010",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785498632910,
+      "title": "AIart #AI写真 #おうち時間",
+      "url": "https://x.com/CyberTotal2026/status/2083075184840655010",
+      "collectedAt": "2026-07-31T11:50:35.638Z",
+      "githubSyncedAt": "2026-07-31T11:50:35.638Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw3_xq0l",
+      "image": "https://pbs.twimg.com/media/HOetWJ_b0AAikfk?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HOetWJ_b0AAikfk?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HOetgXTaYAAwSqu?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "A beautiful young East Asian woman standing on a lively city street at night, wearing a fitted white spaghetti-strap mini dress with a ruffled hem and carrying a cream shoulder bag. She is laughing joyfully with her eyes closed, head tilted back slightly, leaning forward in a playful pose. Long, silky black hair flowing naturally in the wind. Warm cinematic streetlights, glowing bokeh, motion-blurred scooter passing behind her, wet pavement reflecting city lights, soft orange and golden tones, shallow depth of field, candid street photography, dreamy atmosphere, ultra-realistic, natural skin texture, 85mm lens, f/1.8, high detail, photorealistic, 8K, HDR, masterpiece.\n\nNegative Prompt: blurry face, low quality, bad anatomy, extra fingers, deformed hands, duplicate body, oversaturated, cartoon, CGI, watermark, text, logo, noise, distorted face, unnatural lighting, low resolution.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOetWJ_b0AAikfk?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/HOetgXTaYAAwSqu?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2082824221328355565",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dreamy",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1785498598515,
+      "title": "东方人像",
+      "url": "https://x.com/MissDelulu9/status/2082824221328355565",
+      "collectedAt": "2026-07-31T11:50:14.136Z",
+      "githubSyncedAt": "2026-07-31T11:50:14.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw2_k6nk",
+      "image": "https://pbs.twimg.com/media/HOimidxb0AAUKlu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOimidxb0AAUKlu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhSiqOa8AAjJ2u?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2提示词：\n生成一张竖版 9:16 高清真实摄影人像，主题为真实世界的世界杯足球宝贝，整体风格甜酷、会拍、极具短视频\n封面感。近距离手机拍摄视角，低机位轻微仰拍，人物自然前探，一只手轻轻拉住袖口靠近镜头，另一只手放在\n大腿侧，形成自然前景。头部歪向一侧，下巴略扬，眼神自然向下看镜头，嘴角带甜甜笑意。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOimidxb0AAUKlu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhSiqOa8AAjJ2u?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083098019399074102",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785498598514,
+      "title": "足球宝贝",
+      "url": "https://x.com/Mrpinecone888/status/2083098019399074102",
+      "collectedAt": "2026-07-31T11:50:14.136Z",
+      "githubSyncedAt": "2026-07-31T11:50:14.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw2_hy8a",
+      "image": "https://pbs.twimg.com/media/HOh_jqbWAAAxaDr?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOh_jqbWAAAxaDr?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "绝美23岁东亚美女，身材匀称丰满，胸部自然丰满（约D至E杯视觉效果），腰部纤细，臀腿比例协调，曲线柔和自然，气质时尚、自信、温柔。酒店套房＋大提琴＋丝质睡裙风格，孔雀墨绿色丝质短睡裙，挂脖低领与贴身收腰剪裁清冷利落，裙身顺滑垂落，缎感面料高级细腻。\n\n清冷柔亮妆容，浅橄榄棕与香槟米色眼妆，玫瑰奶茶色唇妆，黑茶色低盘发，银绿色宝石耳钉与纤细脚链。\n\n她正面站在通向露台的玻璃门前，左手扶住身侧的大提琴琴颈，右手将琴弓缓缓收回身前，脸自然转向镜头露出清晰明净的表情。背景有半开的纱帘、米色长沙发、大理石边几、露台夜灯与远处模糊海景，氛围摩登安静又带演奏结束后的余韵感。\n\n50mm人像摄影，人物正面环境人像构图，面部清晰可见，大光圈浅景深，奶油散景，真实皮肤质感，柔和室内灯光与露台夜色交织，高级室内电影感写真，ultra realistic, masterpiece, best quality。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOh_jqbWAAAxaDr?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2083055088755478700",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785498598514,
+      "title": "东方人像",
+      "url": "https://x.com/sdjn_wgc/status/2083055088755478700",
+      "collectedAt": "2026-07-31T11:50:14.136Z",
+      "githubSyncedAt": "2026-07-31T11:50:14.136Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8vrjw1_bhjw",
+      "image": "https://pbs.twimg.com/media/HObymLlWsAA4iu6?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObymLlWsAA4iu6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLZWcAA1J9H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLVWgAEc3MW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLWW8AABPOA?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位20多岁的年轻成年东亚女性站在海边度假村的露天石质淋浴区，画面从头顶拍至大腿上部。人物位于中央略偏右，身体以侧面朝向画面右侧，腰背自然挺直，双臂抬高至头顶上方，双手在水流下轻轻合拢，手指自然清晰。肩膀放松，腰部形成柔和曲线。她转头越过左肩看向镜头，露出自然明亮的微笑，眼神轻松、亲切、带有度假时的愉悦感。\n\n她拥有精致柔和的鹅蛋脸、杏仁形深棕眼睛、自然细眉、纤细鼻梁和水润浅粉色嘴唇。妆容清新自然，带柔和粉色腮红、细眼线和自然睫毛。肤色白皙偏暖，脸部、肩背、手臂和腰侧布满真实细小水珠，保留毛孔、绒毛、自然肤色变化和湿润高光，不要塑料磨皮。\n\n深棕色长发完全湿润，松散向后披落至肩胛下方，额前有轻薄湿刘海，脸侧和颈部有几缕湿发贴附，发尾自然成束。她穿浅粉色与奶油白云纹或大理石纹三角比基尼，上衣为细挂脖肩带、背后系带结构；下身为同花色低腰侧系带泳裤，右侧蝴蝶结清晰自然。面料哑光、完全不透明，无品牌标识。\n\n画面右上方可见密集淋浴水线从喷头落下，水滴在逆光中清晰悬停；左侧为浅米色粗糙天然石柱。背景是热带海滩度假村，虚化的碧蓝海水、浅色沙滩、棕榈树和木质躺椅。明亮午后阳光从画面右前方照射，形成清透侧光与轻微逆光，勾亮湿发、水滴、肩膀和手臂边缘。整体清新、低饱和、柔和暖调。\n\n摄影风格：85mm镜头，f/2.8，平视略低机位，中浅景深，面部、水珠、双手和泳装纹理清晰，背景奶油化虚化，1/1000秒凝固水滴，ISO200，真实皮肤次表面散射，细腻胶片颗粒，luxury tropical resort swimwear editorial，photorealistic。\n\n避免：未成年人特征、裸体、露点、透明泳装、夸张身材、色情姿势、错误手指、融合手臂、畸形肩颈、静止假水滴、干燥头发、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱游客、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObymLlWsAA4iu6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLZWcAA1J9H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLVWgAEc3MW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObymLWW8AABPOA?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082979556651098223",
+      "tags": [
+        "photorealistic",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785498598513,
+      "title": "品牌视觉",
+      "url": "https://x.com/ToroJushiAi/status/2082979556651098223",
+      "collectedAt": "2026-07-31T11:50:03.542Z",
+      "githubSyncedAt": "2026-07-31T11:50:03.542Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn074_efx9",
+      "image": "https://pbs.twimg.com/media/HOio5jEbUAAMZWG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOio5jEbUAAMZWG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOio6BeawAAdBKf?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Trend 737\nStay with me, nothing feels better without you \n\nPrompt 1:\n\"Use the uploaded reference photos as the identity references for both subjects. Preserve both subjects' exact facial identities, facial features, proportions, expressions, skin tones, and natural skin",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOio5jEbUAAMZWG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOio6BeawAAdBKf?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2083100550347038883",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488308672,
+      "title": "Trend 737",
+      "url": "https://x.com/gemini_prompts/status/2083100550347038883",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn073_agki",
+      "image": "https://pbs.twimg.com/media/HOhuZxZXYAAsYI0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhuZxZXYAAsYI0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhucVUXsAAXyUN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "她站在奶油色的光里，\n隔着头纱，笑得像一帧被珍藏很久的电影画面。\n\n提示词Prompt：\n\n9:16 竖幅单人室内婚礼近景写实人像，隔着一层细密柔软的白色婚礼头纱拍摄，一位年轻成年韩国偶像级新娘位于画面中央，胸部以上近景构图，平视机位，约 70 至 105 毫米中长焦镜头观感。头纱完整覆盖头发、额头、眼睛、鼻梁、嘴唇、肩颈、手掌和婚纱上身，纱面半透明，带均匀细网纹理，不是厚重遮挡，而是能清楚透出五官与笑容。头顶固定一圈白色叶片与花朵形蕾丝头饰，沿发际形成柔和弧形冠状边缘。   人物为深色松散低盘发，额前和脸侧保留细软碎发，佩戴小巧珍珠垂坠耳饰。头部轻微转向画面右侧，目光看向镜头右侧附近，不直视镜头，眉眼舒展，露齿自然微笑，笑容明亮、轻松、亲近，带真实喜悦的新娘神态。嘴唇为柔和珊瑚粉色，面颊带轻微暖粉红晕。  一只手自然横放在锁骨下方或胸前，手指轻松并拢，动作克制温柔，形成亲密感和婚礼情绪。婚纱为乳白色露肩或抹胸式蕾丝婚纱，上身贴合，面料带细密蕾丝与柔和珠光细节，但不过分闪亮。头纱与婚纱共同营造柔软、轻盈、细腻的婚礼质感。  光线为暖奶油色柔光，从左前方或正前方均匀照亮面部、肩颈、手背和头纱，整体低反差，背景为暖米色室内虚化环境，不出现复杂家具与强烈线条，只保留柔和暖色包围感。整体色调以乳白、暖米色、浅暖象牙肤色、柔和粉色和深棕发色为主，画面柔和、亲密、温暖、浪漫，具有婚礼私摄影和柔光新娘肖像气质。重点保留隔纱观看、近距离微笑、胸前手势、珍珠耳饰、暖色柔光和高调奶油色婚礼氛围。  负向提示词  粗网渔网头纱，头纱完全遮死五官，头纱贴死皮肤，没有独立纱层，透明塑料纱，头纱摩尔纹过重，直视镜头，夸张大笑，僵硬表情，浓妆，模板网红脸，幼态未成年形象，眼睛过大，塑料皮肤，过度磨皮，脸部过曝，肤色发黄发灰，五官不对称，嘴角歪斜，牙齿数量错误，牙龈异常，耳饰悬浮，头饰粘连头发，蕾丝头饰重复贴图，头发穿过头纱，手掌过大，多余手指，缺失手指，手指粘连，手掌穿胸口，婚纱领口变形，亮面缎子婚纱，廉价舞台婚纱，背景杂乱，家具抢主体，文字，水印，品牌标识，强烈闪光，硬阴影，HDR，8K 过度锐化，高饱和色，现代商业棚拍感过强。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhuZxZXYAAsYI0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhucVUXsAAXyUN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2083055057235218529",
+      "tags": [
+        "8k",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785488308671,
+      "title": "她站在奶油色的光里，",
+      "url": "https://x.com/chenlinspark/status/2083055057235218529",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn073_qsy2",
+      "image": "https://pbs.twimg.com/media/HOb2EawWgAAFylx?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOb2EawWgAAFylx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea0W0AAX6Oe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea2WMAEsA4e?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea7W8AAeOo_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A day at Fashion Week｜In  Fitting Room\n\nPrompt \nA high-fashion documentary photograph of the same young Eastern European model standing in a Milan Fashion Week fitting room, surrounded by three angled mirrors that fracture her reflection into multiple perspectives, a structured couture gown half-fastened on her frame.\n\nStandard oval face, cheekbones catching light from multiple angles. Her eyes hold a focused, sensual intensity, full glam makeup now complete — sharp winged liner and deep burgundy lips. Her skin shows realistic subsurface scattering, specular micro-highlights on her collarbone and shoulders, fine skin texture visible under the studio light, not overly smoothed.\n\nHer hair falls in loose waves down one shoulder, a few strands displaced by movement as she turns. The gown is structured black silk with a sharp asymmetric neckline, fabric draping with visible weight and natural creasing at the waist.\n\nThe lighting is a mix of studio softbox key light and the mirrors' bounced reflections, creating a layered, sculptural illumination across her figure. The palette is rich and desaturated — black silk against warm skin tones. Subtle ISO 400 film grain rests in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOb2EawWgAAFylx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea0W0AAX6Oe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea2WMAEsA4e?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOb2Ea7W8AAeOo_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083100352572694778",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": 1785488308671,
+      "title": "A day at Fashion Week｜In  Fitting Room",
+      "url": "https://x.com/ToroJushiAi/status/2083100352572694778",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn072_g148",
+      "image": "https://pbs.twimg.com/media/HOeplUrXUAAyvkY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOeplUrXUAAyvkY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeplZiXUAA6J1i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOepmgAW4AAKpMq?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "夜色、直闪、黑色丝缎。\n\n这组想做的是一种克制的冷感，不讨好，也不刻意。\n\n提示词：\n\n9:16, CCD direct flash, 夜室内低照度暗调, 成年年轻女性\n冷欲猫系妆, 半哑光底妆, 窄T区克制高光, 眼下微醺红棕, 玻璃唇, 黑长直微卷/大波浪\n黑色丝质吊带/豹纹修身吊带/金属链条吊带, 上半身视觉重心, 突出肩颈线条, 清晰腰线\n金属细项链/银色choker/金属腰带/皮质手环（道具根据实际构图需求选取，不要将所有的道具全都塞进一个画面中）\n低机位平视/近距离俯拍, 上半身裁切到腰线以上, 人物占比70%, 背景压暗, 皮质沙发/深色墙面\n身体前倾靠向镜头/手扶墙面抬眼直视/轻拉吊带边缘, 眼神冷感带轻微挑衅, 表情放松不讨好\n机顶直闪正面打亮, 落在锁骨、胸口衣料高光、肩线、唇部, 硬阴影切割线条, 背景快速压暗, 皮肤局部轻微过曝, 保留真实纹理\n不要塑料皮肤、过度磨皮、幼态化、低俗暴露、多余肢体、背景抢主体",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOeplUrXUAAyvkY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeplZiXUAA6J1i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOepmgAW4AAKpMq?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2082819893066412203",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488308670,
+      "title": "夜色、直闪、黑色丝缎。",
+      "url": "https://x.com/chenlinspark/status/2082819893066412203",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pn072_4k9w",
+      "image": "https://pbs.twimg.com/media/HOilMeCbQAA2ZYd?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOilMeCbQAA2ZYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOikm_JbQAAJUbN?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "东方古风贵女刺绣工坊美妆艺术肖像\n\nGPT Image 2提示词：\n9:16竖版，东方古风贵女刺绣工坊美妆艺术肖像，高精度真实人物摄影，采用巨型圆形绣架作为前景取景框。一位明确成年的年轻东方女性，视觉年龄约25–28岁，站在大型刺绣架后方，人物面部与上半身透过尚在绣制的花鸟图案显现。彩色丝线从画面四周向中央延伸，绣针停留在她指尖附近，形成创作进行中的瞬间。她一只手握着细长金针，另一只手轻抚垂落丝线，身体微微前倾，目光穿过绣架直视镜头，神情专注柔美，兼具贵女的矜持与女性创作者的沉静力量。\n\n人物拥有成熟自然的东方古典骨相，柔和鹅蛋脸，面中饱满，下颌轮廓纤细流畅，清亮杏眼带有安静眼神光，眼尾轻扬，鼻梁秀气，唇形圆润丰盈。底妆呈细腻瓷白质感，肌肤保留真实纹理与均匀柔光。眼窝以桃粉色铺陈，外眼角叠加烟紫玫瑰与深茶棕，眼中点入少量金色珠光，睫毛纤长卷翘。眼下与颧骨晕染清透玫瑰腮红，鼻梁和鼻尖高光细致明亮。唇妆采用桃红玫瑰玻璃唇釉，柔亮唇面与彩色丝线形成精致色彩呼应。\n\n黑色长发盘成圆润华丽的古典发髻，使用金色绣针形发钗、白玉花簪、珍珠细链和彩色丝线结装饰。发饰沿髻形形成优雅放射结构，耳侧佩戴珍珠与红玉组合的长耳坠。浅金线从发髻后方自然垂落，与前景绣线形成空间连接。\n\n人物胸部饱满圆润，胸腰比例自然柔和，整体呈现珠圆玉润的成熟曲线。服装采用珍珠白、柔藕紫与浅金色，交叠领口沿锁骨形成柔和弧线，贴合绢罗顺应丰满胸部与纤细腰线。胸前褶裥从领口向高腰位置汇聚，丝线刺绣沿圆润胸线展开，斜侧光掠过绢罗起伏，使丰润曲线成为画面优雅的视觉焦点。肩头覆着一层薄透藕紫轻纱，花纹与肌肤光影相互叠映，呈现柔美若隐若现的层次。浅金高腰腰封勾勒清晰腰线，宽袖与长裙保持华丽垂坠感。\n\n工坊内排列着木质线轴架、彩色丝线、白瓷线盘、金属绣针与数幅半成品刺绣。巨型圆绣架占据画面前景，绣制中的牡丹、蝴蝶与流云在人物周围形成疏密有序的天然框景。顶部天窗投下柔和暖白光，彩色丝线向人物脸部反射淡淡桃红、金黄与青绿色光泽。侧方窄光照亮锁骨、胸线、腰部和手指，绣架后方的深色工坊强化人物肤色与服装亮度。人物面部拥有最高细节密度，前景丝线呈现局部清晰与局部虚化，整体融合传统刺绣工艺、东方贵女气质和当代美妆摄影秩序。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOilMeCbQAA2ZYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOikm_JbQAAJUbN?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083096555947704665",
+      "tags": [
+        "东方",
+        "古风",
+        "青绿",
+        "瓷白",
+        "摄影"
+      ],
+      "timestamp": 1785488308670,
+      "title": "东方古风贵女刺绣工坊美妆艺术肖像",
+      "url": "https://x.com/Mrpinecone888/status/2083096555947704665",
+      "collectedAt": "2026-07-31T08:58:31.020Z",
+      "githubSyncedAt": "2026-07-31T08:58:31.020Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pkrcz_dj0v",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082863529607217152/img/UVM3SC59XY7WSUiK.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082863529607217152/img/UVM3SC59XY7WSUiK.jpg"
+      ],
+      "model": "",
+      "prompt": "Made with Seedance 2.0\n\nPrompt:\n\nCreate a 12-second Studio Ghibli-inspired animated video in a soft, hand-drawn style with warm natural lighting, lush greenery, and a peaceful rainy atmosphere. A person wearing a white ruffled sleeve opens a traditional wooden sliding glass door to reveal a rain-soaked garden, reaches out beneath a blooming lemon branch to catch a ripe lemon in their palm, then waters indoor potted plants with a white watering can as sunlight streams through the window, and finally pours steaming hot lemon tea from a ceramic teapot into a cup by the rainy window, creating a cozy, tranquil mood with gentle rain ambience and soft piano music.",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082863529607217152/img/UVM3SC59XY7WSUiK.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/luciaverseai/status/2082863678064648326",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488203907,
+      "title": "Made with Seedance 2.0",
+      "url": "https://x.com/luciaverseai/status/2082863678064648326",
+      "collectedAt": "2026-07-31T08:56:45.833Z",
+      "githubSyncedAt": "2026-07-31T08:56:45.833Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pkrcz_tn0u",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082700330509463553/img/U7AuLu94SsyptiD9.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082700330509463553/img/U7AuLu94SsyptiD9.jpg"
+      ],
+      "model": "",
+      "prompt": "Confidence starts with the perfect pair of sunglasses. \nSimple style, timeless elegance, and effortless charm in every step.\n\nCreated on seedance 2.0\n\nPrompt:\n15-second ultra-realistic cinematic fashion commercial. A stylish young woman wearing a white tailored blazer, white fitted square-neck top, high-waisted white trousers, oversized black square sunglasses, a thin gold necklace, and small gold hoop earrings walks confidently outside a modern luxury café with floor-to-ceiling glass windows, cream patio umbrellas, wooden tables, and beige stone flooring. Warm golden-hour sunlight creates soft natural shadows. She gently adjusts her sunglasses, smiles subtly, and walks toward the camera with graceful, confident movements. Smooth gimbal tracking, shallow depth of field, cinematic bokeh, 85mm portrait lens, HDR, premium color grading, realistic skin texture, luxury editorial fashion style, ultra-realistic, 4K, 60fps. No text, no logo, no watermark, no outfit changes, no background changes, no extra people, no blur, no distortion.",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2082700330509463553/img/U7AuLu94SsyptiD9.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Lianaalane/status/2082700378437521838",
+      "tags": [
+        "cinematic",
+        "bokeh"
+      ],
+      "timestamp": 1785488203907,
+      "title": "Confidence starts with the perfect pair of sunglasses.",
+      "url": "https://x.com/Lianaalane/status/2082700378437521838",
+      "collectedAt": "2026-07-31T08:56:45.833Z",
+      "githubSyncedAt": "2026-07-31T08:56:45.833Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pkrcz_kb9f",
+      "image": "https://pbs.twimg.com/media/HOhMw4XawAAk_vz?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhMw4XawAAk_vz?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "ChatGpt Image\n#prompt\n Photorealistic mirror selfie of a fictional adult East Asian woman in her early twenties inside a modern, well-lit hotel suite. She is casually posing on top of a white rectangular table, sitting sideways with one leg folded beneath her and the other resting on a nearby upholstered dining chair, creating a playful yet relaxed pose. She twists her upper body over her shoulder toward a large wall mirror while holding a smartphone in one hand to capture the selfie.\n\nShe has long, naturally straight dark brown to black hair flowing freely down her back with a subtle side part, fair smooth skin, and wears thin gold-rimmed round eyeglasses. Her expression is warm and genuine with a soft smile as she looks at her phone screen instead of directly into the mirror.\n\nShe wears a fitted light pastel-blue spaghetti-strap camisole with delicate ruching around the bodice, paired with high-waisted black cargo-style mini shorts featuring oversized flap pockets. The outfit appears casual and modern with realistic fabric folds and natural wrinkles.\n\nThe hotel room has a contemporary minimalist interior featuring neutral beige walls, gray carpeting, a light-gray sofa, a white coffee table, a dark work desk with a modern black office chair, a desk lamp casting warm ambient light, framed cityscape artwork on the wall, and a tissue box placed on the table. The large rounded-edge mirror occupies the foreground, naturally framing the entire composition.\n\nThe lighting combines soft warm indoor lamps with subtle ambient room lighting, producing realistic skin tones, gentle highlights, and soft shadows. The image has the authentic look of a spontaneous smartphone mirror selfie rather than a professional photoshoot.\n\nVertical 9:16 composition, handheld smartphone camera, slightly tilted framing, realistic perspective distortion from the mirror, ultra-detailed skin texture, natural body proportions, realistic hair strands, high dynamic range, shallow computational smartphone depth of field, true-to-life colors, photorealistic, candid lifestyle photography, 8K quality.\n\n Copy, save, and try this prompt.\n\n Like &  Bookmark if it helped.\n\nI share new photorealistic ChatGPT image prompts every day.\n\n#ChatGPT #GPTImages #AIImages #PromptEngineering #Photorealistic #ImageGeneration #Selfie #AIPhotography #indonesia #chindo #bugil #bokep #jakarta #timnas #PromptCreator #PromptDesign #PromptSharing #ImageGeneration #Photorealism #VirtualModel #AIModel #CreativeAI #DailyPrompts #DigitalArt",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhMw4XawAAk_vz?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/PromptMuseey/status/2082999237802098705",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785488203907,
+      "title": "ChatGpt Image",
+      "url": "https://x.com/PromptMuseey/status/2082999237802098705",
+      "collectedAt": "2026-07-31T08:56:45.833Z",
+      "githubSyncedAt": "2026-07-31T08:56:45.833Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pk6za_at7u",
+      "image": "https://pbs.twimg.com/media/HOhbNhDbEAAow8q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOhbNhDbEAAow8q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhbNhDaQAAQXhC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Someone said smile, so I did \n\nGPT image 2\nPrompt:\nUse ONLY the face from the original photo: facial features, proportions, natural asymmetry, hair color and texture, and skin tone. Keep the face out of focus; recognizability should be preserved only through the head silhouette, face shape, and hair color.\n\nCompletely ignore everything else from the original photo.\n\nFocus inversion. The camera is focused on a field of daisies between small green hills. Thousands of daisies, tall grass, a winding path, and soft rays of sunlight are captured in perfect sharpness. The landscape is the main subject of the frame.\n\nIn the foreground, a girl is very close to the camera and heavily blurred. She unexpectedly leans down to pick a single daisy, and at that moment the wind blows her hair across her face. One hand holds the flower stem while the other instinctively moves her hair away. A subtle smile can be perceived through the blur. She is completely absorbed in the moment and unaware that she is being photographed.\n\nShe is wearing a fitted white bodysuit and high-waisted blue denim shorts.\n\nThe composition is spontaneous and candid: the girl occupies less than a quarter of the frame and is partially cropped by the edge of the image. Most of the space is occupied by the field, hills, and sky. The horizon is slightly tilted, as if shot handheld.\n\nBright summer daylight. The distant background is perfectly sharp while the foreground is softly blurred. Smartphone photography, dreamlike memory, subtle digital grain, natural colors, no HDR, no retouching, no text, and no watermarks.\n\n–ar 4:5 –raw",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOhbNhDbEAAow8q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOhbNhDaQAAQXhC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2083015124554772962",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785488177495,
+      "title": "Someone said smile, so I did",
+      "url": "https://x.com/Naiknelofar788/status/2083015124554772962",
+      "collectedAt": "2026-07-31T08:56:23.330Z",
+      "githubSyncedAt": "2026-07-31T08:56:23.330Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmu_qlu4",
+      "image": "https://pbs.twimg.com/media/HOfKwo0WoAIQiPg?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOfKwo0WoAIQiPg?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我爱看钢琴。\n提示词：绝美23岁东亚美女，身材匀称丰满，胸部自然丰满（约D至E杯视觉效果），腰部纤细，臀腿比例协调，曲线柔和自然，气质时尚、自信、温柔。现代客厅＋三角钢琴风格，酒红玫瑰色胸衣式上装，搭配低腰缎面短裤式下装，低领包边与收腰结构柔美贴身，面料浓郁顺滑，复古轻奢。\n\n柔润立体妆容，暖赤茶棕与铜金眼妆，红茶豆沙色唇妆，黑茶色低马尾，金色小耳圈与细戒。\n\n她正面坐在琴凳边缘，双手把练习中的乐谱轻轻夹回谱架中央，抬脸看向镜头露出安静神情。背景有胡桃木电视墙、焦糖棕皮沙发、几何地毯、黄铜边几与暖白侧光，空间温润精致又带成熟居家气质。\n\n85mm人像摄影，人物正面半身至大腿构图，面部清晰可见，大光圈浅景深，奶油散景，真实皮肤质感，柔和室内自然光，高级生活美学写真，电影感，ultra realistic, masterpiece, best quality。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOfKwo0WoAIQiPg?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2082856299033772196",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785487929510,
+      "title": "我爱看钢琴。",
+      "url": "https://x.com/sdjn_wgc/status/2082856299033772196",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmu_0mn1",
+      "image": "https://pbs.twimg.com/media/HObz6sZXcAEbBBK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObz6sZXcAEbBBK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6sbXsAApnKi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6saWYAAw_en?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt \n一位20多岁的年轻成年白人女性坐在或半倚在室外泳池边，画面为紧凑近景，从头顶拍至腰部附近。人物位于中央略偏右，身体以三分之二侧面朝向画面右侧，左肩更靠近镜头。她轻轻转头越过肩膀直视镜头，下巴微抬，嘴唇自然微启，神情安静、慵懒、略带疏离感。\n\n她拥有精致偏长的鹅蛋脸、清晰柔和的下颌线、灰蓝色眼睛、浓密自然眉、挺直鼻梁和饱满水润的裸粉色嘴唇。肤色白皙偏暖，鼻梁和双颊带极淡自然雀斑。脸部、颈部、肩膀和手臂呈现刚出水后的湿润状态，保留真实毛孔、细小绒毛、水膜、细微水珠和自然肤色变化，不要塑料磨皮。\n\n超长浅金色头发完全湿润并自然披散，带略深发根，湿发成束贴在额头、脸颊、颈侧与肩膀，长度延伸至腰部以下。强烈夕阳逆光从画面左后方穿过头发，使大量发丝呈金色半透明发光效果，保留凌乱碎发、飞散细丝与真实湿发重量。\n\n她穿纯白色修身罗纹棉质细肩带背心，低圆领或浅U领，面料湿润后贴合身体但完全不透明，无图案、无品牌标识。背景为深色阴影中的室外泳池区域，右下方可见少量青绿色池水，背景建筑与环境几乎完全虚化，形成大面积深色负空间。\n\n光线采用极强暖金色侧逆光：夕阳从左后方低角度照射，强烈勾亮头发、肩膀和手臂边缘；人物面部由右前方柔和反光补亮，眼睛保留自然高光。整体暖金与深黑形成明显明暗对比，但高光过渡柔和，保留湿润皮肤细节。\n\n摄影风格：85mm或105mm人像镜头，f/1.8，平视略高机位，极浅景深，焦点落在双眼和嘴唇，背景奶油化虚化，1/500秒，ISO200，真实皮肤次表面散射、湿发细节、柔和高光晕染、轻微ISO400胶片颗粒，golden-hour poolside beauty editorial，cinematic wet-look portrait，photorealistic。\n\n避免：干燥头发、棕色或黑色头发、正面平视证件照构图、夸张笑容、浓妆、透明上衣、露点、过度油亮皮肤、塑料磨皮、错误肩颈、畸形手臂、强HDR、过度锐化、杂乱泳池背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObz6sZXcAEbBBK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6sbXsAApnKi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObz6saWYAAw_en?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083009754520060041",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "青绿",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785487929510,
+      "title": "Prompt",
+      "url": "https://x.com/ToroJushiAi/status/2083009754520060041",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "静物",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmt_wst3",
+      "image": "https://pbs.twimg.com/media/HOioBg2b0AANhOW?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOioBg2b0AANhOW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOc_8_SboAAvaDK?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "高级写实黄桃罐头海报\n\nGPT Image  2提示词：\n高级写实水果甜品海报，黄桃罐头主题，一只透明玻璃罐置于浅金色与奶白背景中央，罐中黄桃果肉饱满厚实，\n糖水清澈透亮，玻璃表面挂有细密冷凝水珠，前景有一瓣黄桃被银叉轻轻叉起，周围仅点缀少量新鲜黄桃片、水\n痕与柔和夏日光线，整体明亮但克制，像高端水果罐头广告，真实玻璃折射、真实果肉纹理、真实液体层次，竖\n版 3:4。\n\n海报中加入中英文海报文字，内容为：\n品牌名：桃见\n产品名：黄桃罐头\n英文副标题：YELLOW PEACH IN SYRUP\nslogan：把夏天的甜，认真封存起来\n短标签：果肉厚实 / 清甜多汁\n\n排版要求：顶部放品牌名与英文，产品名位于下方主视觉区，slogan 与短标签较小，排版清爽，像高端果品海\n报。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOioBg2b0AANhOW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOc_8_SboAAvaDK?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083099780494893510",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785487929510,
+      "title": "高级写实黄桃罐头海报",
+      "url": "https://x.com/Mrpinecone888/status/2083099780494893510",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pevmt_y9lb",
+      "image": "https://pbs.twimg.com/media/HOisT_TagAAbyJ_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOisT_TagAAbyJ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOisT_WaEAArtvZ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt :\nA stunning mid-20s Japanese or Korean woman with soft hourglass body, fuller bust, wider hips, small refined Korean idol face, clear bright eyes, medium-to-long milk-tea brown hair with deep side part, mostly smooth texture, subtle natural bends, gently asymmetric face-framing flow. She wears a clean Y2K oversized denim outfit: white scoop-neck cropped tank top, low-rise light-wash wide-leg jeans with slouchy full-length pooling and rolled white waistband detail, dangling silver cross charm chain, cream chain-strap shoulder bag, pale lavender rectangular eyeglasses, layered silver necklaces, delicate earrings and bracelets, white pointed-toe ankle boots. She is squatting compactly on the ground in a low squatting arrangement, one hand pulling the glasses slightly down the nose bridge with eyes visible above the frame, chin slightly raised. The scene is set at the entrance of a Kabukicho bar, compact signboard, doorway recess, narrow threshold, wall texture, small exterior light fixture, side poster panel, post-rain freshly damp surfaces, rainy overcast environment with diagonal rear-side subject light creating soft rim along hair and shoulder. Photorealistic editorial film still, medium shot waist-up framing, worm's-eye ultra-low upward camera angle with strong near-far scale distortion, 90-degree left profile view, lateral torso orientation, f/11-style deep focus, broad depth of field, 1/30s slow-shutter portrait blur with visible face and body movement smear, neon-tinted Japanese portrait color grade, protected bright skin tones, cool cyan shadow bias, warm-magenta highlights, clean black levels, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth. --ar 16:9",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOisT_TagAAbyJ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOisT_WaEAArtvZ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2083104386151284782",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785487929509,
+      "title": "Prompt :",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2083104386151284782",
+      "collectedAt": "2026-07-31T08:52:13.567Z",
+      "githubSyncedAt": "2026-07-31T08:52:13.567Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pdwz4_ju15",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2083090846002368512/img/ogTTO_q6rAfQlOuP.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2083090846002368512/img/ogTTO_q6rAfQlOuP.jpg"
+      ],
+      "model": "",
+      "prompt": "一个汽车品牌，要不要用 AI 做产品概念视频？\n\n汽车官网 UI 动效，产品信息 + 页面设计 + 视频化表达\n\n素材：\n\n- 1 张汽车图\n- 1 张网页设计图\n- 目标：生成产品网站界面演示视频\n\n这已经不是单纯的酷炫视频了，而是一个很典型的商业需求：\n\n把静态产品页面，变成一段可以展示给客户看的动态 UI/UX 演示\n\n继续发一个Minimax H3的评测案例。\n\n#Minimax #AI视频",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2083090846002368512/img/ogTTO_q6rAfQlOuP.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/joshesye/status/2083091260106064165",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785487884592,
+      "title": "一个汽车品牌，要不要用 AI 做产品概念视频？",
+      "url": "https://x.com/joshesye/status/2083091260106064165",
+      "collectedAt": "2026-07-31T08:51:27.024Z",
+      "githubSyncedAt": "2026-07-31T08:51:27.024Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pdwz4_io7r",
+      "image": "https://pbs.twimg.com/media/HOiheydagAAJkJl?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOiheydagAAJkJl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOih25FagAAdpWU?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "卧槽，兄弟们，DeepSeek 真要来我老家搞 1GW AI 数据中心了？\n据彭博引述知情人士透露，项目计划落地乌兰察布，部分算力可能在 2027 年底或 2028 年初上线。目前 DeepSeek 尚未正式确认。\nAI 表面拼模型，底层其实拼三样：\n电、地、散热。\n乌兰察布风光电多、地方便宜、夏天凉快，离北京还近。\n以前嫌弃的风大天冷，到了 AI 时代，全成了生产资料。\n项目真落地，普通人别只盯着芯片。\n机房运维、工程建设、电力冷却、人才招聘、住宿餐饮……本地配套都可能吃到一口。\n我老家这次是真的牛逼起来了。\n谁能想到，小时候嫌弃的冷风，最后给 AI 服务器续上命了。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOiheydagAAJkJl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOih25FagAAdpWU?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2083092893854834857",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785487884592,
+      "title": "卧槽，兄弟们，DeepSeek 真要来我老家搞 1GW AI 数据中心了？",
+      "url": "https://x.com/GeekCatX/status/2083092893854834857",
+      "collectedAt": "2026-07-31T08:51:27.024Z",
+      "githubSyncedAt": "2026-07-31T08:51:27.024Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-07-31",
+      "domain": "x.com",
+      "id": "ext_ms8pdwz3_ufpm",
+      "image": "https://pbs.twimg.com/media/HObwtt7WQAAoj_q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObwtt7WQAAoj_q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObwtt0WoAA_StM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObwtt5XgAAja_N?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt \n一位20多岁的年轻成年东亚女性侧身坐在铺有白色床单的床上，画面从头顶拍至膝部附近。人物位于中央略偏右，身体以三分之二侧面朝向画面左侧，双腿自然屈起并收拢在身前，上半身微微向前。右手轻轻停在锁骨或胸前薄纱处，左臂自然隐藏在身体与裙摆之间。她头部缓慢转向镜头，视线略高于镜头或轻轻看向镜头，神情安静、克制、疏离，嘴唇自然微启，带有私密、诗意、略微忧郁的情绪。\n\n她拥有精致偏长的鹅蛋脸、柔和清晰的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和低饱和裸粉色嘴唇。妆容极淡，仅有轻薄底妆、自然睫毛、细眼线、浅灰棕眼影与柔和腮红。肤色白皙偏中性暖调，保留真实毛孔、细小绒毛、轻微肤色变化和柔和皮脂高光，禁止塑料磨皮。\n\n深黑色长直发自然披散，偏分，一部分垂落在画面左侧肩前和胸前，另一部分顺着背部滑落。发丝略带湿润或刚洗后的柔顺感，脸侧保留少量细碎发丝，发尾真实自然。\n\n她身披大面积乳白色或冷白色透明薄纱礼服或轻盈欧根纱罩裙，宽松、多层、蓬松，薄纱覆盖肩膀、手臂、胸前、腿部和床面，形成大量柔软褶皱与半透明层次。关键部位由不透明内衬或多层纱完整遮挡，整体优雅含蓄，不暴露。\n\n背景为暗灰黑色卧室或摄影棚，左后方有一扇覆盖深色薄纱窗帘或蚊帐的窗，透入微弱冷白自然光；窗外隐约有绿色植物和模糊花朵。白色床单与薄纱在前景形成亮部，背景保持大面积深色负空间。\n\n光线为左前方窗户照入的柔和侧光，照亮人物面部、鼻梁、嘴唇、肩膀、手部与薄纱纹理，右侧脸部和背部进入细腻阴影。整体低饱和、低对比，以冷白、深灰黑、自然肤色和少量灰绿色组成。\n\n摄影风格：85mm镜头，f/2，平视略高机位，浅景深，面部、手部和薄纱褶皱清晰，背景柔和虚化，真实皮肤、发丝、薄纱与床品纹理，轻微ISO400胶片颗粒，Black Pro-Mist 1/8柔化，fine-art bridal editorial，cinematic bedroom portrait，photorealistic。\n\n避免：未成年人特征、裸体、露点、透明暴露、色情姿势、夸张身材、错误手指、融合手臂、重复腿脚、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObwtt7WQAAoj_q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObwtt0WoAA_StM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObwtt5XgAAja_N?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082919160305053810",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785487884592,
+      "title": "Prompt",
+      "url": "https://x.com/ToroJushiAi/status/2082919160305053810",
+      "collectedAt": "2026-07-31T08:51:27.024Z",
+      "githubSyncedAt": "2026-07-31T08:51:27.024Z",
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
@@ -36,7 +1018,7 @@
       "url": "https://x.com/Giulia_4i/status/2054608412676444398",
       "collectedAt": "2026-07-31T07:43:29.210Z",
       "githubSyncedAt": "2026-07-31T07:43:29.210Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "9:16",
@@ -70,7 +1052,7 @@
       "url": "https://x.com/VIBEQUIRKLABS/status/2054548694540984489",
       "collectedAt": "2026-07-31T07:43:29.210Z",
       "githubSyncedAt": "2026-07-31T07:43:29.210Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "9:16",
@@ -100,7 +1082,7 @@
       "url": "https://x.com/BubbleBrain/status/2055131336613286193",
       "collectedAt": "2026-07-31T07:43:29.210Z",
       "githubSyncedAt": "2026-07-31T07:43:29.210Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "2:3",
@@ -134,7 +1116,7 @@
       "url": "https://x.com/john_my07/status/2064944172348662068",
       "collectedAt": "2026-07-31T07:42:06.808Z",
       "githubSyncedAt": "2026-07-31T07:42:06.808Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "9:16",
@@ -164,7 +1146,7 @@
       "url": "https://x.com/gemini_prompts/status/2064651351049773144",
       "collectedAt": "2026-07-31T07:42:06.808Z",
       "githubSyncedAt": "2026-07-31T07:42:06.808Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "2:3",
@@ -198,7 +1180,7 @@
       "url": "https://x.com/ZaraIrahh/status/2064909995360026912",
       "collectedAt": "2026-07-31T07:42:06.808Z",
       "githubSyncedAt": "2026-07-31T07:42:06.808Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "4:5",
@@ -228,7 +1210,7 @@
       "url": "https://x.com/CaliraVal/status/2064688681315946862",
       "collectedAt": "2026-07-31T07:26:00.109Z",
       "githubSyncedAt": "2026-07-31T07:26:00.109Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "2:3",
@@ -262,7 +1244,7 @@
       "url": "https://x.com/CaliraVal/status/2065737969328419306",
       "collectedAt": "2026-07-31T07:18:57.424Z",
       "githubSyncedAt": "2026-07-31T07:18:57.424Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "2:3",
@@ -296,7 +1278,7 @@
       "url": "https://x.com/YUKIMASTERAI/status/2082975845392810134",
       "collectedAt": "2026-07-31T07:14:43.964Z",
       "githubSyncedAt": "2026-07-31T07:14:43.964Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-07-31T10:13:38.040Z"
     },
     {
       "aspectRatio": "4:5",
