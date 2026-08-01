@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T08:25:07.459Z",
+  "updatedAt": "2026-08-01T08:25:10.703Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msa3vwpu_rb44",
+      "image": "https://pbs.twimg.com/media/HICWgFYakAAEMxq?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HICWgFYakAAEMxq?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HICWgFeakAAGE1y?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "an seductive stunning & beautiful 20-year-old Japanese or Korean woman, tall slim fashion model body with long elegant legs, tortoiseshell glasses, seated pose with legs naturally extended, long softly wavy hair, center part, natural jet-black hair with subtle blue-black undertones, looking directly at the camera. She wearing light grey open oversized zip-up hoodie, unzipped sporty hooded jacket, slightly oversized casual athletic layering, blue an embroidered cheongsam, fitted full-body silhouette. setting: abandoned operating room. camera: 9:16, shoulder-level camera height, front three-quarter angle, shot on 28mm lens, anamorphic lens flare, medium shot. lighting: very dark late-night interior, overhead top lighting. atmosphere: Contax Zeiss look.\n\n#GrokImagine",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HICWgFYakAAEMxq?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HICWgFeakAAGE1y?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2053807725017170426",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785572704866,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2053807725017170426",
+      "collectedAt": "2026-08-01T08:25:10.703Z",
+      "githubSyncedAt": "2026-08-01T08:25:10.703Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "建筑",
