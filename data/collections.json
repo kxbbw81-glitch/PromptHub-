@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T08:14:23.478Z",
+  "updatedAt": "2026-08-01T08:25:00.784Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msa3vpeh_4nx0",
+      "image": "https://pbs.twimg.com/media/HIGWaMfaIAABCWR?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HIGWaMfaIAABCWR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIGWaNHbQAAsl4X?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "an elegant beautiful 20-year-old Japanese or Korean woman, tall elegant fashion model body with balanced feminine curves, squatting pose with one hand resting on knee, airy see-through bangs, long loose spiral waves, ashy beige-brown hair, lowered gaze away from camera.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIGWaMfaIAABCWR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIGWaNHbQAAsl4X?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2054088530461405382",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785572695385,
+      "title": "Soho街角蹲姿人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2054088530461405382",
+      "collectedAt": "2026-08-01T08:25:00.784Z",
+      "githubSyncedAt": "2026-08-01T08:25:00.784Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "抽象",
