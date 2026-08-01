@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T16:23:32.674Z",
+  "updatedAt": "2026-08-01T08:12:43.070Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msa3fhl5_fym1",
+      "image": "https://pbs.twimg.com/media/HNmIp83W0AAyhZC?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HNmIp83W0AAyhZC?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNmIrCDXkAAgrX2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNmIsCVXYAA3K-f?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNmIsuLWMAAmstu?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "A high-quality, cinematic portrait of a beautiful young woman captured in a series of elegant poses. She is wearing an exquisite, floor-length light blue ballgown with intricate lace detailing on the bodice and a high-neck design, complemented by a delicate pearl necklace and sophisticated drop earrings. Her hair is styled in a soft, romantic updo with loose strands framing her face, and her makeup is subtle and natural, enhancing her youthful features. The setting is a dimly lit, moody interior with a deep purple backdrop, accented by the soft glow of blurred candlelight in the background and a lush arrangement of blue hydrangea flowers, creating a dreamlike, ethereal atmosphere. The images should feature soft, focused lighting that highlights her profile and the texture of the lace, rendered in a refined, photographic style reminiscent of a professional fashion editorial.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNmIp83W0AAyhZC?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNmIrCDXkAAgrX2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNmIsCVXYAA3K-f?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNmIsuLWMAAmstu?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2078843015846572148",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785571938761,
+      "title": "浅蓝蕾丝礼服人像",
+      "url": "https://x.com/Minahil42298354/status/2078843015846572148",
+      "collectedAt": "2026-08-01T08:12:43.070Z",
+      "githubSyncedAt": "2026-08-01T08:12:43.070Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
