@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:50:15.104Z",
+  "updatedAt": "2026-08-01T12:50:44.338Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msaddgwz_n49a",
+      "image": "https://pbs.twimg.com/media/HElZdutXgAAk76e?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HElZdutXgAAk76e?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HElZdz9XsAE6Ftd?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HElZd5TbsAAyDbI?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "“scene”: {\n“environment”: “A retro 1950s style diner, creating a bright, playful, and nostalgic aesthetic.”,\n“elements”: “Features red vinyl booths, turquoise and red painted walls, a black and white checkered floor, vintage hanging pendant lights, and classic diner decor in the background.”,\n“composition”: “A vertical (9:16), professional full-body photograph framing the subject within the diner booth setting.”",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HElZdutXgAAk76e?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HElZdz9XsAE6Ftd?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HElZd5TbsAAyDbI?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Noira_exe/status/2038258679523278931",
+      "tags": [
+        "vintage"
+      ],
+      "timestamp": 1785588640739,
+      "title": "AI提示词",
+      "url": "https://x.com/Noira_exe/status/2038258679523278931",
+      "collectedAt": "2026-08-01T12:50:44.338Z",
+      "githubSyncedAt": "2026-08-01T12:50:44.338Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msaddgwx_tekw",
+      "image": "https://pbs.twimg.com/media/HEpfQ_-aAAABTFp?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEpfQ_-aAAABTFp?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEpfQ9na4AEsQId?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "灰色水泥房间里，黑色皮衣压着白色蕾丝，整张图冷，但不是硬，是那种很安静的锋利。\nMoody interior portrait + soft window light + black leather jacket over white lace slip + chandelier and concrete cross-wall backdrop\nThe leather jacket or the lace dress — which contrast pulls you in first?",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEpfQ_-aAAABTFp?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEpfQ9na4AEsQId?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2038546556241293344",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588640737,
+      "title": "写真人像",
+      "url": "https://x.com/sidona/status/2038546556241293344",
+      "collectedAt": "2026-08-01T12:50:44.338Z",
+      "githubSyncedAt": "2026-08-01T12:50:44.338Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
