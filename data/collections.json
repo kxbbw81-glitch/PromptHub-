@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T08:12:43.070Z",
+  "updatedAt": "2026-08-01T08:14:23.478Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "抽象",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msa3i3ux_mn9n",
+      "image": "https://pbs.twimg.com/media/HOncIHEW4AAn9_G?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOncIHEW4AAn9_G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOncIsvXMAAPwJx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOncKRaXMAArVb7?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOncLQuW4AAuoDl?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "用 GPT-Image2 生成一套完整 Logo 提案，新品牌设计灵感参考！\n\n同一套提示词，也能创建不同的品牌世界。案例是烘焙品牌「麦序」：\n\n1. 品牌世界观与概念封面\n\n2. Logo 符号与生成逻辑\n\n3. 色彩、字体与视觉语言\n\n4. 包装、门店与真实应用\n\n输入品牌信息，就能直接生成一套完整的四图 Logo 提案！\n\nPrompt below",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOncIHEW4AAn9_G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOncIsvXMAAPwJx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOncKRaXMAArVb7?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOncLQuW4AAuoDl?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2083438856947322924",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785572060937,
+      "title": "品牌视觉",
+      "url": "https://x.com/MrLarus/status/2083438856947322924",
+      "collectedAt": "2026-08-01T08:14:23.478Z",
+      "githubSyncedAt": "2026-08-01T08:14:23.478Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
