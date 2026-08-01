@@ -1,7 +1,126 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:50:44.338Z",
+  "updatedAt": "2026-08-01T12:51:07.312Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msaddzsm_1hlk",
+      "image": "https://pbs.twimg.com/media/HElpjWfacAAuLZI?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HElpjWfacAAuLZI?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Masterpiece, best quality, RAW photo, 8K UHD,\n\nultra-realistic Korean boudoir portrait photography,\n\nbeautiful Korean female idol, early 20s,\n\n8.5-head proportion with long slender legs,\n\nkneeling variation — right leg folded",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HElpjWfacAAuLZI?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2038276624526065953",
+      "tags": [
+        "8k"
+      ],
+      "timestamp": 1785588665206,
+      "title": "韩系人像",
+      "url": "https://x.com/BubbleBrain/status/2038276624526065953",
+      "collectedAt": "2026-08-01T12:51:07.312Z",
+      "githubSyncedAt": "2026-08-01T12:51:07.312Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msaddzsm_orv8",
+      "image": "https://pbs.twimg.com/media/HEmEXtfasAAxtre?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEmEXtfasAAxtre?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXuEawAAWL7n?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXuJaAAA-Twp?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic 4:5 mirror selfie portrait in an upscale indoor setting. Use the reference image for the subject’s identity, face, and hair — preserve exact facial features, proportions, and likeness.\n\nThe subject is standing at an angle, taking a mirror selfie with her right arm raised holding a smartphone.\n\nShe is wearing a pale mauve silk dress with a deep plunging draped cowl neckline and delicate silver floral embroidery.\n\nAccessories include a dark smartphone with a multi-lens camera, long square-shaped nails with neutral polish, silver rings, layered silver bracelets or a watch, a thin pendant necklace, and dangling earrings.\n\nThe setting is an upscale bedroom or hotel room seen through a mirror reflection. Visible elements include a textured wall on the left and a bright circular lamp in the foreground. In the reflection, a lit bathroom with vertical slats and a patterned floor is visible, along with the edge of a bed with white sheets on the right.\n\nLighting is warm indoor lighting with strong uplighting from the foreground lamp, creating highlights and soft shadows across the subject.\n\nHigh detail, realistic textures, luxury editorial lifestyle photography style, sharp focus on the subject, shallow depth of field.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEmEXtfasAAxtre?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXuEawAAWL7n?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXuJaAAA-Twp?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2038306052350026093",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785588665206,
+      "title": "现代卧室镜自拍",
+      "url": "https://x.com/sumiturkude007/status/2038306052350026093",
+      "collectedAt": "2026-08-01T12:51:07.312Z",
+      "githubSyncedAt": "2026-08-01T12:51:07.312Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msaddzsl_iurc",
+      "image": "https://pbs.twimg.com/media/HEjhRumWAAAv1nI?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HEjhRumWAAAv1nI?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEjhRyYbEAIug12?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "young man sitting barefoot on a grassy bank beside a small stream, wearing a loose cream linen shirt and muted brown trousers, relaxing with one arm resting on his knee while his other hand gently touches the water, gazing across the stream with a quiet, wistful expression, surrounded by soft cosmos flowers, a few flowers and branches partially framing the scene in the foreground, calm natural environment with darker foliage in the background, gentle breeze with a few petals drifting in the air, peaceful and nostalgic atmosphere",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEjhRumWAAAv1nI?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEjhRyYbEAIug12?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ZaraIrahh/status/2038126547786408300",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785588665205,
+      "title": "城市巨影男装人像",
+      "url": "https://x.com/ZaraIrahh/status/2038126547786408300",
+      "collectedAt": "2026-08-01T12:51:07.312Z",
+      "githubSyncedAt": "2026-08-01T12:51:07.312Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msaddzsl_vvqx",
+      "image": "https://pbs.twimg.com/media/HEkKyhTbYAA5Hfx?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEkKyhTbYAA5Hfx?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "\"aspect_ratio\": \"9:16\",\n\n\"photography_style\": \"Photorealistic portrait, bright indoor lighting, shallow depth of field, naturalistic aesthetic\",\n\n\"subject\": {\n\n\"pose\": \"Sitting on the edge of a student desk, body angled slightly right, head turned to face the camera. Right leg raised with knee bent, left leg extended downwards. Left hand resting on the desk edge holding a bag strap.\",\n\n\"hair\": \"Long, straight, very dark brown/black. Styled down with wispy, straight bangs across the forehead and long face-framing pieces.\",\n\n\"apparel\": \"Japanese school uniform. Navy blue single-breasted blazer with silver buttons. Crisp white collared shirt. Dark blue/grey diagonally striped necktie. Very short grey plaid pleated mini skirt. Dark navy calf-length sock on right leg. Black loafer on right foot.\"\n\n\"facial_details\": {\n\n\"skin_tone\": \"Fair, smooth, warm undertone.\",\n\n\"eyes\": \"Almond-shaped, dark brown, soft eyeliner, prominent natural under-eye highlight (aegyo-sal).\",\n\n\"lips\": \"Glossy natural pink-nude, medium fullness.\",\n\n\"cheeks\": \"Full, slightly rounded, subtle warm blush.\",\n\n\"nose\": \"Straight, slender bridge, gently rounded tip.\",\n\n\"facial_expression\": \"Warm, confident, bright toothy smile showing upper teeth.\"\n\n\"environment\": {\n\n\"background\": \"Slightly out-of-focus bright Japanese classroom interior.\",\n\n\"background_objects\": [\n\n\"Light wood classroom floor.\",\n\n\"Student desk being sat upon: light wood top, grey metal frame.\",\n\n\"Wooden chair behind the desk.\",\n\n\"Navy blue school bag on the floor left with white text ('DX...').\",\n\n\"Navy blue sports bag/racket cover held in left hand, lower right corner.\",\n\n\"Empty student desk and chair to the left, with another navy school bag resting on it.\",\n\n\"Tall grey metal storage lockers on the far left wall.\",\n\n\"Cork bulletin board with various light-colored papers/posters behind the subject.\",\n\n\"Large green chalkboard taking up the right side of the back wall.\",\n\n\"Bright window out of frame to the left, providing illumination.\"\n\n\"lighting\": \"Bright, soft, natural daylight entering from the left, casting gentle highlights on the right side of the subject's face and legs, soft shadows on the right.\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEkKyhTbYAA5Hfx?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2038178348061393388",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785588665205,
+      "title": "电商海报",
+      "url": "https://x.com/sumiturkude007/status/2038178348061393388",
+      "collectedAt": "2026-08-01T12:51:07.312Z",
+      "githubSyncedAt": "2026-08-01T12:51:07.312Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
