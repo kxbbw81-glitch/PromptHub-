@@ -1,7 +1,104 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:51:07.312Z",
+  "updatedAt": "2026-08-01T12:52:35.890Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadfur4_07jf",
+      "image": "https://pbs.twimg.com/media/HEdvWmobIAEA2uq?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEdvWmobIAEA2uq?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HETxjYqbYAEdiPO?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "A Japanese ins documentary capture style took a photo at will. A j-pop girl at home leaned on the light gray sofa with her back to the camera, holding a milky white cat in her arms. She tilted her head slightly to look at the sunset outside the window. The orange-pink natural light spread into the room through the gauze curtain, dyeing her hair and the outline of the sofa softly. Hazy, the picture has a slight blurry sense of focus captured by the mobile phone. The overall tone is warm and soft, full of a relaxed and ambiguous daily atmosphere of love, like a heart-warming life fragment hidden in the album.\n\n-Ar2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEdvWmobIAEA2uq?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HETxjYqbYAEdiPO?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/94vanAI/status/2037720072509407505",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588751984,
+      "title": "湖边日落女性人像",
+      "url": "https://x.com/94vanAI/status/2037720072509407505",
+      "collectedAt": "2026-08-01T12:52:35.890Z",
+      "githubSyncedAt": "2026-08-01T12:52:35.890Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadehdy_rlp8",
+      "image": "https://pbs.twimg.com/media/HEi1_FNaIAAtWI9?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HEi1_FNaIAAtWI9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEi1_FJbUAA3A7V?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEdvWmobIAEA2uq?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "A close-up photo, with the artificially built love sand caves on the beach as the foreground, with blue sky, white clouds and beach in the background, creating a fresh and romantic seaside atmosphere. Character performance: The Japanese jpop girl character in the picture interacts with the ”V“ word gesture wink. Creative interpretation: This shooting method integrates the characters with the seaside scenery through the love sand cave frame scene, which not only highlights the flexible vitality of the characters, but also conveys romantic and happy emotions with the help of love elements. It is often used to record creative moments in travel or express emotions.\n\n-Ar2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEi1_FNaIAAtWI9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEi1_FJbUAA3A7V?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEdvWmobIAEA2uq?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/94vanAI/status/2038078934450102380",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588688006,
+      "title": "海边晨光女性人像",
+      "url": "https://x.com/94vanAI/status/2038078934450102380",
+      "collectedAt": "2026-08-01T12:52:35.890Z",
+      "githubSyncedAt": "2026-08-01T12:52:35.890Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:9",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadehdx_shpp",
+      "image": "https://pbs.twimg.com/media/HEkq2P1aMAAEwp-?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEkq2P1aMAAEwp-?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEkq4KlaUAAwck-?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEkrgPRa0AAI24w?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "一张极具感官张力的 8K 夜景商业海报人像，聚焦于年轻女性在巨大城市地标前被强直闪切出的冷白面部与唇部高光瞬间。画面核心不是风景，而是“强闪打亮的脸”和“被压暗的巨型背景”之间的反差快感。\n\n动态与构图：人物在夜风中轻微转身，发丝被吹起，镜头于低机位仰拍中定格她向下看来的瞬间。主体不一定贴满全画面，但脸、胸肩、腿部高光必须像刀一样从黑暗里切出来，形成巨大压迫感。\n\n极致感官细节：重点刻画冷白皮在强闪下的伪发光质感、唇部的缎光反射、发丝边缘的利光、眼下与鼻梁被直闪击中的清晰高点、服装硬边与金属件的锐利反射。背景中的地标保持巨大、干净、压迫，但绝不抢脸。\n\n光影氛围：主体使用强直闪，背景保留自然夜景暗部层次与月晕或雾气氛围，形成典型“直闪切主体 + 夜景压暗 + 高级冷感 glow”的商业海报逻辑。\n\n画面右侧安全边距加入垂直极细\"voxcat\"（hairline超细、低对比暗灰蓝、字距略松、小到指甲盖大小，绝不抢主体），旁边一个青金石蓝小圆点（哑光、无发光、不像UI按钮），签名像版面设计细节而不是水印。\n\n风格：冷感夜景商业海报，CCD 直闪成像语言，真实摄影，高锐度，高对比，压迫构图，人物强气场，不要霓虹杂乱，不要背景抢主，不要暖黄脏肤色。 --ar 4:9",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEkq2P1aMAAEwp-?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEkq4KlaUAAwck-?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEkrgPRa0AAI24w?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2038208773165035678",
+      "tags": [
+        "8k",
+        "人像",
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1785588688005,
+      "title": "昨晚在调试一组夜景商业人像",
+      "url": "https://x.com/VoxcatAI/status/2038208773165035678",
+      "collectedAt": "2026-08-01T12:52:35.890Z",
+      "githubSyncedAt": "2026-08-01T12:52:35.890Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
