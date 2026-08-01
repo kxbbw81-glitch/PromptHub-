@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:52:35.890Z",
+  "updatedAt": "2026-08-01T12:53:08.683Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadgksq_aasx",
+      "image": "https://pbs.twimg.com/media/HEAfzbybUAAZNv0?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEAfzbybUAAZNv0?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEAfzcAbUAAZQFh?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "\"subject\": {\n\"description\": \"Based on <User Portrait>, a cool young woman with effortless attitude, sipping iced coffee through a black straw, lips slightly parted around the straw, eyes glancing",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEAfzbybUAAZNv0?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEAfzcAbUAAZQFh?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2035662211411321268",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588785738,
+      "title": "写真人像",
+      "url": "https://x.com/sidona/status/2035662211411321268",
+      "collectedAt": "2026-08-01T12:53:08.683Z",
+      "githubSyncedAt": "2026-08-01T12:53:08.683Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
