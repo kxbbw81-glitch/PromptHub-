@@ -1,7 +1,140 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:50:01.750Z",
+  "updatedAt": "2026-08-01T12:50:15.104Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadcvz4_sxio",
+      "image": "https://pbs.twimg.com/media/HEmSfi_bIAA2cJy?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEmSfi_bIAA2cJy?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Soft film portrait, full body shot, 4:5 vertical,\n\nintimate boudoir photography with dreamy filmic quality,\n\ngorgeous Korean K-pop idol, early 20s,\n\nrefined fox-eye shape with subtle upturned corners,\n\nflawless cold-white porcelain skin with cool undertone,\n\ntall slender figure with elegant curves and notably long legs,\n\n9-head proportion, 1:1.6 upper-to-lower body ratio,\n\nsmall beauty mark near collarbone,\n\nKorean-style makeup — thin extended eyeliner with aegyo-sal,\n\ndewy glass lips in soft rose, highlighter on cheekbones and nose\n\nbridge,\n\nlong dark brown slightly wavy hair past shoulders with silky sheen,\n\nwearing a red knit spaghetti-strap mini dress clinging to waist and hips,\n\nhemline at mid-thigh riding up slightly due to raised leg,\n\nfabric sculpting her torso then draping softly over hips,\n\nleaning against a white wall, back arched into a subtle S-curve,\n\none knee bent with foot pressed against the wall behind her,\n\nthigh line fully exposed by the shifted hemline,\n\none hand holding a lollipop bitten playfully between parted lips,\n\nother hand resting lightly on her thigh,\n\nchin tilted slightly upward, sexy eyes expression teasing and unhurried, radiating effortless confidence,\n\nsoft diffused side window light filtered through sheer curtains,\n\nlight flowing along body contours — tracing collarbones,\n\nouter arm, and outer thigh with gentle luminous highlights,\n\nsoft shadows wrapping the inner curves — waist hollow,\n\ninner thigh, neck hollow — with creamy gradual falloff,\n\n2.5:1 lighting ratio, shadow detail fully preserved,\n\nsubtle light stripes from window frame casting across her skin,\n\nskin glowing with natural translucence under soft directional light,\n\nshot on 85mm f/1.4, shallow depth of field,\n\nsmooth creamy bokeh dissolving the background,\n\nsubject slightly left of center,\n\nlight patterns serving as compositional leading lines,\n\nFuji Pro 400H film simulation, cool-toned with subtle pink shift,\n\nhighlights slightly green-tinted, shadows leaning blue-lavender,\n\nlow contrast, soft dreamy fade, fine delicate grain,\n\nskin tones preserved with cool porcelain clarity,\n\nPhotorealistic, ultra-detailed skin with natural pores\n\nand soft luminous sheen under diffused light,\n\nindividual hair strands catching filtered window highlights,\n\nrealistic fabric texture clinging and draping naturally,\n\nlollipop with glossy hard-candy surface reflection,\n\nsharp focus on eyes and lips, 8K UHD, RAW photo quality,\n\nmasterpiece, best quality, no artifacts, no watermark\n\nNegative prompt:\n\nillustration, CGI, 3D render, cartoon, painting,\n\nplastic skin, wax figure, over-smoothed, airbrushed,\n\nharsh lighting, hard shadows, studio strobe look,\n\nyellow undertone, oily greasy shine, orange skin,\n\ndeformed, bad anatomy, extra fingers, mutated hands,\n\nwatermark, text, logo, signature,\n\ncropped head, cut off feet, stiff posture",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEmSfi_bIAA2cJy?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2038321936200323409",
+      "tags": [
+        "photorealistic",
+        "dark",
+        "dreamy",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1785588613600,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/BubbleBrain/status/2038321936200323409",
+      "collectedAt": "2026-08-01T12:50:15.104Z",
+      "githubSyncedAt": "2026-08-01T12:50:15.104Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadcvz3_va99",
+      "image": "https://pbs.twimg.com/media/HEon6sEbQAEpnNG?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HEon6sEbQAEpnNG?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEon7agbgAABkyH?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEon8FPb0AA3Vpk?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEon9B4awAAmjGg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Evaluation of subject composition and gaze direction, utilizing a selective focus foreground blur to enhance visual hierarchy and isolate the subject's expression.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEon6sEbQAEpnNG?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEon7agbgAABkyH?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEon8FPb0AA3Vpk?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEon9B4awAAmjGg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sunachi_world/status/2038516439599210678",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588613599,
+      "title": "AI提示词",
+      "url": "https://x.com/sunachi_world/status/2038516439599210678",
+      "collectedAt": "2026-08-01T12:50:15.104Z",
+      "githubSyncedAt": "2026-08-01T12:50:15.104Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadcvz3_pmc3",
+      "image": "https://pbs.twimg.com/media/HEotHVwagAATOBS?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HEotHVwagAATOBS?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEotHVnbUAARkT3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEotHVmacAAhQhX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEotHVkaAAAjQMW?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic 3:4 portrait in a high-contrast nightlife editorial style. Use the reference image for the subject’s identity, face, and hair — preserve exact facial features, proportions, and likeness.\n\nThe subject is standing slightly angled on an outdoor balcony at night, gently leaning against a metallic railing. Her left hand is raised to touch her hair, while her right hand hangs down holding a small handbag. Her pose feels relaxed, confident, and joyful.\n\nShe is wearing a light pink rhinestone-covered mini dress with spaghetti straps, a low V-neckline, and horizontal ruched draping.\n\nAccessories include a small silver rhinestone hobo handbag, a thick silver rhinestone cuff on the right wrist, a thin silver bracelet on the left wrist, and thick diamond-style hoop earrings. Nails are painted solid white.\n\nThe setting is a nighttime balcony with a grey metallic horizontal railing. The background features a deep black sky and out-of-focus illuminated windows of distant high-rise buildings.\n\nLighting is strong direct camera flash, creating high contrast and making the dress and accessories sparkle intensely against the dark background.\n\nHigh detail, sharp textures, flash photography aesthetic, cinematic nightlife editorial style, shallow depth of field, crisp focus on the subject.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEotHVwagAATOBS?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEotHVnbUAARkT3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEotHVmacAAhQhX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEotHVkaAAAjQMW?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2038491486267064384",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1785588613599,
+      "title": "夜晚窗边电影感女性人像",
+      "url": "https://x.com/sumiturkude007/status/2038491486267064384",
+      "collectedAt": "2026-08-01T12:50:15.104Z",
+      "githubSyncedAt": "2026-08-01T12:50:15.104Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "1:1",
+      "category": "动物",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadcvz2_8pwd",
+      "image": "https://pbs.twimg.com/media/HEoNpO8agAANFxE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEoNpO8agAANFxE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEoNpO-bQAAxHyk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEoNpO9bkAA30Bt?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt 2:\nFlat lay product photography of a chili chutney jar centered on a black textured board over a warm beige background, styled with fresh tomatoes, sliced tomato, red chilies, scattered spices, and a wooden scoop. Clean composition, natural light with soft shadows, vibrant reds and warm tones, modern food branding aesthetic, high detail, 4K resolution.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEoNpO8agAANFxE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEoNpO-bQAAxHyk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEoNpO9bkAA30Bt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Kashberg_0/status/2038456800190808446",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588613598,
+      "title": "AI提示词",
+      "url": "https://x.com/Kashberg_0/status/2038456800190808446",
+      "collectedAt": "2026-08-01T12:50:15.104Z",
+      "githubSyncedAt": "2026-08-01T12:50:15.104Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
