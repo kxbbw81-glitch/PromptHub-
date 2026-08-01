@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T09:22:04.481Z",
+  "updatedAt": "2026-08-01T10:35:40.379Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msa8jrjp_fxwe",
+      "image": "https://pbs.twimg.com/media/HHZ4dRKbYAA1tYs?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HHZ4dRKbYAA1tYs?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Realistic photography, portrait of a beautiful korean idol with long sleek straight black hair, a slim tall hourglass figure and elegant S-curve body line. She slightly lowers her head and looks at her phone, left arm bent and raised holding the phone, right arm hanging naturally at her side, torso upright yet relaxed, natural poised posture.\nShe is wearing a white strapless bodycon mini dress and a black chain crossbody bag. The background is a stone wall with dappled tree shadows cast across it, creating a poetic and textured atmosphere. Fresh campus-inspired fashion editorial mood, youthful and lively yet refined.\nExpression: cool, aloof, slightly melancholic, with affectionate and soulful eyes; a lazy, distant gaze toward the camera, subtle emotional tension, cinematic sense of presence.\nStyle and mood: dark-toned emotional portrait, immersive atmosphere, hazy aesthetic, retro undertone, slight surrealism, sophisticated and premium visual language, masterpiece composition, cinematic quality, award-winning photography feel, editorial mood portrait.\nLighting: soft side lighting with gentle facial fill light, clear facial details, rim light on the hair, strong backlight accents and shadow tracing, dimensional facial features, smooth porcelain skin, soft glow, delicate skin texture, refined retouching, ultra-detailed realism.\nComposition: medium close-up to medium shot, shallow depth of field, foreground blur, background blur, rich image layering, strong visual depth, dramatic yet elegant framing, crisp face focus with soft atmospheric surroundings.\nVisual qualities: photorealistic, high-end beauty retouching, soft diffusion, subtle bloom, polished skin, clean tonal control, rich texture, high-resolution editorial photography, emotionally charged, cinematic, refined, atmospheric, striking and memorable. --2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHZ4dRKbYAA1tYs?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2050959150973383060",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785580536374,
+      "title": "石墙长椅美容广告",
+      "url": "https://x.com/BubbleBrain/status/2050959150973383060",
+      "collectedAt": "2026-08-01T10:35:40.379Z",
+      "githubSyncedAt": "2026-08-01T10:35:40.379Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
