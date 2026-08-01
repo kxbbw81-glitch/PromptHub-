@@ -1,7 +1,96 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:48:57.662Z",
+  "updatedAt": "2026-08-01T12:50:01.750Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadc6ic_bl5q",
+      "image": "https://pbs.twimg.com/media/HEtHQtaaoAAeW_s?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEtHQtaaoAAeW_s?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "灰色针织、灰丝袜、黑色沙发，这张图不是在摆姿势，是把整个人轻轻折进一个很安静的角落里。\nIndoor lounge portrait + warm ambient light + monochrome grey dress and heel styling + curled-up sofa pose\nThe eye contact or the curled-up pose — which detail makes you stop first?",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEtHQtaaoAAeW_s?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2038801642632647152",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588580596,
+      "title": "米色针织情绪肖像",
+      "url": "https://x.com/sidona/status/2038801642632647152",
+      "collectedAt": "2026-08-01T12:50:01.750Z",
+      "githubSyncedAt": "2026-08-01T12:50:01.750Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "建筑",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadbb4i_h48t",
+      "image": "https://pbs.twimg.com/media/HEBIB4SbkAENdRe?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEBIB4SbkAENdRe?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "\"quality\": \"ultra_photorealistic, raw style, 8k\",\n\n\"lighting\": \"Warm interior car lighting, with mixed colorful night city lights visible through the window. Subtle",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEBIB4SbkAENdRe?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2038696009279418853",
+      "tags": [
+        "photorealistic",
+        "8k"
+      ],
+      "timestamp": 1785588539922,
+      "title": "夜晚窗边空间概念",
+      "url": "https://x.com/youngcatwoman/status/2038696009279418853",
+      "collectedAt": "2026-08-01T12:50:01.750Z",
+      "githubSyncedAt": "2026-08-01T12:50:01.750Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadbb4h_9efe",
+      "image": "https://pbs.twimg.com/media/HEt3DP3bEAAJrmr?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HEt3DP3bEAAJrmr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEt3DP2bYAAMnsK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEoTeWyb0AAzgOh?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "Ins film photography style, a photo taken by [Hasu medium frame X2D I1100C camera with XCD 2.5/90V lens], 35mm fixed focus, strong film texture, high contrast, obvious graininess.\n\nThe picture is a casual fragment of daily life. A cold white-skinned Korean kpop young and beautiful girl wearing black lace suspenders, tall, slender limbs, large upper circumference, wearing sunglasses, sitting on a light beige canvas folding chair, with her right hand on her mouth, her head slightly tilted back to look up, and her eyes were lazy and confident. The background is a rough cement wall, and the ground is covered with gravel. In the afternoon, the sun casts mottled tree shadows on the wall through the leaves. The main body is located on the left side of the picture, and there is more space on the right side. The overall atmosphere is relaxed, high-end, and cinematic. The warm and soft light and shadow wrap the picture, with an ambiguous and relaxed atmosphere, like early summer with beauty and casual Frozen gentle moments.\n\n—Ar2:3",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEt3DP3bEAAJrmr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEt3DP2bYAAMnsK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HEoTeWyb0AAzgOh?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/94vanAI/status/2038854164348903470",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785588539922,
+      "title": "电影感女性人像",
+      "url": "https://x.com/94vanAI/status/2038854164348903470",
+      "collectedAt": "2026-08-01T12:50:01.750Z",
+      "githubSyncedAt": "2026-08-01T12:50:01.750Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
