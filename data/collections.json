@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:47:02.229Z",
+  "updatedAt": "2026-08-01T12:48:43.656Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadawy3_e4hu",
+      "image": "https://pbs.twimg.com/media/HE0MQIIXIAABtsX?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HE0MQIIXIAABtsX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HE0MP9CXcAAsURG?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HE0MP-vWMAA1Ur6?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "“meta”: {\n\n“quality”: “ultra_photorealistic, raw style, 8k, masterpiece”,\n\n“camera”: “iPhone 15 Pro Max”,\n\n“lighting”: “Soft, warm indoor studio lighting, creating",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE0MQIIXIAABtsX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HE0MP9CXcAAsURG?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HE0MP-vWMAA1Ur6?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Noira_exe/status/2039299680744452113",
+      "tags": [
+        "photorealistic",
+        "studio lighting",
+        "8k"
+      ],
+      "timestamp": 1785588521547,
+      "title": "AI提示词",
+      "url": "https://x.com/Noira_exe/status/2039299680744452113",
+      "collectedAt": "2026-08-01T12:48:43.656Z",
+      "githubSyncedAt": "2026-08-01T12:48:43.656Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
