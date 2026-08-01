@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:42:24.346Z",
+  "updatedAt": "2026-08-01T12:47:02.229Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msad8qln_r3jt",
+      "image": "https://pbs.twimg.com/media/HGeMPCva8AAodKm?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HGeMPCva8AAodKm?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "9:16 vertical — Korean idol intimate portrait, single subject, boyfriend POV\n\nsoft black mist filter, glowing highlights, gentle bloom, slight overexposure, soft haze, lowered contrast, creamy tones\n\nclose distance framing, intimate perspective, slight handheld feeling\n\nyoung Korean female idol, natural soft makeup, dewy realistic skin texture, subtle imperfections\n\noutfit: oversized white shirt slightly loose and relaxed + short bottoms, soft fabric, naturally draped, no revealing elements\n\nhair: long dark hair, slightly messy, soft movement around face\n\npose: sitting or leaning slightly forward toward camera, upper body subtly angled; one hand resting lightly near collarbone or gently holding shirt edge, the other relaxed; shoulders loose, slight natural body curve\n\nexpression: soft playful smile, slightly parted lips, warm eye contact with camera, hint of teasing intimacy\n\ncamera: close-up to mid-body framing, eye-level or slightly lower angle, as if viewer is right in front of her\n\nlighting: warm diffused window light, soft highlight bloom on skin, gentle shadows, slight lens flare or light leak\n\nmood: intimate, romantic, subtly seductive, “caught in a private moment” feeling\n\nquality: ultra-realistic, fine film grain, slight motion blur, imperfect framing, dreamy cinematic softness",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGeMPCva8AAodKm?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2046758832131461255",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy"
+      ],
+      "timestamp": 1785588420011,
+      "title": "电影感女性人像",
+      "url": "https://x.com/BubbleBrain/status/2046758832131461255",
+      "collectedAt": "2026-08-01T12:47:02.229Z",
+      "githubSyncedAt": "2026-08-01T12:47:02.229Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "城市",
