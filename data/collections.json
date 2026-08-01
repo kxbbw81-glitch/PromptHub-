@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T11:54:21.770Z",
+  "updatedAt": "2026-08-01T12:42:24.346Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "城市",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msad2s0b_3hwi",
+      "image": "https://pbs.twimg.com/media/HHHnpO_akAA6wAe?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HHHnpO_akAA6wAe?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HHHnpO_boAAcvk9?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "白い壁と夕日で、黄色がいちばん可愛く見える日。\nclose phone-style street portrait / golden-hour hard sunlight / butter yellow + clean white styling / city wall shadow\nWould you wear this yellow-and-white combo for a sunny city walk?",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHHnpO_akAA6wAe?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HHHnpO_boAAcvk9?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2049674020535345490",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588141900,
+      "title": "街头人像",
+      "url": "https://x.com/sidona/status/2049674020535345490",
+      "collectedAt": "2026-08-01T12:42:24.346Z",
+      "githubSyncedAt": "2026-08-01T12:42:24.346Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
