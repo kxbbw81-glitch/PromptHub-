@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T12:48:43.656Z",
+  "updatedAt": "2026-08-01T12:48:57.662Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-01",
+      "domain": "x.com",
+      "id": "ext_msadb6zu_9mux",
+      "image": "https://pbs.twimg.com/media/HEtU3HEbUAEQNtI?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HEtU3HEbUAEQNtI?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEpqyd-aEAAX8Wt?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "editorial portrait photography, 4:5 vertical, full body shot, beautiful Korean female idol, early 20s, 9-head proportion, kneeling pose with hips slightly lifted off heels, torso twisted 15 degrees to the right showing waist-to-hip curve, back",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEtU3HEbUAEQNtI?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HEpqyd-aEAAX8Wt?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2038817148089597964",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785588534570,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/BubbleBrain/status/2038817148089597964",
+      "collectedAt": "2026-08-01T12:48:57.662Z",
+      "githubSyncedAt": "2026-08-01T12:48:57.662Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "抽象",
