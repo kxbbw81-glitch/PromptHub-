@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:23:16.962Z",
+  "updatedAt": "2026-08-02T12:29:00.891Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbs1ev0_9lee",
+      "image": "https://pbs.twimg.com/media/HJ6-ygZbUAAAtq7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJ6-ygZbUAAAtq7?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Full prompt: https://aiistudio.com/prompt/2046434670724907395…\n\n9:16 vertical format, editorial portrait style, one subject only. Black mist effect applied lightly, soft atmospheric haze, gentle glow around highlights, tones muted and desaturated. Indoor space kept minimal and clean, background plain with subtle surface texture. Young Korean woman, very little makeup, natural skin visible. Clothes: ribbed knit fitted top or thin camisole under a loose open shirt, high-waist shorts or skirt; fabric drapes close to the body naturally, soft, not revealing. Hair casual and slightly messy with natural body. Pose: sitting on the floor, one leg folded up, the other stretched out loosely; torso leans slightly, shoulders at different heights, head tilted to one side. Subject placed slightly off-center in frame, open negative space visible. Expression: relaxed and calm, eyes looking softly away, lips at rest. Light: gentle side lighting, shadows falling off gradually. Overall mood: quiet, understated, naturally sensual through relaxed body language rather than styling. Texture: fine grain, slight softness, photorealistic quality.\n\n#AIart #GPTImage2",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJ6-ygZbUAAAtq7?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/iamaiistudio/status/2062295658284138776",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785673738621,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/iamaiistudio/status/2062295658284138776",
+      "collectedAt": "2026-08-02T12:29:00.891Z",
+      "githubSyncedAt": "2026-08-02T12:29:00.891Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
