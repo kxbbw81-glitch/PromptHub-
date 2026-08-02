@@ -1,7 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T03:59:45.384Z",
+  "updatedAt": "2026-08-02T03:59:58.175Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9uses_h26y",
+      "image": "https://pbs.twimg.com/media/HOosDorbIAAA2wY?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOosDorbIAAA2wY?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "\"subject\": \"A cute young woman in her early-to-mid 20s with fair skin, long wavy light brown hair cascading over one shoulder, soft expressive brown eyes, natural rosy cheeks, full lips in a bright genuine smile showing teeth, and a youthful charming face.\",\n\n\"body\": \"Soft curvaceous figure with smooth skin, sitting pose on the floor.\",\n\n\"outfit\": \"Classic Japanese-style sailor school uniform (seifuku) consisting of a white short-sleeve blouse with a light blue sailor collar and white stripe details, a cream-colored neckerchief tied in a bow, and a light blue pleated mini skirt.\",\n\n\"pose\": \"Sitting on a white floor, body slightly turned, one leg bent and the other extended, one hand resting on the floor for support, looking toward the camera with a cheerful expression.\",\n\n\"expression\": \"Bright, joyful, and friendly smile with direct eye contact.\",\n\n\"lighting\": \"Soft even studio lighting with a clean bright atmosphere and minimal shadows.\",\n\n\"setting\": \"Minimalist studio with plain white walls and floor, simple and clean composition.\",\n\n\"style\": \"Photorealistic, ultra-detailed 8k, cinematic portrait, realistic fabric texture on the uniform and pleated skirt, sharp focus on face and outfit, high-end fashion and cosplay photography.\",\n\n\"camera\": \"Shot on Sony A7R V, 50mm lens, f/2.0, natural depth of field\",\n\n\"mood\": \"Cute, cheerful, playful, fresh and youthful\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOosDorbIAAA2wY?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Glowechoo/status/2083526233787154476",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "studio lighting",
+        "8k"
+      ],
+      "timestamp": 1785643196500,
+      "title": "古风设定图电影感女性人像",
+      "url": "https://x.com/Glowechoo/status/2083526233787154476",
+      "collectedAt": "2026-08-02T03:59:58.175Z",
+      "githubSyncedAt": "2026-08-02T03:59:58.175Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9user_c9cw",
+      "image": "https://pbs.twimg.com/media/HOnAxsHbkAAHaAc?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOnAxsHbkAAHaAc?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Full-body studio portrait of a young East Asian woman in her early 20s, fair skin, delicate facial features, large dark eyes looking slightly upward at the camera with a calm, slightly serious expression, soft pink lips closed. Long straight jet-black hair tied in a high sleek ponytail with neat straight bangs framing the forehead, a few loose strands falling near the shoulders. She stands with arms crossed tightly over her chest, body angled slightly to the side, weight on one leg. Wearing a tight light sky-blue sleeveless mock-neck crop top that ends just under the bust, exposing a toned midriff, paired with a matching tight light sky-blue mini skirt that hugs the hips and ends mid-thigh. Silver metallic high-heeled strappy sandals. Soft even studio lighting, seamless light gray background, clean minimalist aesthetic, sharp focus, photorealistic, high detail, 8k. @TopviewAIhq @topviewjapan #Topview",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOnAxsHbkAAHaAc?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2083583541900890227",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "studio lighting",
+        "8k"
+      ],
+      "timestamp": 1785643196499,
+      "title": "东方人像",
+      "url": "https://x.com/woleswoosh/status/2083583541900890227",
+      "collectedAt": "2026-08-02T03:59:58.175Z",
+      "githubSyncedAt": "2026-08-02T03:59:58.175Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
