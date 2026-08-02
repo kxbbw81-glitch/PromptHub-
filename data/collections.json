@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T10:54:33.213Z",
+  "updatedAt": "2026-08-02T12:12:37.048Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrgajr_kxop",
+      "image": "https://pbs.twimg.com/media/HOrQQt4WEAAfi0Q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOrQQt4WEAAfi0Q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOrQQt5W0AA_7G9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4 竖版，照片级真实人像摄影，暖黄台灯与柔和机顶闪光混合照明，私人衣帽间，米白色布帘位于画面左侧，背景为暖灰门板、衣架与少量浅色服装，温暖、克制、略带电影叙事感。  一位明确 22–26 岁的虚构成年东亚女性，不对应真实艺人。小巧柔和鹅蛋脸，清晰杏仁眼，挺直鼻梁，饱满自然的玻璃裸粉唇。自然半哑光薄透底妆，细长睫毛，浅暖棕眼妆，眼下极少量蜜桃色腮红；皮肤保留毛孔、细小绒毛、自然泛红和细微油脂高光。黑色长发自然披散，发丝微乱，暖色逆光勾勒头发边缘。  人物侧身坐在米色软凳上，构图从头部延伸至膝盖上方。双腿朝画面右侧自然倾斜，一只手向左伸出轻轻抓住帘布，另一只手停在颈侧或锁骨附近。身体形成轻微 S 形曲线，肩膀自然下沉，两侧细肩带略微滑落至上臂。人物直接凝视镜头，表情安静、克制，嘴唇轻启。  穿奶油白色贴身罗纹针织吊带短裙，领口和裙摆有精细蕾丝边，面料产生真实褶皱和拉伸纹理。灯光在肩膀、锁骨与腿部形成柔和高光，不形成大面积湿亮。50mm 镜头，f/2，真实身体比例，无文字，无水印，无拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOrQQt4WEAAfi0Q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOrQQt5W0AA_7G9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2083706778177400899",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785672753255,
+      "title": "帘子拉开的那一刻",
+      "url": "https://x.com/chenlinspark/status/2083706778177400899",
+      "collectedAt": "2026-08-02T12:12:37.048Z",
+      "githubSyncedAt": "2026-08-02T12:12:37.048Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrgajq_3pf3",
+      "image": "https://pbs.twimg.com/media/HOorqIXW0AATd_V?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOorqIXW0AATd_V?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOorqJNWAAATp_m?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOorqIpWUAAopzk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOorqHwW8AArAxE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一张高端极简时尚杂志风格的写实棚拍人像。一位明确成年的年轻东亚女性，约24至28岁，正面站立于纯白至浅灰渐变的无缝摄影棚背景前，画面为竖构图半身肖像，从头顶拍至大腿上部。人物居中，身体正对镜头，肩膀放松，双臂自然交叠于腰前，一只手轻握另一侧手臂，姿态克制、优雅、自信。她拥有精致对称的鹅蛋脸、白皙中性肤色、深棕色杏仁眼、自然平直眉、秀气鼻梁、柔和裸粉色嘴唇，嘴唇微启，神情冷静疏离，直视镜头。深棕近黑色长直发中分，顺滑垂落肩后，发丝整齐但保留自然细节。妆容为高级裸妆：轻薄半哑光底妆、浅灰棕眼影、纤细眼线、自然睫毛、淡粉腮红、裸玫瑰色唇妆。\n\n她穿象牙白缎面细肩带吊带上衣，柔软垂坠的水波领，丝缎表面具有细腻高光；外搭宽松象牙白西装，左侧正常披覆，右侧自然滑落至肩下，露出肩部、锁骨与吊带。下装为同色高腰缎面长裤。佩戴精致钻石流苏长耳环，花簇状耳钉连接多排闪耀细链，搭配一条极细珍珠或钻石项链。整体为纯白、象牙色、珍珠银色调，低饱和、低对比、干净奢华。\n\n大型柔光箱从正前上方均匀照明，两侧辅光控制阴影，背景轻微过曝，面部与服装保留柔和立体层次。85mm人像镜头，f/4，眼平机位，精准对焦双眼，轻微浅景深。真实皮肤微纹理、自然毛孔、细腻发丝、可信丝缎褶皱和西装面料，无塑料皮肤，无过度磨皮，无夸张身材，无畸形手指，无文字、标志、水印、边框或拼图，比例2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOorqIXW0AATd_V?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOorqJNWAAATp_m?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOorqIpWUAAopzk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOorqHwW8AArAxE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083855331713749465",
+      "tags": [
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785672753255,
+      "title": "白色摄影棚编辑写真女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2083855331713749465",
+      "collectedAt": "2026-08-02T12:12:37.048Z",
+      "githubSyncedAt": "2026-08-02T12:12:37.048Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "awesome_gpt_image_2_case_520",
       "title": "月面宇航员 T 恤图形",
