@@ -31,6 +31,8 @@ test('a saved collection remains editable from its prompt detail route', () => {
 test('home gallery is three times longer and category totals include saved collections', () => {
   assert.match(app, /const loopedColumn = Array\.from\(\{ length: 18 \}/);
   assert.match(app, /getAllPromptItems\(\)\.forEach\(p =>/);
+  assert.match(css, /\.hero-gallery\s*\{\s*height: clamp\(864px, calc\(\(100svh - var\(--header-h\)\) \* 1\.2\), 1344px\);/);
+  assert.match(css, /height: clamp\(696px, calc\(\(100svh - 16px\) \* 1\.2\), 912px\);/);
 });
 
 test('the homepage curates a fresh daily selection instead of fixed liked prompts', () => {
@@ -59,7 +61,7 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
   assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
-  assert.match(index, /css\/style\.css\?v=20260802d/);
+  assert.match(index, /css\/style\.css\?v=20260802e/);
   assert.match(index, /js\/app\.js\?v=20260802g/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);

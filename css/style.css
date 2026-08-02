@@ -347,8 +347,8 @@ button {
 }
 
 .hero-gallery {
-  height: clamp(720px, calc(100svh - var(--header-h)), 1120px);
-  min-height: 720px;
+  height: clamp(864px, calc((100svh - var(--header-h)) * 1.2), 1344px);
+  min-height: 864px;
   padding: 0;
   background: #f7f8fa;
   text-align: left;
@@ -2236,8 +2236,8 @@ button {
     font-size: 36px;
   }
   .hero-gallery {
-    height: clamp(680px, calc(100svh - 48px), 920px);
-    min-height: 680px;
+    height: clamp(816px, calc((100svh - 48px) * 1.2), 1104px);
+    min-height: 816px;
   }
   .hero-intro {
     top: 28px;
@@ -2341,8 +2341,8 @@ button {
     padding: 48px 0;
   }
   .hero-gallery {
-    height: clamp(580px, calc(100svh - 16px), 760px);
-    min-height: 580px;
+    height: clamp(696px, calc((100svh - 16px) * 1.2), 912px);
+    min-height: 696px;
     padding: 0;
   }
   .hero-intro {
