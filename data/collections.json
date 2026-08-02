@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:30:15.279Z",
+  "updatedAt": "2026-08-02T12:30:38.507Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "自然",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbs3izg_k74p",
+      "image": "https://pbs.twimg.com/media/HJWJxBWWgAoi1DY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJWJxBWWgAoi1DY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"scenes\": [\n\"Panel 1: Walking through lush Bali rice terraces, turning back smiling at camera\",\n\"Panel 2: Looking up at a traditional Balinese temple (like Lempuyang or Uluwatu), soft sunlight\",\n\"Panel 3: Leaning on a balcony overlooking tropical jungle or ocean cliffs\",\n\"Panel 4: Sitting by the beach near waves, golden hour sunlight hitting skin\",\n\"Panel 5: On a boat in turquoise water, wind blowing hair, candid side look\",\n\"Panel 6: Sunset by the ocean with warm orange sky, soft silhouette lighting\",\n\"Panel 7: Walking through a lively Bali street market, casual candid shot\",\n\"Panel 8: Sitting at a café with tropical decor, holding a drink (coconut or coffee)\",\n\"Panel 9: Leaning against a textured wall in a quiet Bali alley, relaxed pose\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJWJxBWWgAoi1DY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/craftian_keskin/status/2059734134826639491",
+      "tags": [
+        "golden hour"
+      ],
+      "timestamp": 1785673837277,
+      "title": "海滨长廊金色人像",
+      "url": "https://x.com/craftian_keskin/status/2059734134826639491",
+      "collectedAt": "2026-08-02T12:30:38.507Z",
+      "githubSyncedAt": "2026-08-02T12:30:38.507Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
