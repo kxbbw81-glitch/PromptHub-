@@ -1,7 +1,63 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:29:00.891Z",
+  "updatedAt": "2026-08-02T12:30:15.279Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbs2ycl_d1ai",
+      "image": "https://pbs.twimg.com/media/HJZYFRubkAAu7zo?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJZYFRubkAAu7zo?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Cinematic analog film photography, authentic 35mm film texture with natural grain, subtle halation and soft highlight bloom, moody first-class airplane cabin lighting mixed with cool blue window light at night, luxury fashion editorial",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJZYFRubkAAu7zo?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2059930760036114789",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785673810533,
+      "title": "CEO感高定街拍",
+      "url": "https://x.com/BubbleBrain/status/2059930760036114789",
+      "collectedAt": "2026-08-02T12:30:15.279Z",
+      "githubSyncedAt": "2026-08-02T12:30:15.279Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbs2ycl_at5r",
+      "image": "https://pbs.twimg.com/media/HJaCJkibEAAX07_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJaCJkibEAAX07_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Cinematic analog film photography, shot on 35mm Kodak Portra 400 film, pushed +1 stop, rich yet natural film grain with visible organic particles, beautiful halation and subtle bloom on bright highlights, authentic film",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJaCJkibEAAX07_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2059977047943086587",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785673810533,
+      "title": "AI提示词",
+      "url": "https://x.com/BubbleBrain/status/2059977047943086587",
+      "collectedAt": "2026-08-02T12:30:15.279Z",
+      "githubSyncedAt": "2026-08-02T12:30:15.279Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
