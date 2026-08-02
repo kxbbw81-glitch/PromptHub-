@@ -239,3 +239,8 @@ test('repeated GitHub save conflicts keep the queue and schedule automatic retry
   assert.equal(storage.prompthub_queue.length, 1);
   assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
 });
+
+test('extension leaves the delayed domestic release to the GitHub workflow', () => {
+  assert.doesNotMatch(backgroundSource, /scheduleDomesticRelease|releaseDomesticCollections|CLOUDFLARE_URL|CF_SYNC_DELAY_MINUTES/);
+  assert.match(backgroundSource, /queueAutomaticPrimarySync\(\)/);
+});

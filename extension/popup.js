@@ -1,6 +1,6 @@
 // ==========================================
 // PromptHub Extension v2 - Popup Script
-// 扫描页面 / 收藏队列 / 同步到网站
+// 扫描页面 / 收藏队列 / GitHub 主站验证
 // ==========================================
 
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
@@ -693,70 +693,7 @@ $('#btn-notice').addEventListener('click', async () => {
   showToast(receipt?.message || (feedback?.queueCount ? `正在验证 ${feedback.queueCount} 个收藏` : '暂无收藏验证记录'));
 });
 
-// --- 可复用：同步到指定站点 ---
-async function syncToSite(url, tabPattern, queue) {
-  const tabs = await chrome.tabs.query({ url: tabPattern });
-  let tab;
-  if (tabs.length > 0) {
-    tab = tabs[0];
-    await chrome.tabs.update(tab.id, { active: true });
-    await new Promise(r => setTimeout(r, 300));
-  } else {
-    tab = await chrome.tabs.create({ url: url + '#/collections' });
-    // 等待页面真正加载完成（最多 15 秒）
-    await new Promise((resolve) => {
-      let done = false;
-      const listener = (tabId, changeInfo) => {
-        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          setTimeout(resolve, 500);
-        }
-      };
-      chrome.tabs.onUpdated.addListener(listener);
-      setTimeout(() => {
-        if (!done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          resolve();
-        }
-      }, 15000);
-    });
-  }
-
-  // 注入函数写入 localStorage + 主动触发 storage 事件
-  const injectResult = await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: (data) => {
-      try {
-        const existing = JSON.parse(localStorage.getItem('prompthub_ext_import') || '[]');
-        const merged = [...existing, ...data];
-        const seen = new Set();
-        const deduped = merged.filter(item => {
-          if (seen.has(item.prompt)) return false;
-          seen.add(item.prompt);
-          return true;
-        });
-        localStorage.setItem('prompthub_ext_import', JSON.stringify(deduped));
-        // 主动触发 storage 事件（同窗口内 setItem 不会自动触发）
-        window.dispatchEvent(new StorageEvent('storage', {
-          key: 'prompthub_ext_import',
-          newValue: JSON.stringify(deduped),
-          oldValue: null,
-          storageArea: localStorage
-        }));
-        return { success: true, count: deduped.length };
-      } catch (e) {
-        return { success: false, error: e.message };
-      }
-    },
-    args: [queue]
-  });
-
-  return { tab, result: injectResult[0]?.result };
-}
-
-// --- 同步到网站：先 GitHub Pages（前台）→ Cloudflare（后台空闲时自动）---
+// --- GitHub 主站失败队列的即时重试 ---
 $('#btn-sync').addEventListener('click', async () => {
   const btn = $('#btn-sync');
   btn.disabled = true;
@@ -789,21 +726,6 @@ $('#btn-sync').addEventListener('click', async () => {
         </div>
       `;
       return;
-
-      showToast(`已同步 ${queue.length} 个到 GitHub Pages`);
-
-      $('#content').innerHTML = `
-        <div class="empty-state">
-          <div class="empty-icon" style="font-size:40px;">✅</div>
-          <div class="empty-text" style="font-size:14px;color:#00B894;font-weight:600;">
-            已同步 ${queue.length} 个提示词
-          </div>
-          <div class="empty-hint" style="margin-top:8px;line-height:1.8;">
-            🌐 GitHub Pages ✓<br>
-            🇨🇳 国内站点：${CF_SYNC_DELAY_MINUTES} 分钟后自动同步
-          </div>
-        </div>
-      `;
     } else {
       const errorMessage = syncResult?.error || 'GitHub 主站写入失败';
       showToast(errorMessage);
@@ -823,7 +745,7 @@ $('#btn-sync').addEventListener('click', async () => {
     showToast('同步失败: ' + e.message);
   } finally {
     btn.disabled = false;
-    btn.textContent = '🔄 同步到网站';
+    btn.textContent = '🔄 重试 GitHub 主站';
   }
 });
 

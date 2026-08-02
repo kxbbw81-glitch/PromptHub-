@@ -118,11 +118,11 @@ test('removes social-post platform labels before the real prompt', () => {
   assert.doesNotMatch(parsed.prompt, /^GPT Image 2 on ChatGPT/);
 });
 
-test('domestic release is scheduled 30 minutes after the GitHub write', () => {
+test('domestic release is handled by the GitHub workflow after the GitHub write', () => {
   const background = fs.readFileSync(path.join(__dirname, '../extension/background.js'), 'utf8');
+  const workflow = fs.readFileSync(path.join(__dirname, '../.github/workflows/release-domestic-collections.yml'), 'utf8');
 
-  assert.match(background, /const CF_SYNC_DELAY_MINUTES = 30;/);
   assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
-  assert.match(background, /const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';/);
-  assert.match(background, /Date\.now\(\) \+ CF_SYNC_DELAY_MINUTES \* 60 \* 1000/);
+  assert.doesNotMatch(background, /scheduleDomesticRelease|releaseDomesticCollections|CF_SYNC_DELAY_MINUTES/);
+  assert.match(workflow, /node scripts\/release-domestic-collections\.js/);
 });

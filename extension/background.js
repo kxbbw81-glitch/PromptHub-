@@ -7,14 +7,11 @@ const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const GITHUB_PAGES_TAB_PATTERN = '*://kxbbw81-glitch.github.io/PromptHub-/*';
 const WEBSITE_URL = GITHUB_PAGES_URL;
 const QUEUE_KEY = 'prompthub_queue';
-const CF_SYNC_DELAY_MINUTES = 30;
 const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
 const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
 const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/git/blobs/';
 const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
-const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
-const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
 const RECEIPT_KEY = 'prompthub_collection_receipts';
 const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';
 const PRIMARY_RETRY_DELAY_MINUTES = 2;
@@ -421,46 +418,6 @@ function updateQueueBadge(tabId, count) {
   if (text) chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId });
 }
 
-async function recoverCloudflareFromGitHub() {
-  const tabs = await chrome.tabs.query({ url: GITHUB_PAGES_TAB_PATTERN });
-  let tab = tabs[0];
-  if (!tab) {
-    tab = await chrome.tabs.create({ url: GITHUB_PAGES_URL + '#/collections', active: false });
-    await new Promise((resolve) => {
-      let done = false;
-      const listener = (tabId, changeInfo) => {
-        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          setTimeout(resolve, 500);
-        }
-      };
-      chrome.tabs.onUpdated.addListener(listener);
-      setTimeout(() => {
-        if (!done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          resolve();
-        }
-      }, 15000);
-    });
-  }
-
-  const result = await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: () => {
-      try {
-        const items = JSON.parse(localStorage.getItem('prompthub_collections') || '[]');
-        return Array.isArray(items) ? items : [];
-      } catch {
-        return [];
-      }
-    }
-  });
-  const collections = result[0]?.result || [];
-  if (collections.length > 0) await scheduleCloudflareSync(collections);
-}
-
 // --- 消息处理 ---
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'getQueue') {
@@ -547,145 +504,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 });
 
-function createSyncBatchId() {
-  return `sync_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 10)}`;
-}
-
-async function writeImportBatch(tabId, queue, batchId) {
-  const result = await chrome.scripting.executeScript({
-    target: { tabId },
-    func: (data, importKey, nextBatchId) => {
-      try {
-        const raw = JSON.parse(localStorage.getItem(importKey) || '[]');
-        const existing = Array.isArray(raw) ? raw : (Array.isArray(raw?.items) ? raw.items : []);
-        const seen = new Set();
-        const items = [...existing, ...data].filter(item => {
-          const key = item?.id || item?.prompt;
-          if (!key || seen.has(key)) return false;
-          seen.add(key);
-          return true;
-        });
-        localStorage.setItem(importKey, JSON.stringify({ batchId: nextBatchId, items }));
-        window.dispatchEvent(new StorageEvent('storage', {
-          key: importKey,
-          newValue: JSON.stringify({ batchId: nextBatchId, items }),
-          oldValue: null,
-          storageArea: localStorage
-        }));
-        return { success: true, count: items.length };
-      } catch (e) {
-        return { success: false, error: e.message };
-      }
-    },
-    args: [queue, EXT_IMPORT_KEY, batchId]
-  });
-
-  const payload = result[0]?.result;
-  if (!payload?.success) throw new Error(payload?.error || 'PromptHub import handoff failed');
-  return payload;
-}
-
-async function waitForSaveReceipt(tabId, batchId) {
-  const deadline = Date.now() + SYNC_RECEIPT_WAIT_MS;
-  while (Date.now() < deadline) {
-    const result = await chrome.scripting.executeScript({
-      target: { tabId },
-      func: (receiptKey) => {
-        try {
-          return JSON.parse(localStorage.getItem(receiptKey) || 'null');
-        } catch {
-          return null;
-        }
-      },
-      args: [EXT_SYNC_RECEIPT_KEY]
-    });
-    const receipt = result[0]?.result;
-    if (receipt?.batchId === batchId) return receipt;
-    await new Promise(resolve => setTimeout(resolve, 400));
-  }
-  throw new Error('PromptHub save receipt was not received');
-}
-
-async function deliverBatchToPromptHub(tabId, queue) {
-  const batchId = createSyncBatchId();
-  await writeImportBatch(tabId, queue, batchId);
-  return waitForSaveReceipt(tabId, batchId);
-}
-
-// --- 同步到单个站点 ---
-async function syncToSite(url, tabPattern, queue) {
-  const tabs = await chrome.tabs.query({ url: tabPattern });
-  let tab;
-  if (tabs.length > 0) {
-    tab = tabs[0];
-    await chrome.tabs.update(tab.id, { active: true });
-    await new Promise(r => setTimeout(r, 300));
-  } else {
-    tab = await chrome.tabs.create({ url: url + '#/collections' });
-    // 等待页面真正加载完成（最多 15 秒）
-    await new Promise((resolve) => {
-      let done = false;
-      const listener = (tabId, changeInfo) => {
-        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          setTimeout(resolve, 500);
-        }
-      };
-      chrome.tabs.onUpdated.addListener(listener);
-      setTimeout(() => {
-        if (!done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          resolve();
-        }
-      }, 15000);
-    });
-  }
-
-  const receipt = await deliverBatchToPromptHub(tab.id, queue);
-  return { success: true, tab, receipt };
-}
-
-// --- 同步到网站：只同步 GitHub Pages，成功后安排后台延迟同步国内站点 ---
-async function syncToWebsiteLegacy() {
-  const queue = await getQueue();
-  if (queue.length === 0) return { success: false, error: 'Queue is empty' };
-
-  // The queue is temporary extension state; GitHub is the only saved source.
-  const result = await syncQueueToGitHub(queue);
-  if (!result.success) return result;
-  await clearQueue();
-  return { success: true, count: result.count, skipped: result.skipped || 0 };
-
-  if (queue.length === 0) {
-    return { success: false, error: '队列为空' };
-  }
-
-  // 只同步到 GitHub Pages
-  let githubOk = false;
-  try {
-    await syncToSite(GITHUB_PAGES_URL, GITHUB_PAGES_TAB_PATTERN, queue);
-    githubOk = true;
-  } catch (e) {
-    console.warn('GitHub Pages sync failed:', e.message);
-  }
-
-  if (githubOk) {
-    await clearQueue();
-    // 安排后台延迟同步到国内站点
-    try {
-      await scheduleCloudflareSync(queue);
-    } catch (e) {
-      console.warn('Failed to schedule Cloudflare sync:', e.message);
-    }
-    return { success: true, count: queue.length, sites: ['GitHub Pages'] };
-  }
-
-  return { success: false, error: 'GitHub Pages 同步失败' };
-}
-
-// --- 后台延迟同步到 Cloudflare Workers ---
 let activeQueueSync = null;
 let automaticPrimarySync = Promise.resolve();
 
@@ -778,81 +596,6 @@ async function removeSyncedQueueItems(syncedItems) {
       await chrome.storage.local.set({ [QUEUE_KEY]: remaining });
     }
   });
-}
-
-const CF_PENDING_KEY = 'prompthub_cf_pending';
-const CF_ALARM_NAME = 'delayed_cf_sync';
-
-// 安排延迟同步：存数据 + 创建 alarm
-async function scheduleCloudflareSync(queue) {
-  // 合并已 pending 的数据
-  const data = await chrome.storage.local.get(CF_PENDING_KEY);
-  const existing = data[CF_PENDING_KEY] || [];
-  const merged = [...existing, ...queue];
-  const seen = new Set();
-  const deduped = merged.filter(item => {
-    if (seen.has(item.prompt)) return false;
-    seen.add(item.prompt);
-    return true;
-  });
-  await chrome.storage.local.set({ [CF_PENDING_KEY]: deduped });
-  // 30 分钟后执行，确保先完成 GitHub Pages 收藏，再同步国内站点。
-  await chrome.alarms.create(CF_ALARM_NAME, { delayInMinutes: CF_SYNC_DELAY_MINUTES });
-  console.log(`[PromptHub] 已安排后台同步到国内站点，${CF_SYNC_DELAY_MINUTES} 分钟后执行`);
-}
-
-// Alarm 触发：静默同步到 Cloudflare
-chrome.alarms.onAlarm.addListener(async (alarm) => {
-  if (alarm.name !== CF_ALARM_NAME) return;
-
-  const data = await chrome.storage.local.get(CF_PENDING_KEY);
-  const queue = data[CF_PENDING_KEY] || [];
-  if (queue.length === 0) return;
-
-  console.log(`[PromptHub] 开始后台同步 ${queue.length} 个到国内站点…`);
-  try {
-    await syncToSiteSilent(CLOUDFLARE_URL, CLOUDFLARE_TAB_PATTERN, queue);
-    await chrome.storage.local.remove(CF_PENDING_KEY);
-    console.log('[PromptHub] 后台同步到国内站点成功');
-  } catch (e) {
-    console.warn('[PromptHub] 后台同步到国内站点失败:', e.message);
-    // 失败重试：5 分钟后再试一次
-    chrome.alarms.create(CF_ALARM_NAME, { delayInMinutes: 5 });
-  }
-});
-
-// 静默同步（后台标签页，不切换焦点）
-async function syncToSiteSilent(url, tabPattern, queue) {
-  const tabs = await chrome.tabs.query({ url: tabPattern });
-  let tab;
-  if (tabs.length > 0) {
-    // 已有标签页，不激活
-    tab = tabs[0];
-  } else {
-    // 后台打开标签页（不切换焦点）
-    tab = await chrome.tabs.create({ url: url + '#/collections', active: false });
-    // 等待页面加载完成
-    await new Promise((resolve) => {
-      let done = false;
-      const listener = (tabId, changeInfo) => {
-        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          setTimeout(resolve, 500);
-        }
-      };
-      chrome.tabs.onUpdated.addListener(listener);
-      setTimeout(() => {
-        if (!done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          resolve();
-        }
-      }, 15000);
-    });
-  }
-
-  return deliverBatchToPromptHub(tab.id, queue);
 }
 
 // --- GitHub-backed collection storage ---
@@ -1095,22 +838,6 @@ async function verifyGitHubCollections(token, entries) {
   return { success: true, count: entries.length };
 }
 
-async function scheduleDomesticRelease(ids) {
-  const validIds = [...new Set(ids.map(id => trimText(id, 120)).filter(Boolean))];
-  if (validIds.length === 0) return;
-
-  const data = await chrome.storage.local.get(DOMESTIC_PENDING_KEY);
-  const existing = Array.isArray(data[DOMESTIC_PENDING_KEY]) ? data[DOMESTIC_PENDING_KEY] : [];
-  const dueAt = Date.now() + CF_SYNC_DELAY_MINUTES * 60 * 1000;
-  const byId = new Map(existing.map(entry => [entry.id, entry]));
-  validIds.forEach(id => {
-    if (!byId.has(id)) byId.set(id, { id, dueAt });
-  });
-  const pending = [...byId.values()];
-  await chrome.storage.local.set({ [DOMESTIC_PENDING_KEY]: pending });
-  await chrome.alarms.create(DOMESTIC_ALARM_NAME, { when: Math.min(...pending.map(entry => entry.dueAt)) });
-}
-
 async function mutateGitHubCollections(operation, item) {
   const token = await getGitHubToken();
   const safeItem = operation === 'delete' ? { id: trimText(item?.id, 120) } : sanitizeRemoteItem(item);
@@ -1124,7 +851,6 @@ async function mutateGitHubCollections(operation, item) {
     const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
     const index = collections.findIndex(entry => entry.id === safeItem.id);
     const now = new Date().toISOString();
-    const releaseIds = [];
     let changed = 0;
 
     if (operation === 'delete') {
@@ -1140,7 +866,6 @@ async function mutateGitHubCollections(operation, item) {
         return { success: true, count: 0, alreadySaved: true, duplicateId: (collections[index] || duplicate || sameSource).id };
       }
       collections.unshift({ ...safeItem, collectedAt: now, githubSyncedAt: now, domesticSyncedAt: null });
-      releaseIds.push(safeItem.id);
       changed = 1;
     } else if (operation === 'update') {
       if (index === -1) return { success: false, error: '未找到需要更新的收藏' };
@@ -1153,17 +878,12 @@ async function mutateGitHubCollections(operation, item) {
         domesticSyncedAt: collections[index].domesticSyncedAt || null
       };
       changed = 1;
-    } else if (operation === 'release') {
-      if (index === -1) return { success: true, count: 0 };
-      collections[index] = { ...collections[index], domesticSyncedAt: now };
-      changed = 1;
     } else {
       return { success: false, error: '未知收藏操作' };
     }
 
     try {
       await writeGitHubCollections(token, collections, snapshot.sha);
-      if (releaseIds.length) await scheduleDomesticRelease(releaseIds);
       return { success: true, count: changed };
     } catch (error) {
       if (!error.retryable || attempt === 7) throw error;
@@ -1221,7 +941,6 @@ async function syncQueueToGitHub(queue) {
     try {
       await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
       const verification = await verifyGitHubCollections(token, additions);
-      await scheduleDomesticRelease(newCollections.map(entry => entry.id));
       return {
         success: true,
         count: additions.length,
@@ -1240,41 +959,13 @@ async function syncQueueToGitHub(queue) {
   return { success: false, error: 'GitHub 保存失败' };
 }
 
-async function releaseDomesticCollections() {
-  const data = await chrome.storage.local.get(DOMESTIC_PENDING_KEY);
-  const pending = Array.isArray(data[DOMESTIC_PENDING_KEY]) ? data[DOMESTIC_PENDING_KEY] : [];
-  const now = Date.now();
-  const due = pending.filter(entry => Number(entry.dueAt) <= now);
-  if (due.length === 0) {
-    if (pending.length) await chrome.alarms.create(DOMESTIC_ALARM_NAME, { when: Math.min(...pending.map(entry => entry.dueAt)) });
-    return;
-  }
-
-  const completed = new Set();
-  for (const entry of due) {
-    try {
-      const result = await mutateGitHubCollections('release', { id: entry.id });
-      if (result.success) completed.add(entry.id);
-    } catch (error) {
-      console.warn('[PromptHub] Domestic release retry:', error.message);
-    }
-  }
-  const next = pending
-    .filter(entry => !completed.has(entry.id))
-    .map(entry => due.some(item => item.id === entry.id) ? { ...entry, dueAt: Date.now() + 5 * 60 * 1000 } : entry);
-  await chrome.storage.local.set({ [DOMESTIC_PENDING_KEY]: next });
-  if (next.length) await chrome.alarms.create(DOMESTIC_ALARM_NAME, { when: Math.min(...next.map(entry => entry.dueAt)) });
-}
-
 chrome.alarms.onAlarm.addListener(alarm => {
   if (alarm.name === PRIMARY_RETRY_ALARM_NAME) {
     queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Primary retry failed:', error?.message || error));
   }
-  if (alarm.name === DOMESTIC_ALARM_NAME) releaseDomesticCollections();
 });
 
 chrome.runtime.onStartup.addListener(() => {
-  releaseDomesticCollections();
   queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue recovery failed:', error?.message));
 });
 

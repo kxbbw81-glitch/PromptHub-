@@ -71,7 +71,7 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
   assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
   assert.match(index, /css\/style\.css\?v=20260802f/);
-  assert.match(index, /js\/app\.js\?v=20260802h/);
+  assert.match(index, /js\/app\.js\?v=20260802i/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -168,14 +168,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.16\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.16\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.17\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.17\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.16\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.16\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.17\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.17\.0/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
