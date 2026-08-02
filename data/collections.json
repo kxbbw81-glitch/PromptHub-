@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T03:56:02.266Z",
+  "updatedAt": "2026-08-02T03:58:21.975Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9spov_s6l7",
+      "image": "https://pbs.twimg.com/media/HOrkkK7WMAEfrlO?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOrkkK7WMAEfrlO?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOrkmGqXkAAMvZx?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOrkqLPXUAEguWF?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOrPMW5bMAAMlaS?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "第一层：来源是 19世纪的人像摄影与画意摄影，像朱莉娅·玛格丽特·卡梅隆这样的摄影师，会主动保留轻微失焦和朦胧轮廓；到了19世纪末至20世纪初，画意摄影派进一步使用柔焦镜头、纹理相纸和手工处理，让照片像绘画、梦境或记忆，而不只是机械记录。\n第二层：来自彩色负片技术与家庭相册文化。柯达在1935年推出商业上成功的业余彩色胶片 Kodachrome，1942年又发布用于静态摄影的 Kodacolor 彩色负片。随着彩色胶卷和便携相机普及，普通人的生日、旅行、卧室和街头生活开始被大量保存在带有颗粒、偏色、过曝和冲印差异的照片里。\n第三层： 20世纪中后期的快照美学。从1950年代开始，一些摄影师主动采用 颗粒、模糊、倾斜地平线和偶然裁切 ；到1960年代，“snapshot aesthetic”成为摄影艺术中的概念，1970年代的 William Eggleston、Stephen Shore 等人又把日常场景与彩色快照的色彩带入艺术摄影\n所以这个词的整体意思大概就是：画意摄影的柔焦梦境 + 彩色负片的化学色彩 + 家庭相册的私人记忆 + 快照摄影的随意构图 + 数码时代对90年代与千禧年的怀旧重构。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOrkkK7WMAEfrlO?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOrkmGqXkAAMvZx?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOrkqLPXUAEguWF?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOrPMW5bMAAMlaS?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2083729966328353205",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785643099663,
+      "title": "柔焦彩色负片美学 词拆解",
+      "url": "https://x.com/nanyuan0412/status/2083729966328353205",
+      "collectedAt": "2026-08-02T03:58:21.975Z",
+      "githubSyncedAt": "2026-08-02T03:58:21.975Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9spoo_lnnb",
+      "image": "https://pbs.twimg.com/media/HOpo0thaEAALvaY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOpo0thaEAALvaY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpo0tfbwAA3zmN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpo0tXbIAAYdKk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A stunning young woman with long, voluminous, wavy chestnut-brown hair cascading over one shoulder and down her back, soft natural waves with lighter highlights catching the light. Fair, luminous skin with visible natural texture, subtle freckles, and realistic pores. Soft glam makeup — defined brown eyes with subtle winged liner, long lashes, soft contoured cheeks, and nude-pink glossy lips. She has a delicate, refined face with high cheekbones and a calm, slightly seductive expression looking directly at the camera.\n\nShe is seated in a relaxed yet elegant pose on a dark emerald-green velvet armchair. One leg is gracefully crossed over the other, the high slit of her dress revealing her toned thigh and long legs. Her right hand rests lightly on her upper thigh. She wears elegant white pointed-toe slingback stilettos with a thin ankle strap.\n\nOutfit: a glamorous strapless white midi/maxi dress with a fitted bodice featuring bold black embroidered floral appliqués (rose and leaf motifs) across the chest and side. The skirt has a dramatic high thigh slit on one side and is layered with soft, sheer white tulle that pools and flows around the chair and onto the floor, creating delicate transparent folds and movement.\n\nSetting: luxurious modern high-rise apartment interior with warm wooden flooring and a geometric light-patterned area rug. Floor-to-ceiling windows with sheer beige curtains pulled to the side. A large white ceramic planter with a lush green Monstera plant sits to the left of the chair. Bright natural daylight floods the room.\n\nBackground: breathtaking panoramic view of a futuristic coastal city skyline (Dubai-inspired) through the glass — multiple modern skyscrapers, glass towers, construction cranes, a marina filled with yachts and boats, turquoise water, and a clear bright blue sky.\n\nCamera & technical: shot on Sony A7R V with 85mm f/1.4 lens, slightly low angle looking up, shallow depth of field with creamy bokeh on the distant cityscape, ultra-sharp focus on the subject’s face, skin, and dress details. Soft natural window light mixed with gentle rim lighting, high dynamic range, 8K UHD, hyper-detailed fabric textures (sheer tulle translucency, embroidery thread, velvet chair), realistic skin imperfections, film grain, cinematic fashion editorial style.\n\nNegative prompt: over-smooth skin, plastic look, deformed hands or feet, extra limbs, blurry face, harsh shadows, oversaturated colors, cartoonish, low resolution, text, watermark.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOpo0thaEAALvaY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpo0tfbwAA3zmN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpo0tXbIAAYdKk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/jarvis_og_AI/status/2083593052539814353",
+      "tags": [
+        "cinematic",
+        "dark",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1785643099657,
+      "title": "调皮表情美妆人像",
+      "url": "https://x.com/jarvis_og_AI/status/2083593052539814353",
+      "collectedAt": "2026-08-02T03:58:21.975Z",
+      "githubSyncedAt": "2026-08-02T03:58:21.975Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
