@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:12:37.048Z",
+  "updatedAt": "2026-08-02T12:14:51.780Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrj8kf_8jkh",
+      "image": "https://pbs.twimg.com/media/HMWwHCBWYAAzhOS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMWwHCBWYAAzhOS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMWwIZmWwAAv7G7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMWwKrvXkAAiZBE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMWwPwrXwAE5nf2?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "但是缺乏一种生活的真实感\n傍晚城市喷泉广场，一位年轻中国女性站在喷泉边缘的石台上，身体微微前倾，低头看向水面，一只手自然伸出轻触喷泉水流，水珠从指尖溅落形成细碎水花。她另一只手自然垂在身侧，姿态放松安静，神情温柔专注。\n穿浅奶油黄色细肩带薄纱连衣裙，裙摆轻盈半透，随微风轻轻飘动，赤脚站在微湿的石面上。黑色中短发自然蓬松，被夜晚微风吹起几缕碎发，佩戴小巧耳坠与细项链。\n背景是傍晚的城市公园喷泉池，周围有儿童嬉戏、模糊的人群与暖色灯光，喷泉水柱在右侧形成柔和动态水雾。远处树影与建筑灯光虚化成柔焦光斑。\n低机位侧前方抓拍，35mm纪实人像风格，浅景深，人物为视觉中心，背景略虚化但保留环境氛围。整体色调为蓝灰夜色与暖黄色灯光交织，带轻微湿润空气感与胶片颗粒质感，真实自然摄影风格，竖版3:4。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMWwHCBWYAAzhOS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMWwIZmWwAAv7G7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMWwKrvXkAAiZBE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMWwPwrXwAE5nf2?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Justwanttoslee5/status/2073257617724424572",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785672890655,
+      "title": "有时候胸大穿衣服显胖才是正常的姿态",
+      "url": "https://x.com/Justwanttoslee5/status/2073257617724424572",
+      "collectedAt": "2026-08-02T12:14:51.779Z",
+      "githubSyncedAt": "2026-08-02T12:14:51.779Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
