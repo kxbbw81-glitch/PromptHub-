@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:14:30.541Z",
+  "updatedAt": "2026-08-02T14:15:03.832Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvtstr_m0yr",
+      "image": "https://pbs.twimg.com/media/HFewGZhXAAAcohW?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HFewGZhXAAAcohW?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HFewGZjWwAA0_AH?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Prompt;\nUltra-realistic cinematic lingerie advertisement, horizontal composition, soft white bedroom aesthetic.\nA beautiful young woman with a model-like physique is positioned lying face-down across a soft, luxurious white bed. Her body is placed diagonally across the mattress. The camera captures the scene from a slightly elevated angle — similar to natural human eye level, gently looking down without exaggeration.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFewGZhXAAAcohW?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HFewGZjWwAA0_AH?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/aytacaltintepe/status/2042294594319118415",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785680101935,
+      "title": "日式卧室电影感女性人像",
+      "url": "https://x.com/aytacaltintepe/status/2042294594319118415",
+      "collectedAt": "2026-08-02T14:15:03.832Z",
+      "githubSyncedAt": "2026-08-02T14:15:03.832Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
