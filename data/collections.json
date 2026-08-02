@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:25:54.580Z",
+  "updatedAt": "2026-08-02T14:29:30.239Z",
   "collections": [
     {
       "aspectRatio": "1:1",
@@ -152,36 +152,6 @@
       "url": "https://x.com/woleswoosh/status/2083764728002760753",
       "collectedAt": "2026-08-02T14:23:51.112Z",
       "githubSyncedAt": "2026-08-02T14:23:51.112Z",
-      "domesticSyncedAt": null
-    },
-    {
-      "aspectRatio": "",
-      "category": "人像",
-      "date": "2026-08-02",
-      "domain": "x.com",
-      "id": "ext_msbvy56c_qfhz",
-      "image": "https://pbs.twimg.com/media/HOr2W94aAAAGsTU?format=jpg&name=small",
-      "images": [
-        "https://pbs.twimg.com/media/HOr2W94aAAAGsTU?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HOpua7YbYAABSQ8?format=jpg&name=240x240"
-      ],
-      "model": "",
-      "prompt": "请在 ~/.codex/agents/luna-worker.toml 创建一个全局自定义子代理。\n\n配置要求：\n\n- 代理名称：luna_worker\n\n- 模型：gpt-5.6-luna\n\n- 推理强度：max\n\n- 定位：快速完成边界明确、可重复的小型任务\n\n- 工作方式：严格遵守任务范围，独立执行，在可行时验证结果，并简洁汇报结果、相关文件路径和注意事项\n\n请写入以下完整 TOML 配置：\n\nname = \"luna_worker\"\n\ndescription = \"Fast worker for clear, narrowly scoped, and repeatable tasks.\"\n\ndeveloper_instructions = \"\"\"\n\nHandle the assigned task strictly within its stated scope.\n\nWork independently and use appropriate tools when needed.\n\nVerify the result when practical.\n\nDo not make unrelated changes.\n\nReturn a concise summary containing the result, relevant file paths, verification performed, and any important caveats.\n\n\"\"\"\n\nmodel = \"gpt-5.6-luna\"\n\nmodel_reasoning_effort = \"max\"\n\n执行要求：\n\n1. 如果 ~/.codex/agents 目录不存在，请创建它。\n\n2. 如果目标文件已经存在，先显示现有内容，不要直接覆盖；确认内容是否需要更新。\n\n3. 创建或更新后，读取文件并验证最终配置。\n\n4. 确保 TOML 语法有效。\n\n5. 最后告诉我文件位置、完整配置内容以及如何在提示词中调用 luna_worker。\n\n创建后，使用方法如下：\n\n> 请使用 luna_worker 子代理完成以下任务：[填写任务]。等待子代理完成后，检查并汇总它的结果。",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HOr2W94aAAAGsTU?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HOpua7YbYAABSQ8?format=jpg&name=240x240"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/Lonely__MH/status/2083762211449684344",
-      "tags": [
-        "AI生成"
-      ],
-      "timestamp": 1785680304564,
-      "title": "Codex 用户的福音来了！",
-      "url": "https://x.com/Lonely__MH/status/2083762211449684344",
-      "collectedAt": "2026-08-02T14:18:30.782Z",
-      "githubSyncedAt": "2026-08-02T14:18:30.782Z",
       "domesticSyncedAt": null
     },
     {
