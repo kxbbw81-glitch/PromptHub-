@@ -1,7 +1,97 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:23:51.113Z",
+  "updatedAt": "2026-08-02T14:25:54.580Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbw7nli_ztir",
+      "image": "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "A 22-year-old top Korean influencer, close-up selfie taken with front phone camera, soft dreamy filter, 2:3 vertical format, 24-28mm wide-angle close-up shot, long straight hair past chest, milk tea gray hair color, side-parted long bangs sloping across forehead and face, black",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MANISH1027512/status/2041420967679799572",
+      "tags": [
+        "dreamy"
+      ],
+      "timestamp": 1785680748342,
+      "title": "韩系人像",
+      "url": "https://x.com/MANISH1027512/status/2041420967679799572",
+      "collectedAt": "2026-08-02T14:25:54.579Z",
+      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbw7nlf_88vj",
+      "image": "https://pbs.twimg.com/media/HFSKM7tbgAAoVNM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFSKM7tbgAAoVNM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A full-body fashion portrait of a 22-28 year old Korean-style high-society woman with striking nine-head proportion, extremely long legs, ultra-pronounced hourglass figure, sitting provocatively in a luxurious modern living room. She has a small delicate face, refined features, sharp nose bridge, full lips, long lashes, cold white smooth translucent skin with bright milky glow under direct flash, black long hair in natural middle part, voluminous at crown, one side falling over her chest, the other cascading down her back, mature glossy luxurious black hair texture. Wearing a tight black sequined strapless mini dress that clings to breasts, tiny waist and hips, extremely short hemline showcasing legs, dense black sequins sparkling, prominent black fluffy fur tail or fur trim detail at side/back for luxury wrapping effect. Sitting on light beige carpet, body in strong S-curve with hip twist, pelvis slightly forward, waist cinched, upper body leaning back slightly, shoulders and pelvis in opposite subtle rotation. One leg extended diagonally forward to the left in relaxed elongated line from thigh root to pointed foot, the other leg bent with knee flared outward creating clear thigh separation and hip opening, reinforcing hourglass contrast. One hand lightly holding small accessory or glasses, index finger of the other hand pressing edge of lower lip with controlled teasing gesture. Head slightly tilted, direct piercing eye contact with camera, cold aloof expression, slightly parted lips with visible breathing, nonchalant contemptuous high-fashion attitude like being interrupted yet still commanding. Indoor modern living room setting: beige sofa, light curtains, light striped carpet, right side dark brown patterned throw blanket, warm neutral luxury home atmosphere, nighttime indoor mood. Shot from slightly low angle near knee-to-waist level, near 35mm direct flash look, strong frontal flash lighting highlighting face, collarbones, chest, legs with clear shadows, background slightly darker, sparkling sequins catching light. Color palette black, off-white, skin tones, warm browns, low-to-medium saturation, clean bright skin, Korean high-fashion direct flash aesthetic. Accessories: long earrings, bracelet, necklace, red manicure and pedicure, small glasses or jewelry, all secondary to dominant leg pose, face expression and body curve tension. Highly detailed textures: silky smooth skin, clean elongated leg lines, dense shimmering sequins, plush fur trim, soft sofa and carpet, visible fabric weave on throw. Overall atmosphere: cold glamorous, high-class Korean influencer-celebrity vibe, restrained yet aggressively seductive, commanding nighttime living room fashion pose, 9:16 vertical composition, full body in frame, focus on face, chest-waist-hip transition, pelvis twist, foreground extended leg.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFSKM7tbgAAoVNM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chatgptpaglu/status/2041408490175184945",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785680748340,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/chatgptpaglu/status/2041408490175184945",
+      "collectedAt": "2026-08-02T14:25:54.579Z",
+      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbw7nld_5a6z",
+      "image": "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbjNlbUAAjjji?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbj-JboAEsSuV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"action\": \"text_to_image\",\n\"text\": \"Ultra-realistic 9:16 portrait in a vintage, high-contrast editorial style. The subject is Jisoo of BLACKPINK, featuring her elegant heart-shaped lips, double eyelids, and sophisticated, symmetrical facial features with a porcelain skin tone and dark expressive eyes. She is standing and leaning back against an ornate grand piano, with both arms spread and resting along the piano edge. Her head is slightly tilted back, with a relaxed, sultry pose and parted lips. She is wearing a deep red satin corset top with a low sweetheart neckline and front hook-and-eye closures, paired with black leather pants. Accessories include gold hoop earrings, layered thin gold necklaces with a dark cross pendant, and a thin gold bracelet. The setting is an ornate vintage-style room with a warm, dim ambiance. The piano is black with twisted gold-leaf legs and gold panel detailing. The background features a textured terracotta wall, a framed landscape painting in a heavy gold frame, and faint microphone stands visible on the right. Lighting is direct front flash, creating high contrast with strong shadows cast onto the back wall. High detail, sharp textures, cinematic editorial photography style, shallow depth of field, crisp focus on the subject. --ar 9:16\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbjNlbUAAjjji?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbj-JboAEsSuV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2041413918019780792",
+      "tags": [
+        "cinematic",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1785680748337,
+      "title": "电影感女性人像",
+      "url": "https://x.com/youngcatwoman/status/2041413918019780792",
+      "collectedAt": "2026-08-02T14:25:54.579Z",
+      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:3",
       "category": "抽象",
