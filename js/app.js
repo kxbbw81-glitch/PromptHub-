@@ -1652,7 +1652,7 @@
         </div>
       </div>
       <section class="section" style="padding-top:32px;">
-        <div class="container">
+        <div class="container explore-gallery-container">
           <div class="explore-toolbar">
             <div class="explore-search">
               <input type="text" id="explore-search-input" placeholder="搜索提示词标题、标签或内容..." value="${escapeHtml(currentSearch)}" />

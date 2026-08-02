@@ -67,8 +67,12 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(app, /const LEGACY_CATEGORY_FACETS = \{/);
   assert.match(css, /\.explore-facet-panel[\s\S]*background: #181818/);
   assert.match(app, /prompts-grid prompts-masonry/);
-  assert.match(css, /\.prompts-masonry[\s\S]*column-count: 4/);
+  assert.match(app, /container explore-gallery-container/);
+  assert.match(css, /\.prompts-masonry[\s\S]*column-count: 3/);
+  assert.match(css, /\.explore-gallery-container[\s\S]*max-width: 1680px/);
   assert.match(css, /\.prompts-masonry \.prompt-card-img[\s\S]*object-fit: cover/);
+  assert.match(css, /\.prompts-masonry \.prompt-card-tags[\s\S]*display: none/);
+  assert.match(css, /\.prompts-masonry \.card-img-count[\s\S]*display: none/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {
