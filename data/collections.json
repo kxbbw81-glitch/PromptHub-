@@ -1,35 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:29:30.239Z",
+  "updatedAt": "2026-08-02T14:30:51.389Z",
   "collections": [
-    {
-      "aspectRatio": "1:1",
-      "category": "人像",
-      "date": "2026-08-02",
-      "domain": "x.com",
-      "id": "ext_msbw7nli_ztir",
-      "image": "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240",
-      "images": [
-        "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240"
-      ],
-      "model": "",
-      "prompt": "A 22-year-old top Korean influencer, close-up selfie taken with front phone camera, soft dreamy filter, 2:3 vertical format, 24-28mm wide-angle close-up shot, long straight hair past chest, milk tea gray hair color, side-parted long bangs sloping across forehead and face, black",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/MANISH1027512/status/2041420967679799572",
-      "tags": [
-        "dreamy"
-      ],
-      "timestamp": 1785680748342,
-      "title": "韩系人像",
-      "url": "https://x.com/MANISH1027512/status/2041420967679799572",
-      "collectedAt": "2026-08-02T14:25:54.579Z",
-      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
-      "domesticSyncedAt": null
-    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
