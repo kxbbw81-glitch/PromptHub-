@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:18:30.782Z",
+  "updatedAt": "2026-08-02T14:23:51.113Z",
   "collections": [
+    {
+      "aspectRatio": "4:3",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvz7n9_9j22",
+      "image": "https://pbs.twimg.com/media/HOo3HnybkAATABs?format=png&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOo3HnybkAATABs?format=png&name=small"
+      ],
+      "model": "",
+      "prompt": "他们开源的 Amphion，简直就是音视频创作界的“全能兵工厂”。从语音合成到 AI 歌声变换，这玩意儿能把绝大多数收费语音软件吊起来打。\n\nAI 歌声转换（SVD）：输入你唱的歌，直接换成明星/动漫声线，零门槛做爆款二创。\n\n音效与音乐生成：输入提示词搞定 Background Music 和各种影视级音效。\n\nGitHub：https://github.com/open-mmlab/Amphion…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOo3HnybkAATABs?format=png&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CycleDecoded/status/2083538411990769679",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785680354421,
+      "title": "视频短片",
+      "url": "https://x.com/CycleDecoded/status/2083538411990769679",
+      "collectedAt": "2026-08-02T14:23:51.112Z",
+      "githubSyncedAt": "2026-08-02T14:23:51.112Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvz7n7_a78l",
+      "image": "https://pbs.twimg.com/media/HOnF7cdbAAApTIn?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOnF7cdbAAApTIn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cfbkAA57oq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cha0AAIfBv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cuaYAAyN1f?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A realistic full-body photograph of a beautiful young East Asian woman (Indonesian look) in her early 20s standing in the galley of a commercial airplane. She has long, wavy black hair cascading over her shoulders, fair smooth skin, subtle makeup with soft eyeliner, defined eyebrows, and glossy red lipstick. She is looking directly at the camera with a gentle, confident closed-mouth smile.\nShe is wearing a form-fitting beige short-sleeved jumpsuit with a front zipper, short sleeves, and a white tank top/undershirt visible underneath the open collar. The jumpsuit has cargo-style pockets on the thighs and is slightly cropped at the ankles. She wears clean white chunky sneakers and a gold wristwatch on her left wrist. Her hands are loosely clasped in front of her waist in a relaxed pose, body slightly angled toward the camera, weight on one leg.\nThe setting is a brightly lit airplane galley/service area with metallic gray walls and panels. Behind her to the left is a white overhead compartment door labeled “BUKA OPEN” with a large red upward arrow. To the right are stacked blue airline catering carts with red plastic latches and silver handles. A clear plastic water bottle with a red label sits on the gray counter beside her. Various safety stickers, instruction labels, and airplane equipment are visible on the walls and doors. Soft fluorescent lighting, sharp focus, high detail, photorealistic style, natural skin texture, no filters. @TopviewAIhq @topviewjapan #Topview",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOnF7cdbAAApTIn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cfbkAA57oq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cha0AAIfBv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cuaYAAyN1f?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2083764728002760753",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785680354420,
+      "title": "产品广告",
+      "url": "https://x.com/woleswoosh/status/2083764728002760753",
+      "collectedAt": "2026-08-02T14:23:51.112Z",
+      "githubSyncedAt": "2026-08-02T14:23:51.112Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
