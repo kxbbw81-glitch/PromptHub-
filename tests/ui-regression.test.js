@@ -48,7 +48,8 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
-  assert.match(index, /css\/style\.css\?v=20260802c/);
+  assert.match(index, /css\/style\.css\?v=20260802d/);
+  assert.match(index, /js\/app\.js\?v=20260802f/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -73,6 +74,10 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(css, /\.prompts-masonry \.prompt-card-img[\s\S]*object-fit: cover/);
   assert.match(css, /\.prompts-masonry \.prompt-card-tags[\s\S]*display: none/);
   assert.match(css, /\.prompts-masonry \.card-img-count[\s\S]*display: none/);
+  assert.match(app, /id="explore-load-sentinel"/);
+  assert.match(app, /const EXPLORE_INITIAL_BATCH = 36/);
+  assert.match(app, /IntersectionObserver/);
+  assert.doesNotMatch(app, /每页 \$\{PAGE_SIZE\} 个/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {

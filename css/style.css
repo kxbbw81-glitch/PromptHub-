@@ -1413,6 +1413,10 @@ button {
   margin-bottom: 12px;
 }
 
+.explore-load-sentinel {
+  min-height: 1px;
+}
+
 /* --- Pagination --- */
 .pagination {
   display: flex;

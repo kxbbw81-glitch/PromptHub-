@@ -15,7 +15,10 @@
   let currentSearch = '';
   let currentPage = 1;
   let detailReturnContext = null;
-  const PAGE_SIZE = 24;
+  let exploreVisibleCount = 0;
+  let exploreLoadObserver = null;
+  const EXPLORE_INITIAL_BATCH = 36;
+  const EXPLORE_BATCH_SIZE = 24;
 
   // --- Collections (GitHub is the canonical source) ---
   const PRIMARY_COLLECTIONS_URL = 'data/collections.json';
@@ -459,7 +462,6 @@
     if (currentStyle !== 'All') params.set('style', currentStyle);
     if (currentScene !== 'All') params.set('scene', currentScene);
     if (currentSearch.trim()) params.set('q', currentSearch.trim());
-    if (currentPage > 1) params.set('page', String(currentPage));
     const query = params.toString();
     return query ? `#/explore?${query}` : '#/explore';
   }
@@ -517,7 +519,7 @@
     currentScene = scene;
     mergeLegacyCategoryIntoExplore(category);
     currentSearch = search;
-    currentPage = page;
+    currentPage = 1;
     window.scrollTo(0, 0);
     renderExplore();
     setNavActive('explore');
@@ -1679,7 +1681,7 @@
           <div class="active-filter-bar" id="active-filter-bar"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
           <div class="prompts-grid prompts-masonry" id="prompts-grid"></div>
-          <div class="pagination" id="pagination"></div>
+          <div class="explore-load-sentinel" id="explore-load-sentinel" aria-hidden="true"></div>
           <div class="no-results" id="no-results" style="display:none;">
             <div class="no-results-icon">🔍</div>
             <p>没有找到匹配的提示词，试试其他关键词或分类吧</p>
@@ -1723,21 +1725,55 @@
     syncExploreHash(false);
   };
 
+  function stopExploreAutoLoad() {
+    if (!exploreLoadObserver) return;
+    exploreLoadObserver.disconnect();
+    exploreLoadObserver = null;
+  }
+
+  function appendExploreCards(grid, prompts) {
+    prompts.forEach(prompt => grid.appendChild(createPromptCard(prompt, { isCollection: prompt.isCollection })));
+  }
+
+  function watchExploreAutoLoad(filtered) {
+    stopExploreAutoLoad();
+    const sentinel = $('#explore-load-sentinel');
+    if (!sentinel) return;
+    if (exploreVisibleCount >= filtered.length) {
+      sentinel.hidden = true;
+      return;
+    }
+
+    sentinel.hidden = false;
+    exploreLoadObserver = new IntersectionObserver(entries => {
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      const grid = $('#prompts-grid');
+      if (!grid || !document.body.contains(sentinel)) return;
+      const latestFiltered = getExploreItems().filter(prompt => matchesExploreState(prompt));
+      const nextBatch = latestFiltered.slice(exploreVisibleCount, exploreVisibleCount + EXPLORE_BATCH_SIZE);
+      if (!nextBatch.length) {
+        sentinel.hidden = true;
+        stopExploreAutoLoad();
+        return;
+      }
+      exploreVisibleCount += nextBatch.length;
+      appendExploreCards(grid, nextBatch);
+      watchExploreAutoLoad(latestFiltered);
+    }, { rootMargin: '900px 0px' });
+    exploreLoadObserver.observe(sentinel);
+  }
+
   function renderPromptsGrid() {
     const allPrompts = getExploreItems();
     const filtered = allPrompts.filter(prompt => matchesExploreState(prompt));
-
     const grid = $('#prompts-grid');
     const noResults = $('#no-results');
     const countEl = $('#result-count');
-    const paginationEl = $('#pagination');
     const activeBar = $('#active-filter-bar');
 
-    // 分页计算
-    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-    if (currentPage > totalPages && totalPages > 0) currentPage = 1;
-    const start = (currentPage - 1) * PAGE_SIZE;
-    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+    stopExploreAutoLoad();
+    exploreVisibleCount = Math.min(EXPLORE_INITIAL_BATCH, filtered.length);
+    currentPage = 1;
 
     if (countEl) {
       let countText = `找到 ${filtered.length} 个提示词`;
@@ -1747,7 +1783,6 @@
       if (currentCategory !== 'All') countText += ` · 分类: ${currentCategory}`;
       if (currentCommerceType !== 'All') countText += ` · 电商: ${currentCommerceType === 'AllCommerce' ? '全部电商' : currentCommerceType}`;
       if (currentSearch) countText += ` · 搜索: "${currentSearch}"`;
-      if (totalPages > 1) countText += ` · 第 ${currentPage}/${totalPages} 页（每页 ${PAGE_SIZE} 个）`;
       countEl.textContent = countText;
     }
 
@@ -1767,58 +1802,15 @@
     if (filtered.length === 0) {
       if (grid) grid.innerHTML = '';
       if (noResults) noResults.style.display = 'block';
-      if (paginationEl) paginationEl.innerHTML = '';
       return;
     }
+
     if (noResults) noResults.style.display = 'none';
     if (grid) {
       grid.innerHTML = '';
-      pageItems.forEach(p => grid.appendChild(createPromptCard(p, { isCollection: p.isCollection })));
+      appendExploreCards(grid, filtered.slice(0, exploreVisibleCount));
     }
-
-    // 渲染分页导航
-    renderPagination(totalPages, currentPage);
-  }
-
-  function renderPagination(totalPages, page) {
-    const container = $('#pagination');
-    if (!container || totalPages <= 1) {
-      if (container) container.innerHTML = '';
-      return;
-    }
-
-    let html = '';
-    // 上一页
-    html += `<button class="page-btn${page === 1 ? ' disabled' : ''}" ${page === 1 ? 'disabled' : ''} data-page="${page - 1}">‹ 上一页</button>`;
-
-    // 页码：显示当前页前后各 2 页，首尾必显示
-    const startPage = Math.max(1, page - 2);
-    const endPage = Math.min(totalPages, page + 2);
-
-    if (startPage > 1) {
-      html += `<button class="page-btn" data-page="1">1</button>`;
-      if (startPage > 2) html += '<span class="page-dots">…</span>';
-    }
-    for (let i = startPage; i <= endPage; i++) {
-      html += `<button class="page-btn${i === page ? ' active' : ''}" data-page="${i}">${i}</button>`;
-    }
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) html += '<span class="page-dots">…</span>';
-      html += `<button class="page-btn" data-page="${totalPages}">${totalPages}</button>`;
-    }
-
-    // 下一页
-    html += `<button class="page-btn${page === totalPages ? ' disabled' : ''}" ${page === totalPages ? 'disabled' : ''} data-page="${page + 1}">下一页 ›</button>`;
-
-    container.innerHTML = html;
-    // 绑定点击事件
-    container.querySelectorAll('.page-btn:not(.disabled)').forEach(btn => {
-      btn.addEventListener('click', () => {
-        currentPage = parseInt(btn.dataset.page, 10);
-        renderPromptsGrid();
-        document.querySelector('.explore-header')?.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
+    watchExploreAutoLoad(filtered);
   }
 
   function filterByCategory(catName) {
@@ -2715,7 +2707,7 @@
         if (!COMMERCE_FILTERS.some(item => item.id === currentCommerceType) && currentCommerceType !== 'All') currentCommerceType = 'All';
         mergeLegacyCategoryIntoExplore(currentCategory);
         currentSearch = params.get('q') || '';
-        currentPage = Number(params.get('page') || 1);
+        currentPage = 1;
         navigate('explore', { preserve: true });
         return true;
       }
