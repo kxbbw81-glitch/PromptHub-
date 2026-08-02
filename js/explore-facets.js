@@ -18,10 +18,10 @@
   }
 
   const CONTENT_TYPES = [
+    { id: 'commerce', label: '电商视觉', test: item => item.category === '电商视觉' || matches(item, /product shot|packshot|ecommerce|电商|商品主图|产品摄影/) },
     { id: 'ui', label: '界面与屏幕', test: item => matches(item, /\bui\b|interface|dashboard|app icon|app ui|网页界面|应用界面|手机界面|界面设计|ui & interfaces|screen mockup/) },
     { id: 'infographic', label: '图表与信息图', test: item => matches(item, /infographic|information graphic|chart|diagram|timeline|地图|图表|信息图|知识图谱|charts & infographics/) },
     { id: 'poster', label: '海报与排版', test: item => matches(item, /poster|typography|cover design|海报|版式|排版|posters & typography/) },
-    { id: 'commerce', label: '产品与电商', test: item => item.category === '电商视觉' || matches(item, /product shot|packshot|ecommerce|电商|商品主图|产品摄影/) },
     { id: 'brand', label: '品牌与标志', test: item => item.commerceType === '品牌视觉' || matches(item, /brand identity|visual identity|logo design|brand campaign|品牌视觉|视觉识别|标志设计|brand & logos/) },
     { id: 'architecture', label: '建筑与空间', test: item => item.category === '建筑' || matches(item, /architecture|interior design|建筑|室内设计|建筑空间|architecture & spaces/) },
     { id: 'photography', label: '摄影与写实', test: item => matches(item, /photography|photorealistic|realistic|camera|lens|摄影|写实|超写实|photography & realism/) },

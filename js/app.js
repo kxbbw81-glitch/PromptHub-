@@ -1608,7 +1608,9 @@
     renderFacetChipRow(
       $('#theme-filter-chips'),
       'category',
-      CATEGORIES.map(category => ({ id: category.name, label: `${category.icon} ${category.name}` })),
+      CATEGORIES
+        .filter(category => category.name !== '电商视觉')
+        .map(category => ({ id: category.name, label: `${category.icon} ${category.name}` })),
       currentCategory,
       '全部主题',
       items

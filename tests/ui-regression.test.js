@@ -46,7 +46,7 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 });
 
 test('explore uses layered type, style, scene, and PromptHub theme facets', () => {
-  assert.match(index, /js\/explore-facets\.js\?v=20260802a/);
+  assert.match(index, /js\/explore-facets\.js\?v=20260802b/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -59,7 +59,8 @@ test('explore uses layered type, style, scene, and PromptHub theme facets', () =
   assert.match(app, /params\.set\('scene', currentScene\)/);
   assert.match(facets, /界面与屏幕/);
   assert.match(facets, /图表与信息图/);
-  assert.match(facets, /产品与电商/);
+  assert.match(facets, /电商视觉/);
+  assert.match(app, /filter\(category => category\.name !== '电商视觉'\)/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {

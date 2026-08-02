@@ -11,6 +11,8 @@ const commerce = {
 };
 
 test('recognizes content types without replacing PromptHub primary categories', () => {
+  assert.equal(facets.CONTENT_TYPES[0].id, 'commerce');
+  assert.equal(facets.CONTENT_TYPES[0].label, '电商视觉');
   assert.equal(facets.matchesFacet(commerce, 'contentType', 'commerce'), true);
   assert.equal(facets.matchesFacet(commerce, 'contentType', 'brand'), true);
   assert.equal(commerce.category, '电商视觉');
