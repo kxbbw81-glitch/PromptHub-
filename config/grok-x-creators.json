@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-08-02",
   "scanOrder": "priority-creators-before-keywords",
   "creators": [
     { "handle": "dotey", "language": "zh", "focus": ["prompt-engineering", "image", "llm"], "tier": "core" },
@@ -38,6 +38,7 @@
     { "handle": "Samann_ai", "language": "en", "focus": ["ai-video", "dynamic-art"], "tier": "core" },
     { "handle": "GrayNoteLab", "language": "zh", "focus": ["image-prompts", "oriental-portraits", "cinematic-photography"], "tier": "core" },
     { "handle": "ToroJushiAi", "language": "zh", "focus": ["image-prompts", "portrait", "detailed-prompts"], "tier": "core" },
+    { "handle": "BubbleBrain", "language": "en", "focus": ["image-prompts", "photorealistic-portraits", "analog-film-photography", "gpt-image-2"], "tier": "core" },
     { "handle": "michaelrabone", "language": "en", "focus": ["midjourney", "education"], "tier": "standard" },
     { "handle": "craftian_keskin", "language": "en", "focus": ["dark-fantasy", "style-reference"], "tier": "standard" },
     { "handle": "MO_IAI", "language": "en", "focus": ["cinematic-scenes", "prompts"], "tier": "standard" },
