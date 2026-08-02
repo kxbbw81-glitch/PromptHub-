@@ -1,7 +1,159 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:18:30.782Z",
+  "updatedAt": "2026-08-02T14:25:54.580Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbw7nli_ztir",
+      "image": "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "A 22-year-old top Korean influencer, close-up selfie taken with front phone camera, soft dreamy filter, 2:3 vertical format, 24-28mm wide-angle close-up shot, long straight hair past chest, milk tea gray hair color, side-parted long bangs sloping across forehead and face, black",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFMla48X0AEqEn2?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MANISH1027512/status/2041420967679799572",
+      "tags": [
+        "dreamy"
+      ],
+      "timestamp": 1785680748342,
+      "title": "韩系人像",
+      "url": "https://x.com/MANISH1027512/status/2041420967679799572",
+      "collectedAt": "2026-08-02T14:25:54.579Z",
+      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbw7nlf_88vj",
+      "image": "https://pbs.twimg.com/media/HFSKM7tbgAAoVNM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFSKM7tbgAAoVNM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A full-body fashion portrait of a 22-28 year old Korean-style high-society woman with striking nine-head proportion, extremely long legs, ultra-pronounced hourglass figure, sitting provocatively in a luxurious modern living room. She has a small delicate face, refined features, sharp nose bridge, full lips, long lashes, cold white smooth translucent skin with bright milky glow under direct flash, black long hair in natural middle part, voluminous at crown, one side falling over her chest, the other cascading down her back, mature glossy luxurious black hair texture. Wearing a tight black sequined strapless mini dress that clings to breasts, tiny waist and hips, extremely short hemline showcasing legs, dense black sequins sparkling, prominent black fluffy fur tail or fur trim detail at side/back for luxury wrapping effect. Sitting on light beige carpet, body in strong S-curve with hip twist, pelvis slightly forward, waist cinched, upper body leaning back slightly, shoulders and pelvis in opposite subtle rotation. One leg extended diagonally forward to the left in relaxed elongated line from thigh root to pointed foot, the other leg bent with knee flared outward creating clear thigh separation and hip opening, reinforcing hourglass contrast. One hand lightly holding small accessory or glasses, index finger of the other hand pressing edge of lower lip with controlled teasing gesture. Head slightly tilted, direct piercing eye contact with camera, cold aloof expression, slightly parted lips with visible breathing, nonchalant contemptuous high-fashion attitude like being interrupted yet still commanding. Indoor modern living room setting: beige sofa, light curtains, light striped carpet, right side dark brown patterned throw blanket, warm neutral luxury home atmosphere, nighttime indoor mood. Shot from slightly low angle near knee-to-waist level, near 35mm direct flash look, strong frontal flash lighting highlighting face, collarbones, chest, legs with clear shadows, background slightly darker, sparkling sequins catching light. Color palette black, off-white, skin tones, warm browns, low-to-medium saturation, clean bright skin, Korean high-fashion direct flash aesthetic. Accessories: long earrings, bracelet, necklace, red manicure and pedicure, small glasses or jewelry, all secondary to dominant leg pose, face expression and body curve tension. Highly detailed textures: silky smooth skin, clean elongated leg lines, dense shimmering sequins, plush fur trim, soft sofa and carpet, visible fabric weave on throw. Overall atmosphere: cold glamorous, high-class Korean influencer-celebrity vibe, restrained yet aggressively seductive, commanding nighttime living room fashion pose, 9:16 vertical composition, full body in frame, focus on face, chest-waist-hip transition, pelvis twist, foreground extended leg.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFSKM7tbgAAoVNM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chatgptpaglu/status/2041408490175184945",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785680748340,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/chatgptpaglu/status/2041408490175184945",
+      "collectedAt": "2026-08-02T14:25:54.579Z",
+      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbw7nld_5a6z",
+      "image": "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbjNlbUAAjjji?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbj-JboAEsSuV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"action\": \"text_to_image\",\n\"text\": \"Ultra-realistic 9:16 portrait in a vintage, high-contrast editorial style. The subject is Jisoo of BLACKPINK, featuring her elegant heart-shaped lips, double eyelids, and sophisticated, symmetrical facial features with a porcelain skin tone and dark expressive eyes. She is standing and leaning back against an ornate grand piano, with both arms spread and resting along the piano edge. Her head is slightly tilted back, with a relaxed, sultry pose and parted lips. She is wearing a deep red satin corset top with a low sweetheart neckline and front hook-and-eye closures, paired with black leather pants. Accessories include gold hoop earrings, layered thin gold necklaces with a dark cross pendant, and a thin gold bracelet. The setting is an ornate vintage-style room with a warm, dim ambiance. The piano is black with twisted gold-leaf legs and gold panel detailing. The background features a textured terracotta wall, a framed landscape painting in a heavy gold frame, and faint microphone stands visible on the right. Lighting is direct front flash, creating high contrast with strong shadows cast onto the back wall. High detail, sharp textures, cinematic editorial photography style, shallow depth of field, crisp focus on the subject. --ar 9:16\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbjNlbUAAjjji?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbj-JboAEsSuV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2041413918019780792",
+      "tags": [
+        "cinematic",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1785680748337,
+      "title": "电影感女性人像",
+      "url": "https://x.com/youngcatwoman/status/2041413918019780792",
+      "collectedAt": "2026-08-02T14:25:54.579Z",
+      "githubSyncedAt": "2026-08-02T14:25:54.579Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvz7n9_9j22",
+      "image": "https://pbs.twimg.com/media/HOo3HnybkAATABs?format=png&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOo3HnybkAATABs?format=png&name=small"
+      ],
+      "model": "",
+      "prompt": "他们开源的 Amphion，简直就是音视频创作界的“全能兵工厂”。从语音合成到 AI 歌声变换，这玩意儿能把绝大多数收费语音软件吊起来打。\n\nAI 歌声转换（SVD）：输入你唱的歌，直接换成明星/动漫声线，零门槛做爆款二创。\n\n音效与音乐生成：输入提示词搞定 Background Music 和各种影视级音效。\n\nGitHub：https://github.com/open-mmlab/Amphion…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOo3HnybkAATABs?format=png&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CycleDecoded/status/2083538411990769679",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785680354421,
+      "title": "视频短片",
+      "url": "https://x.com/CycleDecoded/status/2083538411990769679",
+      "collectedAt": "2026-08-02T14:23:51.112Z",
+      "githubSyncedAt": "2026-08-02T14:23:51.112Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvz7n7_a78l",
+      "image": "https://pbs.twimg.com/media/HOnF7cdbAAApTIn?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOnF7cdbAAApTIn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cfbkAA57oq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cha0AAIfBv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cuaYAAyN1f?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A realistic full-body photograph of a beautiful young East Asian woman (Indonesian look) in her early 20s standing in the galley of a commercial airplane. She has long, wavy black hair cascading over her shoulders, fair smooth skin, subtle makeup with soft eyeliner, defined eyebrows, and glossy red lipstick. She is looking directly at the camera with a gentle, confident closed-mouth smile.\nShe is wearing a form-fitting beige short-sleeved jumpsuit with a front zipper, short sleeves, and a white tank top/undershirt visible underneath the open collar. The jumpsuit has cargo-style pockets on the thighs and is slightly cropped at the ankles. She wears clean white chunky sneakers and a gold wristwatch on her left wrist. Her hands are loosely clasped in front of her waist in a relaxed pose, body slightly angled toward the camera, weight on one leg.\nThe setting is a brightly lit airplane galley/service area with metallic gray walls and panels. Behind her to the left is a white overhead compartment door labeled “BUKA OPEN” with a large red upward arrow. To the right are stacked blue airline catering carts with red plastic latches and silver handles. A clear plastic water bottle with a red label sits on the gray counter beside her. Various safety stickers, instruction labels, and airplane equipment are visible on the walls and doors. Soft fluorescent lighting, sharp focus, high detail, photorealistic style, natural skin texture, no filters. @TopviewAIhq @topviewjapan #Topview",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOnF7cdbAAApTIn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cfbkAA57oq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cha0AAIfBv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOnF7cuaYAAyN1f?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2083764728002760753",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785680354420,
+      "title": "产品广告",
+      "url": "https://x.com/woleswoosh/status/2083764728002760753",
+      "collectedAt": "2026-08-02T14:23:51.112Z",
+      "githubSyncedAt": "2026-08-02T14:23:51.112Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
