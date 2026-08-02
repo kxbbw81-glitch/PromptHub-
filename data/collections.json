@@ -1,7 +1,141 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T03:58:21.975Z",
+  "updatedAt": "2026-08-02T03:59:45.384Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9uixd_h1uu",
+      "image": "https://pbs.twimg.com/media/HOoL1cfbgAAxpAF?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOoL1cfbgAAxpAF?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HONtpZUasAAhvEs?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "随手抓拍，写实 iPhone 17 Pro 手机旅行摄影风格，9:16竖版构图。\n\n年轻成年东亚女性，东方清雅气质。拥有自然丰满协调的女性身材，丰满圆润胸部，纤细腰线，修长比例，柔和肩颈线条，真实人体比例。\n\n穿浅色新中式汉服夏季日常服饰，轻薄青白色系上衣搭配飘逸长裙，融合东方元素但像现代女孩旅行穿搭，布料有自然褶皱。\n\n她撑一把透明雨伞走在古镇青石路上，刚下过雨，低头看路面水洼倒影，另一只手轻轻整理衣袖，动作自然，充满期待和好奇的眼神。\n\n背景有湿润青石板、木质建筑、河边小桥、雨后植物、水汽，空气清凉。\n\n画面左下角保留低调艺术签名“DeepBlue”。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOoL1cfbgAAxpAF?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HONtpZUasAAhvEs?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/DeepBlueAIX/status/2083490801229893816",
+      "tags": [
+        "东方",
+        "摄影"
+      ],
+      "timestamp": 1785643184209,
+      "title": "雨过天晴～",
+      "url": "https://x.com/DeepBlueAIX/status/2083490801229893816",
+      "collectedAt": "2026-08-02T03:59:45.384Z",
+      "githubSyncedAt": "2026-08-02T03:59:45.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9uixc_jhrd",
+      "image": "https://pbs.twimg.com/media/HOl9nnQWcAAlz_m?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOl9nnQWcAAlz_m?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOl9nlnW0AAht5y?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOl9nlnXEAAqNG6?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOl9nnXW4AA4SEk?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "一位20多岁的年轻成年白人女性站在奢华古典卧室的雕花梳妆台旁，画面从头顶拍至大腿中部。人物位于中央略偏右，身体以三分之二角度朝向画面左侧，腰胯轻微侧转，双腿自然交叠。左手向后撑在浅色大理石台面上，手指自然展开；右手轻放在腰胯处，姿态优雅克制。她头部略向左转并平静直视镜头，嘴唇微启，神情自信、冷静、带高端珠宝广告感。\n\n她拥有精致鹅蛋脸、柔和清晰的下颌线、浅灰绿色眼睛、自然弧形眉、纤细鼻梁和水润裸粉色嘴唇。妆容细腻但不过度：轻薄底妆、暖棕眼影、自然睫毛、淡玫瑰腮红。肤色白皙偏暖，保留真实毛孔、细小绒毛、轻微雀斑和自然皮脂高光。\n\n红铜色长发盘成蓬松凌乱的高位发髻，头顶与后脑有丰富体积，脸侧垂落几缕卷曲碎发，边缘被暖光勾亮。\n\n她穿一件无肩带香槟金短款礼服，紧身胸衣结构，心形或近直线领口，裙身贴合腰臀，长度至大腿中部。整件礼服覆盖密集金色珠片、水晶、金属线与不规则珠绣纹理，形成高密度闪耀表面；面料完全不透明，无品牌标识。佩戴极简戒指，指甲为深酒红色。\n\n左侧是一面大型巴洛克金色雕花镜，下面为金色雕花梳妆台与浅米色大理石台面，摆放小型水晶香水瓶。右后方可见金色水晶壁灯或枝形吊灯、米色墙面和铺着白色褶皱床品的床。背景柔和虚化，镜面反射保持真实但不重复人物。\n\n使用强烈暖金色环境光与柔和正面补光。主光从画面右前方照射，勾勒脸部、锁骨、肩膀和珠绣纹理；背景灯具形成奶油色散景与柔和高光溢出。整体低对比、暖金、香槟和象牙白色调。\n\n摄影风格：85mm镜头，f/2，平视略高机位，中浅景深，眼睛、嘴唇、手部和珠绣细节清晰，背景奶油化虚化，真实皮肤、金属、珠片、丝线、大理石和镜面纹理，ISO400轻微胶片颗粒，Black Pro-Mist 1/8柔化，luxury couture editorial，cinematic hotel portrait，photorealistic。\n\n避免：未成年人特征、夸张身材、透明礼服、露点、错误珠绣、畸形手指、多余手臂、错误镜像人物、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOl9nnQWcAAlz_m?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOl9nlnW0AAht5y?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOl9nlnXEAAqNG6?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOl9nnXW4AA4SEk?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083613737747898833",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785643184208,
+      "title": "晚礼服女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2083613737747898833",
+      "collectedAt": "2026-08-02T03:59:45.384Z",
+      "githubSyncedAt": "2026-08-02T03:59:45.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9uixb_xo5h",
+      "image": "https://pbs.twimg.com/media/HOmwXSZXMAAlBDe?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOmwXSZXMAAlBDe?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOmwY1PXEAASywQ?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n9:16 竖幅，CCD 数码卡片机机顶直闪，深夜高层天台，冷调都市夜景，强风吹动发丝，真实现场抓拍感。  一位明确成年的年轻东亚女性，轻欧美冷感妆容，半哑光自然底妆，野生眉，低饱和裸色唇，黑色长发被大风吹乱，大量细碎发丝掠过脸颊和眼睛。神情冷淡、克制，微微抬起下巴，以略带挑衅感的目光俯视镜头。  她身穿黑色修身细肩带吊带上衣，面料贴合身体，肩颈与锁骨线条完全露出，下身搭配深色低腰牛仔裤，佩戴简洁银色金属项链。人物身体向前倾，双手向后撑住天台金属栏杆，肩膀展开，形成有力量感的姿态。  低机位近距离广角拍摄，上半身裁切至胯部，人物占画面约 65%，脸部靠近画面上方，前景左下角加入大面积虚化金属栏杆，形成强烈纵深和空间包围感。背景为密集高楼与万家灯火，城市灯光虚化成红、蓝、白色光斑。  机顶直闪正面打亮面部、锁骨、肩部与上衣，背景保持暗调但保留丰富城市细节，风吹发丝形成细微边缘光。真实皮肤纹理，半哑光质感，轻微广角透视，都市夜拍 editorial，冷冽、野性、具有压迫感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOmwXSZXMAAlBDe?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOmwY1PXEAASywQ?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2083450658338832426",
+      "tags": [
+        "低饱和"
+      ],
+      "timestamp": 1785643184207,
+      "title": "站在万家灯火之上",
+      "url": "https://x.com/chenlinspark/status/2083450658338832426",
+      "collectedAt": "2026-08-02T03:59:45.384Z",
+      "githubSyncedAt": "2026-08-02T03:59:45.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9uix9_eqhs",
+      "image": "https://pbs.twimg.com/media/HOnaIc0aMAAQMtj?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOnaIc0aMAAQMtj?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOnaJaWagAADdDU?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOnaKaaa4AAXQ4f?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic editorial fashion photography of a young East Asian woman standing in the middle of an endless blooming yellow rapeseed flower field under a crystal-clear deep blue sky. She is captured from a slightly low-angle, three-quarter side profile while turning her head back toward the camera with a calm, dreamy expression. One arm is naturally extended toward the viewer as if inviting them to follow, creating strong depth and perspective. Her posture is relaxed with subtle body twist, shoulders open, and natural movement.\n\nShe has shoulder-length silky black hair with soft wispy bangs, smooth porcelain skin, warm natural makeup, glossy coral lips, dark almond-shaped eyes, and a tiny beauty mark near her cheek. She wears a delicate white floral corset camisole with thin spaghetti straps, a white lace ribbon tied around her neck, a loose oversized blue plaid overshirt casually draped off one shoulder, and a flowing high-waisted white skirt. A simple wooden bracelet is worn on her wrist.\n\nThe background features endless vibrant yellow flowers stretching to the horizon, rolling green mountains, and an intense cloudless summer sky. Bright golden-hour sunlight creates soft natural highlights on her face and hair, realistic shadows, cinematic depth, and rich color contrast.\n\nShot on a Sony A7R V with an 85mm f/1.4 GM lens, shallow depth of field, creamy bokeh, HDR, ultra-detailed skin texture, realistic fabric folds, natural hair strands, lifelike lighting, high dynamic range, crisp focus, cinematic composition, editorial fashion style, premium travel photography, vibrant colors, 8K UHD, photorealistic, masterpiece, award-winning photography, no text, no watermark, no logo, no artifacts, no distortion, no extra fingers, anatomically correct, natural proportions.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOnaIc0aMAAQMtj?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOnaJaWagAADdDU?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOnaKaaa4AAXQ4f?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/meng_dagg695/status/2083436187554127874",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1785643184206,
+      "title": "草原蓝天电影感女性人像",
+      "url": "https://x.com/meng_dagg695/status/2083436187554127874",
+      "collectedAt": "2026-08-02T03:59:45.384Z",
+      "githubSyncedAt": "2026-08-02T03:59:45.384Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
