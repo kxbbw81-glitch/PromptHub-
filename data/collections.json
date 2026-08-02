@@ -1,7 +1,103 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:15:03.832Z",
+  "updatedAt": "2026-08-02T14:17:30.765Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "城市",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvwwxn_gin7",
+      "image": "https://pbs.twimg.com/media/HOq7_T_XMAAqn2m?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOq7_T_XMAAqn2m?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpAXx5W0AAv3zt?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "穿桃粉色修身短款针织背心，白色轻薄运动外套自然敞开并从一侧肩膀滑落，银灰色低腰工装短裙，服装保留真实褶皱、缝线和金属纽扣质感。\n夜间城市便利店门口，人物站在明亮玻璃橱窗前，便利店内部冷白荧光灯、饮料货架和商品色块形成背景，所有品牌和文字模糊不可辨认；画面左侧为欠曝的黑暗街道和少量远处灯光。\n近距离轻微广角，中近景至大腿构图，摄影师站在人物侧前方，机位略低于眼睛。人物靠近画面中央，身体向镜头明显前倾，一侧肩膀更靠近镜头，腰部轻微侧转。她一只手拿着透明汽水瓶，将瓶身贴近脸颊，另一只手自然垂下或藏在外套附近；一只眼睛俏皮地 wink，另一只眼睛直视镜头，嘴角带轻微顽皮笑意，像朋友突然举起 CCD 抓拍。\n低强度机顶直闪从镜头方向照亮人物，眼神、鼻梁窄线、嘴唇、发丝和白色外套边缘出现局部高光，人物身后形成清晰但不过重的硬阴影。便利店冷白光从侧后方勾勒头发和肩线，背景轻微欠曝，保留 CCD 色偏、数码颗粒和轻微失焦。\n负面约束：不要幼态化，不要学生制服，不要全脸油亮，不要湿亮蜡感，不要厚重网红妆，不要塑料皮肤，不要过度磨皮，不要过曝白脸，不要廉价霓虹滤镜，不要 cosplay，不要僵硬摆拍，不要复杂手势，不要手指畸形，不要多余肢体，不要头颈断裂，不要清晰品牌文字，不要水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOq7_T_XMAAqn2m?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpAXx5W0AAv3zt?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2083764729776926810",
+      "tags": [
+        "摄影",
+        "负面约束"
+      ],
+      "timestamp": 1785680247227,
+      "title": "桃粉汽水、便利店冷光、CCD 直闪",
+      "url": "https://x.com/chenlinspark/status/2083764729776926810",
+      "collectedAt": "2026-08-02T14:17:30.765Z",
+      "githubSyncedAt": "2026-08-02T14:17:30.765Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvwwxm_dbb4",
+      "image": "https://pbs.twimg.com/media/HOrmjkWbAAA_Rnj?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOrmjkWbAAA_Rnj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOrmktWakAERD37?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOrmqVybUAAIMjC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Waist-up portrait, waist-level view, front view\nA 20s seductive stunning Japanese or Korean woman. 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, flat abdomen, dramatic but lean bust-waist-hip curve, young sweet pretty face, soft rounded charm, bright friendly eyes, gentle cute beauty, deep side-parted long soft waves, ashy beige-brown hair, muted cool-beige tone, airy soft color, direct eye contact, soft natural smile, gentle confidence.\nShe wears white tie-front camisole, ripped light blue jeans, long white lace robe cardigan, delicate pendant necklace, ruffled lace hem, burgundy ballet flats, primary garment color white, secondary garment color white.\nShe has her head naturally facing the camera, and presents a side-facing squatting pose.\nScene: The portrait takes place in French Concession townhouse entrance, old doorway frame, iron railing, early evening practical lights beginning to appear, a few dim interior windows, vending machine glow becoming visible, blue hour environment, deep blue dusk sky, flat even subject lighting, balanced full-face illumination.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOrmjkWbAAA_Rnj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOrmktWakAERD37?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOrmqVybUAAIMjC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2083731673003487329",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785680247226,
+      "title": "Soho街角蹲姿人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2083731673003487329",
+      "collectedAt": "2026-08-02T14:17:30.765Z",
+      "githubSyncedAt": "2026-08-02T14:17:30.765Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvvvlj_8h15",
+      "image": "https://pbs.twimg.com/media/HFWiPVPawAAuwbq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFWiPVPawAAuwbq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFWiUlUa8AEowop?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Professional studio fashion photography, ultra-clean high-end digital editorial portrait in a pure white seamless cyclorama photography studio, massive soft octabox key light + large softbox fill light creating flawless even illumination with gentle sculpting shadows, Vogue-level minimalist high fashion aesthetic, boyfriend’s intimate low-angle POV shot from below (+18° upward angle), emphasizing extremely long legs and perfect hourglass body proportions with natural modest breast size, 4:3 vertical format, 3/4 body shot, early 20s Korean idol-type young woman with ultra-realistic delicate refined Korean features, slightly upturned almond-shaped fox eyes with natural double eyelids, small sharp jawline, velvety soft porcelain skin with cool ivory undertone, completely natural yet slightly retro makeup look, soft vintage red lips, subtle natural freckles slightly softened across nose and cheeks, visible subtle skin texture, pores and micro skin details, long naturally wavy dark brown hair with realistic loose strands softly framing her face, wearing a sexy vintage-style white short-sleeve cropped polo shirt with top buttons deliberately unbuttoned revealing natural cleavage, paired with a high-waisted white pleated tennis skirt, standing seductively in the center of the pure white studio, dynamic provocative S-curve pose with one hand casually holding a white tennis racket resting on her shoulder, the other hand gently on her hip, one leg slightly forward, back arched to accentuate curves, intensely seductive direct upward gaze through lashes straight at the viewer, bold confident and lustful expression full of quiet temptation and desire, pure soft professional studio lighting with large diffused sources, flawless even illumination, gentle sculpting shadows that beautifully define body curves, clean high-key minimalist aesthetic, ultra-clean high-end digital photography, extremely sharp yet soft skin rendering with velvety smooth texture, no film grain, no noise, no halation, no vignette, perfect neutral color grading, raw sexy retro-inspired Korean idol studio editorial aesthetic, visible realistic tennis racket texture with strings and grip detail, natural hair strands, velvety skin texture with subtle pores and softened freckles throughout, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic Vogue-level clean studio look",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFWiPVPawAAuwbq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFWiUlUa8AEowop?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2041716686693527984",
+      "tags": [
+        "minimalist",
+        "dark",
+        "vintage",
+        "studio lighting"
+      ],
+      "timestamp": 1785680198839,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/BubbleBrain/status/2041716686693527984",
+      "collectedAt": "2026-08-02T14:17:30.765Z",
+      "githubSyncedAt": "2026-08-02T14:17:30.765Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
