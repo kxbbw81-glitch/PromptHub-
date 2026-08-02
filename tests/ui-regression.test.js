@@ -21,6 +21,15 @@ test('prompt details do not render the unrequested generation action', () => {
   assert.doesNotMatch(app, /function getTryUrl/);
 });
 
+test('the header exposes a disclaimer route with free-use and rights boundaries', () => {
+  assert.match(index, /href="#\/disclaimer" data-action="navigate" data-route="disclaimer">免责声明/);
+  assert.match(app, /function renderDisclaimer\(\)/);
+  assert.match(app, /PromptHub 对公开展示的提示词内容不收取访问、浏览或复制费用/);
+  assert.match(app, /\['home', 'import', 'collections', 'disclaimer'\]/);
+  assert.match(app, /else if \(route === 'disclaimer'\) renderDisclaimer\(\);/);
+  assert.match(css, /\.legal-layout[\s\S]*grid-template-columns: 190px minmax\(0, 760px\)/);
+});
+
 test('a saved collection remains editable from its prompt detail route', () => {
   assert.match(app, /const localCollection = getCollections\(\)\.find\(c => c\.id === id\);/);
   assert.match(app, /renderPromptDetail\(displayPrompt, isSavedCollection, canEdit\);/);
@@ -61,8 +70,8 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
   assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
-  assert.match(index, /css\/style\.css\?v=20260802e/);
-  assert.match(index, /js\/app\.js\?v=20260802g/);
+  assert.match(index, /css\/style\.css\?v=20260802f/);
+  assert.match(index, /js\/app\.js\?v=20260802h/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);

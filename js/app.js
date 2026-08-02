@@ -1528,6 +1528,59 @@
     });
   }
 
+  function renderDisclaimer() {
+    const app = $('#app');
+    app.innerHTML = `
+      <section class="legal-hero">
+        <div class="container legal-hero-inner">
+          <p class="legal-eyebrow">PromptHub</p>
+          <h1>免责声明与免费使用说明</h1>
+          <p>PromptHub 提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。</p>
+        </div>
+      </section>
+      <section class="legal-section">
+        <div class="container legal-layout">
+          <nav class="legal-toc" aria-label="免责声明目录">
+            <a href="#disclaimer-free">免费使用</a>
+            <a href="#disclaimer-content">内容与来源</a>
+            <a href="#disclaimer-output">AI 输出</a>
+            <a href="#disclaimer-compliance">合规责任</a>
+            <a href="#disclaimer-privacy">个人信息</a>
+            <a href="#disclaimer-feedback">侵权反馈</a>
+          </nav>
+          <article class="legal-content">
+            <section id="disclaimer-free">
+              <h2>免费使用</h2>
+              <p>PromptHub 对公开展示的提示词内容不收取访问、浏览或复制费用。本站并不代表任何第三方模型、素材平台或外部工具免费；使用这些服务时产生的订阅、算力、素材或其他费用，以对应服务商的规则为准。</p>
+            </section>
+            <section id="disclaimer-content">
+              <h2>内容与来源</h2>
+              <p>本站内容来自用户收藏、公开可访问来源与经整理的案例。提示词、参考图、视频封面、品牌元素和外部链接可能分别受到原作者、平台或权利人的规则约束。保留来源链接不等于取得原作品、人物肖像、商标或素材的全部授权。</p>
+              <p>使用前请自行核对来源页面、模型条款和适用授权；将内容用于公开发布、广告投放、商品销售或客户项目时，尤其应先确认所需权利。</p>
+            </section>
+            <section id="disclaimer-output">
+              <h2>AI 输出不作保证</h2>
+              <p>提示词的效果会受模型版本、参数、输入素材、地区能力和平台策略影响。PromptHub 不保证任何提示词在特定模型中的生成效果、稳定性、可用性、适销性或适合特定用途。</p>
+            </section>
+            <section id="disclaimer-compliance">
+              <h2>合规使用责任</h2>
+              <p>用户应对自己的输入、生成结果、发布行为及商业用途负责。不得利用本站内容实施违法活动，或侵犯他人的著作权、商标权、肖像权、隐私权及其他合法权益。涉及真实人物、品牌、受保护作品或敏感场景时，请取得必要授权并遵守适用规则。</p>
+              <p>本页是一般性使用说明，不构成法律意见。面对具体业务、跨境发行或争议情形，请向有资质的专业人士咨询。</p>
+            </section>
+            <section id="disclaimer-privacy">
+              <h2>个人信息与凭证</h2>
+              <p>本站不要求注册账号。浏览器插件中的 GitHub Token 仅用于用户自行发起的收藏同步，应由用户自行保管，切勿将 Token、密码、Cookie 或其他凭证粘贴到提示词、图片说明或公开页面中。</p>
+            </section>
+            <section id="disclaimer-feedback">
+              <h2>侵权与内容反馈</h2>
+              <p>如你认为本站内容侵犯了你的合法权益，或发现来源、提示词、图片信息有误，请通过 <a href="https://github.com/kxbbw81-glitch/PromptHub-/issues" target="_blank" rel="noreferrer noopener">PromptHub GitHub Issues</a> 提交内容链接、权利说明和可核验材料。收到后会进行核查，并视情况更正、下线或保留必要的说明记录。</p>
+            </section>
+          </article>
+        </div>
+      </section>
+    `;
+  }
+
   // --- Render: Explore ---
   function getExploreState(overrides = {}) {
     return {
@@ -2556,6 +2609,7 @@
     }
     else if (route === 'import') renderImport();
     else if (route === 'collections') renderCollections();
+    else if (route === 'disclaimer') renderDisclaimer();
 
     setNavActive(route);
   }
@@ -2711,7 +2765,7 @@
         navigate('explore', { preserve: true });
         return true;
       }
-      if (path && ['home', 'import', 'collections'].includes(path)) {
+      if (path && ['home', 'import', 'collections', 'disclaimer'].includes(path)) {
         navigate(path);
         return true;
       }

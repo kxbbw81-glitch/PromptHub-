@@ -105,6 +105,98 @@ button {
   margin-right: auto;
 }
 
+/* --- Disclaimer --- */
+.legal-hero {
+  background: #fff8d8;
+  border-bottom: 1px solid #f0df94;
+  padding: 76px 0 56px;
+}
+
+.legal-hero-inner {
+  max-width: 880px;
+}
+
+.legal-eyebrow {
+  color: #9b7200;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.legal-hero h1 {
+  font-size: 42px;
+  line-height: 1.18;
+  margin-bottom: 16px;
+}
+
+.legal-hero p:last-child {
+  color: var(--text-soft);
+  font-size: 17px;
+  max-width: 720px;
+}
+
+.legal-section {
+  background: #fff;
+  padding: 64px 0 96px;
+}
+
+.legal-layout {
+  align-items: start;
+  display: grid;
+  gap: 72px;
+  grid-template-columns: 190px minmax(0, 760px);
+  justify-content: center;
+}
+
+.legal-toc {
+  border-left: 2px solid var(--yellow);
+  display: grid;
+  gap: 8px;
+  padding-left: 14px;
+  position: sticky;
+  top: calc(var(--header-h) + 28px);
+}
+
+.legal-toc a {
+  color: var(--text-soft);
+  font-size: 14px;
+}
+
+.legal-toc a:hover,
+.legal-content a {
+  color: #8b6500;
+}
+
+.legal-content section + section {
+  border-top: 1px solid var(--border);
+  margin-top: 34px;
+  padding-top: 34px;
+}
+
+.legal-content h2 {
+  font-size: 22px;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+
+.legal-content p {
+  color: var(--text-soft);
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.legal-content p + p {
+  margin-top: 14px;
+}
+
+.legal-content a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* --- Header --- */
 .header {
   position: sticky;
@@ -2336,6 +2428,27 @@ button {
   .nav a {
     white-space: nowrap;
     flex-shrink: 0;
+  }
+  .legal-hero {
+    padding: 48px 0 40px;
+  }
+  .legal-hero h1 {
+    font-size: 30px;
+  }
+  .legal-hero p:last-child,
+  .legal-content p {
+    font-size: 15px;
+  }
+  .legal-section {
+    padding: 40px 0 64px;
+  }
+  .legal-layout {
+    gap: 28px;
+    grid-template-columns: 1fr;
+  }
+  .legal-toc {
+    gap: 6px;
+    position: static;
   }
   .hero {
     padding: 48px 0;
