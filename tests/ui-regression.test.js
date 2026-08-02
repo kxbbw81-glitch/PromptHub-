@@ -12,6 +12,7 @@ const content = fs.readFileSync(path.join(root, 'extension/content.js'), 'utf8')
 const data = fs.readFileSync(path.join(root, 'js/data.js'), 'utf8');
 const css = fs.readFileSync(path.join(root, 'css/style.css'), 'utf8');
 const facets = fs.readFileSync(path.join(root, 'js/explore-facets.js'), 'utf8');
+const dailyCuration = fs.readFileSync(path.join(root, 'js/daily-curation.js'), 'utf8');
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const seoGenerator = fs.readFileSync(path.join(root, 'scripts/generate-seo-pages.js'), 'utf8');
 
@@ -32,6 +33,15 @@ test('home gallery is three times longer and category totals include saved colle
   assert.match(app, /getAllPromptItems\(\)\.forEach\(p =>/);
 });
 
+test('the homepage curates a fresh daily selection instead of fixed liked prompts', () => {
+  assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
+  assert.match(app, /const dailyCuratedPrompts = dailyCuration\.getDailyCuratedPrompts\(allPromptItems, 16\);/);
+  assert.match(app, /const todayTop = dailyCuratedPrompts\.slice\(0, 6\);/);
+  assert.match(app, /每日自动分析主站内容/);
+  assert.match(dailyCuration, /timeZone: 'Asia\/Shanghai'/);
+  assert.match(dailyCuration, /const freshness = itemDateKey === dateKey \? 340/);
+});
+
 test('video prompts have a dedicated homepage category and filter', () => {
   assert.match(data, /name: "视频提示词"/);
   assert.match(app, /item\.mediaType === 'video'\s*\?\s*'视频提示词'/);
@@ -48,8 +58,9 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
+  assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
   assert.match(index, /css\/style\.css\?v=20260802d/);
-  assert.match(index, /js\/app\.js\?v=20260802f/);
+  assert.match(index, /js\/app\.js\?v=20260802g/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);

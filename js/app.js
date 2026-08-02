@@ -30,9 +30,10 @@
   const security = window.PromptHubSecurity;
   const { escapeHtml, sanitizeImageUrl, sanitizeImageUrls } = security || {};
   const exploreFacets = window.PromptHubExploreFacets;
+  const dailyCuration = window.PromptHubDailyCuration;
 
-  if (!security || !exploreFacets) {
-    throw new Error('PromptHubSecurity and PromptHubExploreFacets are required before app.js');
+  if (!security || !exploreFacets || !dailyCuration) {
+    throw new Error('PromptHubSecurity, PromptHubExploreFacets, and PromptHubDailyCuration are required before app.js');
   }
 
   // --- 分类旧英文名称映射到中文（兼容已有收藏数据）---
@@ -1360,11 +1361,9 @@
   function renderHome() {
     const app = $('#app');
     const allPromptItems = getAllPromptItems();
-    const todayTop = [...allPromptItems].sort((a, b) => b.likes - a.likes).slice(0, 6);
-    const heroPrompts = [...allPromptItems]
-      .filter(p => p.image)
-      .sort((a, b) => b.likes - a.likes)
-      .slice(0, 16);
+    const dailyCuratedPrompts = dailyCuration.getDailyCuratedPrompts(allPromptItems, 16);
+    const todayTop = dailyCuratedPrompts.slice(0, 6);
+    const heroPrompts = dailyCuratedPrompts;
     const heroColumns = [0, 1, 2, 3].map(columnIndex =>
       heroPrompts.filter((_, index) => index % 4 === columnIndex)
     );
@@ -1436,7 +1435,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">🔥 今日精选提示词</h2>
-          <p class="section-subtitle">经过精心策展的高质量提示词，每个都经过测试与验证，确保生成效果出色。</p>
+          <p class="section-subtitle">每日自动分析主站内容，优先展示当天新收集、资料完整且主题多样的高质量提示词。</p>
           <div class="top-prompts" id="top-prompts"></div>
           <div style="text-align:center;margin-top:32px;">
             <button class="btn btn-outline" type="button" data-action="open-explore">查看全部提示词 →</button>
@@ -1508,7 +1507,8 @@
     const topContainer = $('#top-prompts');
     todayTop.forEach(p => {
       const item = el('div', { class: 'top-prompt-item', onclick: () => openPromptDetail(p.id) });
-      item.innerHTML = `<img class="top-prompt-thumb" src="${p.image}" alt="${p.title}" loading="lazy" /><div class="top-prompt-info"><div class="top-prompt-title">${p.title}</div><div class="top-prompt-meta"><span>${p.category}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}<span>❤ ${p.likes}</span></div></div>`;
+      const selectionMeta = Number(p.likes) > 0 ? `<span>❤ ${p.likes}</span>` : '<span>新入库</span>';
+      item.innerHTML = `<img class="top-prompt-thumb" src="${p.image}" alt="${p.title}" loading="lazy" /><div class="top-prompt-info"><div class="top-prompt-title">${p.title}</div><div class="top-prompt-meta"><span>${p.category}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}${selectionMeta}</div></div>`;
       topContainer.appendChild(item);
     });
 
