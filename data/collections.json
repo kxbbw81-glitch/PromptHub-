@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-01T14:37:28.680Z",
+  "updatedAt": "2026-08-02T03:38:45.558Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb93f1t_vb11",
+      "image": "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4 竖版，照片级真实人像摄影，低强度机顶直闪配合较强暖黄色后侧灯，成年时装 editorial portrait，试衣间门外近距离抓拍，带有被突然发现的停顿感，私密、成熟、克制。\n一位明确 22–26 岁的虚构成年韩国女性，不对应任何真实人物。小巧流畅鹅蛋脸，清晰但柔和的下颌线，明亮双眼皮眼睛，自然卧蚕，挺直纤细鼻梁，饱满柔软唇形。清透红茶妆，自然半哑光肌肤，眼下浅红茶色腮红，细长睫毛，红棕色水润唇仅限唇部，真实毛孔、面部绒毛和肤色细微变化。黑色长发自然披散，发根蓬松，脸侧有松散碎发，发丝边缘被暖光染成橙金色。\n穿米白色贴身细肩带针织上衣，细密罗纹与窄蕾丝边，肩颈和锁骨线条清晰；靠近画面右侧的肩带已经滑落到上臂，她用右手轻轻扶住，衣物结构完整、自然可穿。\n场景为狭窄服装店试衣间，半开的米灰色布帘，深色墙面，右后方只有一只木质衣架和少量浅色衣物。空间简洁，不出现多余装饰。\n从门外透过帘缝平视拍摄，镜头靠近人物，上半身裁切在胸下至腰部之间。布帘在左侧形成大面积柔焦遮挡，人物位于画面中间偏右，占比约 60%，背景保持暗而安静。\n她左手停在帘边，右手扶住滑落肩带，身体面向镜头，肩膀略微向后。她刚刚听到帘外动静并转移视线，嘴唇微张，目光看向镜头左侧画外，表情带有短暂惊讶、克制警觉和若有所思，不直视镜头，不夸张表演。\n机顶小直闪轻微提亮面部正面、眼睛、嘴唇和针织纹理；较强的暖黄灯从左后侧照射，在头发、肩膀和锁骨边缘形成明显橙金色轮廓光，部分发丝呈半透明发光效果。布帘在脸侧投下柔和阴影，保持真实半哑光肤质，高光不过曝。\n不要幼态化，不要低俗暴露，不要挑逗姿势，不要塑料皮肤，不要全脸连续湿亮，不要过度磨皮，不要手指畸形，不要多余手臂，不要肩带穿模，不要服装滑落过度，不要布帘穿过身体，不要五官扭曲，不要文字、Logo、水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2083568437071376389",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785641919473,
+      "title": "她只是来试一件衣服",
+      "url": "https://x.com/chenlinspark/status/2083568437071376389",
+      "collectedAt": "2026-08-02T03:38:45.558Z",
+      "githubSyncedAt": "2026-08-02T03:38:45.558Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb93f1s_7ri6",
+      "image": "https://pbs.twimg.com/media/HOom0xWXkAASo23?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOom0xWXkAASo23?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOom0xXWEAAsWHJ?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOom0xUW4AA8i2X?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOom0xYXsAAVVto?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "一位20多岁的年轻成年女性站在明亮安静的卧室窗边，画面为紧凑局部特写，从锁骨下方拍至大腿上部，重点突出腰腹、双手和服装细节。人物正面朝向镜头，身体轻微自然扭转。双手分别抓住黑色睡衣上衣的左右下摆，向上提至肋骨下方，手指姿态自然，衣料形成真实拉伸、堆叠和横向褶皱。\n\n她穿黑色柔软长袖睡衣上衣，翻领、浅色滚边、米白纽扣和胸前小口袋，面料为哑光棉质或柔软莫代尔。下身穿黑色宽松低腰睡裤，松紧腰头自然垂落；裤腰上方露出黑色细带内裤的两侧肩带，贴合髋骨但不过度紧绷。服装完全不透明，造型简洁、私密、生活化。\n\n腰腹纤细但比例真实，腹部自然放松，轻微腹肌线条和腰侧弧线可见。肚脐佩戴银色双坠式穿孔饰品，上方为小型透明水晶，下方为心形水晶吊坠。皮肤为自然暖白色，保留真实毛孔、细小绒毛、肤色变化、轻微压痕和柔和皮脂高光，不要塑料磨皮。\n\n背景为浅灰白色卧室或更衣空间，左侧有大面积窗户与半透明白纱帘，背景极度虚化，无明显家具。柔和自然窗光从画面左侧照入，均匀照亮手部、腹部和饰品；右侧保留浅淡阴影。整体低饱和、低对比，以黑色、浅灰白和自然肤色为主。\n\n摄影风格：85mm或100mm微距人像镜头，f/2.2，近距离平视机位，浅景深，焦点落在肚脐饰品、双手和衣料褶皱；真实皮肤、棉布、金属和水晶纹理，ISO400轻微胶片颗粒，soft window light，intimate lifestyle editorial，photorealistic。\n\n避免：完整脸部、未成年人特征、裸体、露点、透明服装、色情动作、夸张腰臀比例、错误肚脐位置、畸形手指、多余手臂、融合手部、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOom0xWXkAASo23?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOom0xXWEAAsWHJ?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOom0xUW4AA8i2X?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOom0xYXsAAVVto?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083553339758059775",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785641919472,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2083553339758059775",
+      "collectedAt": "2026-08-02T03:38:45.558Z",
+      "githubSyncedAt": "2026-08-02T03:38:45.558Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "人像",
