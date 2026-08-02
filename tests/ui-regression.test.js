@@ -45,12 +45,13 @@ test('e-commerce prompts use a primary category with second-level use-case filte
   assert.match(app, /p\.mediaType === 'video' \|\| p\.category === '视频提示词'/);
 });
 
-test('explore uses layered type, style, scene, and PromptHub theme facets', () => {
-  assert.match(index, /js\/explore-facets\.js\?v=20260802b/);
+test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
+  assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
-  assert.match(app, /id="theme-filter-chips"/);
+  assert.match(app, /id="commerce-filter-chips"/);
+  assert.doesNotMatch(app, /id="theme-filter-chips"/);
   assert.match(app, /currentContentType/);
   assert.match(app, /currentStyle/);
   assert.match(app, /currentScene/);
@@ -59,8 +60,9 @@ test('explore uses layered type, style, scene, and PromptHub theme facets', () =
   assert.match(app, /params\.set\('scene', currentScene\)/);
   assert.match(facets, /界面与屏幕/);
   assert.match(facets, /图表与信息图/);
-  assert.match(facets, /电商视觉/);
-  assert.match(app, /filter\(category => category\.name !== '电商视觉'\)/);
+  assert.match(app, /const COMMERCE_FILTERS = \[/);
+  assert.match(app, /<h2 class="explore-facet-label">电商视觉<\/h2>/);
+  assert.match(app, /const LEGACY_CATEGORY_FACETS = \{/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {

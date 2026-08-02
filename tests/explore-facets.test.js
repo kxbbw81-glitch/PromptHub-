@@ -11,11 +11,15 @@ const commerce = {
 };
 
 test('recognizes content types without replacing PromptHub primary categories', () => {
-  assert.equal(facets.CONTENT_TYPES[0].id, 'commerce');
-  assert.equal(facets.CONTENT_TYPES[0].label, '电商视觉');
-  assert.equal(facets.matchesFacet(commerce, 'contentType', 'commerce'), true);
   assert.equal(facets.matchesFacet(commerce, 'contentType', 'brand'), true);
   assert.equal(commerce.category, '电商视觉');
+});
+
+test('merges legacy PromptHub categories into the three shared facet groups', () => {
+  assert.equal(facets.matchesFacet({ category: '风景' }, 'contentType', 'nature'), true);
+  assert.equal(facets.matchesFacet({ category: '视频提示词', mediaType: 'video' }, 'contentType', 'video'), true);
+  assert.equal(facets.matchesFacet({ category: '赛博朋克' }, 'style', 'future'), true);
+  assert.equal(facets.matchesFacet({ category: '城市' }, 'scene', 'city'), true);
 });
 
 test('supports independent style and scene facets', () => {
