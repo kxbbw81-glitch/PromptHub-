@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:18:41.208Z",
+  "updatedAt": "2026-08-02T12:20:24.921Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrqda9_ewa6",
+      "image": "https://pbs.twimg.com/media/HKckRZpXgAAwjxE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKckRZpXgAAwjxE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKckU-MXoAAdPdu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKckVpLWkAApNO6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKckWSFXIAAjnBt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRnx7AW0AAxWeb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRnzjbXkAAfm5U?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRn1W1W8AAAIUB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRn3OgWQAACO13?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "It can turn different brand moods, products and layouts into fresh campaign directions.\n\nChange the brand, product, model, headline or color palette — and the whole campaign direction changes.\n\nGreat for moodboards, early brand concepts and visual exploration.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKckRZpXgAAwjxE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKckU-MXoAAdPdu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKckVpLWkAApNO6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKckWSFXIAAjnBt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRnx7AW0AAxWeb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRnzjbXkAAfm5U?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRn1W1W8AAAIUB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKRn3OgWQAACO13?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2064660281733550305",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785673223362,
+      "title": "写真人像",
+      "url": "https://x.com/MrLarus/status/2064660281733550305",
+      "collectedAt": "2026-08-02T12:20:24.921Z",
+      "githubSyncedAt": "2026-08-02T12:20:24.921Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "自然",
