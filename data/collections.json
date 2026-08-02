@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:14:51.780Z",
+  "updatedAt": "2026-08-02T12:17:32.978Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrmlbw_s9lo",
+      "image": "https://pbs.twimg.com/media/HKbIVZ5akAABxW6?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKbIVZ5akAABxW6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKbIVZnbkAAb9nB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A dreamy cinematic portrait of a beautiful young woman sitting inside a vintage train carriage transformed into a blooming flower garden. Soft golden-hour sunlight streams through large wooden-framed windows, illuminating delicate white daisies, wildflowers, and cascading green vines hanging from the ceiling. The woman has long flowing dark hair, natural makeup, soft skin, and wears an elegant beige floral lace dress with voluminous sleeves. She gazes calmly at the camera with a gentle expression. Warm earthy tones, shallow depth of field, creamy bokeh, ultra-detailed floral arrangements, nostalgic atmosphere, natural light photography, photorealistic, 85mm lens, f/1.8, cinematic composition, high detail, soft focus background, ethereal spring aesthetic, masterpiece quality, ultra-realistic, 8K.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKbIVZ5akAABxW6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKbIVZnbkAAb9nB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Sairah_0/status/2064557764266057972",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "dreamy",
+        "vintage"
+      ],
+      "timestamp": 1785673047164,
+      "title": "通勤列车植物藤蔓肖像",
+      "url": "https://x.com/Sairah_0/status/2064557764266057972",
+      "collectedAt": "2026-08-02T12:17:32.978Z",
+      "githubSyncedAt": "2026-08-02T12:17:32.978Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
