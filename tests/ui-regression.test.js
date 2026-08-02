@@ -10,6 +10,7 @@ const popup = fs.readFileSync(path.join(root, 'extension/popup.js'), 'utf8');
 const popupHtml = fs.readFileSync(path.join(root, 'extension/popup.html'), 'utf8');
 const content = fs.readFileSync(path.join(root, 'extension/content.js'), 'utf8');
 const data = fs.readFileSync(path.join(root, 'js/data.js'), 'utf8');
+const css = fs.readFileSync(path.join(root, 'css/style.css'), 'utf8');
 const facets = fs.readFileSync(path.join(root, 'js/explore-facets.js'), 'utf8');
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const seoGenerator = fs.readFileSync(path.join(root, 'scripts/generate-seo-pages.js'), 'utf8');
@@ -47,6 +48,7 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
+  assert.match(index, /css\/style\.css\?v=20260802b/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -63,6 +65,7 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(app, /const COMMERCE_FILTERS = \[/);
   assert.match(app, /<h2 class="explore-facet-label">电商视觉<\/h2>/);
   assert.match(app, /const LEGACY_CATEGORY_FACETS = \{/);
+  assert.match(css, /\.explore-facet-panel[\s\S]*background: #181818/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {
