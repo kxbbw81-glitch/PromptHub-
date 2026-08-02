@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:17:32.978Z",
+  "updatedAt": "2026-08-02T12:18:41.208Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "自然",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrnqpm_qnju",
+      "image": "https://pbs.twimg.com/media/HKgXzYSXwAA9do7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKgXzYSXwAA9do7?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A vibrant and textured mixed-media collage artwork centered around a beautiful young South Asian woman with expressive brown eyes, sun-kissed skin, and wet, windswept dark hair adorned with white daisies and pink bougainvillea flowers. She is resting her chin on her hand, wearing intricate silver jhumka earrings, a crescent moon necklace, and beaded bracelets. The composition blends hyper-realistic oil painting elements with raw sketchjournal aesthetics, featuring a black-and-white charcoal sketch of the same woman in the top right, a detailed close-up of a single tearful eye, a Monarch butterfly, and colorful watercolor splashes in shades of amber, teal, and crimson. Scattered handwritten journal entries in elegant cursive read \"Some days she is Sunshine, Some days she is rain...\" and \"She collects moments... not things.\" In the bottom left corner, a small silhouette of a woman looks out at a warm city sunset over water, while the bottom right features a detailed sketch of a vintage street lamp and European-style balcony, creating a deeply emotional, nostalgic, and artistic scrapbooked aesthetic.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKgXzYSXwAA9do7?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2064926620658340277",
+      "tags": [
+        "oil painting",
+        "watercolor",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1785673100794,
+      "title": "南亚黑衬衫街拍",
+      "url": "https://x.com/Minahil42298354/status/2064926620658340277",
+      "collectedAt": "2026-08-02T12:18:41.208Z",
+      "githubSyncedAt": "2026-08-02T12:18:41.208Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
