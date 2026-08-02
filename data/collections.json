@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:21:34.149Z",
+  "updatedAt": "2026-08-02T12:22:43.835Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrs73s_xfmv",
+      "image": "https://pbs.twimg.com/media/HKJknJhXsAEMgbZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKJknJhXsAEMgbZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKJknwFWgAALqMS?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic cinematic mirror selfie of a stylish young woman standing inside a modern stainless-steel elevator. She is wearing an oversized black hoodie (hood down), loose black washed denim jeans, a white belt, and clean casual sneakers. One hand is",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKJknJhXsAEMgbZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKJknwFWgAALqMS?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/saniaspeaks_/status/2063462151415636211",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785673308664,
+      "title": "现代卧室镜自拍",
+      "url": "https://x.com/saniaspeaks_/status/2063462151415636211",
+      "collectedAt": "2026-08-02T12:22:43.835Z",
+      "githubSyncedAt": "2026-08-02T12:22:43.835Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrrpx8_grml",
+      "image": "https://pbs.twimg.com/media/HKUxSS4bcAAD5pJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKUxSS4bcAAD5pJ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "overall_tone:\nA casual smartphone photo on a small apartment balcony in the morning before rain, with a sleepy, slightly annoyed mood, as if she is thinking, “It looks like it’s going to rain already, I hate this.”",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKUxSS4bcAAD5pJ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Live_life_style/status/2064110346202477053",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785673286396,
+      "title": "雨嫌だなぁプロンプト",
+      "url": "https://x.com/Live_life_style/status/2064110346202477053",
+      "collectedAt": "2026-08-02T12:22:43.835Z",
+      "githubSyncedAt": "2026-08-02T12:22:43.835Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
