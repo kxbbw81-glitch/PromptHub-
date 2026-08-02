@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:22:43.835Z",
+  "updatedAt": "2026-08-02T12:23:16.962Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrsjck_6633",
+      "image": "https://pbs.twimg.com/media/HKO4x9QbcAAhx_Q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKO4x9QbcAAhx_Q?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成一张 9:16 竖版、iPhone后置摄像头抓拍质感的日常随手拍。画面主体是一位 22–26 岁年轻成年东方女性，五官清纯甜美，眼神明亮，妆容清淡，唇色裸粉。人物身形为S型曲线，胸腰臀比例自然流畅，整体线条柔和优美。她穿着白色高领无袖上衣、白色高腰百褶短裙，斜挎银链小包，下身搭配白色丝里丝（超薄透肤，接近隐形）。场景在大学校园的草坪上，午后阳光斜照，人物侧身坐在野餐垫上正和朋友说话，另一手撑在身后，裙摆因坐姿自然上滑。手机抓拍有轻微晃动，背景虚化的学生和树木，脸上有柔和的自然光。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKO4x9QbcAAhx_Q?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaqingfeng666/status/2063696230052770291",
+      "tags": [
+        "东方"
+      ],
+      "timestamp": 1785673324532,
+      "title": "东方人像",
+      "url": "https://x.com/xiaqingfeng666/status/2063696230052770291",
+      "collectedAt": "2026-08-02T12:23:16.962Z",
+      "githubSyncedAt": "2026-08-02T12:23:16.962Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
