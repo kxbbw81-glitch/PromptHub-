@@ -805,7 +805,8 @@ $('#btn-sync').addEventListener('click', async () => {
         </div>
       `;
     } else {
-      showToast(syncResult?.error || 'GitHub 主站写入失败');
+      const errorMessage = syncResult?.error || 'GitHub 主站写入失败';
+      showToast(errorMessage);
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">❌</div>
@@ -813,7 +814,7 @@ $('#btn-sync').addEventListener('click', async () => {
             GitHub 主站写入失败
           </div>
           <div class="empty-hint" style="margin-top:8px;">
-            请检查网络连接后重试
+            ${escapeHTML(errorMessage)}<br>收藏已保留在队列中，修复后可再次同步。
           </div>
         </div>
       `;

@@ -12,6 +12,7 @@ const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
 const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
 const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/git/blobs/';
+const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
 const DOMESTIC_PENDING_KEY = 'prompthub_domestic_pending_ids';
 const DOMESTIC_ALARM_NAME = 'prompthub_domestic_release';
 const RECEIPT_KEY = 'prompthub_collection_receipts';
@@ -966,6 +967,9 @@ function formatGitHubError(error) {
   if (/\b(409|422)\b|保存冲突/.test(message)) {
     return 'GitHub 正在更新收藏数据，已保留队列并自动重试';
   }
+  if (/GitHub 收藏数据无法读取|GitHub (raw|Blob) 读取失败|收藏数据格式错误/.test(message)) {
+    return 'GitHub 收藏数据无法读取，队列已保留，请稍后重试';
+  }
   if (/Failed to fetch|NetworkError|网络/.test(message)) {
     return '无法连接 GitHub，已保留队列，请检查网络后重试';
   }
@@ -991,32 +995,58 @@ async function readGitHubCollections(token) {
   if (!response.ok) throw new Error(`GitHub 读取失败 (${response.status})`);
 
   const payload = await response.json();
-  const parseCollectionsPayload = text => {
-    const content = JSON.parse(text);
+  const parseCollectionsPayload = (text, source) => {
+    let content;
+    try {
+      content = JSON.parse(text);
+    } catch {
+      throw new Error(`GitHub ${source} 收藏数据格式错误`);
+    }
     const collections = Array.isArray(content) ? content : content.collections;
-    return Array.isArray(collections) ? collections : [];
+    if (!Array.isArray(collections)) throw new Error(`GitHub ${source} 收藏数据格式错误`);
+    return collections;
+  };
+
+  const readRawCollections = async () => {
+    const rawUrl = payload.download_url || `${GITHUB_COLLECTIONS_RAW}?_=${Date.now()}`;
+    const rawResponse = await fetch(rawUrl, { headers: { Accept: 'application/json' }, cache: 'no-store' });
+    if (!rawResponse.ok) throw new Error(`GitHub raw 读取失败 (${rawResponse.status})`);
+    return parseCollectionsPayload(await rawResponse.text(), 'raw');
+  };
+
+  const readBlobCollections = async () => {
+    if (!payload.sha) throw new Error('GitHub Blob 读取失败 (缺少文件版本)');
+    const blobResponse = await fetch(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(payload.sha)}`, { headers: githubHeaders(token) });
+    if (!blobResponse.ok) throw new Error(`GitHub Blob 读取失败 (${blobResponse.status})`);
+    const blob = await blobResponse.json();
+    if (typeof blob.content !== 'string' || !blob.content.trim()) throw new Error('GitHub Blob 读取失败 (内容为空)');
+    return parseCollectionsPayload(decodeBase64Utf8(blob.content), 'Blob');
   };
 
   try {
+    const isLargeFile = Number(payload.size) >= GITHUB_LARGE_FILE_BYTES || payload.encoding === 'none';
+    if (isLargeFile) {
+      try {
+        return { sha: payload.sha || '', collections: await readRawCollections() };
+      } catch (rawError) {
+        console.warn('[PromptHub] GitHub raw read failed, falling back to blob:', rawError?.message || rawError);
+        return { sha: payload.sha || '', collections: await readBlobCollections() };
+      }
+    }
+
     if (typeof payload.content === 'string' && payload.content.trim()) {
-      return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(payload.content)) };
+      return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(payload.content), 'API') };
     }
 
     if (payload.sha) {
-      const blobResponse = await fetch(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(payload.sha)}`, { headers: githubHeaders(token) });
-      if (blobResponse.ok) {
-        const blob = await blobResponse.json();
-        if (typeof blob.content === 'string' && blob.content.trim()) {
-          return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(blob.content)) };
-        }
+      try {
+        return { sha: payload.sha || '', collections: await readBlobCollections() };
+      } catch (blobError) {
+        console.warn('[PromptHub] GitHub blob read failed, falling back to raw:', blobError?.message || blobError);
       }
-      console.warn('[PromptHub] GitHub blob read failed, falling back to raw:', blobResponse.status);
     }
 
-    const rawUrl = payload.download_url || `${GITHUB_COLLECTIONS_RAW}?_=${Date.now()}`;
-    const rawResponse = await fetch(rawUrl, { headers: { Accept: 'application/json' } });
-    if (!rawResponse.ok) throw new Error(`GitHub raw 读取失败 (${rawResponse.status})`);
-    return { sha: payload.sha || '', collections: parseCollectionsPayload(await rawResponse.text()) };
+    return { sha: payload.sha || '', collections: await readRawCollections() };
   } catch (error) {
     console.warn('[PromptHub] GitHub collections parse failed:', error?.message || error);
     throw new Error('GitHub 收藏数据格式错误');

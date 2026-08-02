@@ -168,14 +168,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.15\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.15\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.16\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.16\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.15\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.15\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.16\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.16\.0/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
@@ -195,4 +195,8 @@ test('the extension records an image aspect ratio during prompt recognition', ()
 test('the extension reports the GitHub primary-site write result precisely', () => {
   assert.match(popup, /已写入 GitHub 主站 \$\{savedCount\} 个提示词/);
   assert.match(popup, /GitHub 主站无新增，\$\{skippedCount\} 个提示词已存在/);
+  assert.match(popup, /收藏已保留在队列中，修复后可再次同步/);
+  assert.match(background, /GITHUB_LARGE_FILE_BYTES/);
+  assert.match(background, /isLargeFile/);
+  assert.match(background, /GitHub raw read failed, falling back to blob/);
 });

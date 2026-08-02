@@ -9,7 +9,7 @@ const backgroundSource = fs.readFileSync(path.join(__dirname, '../extension/back
 
 function createHarness() {
   const storage = { prompthub_github_token: 'github_pat_test_token_with_write_permission' };
-  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawGetCalls: 0, blobGetCalls: 0, conflictOnce: false, alwaysConflict: false };
+  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawFailure: false, rawGetCalls: 0, blobGetCalls: 0, conflictOnce: false, alwaysConflict: false };
   const alarms = [];
   const alarmListeners = [];
   const event = { addListener() {} };
@@ -59,6 +59,7 @@ function createHarness() {
       }
       if (String(url).includes('raw.githubusercontent.com')) {
         remote.rawGetCalls += 1;
+        if (remote.rawFailure) return { ok: false, status: 503, text: async () => '' };
         return { ok: true, status: 200, text: async () => JSON.stringify({ collections: remote.collections }) };
       }
       if (String(url).includes('/git/blobs/')) {
@@ -177,7 +178,7 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
 });
 
-test('reads GitHub blob content when the contents API omits large file content', async () => {
+test('large GitHub collections use raw JSON before Base64 Blob decoding', async () => {
   const { context, remote } = createHarness();
   remote.omitApiContent = true;
   remote.collections = [prompt('existing-large-file', 'A cinematic portrait of an adult woman beside a large window, soft natural light, realistic skin texture, tailored coat, warm neutral interior, 85mm lens, shallow depth of field, editorial photography, photorealistic finish, no text, no watermark.')];
@@ -187,9 +188,23 @@ test('reads GitHub blob content when the contents API omits large file content',
 
   assert.equal(result.pendingVerification, true);
   assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
-  assert.equal(remote.blobGetCalls >= 1, true);
-  assert.equal(remote.rawGetCalls, 0);
+  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.equal(remote.blobGetCalls, 0);
   assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
+});
+
+test('large GitHub collections fall back to Blob when raw JSON is temporarily unavailable', async () => {
+  const { context, remote } = createHarness();
+  remote.omitApiContent = true;
+  remote.rawFailure = true;
+  const next = prompt('blob-fallback-new', 'A premium product photograph of a crystal perfume bottle on pale stone, controlled window light, clean reflection, subtle mist, luxury editorial composition, shallow depth of field, realistic glass refraction, no text, no logo, no watermark.');
+
+  const result = await context.addToQueue(next);
+
+  assert.equal(result.pendingVerification, true);
+  assert.equal((await waitForReceipt(context, 'blob-fallback-new')).outcome, 'saved');
+  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.equal(remote.blobGetCalls >= 1, true);
 });
 
 test('GitHub save conflicts are retried against a fresh remote snapshot', async () => {
