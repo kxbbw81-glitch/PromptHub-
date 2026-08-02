@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:12:32.243Z",
+  "updatedAt": "2026-08-02T14:14:05.905Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvsk3a_4m0o",
+      "image": "https://pbs.twimg.com/media/HFzSToCacAAfbpX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFzSToCacAAfbpX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSToEaEAAYKp4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSToFasAE2J1-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSTn_bUAAsS28?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Cinematic portrait of a young asian woman sitting on grass outdoors, soft direct gaze to camera, natural pose with slightly leaning forward posture, wearing a loose white shirt, dark skirt, gentle wind moving her hair, minimal background with soft blur, calm and dreamy atmosphere, intimate and emotional tone\n\nlighting: strong backlight from low golden hour sun directly behind subject, sunlight creating a glowing halo around hair (rim light), soft flare bleeding into lens, warm sunlight wrapping around face, gentle highlight bloom on skin, slightly overexposed highlights, diffused glow, no harsh shadows on face\n\ncolor grading: dominant warm golden tones, rich amber highlights, soft yellow-orange glow, midtones shifted to warm peach and beige, shadows slightly greenish-brown (olive tint), overall low saturation except warm tones, faded blacks (matte), soft contrast, creamy skin tones, filmic warmth, subtle haze for glow diffusion\n\nsunlight effect: strong sun flare behind head, glowing light rays, bloom effect, light leak feeling, soft halo around hair edges, warm radiant diffusion across frame\n\nstyle: cinematic film still, analog photography look, soft focus edges, subtle film grain, dreamy haze, nostalgic tone, wong kar-wai inspired warmth\n\nextra: light bloom, soft vignette, high dynamic range but muted, no cool tones, warm color dominance",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFzSToCacAAfbpX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSToEaEAAYKp4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSToFasAE2J1-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSTn_bUAAsS28?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Ciri_ai/status/2043739577152876836",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy",
+        "golden hour"
+      ],
+      "timestamp": 1785680043958,
+      "title": "海滨长廊金色人像",
+      "url": "https://x.com/Ciri_ai/status/2043739577152876836",
+      "collectedAt": "2026-08-02T14:14:05.905Z",
+      "githubSyncedAt": "2026-08-02T14:14:05.905Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
