@@ -1,7 +1,132 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T03:59:58.175Z",
+  "updatedAt": "2026-08-02T04:01:03.062Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9vx3x_g0da",
+      "image": "https://pbs.twimg.com/media/HNFlw-EbcAAfvEA?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HNFlw-EbcAAfvEA?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HNFlw-BbsAEWYGk?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HNFlw9-bsAAmyXL?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "[질감과 색감 무드]\n색채: 드레스와 패브릭의 절대적이고 순수한 스노우 화이트(White), 온화한 아이보리, 그리고 배경의 미니멀한 라이트 웜 그레이/베이지 톤이 환상적으로 어우러지는 고결하고 신성한 '에테리얼 화이트(Ethereal White)' 색채 무드입니다.\n질감: 공기처럼 가볍고 하늘하늘하게 날리는 시폰 원단 특유의 부드럽고 투명한 직조 텍스처, 코르셋 드레스의 단단하고 촘촘한 주름 질감, 그리고 도자기처럼 매끄러운 스킨 질감이 조화롭게 충돌하며 회화적인 예술 화보의 정점을 보여줍니다.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNFlw-EbcAAfvEA?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HNFlw-BbsAEWYGk?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HNFlw9-bsAAmyXL?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CHAseUnre/status/2083453175676154155",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785643249245,
+      "title": "AI提示词",
+      "url": "https://x.com/CHAseUnre/status/2083453175676154155",
+      "collectedAt": "2026-08-02T04:01:03.062Z",
+      "githubSyncedAt": "2026-08-02T04:01:03.062Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9vg20_bc0m",
+      "image": "https://pbs.twimg.com/media/HOozhuSakAABOqD?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOozhuSakAABOqD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOoziayacAAWQbN?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOozjMKboAAhOTM?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOozj7Ra4AAIG9A?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Transform the image into a minimalist hand-drawn doodle illustration. Use simple brush-pen outlines with slightly wobbly, imperfect strokes. Reduce all details to cute, childlike shapes while preserving the main subject and composition. Naive",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOozhuSakAABOqD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOoziayacAAWQbN?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOozjMKboAAhOTM?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOozj7Ra4AAIG9A?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AiwithLariab/status/2083534483614306443",
+      "tags": [
+        "minimalist"
+      ],
+      "timestamp": 1785643227144,
+      "title": "AI提示词",
+      "url": "https://x.com/AiwithLariab/status/2083534483614306443",
+      "collectedAt": "2026-08-02T04:01:03.062Z",
+      "githubSyncedAt": "2026-08-02T04:01:03.062Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9vg1y_prqw",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2083391864976400384/img/7Se7oKgxeszMta9n.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2083391864976400384/img/7Se7oKgxeszMta9n.jpg"
+      ],
+      "model": "",
+      "prompt": "实测几天发现，它能把普通文字、情绪，甚至一张废片，直接重构成安静、高级的 Zine 风格海报：\n\n硬核审美约束：从比例、留白、纸张质感到字体选择，都建立了一套严格的视觉规则。保留高级 海报的克制、安静。\n\n审美批量产出：输入主题就能直接出高质量海报 + 可复用 Prompt，相当于给 Codex 配了个艺术总监。\n\n地址：https://github.com/LiamGvchi/gc-minimal-zine-poster…",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2083391864976400384/img/7Se7oKgxeszMta9n.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BTCqzy1/status/2083393056842330414",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785643227142,
+      "title": "电商海报",
+      "url": "https://x.com/BTCqzy1/status/2083393056842330414",
+      "collectedAt": "2026-08-02T04:01:03.062Z",
+      "githubSyncedAt": "2026-08-02T04:01:03.062Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9vg1y_srya",
+      "image": "https://pbs.twimg.com/media/HOlqyjZWIAErS0k?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOlqyjZWIAErS0k?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "绝美23岁东亚美女，身材匀称丰满，胸部自然丰满（约D至E杯视觉效果），腰部纤细，臀腿比例协调，曲线柔和自然，气质时尚、自信、温柔。家庭瑜伽风格，海盐雾蓝色削肩修身运动背心，搭配低腰贴身瑜伽短裤，领口线条清爽利落，面料柔弹细腻，勾勒肩颈与腰线，轻熟时尚。\n\n明净通透妆容，灰粉棕与银米色眼妆，水润玫瑰裸粉色唇妆，乌黑高马尾，银色小耳圈与细窄运动手环。\n\n她正面跪在奶油色瑜伽垫上完成猫牛式伸展，双手稳稳撑地、胸口向前打开，抬脸看向镜头露出清晰五官。背景有弧形米色沙发、圆角木质茶几、落地纱帘、盆栽与晨间漫射光，画面安静松弛又有真实居家练习感。\n\n50mm人像摄影，环境人像构图，大光圈浅景深，奶油散景，真实皮肤质感，柔亮晨光，高级生活方式写真，电影感，ultra realistic, masterpiece, best quality。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOlqyjZWIAErS0k?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2083313729072992456",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785643227142,
+      "title": "运动海报",
+      "url": "https://x.com/sdjn_wgc/status/2083313729072992456",
+      "collectedAt": "2026-08-02T04:01:03.062Z",
+      "githubSyncedAt": "2026-08-02T04:01:03.062Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
