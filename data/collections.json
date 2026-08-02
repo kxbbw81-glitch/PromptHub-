@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T13:07:57.380Z",
+  "updatedAt": "2026-08-02T14:08:20.601Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvl2ye_m4dg",
+      "image": "https://pbs.twimg.com/media/HJQpEjxakAMb3Ok?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJQpEjxakAMb3Ok?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQpE7XakAQEWId?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQpFkeacAAnsFh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQpF9lbUAAE9u4?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成一位视觉上年轻优雅的东方女性，皮肤紧致细腻有弹力，轻微自然毛孔可见，水光感透亮，无松弛感、无细纹、无眼袋、无中年感。面部轮廓清晰有层次，下颌线利落自然，五官柔和精致和谐，眼睛清澈安静，眼神带着疏离而高级的知性深度。浅棕色自然长卷发，层次丰富柔顺。整体气质安静克制，介于青春活力与优雅从容之间，带有高级疏离感，不幼态、不儿童化、无中年感。\n她优雅地侧坐在舞台边缘，身体挺直端庄，一手自然撑在身侧，双腿并拢自然向一侧延伸，头部微微抬起，目光看向镜头之外，姿态从容而富有戏剧表演张力，展现高级舞台艺术的安静气场。\n穿着黑色高级结构感先锋舞台时尚长裙，精致几何剪裁与立体设计细节，面料质感奢华暗黑，呈现暗黑轻奢的先锋时尚风格，身形自然匀称，肩颈线条舒展优雅。\n场景为专业暗色舞台或高端摄影棚，深色幕布背景，前景轻微虚化专业拍摄器材，增强高端幕后记录感。使用柔和聚光灯精准打亮人物，营造戏剧性光影，背景深暗形成强烈对比。高端暗调写实舞台时尚摄影，暗黑轻奢 editorial 风格，浅景深突出人物与服装质感，皮肤细腻真实，服装细节高级清晰，整体安静、克制、富有艺术表演感和电影戏剧张力。\n画面风格为高质量写实，真实自然的光影过渡，温暖与冷调平衡，高清细节丰富，杰作级别，像高端时尚杂志的暗黑先锋大片。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJQpEjxakAMb3Ok?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQpE7XakAQEWId?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQpFkeacAAnsFh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQpF9lbUAAE9u4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaqingfeng666/status/2059316118272250345",
+      "tags": [
+        "东方",
+        "摄影"
+      ],
+      "timestamp": 1785679695158,
+      "title": "生成一位视觉上年轻优雅的东方女性",
+      "url": "https://x.com/xiaqingfeng666/status/2059316118272250345",
+      "collectedAt": "2026-08-02T14:08:20.601Z",
+      "githubSyncedAt": "2026-08-02T14:08:20.601Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "awesome_aiart_pics_3d-paper-cutout-collage",
       "title": "纸雕立体拼贴",
