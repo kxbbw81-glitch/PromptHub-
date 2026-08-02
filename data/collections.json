@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T03:38:45.558Z",
+  "updatedAt": "2026-08-02T03:56:02.266Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msb9poy6_q7ok",
+      "image": "https://pbs.twimg.com/media/HOmBPM-XsAAHCmj?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOmBPM-XsAAHCmj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOmBPM-X0AA59aY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOmBPM_XAAI6qtK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOmBPNAX0AAxJBO?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "一位20多岁的年轻成年东亚女性站在纯黑色摄影棚背景前，画面从头顶拍至腰部附近。人物位于中央略偏右，身体微微朝画面左侧转动，肩膀放松，头部轻抬并略向后仰，平静直视镜头。嘴唇自然微启，神情安静、克制、略带疏离感。\n\n她拥有精致偏长的鹅蛋脸、柔和清晰的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和水润玫瑰裸粉色嘴唇。妆容清淡，轻薄底妆、自然睫毛、细眼线、浅暖棕眼影和柔和粉色腮红。肤色白皙偏中性冷调，保留真实毛孔、细小绒毛、自然肤色变化和轻微皮脂高光，不要塑料磨皮。\n\n深棕黑色头发盘成松散低发髻或中低位发髻，额前有轻薄碎刘海，脸侧垂落几缕细长发丝，头顶保留自然碎发与轻微蓬松感。\n\n她穿一件象牙白色宽松粗针织开衫，深V领、大号白色纽扣、宽大长袖与明显罗纹针织纹理。开衫自然滑落一侧肩膀，露出锁骨和肩线，但胸前由衣物完整遮挡。双手在胸前轻轻抓住开衫边缘与纽扣附近，手指自然放松。\n\n背景为纯黑至深炭灰渐变，无任何道具。强烈而集中的侧上方光线从画面左前上方照射，在额头、鼻梁、嘴唇、锁骨、肩膀与白色针织表面形成明亮高光；右侧面部和衣物进入深而柔和的阴影。保留明显明暗分区、丰富暗部层次与轻微高光溢出。\n\n摄影风格：85mm或105mm人像镜头，f/2，平视略低机位，中浅景深，焦点落在双眼、嘴唇和手部，真实皮肤、发丝、羊毛纤维、纽扣和针织褶皱，ISO400细腻胶片颗粒，Black Pro-Mist 1/8轻柔扩散，low-key beauty editorial，cinematic studio portrait，photorealistic。\n\n避免：未成年人特征、裸体、露点、透明针织、夸张身材、浓妆、错误露肩结构、畸形手指、多余手臂、错误纽扣、塑料皮肤、过度磨皮、强HDR、过度锐化、灰色杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOmBPM-XsAAHCmj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOmBPM-X0AA59aY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOmBPM_XAAI6qtK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOmBPNAX0AAxJBO?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083674130734616680",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1785642958734,
+      "title": "米色针织情绪肖像",
+      "url": "https://x.com/ToroJushiAi/status/2083674130734616680",
+      "collectedAt": "2026-08-02T03:56:02.266Z",
+      "githubSyncedAt": "2026-08-02T03:56:02.266Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
