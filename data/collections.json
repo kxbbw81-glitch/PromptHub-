@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:30:38.507Z",
+  "updatedAt": "2026-08-02T12:30:59.746Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbs3yzj_8f9o",
+      "image": "https://pbs.twimg.com/media/HJQNEfcaMAETmoP?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HJQNEfcaMAETmoP?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HJQNEdPaEAA8ngu?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HJQNEdLboAAU8OO?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HJQNEdSa4AAmyFo?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "1. http://raphael.ai — 免费无限 AI 生图，质量直逼 Midjourney\n\n3. http://magnific.ai — AI 无限放大图片，细节自动补全\n\n5. http://elevenlabs.io — AI 语音克隆，5 秒模仿任何声音\n\n7. http://runwayml.com — AI 视频生成先驱，Gen-3 免费试\n\n8. http://klingai.com — 快手可灵 AI，中文视频生成最丝滑\n\n13. http://v0.dev — Vercel AI 前端生成器，描述即页面\n\n14. http://replit.com — 浏览器里写代码+AI 辅助+一键部署\n\n16. http://gamma.app — AI 一键生成 PPT，告别 PPT 地狱\n\n17. http://notion.so/product/ai — Notion AI 免费写+总结+翻译\n\n18. http://tldraw.com/make-real — 画草图 AI 自动生成真实网页\n\n19. http://perplexity.ai — AI 搜索引擎，问任何问题秒给答案+来源\n\n20. http://phind.com — 开发者专属 AI 搜索，代码问题一搜即解\n\n21. http://otter.ai — 会议实时转文字，免费每月 300 分钟\n\n23. http://poe.com — 一个网站用 GPT-4 o/Claude/Gemini 全免费\n\n24. http://huggingface.co/spaces — 开源 AI 模型免费试玩场\n\n26. http://cleanup.pictures — AI 擦除照片中任何物体\n\n29. http://jasper.ai/free — AI 写作助手，免费版够日常\n\n30. http://claude.ai — Anthropic 免费 AI 助手，长文处理天花板",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJQNEfcaMAETmoP?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HJQNEdPaEAA8ngu?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HJQNEdLboAAU8OO?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HJQNEdSa4AAmyFo?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Chenzeze777/status/2059285311293886946",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785673858016,
+      "title": "30 个感觉「非法」却合法的 AI 网站",
+      "url": "https://x.com/Chenzeze777/status/2059285311293886946",
+      "collectedAt": "2026-08-02T12:30:59.746Z",
+      "githubSyncedAt": "2026-08-02T12:30:59.746Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "自然",
