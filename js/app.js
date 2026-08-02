@@ -9,6 +9,9 @@
   let currentRoute = 'home';
   let currentCategory = 'All';
   let currentCommerceType = 'All';
+  let currentContentType = 'All';
+  let currentStyle = 'All';
+  let currentScene = 'All';
   let currentSearch = '';
   let currentPage = 1;
   let detailReturnContext = null;
@@ -23,9 +26,10 @@
   let extensionBridgeReady = false;
   const security = window.PromptHubSecurity;
   const { escapeHtml, sanitizeImageUrl, sanitizeImageUrls } = security || {};
+  const exploreFacets = window.PromptHubExploreFacets;
 
-  if (!security) {
-    throw new Error('PromptHubSecurity is required before app.js');
+  if (!security || !exploreFacets) {
+    throw new Error('PromptHubSecurity and PromptHubExploreFacets are required before app.js');
   }
 
   // --- 分类旧英文名称映射到中文（兼容已有收藏数据）---
@@ -417,6 +421,9 @@
     const params = new URLSearchParams();
     if (currentCategory !== 'All') params.set('category', currentCategory);
     if (currentCommerceType !== 'All') params.set('commerceType', currentCommerceType);
+    if (currentContentType !== 'All') params.set('type', currentContentType);
+    if (currentStyle !== 'All') params.set('style', currentStyle);
+    if (currentScene !== 'All') params.set('scene', currentScene);
     if (currentSearch.trim()) params.set('q', currentSearch.trim());
     if (currentPage > 1) params.set('page', String(currentPage));
     const query = params.toString();
@@ -428,7 +435,7 @@
     const targetHash = getExploreHash();
     if (window.location.hash === targetHash) return;
     const method = replace ? 'replaceState' : 'pushState';
-    history[method]({ route: 'explore', category: currentCategory, commerceType: currentCommerceType, search: currentSearch, page: currentPage }, '', targetHash);
+    history[method]({ route: 'explore', category: currentCategory, commerceType: currentCommerceType, contentType: currentContentType, style: currentStyle, scene: currentScene, search: currentSearch, page: currentPage }, '', targetHash);
   }
 
   function setNavActive(route) {
@@ -442,6 +449,9 @@
     if (route === 'home') return '返回首页精选';
     if (currentSearch.trim()) return `返回「${currentSearch.trim()}」结果`;
     if (currentCommerceType !== 'All') return `返回${currentCommerceType}内容`;
+    if (currentContentType !== 'All') return `返回${exploreFacets.CONTENT_TYPES.find(item => item.id === currentContentType)?.label || '筛选'}内容`;
+    if (currentStyle !== 'All') return `返回${exploreFacets.STYLES.find(item => item.id === currentStyle)?.label || '风格'}内容`;
+    if (currentScene !== 'All') return `返回${exploreFacets.SCENES.find(item => item.id === currentScene)?.label || '场景'}内容`;
     if (currentCategory !== 'All') return `返回${currentCategory}分类`;
     return '返回探索';
   }
@@ -455,23 +465,29 @@
       route,
       category: currentCategory,
       commerceType: currentCommerceType,
+      contentType: currentContentType,
+      style: currentStyle,
+      scene: currentScene,
       search: currentSearch,
       page: currentPage,
       label: getBrowseContextLabel(route)
     };
   }
 
-  function showExploreWithState({ category = 'All', commerceType = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
+  function showExploreWithState({ category = 'All', commerceType = 'All', contentType = 'All', style = 'All', scene = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
     currentRoute = 'explore';
     currentCategory = category;
-    currentCommerceType = category === '电商视觉' ? commerceType : 'All';
+    currentCommerceType = category === '电商视觉' || contentType === 'commerce' || contentType === 'brand' ? commerceType : 'All';
+    currentContentType = contentType;
+    currentStyle = style;
+    currentScene = scene;
     currentSearch = search;
     currentPage = page;
     window.scrollTo(0, 0);
     renderExplore();
     setNavActive('explore');
     if (window.location.hash !== hash) {
-      history.pushState({ route: 'explore', category, commerceType, search, page }, '', hash);
+      history.pushState({ route: 'explore', category, commerceType, contentType, style, scene, search, page }, '', hash);
     }
   }
 
@@ -1256,7 +1272,7 @@
   };
 
   window.returnToBrowse = function () {
-    const context = detailReturnContext || { route: 'explore', category: 'All', commerceType: 'All', search: '', page: 1 };
+    const context = detailReturnContext || { route: 'explore', category: 'All', commerceType: 'All', contentType: 'All', style: 'All', scene: 'All', search: '', page: 1 };
     detailReturnContext = null;
 
     if (context.route === 'home') {
@@ -1274,6 +1290,9 @@
     currentRoute = 'explore';
     currentCategory = context.category || 'All';
     currentCommerceType = context.commerceType || 'All';
+    currentContentType = context.contentType || 'All';
+    currentStyle = context.style || 'All';
+    currentScene = context.scene || 'All';
     currentSearch = context.search || '';
     currentPage = context.page || 1;
     window.scrollTo(0, 0);
@@ -1288,6 +1307,9 @@
     showExploreWithState({
       category: catName,
       commerceType: 'All',
+      contentType: 'All',
+      style: 'All',
+      scene: 'All',
       search: '',
       page: 1,
       hash: `#/category/${encodeURIComponent(catName)}`
@@ -1467,6 +1489,138 @@
   }
 
   // --- Render: Explore ---
+  function getExploreState(overrides = {}) {
+    return {
+      category: currentCategory,
+      commerceType: currentCommerceType,
+      contentType: currentContentType,
+      style: currentStyle,
+      scene: currentScene,
+      search: currentSearch,
+      ...overrides
+    };
+  }
+
+  function matchesExploreState(prompt, state = getExploreState()) {
+    if (state.category === '视频提示词') {
+      if (prompt.mediaType !== 'video' && prompt.category !== '视频提示词') return false;
+    } else if (state.category !== 'All' && prompt.category !== state.category) {
+      return false;
+    }
+    if (state.commerceType !== 'All' && prompt.commerceType !== state.commerceType) return false;
+    if (!exploreFacets.matchesFacet(prompt, 'contentType', state.contentType)) return false;
+    if (!exploreFacets.matchesFacet(prompt, 'style', state.style)) return false;
+    if (!exploreFacets.matchesFacet(prompt, 'scene', state.scene)) return false;
+    if (state.search.trim()) {
+      const query = state.search.toLowerCase().trim();
+      const text = [prompt.title, prompt.category, prompt.commerceType, ...(prompt.tags || []), prompt.prompt]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      if (!text.includes(query)) return false;
+    }
+    return true;
+  }
+
+  function getExploreItems() {
+    const collections = getCollections().map(c => ({ ...c, isCollection: true, verified: false, likes: 0 }));
+    return [...collections, ...PROMPTS];
+  }
+
+  function getFacetCount(items, group, id) {
+    const state = getExploreState({ [group]: 'All' });
+    return items.filter(prompt => {
+      if (!matchesExploreState(prompt, state)) return false;
+      if (id === 'All') return true;
+      if (group === 'category') {
+        return id === '视频提示词'
+          ? prompt.mediaType === 'video' || prompt.category === '视频提示词'
+          : prompt.category === id;
+      }
+      if (group === 'commerceType') return prompt.commerceType === id;
+      return exploreFacets.matchesFacet(prompt, group, id);
+    }).length;
+  }
+
+  function isCommerceFacetVisible() {
+    return currentCategory === '电商视觉' || currentContentType === 'commerce' || currentContentType === 'brand';
+  }
+
+  function createExploreFacetChip({ label, count, active, onClick, disabled = false }) {
+    const text = `${label} ${count}`;
+    const attrs = {
+      class: `filter-chip${active ? ' active' : ''}`,
+      type: 'button',
+      'aria-pressed': active ? 'true' : 'false'
+    };
+    if (disabled) attrs.disabled = 'disabled';
+    const chip = el('button', attrs, text);
+    chip.addEventListener('click', onClick);
+    return chip;
+  }
+
+  function renderFacetChipRow(container, group, definitions, currentValue, allLabel, items) {
+    if (!container) return;
+    container.replaceChildren();
+    const setValue = (value) => {
+      if (group === 'category') currentCategory = value;
+      else if (group === 'commerceType') currentCommerceType = value;
+      else if (group === 'contentType') currentContentType = value;
+      else if (group === 'style') currentStyle = value;
+      else if (group === 'scene') currentScene = value;
+      if (
+        (group === 'category' || group === 'contentType') &&
+        currentCategory !== '电商视觉' &&
+        currentContentType !== 'commerce' &&
+        currentContentType !== 'brand'
+      ) currentCommerceType = 'All';
+      currentPage = 1;
+      renderExploreFacets();
+      renderPromptsGrid();
+      syncExploreHash(false);
+    };
+
+    const allCount = getFacetCount(items, group, 'All');
+    container.appendChild(createExploreFacetChip({
+      label: allLabel,
+      count: allCount,
+      active: currentValue === 'All',
+      onClick: () => setValue('All')
+    }));
+
+    definitions.forEach(definition => {
+      const count = getFacetCount(items, group, definition.id || definition.name);
+      container.appendChild(createExploreFacetChip({
+        label: definition.label || definition.name,
+        count,
+        active: currentValue === (definition.id || definition.name),
+        disabled: count === 0 && currentValue !== (definition.id || definition.name),
+        onClick: () => setValue(definition.id || definition.name)
+      }));
+    });
+  }
+
+  function renderExploreFacets() {
+    const items = getExploreItems();
+    renderFacetChipRow($('#content-type-filter-chips'), 'contentType', exploreFacets.CONTENT_TYPES, currentContentType, '全部类型', items);
+    renderFacetChipRow($('#style-filter-chips'), 'style', exploreFacets.STYLES, currentStyle, '全部风格', items);
+    renderFacetChipRow($('#scene-filter-chips'), 'scene', exploreFacets.SCENES, currentScene, '全部场景', items);
+    renderFacetChipRow(
+      $('#theme-filter-chips'),
+      'category',
+      CATEGORIES.map(category => ({ id: category.name, label: `${category.icon} ${category.name}` })),
+      currentCategory,
+      '全部主题',
+      items
+    );
+
+    const commerceRow = $('#commerce-filter-row');
+    if (commerceRow) commerceRow.hidden = !isCommerceFacetVisible();
+    if (isCommerceFacetVisible()) {
+      renderFacetChipRow($('#commerce-filter-chips'), 'commerceType', COMMERCE_TYPES, currentCommerceType, '全部电商用途', items);
+    }
+  }
+
   function renderExplore() {
     const app = $('#app');
     app.innerHTML = `
@@ -1480,11 +1634,31 @@
         <div class="container">
           <div class="explore-toolbar">
             <div class="explore-search">
-              <input type="text" id="explore-search-input" placeholder="搜索提示词标题、标签或内容..." value="${currentSearch}" />
+              <input type="text" id="explore-search-input" placeholder="搜索提示词标题、标签或内容..." value="${escapeHtml(currentSearch)}" />
             </div>
           </div>
-          <div class="filter-chips" id="filter-chips"></div>
-          <div class="filter-chips" id="commerce-filter-chips" style="display:none;"></div>
+          <section class="explore-facet-panel" aria-label="提示词筛选">
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">内容类型</h2>
+              <div class="filter-chips" id="content-type-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">视觉风格</h2>
+              <div class="filter-chips" id="style-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">使用场景</h2>
+              <div class="filter-chips" id="scene-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">PromptHub 主题</h2>
+              <div class="filter-chips" id="theme-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row" id="commerce-filter-row" hidden>
+              <h2 class="explore-facet-label">电商用途</h2>
+              <div class="filter-chips" id="commerce-filter-chips"></div>
+            </div>
+          </section>
           <div class="active-filter-bar" id="active-filter-bar"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
           <div class="prompts-grid" id="prompts-grid"></div>
@@ -1497,106 +1671,44 @@
       </section>
     `;
 
-    const chipsContainer = $('#filter-chips');
-    const allChip = el('button', { class: 'filter-chip' + (currentCategory === 'All' ? ' active' : '') }, '全部');
-    allChip.addEventListener('click', () => { currentCategory = 'All'; currentCommerceType = 'All'; currentPage = 1; updateChips(); renderCommerceChips(); renderPromptsGrid(); syncExploreHash(false); });
-    chipsContainer.appendChild(allChip);
-
-    CATEGORIES.forEach(cat => {
-      const chip = el('button', { class: 'filter-chip' + (currentCategory === cat.name ? ' active' : '') }, `${cat.icon} ${cat.name}`);
-      chip.addEventListener('click', () => {
-        currentCategory = cat.name;
-        if (cat.name !== '电商视觉') currentCommerceType = 'All';
-        currentPage = 1;
-        updateChips();
-        renderCommerceChips();
-        renderPromptsGrid();
-        syncExploreHash(false);
-      });
-      chipsContainer.appendChild(chip);
-    });
-
     $('#explore-search-input').addEventListener('input', (e) => {
       currentSearch = e.target.value;
       currentPage = 1;
+      renderExploreFacets();
       renderPromptsGrid();
       syncExploreHash(true);
     });
 
-    renderCommerceChips();
+    renderExploreFacets();
     renderPromptsGrid();
   }
 
   function updateChips() {
-    const chips = $$('#filter-chips .filter-chip');
-    if (chips[0]) chips[0].classList.toggle('active', currentCategory === 'All');
-    CATEGORIES.forEach((cat, i) => {
-      if (chips[i + 1]) chips[i + 1].classList.toggle('active', currentCategory === cat.name);
-    });
+    renderExploreFacets();
   }
 
   function renderCommerceChips() {
-    const container = $('#commerce-filter-chips');
-    if (!container) return;
-    const visible = currentCategory === '电商视觉';
-    container.style.display = visible ? '' : 'none';
-    container.innerHTML = '';
-    if (!visible) return;
-
-    const allChip = el('button', { class: 'filter-chip' + (currentCommerceType === 'All' ? ' active' : '') }, '全部电商类型');
-    allChip.addEventListener('click', () => {
-      currentCommerceType = 'All';
-      currentPage = 1;
-      renderCommerceChips();
-      renderPromptsGrid();
-      syncExploreHash(false);
-    });
-    container.appendChild(allChip);
-
-    COMMERCE_TYPES.forEach(type => {
-      const chip = el('button', { class: 'filter-chip' + (currentCommerceType === type.name ? ' active' : '') }, type.name);
-      chip.addEventListener('click', () => {
-        currentCommerceType = type.name;
-        currentPage = 1;
-        renderCommerceChips();
-        renderPromptsGrid();
-        syncExploreHash(false);
-      });
-      container.appendChild(chip);
-    });
+    renderExploreFacets();
   }
 
   window.clearExploreFilters = function () {
     currentCategory = 'All';
     currentCommerceType = 'All';
+    currentContentType = 'All';
+    currentStyle = 'All';
+    currentScene = 'All';
     currentSearch = '';
     currentPage = 1;
     const input = $('#explore-search-input');
     if (input) input.value = '';
-    updateChips();
-    renderCommerceChips();
+    renderExploreFacets();
     renderPromptsGrid();
     syncExploreHash(false);
   };
 
   function renderPromptsGrid() {
-    // 合并内置提示词 + 用户收藏，收藏排前面
-    const collections = getCollections().map(c => ({ ...c, isCollection: true, verified: false, likes: 0 }));
-    let allPrompts = [...collections, ...PROMPTS];
-
-    let filtered = allPrompts;
-    if (currentCategory === '视频提示词') filtered = filtered.filter(p => p.mediaType === 'video' || p.category === '视频提示词');
-    else if (currentCategory !== 'All') filtered = filtered.filter(p => p.category === currentCategory);
-    if (currentCommerceType !== 'All') filtered = filtered.filter(p => p.commerceType === currentCommerceType);
-    if (currentSearch.trim()) {
-      const q = currentSearch.toLowerCase().trim();
-      filtered = filtered.filter(p =>
-        p.title.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q) ||
-        (p.tags || []).some(t => t.toLowerCase().includes(q)) ||
-        p.prompt.toLowerCase().includes(q)
-      );
-    }
+    const allPrompts = getExploreItems();
+    const filtered = allPrompts.filter(prompt => matchesExploreState(prompt));
 
     const grid = $('#prompts-grid');
     const noResults = $('#no-results');
@@ -1612,6 +1724,9 @@
 
     if (countEl) {
       let countText = `找到 ${filtered.length} 个提示词`;
+      if (currentContentType !== 'All') countText += ` · 类型: ${exploreFacets.CONTENT_TYPES.find(item => item.id === currentContentType)?.label || currentContentType}`;
+      if (currentStyle !== 'All') countText += ` · 风格: ${exploreFacets.STYLES.find(item => item.id === currentStyle)?.label || currentStyle}`;
+      if (currentScene !== 'All') countText += ` · 场景: ${exploreFacets.SCENES.find(item => item.id === currentScene)?.label || currentScene}`;
       if (currentCategory !== 'All') countText += ` · 分类: ${currentCategory}`;
       if (currentCommerceType !== 'All') countText += ` · 类型: ${currentCommerceType}`;
       if (currentSearch) countText += ` · 搜索: "${currentSearch}"`;
@@ -1621,6 +1736,9 @@
 
     if (activeBar) {
       const activeFilters = [];
+      if (currentContentType !== 'All') activeFilters.push(`<span>类型：${escapeHtml(exploreFacets.CONTENT_TYPES.find(item => item.id === currentContentType)?.label || currentContentType)}</span>`);
+      if (currentStyle !== 'All') activeFilters.push(`<span>风格：${escapeHtml(exploreFacets.STYLES.find(item => item.id === currentStyle)?.label || currentStyle)}</span>`);
+      if (currentScene !== 'All') activeFilters.push(`<span>场景：${escapeHtml(exploreFacets.SCENES.find(item => item.id === currentScene)?.label || currentScene)}</span>`);
       if (currentCategory !== 'All') activeFilters.push(`<span>分类：${escapeHtml(currentCategory)}</span>`);
       if (currentCommerceType !== 'All') activeFilters.push(`<span>用途：${escapeHtml(currentCommerceType)}</span>`);
       if (currentSearch.trim()) activeFilters.push(`<span>关键词：${escapeHtml(currentSearch.trim())}</span>`);
@@ -2416,7 +2534,15 @@
 
     if (route === 'home') renderHome();
     else if (route === 'explore') {
-      if (!opts.preserve) { currentCategory = 'All'; currentCommerceType = 'All'; currentSearch = ''; currentPage = 1; }
+      if (!opts.preserve) {
+        currentCategory = 'All';
+        currentCommerceType = 'All';
+        currentContentType = 'All';
+        currentStyle = 'All';
+        currentScene = 'All';
+        currentSearch = '';
+        currentPage = 1;
+      }
       renderExplore();
     }
     else if (route === 'import') renderImport();
@@ -2508,6 +2634,9 @@
           currentSearch = e.target.value;
           currentCategory = 'All';
           currentCommerceType = 'All';
+          currentContentType = 'All';
+          currentStyle = 'All';
+          currentScene = 'All';
           currentPage = 1;
           navigate('explore', { preserve: true });
           syncExploreHash(false);
@@ -2535,6 +2664,9 @@
       if (categoryMatch) {
         currentCategory = decodeURIComponent(categoryMatch[1]);
         currentCommerceType = 'All';
+        currentContentType = 'All';
+        currentStyle = 'All';
+        currentScene = 'All';
         currentSearch = '';
         currentPage = 1;
         navigate('explore', { preserve: true });
@@ -2544,6 +2676,9 @@
       if (tagMatch) {
         currentCategory = 'All';
         currentCommerceType = 'All';
+        currentContentType = 'All';
+        currentStyle = 'All';
+        currentScene = 'All';
         currentSearch = decodeURIComponent(tagMatch[1]);
         currentPage = 1;
         navigate('explore', { preserve: true });
@@ -2553,7 +2688,13 @@
         const params = new URLSearchParams(queryString);
         currentCategory = params.get('category') || 'All';
         currentCommerceType = params.get('commerceType') || 'All';
-        if (currentCategory !== '电商视觉') currentCommerceType = 'All';
+        currentContentType = params.get('type') || 'All';
+        currentStyle = params.get('style') || 'All';
+        currentScene = params.get('scene') || 'All';
+        if (!exploreFacets.CONTENT_TYPES.some(item => item.id === currentContentType)) currentContentType = 'All';
+        if (!exploreFacets.STYLES.some(item => item.id === currentStyle)) currentStyle = 'All';
+        if (!exploreFacets.SCENES.some(item => item.id === currentScene)) currentScene = 'All';
+        if (currentCategory !== '电商视觉' && currentContentType !== 'commerce' && currentContentType !== 'brand') currentCommerceType = 'All';
         currentSearch = params.get('q') || '';
         currentPage = Number(params.get('page') || 1);
         navigate('explore', { preserve: true });

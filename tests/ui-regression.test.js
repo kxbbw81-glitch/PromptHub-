@@ -10,6 +10,8 @@ const popup = fs.readFileSync(path.join(root, 'extension/popup.js'), 'utf8');
 const popupHtml = fs.readFileSync(path.join(root, 'extension/popup.html'), 'utf8');
 const content = fs.readFileSync(path.join(root, 'extension/content.js'), 'utf8');
 const data = fs.readFileSync(path.join(root, 'js/data.js'), 'utf8');
+const facets = fs.readFileSync(path.join(root, 'js/explore-facets.js'), 'utf8');
+const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const seoGenerator = fs.readFileSync(path.join(root, 'scripts/generate-seo-pages.js'), 'utf8');
 
 test('prompt details do not render the unrequested generation action', () => {
@@ -39,8 +41,25 @@ test('e-commerce prompts use a primary category with second-level use-case filte
   assert.match(data, /const CATEGORIES = \[\s*\{ name: "电商视觉"/);
   assert.match(app, /id="commerce-filter-chips"/);
   assert.match(app, /const COMMERCE_TYPES = \[/);
-  assert.match(app, /p\.commerceType === currentCommerceType/);
+  assert.match(app, /state\.commerceType !== 'All' && prompt\.commerceType !== state\.commerceType/);
   assert.match(app, /p\.mediaType === 'video' \|\| p\.category === '视频提示词'/);
+});
+
+test('explore uses layered type, style, scene, and PromptHub theme facets', () => {
+  assert.match(index, /js\/explore-facets\.js\?v=20260802a/);
+  assert.match(app, /id="content-type-filter-chips"/);
+  assert.match(app, /id="style-filter-chips"/);
+  assert.match(app, /id="scene-filter-chips"/);
+  assert.match(app, /id="theme-filter-chips"/);
+  assert.match(app, /currentContentType/);
+  assert.match(app, /currentStyle/);
+  assert.match(app, /currentScene/);
+  assert.match(app, /params\.set\('type', currentContentType\)/);
+  assert.match(app, /params\.set\('style', currentStyle\)/);
+  assert.match(app, /params\.set\('scene', currentScene\)/);
+  assert.match(facets, /界面与屏幕/);
+  assert.match(facets, /图表与信息图/);
+  assert.match(facets, /产品与电商/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {
