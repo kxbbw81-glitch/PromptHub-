@@ -1,7 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:11:00.666Z",
+  "updatedAt": "2026-08-02T14:11:28.655Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvp5kv_f08r",
+      "image": "https://pbs.twimg.com/media/HJGVhpQXoAADRRs?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HJGVhpQXoAADRRs?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "\"scenes\": [\n\"Panel 1: Front-facing portrait, hand under chin, direct eye contact, diamond necklace clearly visible\",\n\"Panel 2: Looking down softly, calm expression, earrings catching light\",\n\"Panel 3: Side profile, hand in hair, diamond ring visible, soft shadows\",\n\"Panel 4: Slight smile looking upward, relaxed pose, jewelry subtly sparkling\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJGVhpQXoAADRRs?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/craftian_keskin/status/2058621050032971819",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785679885183,
+      "title": "写真人像",
+      "url": "https://x.com/craftian_keskin/status/2058621050032971819",
+      "collectedAt": "2026-08-02T14:11:28.655Z",
+      "githubSyncedAt": "2026-08-02T14:11:28.655Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
