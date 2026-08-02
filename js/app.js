@@ -753,6 +753,8 @@
     const imageUrl = sanitizeImageUrl(prompt.image)
       || sanitizeImageUrl(prompt.images?.[0])
       || fallbackImage(prompt.id);
+    const ratioMatch = String(prompt.aspectRatio || '').match(/^(\d+(?:\.\d+)?)\s*[:/]\s*(\d+(?:\.\d+)?)$/);
+    const imageRatio = ratioMatch ? `${ratioMatch[1]} / ${ratioMatch[2]}` : '4 / 5';
 
     // 来源标记：收藏 / 已验证 / 待验证
     let sourceHTML;
@@ -776,7 +778,7 @@
 
     card.innerHTML = `
       <div class="prompt-card-img-wrap">
-        <img class="prompt-card-img" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(prompt.title)}" loading="lazy" />
+        <img class="prompt-card-img" style="--prompt-image-ratio: ${imageRatio}" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(prompt.title)}" loading="lazy" />
         ${multiImgBadge}
         ${arBadge}
       </div>
@@ -1676,7 +1678,7 @@
           </section>
           <div class="active-filter-bar" id="active-filter-bar"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
-          <div class="prompts-grid" id="prompts-grid"></div>
+          <div class="prompts-grid prompts-masonry" id="prompts-grid"></div>
           <div class="pagination" id="pagination"></div>
           <div class="no-results" id="no-results" style="display:none;">
             <div class="no-results-icon">🔍</div>

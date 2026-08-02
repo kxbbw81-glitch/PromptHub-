@@ -48,7 +48,7 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
-  assert.match(index, /css\/style\.css\?v=20260802b/);
+  assert.match(index, /css\/style\.css\?v=20260802c/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -66,6 +66,9 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(app, /<h2 class="explore-facet-label">电商视觉<\/h2>/);
   assert.match(app, /const LEGACY_CATEGORY_FACETS = \{/);
   assert.match(css, /\.explore-facet-panel[\s\S]*background: #181818/);
+  assert.match(app, /prompts-grid prompts-masonry/);
+  assert.match(css, /\.prompts-masonry[\s\S]*column-count: 4/);
+  assert.match(css, /\.prompts-masonry \.prompt-card-img[\s\S]*object-fit: cover/);
 });
 
 test('the homepage uses the requested copy without Nano Banana branding', () => {

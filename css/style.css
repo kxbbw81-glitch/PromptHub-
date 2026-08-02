@@ -1204,6 +1204,34 @@ button {
   gap: 24px;
 }
 
+.prompts-masonry {
+  display: block;
+  column-count: 4;
+  column-gap: 18px;
+}
+
+.prompts-masonry .prompt-card {
+  display: inline-flex;
+  width: 100%;
+  margin: 0 0 18px;
+  break-inside: avoid;
+  vertical-align: top;
+}
+
+.prompts-masonry .prompt-card-img {
+  height: auto;
+  aspect-ratio: auto var(--prompt-image-ratio, 4 / 5);
+  object-fit: cover;
+}
+
+.prompts-masonry .prompt-card-body {
+  padding: 13px 14px 14px;
+}
+
+.prompts-masonry .prompt-card-title {
+  font-size: 15px;
+}
+
 .prompt-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2404,6 +2432,16 @@ button {
   .prompts-grid {
     grid-template-columns: 1fr 1fr;
     gap: 12px;
+  }
+  .prompts-masonry {
+    column-count: 2;
+    column-gap: 12px;
+  }
+  .prompts-masonry .prompt-card {
+    margin-bottom: 12px;
+  }
+  .prompts-masonry .prompt-card-body {
+    padding: 10px;
   }
   .prompt-card-body {
     padding: 12px;
