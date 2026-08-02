@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:14:05.905Z",
+  "updatedAt": "2026-08-02T14:14:30.541Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvt2uz_ysq6",
+      "image": "https://pbs.twimg.com/media/HFnxVqxakAso5l9?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFnxVqxakAso5l9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFnxaJ3akAY8rHW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFbDdhva8AEPzVH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFbEUY7a8AIdab6?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "{  \"style\": \"8K ultra-realistic close-up portrait\",  \"subject\": {  \"gender\": \"female\",  \"skin_tone\": \"fair\",  \"face_reference\": \"100% identical to the uploaded image\",  \"hair\": {  \"color\": \"black\",  \"movement\": \"windswept\",  \"details\": \"partially covering one eye\"  },  \"expression\": {  \"gaze\": \"elevated, intense\",  \"features\": {  \"irises\": \"light-colored, illuminated\",  \"cheekbones\": \"high and sharply defined\",  \"lips\": \"glossy\"  }  }  },  \"lighting\": {  \"type\": \"natural\",  \"direction\": \"sharp diagonal beam\",  \"effect\": \"illuminates gaze and facial structure\",  \"shadows\": \"deep, enveloping the rest of the face and background\"  },  \"mood\": \"dark, cinematic, editorial\",  \"resolution\": \"8K\",  \"camera\": {  \"shot_type\": \"close shot\",  \"focus\": \"extreme clarity on illuminated facial features\"  }  }",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFnxVqxakAso5l9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFnxaJ3akAY8rHW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFbDdhva8AEPzVH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFbEUY7a8AIdab6?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2042930065495986422",
+      "tags": [
+        "cinematic",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1785680068283,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/Adam38363368936/status/2042930065495986422",
+      "collectedAt": "2026-08-02T14:14:30.541Z",
+      "githubSyncedAt": "2026-08-02T14:14:30.541Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
