@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T12:20:24.921Z",
+  "updatedAt": "2026-08-02T12:21:34.149Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbrqoiz_jehg",
+      "image": "https://pbs.twimg.com/media/HKb7bYPaEAATQJO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKb7bYPaEAATQJO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKb7bYOaEAA_P3M?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKb7bYNbEAAeH5n?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKb7bYOaUAAI4QI?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a photorealistic editorial portrait of one 20-year-old Japanese or Korean female portrait subject, petite polished female body, compact refined proportions, delicate idol-like silhouette, graceful small-frame presence, young seductive alluring beauty face, magnetic feminine facial balance, defined eyes and lips, sensual captivating portrait presence, side-parted medium soft waves, collarbone-length flow, elegant face-framing movement, soft black-tea brown hair, muted brown-black salon tone, none, none, She is leaning against any suitable existing object within the current scene, body weight lightly supported by that existing scene object, using only a naturally available scene object for support with one hand resting across the collarbone, fingertips lightly touching the upper chest line; head naturally facing the camera. The setting is world-scene architecture for the portrait: Los Angeles, Downtown LA, Downtown LA high-rise street corner stays visible around and behind the subject; the portrait subject remains the main subject while the selected district, architecture, street texture, signage, landmark fragments, and local spatial cues remain readable; portrait-friendly spatial anchor: downtown street corner under glass and concrete towers; local cues: Downtown LA high-rises, wide street grid, concrete sidewalks, Los Angeles financial district towers; real-place guards adapted for the background: avoid Manhattan density, keep broad LA streets and spaced towers, avoid generic sci-fi downtown; keep clear spatial context, avoid a plain empty backdrop, do not let the world scene cancel the person, wardrobe, pose, or action. She wears leopard-pattern strapless corset top, lace bust cups, long front ribbon ties, low-rise flared jeans, platform sandals, dominant fabric color controlled by the outfit color selection. Inspired by Paolo Roversi, soft haze editorial image language. soft haze couture portraiture, dim romantic light, velvety shadows, painterly softness, muted elegant tones, slow-shutter delicacy. The composition uses medium shot, waist up framing, natural subject presence, showing some background, floor-level camera position, low camera near the floor, upward view, elongated full-body perspective, none, none, none. glossy Japanese portrait color grade, lifted exposure, creamy pale skin highlights, warm skin protection, cyan-green shadows, saturated lights, clean deep blacks, polished finish, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKb7bYPaEAATQJO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKb7bYOaEAA_P3M?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKb7bYNbEAAeH5n?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKb7bYOaUAAI4QI?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2064613986843402390",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785673237932,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2064613986843402390",
+      "collectedAt": "2026-08-02T12:21:34.149Z",
+      "githubSyncedAt": "2026-08-02T12:21:34.149Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
