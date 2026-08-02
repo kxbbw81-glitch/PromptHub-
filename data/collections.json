@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:08:20.601Z",
+  "updatedAt": "2026-08-02T14:11:00.666Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvokjr_v7tq",
+      "image": "https://pbs.twimg.com/media/HJQlc6maIAAMNCj?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJQlc6maIAAMNCj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQlhCYakAYv3TW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQlhbua4AAz-bU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQlhycb0AAl7lL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "主体是一位明确年轻成年的东方女性，视觉年龄约22–26岁，浅棕色高马尾发型，搭配淡紫色发圈，轻薄空气刘海与脸侧自然碎发，面部线条清秀柔和，妆容自然清透，眼神安静专注，整体气质清新、柔韧、优雅，不幼态、不儿童化、无中年感。皮肤白皙细腻，保留轻微自然毛孔与柔和水光感，真实但带有干净精修的运动写真质感。\n人物采用完整侧面全身构图，身体朝左侧，头部微微低下，视线自然看向地面或斜下方，不看镜头。她正在完成高难度艺术瑜伽拉伸动作：一条支撑腿笔直站立在地面，另一条腿从身体后方向上高高抬起，几乎接近垂直，但带有优美的后弯弧度；双手分别扶住抬起腿的小腿与脚踝，手臂自然伸展，身体略微前倾，胸腔打开，腰腹收紧，整体形成优雅流畅的S形曲线。动作不是普通竖直站姿，而是带有舞蹈感、体操感和柔韧张力的高难度拉伸姿态。\n她穿着淡紫色简洁运动背心，短款贴身设计，露出健康自然的腰腹线条；下身搭配白色高腰亮面瑜伽裤，裤装贴合腿部线条，带有轻微丝滑反光与真实布料拉伸褶皱，裤脚自然包覆到脚背，呈现干净统一的白色运动造型。整体服装简洁、纯净、轻盈，突出柔韧度、身体控制力和高级运动美感。\n场景为极简浅灰色或米白色无缝专业摄影棚背景，背景干净无杂物，地面与墙面过渡自然，浅色空间形成柔和高级的运动写真氛围。画面保持大量干净留白，但人物完整居中，身体轮廓清晰。\n摄影风格为高端运动时尚棚拍，侧面全身构图，镜头略微压缩空间，避免广角变形。柔和均匀的专业布光，轻微高调曝光，整体色调为浅灰、奶白、淡紫，干净温柔。强调身体优雅弧线、服装亮面质感、发丝细节、自然皮肤纹理与柔和阴影。画面接近高端瑜伽品牌视觉、韩系运动写真、轻微CG级精修质感，高清细节，杰作级别。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJQlc6maIAAMNCj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQlhCYakAYv3TW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQlhbua4AAz-bU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJQlhycb0AAl7lL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaqingfeng666/status/2059312198548361358",
+      "tags": [
+        "东方",
+        "写真",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785679857927,
+      "title": "瑜伽裤取快递女性人像",
+      "url": "https://x.com/xiaqingfeng666/status/2059312198548361358",
+      "collectedAt": "2026-08-02T14:11:00.666Z",
+      "githubSyncedAt": "2026-08-02T14:11:00.666Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
