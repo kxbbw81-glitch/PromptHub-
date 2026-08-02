@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T14:11:28.655Z",
+  "updatedAt": "2026-08-02T14:12:32.243Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvqjwk_o6zy",
+      "image": "https://pbs.twimg.com/media/HGDAtXuaAAASgnW?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGDAtXuaAAASgnW?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Professional studio fashion photography, ultra-clean high-end digital editorial portrait in a pure white seamless cyclorama photography studio, massive soft octabox key light + large softbox fill light creating flawless even illumination with gentle sculpting shadows, Vogue-level minimalist high fashion aesthetic, eye-level shot, 3/4 body shot, early 20s Korean idol-type young woman with ultra-realistic delicate refined Korean features, slightly upturned almond-shaped fox eyes with natural double eyelids, small sharp jawline, flawless yet realistic porcelain skin with cool ivory undertone, completely natural post-workout no-makeup look, soft natural flush on cheeks, subtle dewy skin glow from light sweat, natural dusty rose lips slightly parted, subtle natural freckles across nose and cheeks, visible subtle skin texture, pores and micro skin details, long naturally wavy dark brown hair slightly messy with realistic loose strands, wearing a white fitted tennis polo or short-sleeve athletic top and a high-waisted white tennis skirt, standing naturally in the center of the pure white studio, holding a white tennis racket casually resting on one shoulder, the other hand relaxed at her side or lightly on her hip, one leg slightly forward, posture natural and confident, looking directly at the viewer at eye level with a calm, confident and fresh expression, pure soft professional studio lighting with large diffused sources, flawless even illumination, gentle sculpting shadows that naturally define the figure, clean high-key minimalist aesthetic, ultra-clean high-end digital photography, extremely sharp yet soft skin rendering with natural dewy glow, no film grain, no noise, no halation, no vignette, perfect neutral color grading, authentic Korean idol studio editorial aesthetic, visible realistic tennis racket texture, natural skin texture with freckles and subtle sweat sheen, no plastic skin, no digital over-sharpening, no airbrushing, no watermark, no text --ar 9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGDAtXuaAAASgnW?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2044846335728467996",
+      "tags": [
+        "minimalist",
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1785679950404,
+      "title": "运动海报",
+      "url": "https://x.com/BubbleBrain/status/2044846335728467996",
+      "collectedAt": "2026-08-02T14:12:32.243Z",
+      "githubSyncedAt": "2026-08-02T14:12:32.243Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "人像",
