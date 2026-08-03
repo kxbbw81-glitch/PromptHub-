@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T11:44:24.490Z",
+  "updatedAt": "2026-08-03T12:26:13.776Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd7d8a8_vukt",
+      "image": "https://pbs.twimg.com/media/HOxPUymWUAAjD6R?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOxPUymWUAAjD6R?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOxPWogXcAAxy-d?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4 竖版，近距离室内人像摄影，写实韩系轻奢私写真，手机主摄或 28mm–35mm 广角镜头，浅景深，轻微广角透视，人物面部与上半身占据画面主体。\n一位明确成年的年轻东亚女性，约 22–27 岁，精致小巧的鹅蛋脸，流畅窄下颌，五官立体而柔和；大而清亮的杏眼，细长双眼皮，眼尾轻微上扬，深棕色瞳孔，鼻梁纤细挺直，鼻尖小巧，饱满自然的柔粉色嘴唇。人物正面直视镜头，表情安静、克制，嘴唇自然闭合，带有轻微疏离感和亲密凝视感。\n清透韩系蜜桃妆，冷白自然底妆，面部肤色均匀通透，保留少量真实皮肤纹理；浅粉棕眼影，纤细黑色眼线沿眼尾拉长，根根分明的卷翘睫毛，卧蚕轻微提亮，眼下与苹果肌带淡粉色腮红；鼻梁和鼻尖有克制高光，水润珊瑚粉渐变唇，唇峰清晰。\n深黑偏棕色长发盘成松散高盘发，头顶自然蓬松，额前中分，脸侧垂落两束纤细碎发，耳侧有少量松散发丝，发丝边缘被背景灯形成轻微轮廓光。\n身穿浅灰米白色修身无袖背心，柔软棉质或细罗纹面料，低圆领设计，衣物自然贴合身体，缝线和轻微布料褶皱清晰。人物身体轻微前倾，双肩向内收，双臂自然放在身后，锁骨与肩颈线条清晰，上半身居中对称构图，镜头略低于眼睛高度，近距离拍摄。\n现代酒店套房或高级公寓客厅，深色沙发、电视、窗帘与床铺作为模糊背景，室内整体低照度。人物正面受到柔和环形补光或大面积柔光照明，脸部曝光明亮均匀；画面右后方有一组冷白偏蓝的强烈灯光，形成高亮光斑与轻微炫光，左后方有一盏暖黄色圆形灯，形成冷暖混合光线。背景明显虚化，圆形散景，大光圈，人物与背景分离明显。\n高细节人像，真实摄影质感，清晰眼神光，柔和皮肤高光，轻微商业级磨皮但不过度塑料化，HDR 动态范围，低噪点，细腻发丝，电影级灯光，photorealistic，ultra detailed，high-end Korean beauty portrait，soft direct lighting，shallow depth of field，natural bokeh，8k。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOxPUymWUAAjD6R?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOxPWogXcAAxy-d?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOo--vXWgAAHpJw?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2084203368613089482",
+      "tags": [
+        "photorealistic",
+        "bokeh",
+        "8k",
+        "ultra detailed",
+        "人像"
+      ],
+      "timestamp": 1785759950384,
+      "title": "冷光落在发梢",
+      "url": "https://x.com/chenlinspark/status/2084203368613089482",
+      "collectedAt": "2026-08-03T12:26:13.776Z",
+      "githubSyncedAt": "2026-08-03T12:26:13.776Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd7d8a6_g09f",
+      "image": "https://pbs.twimg.com/media/HOw6nZKWYAAI_q7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOw6nZKWYAAI_q7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOw6o2iXUAALwDc?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4 竖版，50mm cinematic low-light photography，凌晨录音棚情绪人像，红蓝对比灯光，低反差暗调，浅景深，私密而克制的演唱瞬间。\n一位明确成年的虚构韩国女性，22–27 岁，柔和精致的鹅蛋脸，黑色长发略微凌乱地披散在肩前。酒红系清透妆，自然半哑光底妆，红棕眼影贴近睫毛根部，纤细黑色眼线，面中轻微冷玫瑰腮红，深莓果水润唇；皮肤保留真实微纹理，眼下有少量自然疲惫感，但不病态。\n穿黑色皮革短外套、深灰色合体无袖上衣和黑色宽松长裤，黑色专业监听耳机挂在颈部。她靠近大型录音麦克风和圆形防喷罩，头部微微向麦克风倾斜，双眼轻闭，嘴唇微张，像正在唱完最后一个长音；右手握住麦克风支架，左手轻轻按在胸前，动作克制但带有真实情绪。\n侧前方中近景，人物与麦克风共同占据画面中心，防喷罩部分遮挡脸部边缘，形成真实工作关系；背景可见隔音玻璃、模糊设备和少量红色指示灯。冷蓝轮廓光落在头发和皮衣左侧，暗红光从右后方穿入，柔和暖光集中在面部、嘴唇和手指。画面安静、有呼吸感，不要张嘴过大，不要舞台式激情动作，不要过度磨皮，不要霓虹赛博朋克。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOw6nZKWYAAI_q7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOw6o2iXUAALwDc?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2084174930678370386",
+      "tags": [
+        "cinematic",
+        "人像"
+      ],
+      "timestamp": 1785759950383,
+      "title": "凌晨的录音室",
+      "url": "https://x.com/chenlinspark/status/2084174930678370386",
+      "collectedAt": "2026-08-03T12:26:13.776Z",
+      "githubSyncedAt": "2026-08-03T12:26:13.776Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
