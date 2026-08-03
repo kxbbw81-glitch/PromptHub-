@@ -1,7 +1,102 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T09:39:27.711Z",
+  "updatedAt": "2026-08-03T09:41:03.566Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd1gq45_0hxv",
+      "image": "https://pbs.twimg.com/media/HOuFpp4bUAARI4a?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOuFpp4bUAARI4a?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuFHsqbgAA3hCv?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "人物纤细修长，肩颈舒展，胸部饱满自然，腰腹线条清晰；气质秀雅、清醒、安静。\n上身为月白偏粉的柔光绡纱短对襟衫，仅一层轻透材质，无内衬、无抹胸。肩部窄带与贴臂长袖通过中式衣缘自然相连，不形成现代吊带结构；短对襟领从锁骨下方柔和打开，中央无明显外露扣件，使用隐藏衣缘固定。双侧垂角下摆从肋骨下缘向两侧延伸，中间露出腰腹，不遮住高腰裙头。胸点区域依靠放射状自然褶量和渐密月纹织造覆盖，其他区域保持清透；领缘与腋侧稳定。下身搭配烟紫银白高腰长裙，纵向垂坠利落。\n人物立于月下松台，原本背向远处山影，转身后正面看向镜头；一手自然垂落，一手轻触侧方垂角衣摆，动作不遮胸腰。背景为月下松枝、青石平台、远山剪影与淡银月辉；月色冷辉从侧后方勾勒肩颈、短衫垂角和腰腹，面部由柔和环境光照亮。三分之二身，高精度写实。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuFpp4bUAARI4a?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuFHsqbgAA3hCv?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2083906302326309368",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785750035765,
+      "title": "唐风幻想月下仙门仕女角色写真",
+      "url": "https://x.com/Mrpinecone888/status/2083906302326309368",
+      "collectedAt": "2026-08-03T09:41:03.566Z",
+      "githubSyncedAt": "2026-08-03T09:41:03.566Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd1gq44_x1x2",
+      "image": "https://pbs.twimg.com/media/HOt2km0W4AA9tIo?format=png&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOt2km0W4AA9tIo?format=png&name=900x900",
+        "https://pbs.twimg.com/media/HOt2km4W8AAKDSn?format=png&name=900x900",
+        "https://pbs.twimg.com/media/HOt2km7XkAAfhzL?format=png&name=900x900",
+        "https://pbs.twimg.com/media/HOt2km0WoAAv966?format=png&name=900x900"
+      ],
+      "model": "",
+      "prompt": "一张明亮、柔和、照片级真实的日系室内生活人像。一位明确成年的年轻东亚女性，约22至26岁，侧坐在靠窗的大理石窗台上，双腿自然交叠并垂向画面下方。竖构图，全身偏中景，从头顶拍至小腿下方；人物位于画面中央偏右，身体略微朝向画面左侧，肩膀放松，低头安静阅读手中的薄杂志或画册。她一只手托住书本下方，另一只手轻扶页面，手指姿态自然。她拥有柔和精致的鹅蛋脸、白皙暖调肌肤、深棕色眼睛、细直鼻梁和淡粉色嘴唇，神情专注、平静、略带若有所思。中长栗棕色头发自然侧分，发尾带柔软波浪，部分头发垂落肩前，少量碎发贴近脸颊。她佩戴小巧耳钉、细项链和纤细手链。\n\n她穿象牙白细肩带蕾丝吊带上衣，深V交叠领口，胸前带精细花卉蕾丝和柔软包裹式剪裁，细肩带自然落在肩部；下身搭配浅卡其色高腰修身短裙，裙摆位于大腿中部，布料平整并带少量自然褶皱。服装简洁、优雅、轻盈，突出日常居家时尚感。\n\n场景位于带有老式白色木窗框的明亮房间，窗户半开，外侧可见模糊的金属栏杆和城市建筑。右侧悬挂灰米色暗纹窗帘，以编织绳束起；窗台上散放几本书或杂志。强烈但柔化的自然窗光从左侧和后方进入，形成高调逆光效果，窗外轻微过曝，人物脸部、肩颈、手臂和双腿被柔和包裹，阴影浅淡。整体采用象牙白、浅灰、米色和浅卡其色，低饱和、低对比、高亮度，空气感、清晨感和安静私密的生活氛围。50mm镜头，f/2.8，略高于眼平机位，真实自然景深，人物清晰，背景轻微虚化。保留真实皮肤毛孔、细小绒毛、自然肤色变化、发丝、蕾丝、布料和大理石纹理；无塑料皮肤、无过度磨皮、无畸形手脚、无额外肢体、无文字、标志、水印、边框或拼图，比例2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOt2km0W4AA9tIo?format=png&name=900x900",
+        "https://pbs.twimg.com/media/HOt2km4W8AAKDSn?format=png&name=900x900",
+        "https://pbs.twimg.com/media/HOt2km7XkAAfhzL?format=png&name=900x900",
+        "https://pbs.twimg.com/media/HOt2km0WoAAv966?format=png&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083976122803388774",
+      "tags": [
+        "人像",
+        "清晨",
+        "低饱和"
+      ],
+      "timestamp": 1785750035764,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2083976122803388774",
+      "collectedAt": "2026-08-03T09:41:03.566Z",
+      "githubSyncedAt": "2026-08-03T09:41:03.566Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd1gcp4_igdc",
+      "image": "https://pbs.twimg.com/media/HOuaQs8XQAAYHPr?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOuaQs8XQAAYHPr?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4 竖版，目标 1500x2000 像素，85mm 中长焦人像，旧书店旋转楼梯里的被观察感，低饱和暖灰、浅景深、自然尘埃光。\n一位明确成年的虚构韩国女性，22–27 岁，柔和鹅蛋脸，清亮眼睛，长直黑发自然披散。清透奶油裸妆，自然半哑光底妆，眼下淡杏色腮红，浅粉唇，真实毛孔与细小绒毛可见；眼神安静但有好奇心。\n穿深灰色修身针织上衣、浅灰长裙和宽松深棕色长外套，服装面料和褶皱真实。她站在旧书店狭窄旋梯的转角，一只手扶着木质扶手，另一只手拿合上的旧书，身体侧向楼梯上方；她从书页和栏杆之间抬眼看镜头，嘴角几乎没有笑。\n镜头像藏在两本前景书页之间，长焦平视近景，半张脸被虚化书页遮住，只清晰保留一只眼睛、鼻梁和嘴唇；人物位于画面右侧，旋梯和书架形成弧形背景。午后窗光从楼梯上方进入，落在眼睛、鼻梁窄线、发丝和书页边缘，形成柔和尘埃光与浅景深。\n不要未成年、不要校园制服、不要古装、不要端正商业摆拍、不要脸部被完全遮住、不要塑料皮肤、不要全脸油亮、不要手指畸形、多余肢体、书页乱码、Logo、水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuaQs8XQAAYHPr?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2084059169272053775",
+      "tags": [
+        "人像",
+        "低饱和"
+      ],
+      "timestamp": 1785750018376,
+      "title": "她从旧书页与旋梯之间抬起眼睛",
+      "url": "https://x.com/chenlinspark/status/2084059169272053775",
+      "collectedAt": "2026-08-03T09:41:03.566Z",
+      "githubSyncedAt": "2026-08-03T09:41:03.566Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:2",
       "category": "人像",
