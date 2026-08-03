@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T13:01:00.762Z",
+  "updatedAt": "2026-08-03T13:01:28.711Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8n0ox_0arz",
+      "image": "https://pbs.twimg.com/media/G_HLjFMWgAAD4lj?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_HLjFMWgAAD4lj?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "怎么用 AI 生成这种文艺电影和情绪叙事感的写真照片，Prompt 和创作思路无保留分享\n\n这张图跟之前的任何一张都不一样，没有讨好的笑容，也没有性感的姿态，只有一种直抵内心的脆弱感，让人心疼和想保护，\n让我想起多年前的那个午后，跟前女友翻云覆雨亲热完，她坐在落地窗前面无表情的看着我，说这可能是我们最后一次做爱了，她想出国读书，不想跨国恋，我们分手吧。\n至今我都记得时光定格的那个画面:\n她穿着简单的白T恤，抱膝坐在窗台，旁边散落的旧书，静静的看着我。\n\n有些伤感，不说了，Prompt 评论区大家自取，欢迎交作业一起交流。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_HLjFMWgAAD4lj?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AYi_AInotes/status/2013614328276992169",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1785762086721,
+      "title": "怎么用 AI 生成这种文艺电影和情绪叙事感的写真照片，Prompt 和创作思路无保留分享",
+      "url": "https://x.com/AYi_AInotes/status/2013614328276992169",
+      "collectedAt": "2026-08-03T13:01:28.711Z",
+      "githubSyncedAt": "2026-08-03T13:01:28.711Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8mhrj_ilbv",
+      "image": "https://pbs.twimg.com/media/G_J1PSqaoAAhGFu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_J1PSqaoAAhGFu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_J1PT9XAAI0XCV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_J1U_rasAAbZgq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_J1XHraoAIUHiU?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "已练不欠\n\n既然你们爱看，那就再发一组\n\nNano Pro：\n\n1.上传自己的女朋友照片\n2.修改提示词人物衣服，动作\n\n提示词：\n\n{\n\"image_analysis\": {\n\"overall_style\": {\n\"genre\": \"社交媒体生活照 (Social Media Lifestyle)\",\n\"sub_genre\": \"健身房对镜自拍 (Gym Mirror Selfie)\",\n\"aesthetic\": \"网红风",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_J1PSqaoAAhGFu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_J1PT9XAAI0XCV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_J1U_rasAAbZgq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_J1XHraoAIUHiU?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/joshesye/status/2013801215323484176",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785762062191,
+      "title": "已练不欠",
+      "url": "https://x.com/joshesye/status/2013801215323484176",
+      "collectedAt": "2026-08-03T13:01:28.711Z",
+      "githubSyncedAt": "2026-08-03T13:01:28.711Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:2",
       "category": "抽象",
@@ -26,8 +88,8 @@
       "timestamp": 1785762034751,
       "title": "优化了配图 Skill，一共50多种风格。",
       "url": "https://x.com/vista8/status/2013630274165227700",
-      "collectedAt": "2026-08-03T13:01:00.762Z",
-      "githubSyncedAt": "2026-08-03T13:01:00.762Z",
+      "collectedAt": "2026-08-03T13:01:28.711Z",
+      "githubSyncedAt": "2026-08-03T13:01:28.711Z",
       "domesticSyncedAt": null
     },
     {
@@ -58,8 +120,8 @@
       "timestamp": 1785762034751,
       "title": "如果你对 “AI味输出”有了烦躁，试试这段提示词",
       "url": "https://x.com/xiangyuli/status/2013800671909466394",
-      "collectedAt": "2026-08-03T13:01:00.762Z",
-      "githubSyncedAt": "2026-08-03T13:01:00.762Z",
+      "collectedAt": "2026-08-03T13:01:28.711Z",
+      "githubSyncedAt": "2026-08-03T13:01:28.711Z",
       "domesticSyncedAt": null
     },
     {
@@ -88,8 +150,8 @@
       "timestamp": 1785762034750,
       "title": "Enjoy the quiet and piece moment.",
       "url": "https://x.com/Adam38363368936/status/2014315011225887125",
-      "collectedAt": "2026-08-03T13:01:00.762Z",
-      "githubSyncedAt": "2026-08-03T13:01:00.762Z",
+      "collectedAt": "2026-08-03T13:01:28.711Z",
+      "githubSyncedAt": "2026-08-03T13:01:28.711Z",
       "domesticSyncedAt": null
     },
     {
