@@ -1,7 +1,170 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T15:45:09.327Z",
+  "updatedAt": "2026-08-03T09:39:27.711Z",
   "collections": [
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd0tedt_izf7",
+      "image": "https://pbs.twimg.com/media/HOsowr7aIAAi5rj?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOsowr7aIAAi5rj?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOo57oNXIAAEnW2?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "接着把下面这段提示词发给 Sol：\n在以下路径创建一个名为 luna_worker 的自定义 Agent：  ~/.codex/agents/luna-worker.toml  使用以下配置：  model = \"gpt-5.6-luna\" model_reasoning_effort = \"max\"  请为这个 Agent 补充清晰的 description 和 instructions。  luna_worker 只负责处理范围明确、边界清晰、可以独立完成的委派任务，不负责修改整体任务目标，也不要自行扩大工作范围。  请保留我现有的其他 Codex 配置，不要覆盖或删除无关内容。  创建完成后：  1. 根据我当前安装的 Codex 版本检查配置格式是否兼容； 2. 展示本次修改产生的 diff； 3. 确认配置有效； 4. 后续需要调用子代理时，优先使用 luna_worker。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOsowr7aIAAi5rj?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOo57oNXIAAEnW2?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xie_Dl/status/2083804082993852654",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785748947473,
+      "title": "Codex极致省钱大法",
+      "url": "https://x.com/xie_Dl/status/2083804082993852654",
+      "collectedAt": "2026-08-03T09:39:27.711Z",
+      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd0teds_kprd",
+      "image": "https://pbs.twimg.com/media/HOt5NOKWYAAhj_M?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOt5NOKWYAAhj_M?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOt5NOQWQAAFmJz?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOt5NOLWcAAAexy?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOt5NOLW8AAv_9F?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "一张明亮清新的照片级真实花园人像摄影。一位明确成年的年轻东亚女性，约22至26岁，置身于盛开的白色蔷薇与绿色枝叶之间。竖构图，近距离半身肖像，从头顶拍至腰部附近；人物位于画面中央偏右，身体略微侧向画面左侧，肩膀放松，头部轻轻转回并直视镜头。她嘴角微微上扬，表情温柔、自然、从容，带有安静的亲和力。\n\n她拥有精致柔和的鹅蛋脸、白皙暖调肤色、深棕色杏仁眼、自然纤细眉形、秀气鼻梁和水润裸粉色双唇。妆容清透克制：轻薄底妆、淡桃粉腮红、柔和棕色眼影、细致睫毛和自然亮泽唇色。深棕色中长发自然侧分，带蓬松柔软的大波浪，发尾落在肩部与锁骨附近，少量细碎发丝在阳光下形成金棕色轮廓光。佩戴小巧银色耳圈和一条纤细银色项链。\n\n她穿浅嫩绿色细肩带蕾丝内搭，胸前带象牙白花卉刺绣、细密蕾丝边缘和柔软包裹式剪裁；外面松散披着一件轻薄半透明的浅蓝与象牙白拼色罩衫，滑落至肩部，腰间以浅蓝色布带轻轻系住。服装色彩轻盈柔和，带有春夏花园时尚画报感。\n\n前景与背景被大量白色小花、绿色叶片和少量蓝色花朵包围，部分花枝靠近镜头形成自然遮挡和层次。阳光从画面左上方斜射，照亮头发、脸颊、肩膀、花瓣与叶缘，在背景形成明亮圆形散景和斑驳光点。整体采用白色、嫩绿、浅蓝、金棕与深绿色调，高亮度、低对比、清透通透，具有春日清晨、浪漫、自然、轻盈的氛围。85mm人像镜头，f/1.8，眼平机位，浅景深，双眼精准对焦，前后景柔和虚化。保留真实毛孔、细小绒毛、自然肤色变化、发丝、蕾丝与花瓣纹理；无塑料皮肤、无过度磨皮、无夸张比例、无畸形手指、无文字、标志、水印、边框或拼图，比例2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOt5NOKWYAAhj_M?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOt5NOQWQAAFmJz?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOt5NOLWcAAAexy?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOt5NOLW8AAv_9F?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2084066721758110114",
+      "tags": [
+        "人像",
+        "摄影",
+        "清晨"
+      ],
+      "timestamp": 1785748947472,
+      "title": "东方人像",
+      "url": "https://x.com/ToroJushiAi/status/2084066721758110114",
+      "collectedAt": "2026-08-03T09:39:27.711Z",
+      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd0teds_s085",
+      "image": "https://pbs.twimg.com/media/HOuOZ0aWsAA_5JW?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOuOZ0aWsAA_5JW?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOuObTmWEAAzbN3?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "穿浅灰色宽松针织开衫、白色棉质背心、深蓝色高腰百褶长裙，肩背米白帆布包，佩戴白色有线耳机。\n她站在或半倚在公交靠窗区域，身体保持自然挺直。左手在胸前轻轻捏住耳机线，右手握住窗边黑色横向扶杆，手指结构清晰自然。她抬眼望向车窗外较远处，不看镜头，表情平静、克制，带一点刚醒来的轻微恍惚。\n镜头从前排座椅后侧进行侧前方平视拍摄，人物腰部以上进入画面。前景底部出现一段虚化的黑色座椅扶手，背景只有少量公交立杆和暗色座椅。人物被窗框垂直线条包围，车窗右侧保留较大空间，并出现淡淡的局部脸部倒影。\n清晨阳光从右侧打入，在眼睛、鼻梁、脸侧、发丝和手背形成窄而清晰的暖色高光，衣服和脸颊其余区域保持柔和漫反射。窗外城市街景被浅景深和车辆移动处理成淡蓝灰色模糊背景。\n不要游客照、不要商业模特姿势、不要直视镜头、不要夸张微笑、不要幼态、不要性感化、不要过度锐化、不要塑料皮肤、不要车厢元素堆积、不要畸形手掌、错误手指、多余肢体、文字、Logo、水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuOZ0aWsAA_5JW?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOuObTmWEAAzbN3?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2084044068414259402",
+      "tags": [
+        "清晨"
+      ],
+      "timestamp": 1785748947472,
+      "title": "像一段没有对白的电影——",
+      "url": "https://x.com/chenlinspark/status/2084044068414259402",
+      "collectedAt": "2026-08-03T09:39:27.711Z",
+      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd0ooqo_nxi4",
+      "image": "https://pbs.twimg.com/media/HM2so9VaoAEnJaP?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HM2so9VaoAEnJaP?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HM2sqJmaUAAD0qY?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic luxury lifestyle portrait of an effortlessly elegant young woman sitting in the back seat of a premium luxury car during bright afternoon daylight.\n\nShe has long silky chestnut brown hair styled in a flawless 90s-inspired layered blowout with soft face-framing layers and smooth curled ends. Her skin is naturally bronzed with a luminous satin finish, featuring subtle freckles, soft contour, feathered brows, warm hazel-brown eyes hidden behind sleek black rectangular designer sunglasses, naturally full glossy nude lips, and minimal clean-girl makeup with radiant skin.\n\nShe wears a fitted black ribbed square-neck tank top that accentuates a refined minimalist silhouette. The styling is understated yet luxurious, paired with light-wash relaxed denim jeans partially visible beneath the seatbelt.\n\nShe is seated comfortably beside a bright car window inside a modern luxury sedan with ivory leather seats, brushed aluminum trim, and clean contemporary interiors. A seatbelt crosses naturally over her waist, reinforcing the candid lifestyle authenticity.\n\nShe casually holds a silver lip gloss tube near her lips as if about to apply it, her fingers relaxed with a natural manicure. Her posture is elegant yet effortless, shoulders relaxed, head slightly tilted, lips softly parted, looking toward the camera with quiet confidence.\n\nOutside the car window, palm trees, urban roads, blue sky, and modern city infrastructure pass by in soft focus, creating the atmosphere of a sunny drive through an upscale coastal city.\n\nNatural afternoon sunlight streams through the side window, illuminating one side of her face while soft shadows define the opposite side. The lighting feels clean, airy, and realistic with subtle reflections on the sunglasses and glossy lips.\n\nCaptured with an 85mm lens from eye level, shallow depth of field, luxury editorial composition, Vogue lifestyle campaign, model-off-duty aesthetic, natural skin pores, realistic hair strands, authentic fabric texture, cinematic color grading, ultra photorealistic, 8K, Canon EOS R5, premium fashion photography.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HM2so9VaoAEnJaP?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HM2sqJmaUAAD0qY?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CliQi_AI/status/2084096919937421799",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "8k"
+      ],
+      "timestamp": 1785748727616,
+      "title": "调皮表情美妆人像",
+      "url": "https://x.com/CliQi_AI/status/2084096919937421799",
+      "collectedAt": "2026-08-03T09:39:27.711Z",
+      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd0ooqn_08b9",
+      "image": "https://pbs.twimg.com/media/HOip5pzb0AAfe7_?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOip5pzb0AAfe7_?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOip5p4bIAEjZlo?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOip5pzagAAX4mu?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOip5pxaIAAluYE?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "感触特别深，很喜欢她把很深奥枯燥的科技讲的非常有人文关怀，辨识度特别高。\n我刚刚好奇想看看她是什么时候开始做自媒体的，在视频号里翻啊翻，找到了她2024年7月的第一条视频，两年的时间里发了500多个视频，基本差不多日更了…\n我扪心自问了一下，自己也做了自媒体几年，但从来没有保持过这样的频率尤其是在早期没有数据反馈，没有太多人关注的时候，持续输出其实是最难的。\n很多时候，我们看到一个创作者今天的成绩，觉得是因为表达能力强，专业能力强，或者抓住了机会。但回头看，真正拉开差距的，可能是那些没人看到的日复一日…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOip5pzb0AAfe7_?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOip5p4bIAEjZlo?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOip5pzagAAX4mu?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOip5pxaIAAluYE?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yanliudreamer/status/2083101641688088808",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785748727615,
+      "title": "视频短片",
+      "url": "https://x.com/yanliudreamer/status/2083101641688088808",
+      "collectedAt": "2026-08-03T09:39:27.711Z",
+      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "人像",
