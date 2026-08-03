@@ -1,7 +1,97 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T12:36:23.298Z",
+  "updatedAt": "2026-08-03T13:00:39.868Z",
   "collections": [
+    {
+      "aspectRatio": "3:2",
+      "category": "抽象",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8lwlb_t94x",
+      "image": "https://pbs.twimg.com/media/G_HZRUsXYAAHUb0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_HZRUsXYAAHUb0?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "优化了配图 Skill，一共50多种风格。\n\n让 AI 根据内容，自己选合适的风格。\n\n配置即梦、Nano Banana Pro、Z-image三个生图API。\n\n根据内容类型，如 X 文章、小红书内容、封面设计，自动选生图的比例。\n\n感觉写Skill和提示词，也要遵守 “苦涩的教训”的教诲。\n\n交给算法和 AI ，人有时候反而是瓶颈。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_HZRUsXYAAHUb0?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/vista8/status/2013630274165227700",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785762034751,
+      "title": "优化了配图 Skill，一共50多种风格。",
+      "url": "https://x.com/vista8/status/2013630274165227700",
+      "collectedAt": "2026-08-03T13:00:39.868Z",
+      "githubSyncedAt": "2026-08-03T13:00:39.868Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8lwlb_rvl2",
+      "image": "https://pbs.twimg.com/media/G_G9a_fWsAEB_7F?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/G_G9a_fWsAEB_7F?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/G_G9bihWoAA1cw5?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/G_G9b9yXsAIkgnE?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "如果你对 “AI味输出”有了烦躁，试试这段提示词。效果“立竿见影”，从结构化长篇大论（图二），转变为了更有“人味”的段落。（图三）\n\n部分参考 @Khazix0918 的：https://x.com/Khazix0918/status/2011716603889795337… \n\n自用 Prompt 将会在这里持续更新：https://github.com/MarvinCui/MarvinCui/blob/main/Sharing/Personalized_GPT_Prompt.md…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_G9a_fWsAEB_7F?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/G_G9bihWoAA1cw5?format=jpg&name=240x240",
+        "https://pbs.twimg.com/media/G_G9b9yXsAIkgnE?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiangyuli/status/2013800671909466394",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785762034751,
+      "title": "如果你对 “AI味输出”有了烦躁，试试这段提示词",
+      "url": "https://x.com/xiangyuli/status/2013800671909466394",
+      "collectedAt": "2026-08-03T13:00:39.868Z",
+      "githubSyncedAt": "2026-08-03T13:00:39.868Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8lwl9_oj0g",
+      "image": "https://pbs.twimg.com/media/G_RIlWZbkAAaxqJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_RIlWZbkAAaxqJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_RIlWYbkAALmzw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Enjoy the quiet and piece moment.\n安安静静的，就很美了。\n\nNano Banana Prompt\n\n{\n  \"metadata\": {\n    \"version\": \"1.0\",\n    \"description\": \"Photorealistic indoor portrait with detailed subject, clothing, accessories, lighting, and composition constraints\",\n    \"aspect_ratio\": 3.4",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_RIlWZbkAAaxqJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_RIlWYbkAALmzw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2014315011225887125",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785762034750,
+      "title": "Enjoy the quiet and piece moment.",
+      "url": "https://x.com/Adam38363368936/status/2014315011225887125",
+      "collectedAt": "2026-08-03T13:00:39.868Z",
+      "githubSyncedAt": "2026-08-03T13:00:39.868Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
