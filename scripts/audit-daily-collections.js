@@ -32,12 +32,20 @@ function needsTitleAudit(item) {
   return !item.title || parser.isGenericTitle(item.title) || parser.titleLooksLikePrompt(item.title, item.prompt);
 }
 
+function hasPendingTitleSync(item) {
+  if (item?.titleSource !== 'prompt-audit' || !item?.titleGeneratedAt) return false;
+  const generatedAt = Date.parse(item.titleGeneratedAt);
+  const syncedAt = Date.parse(item.githubSyncedAt || '');
+  return Number.isFinite(generatedAt) && (!Number.isFinite(syncedAt) || generatedAt > syncedAt);
+}
+
 function auditCollections(payload, { dateKey = dateKeyInShanghai(new Date()), now = new Date().toISOString() } = {}) {
   const collections = Array.isArray(payload?.collections) ? payload.collections : [];
   const result = {
     dateKey,
     audited: 0,
     updated: 0,
+    synchronized: 0,
     skippedManual: 0,
     skippedUnresolved: 0,
     changes: []
@@ -51,7 +59,13 @@ function auditCollections(payload, { dateKey = dateKeyInShanghai(new Date()), no
       result.skippedManual += 1;
       continue;
     }
-    if (!needsTitleAudit(item)) continue;
+    if (!needsTitleAudit(item)) {
+      if (hasPendingTitleSync(item)) {
+        item.githubSyncedAt = item.titleGeneratedAt;
+        result.synchronized += 1;
+      }
+      continue;
+    }
 
     // Do not feed the broad source title back into the generator. The full
     // prompt is the authoritative signal for an automatic replacement.
@@ -65,6 +79,7 @@ function auditCollections(payload, { dateKey = dateKeyInShanghai(new Date()), no
     item.title = title;
     item.titleSource = 'prompt-audit';
     item.titleGeneratedAt = now;
+    item.githubSyncedAt = now;
     result.updated += 1;
     result.changes.push({ id: item.id, from: previousTitle, to: title });
   }
@@ -88,12 +103,12 @@ function main() {
   const payload = JSON.parse(fs.readFileSync(options.file, 'utf8'));
   const result = auditCollections(payload, { dateKey: options.dateKey || undefined });
 
-  if (options.apply && result.updated > 0) {
+  if (options.apply && (result.updated > 0 || result.synchronized > 0)) {
     payload.updatedAt = new Date().toISOString();
     fs.writeFileSync(options.file, `${JSON.stringify(payload, null, 2)}\n`);
   }
 
-  console.log(JSON.stringify({ ...result, changed: options.apply ? result.updated : 0 }));
+  console.log(JSON.stringify({ ...result, changed: options.apply ? result.updated + result.synchronized : 0 }));
 }
 
 if (require.main === module) main();
@@ -104,5 +119,6 @@ module.exports = {
   collectionDateKey,
   dateKeyInShanghai,
   hasManualTitle,
+  hasPendingTitleSync,
   needsTitleAudit
 };

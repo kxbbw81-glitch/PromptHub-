@@ -9,9 +9,10 @@ function releaseEligibleCollections(collections, now = Date.now()) {
   let released = 0;
 
   for (const item of collections) {
-    if (item.domesticSyncedAt) continue;
     const syncedAt = Date.parse(item.githubSyncedAt || item.collectedAt || '');
+    const domesticSyncedAt = Date.parse(item.domesticSyncedAt || '');
     if (!Number.isFinite(syncedAt) || now - syncedAt < DOMESTIC_DELAY_MS) continue;
+    if (Number.isFinite(domesticSyncedAt) && domesticSyncedAt >= syncedAt) continue;
     item.domesticSyncedAt = releasedAt;
     released += 1;
   }

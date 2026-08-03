@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T12:32:11.255Z",
+  "updatedAt": "2026-08-03T12:36:23.298Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -132,7 +132,7 @@
       "title": "窗台阅读女性人像",
       "url": "https://x.com/ToroJushiAi/status/2083976122803388774",
       "collectedAt": "2026-08-03T09:41:03.566Z",
-      "githubSyncedAt": "2026-08-03T09:41:03.566Z",
+      "githubSyncedAt": "2026-08-03T12:32:10.874Z",
       "domesticSyncedAt": "2026-08-03T11:44:24.490Z",
       "titleSource": "prompt-audit",
       "titleGeneratedAt": "2026-08-03T12:32:10.874Z"
@@ -229,7 +229,7 @@
       "title": "蔷薇花园女性人像",
       "url": "https://x.com/ToroJushiAi/status/2084066721758110114",
       "collectedAt": "2026-08-03T09:39:27.711Z",
-      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
+      "githubSyncedAt": "2026-08-03T12:32:10.874Z",
       "domesticSyncedAt": "2026-08-03T11:44:24.490Z",
       "titleSource": "prompt-audit",
       "titleGeneratedAt": "2026-08-03T12:32:10.874Z"
