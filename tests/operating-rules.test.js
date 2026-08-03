@@ -8,6 +8,7 @@ const rules = fs.readFileSync(path.join(root, 'OPERATING_RULES.md'), 'utf8');
 const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
 const background = fs.readFileSync(path.join(root, 'extension/background.js'), 'utf8');
 const releaseScript = fs.readFileSync(path.join(root, 'scripts/release-domestic-collections.js'), 'utf8');
+const dailyAuditWorkflow = fs.readFileSync(path.join(root, '.github/workflows/audit-daily-collections.yml'), 'utf8');
 
 test('the operating rulebook matches the primary collection architecture', () => {
   assert.match(rules, /data\/collections\.json`? 是收藏数据唯一的权威来源/);
@@ -19,9 +20,15 @@ test('the operating rulebook matches the primary collection architecture', () =>
   assert.match(rules, /GROK_CANDIDATE_FORMAT\.md/);
   assert.match(rules, /禁止使用浏览器自动操作 X/);
   assert.match(rules, /默认不启用定时运行/);
+  assert.match(rules, /23:30.*Asia\/Shanghai/);
+  assert.match(rules, /20 个汉字以内/);
+  assert.match(rules, /titleSource.*manual/);
   assert.match(app, /PRIMARY_COLLECTIONS_URL/);
   assert.match(app, /getCollectionsRequestUrl/);
   assert.match(background, /queueAutomaticPrimarySync/);
   assert.match(background, /collectionSourceKey/);
   assert.match(releaseScript, /30 \* 60 \* 1000/);
+  assert.match(dailyAuditWorkflow, /cron: '30 15 \* \* \*'/);
+  assert.match(dailyAuditWorkflow, /node scripts\/audit-daily-collections\.js --apply/);
+  assert.match(dailyAuditWorkflow, /node --test tests\/\*\.test\.js/);
 });

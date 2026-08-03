@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PromptHub Collector",
-  "version": "3.17.0",
+  "version": "3.18.0",
   "description": "一键抓取网页上的 AI 提示词，自动写入并验证 GitHub 主站；国内站由服务端延迟发布",
   "permissions": [
     "activeTab",

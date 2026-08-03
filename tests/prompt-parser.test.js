@@ -92,6 +92,21 @@ test('extracts e-commerce and video-specific titles instead of broad categories'
   assert.equal(parser.normalizeAutoTitle('产品广告', skincare), '护肤品商业短片');
 });
 
+test('prefers concrete prompt cues over a broad editorial portrait fallback', () => {
+  const prompt = 'A Korean woman takes a selfie with the front phone camera. She has long milk tea gray hair, soft daylight, realistic skin texture, quiet apartment background, editorial photography, no text, no watermark.';
+
+  assert.equal(parser.normalizeAutoTitle('时尚人像', prompt), '韩系奶茶灰自拍');
+  assert.ok([...parser.normalizeAutoTitle('', prompt)].length <= 20);
+});
+
+test('summarizes Chinese prompts with their dominant scene instead of a broad portrait label', () => {
+  const windowPrompt = '一张明亮、柔和、照片级真实的日系室内生活人像。一位年轻东亚女性侧坐在靠窗的大理石窗台上，低头安静阅读手中的薄杂志。强烈但柔化的自然窗光从左侧和后方进入，50mm镜头，低饱和、安静私密的生活氛围。';
+  const gardenPrompt = '一张明亮清新的照片级真实花园人像摄影。一位年轻东亚女性置身于盛开的白色蔷薇与绿色枝叶之间，阳光照亮头发、脸颊、花瓣与叶缘，85mm人像镜头，春日清晨、浪漫、自然的氛围。';
+
+  assert.equal(parser.normalizeAutoTitle('编辑写真女性人像', windowPrompt), '窗台阅读女性人像');
+  assert.equal(parser.normalizeAutoTitle('东方人像', gardenPrompt), '蔷薇花园女性人像');
+});
+
 test('does not mistake ordinary fashion outfit prompts for try-on posters', () => {
   const prompt = 'A beautiful young East Asian woman with fair skin and reddish-brown hair tied in a loose half-up ponytail, looking back over her shoulder at the camera. She is crouching low on a light wooden floor in a modern office, body twisted to the side, one arm resting on a light desk. She wears a fitted white blouse and tailored black skirt outfit, glossy red lips, cinematic office lighting, realistic skin texture, shallow depth of field, no text, no watermark.';
 

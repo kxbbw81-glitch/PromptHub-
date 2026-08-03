@@ -292,6 +292,39 @@
     ['空间概念', /(architecture|interior|space|treehouse|建筑|空间|树屋)/i]
   ];
 
+  // These terms form a descriptive fallback when an imported title is only a
+  // broad label such as "时尚人像" or "产品广告".
+  const TITLE_CONTEXT_TERMS = [
+    ['韩系奶茶灰自拍', /(korean|韩国|韩系)[\s\S]{0,180}(selfie|front phone camera|前置镜头)[\s\S]{0,180}(milk tea gray|奶茶灰)/i],
+    ['客机机舱', /(commercial airplane|airplane galley|aircraft cabin|飞机客舱|机舱)/i],
+    ['四格肖像', /(panel\s*[1-4]|four[-\s]?panel|four poses|四格|四连肖像)/i],
+    ['换装网格', /(fashion grid|different outfits|outfit grid|换装网格|多套穿搭)/i],
+    ['电影海报', /(movie poster|film poster|电影海报)/i],
+    ['RPG角色界面', /(rpg|role-playing game)[\s\S]{0,180}(status screen|character screen|角色界面|状态界面)/i],
+    ['主题乐园', /(theme park|主题乐园)/i],
+    ['数位板上色', /(pen tablet|drawing tablet|数位板|手绘板)[\s\S]{0,180}(coloring|上色|line art|线稿)/i],
+    ['立方城市微缩景观', /(cube[-\s]?shaped diorama|cube diorama|立方体)[\s\S]{0,180}(city|城市|streets|街道)/i],
+    ['抽象表现主义肖像', /(abstract expressionism|抽象表现主义)/i],
+    ['原创星座夜空', /(fictional constellations|original constellations|原创星座|虚构星座)/i],
+    ['动漫能力变身', /(devil fruit|ability transformation|能力变身)/i],
+    ['跑车街头自拍', /(bmw\s*i8|supercar|跑车)[\s\S]{0,180}(selfie|自拍)/i],
+    ['窗台阅读', /(窗台|window sill|窗框)[\s\S]{0,220}(阅读|杂志|画册|reading|magazine)/i],
+    ['蔷薇花园', /(white roses?|rose garden|白色蔷薇|玫瑰花园)/i],
+    ['白色影棚', /(white seamless studio|white studio|白色影棚|白色摄影棚)/i],
+    ['城市街头', /(city street|urban street|城市街头|街景)/i]
+  ];
+
+  const TITLE_FEATURE_TERMS = [
+    ['奶茶灰长发', /(milk tea gray|奶茶灰)[\s\S]{0,120}(long hair|长发)/i],
+    ['珠宝', /(diamond necklace|diamond ring|jewelry|jewellery|珠宝|钻石)/i],
+    ['红唇', /(red lipstick|红唇|红色口红)/i],
+    ['蓝色皮草', /(electric blue faux fur|blue fur coat|蓝色皮草)/i],
+    ['粉玫瑰', /(pink roses?|粉色玫瑰|粉玫瑰)/i],
+    ['葡萄', /(shine muscat|muscat grapes?|麝香葡萄|葡萄)/i],
+    ['汽水', /(golden peach fizz|beverage can|汽水|饮料罐)/i],
+    ['手足特写', /(hand and foot close-up|hand[-\s]?foot close-up|手足特写|手脚特写)/i]
+  ];
+
   // Creator/platform labels often precede the real prompt in social posts.
   const PUBLISHER_PREAMBLE_PATTERNS = [
     /^\s*(?:gpt\s*image\s*\d+(?:\s+(?:on|via)\s+chatgpt)?|chatgpt\s*image\s*\d*)\s*(?:\u63d0\u793a\u8bcd?|prompt)\s*[:\uff1a\u2014-]*\s*/i,
@@ -480,6 +513,11 @@
     if (!value) return '';
 
     const specific = specificTitleFromPrompt(value);
+    if (specific && !isWeakAutoTitle(specific)) return specific;
+
+    const descriptive = descriptiveTitleFromPrompt(value);
+    if (descriptive) return descriptive;
+
     if (specific) return specific;
 
     for (const rule of COMPACT_TITLE_RULES) {
@@ -513,6 +551,19 @@
     return '';
   }
 
+  function descriptiveTitleFromPrompt(prompt) {
+    const value = cleanText(prompt);
+    const context = pickFirst(value, TITLE_CONTEXT_TERMS);
+    const feature = pickFirst(value, TITLE_FEATURE_TERMS);
+    const subject = pickFirst(value, TITLE_SUBJECT_TERMS);
+
+    if (context && isConcreteTitle(context)) return clipAutoTitle(context);
+    if (context && feature) return clipAutoTitle(joinTitleParts(context, feature, subject));
+    if (context && subject) return clipAutoTitle(joinTitleParts(context, subject));
+    if (feature && subject) return clipAutoTitle(joinTitleParts(feature, subject));
+    return '';
+  }
+
   function pickFirst(text, pairs) {
     const found = pairs.find(([, pattern]) => pattern.test(text));
     return found?.[0] || '';
@@ -521,6 +572,14 @@
   function isCompleteAutoTitle(value) {
     if (value === '编辑写真') return false;
     return /(?:海报|详情页|提案|设计|广告|涂装|包装|工作流|技能|短片|视频|还原|合照|互动|滤镜|插画|截图|肖像|写真)$/.test(value || '');
+  }
+
+  function isConcreteTitle(value) {
+    return /(?:自拍|人像|肖像|海报|界面|乐园|景观|变身|上色|短片|视频|场景|写真|广告)$/.test(value || '');
+  }
+
+  function isWeakAutoTitle(value) {
+    return /^(?:编辑写真|电影感|写真人像|时尚人像|产品广告|品牌视觉)(?:女性人像|人像|肖像)?$/.test(value || '');
   }
 
   function joinTitleParts(...parts) {
@@ -563,6 +622,7 @@
     const value = normalizeLabel(title);
     if (TITLE_NOISE_PATTERNS.some(pattern => pattern.test(value))) return true;
     if (BROAD_AUTO_TITLE_SET.has(value)) return true;
+    if (isWeakAutoTitle(cleanTitle(title))) return true;
     return !value || [
       'prompt', '提示词', '完整提示词', '未命名提示词', 'untitled', 'image', 'result image',
       'portrait', 'video', 'photo', 'picture', '主页', '首页', '生成图', '结果图',

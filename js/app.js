@@ -1249,6 +1249,7 @@
           : autoDetectTags(promptText);
         const updated = saveOrUpdateCollection(prompt, {
           title,
+          ...(title !== prompt.title ? { titleSource: 'manual' } : {}),
           prompt: promptText,
           category: $('#detail-edit-category')?.value || prompt.category,
           aspectRatio: ($('#detail-edit-aspect')?.value || '').trim(),
@@ -2012,7 +2013,7 @@
                   <h2>PromptHub 浏览器插件</h2>
                   <p>在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏</p>
                 </div>
-                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.17.0.zip" download="PromptHub-Extension-v3.17.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.17.0">↓ 下载浏览器插件 <span>v3.17.0</span></a>
+                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.18.0.zip" download="PromptHub-Extension-v3.18.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.18.0">↓ 下载浏览器插件 <span>v3.18.0</span></a>
               </div>
 
               <div class="imp-ext-feats">
@@ -2354,7 +2355,8 @@
       image: rawImages[0] || '',          // 兼容旧逻辑：第一张图
       images: rawImages,                   // 新字段：全部图片
       date: new Date().toISOString().slice(0, 10),
-      source: source === 'manual' ? '手动录入' : '粘贴导入'
+      source: source === 'manual' ? '手动录入' : '粘贴导入',
+      ...(source === 'manual' ? { titleSource: 'manual' } : {})
     };
 
     if (saveCollection(item)) {

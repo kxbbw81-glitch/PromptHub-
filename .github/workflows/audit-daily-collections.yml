@@ -1,0 +1,54 @@
+name: Audit Daily Prompt Metadata
+
+on:
+  schedule:
+    # 23:30 Asia/Shanghai (UTC+8)
+    - cron: '30 15 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '审计日期（Asia/Shanghai，YYYY-MM-DD；留空为当天）'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prompthub-daily-collection-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Read the latest main data
+        run: git pull --ff-only origin main
+      - name: Audit automatic titles
+        env:
+          AUDIT_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$AUDIT_DATE" ]; then
+            node scripts/audit-daily-collections.js --apply --date "$AUDIT_DATE"
+          else
+            node scripts/audit-daily-collections.js --apply
+          fi
+      - name: Validate collection data and parser behavior
+        run: node --test tests/*.test.js
+      - name: Commit audited titles
+        run: |
+          if git diff --quiet -- data/collections.json; then
+            exit 0
+          fi
+          git config user.name "prompthub-quality[bot]"
+          git config user.email "prompthub-quality[bot]@users.noreply.github.com"
+          git add data/collections.json
+          git commit -m "data: audit daily prompt titles"
+          git pull --rebase origin main
+          git push origin HEAD:main
