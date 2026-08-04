@@ -139,7 +139,8 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /function withQueueLock\(task\)/);
   assert.match(background, /const queueSnapshot = await getQueue\(\);/);
   assert.match(background, /const RECEIPT_KEY = 'prompthub_collection_receipts';/);
-  assert.match(background, /async function verifyGitHubCollections\(token, entries\)/);
+  assert.match(background, /async function verifyGitHubCollections\(token, entries, writtenSha = ''\)/);
+  assert.match(background, /await readGitHubBlobCollections\(token, writtenSha\)/);
   assert.match(background, /outcome: 'saved'/);
   assert.match(background, /outcome: 'already_exists'/);
   assert.match(background, /const result = await syncQueueToGitHub\(queueSnapshot\);/);
@@ -173,14 +174,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.19\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.19\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.20\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.20\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.19\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.19\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.20\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.20\.0/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {

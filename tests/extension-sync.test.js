@@ -9,7 +9,20 @@ const backgroundSource = fs.readFileSync(path.join(__dirname, '../extension/back
 
 function createHarness() {
   const storage = { prompthub_github_token: 'github_pat_test_token_with_write_permission' };
-  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawFailure: false, rawGetCalls: 0, blobGetCalls: 0, conflictOnce: false, alwaysConflict: false, hangRequests: false };
+  const remote = {
+    collections: [],
+    putCalls: 0,
+    omitApiContent: false,
+    rawFailure: false,
+    rawGetCalls: 0,
+    blobGetCalls: 0,
+    conflictOnce: false,
+    alwaysConflict: false,
+    hangRequests: false,
+    rawStaleAfterPut: false,
+    staleRawCollections: null,
+    currentSha: 'test-sha'
+  };
   const alarms = [];
   const alarmListeners = [];
   const event = { addListener() {} };
@@ -66,13 +79,17 @@ function createHarness() {
         }
         const body = JSON.parse(options.body);
         const decoded = Buffer.from(body.content, 'base64').toString('utf8');
+        const previousCollections = remote.collections;
         remote.collections = JSON.parse(decoded).collections;
-        return { ok: true, status: 200, json: async () => ({}) };
+        remote.currentSha = `test-sha-${remote.putCalls}`;
+        if (remote.rawStaleAfterPut) remote.staleRawCollections = previousCollections;
+        return { ok: true, status: 200, json: async () => ({ content: { sha: remote.currentSha }, commit: { sha: `commit-${remote.putCalls}` } }) };
       }
       if (String(url).includes('raw.githubusercontent.com')) {
         remote.rawGetCalls += 1;
         if (remote.rawFailure) return { ok: false, status: 503, text: async () => '' };
-        return { ok: true, status: 200, text: async () => JSON.stringify({ collections: remote.collections }) };
+        const collections = remote.rawStaleAfterPut && remote.staleRawCollections ? remote.staleRawCollections : remote.collections;
+        return { ok: true, status: 200, text: async () => JSON.stringify({ collections }) };
       }
       if (String(url).includes('/git/blobs/')) {
         remote.blobGetCalls += 1;
@@ -84,8 +101,8 @@ function createHarness() {
         ok: true,
         status: 200,
         json: async () => remote.omitApiContent
-          ? { sha: 'test-sha', encoding: 'none' }
-          : { sha: 'test-sha', content }
+          ? { sha: remote.currentSha, encoding: 'none' }
+          : { sha: remote.currentSha, content }
       };
     }
   };
@@ -190,7 +207,7 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
 });
 
-test('large GitHub collections use raw JSON before Base64 Blob decoding', async () => {
+test('large GitHub collections use raw JSON for the pre-write snapshot and blob for confirmation', async () => {
   const { context, remote } = createHarness();
   remote.omitApiContent = true;
   remote.collections = [prompt('existing-large-file', 'A cinematic portrait of an adult woman beside a large window, soft natural light, realistic skin texture, tailored coat, warm neutral interior, 85mm lens, shallow depth of field, editorial photography, photorealistic finish, no text, no watermark.')];
@@ -201,7 +218,7 @@ test('large GitHub collections use raw JSON before Base64 Blob decoding', async 
   assert.equal(result.pendingVerification, true);
   assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
   assert.equal(remote.rawGetCalls >= 1, true);
-  assert.equal(remote.blobGetCalls, 0);
+  assert.equal(remote.blobGetCalls >= 1, true);
   assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
 });
 
@@ -217,6 +234,23 @@ test('large GitHub collections fall back to Blob when raw JSON is temporarily un
   assert.equal((await waitForReceipt(context, 'blob-fallback-new')).outcome, 'saved');
   assert.equal(remote.rawGetCalls >= 1, true);
   assert.equal(remote.blobGetCalls >= 1, true);
+});
+
+test('post-write verification uses the written GitHub blob when raw JSON is stale', async () => {
+  const { context, remote, storage } = createHarness();
+  remote.omitApiContent = true;
+  remote.rawStaleAfterPut = true;
+  remote.collections = [prompt('existing-before-stale-raw', 'A calm editorial portrait of an adult woman in a minimal white studio, soft side light, natural skin texture, tailored linen jacket, 85mm lens, shallow depth of field, clean composition, subtle film grain, photorealistic finish, no text, no watermark.')];
+  const next = prompt('verify-with-written-blob', 'A premium commercial photograph of a clear glass skincare bottle on polished limestone, soft window light, controlled reflection, subtle botanical shadow, luxury catalog styling, 85mm lens, shallow depth of field, realistic texture, photorealistic finish, no text, no logo, no watermark.');
+
+  const result = await context.addToQueue(next);
+
+  assert.equal(result.pendingVerification, true);
+  assert.equal((await waitForReceipt(context, 'verify-with-written-blob')).outcome, 'saved');
+  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.equal(remote.blobGetCalls >= 1, true);
+  assert.deepEqual(remote.collections.map(item => item.id), ['verify-with-written-blob', 'existing-before-stale-raw']);
+  assert.equal(storage.prompthub_queue, undefined);
 });
 
 test('GitHub save conflicts are retried against a fresh remote snapshot', async () => {

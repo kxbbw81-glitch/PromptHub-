@@ -758,6 +758,27 @@ async function schedulePrimaryRetry() {
   await chrome.alarms.create(PRIMARY_RETRY_ALARM_NAME, { delayInMinutes: PRIMARY_RETRY_DELAY_MINUTES });
 }
 
+function parseGitHubCollectionsPayload(text, source) {
+  let content;
+  try {
+    content = JSON.parse(text);
+  } catch {
+    throw new Error(`GitHub ${source} 收藏数据格式错误`);
+  }
+  const collections = Array.isArray(content) ? content : content.collections;
+  if (!Array.isArray(collections)) throw new Error(`GitHub ${source} 收藏数据格式错误`);
+  return collections;
+}
+
+async function readGitHubBlobCollections(token, sha) {
+  if (!sha) throw new Error('GitHub Blob 读取失败 (缺少文件版本)');
+  const blobResponse = await fetchGitHub(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(sha)}`, { headers: githubHeaders(token) });
+  if (!blobResponse.ok) throw new Error(`GitHub Blob 读取失败 (${blobResponse.status})`);
+  const blob = await blobResponse.json();
+  if (typeof blob.content !== 'string' || !blob.content.trim()) throw new Error('GitHub Blob 读取失败 (内容为空)');
+  return { sha, collections: parseGitHubCollectionsPayload(decodeBase64Utf8(blob.content), 'Blob') };
+}
+
 async function readGitHubCollections(token) {
   const response = await fetchGitHub(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
   if (response.status === 404) return { sha: '', collections: [] };
@@ -767,32 +788,12 @@ async function readGitHubCollections(token) {
   if (!response.ok) throw new Error(`GitHub 读取失败 (${response.status})`);
 
   const payload = await response.json();
-  const parseCollectionsPayload = (text, source) => {
-    let content;
-    try {
-      content = JSON.parse(text);
-    } catch {
-      throw new Error(`GitHub ${source} 收藏数据格式错误`);
-    }
-    const collections = Array.isArray(content) ? content : content.collections;
-    if (!Array.isArray(collections)) throw new Error(`GitHub ${source} 收藏数据格式错误`);
-    return collections;
-  };
 
   const readRawCollections = async () => {
     const rawUrl = payload.download_url || `${GITHUB_COLLECTIONS_RAW}?_=${Date.now()}`;
     const rawResponse = await fetchGitHub(rawUrl, { headers: { Accept: 'application/json' }, cache: 'no-store' });
     if (!rawResponse.ok) throw new Error(`GitHub raw 读取失败 (${rawResponse.status})`);
-    return parseCollectionsPayload(await rawResponse.text(), 'raw');
-  };
-
-  const readBlobCollections = async () => {
-    if (!payload.sha) throw new Error('GitHub Blob 读取失败 (缺少文件版本)');
-    const blobResponse = await fetchGitHub(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(payload.sha)}`, { headers: githubHeaders(token) });
-    if (!blobResponse.ok) throw new Error(`GitHub Blob 读取失败 (${blobResponse.status})`);
-    const blob = await blobResponse.json();
-    if (typeof blob.content !== 'string' || !blob.content.trim()) throw new Error('GitHub Blob 读取失败 (内容为空)');
-    return parseCollectionsPayload(decodeBase64Utf8(blob.content), 'Blob');
+    return parseGitHubCollectionsPayload(await rawResponse.text(), 'raw');
   };
 
   try {
@@ -802,17 +803,17 @@ async function readGitHubCollections(token) {
         return { sha: payload.sha || '', collections: await readRawCollections() };
       } catch (rawError) {
         console.warn('[PromptHub] GitHub raw read failed, falling back to blob:', rawError?.message || rawError);
-        return { sha: payload.sha || '', collections: await readBlobCollections() };
+        return readGitHubBlobCollections(token, payload.sha);
       }
     }
 
     if (typeof payload.content === 'string' && payload.content.trim()) {
-      return { sha: payload.sha || '', collections: parseCollectionsPayload(decodeBase64Utf8(payload.content), 'API') };
+      return { sha: payload.sha || '', collections: parseGitHubCollectionsPayload(decodeBase64Utf8(payload.content), 'API') };
     }
 
     if (payload.sha) {
       try {
-        return { sha: payload.sha || '', collections: await readBlobCollections() };
+        return readGitHubBlobCollections(token, payload.sha);
       } catch (blobError) {
         console.warn('[PromptHub] GitHub blob read failed, falling back to raw:', blobError?.message || blobError);
       }
@@ -851,10 +852,17 @@ async function writeGitHubCollections(token, collections, sha) {
     throw new Error(`GitHub Token 权限不足 (${response.status})`);
   }
   if (!response.ok) throw new Error(`GitHub 保存失败 (${response.status})`);
+  const payload = await response.json().catch(() => ({}));
+  return {
+    sha: payload?.content?.sha || '',
+    commitSha: payload?.commit?.sha || ''
+  };
 }
 
-async function verifyGitHubCollections(token, entries) {
-  const snapshot = await readGitHubCollections(token);
+async function verifyGitHubCollections(token, entries, writtenSha = '') {
+  const snapshot = writtenSha
+    ? await readGitHubBlobCollections(token, writtenSha)
+    : await readGitHubCollections(token);
   const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
   const sourceKeys = new Set(collections.map(collectionSourceKey).filter(Boolean));
   const fingerprints = new Set(collections.map(collectionFingerprint).filter(Boolean));
@@ -969,8 +977,8 @@ async function syncQueueToGitHub(queue) {
       .reverse();
 
     try {
-      await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
-      const verification = await verifyGitHubCollections(token, additions);
+      const writeResult = await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
+      const verification = await verifyGitHubCollections(token, additions, writeResult.sha);
       return {
         success: true,
         count: additions.length,
