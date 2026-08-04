@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T14:00:06.815Z",
+  "updatedAt": "2026-08-04T14:04:16.027Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseq8sc0_1sq9",
+      "image": "https://pbs.twimg.com/media/HNrFO6absAAZwQm?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HNrFO6absAAZwQm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNrFQUJbYAA2z9v?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Turn a simple portrait into a premium birthday-style AI animation with realistic foil balloons, cinematic lighting, and natural motion.\n\nGPT IMAGE 2 on CHAT GPT:\n\nPrompt:\nA stylish young woman standing against a clean studio wall, holding oversized silver foil number balloons \"1\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNrFO6absAAZwQm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HNrFQUJbYAA2z9v?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AiwithLariab/status/2079191078377496757",
+      "tags": [
+        "cinematic"
+      ],
+      "timestamp": 1785852121968,
+      "title": "Turn a simple portrait into a premium birthday-sty",
+      "url": "https://x.com/AiwithLariab/status/2079191078377496757",
+      "collectedAt": "2026-08-04T14:04:16.027Z",
+      "githubSyncedAt": "2026-08-04T14:04:16.027Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "动物",
