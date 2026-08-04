@@ -1,7 +1,58 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T13:51:55.079Z",
+  "updatedAt": "2026-08-04T13:52:42.993Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_msepwrfc_zn4e",
+      "image": "https://pbs.twimg.com/media/HIGPuhNagAE5F-W?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HIGPuhNagAE5F-W?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC_BApbQAEGRQ5?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC_2c1aMAAVgsB?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HIDBE2RbQAAaMtc?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIDBj1OaQAAVAKR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIDGf9vaAAAVUUX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC-SQ6akAEW5Dw?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC9GvbaIAAVd5H?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC9dUoaoAA_UCA?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIDHVZUa8AAiGqq?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HIGQkxZbkAACaQ7?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIGRn_BbYAA35C5?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "请为我的文章生成一张高级感 X/Twitter 推文封面图。\n\n【文章标题】：\n填入你的文章标题\n\n【文章主题/核心内容】：\n填入你的文章内容，或者用 3-5 句话概括这篇文章讲什么\n\n【目标风格】：\n高级、简约、现代、像 X 上热门文章封面图，带教程感/专栏感/官方感，不要廉价海报感。\n\n【画面要求】：\n横版 5:2 比例，深色背景，适合 X 暗黑模式。\n左侧放超大号主标题，标题要清晰、有冲击力，手机缩略图也能看清。\n右侧根据文章主题生成一个视觉主体，可以是 UI 面板、数据图表、产品界面、人物剪影、工具图标、流程卡片、科技元素等。\n画面中加入和文章内容相关的图标、关键词标签、信息卡片、步骤模块，让画面丰富但不杂乱。\n\n【文字排版】：\n主标题使用大号粗体中文字体。\n从文章标题中自动提取 1-2 个关键词，用蓝色/紫色/金色渐变高亮。\n可以加入一个小标签，例如：\n“X 文章封面”\n“实战教程”\n“Prompt 模板”\n“AI 工具指南”\n根据文章内容自动选择最合适的标签。\n\n【视觉元素】：\n根据文章主题自动生成相关元素：\n如果是 AI / Prompt 类文章：加入提示词输入框、聊天气泡、鼠标指针、AI 图标、UI 卡片。\n如果是 Web3 / 加密类文章：加入 K 线、链上数据、钱包、代币图标、数据面板。\n如果是电商类文章：加入产品卡片、价格标签、购物车、数据看板、商品展示框。\n如果是教程类文章：加入步骤卡片、流程线、编号模块、工具图标。\n如果是个人 IP 类文章：加入头像区域、专栏卡片、社媒界面、个人品牌标签。\n\n【整体设计】：\n深黑色/深蓝色/炭灰色渐变背景。\n加入细微网格线、柔和光晕、玻璃拟态 UI 卡片、霓虹描边、细节线条、虚线连接。\n整体要有层次感、空间感、专业感。\n画面丰富，有图标、有文字、有主题、有视觉焦点，但保持干净高级。\n不要卡通，不要廉价促销风，不要杂乱，不要土味配色，不要过多小字。\n\n【输出要求】：\n生成一张 5:2 横版封面图。\n文字必须清晰可读，中文不要乱码。\n高级社交媒体封面，premium editorial design, dark futuristic UI, glassmorphism, clean typography, high contrast, polished, modern, professional.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIGPuhNagAE5F-W?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC_BApbQAEGRQ5?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC_2c1aMAAVgsB?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HIDBE2RbQAAaMtc?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIDBj1OaQAAVAKR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIDGf9vaAAAVUUX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC-SQ6akAEW5Dw?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC9GvbaIAAVd5H?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIC9dUoaoAA_UCA?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIDHVZUa8AAiGqq?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HIGQkxZbkAACaQ7?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HIGRn_BbYAA35C5?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/0xshimei/status/2054084686029484436",
+      "tags": [
+        "dark",
+        "海报"
+      ],
+      "timestamp": 1785851560920,
+      "title": "请为我的文章生成一张高级感 X/Twitter 推文封面图。",
+      "url": "https://x.com/0xshimei/status/2054084686029484436",
+      "collectedAt": "2026-08-04T13:52:42.993Z",
+      "githubSyncedAt": "2026-08-04T13:52:42.993Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
@@ -1284,6 +1335,36 @@
       "timestamp": 1785680748342,
       "title": "韩系人像",
       "url": "https://x.com/MANISH1027512/status/2041420967679799572",
+      "collectedAt": "2026-08-02T14:33:24.092Z",
+      "githubSyncedAt": "2026-08-02T14:33:24.092Z",
+      "domesticSyncedAt": "2026-08-02T15:45:09.326Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-08-02",
+      "domain": "x.com",
+      "id": "ext_msbvy56c_qfhz",
+      "image": "https://pbs.twimg.com/media/HOr2W94aAAAGsTU?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOr2W94aAAAGsTU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpua7YbYAABSQ8?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "请在 ~/.codex/agents/luna-worker.toml 创建一个全局自定义子代理。\n\n配置要求：\n\n- 代理名称：luna_worker\n\n- 模型：gpt-5.6-luna\n\n- 推理强度：max\n\n- 定位：快速完成边界明确、可重复的小型任务\n\n- 工作方式：严格遵守任务范围，独立执行，在可行时验证结果，并简洁汇报结果、相关文件路径和注意事项\n\n请写入以下完整 TOML 配置：\n\nname = \"luna_worker\"\n\ndescription = \"Fast worker for clear, narrowly scoped, and repeatable tasks.\"\n\ndeveloper_instructions = \"\"\"\n\nHandle the assigned task strictly within its stated scope.\n\nWork independently and use appropriate tools when needed.\n\nVerify the result when practical.\n\nDo not make unrelated changes.\n\nReturn a concise summary containing the result, relevant file paths, verification performed, and any important caveats.\n\n\"\"\"\n\nmodel = \"gpt-5.6-luna\"\n\nmodel_reasoning_effort = \"max\"\n\n执行要求：\n\n1. 如果 ~/.codex/agents 目录不存在，请创建它。\n\n2. 如果目标文件已经存在，先显示现有内容，不要直接覆盖；确认内容是否需要更新。\n\n3. 创建或更新后，读取文件并验证最终配置。\n\n4. 确保 TOML 语法有效。\n\n5. 最后告诉我文件位置、完整配置内容以及如何在提示词中调用 luna_worker。\n\n创建后，使用方法如下：\n\n> 请使用 luna_worker 子代理完成以下任务：[填写任务]。等待子代理完成后，检查并汇总它的结果。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOr2W94aAAAGsTU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOpua7YbYAABSQ8?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Lonely__MH/status/2083762211449684344",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785680304564,
+      "title": "Codex 用户的福音来了！",
+      "url": "https://x.com/Lonely__MH/status/2083762211449684344",
       "collectedAt": "2026-08-02T14:33:24.092Z",
       "githubSyncedAt": "2026-08-02T14:33:24.092Z",
       "domesticSyncedAt": "2026-08-02T15:45:09.326Z"
