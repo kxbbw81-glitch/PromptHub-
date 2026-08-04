@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T09:29:06.981Z",
+  "updatedAt": "2026-08-04T09:29:13.108Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "城市",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseghr0l_7xuz",
+      "image": "https://pbs.twimg.com/media/HOzV8GmbwAA3gQu?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOzV8GmbwAA3gQu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2提示词：\n一张巨大的红色周年票券从城市商场外墙向街道方向探出，制作16:9横版裸眼三维周年庆户外巨幕海报，唯一视觉钩子是“整座城市收到一张庆祝入场券”。巨幕由正面屏和右侧转角屏组成，转角位于画面x=72%，票券为横向圆角矩形，中心位于x=55%、y=50%，占屏幕宽度68%、高度45%，左端仍在正面屏内，右端跨越转角向观众突出，突出部分占票券长度22%；票面材质为厚实哑光红纸，四角圆角半径3厘米，左右各有一道由八个圆孔组成的撕线，但票券保持完整未撕裂。决定性瞬间是右端刚越过屏框，屏内阴影准确投向右下，不让实体穿进建筑结构。街道仅在画面底部占15%，安排四名背对镜头的行人，分别站在x=18%、38%、63%、84%，抬头观看但不举手机、不遮挡文字。采用24毫米镜头，机位高1.6米、距巨幕32米，仰拍10度，裸眼观看点锁在道路中央，建筑垂直线不弯曲。蓝调时刻的环境为深蓝灰，屏内左上硬光照亮红票，右侧屏形成暗红转折面。配色为深蓝灰48%、周年红38%、暖白11%、亮黄3%。票面主标题固定两行“周年庆”“这一程，邀你继续同行”，第一行暖白超粗黑体，字高占票高25%，第二行暖白中黑体，字高8%，均左对齐；右侧撕线前写“共同入场”，亮黄色粗黑体。屏幕左下安全区写“下一站，精彩继续”，不得添加二维码、日期、价格、品牌商标和英文小字。保持L形巨幕、单张红票、两侧各八孔撕线、四名行人、固定透视、蓝调环境与票面两行中文不变。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOzV8GmbwAA3gQu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2084276072682602564",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785835744005,
+      "title": "搞设计的朋友 速速收藏",
+      "url": "https://x.com/Mrpinecone888/status/2084276072682602564",
+      "collectedAt": "2026-08-04T09:29:13.108Z",
+      "githubSyncedAt": "2026-08-04T09:29:13.108Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "科幻",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseghr0l_01f6",
+      "image": "https://pbs.twimg.com/media/HO2Bu33bgAAAQZ4?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO2Bu33bgAAAQZ4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO2Bck8aQAAWi7_?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "设计一张原创潮玩系列发布会海报，4:5竖版，孟菲斯几何与产品展陈风。中央是一只原创圆脸太空邮差公仔，头盔、身体、四肢、背包和底座结构清楚，占画面高度约48%；周围三个同系列角色分别拿着星球包裹、信号灯和迷你飞船，保持统一角色识别但不模仿任何现有IP。背景由钴蓝、柠檬黄、珊瑚红和奶油白大色  x.com/Mrpinecone888/…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO2Bu33bgAAAQZ4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO2Bck8aQAAWi7_?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2084464868107989061",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785835744005,
+      "title": "设计一张原创潮玩系列发布会海报",
+      "url": "https://x.com/Mrpinecone888/status/2084464868107989061",
+      "collectedAt": "2026-08-04T09:29:13.108Z",
+      "githubSyncedAt": "2026-08-04T09:29:13.108Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
@@ -30,8 +90,8 @@
       "timestamp": 1785835720916,
       "title": "产品广告",
       "url": "https://x.com/Goodmanprotocol/status/2084347909945151630",
-      "collectedAt": "2026-08-04T09:29:06.980Z",
-      "githubSyncedAt": "2026-08-04T09:29:06.980Z",
+      "collectedAt": "2026-08-04T09:29:13.108Z",
+      "githubSyncedAt": "2026-08-04T09:29:13.108Z",
       "domesticSyncedAt": null
     },
     {
