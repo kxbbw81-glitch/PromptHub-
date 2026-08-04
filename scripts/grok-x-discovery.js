@@ -7,6 +7,7 @@ const promptParser = require('../extension/prompt-parser.js');
 const MIN_PROMPT_LENGTH = 160;
 const X_STATUS_URL = /^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/\d+\/?(?:\?.*)?$/i;
 const PLATFORM_PREFIX = /^(?:gpt\s*image\s*2(?:\s+on\s+chatgpt)?|nano\s+banana(?:\s+prompt)?|prompt\s*[:：])\s*/i;
+const RESTRICTED_IP_OR_PUBLIC_FIGURE = /copyrighted characters|disney|dreamworks|pixar|marvel|thanos|spider[-\s]?man|star wars|harry potter|pokemon|nintendo|ghibli|minecraft|league of legends|dragon ball|street fighter|chun[-\s]?li|megan fox|celebrity lookalike|迪士尼|皮克斯|漫威|蜘蛛侠|星球大战|哈利波特|宝可梦|任天堂|吉卜力|我的世界|英雄联盟|街头霸王|春丽/i;
 const HOUR_MS = 60 * 60 * 1000;
 
 function normalizeText(value) {
@@ -164,6 +165,7 @@ function validateCandidate(candidate) {
 
   if (!X_STATUS_URL.test(sourceUrl)) return { valid: false, reason: 'missing concrete X status URL' };
   if (prompt.length < MIN_PROMPT_LENGTH) return { valid: false, reason: 'prompt shorter than 160 characters' };
+  if (RESTRICTED_IP_OR_PUBLIC_FIGURE.test(`${candidate.title || ''}\n${prompt}`)) return { valid: false, reason: 'restricted third-party IP or public figure' };
   if (!imageUrls.length && !(mediaType === 'video' && videoPoster)) return { valid: false, reason: 'missing HTTPS result media' };
 
   return {

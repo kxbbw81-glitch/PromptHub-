@@ -209,6 +209,18 @@ test('rejects incomplete prompts, feed URLs, and video records without a poster'
   ]);
 });
 
+test('rejects restricted character IP and public figure lookalikes from Grok candidates', () => {
+  const result = discovery.acceptCandidates([
+    { sourceUrl: 'https://x.com/example/status/126', title: '家居人像', prompt: `${COMPLETE_PROMPT} Photorealistic close-up selfie of chun-li with wet hair.`, imageUrls: ['https://cdn.example.com/a.jpg'] },
+    { sourceUrl: 'https://x.com/example/status/127', title: '时尚人像', prompt: `${COMPLETE_PROMPT} Photorealistic editorial portrait of Megan Fox lookalike in a studio.`, imageUrls: ['https://cdn.example.com/b.jpg'] }
+  ], []);
+
+  assert.deepEqual(result.rejected.map(item => item.reason), [
+    'restricted third-party IP or public figure',
+    'restricted third-party IP or public figure'
+  ]);
+});
+
 test('the Grok runner is limited to public candidate discovery, not browser or Git automation', () => {
   const runner = fs.readFileSync(path.join(__dirname, '../scripts/run-grok-x-discovery.ps1'), 'utf8');
   assert.match(runner, /grok --prompt-file \$promptPath/);
