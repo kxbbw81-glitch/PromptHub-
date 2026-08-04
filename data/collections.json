@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T03:04:05.539Z",
+  "updatedAt": "2026-08-04T03:47:03.789Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -994,40 +994,6 @@
       "timestamp": 1785748727616,
       "title": "调皮表情美妆人像",
       "url": "https://x.com/CliQi_AI/status/2084096919937421799",
-      "collectedAt": "2026-08-03T09:39:27.711Z",
-      "githubSyncedAt": "2026-08-03T09:39:27.711Z",
-      "domesticSyncedAt": "2026-08-03T11:44:24.490Z"
-    },
-    {
-      "aspectRatio": "",
-      "category": "抽象",
-      "date": "2026-08-03",
-      "domain": "x.com",
-      "id": "ext_msd0ooqn_08b9",
-      "image": "https://pbs.twimg.com/media/HOip5pzb0AAfe7_?format=jpg&name=medium",
-      "images": [
-        "https://pbs.twimg.com/media/HOip5pzb0AAfe7_?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HOip5p4bIAEjZlo?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HOip5pzagAAX4mu?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HOip5pxaIAAluYE?format=jpg&name=medium"
-      ],
-      "model": "",
-      "prompt": "感触特别深，很喜欢她把很深奥枯燥的科技讲的非常有人文关怀，辨识度特别高。\n我刚刚好奇想看看她是什么时候开始做自媒体的，在视频号里翻啊翻，找到了她2024年7月的第一条视频，两年的时间里发了500多个视频，基本差不多日更了…\n我扪心自问了一下，自己也做了自媒体几年，但从来没有保持过这样的频率尤其是在早期没有数据反馈，没有太多人关注的时候，持续输出其实是最难的。\n很多时候，我们看到一个创作者今天的成绩，觉得是因为表达能力强，专业能力强，或者抓住了机会。但回头看，真正拉开差距的，可能是那些没人看到的日复一日…",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HOip5pzb0AAfe7_?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HOip5p4bIAEjZlo?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HOip5pzagAAX4mu?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HOip5pxaIAAluYE?format=jpg&name=medium"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/yanliudreamer/status/2083101641688088808",
-      "tags": [
-        "AI生成"
-      ],
-      "timestamp": 1785748727615,
-      "title": "视频短片",
-      "url": "https://x.com/yanliudreamer/status/2083101641688088808",
       "collectedAt": "2026-08-03T09:39:27.711Z",
       "githubSyncedAt": "2026-08-03T09:39:27.711Z",
       "domesticSyncedAt": "2026-08-03T11:44:24.490Z"
