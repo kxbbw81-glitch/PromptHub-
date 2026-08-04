@@ -1,7 +1,330 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T14:02:50.932Z",
+  "updatedAt": "2026-08-04T01:28:14.235Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_msdz995u_uv7a",
+      "image": "https://pbs.twimg.com/media/HOWdNI1WgAA6QKo?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOWdNI1WgAA6QKo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWdNI0WQAEDhgn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWdNI6XMAATkRM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWdNJAW8AAbDCk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年东亚女性站在纯净暖白色摄影棚背景前，画面从头顶拍至腰部附近。人物位于中央略偏右，身体正面轻微朝画面右侧，头部转向画面左侧约三分之二侧脸角度，下巴微微下压，双眼自然闭合，神情安静、克制、柔和，嘴唇轻闭，呈现纯净高级的美容与内衣编辑人像质感。\n\n她拥有精致鹅蛋脸、流畅下颌线、自然细眉、纤细挺直鼻梁和浅裸粉色嘴唇。妆容极淡，仅有轻薄底妆、自然睫毛、柔和米棕眼影和轻微腮红。肤色白皙偏中性暖调，保留真实毛孔、细小绒毛、自然肤色变化和柔和皮脂高光，禁止塑料磨皮。\n\n深黑色长发整齐中分，顺滑贴合头型，在后脑盘成低位双层发髻或花瓣状低发髻，耳侧有极少量碎发。右耳佩戴银色叶片造型与圆润珍珠组合耳环，金属反光细腻。\n\n她穿白色半透明花卉刺绣薄纱文胸，细肩带、有钢圈结构、边缘精细蕾丝，完全遮挡关键部位；外披乳白色轻薄雪纺或真丝罩衫，宽松长袖，自然敞开并垂落肩臂。双手在腰前轻轻整理或握住罩衫系带，手指自然、清晰。\n\n背景为无缝奶油白至浅灰白渐变，无家具和装饰。大型柔光箱从画面左前上方照射，正面使用白色反光板补光，阴影极浅，整体高键、低饱和、低对比，白色层次清晰。\n\n摄影风格：85mm或105mm人像镜头，f/2.8，平视机位，中浅景深，侧脸、耳饰和蕾丝纹理清晰，真实皮肤、发丝、珍珠、薄纱和雪纺纤维，轻微ISO 100胶片颗粒，soft fine-art beauty editorial，photorealistic。\n\n避免：睁眼、正面直视镜头、夸张表情、浓妆、凌乱发型、透明暴露、露点、错误文胸结构、错误手指、融合手臂、塑料皮肤、过度磨皮、强HDR、过度锐化、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOWdNI1WgAA6QKo?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWdNI0WQAEDhgn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWdNI6XMAATkRM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOWdNJAW8AAbDCk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082496376026349674",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785806794146,
+      "title": "暖白摄影棚编辑写真女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2082496376026349674",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8v2ho_ewmj",
+      "image": "https://pbs.twimg.com/media/G-hHteAbQAQYYI6?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-hHteAbQAQYYI6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-hHteAbQAkD-BG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-hHtedbQAIoBwY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-hHteAbQAoa8cy?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "再做一版！更简单的做饭教程图！！\n\n太太最近在老家，家里只有我和小舅子（小舅子实习期间暂住），他有时候不上班一整天不吃东西，就等着我下班回去做饭，一天只吃一顿饭。\n\n可是，我很多时候在外应酬，他就只有吃泡面，点外卖，这咋行，于是我让他学着做饭，我像他那个年纪，都自个租房，天天做饭吃了。\n\n于是搞了一版极简化的提示词，让他想做什么就自己生成个教程，然后学着做，这次这个提示词极短，没有长篇大论，没有各种约束，效果还是很稳定。\n\n所以我在想，其实有时候没必要把提示词写得很长很长，各种约束，各种框架，留一些空间，其实AI能够推断明白意图，也有能力自己调整去保证出品的质量。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-hHteAbQAQYYI6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-hHteAbQAkD-BG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-hHtedbQAIoBwY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-hHteAbQAoa8cy?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yyyole/status/2010936222018125840",
+      "tags": [
+        "极简"
+      ],
+      "timestamp": 1785762462300,
+      "title": "再做一版！更简单的做饭教程图！！",
+      "url": "https://x.com/yyyole/status/2010936222018125840",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8v2ho_1ima",
+      "image": "https://pbs.twimg.com/media/G-d-t5LaMAARvEU?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-d-t5LaMAARvEU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-dwAYtW0AA2D4A?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Grok\n\n{\n  \"prompt_type\": \"text-to-image\",\n  \"subject\": {\n    \"identity\": \"Lili Reinhart, accurate recognizable likeness inspired by reference photos\",\n    \"appearance\": \"Soft blonde hair styled in loose waves falling over shoulders, fair luminous skin, elegant confident expression with subtle smile\",\n    \"accessories\": \"Minimalistic diamond earrings, thin bracelet on right wrist\"\n  },\n  \"attire\": {\n    \"upper_body\": \"High-fashion black couture evening gown with structured bodice and sculptural neckline\",\n    \"lower_body\": \"Long dramatic flowing black skirt with subtle sheen and sophisticated train, slightly lifted by the subject’s hand\",\n    \"legwear\": \"Bare toned legs (visible due to high slit)\",\n    \"footwear\": \"Black pointed-toe stiletto heels with glossy finish\"\n  },\n  \"composition\": {\n    \"camera_angle\": \"Extreme low angle (worm's-eye view), looking upward from near floor level\",\n    \"perspective\": \"Dramatic foreshortening emphasizing height, elongated legs, and high-fashion runway stature\",\n    \"framing\": \"Full body shot dominated by foreground legs, shoes, and the flowing gown\"\n  },\n  \"environment\": {\n    \"location\": \"Red carpet gala or premiere event\",\n    \"background\": \"Large repeated dimensional event signage in serif type on a deep burgundy backdrop with luxury production or studio logos\",\n    \"surface\": \"Classic red carpet floor\"\n  },\n  \"style\": {\n    \"medium\": \"Digital celebrity red carpet portrait photography\",\n    \"lighting\": \"Professional flash + ambient event lighting, high-contrast, glossy highlights on fabric, skin, and shoes with dramatic shadows\",\n    \"quality\": \"8k resolution, photorealistic, ultra-sharp focus on fabric texture, makeup, facial features, and couture detailing\"\n  }\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-d-t5LaMAARvEU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-dwAYtW0AA2D4A?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/underwoodxie96/status/2010715168666431783",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "8k"
+      ],
+      "timestamp": 1785762462300,
+      "title": "Grok",
+      "url": "https://x.com/underwoodxie96/status/2010715168666431783",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8upju_n4rd",
+      "image": "https://pbs.twimg.com/media/G-gMp3pWIAEslpM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-gMp3pWIAEslpM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "怎样复刻这样一张自然摄影图？抓住三个核心要点就可以了\n\n1.提取核心主体特征（发型、衣着、姿势）\n2.情境特征（背景、环境）\n3.光影与风格\n\n提示词prompt\n\n主体：她留着齐肩的棕色波浪卷发，身穿一件深紫色的紧身褶皱连衣裙，袖子是黑色透明薄纱材质的长袖，方领设计。双手在身前轻柔地交叠。 \n\n情境：她站在户外的阳光花园中，背景是虚化的石质建筑结构和绿色植被。 \n\n光影与风格：画面具有强烈的黄金时刻逆光效果，在她的头发边缘形成发光的轮廓光（轮廓光），营造出柔和梦幻的氛围。电影感人像摄影风格，85mm 镜头，背景虚化景深，高细节，写实纹理，8k 分辨率。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-gMp3pWIAEslpM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2010871420734034088",
+      "tags": [
+        "8k",
+        "人像",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785762445530,
+      "title": "怎样复刻这样一张自然摄影图？抓住三个核心要点就可以了",
+      "url": "https://x.com/Adam38363368936/status/2010871420734034088",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8uasf_78ys",
+      "image": "https://pbs.twimg.com/media/G-hT8R_bIAAA883?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-hT8R_bIAAA883?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "@WangYiNotes  的这个很赞～\n\n私房照的感觉 ～\n\n Nano banana pro prompt：\n\n{\n“1. 宏观风格与媒介”: {\n“核心媒介”: “高保真肖像摄影（索尼 A7R V 风格）”,\n“美学流派”: “日系空气感写真、纯欲风、‘童颜巨乳’美学”\n},\n“2. 主体与 IP 身份”: {\n“核心主体”: “顶级 K-Pop  https://x.com/AYi_AInotes/st/AYi_AInotes/status/2010940042542186718…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-hT8R_bIAAA883?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ttmouse/status/2010949560856940973",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1785762426399,
+      "title": "@WangYiNotes  的这个很赞～",
+      "url": "https://x.com/ttmouse/status/2010949560856940973",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8uase_tdi5",
+      "image": "https://pbs.twimg.com/media/G-nnO_ibUAEQKfM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-nnO_ibUAEQKfM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-lsAl7bwAA1Gzw?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "今日最佳-今天看到最可爱的图稍微改了下\nCutest of the day！Lovely kitchen moment\n\nPrompt\n\n{\n  \"prompt_type\": \"descriptive_portrait\",\n  \"subject_details\": {\n    \"demographics\": \"Young female, fair smooth skin, fit and athletic build, strictly matching the reference photo.\",\n    \"facial_features\": {\n      \"expression\": \"Pouting in anger, a smudge of white flour on her nose and cheek, playful and messy yet attractive, facial expression matching the reference photo.\",\n      \"eyes\": \"Bright eyes, aligned with the reference photo angle.\",\n      \"hair\": \"Slightly messy short-to-medium hair, casually styled, exactly following the reference photo hairstyle.\"\n    },\n    \"apparel\": {\n      \"dress\": \"Plain pink t-shirt fitting exactly like the reference photo pose, paired with tiny pajama shorts.\",\n      \"accessories\": \"None.\",\n      \"footwear\": \"Barefoot.\"\n    }\n  },\n  \"pose_and_action\": {\n    \"body_position\": \"Leaning over the kitchen island counter, elbows resting on the surface, body position strictly following the reference photo.\",\n    \"hands\": \"Hands lightly dusted with flour. Pointing one finger at the camera side\"\n  },\n  \"background_environment\": {\n    \"location\": \"Messy kitchen.\",\n    \"lighting_source\": \"Bright overhead kitchen lights.\",\n    \"objects\": {\n      \"details\": \"Bowl of dough, scattered flour on the counter, cracked eggshells.\"\n    }\n  },\n  \"technical_specs\": {\n    \"style\": \"Playful, domestic, ultra-realistic, high detail on natural skin texture and flour dust, strict adherence to the reference photo for realism.\",\n    \"aspect_ratio\": \"4:5\"\n  },\n  \"constraints\": [\n    \"Preserve facial identity exactly as in the reference image\",\n    \"No facial reshaping or beautification\",\n    \"No artificial filters or stylization\",\n    \"Maintain natural proportions and lighting\"\n  ],\n  \"output_goal\": \"Create a playful, ultra-realistic mirror selfie portrait of a young woman in a messy kitchen, laughing naturally with flour on her face, perfectly matching the reference photo in pose, expression, and identity.\"\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-nnO_ibUAEQKfM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-lsAl7bwAA1Gzw?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2011393008600862873",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785762426398,
+      "title": "今日最佳-今天看到最可爱的图稍微改了下",
+      "url": "https://x.com/Adam38363368936/status/2011393008600862873",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8uasd_24vg",
+      "image": "https://pbs.twimg.com/media/G-w8aRtaQAAc_m_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-w8aRtaQAAc_m_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-JGr3Sa0Ac0sGj?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "蓝色也很有韵味，蓝色忧郁\n\n今日再补一张健身系列\n\n{\n\n\"composition\": {\n\"layout\": \"Vertical mirror selfie, subject off-center right.\",\n\"perspective\": \"Eye-level, reflection.\",\n\"framing\": \"Framed by weight rack on the left, windows in the background.\"\n},\n\"lighting\": {\n\"source\": \"Natural daylight from large windows, soft and diffused.\",\n\"mood\": \"Cool, slightly dim, moody.\"\n},\n\"typography\": {\n\"text_content\": null,\n\"font_style\": null,\n\"placement\": null\n},\n\"effects\": {\n\"textures\": \"Metal weight plates, fabric clothing, rubber flooring, glass.\",\n\"filters\": \"Slightly soft, cool color grading.\"\n},\n\"colors\": [\n\"#2A2F45\",\n\"#E8E9F0\",\n\"#1C1F2A\",\n\"#898C99\",\n\"#4D5365\",\n\"#F0E0D0\"\n],\n\"master_prompt\": \"A vertical mirror selfie photograph taken in a modern gym. A woman with long dark hair, wearing a light blue patterned sports bra and dark blue high-waisted leggings, holds a smartphone to take a photo of herself in a large mirror. She is leaning against a weight rack with plates. The background features large windows showing a blue-toned outdoor view, with other gym equipment visible. The lighting is soft, cool daylight from the windows, creating a moody atmosphere. The textures include metal, fabric, and rubber.\"\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-w8aRtaQAAc_m_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-JGr3Sa0Ac0sGj?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/joshesye/status/2012049987157574015",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785762426397,
+      "title": "蓝色也很有韵味，蓝色忧郁",
+      "url": "https://x.com/joshesye/status/2012049987157574015",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8t37f_e410",
+      "image": "https://pbs.twimg.com/media/G-9xTfNXkAAeuZ_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G-9xTfNXkAAeuZ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-9xTfJWgAAul4U?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-sskd-aoAAb8Bl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-sskdnXsAAPY_h?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Winter pose \n\n{\n  \"meta\": {\n    \"project_name\": \"Winter Minimalist Portrait\",\n    \"model_type\": \"ultra-realistic-photography\",\n    \"aspect_ratio\": \"2:3\"\n  },\n  \"prompt_structure\": {\n    \"subject_details\": {\n      \"demographics\": \"young woman\",\n      \"hair\": \"natural\",\n      \"skin\": \"fair porcelain skin, soft natural freckles, high detail skin texture\",\n      \"eyes\": \"expressive light-colored eyes, looking directly into the camera\",\n      \"makeup\": \"light pink blush, glossy lips\",\n      \"pose\": \"standing, slightly leaning forward\"\n    },\n    \"apparel\": {\n      \"style_genre\": \"minimalist winter fashion\",\n      \"body\": \"fitted black long-sleeve bodysuit\",\n      \"accessories\": \"white furry leg warmers\",\n      \"footwear\": \"white boots\"\n    },\n    \"environment\": {\n      \"location\": \"outdoors, snowy forest\",\n      \"background\": \"pine trees\",\n      \"ground\": \"snow-covered\",\n      \"atmosphere\": \"crisp winter atmosphere\"\n    },\n    \"technical_settings\": {\n      \"lighting\": \"bright natural daylight, soft shadows\",\n      \"camera_gear\": \"35mm lens\",\n      \"aperture\": \"f/2.2\",\n      \"focus\": \"shallow depth of field, sharp focus on eyes\",\n      \"style_tags\": [\n        \"photorealistic\",\n        \"lifestyle fashion photography\",\n        \"ultra-detailed\",\n        \"8k resolution\"\n      ]\n    }\n  },\n  \"negative_prompt\": [\n    \"low quality\",\n    \"blur\",\n    \"cartoon\",\n    \"anime\",\n    \"CGI\",\n    \"plastic skin\",\n    \"over-smooth face\",\n    \"distorted body\",\n    \"extra limbs\",\n    \"bad hands\",\n    \"watermark\",\n    \"text\",\n    \"logo\"\n  ],\n  \"assembled_prompt\": \"Ultra-realistic winter portrait of a young woman, natural hair, fair porcelain skin, soft natural freckles, high detail skin texture, light pink blush, glossy lips, expressive light-colored eyes looking directly into the camera, standing, slightly leaning forward, fitted black long-sleeve bodysuit, white furry leg warmers, white boots, minimalist winter fashion, outdoors, snowy forest, pine trees, snow-covered ground, bright natural daylight, soft shadows, crisp winter atmosphere, 35mm lens, f/2.2, shallow depth of field, photorealistic, lifestyle fashion photography, ultra-detailed, sharp focus, 8k resolution\"\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G-9xTfNXkAAeuZ_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-9xTfJWgAAul4U?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-sskd-aoAAb8Bl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G-sskdnXsAAPY_h?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/miilesus/status/2012952144194797739",
+      "tags": [
+        "photorealistic",
+        "anime",
+        "minimalist",
+        "8k"
+      ],
+      "timestamp": 1785762369915,
+      "title": "Winter pose",
+      "url": "https://x.com/miilesus/status/2012952144194797739",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8s570_n3ru",
+      "image": "https://pbs.twimg.com/media/G_JOyCdXgAEAxUU?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_JOyCdXgAEAxUU?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "LISA \n\n【主题】以Blackpink的Lisa为主角，保持其标志性面部特征，肤色白皙，表情自信而严肃，佩戴精致垂坠耳环。\n【着装】\n上装：黑色束腰式胸衣，饰有透明蕾丝细节与结构性鱼骨。\n下装：飘逸的黑色长款薄纱裙，高开衩设计，由Lisa左手轻提裙摆展现。\n腿部：透视黑色丝袜/连裤袜。  x.com/joshesye/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_JOyCdXgAEAxUU?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2013758722015928345",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785762325836,
+      "title": "LISA",
+      "url": "https://x.com/youngcatwoman/status/2013758722015928345",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd8s570_6xvg",
+      "image": "https://pbs.twimg.com/media/G_EuO7VWMAAWEMV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_EuO7VWMAAWEMV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_EuO7RWIAAJYOt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_EulyGXkAAOGfK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_EuoxbWcAATkeL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "红毯走秀片场，那一枚红\n\n使用Nano Pro,上传参考图：\n\n【主题】一使用参考图像中的同一张脸，不改变面部特征，肤色白皙，表情自信而严肃，佩戴精致垂坠耳环。\n\n【着装】\n\n上装：黑色束腰式胸衣，饰有透明蕾丝细节与结构性鱼骨。\n\n下装：飘逸的黑色长款薄纱裙，高开衩设计，由人物左手轻提裙摆展现。\n\n腿部：透视黑色丝袜/连裤袜。\n\n鞋履：黑色漆皮尖头细高跟鞋。\n\n【构图】\n\n镜头角度：极端低角度（虫视视角），从地面向上仰拍人物。\n\n视角效果：强调人物身高与腿部线条的修长感。\n\n画面构图：全身照，以前景的腿部与鞋履为视觉主导。\n\n【环境】\n\n场景：红毯首映活动。\n\n背景：立体三维设计的“XIAO AI”标志，使用标志性的红色衬线字体。\n\n地面：深紫红色或红色地毯。\n\n【风格】\n\n媒介：数码摄影，名人肖像风格。\n\n光影：专业活动灯光，皮肤与鞋面略带光泽，高对比度。\n\n画质：高清、8K分辨率、照片级真实感、焦点锐利。\n#nanobanana",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_EuO7VWMAAWEMV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_EuO7RWIAAJYOt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_EulyGXkAAOGfK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/G_EuoxbWcAATkeL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/joshesye/status/2013441799252009297",
+      "tags": [
+        "8k",
+        "摄影"
+      ],
+      "timestamp": 1785762325836,
+      "title": "红毯走秀片场，那一枚红",
+      "url": "https://x.com/joshesye/status/2013441799252009297",
+      "collectedAt": "2026-08-04T01:28:14.235Z",
+      "githubSyncedAt": "2026-08-04T01:28:14.235Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
