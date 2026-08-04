@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T06:56:48.214Z",
+  "updatedAt": "2026-08-04T06:59:33.884Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseb1tzi_r1qe",
+      "image": "https://pbs.twimg.com/media/HO0FgEfWoAAYZIy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO0FgEfWoAAYZIy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0FgEfXcAAyBET?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0FgEiWkAAqL3P?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0FgEgXgAAPiNz?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一张照片级真实、温暖自然的日系卧室生活人像。一位明确成年的年轻东亚女性，约22至26岁，侧躺在铺有柔软白色床单和枕头的床上。竖构图，中近景，从头顶拍至大腿中部；人物身体沿画面左下至右上形成自然斜线，左臂向后支撑身体，上身微微抬起，右侧腰胯贴近床面，姿态松弛、安静而自然。她轻轻转头直视镜头，嘴唇微启，神情平静、柔和、略带慵懒感。\n\n她拥有清秀柔和的鹅蛋脸、白皙暖调肤色、深棕色杏仁眼、自然眉形、纤细鼻梁和裸粉色双唇。妆容极淡：轻薄自然底妆、淡桃粉腮红、柔和棕色眼线、自然睫毛和水润唇色。深棕近黑色长发中分，带松散自然的轻微波浪，蓬松垂落在肩膀、胸前和床面，脸侧保留少量碎发。\n\n她穿一件宽松的象牙白短袖针织T恤，宽大斜领自然滑落一侧肩膀，露出锁骨和肩线；衣摆因侧躺姿势自然向上堆叠，露出部分腰腹。下身搭配浅天蓝色松紧腰居家短裤，面料柔软，带有真实缝线、褶皱和弹力腰头。背景为简洁的浅米色墙面、暖木色床头板和白色床品，没有多余家具或杂物。\n\n金色午后阳光从画面右侧窗户斜射，在脸部、肩膀、衣服、腰腹和床单上形成明亮暖色高光与大块柔和阴影。整体采用奶油白、浅蓝、暖木色和自然肤色，低饱和、低对比、柔和暖调，呈现清晨或午后安静居家的电影感。50mm镜头，f/2.0，略高机位轻微俯拍，焦点落在双眼，浅景深，背景柔和虚化。保留真实毛孔、细小绒毛、自然肤色变化、发丝、棉质衣料和床单纹理，轻微ISO 200胶片颗粒；无塑料皮肤、无过度磨皮、无夸张比例、无畸形手指、无额外肢体、无文字、标志、水印、边框或拼图，比例2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO0FgEfWoAAYZIy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0FgEfXcAAyBET?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0FgEiWkAAqL3P?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0FgEgXgAAPiNz?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2084328255407214762",
+      "tags": [
+        "人像",
+        "电影感",
+        "清晨",
+        "低饱和"
+      ],
+      "timestamp": 1785826603278,
+      "title": "日式卧室针织背心女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2084328255407214762",
+      "collectedAt": "2026-08-04T06:59:33.884Z",
+      "githubSyncedAt": "2026-08-04T06:59:33.884Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
@@ -32,8 +69,8 @@
       "timestamp": 1785826603276,
       "title": "浅蓝针织",
       "url": "https://x.com/chenlinspark/status/2084391359096467835",
-      "collectedAt": "2026-08-04T06:56:48.214Z",
-      "githubSyncedAt": "2026-08-04T06:56:48.214Z",
+      "collectedAt": "2026-08-04T06:59:33.884Z",
+      "githubSyncedAt": "2026-08-04T06:59:33.884Z",
       "domesticSyncedAt": null
     },
     {
