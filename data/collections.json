@@ -1,7 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T02:30:13.731Z",
+  "updatedAt": "2026-08-04T03:04:05.539Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse2qjux_zc3j",
+      "image": "https://pbs.twimg.com/media/HOxUebRWgAA7gs0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOxUebRWgAA7gs0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOxUhaIXAAEmA0n?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "夜色落进和室，灯光变得很慢。\n甜点、榻榻米，还有一段不想被打扰的安静时光。\n\n提示词Prompt：\n\n3:4 竖版，写实日系私房人像摄影，夜晚传统日式榻榻米房间，安静、慵懒、略带亲密感的居家随拍氛围，低照度环境，背景暖棕色调，人物由窗外或侧前方冷白柔光照亮，冷暖色温对比，浅景深，背景大面积柔和虚化。\n\n一位明确成年的年轻东亚女性，约 22–27 岁，精致甜美的窄鹅蛋脸，流畅下颌线，清亮杏眼，小巧挺直的鼻梁，柔软饱满的浅粉色嘴唇；深棕色长发自然披散，轻薄长刘海从额前分开，几缕发丝贴近脸颊，发尾微卷。清透韩系裸妆，冷白自然底妆，浅粉棕眼妆，淡玫瑰腮红，水润珊瑚粉唇，保留少量真实皮肤纹理，整体柔和精致但不过度磨皮。\n\n人物穿白色细肩带连体居家短衣，低饱和浅粉与浅绿色细碎花卉印花，领口带白色蕾丝花边和小蝴蝶结，修身柔软面料，衣服保持完整自然。她坐在深棕色矮木桌边缘，身体略微向一侧倾斜，肩膀自然收拢，一条腿弯曲搭在桌边，另一条腿向画面左下方自然伸展，双腿在前景交叠，形成修长流畅的斜线构图；一只手轻扶膝侧，另一只手拿着小木勺或甜点签，低头看向桌面上的日式甜点，嘴唇轻微张开，神情安静、专注，像被镜头偶然捕捉。\n\n镜头位于人物侧前方略低位置，70–105mm 中长焦人像镜头，全身至环境人像构图，人物位于画面右侧三分之一，左侧保留大面积昏暗房间留白；双腿从右侧桌面延伸到左下角，强化纵深和视觉引导。前景是榻榻米与随意铺开的彩色针织毯，桌面边缘放置少量日式甜点和餐具，背景为深色木墙、纸门与模糊灯光。\n\n电影感低曝光，人物皮肤明亮通透，腿部有柔和连续高光，背景压暗但保留空间层次，柔和反差，轻微胶片颗粒，85mm portrait photography，f/1.8，shallow depth of field，natural skin texture，soft cinematic lighting，high-end Korean editorial photography，photorealistic。\n\n负面提示词：\n\n未成年感、幼态儿童脸、过度裸露、透明衣物、走光、夸张胸腰臀、畸形肢体、多余手指、手脚融合、双腿断裂、错误交叉腿、塑料皮肤、过度磨皮、油亮全脸、夸张网红妆、欧美五官、动漫感、插画感、强烈直闪、背景过亮、杂乱道具、文字、水印、拼图、低清晰度。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOxUebRWgAA7gs0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOxUhaIXAAEmA0n?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2084212679548494105",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "人像",
+        "插画",
+        "摄影"
+      ],
+      "timestamp": 1785812640009,
+      "title": "夜色落进和室，灯光变得很慢。",
+      "url": "https://x.com/chenlinspark/status/2084212679548494105",
+      "collectedAt": "2026-08-04T03:04:05.539Z",
+      "githubSyncedAt": "2026-08-04T03:04:05.539Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse2qjuw_dwvz",
+      "image": "https://pbs.twimg.com/media/HOuEppNWsAAAZln?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOuEppNWsAAAZln?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOuEppOWcAA5m7i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOuEppOXQAAvYNP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOuEppQXYAAryTn?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt \n一张照片级真实、低调奢华的复古室内时尚人像。一位明确成年的年轻东亚女性，约22至26岁，侧坐在深棕色纽扣绗缝真皮软凳上，竖构图，从头顶拍至小腿附近。人物身体朝向画面左侧，臀部与双腿自然侧放，上身轻微扭转，回头越过肩膀直视镜头。右手撑在皮凳边缘，手指自然展开；左手轻触锁骨与肩部附近，姿态优雅、克制而自信。她拥有柔和精致的鹅蛋脸、白皙暖调肤色、深棕色杏仁眼、自然细眉、秀气鼻梁和水润裸玫瑰色嘴唇，神情安静、略带疏离感。深棕近黑色长发自然披散，带松散波浪与少量凌乱碎发，部分发丝垂落肩前和后背。\n\n她穿一件深梅紫色修身晚礼服，柔软弹力缎面或哑光针织面料，露肩设计，以粗编织绳状肩带横跨上臂；背部大面积深V露背，腰臀处贴身剪裁，后腰中央带纵向抽褶，裙摆不对称并带高开衩，布料在腰胯和腿部形成自然褶皱。背景为深色英式复古书房或私人会所，黑褐色木质百叶窗、雕花护墙板和暗色家具清晰可见；画面左上方一盏彩色玻璃落地灯发出暖黄色光。主光从左前上方柔和照射，在脸颊、肩背、手臂和礼服上形成暖色高光，右侧逐渐落入深影，具有低调明暗对比。整体采用深棕、黑色、梅紫和暖金色调，低饱和、中等对比，电影感、私密、成熟、高级。50mm或85mm镜头，f/2.8，略高于眼平机位，人物清晰，背景适度虚化。保留真实毛孔、细小绒毛、自然肤色变化、发丝、缎面褶皱和皮革反光，轻微ISO 400胶片颗粒；无塑料皮肤、无过度磨皮、无夸张身材、无畸形手指、无额外肢体、无文字、标志、水印、边框或拼图，比例2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuEppNWsAAAZln?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOuEppOWcAA5m7i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOuEppOXQAAvYNP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOuEppQXYAAryTn?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2084398916242464793",
+      "tags": [
+        "人像",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1785812640008,
+      "title": "Prompt",
+      "url": "https://x.com/ToroJushiAi/status/2084398916242464793",
+      "collectedAt": "2026-08-04T03:04:05.539Z",
+      "githubSyncedAt": "2026-08-04T03:04:05.539Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:2",
       "category": "抽象",
