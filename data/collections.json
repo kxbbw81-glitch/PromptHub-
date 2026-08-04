@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T13:52:42.993Z",
+  "updatedAt": "2026-08-04T14:00:06.815Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "动物",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseq6aq4_b2zi",
+      "image": "https://pbs.twimg.com/media/HIFeTrBbsAADgKm?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HIFeTrBbsAADgKm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIFeTtEaEAAVC-V?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "This CCTV OOTD trend looks disturbingly real\n\nImage Using Gpt_2\n\n prompt \nTransform the uploaded image into CCTV surveillance footage from the perspective of a mounted security camera.\nStyle & Look\nLow-resolution, slightly grainy\nCCTV aesthetic\nSubtle scanlines or digital noise\nSlight lens distortion like a wide-angle security camera\nDim or underexposed lighting, as if recorded in a hallway, street, or store environment\nTimestamp overlay in upper or lower corner (e.g., “REC 2026-05-12 07:00:15”)\nMinimal color, leaning toward desaturation\nInclude subtle UI elements like:\nREC text indicator\nDVR frame markers\nCamera label (e.g., “CAM 03”)\nPerspective\nReframe the subject as though viewed from above or a high corner angle\nMaintain the subject’s identity and pose from the photo, but reinterpret through a security camera POV\nNegative Prompt\nNo cinematic lighting, no high-res glamour edits, no artistic filters, no anime/comic style, no round bokeh or film look, no clean HD perfection. Keep realistic CCTV style.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HIFeTrBbsAADgKm?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HIFeTtEaEAAVC-V?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AiwithLariab/status/2054026608407957869",
+      "tags": [
+        "cinematic",
+        "anime",
+        "bokeh"
+      ],
+      "timestamp": 1785852005836,
+      "title": "This CCTV OOTD trend looks disturbingly real",
+      "url": "https://x.com/AiwithLariab/status/2054026608407957869",
+      "collectedAt": "2026-08-04T14:00:06.815Z",
+      "githubSyncedAt": "2026-08-04T14:00:06.815Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
