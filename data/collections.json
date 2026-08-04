@@ -1,7 +1,132 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T01:47:58.790Z",
+  "updatedAt": "2026-08-04T02:29:49.185Z",
   "collections": [
+    {
+      "aspectRatio": "3:2",
+      "category": "抽象",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse1ifiv_rdgh",
+      "image": "https://pbs.twimg.com/media/HOuM7dUacAEXsuo?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOuM7dUacAEXsuo?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "闲不住又给我女儿做了一本属于她的有声绘本。\n\n用的是我和她妈妈的声音，做这个事情两方面。\n\n第一点是因为我想用现在科技的力量给她的成长带来一些和我童年不一样的变化。\n第二点也是我小红书宝妈社群的刚需，之前的英语启蒙小程序大概积累了200多人，打算先试一下转化，看看能否也做成我不出卖劳动力获取受益的另一个路径。\n\n其实技术很简单，就这一张图片已经足以复刻了，但是还是想发出来，因为我一直相信钱是赚不完的，我的想法和思路对我来说并不珍贵，因为我每天都有很多奇奇怪怪的想法，如果有人能通过我的想法变现我甚至会很欣慰。\n\n退一万步来说，如果有人感兴趣并且有C端客户，等我明天开源给你。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuM7dUacAEXsuo?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/superwang/status/2083914537896714625",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785810581527,
+      "title": "闲不住又给我女儿做了一本属于她的有声绘本。",
+      "url": "https://x.com/superwang/status/2083914537896714625",
+      "collectedAt": "2026-08-04T02:29:49.184Z",
+      "githubSyncedAt": "2026-08-04T02:29:49.184Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse1ifiu_91yd",
+      "image": "https://pbs.twimg.com/media/HOx9KwuawAAWoJ1?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HOx9KwuawAAWoJ1?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOx9QNabwAAkicZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOx9SX0bEAAND17?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOx9Xi2asAA41rU?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "跟大家讲一下，为什么我要换一个角色卡？\n\n是之前的美女形象不喜欢了吗？非也\n\n最近跟一位 Facebook 博主聊天\n\n学到了一些关于角色的进阶用法\n\n深感之前的角色卡仍存在缺陷\n\n用那位大佬的话讲，角色一致性不是一步\n\n而是两步\n\n全部信息都塞到一张图上对 AI 来说不是信息全面\n\n而是信息过剩\n\n相反通过多个细节图，合成当前场景的人物图\n\n则要确定的多",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOx9KwuawAAWoJ1?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOx9QNabwAAkicZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOx9SX0bEAAND17?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOx9Xi2asAA41rU?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/leo_xiaolei/status/2084181994489921826",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785810581526,
+      "title": "跟大家讲一下，为什么我要换一个角色卡？",
+      "url": "https://x.com/leo_xiaolei/status/2084181994489921826",
+      "collectedAt": "2026-08-04T02:29:49.184Z",
+      "githubSyncedAt": "2026-08-04T02:29:49.184Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse1ifit_sagk",
+      "image": "https://pbs.twimg.com/media/HOzzdceXUAAz3C7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOzzdceXUAAz3C7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzzgBmXcAAqo_6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzzgikXsAADmYB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzzg6_WkAAUbAB?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Giant fashion product posters are impossible to ignore!\n\nFour products, one oversized editorial system:\n1. Quilted bag\n2. Tall stiletto boot\n3. Metal watch\n4. Women’s ring\n\nGreat for fashion campaigns, product launches, social media visuals, and portfolio projects.\n\nMade with ChatGPT-Image2\nPrompt below",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOzzdceXUAAz3C7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzzgBmXcAAqo_6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzzgikXsAADmYB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzzg6_WkAAUbAB?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2084308726341648487",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785810581525,
+      "title": "Giant fashion product posters are impossible to ignore!",
+      "url": "https://x.com/MrLarus/status/2084308726341648487",
+      "collectedAt": "2026-08-04T02:29:49.184Z",
+      "githubSyncedAt": "2026-08-04T02:29:49.184Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse1ifis_b1b9",
+      "image": "https://pbs.twimg.com/media/HOuKcS4a0AAyu85?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOuKcS4a0AAyu85?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "如果哪天你突然失业了，这篇内容值得你认真看完。\n\n有个叫Fiverr的平台，可以理解成“海外版技能交易市场”，专门接各种远程零活。当下AI图像类的需求特别火，几乎爆单。\n\n我把几个路子给你列出来，别到时候说我没提醒：\n\n 商业海报/插画：一张能卖50到100美金，折合人民币几百块。你用GPT Image 2出图，也就几秒钟的事。\n\n 老照片修复上色：一张15到30美金。老外对家庭老照片的感情很深，这类需求一直很稳，根本不愁卖。\n\n 头像/社媒素材：一套20美金起步，批量接单的话基本就是躺赚。\n\n老外的付费习惯跟国内差别很大，他们觉得值就直接刷卡，不会跟你磨半天价。\n\n你现在需要做的事情其实很简单：去Fiverr注册个账号，把你用AI生成的作品传上去当成作品集，定个合理的价格，然后开始接单。初期可以从低价跑量开始积累好评，等评分上去之后再逐步提价。\n\n语言不太行？现在翻译工具一大堆，基础沟通完全够用。\n\n这条路门槛真不高，最大的障碍只是你敢不敢迈出这一步。\n\n与其让AI帮你玩，不如让AI帮你赚钱，把会员费十倍赚回来。\n https://fiverr.com",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuKcS4a0AAyu85?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/bkdgiffug/status/2084340018768912388",
+      "tags": [
+        "海报",
+        "插画"
+      ],
+      "timestamp": 1785810581524,
+      "title": "如果哪天你突然失业了，这篇内容值得你认真看完。",
+      "url": "https://x.com/bkdgiffug/status/2084340018768912388",
+      "collectedAt": "2026-08-04T02:29:49.184Z",
+      "githubSyncedAt": "2026-08-04T02:29:49.184Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "人像",
