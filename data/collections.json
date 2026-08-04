@@ -1,65 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T13:49:51.368Z",
+  "updatedAt": "2026-08-04T13:50:07.481Z",
   "collections": [
-    {
-      "aspectRatio": "4:3",
-      "category": "人像",
-      "date": "2026-08-04",
-      "domain": "x.com",
-      "id": "ext_msept1d2_yi1a",
-      "image": "https://pbs.twimg.com/media/HIG41x-asAAPlUy?format=jpg&name=900x900",
-      "images": [
-        "https://pbs.twimg.com/media/HIG41x-asAAPlUy?format=jpg&name=900x900"
-      ],
-      "model": "",
-      "prompt": "Portrait. by gpt image 2 \n\n---prompt---\nA soft cinematic editorial portrait of a beautiful adult East Asian woman reclining naturally on a velvet chaise lounge beside a sunlit window. The sofa is a muted dusty rose or soft sage green velvet, elegant and understated.\n\nShe wears an oversized white satin shirt with subtle lace-trimmed cuffs, loosely draped in a refined and non-explicit way. Her pose is relaxed and natural: leaning lightly against the backrest, one leg extended along the sofa, the other gently bent, with one hand resting near her cheek or hair and the other placed casually on the sofa or lightly holding a small simple prop such as a closed book or a single pale flower.\n\nThe lighting is soft and airy rather than overly dramatic: natural daylight filters through sheer white curtains, creating gentle overexposed highlights, a light haze, soft bloom, and delicate shadows across the sofa and her figure. The atmosphere feels quiet, intimate, and slightly nostalgic. Minimal classic interior with white wall panels and dark wooden floor.\n\nHer styling is elegant and subtle: luminous natural skin, soft pink lips, light blush, lightly defined eyes, and natural shoulder-length dark hair with soft volume and a few loose strands framing the face.\n\nShot like high-end Japanese/Korean soft film photography, 35mm film look, pastel muted tones, low contrast, soft lavender and blush undertones, subtle film grain, shallow depth of field, refined boudoir editorial aesthetic, quiet luxury, gentle and romantic mood.",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HIG41x-asAAPlUy?format=jpg&name=900x900"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/BubbleBrain/status/2054126214025990626",
-      "tags": [
-        "cinematic",
-        "dark"
-      ],
-      "timestamp": 1785851387174,
-      "title": "Portrait. by gpt image 2",
-      "url": "https://x.com/BubbleBrain/status/2054126214025990626",
-      "collectedAt": "2026-08-04T13:49:51.368Z",
-      "githubSyncedAt": "2026-08-04T13:49:51.368Z",
-      "domesticSyncedAt": null
-    },
-    {
-      "aspectRatio": "",
-      "category": "人像",
-      "date": "2026-08-04",
-      "domain": "x.com",
-      "id": "ext_msepq03z_n8tw",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2082497120935022592/img/BjXztxOJOxRKu9Xs?format=jpg&name=240x240",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2082497120935022592/img/BjXztxOJOxRKu9Xs?format=jpg&name=240x240"
-      ],
-      "model": "",
-      "prompt": "这个有点过于魅惑和动感了！Sexy！\n\nSeedance2提示词：\n\n**### 视觉风格** \n9:16 竖屏构图，4K 超清写实画质。低调（Low-key）光影风格，高对比度。冷色调环境背景与主体服装形成鲜明反差，强调人物轮廓感与肌肤光泽，具有社交媒体短视频的典型锐利质感。 \n\n**### 场景叙述** \n室内居家环境（疑似现代风格卧室或客厅），背景可见模糊的白色橱柜，沙发。核心主体为参考图中的年轻女性，头发湿漉漉的，脸颊绯红，粉红亮片唇釉。在昏暗空间中跟随音乐进行律动感极强的现代舞表演，整体氛围展现慵懒与魅惑。 \n\n**### 摄影技术** \n摄影机：固定机位（Lock-off），保持画面稳定，依靠人物在画幅内的移动构建动态。 人物建模完整，严格保持五官、脸型、发型、肤色、服装完全一致，面部全程稳定不形变、不换脸、不模糊。\n-保持人物与参考图完全一致，面部特征100%相同，保持相同的骨骼结构，眼距和下颚几何形状。\n\n-禁止改变人物的发型。禁止美化，禁止改变年龄。 \n\n-镜头：85mm 标准人像焦段，光圈约 f/2.8，主体人物约距离镜头5米左右，提供适度景深，聚焦人物同时保留环境氛围。\n\n **### 全程保持主体人物头部到脚踝以上出镜** \n\n-灯光：单侧硬光（侧光），在人物面部和身体右侧投射高光，左侧没入阴影，增强立体感。 情绪：慵懒、魅惑、动感、期待。 \n\n**### 动作清单** \n-在原地呈现一支快节奏舞蹈。舞者动作流畅有力、舒展自如，全程连贯流畅、一镜到底，无任何慢动作特效。\n-主体人物神态自然，全程穿插各种表情。\n-表情包括但不限于：皱眉，抿嘴，嘟嘴，眼神迷离，慵懒，魅惑，痛苦等。\n-肌肤白皙细腻，透着自然逼真的汗光质感。 \n-舞蹈内容为网络社交媒体平台流行的舞蹈，\n\n-##身体动作包含侧身扭胯，转身，甩头，胸腰波浪动作，配合胯部有力地前后摆动## \n\n- 全程双臂随音乐节奏作各种姿态摆动，身体呈现流畅的 S 型波浪律动（Body Roll），展现核心控制力。 \n- 头部随节奏轻微甩动，甩头时头发随动作自然甩动。 \n- 眼神始终直视镜头，进行持续的眼神交流（Eye Contact），并在节拍重音处有明显的肢体定格（Pop）。 \n\n**### 对话/文字** \n- 无对话。 \n- 无画面文字\n\n**### 背景声音** \n- 音乐：高 BPM 的 EDM/Deep House 舞曲，具有深沉强劲的贝斯（Bass）线条和清晰的鼓点。 \n- 音效：无特殊环 境音效，纯音乐驱动。 \n- 混音：音乐声场靠前，低频突出，强调视觉动作与听觉节奏的严格卡点同步。",
-      "rawImages": [
-        "https://pbs.twimg.com/amplify_video_thumb/2082497120935022592/img/BjXztxOJOxRKu9Xs?format=jpg&name=240x240"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/Adam38363368936/status/2082860872414941416",
-      "tags": [
-        "人像",
-        "摄影"
-      ],
-      "timestamp": 1785851245583,
-      "title": "这个有点过于魅惑和动感了！Sexy！",
-      "url": "https://x.com/Adam38363368936/status/2082860872414941416",
-      "collectedAt": "2026-08-04T13:49:51.368Z",
-      "githubSyncedAt": "2026-08-04T13:49:51.368Z",
-      "domesticSyncedAt": null
-    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
@@ -957,38 +899,6 @@
       "timestamp": 1785762034751,
       "title": "优化了配图 Skill，一共50多种风格。",
       "url": "https://x.com/vista8/status/2013630274165227700",
-      "collectedAt": "2026-08-03T13:01:28.711Z",
-      "githubSyncedAt": "2026-08-03T13:01:28.711Z",
-      "domesticSyncedAt": "2026-08-03T14:02:50.928Z"
-    },
-    {
-      "aspectRatio": "3:4",
-      "category": "人像",
-      "date": "2026-08-03",
-      "domain": "x.com",
-      "id": "ext_msd8lwlb_rvl2",
-      "image": "https://pbs.twimg.com/media/G_G9a_fWsAEB_7F?format=jpg&name=240x240",
-      "images": [
-        "https://pbs.twimg.com/media/G_G9a_fWsAEB_7F?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/G_G9bihWoAA1cw5?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/G_G9b9yXsAIkgnE?format=jpg&name=240x240"
-      ],
-      "model": "",
-      "prompt": "如果你对 “AI味输出”有了烦躁，试试这段提示词。效果“立竿见影”，从结构化长篇大论（图二），转变为了更有“人味”的段落。（图三）\n\n部分参考 @Khazix0918 的：https://x.com/Khazix0918/status/2011716603889795337… \n\n自用 Prompt 将会在这里持续更新：https://github.com/MarvinCui/MarvinCui/blob/main/Sharing/Personalized_GPT_Prompt.md…",
-      "rawImages": [
-        "https://pbs.twimg.com/media/G_G9a_fWsAEB_7F?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/G_G9bihWoAA1cw5?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/G_G9b9yXsAIkgnE?format=jpg&name=240x240"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/xiangyuli/status/2013800671909466394",
-      "tags": [
-        "AI生成"
-      ],
-      "timestamp": 1785762034751,
-      "title": "如果你对 “AI味输出”有了烦躁，试试这段提示词",
-      "url": "https://x.com/xiangyuli/status/2013800671909466394",
       "collectedAt": "2026-08-03T13:01:28.711Z",
       "githubSyncedAt": "2026-08-03T13:01:28.711Z",
       "domesticSyncedAt": "2026-08-03T14:02:50.928Z"
