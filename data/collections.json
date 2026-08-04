@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T19:38:53.288Z",
+  "updatedAt": "2026-08-04T20:43:09.651Z",
   "collections": [
     {
       "id": "grok_x_2084639066046562542",
@@ -35,7 +35,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "grok_x_2084640504143110268",
@@ -76,7 +76,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "grok_x_2084506334364590407",
@@ -111,7 +111,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "grok_x_2084723902375133269",
@@ -148,7 +148,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "grok_x_2084691262540795909",
@@ -184,7 +184,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "grok_x_2084685850814914875",
@@ -221,7 +221,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "grok_x_2084678249951457457",
@@ -258,7 +258,7 @@
       "timestamp": 1785872333205,
       "collectedAt": "2026-08-04T19:38:53.205Z",
       "githubSyncedAt": "2026-08-04T19:38:53.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-04T20:43:09.643Z"
     },
     {
       "id": "ahaprompt_sky-zipper-surrealism-and-megalophobia",
