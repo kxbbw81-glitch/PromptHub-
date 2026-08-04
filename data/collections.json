@@ -1,7 +1,68 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T11:50:44.250Z",
+  "updatedAt": "2026-08-04T12:43:50.107Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseng5aa_oyno",
+      "image": "https://pbs.twimg.com/media/HO2AXMEa4AAcfT2?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO2AXMEa4AAcfT2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2提示词：\n设计一张蝴蝶造型胸针商业海报，4:5竖版，电影感时尚摄影风。一名身穿黑色西装的中国女性站在雨后玻璃幕墙前，胸前佩戴一枚金属与透明宝石组成的蝴蝶胸针，翅膀、镶嵌、别针与服装连接结构准确；侧后方城市灯光在玻璃上形成柔和蝶翼倒影，人物位于左侧，右上留出标题区域，脸部与首饰焦点清晰自然。色彩使用黑、冷银、雨夜蓝和少量香槟色，带克制胶片颗粒。右上现代宋体排印品牌名“翩然”，中央主标题“轻轻落在锋芒上”，底部排印“蝴蝶胸针｜优雅也有力量”；英文“LIGHTLY BOLD”仅作小字。不虚构宝石和材质；所有中文准确，避免过度磨皮、胸针嵌入衣物和廉价蝴蝶装饰感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO2AXMEa4AAcfT2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2084463351141376002",
+      "tags": [
+        "海报",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785847426498,
+      "title": "胸针商业海报",
+      "url": "https://x.com/Mrpinecone888/status/2084463351141376002",
+      "collectedAt": "2026-08-04T12:43:50.107Z",
+      "githubSyncedAt": "2026-08-04T12:43:50.107Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mseng5a9_75sk",
+      "image": "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2提示词：\n世界杯看台前排，一位明确年满 21 岁、气质温柔清新的漂亮成年东亚女性穿蓝印花布灵感的古风改良应援服，白色交领短上衣的领边与袖口采用深蓝植物纹样，下装是高腰蓝白百褶裙，纹样仅集中在裙褶边缘，搭配简洁白色运动鞋；侧髻以一支蓝白发簪固定。她坐在座椅边缘，双膝自然并拢，一只手举着国家队小旗，另一只手扶住身旁的复古足球，身体轻微前倾，向镜头露出含蓄亲和的笑容。座椅上搭着足球应援围巾，背景可见模糊草坪、比分牌和柔亮球场顶灯。3:4 竖版中全身人像，85mm 浅景深，日系清透柔光与传统蓝印花布质感结合，无可见文字。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOzVafvaAAA4JrD?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2084275583513457082",
+      "tags": [
+        "古风",
+        "人像"
+      ],
+      "timestamp": 1785847426498,
+      "title": "古风书案坐姿人像",
+      "url": "https://x.com/Mrpinecone888/status/2084275583513457082",
+      "collectedAt": "2026-08-04T12:43:50.107Z",
+      "githubSyncedAt": "2026-08-04T12:43:50.107Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "城市",
