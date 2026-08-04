@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T12:46:01.418Z",
+  "updatedAt": "2026-08-04T12:51:26.458Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_msenn99r_8kg2",
+      "image": "https://pbs.twimg.com/media/HOl5bG0XIAA2Jcf?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOl5bG0XIAA2Jcf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOl5bGxWsAABLgU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOl5bGxWkAALtTO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOl5bG1WYAESrDW?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示\n一位20多岁的年轻成年东亚女性坐在现代极简厨房的浅色中岛台边缘，画面从头顶拍至大腿中部。人物位于中央略偏右，身体以三分之二角度朝向画面左侧，髋部轻靠台面，腰背自然挺直并略微侧弯。左臂向后伸展，左手支撑在台面上；右手自然放在大腿或裙摆附近，手指放松。她头部轻轻向左倾斜，平静直视镜头，嘴唇自然微启，神情安静、柔和、略带疏离感。\n她拥有精致偏长的鹅蛋脸、柔和清晰的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和低饱和裸粉色嘴唇。妆容极淡，仅有轻薄底妆、自然睫毛、细眼线、浅灰棕眼影和轻微粉色腮红。肤色白皙偏中性冷调，保留真实毛孔、细小绒毛、自然肤色变化和柔和皮脂高光，不要塑料磨皮。\n深棕黑色超长头发自然披散，偏分，带柔软松散大波浪，大部分垂落于肩膀和胸前，发尾延伸至腰部附近。保留真实发量、发丝层次、重量、碎发和轻微自然凌乱感。\n她穿一件低饱和灰粉色或藕粉色真丝吊带短睡裙，细肩带，深V领口带精致同色蕾丝拼接，裙身贴合腰线后自然垂落至大腿上部，裙摆边缘带窄蕾丝。面料具有柔和缎面反光与真实褶皱，完全不透明。左上臂外侧有一处灰黑色花卉线稿纹身，图案清晰但不过度抢眼。\n环境为现代高档公寓厨房，奶油白墙面、浅木色橱柜、白色石材中岛台、嵌入式烤箱、极简吊灯和干净台面。背景保持整洁并轻微虚化，不出现杂物。\n柔和自然窗光从画面左前方进入，与室内暖灰环境光融合，均匀照亮面部、锁骨、肩膀、手臂和粉色缎面，右侧保留浅淡阴影。整体低饱和、低对比，以暖灰、奶油白、浅木色、藕粉和深棕发色为主。\n摄影风格：50mm或85mm镜头，f/2.0，平视略高机位，中浅景深，双眼、嘴唇、纹身、发丝、蕾丝和缎面纹理清晰，背景柔和虚化，真实皮肤与材质细节，轻微ISO400胶片颗粒，Black Pro-Mist 1/8柔化，soft Korean lifestyle editorial，cinematic apartment portrait，photorealistic。\n避免：未成年人特征、裸体、露点、透明睡裙、夸张身材、色情姿势、错误纹身位置、畸形手指、融合手臂、错误厨房结构、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOl5bG0XIAA2Jcf?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOl5bGxWsAABLgU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOl5bGxWkAALtTO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOl5bG1WYAESrDW?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083492938940608750",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785847758255,
+      "title": "公寓厨房电影感女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2083492938940608750",
+      "collectedAt": "2026-08-04T12:51:26.458Z",
+      "githubSyncedAt": "2026-08-04T12:51:26.458Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
