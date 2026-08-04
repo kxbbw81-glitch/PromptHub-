@@ -5,6 +5,7 @@
 
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const WEBSITE_URL = GITHUB_PAGES_URL;
+const VERIFICATION_STALE_MS = 45000;
 
 function $(s) { return document.querySelector(s); }
 
@@ -90,9 +91,14 @@ function renderVerificationStatus(feedback, queueLength = 0) {
   }
 
   const state = receipt?.state || (queueLength > 0 ? 'queued' : 'idle');
-  panel.className = `verification-status${state === 'verified' ? ' success' : state === 'failed' ? ' error' : ''}`;
-  icon.textContent = state === 'verified' ? '✓' : state === 'failed' ? '!' : '⏳';
-  text.textContent = receipt?.message || (queueLength > 0 ? `正在处理 ${queueLength} 个待验证收藏` : '暂无收藏验证记录');
+  const isStaleSync = state === 'syncing'
+    && Date.now() - Date.parse(receipt?.updatedAt || 0) > VERIFICATION_STALE_MS;
+  const displayState = isStaleSync ? 'failed' : state;
+  panel.className = `verification-status${displayState === 'verified' ? ' success' : displayState === 'failed' ? ' error' : ''}`;
+  icon.textContent = displayState === 'verified' ? '✓' : displayState === 'failed' ? '!' : '⏳';
+  text.textContent = isStaleSync
+    ? `GitHub 验证超时，${queueLength} 个提示词仍在队列中，请点击下方重试`
+    : receipt?.message || (queueLength > 0 ? `正在处理 ${queueLength} 个待验证收藏` : '暂无收藏验证记录');
   panel.style.display = 'flex';
 }
 
@@ -147,6 +153,9 @@ async function waitForCollectionVerification(id, button) {
     }
     button.textContent = receipt.state === 'syncing' ? '正在验证…' : '已加入队列';
   }
+  button.disabled = false;
+  button.textContent = '↻ 验证超时，重试收藏';
+  showToast('GitHub 验证超时，收藏仍保留在队列中');
   await updateQueueUI();
 }
 
@@ -178,6 +187,16 @@ async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
     }
     button.textContent = `正在验证 ${verified}/${trackedIds.length}`;
   }
+  trackedIds.forEach(id => {
+    const promptButton = buttonsById.get(id);
+    if (promptButton) {
+      promptButton.disabled = false;
+      promptButton.textContent = '↻ 重试收藏';
+    }
+  });
+  button.disabled = false;
+  button.textContent = '↻ 验证超时，重试主站';
+  showToast('GitHub 验证超时，收藏仍保留在队列中');
   await updateQueueUI();
 }
 

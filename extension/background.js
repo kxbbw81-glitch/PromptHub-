@@ -15,6 +15,7 @@ const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
 const RECEIPT_KEY = 'prompthub_collection_receipts';
 const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';
 const PRIMARY_RETRY_DELAY_MINUTES = 2;
+const GITHUB_REQUEST_TIMEOUT_MS = 30000;
 let queueMutation = Promise.resolve();
 let receiptMutation = Promise.resolve();
 
@@ -158,7 +159,7 @@ chrome.runtime.onInstalled.addListener((details) => {
     title: '🌐 打开 PromptHub',
     contexts: ['page']
   });
-
+  queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue recovery after update failed:', error?.message));
 });
 
 // --- 右键菜单点击 ---
@@ -579,7 +580,7 @@ async function syncQueuedItems() {
   } catch (error) {
     const message = error?.message || 'GitHub 主站写入失败';
     const displayMessage = formatGitHubError(error);
-    if (error?.retryable || /保存冲突|409|422/.test(message)) await schedulePrimaryRetry();
+    if (isRetryableGitHubError(error)) await schedulePrimaryRetry();
     await setCollectionReceipts(queueSnapshot, 'failed', { error: displayMessage, message: '收藏失败，已保留在队列中等待自动重试' });
     return { success: false, error: displayMessage };
   }
@@ -702,6 +703,28 @@ function githubHeaders(token) {
   };
 }
 
+async function fetchGitHub(url, options = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), GITHUB_REQUEST_TIMEOUT_MS);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } catch (error) {
+    if (error?.name === 'AbortError') throw new Error('GitHub 请求超时');
+    if (/failed to fetch|networkerror|network request failed/i.test(String(error?.message || error || ''))) {
+      throw new Error('GitHub 网络连接失败');
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function isRetryableGitHubError(error) {
+  if (error?.retryable) return true;
+  const message = String(error?.message || error || '');
+  return /GitHub 请求超时|GitHub 网络连接失败|Failed to fetch|NetworkError|\b(?:408|429|5\d{2})\b/.test(message);
+}
+
 function formatGitHubError(error) {
   const message = String(error?.message || error || 'GitHub 同步失败');
   if (/\b(401|403)\b/.test(message)) {
@@ -709,6 +732,12 @@ function formatGitHubError(error) {
   }
   if (/\b(409|422)\b|保存冲突/.test(message)) {
     return 'GitHub 正在更新收藏数据，已保留队列并自动重试';
+  }
+  if (/GitHub 请求超时/.test(message)) {
+    return 'GitHub 请求超时，已保留队列并将在 2 分钟后自动重试';
+  }
+  if (/GitHub 网络连接失败|\b(?:408|429|5\d{2})\b/.test(message)) {
+    return 'GitHub 暂时无法连接，已保留队列并将在 2 分钟后自动重试';
   }
   if (/GitHub 收藏数据无法读取|GitHub (raw|Blob) 读取失败|收藏数据格式错误/.test(message)) {
     return 'GitHub 收藏数据无法读取，队列已保留，请稍后重试';
@@ -730,7 +759,7 @@ async function schedulePrimaryRetry() {
 }
 
 async function readGitHubCollections(token) {
-  const response = await fetch(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
+  const response = await fetchGitHub(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
   if (response.status === 404) return { sha: '', collections: [] };
   if (response.status === 401 || response.status === 403) {
     throw new Error(`GitHub Token 权限不足 (${response.status})`);
@@ -752,14 +781,14 @@ async function readGitHubCollections(token) {
 
   const readRawCollections = async () => {
     const rawUrl = payload.download_url || `${GITHUB_COLLECTIONS_RAW}?_=${Date.now()}`;
-    const rawResponse = await fetch(rawUrl, { headers: { Accept: 'application/json' }, cache: 'no-store' });
+    const rawResponse = await fetchGitHub(rawUrl, { headers: { Accept: 'application/json' }, cache: 'no-store' });
     if (!rawResponse.ok) throw new Error(`GitHub raw 读取失败 (${rawResponse.status})`);
     return parseCollectionsPayload(await rawResponse.text(), 'raw');
   };
 
   const readBlobCollections = async () => {
     if (!payload.sha) throw new Error('GitHub Blob 读取失败 (缺少文件版本)');
-    const blobResponse = await fetch(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(payload.sha)}`, { headers: githubHeaders(token) });
+    const blobResponse = await fetchGitHub(`${GITHUB_BLOB_API_BASE}${encodeURIComponent(payload.sha)}`, { headers: githubHeaders(token) });
     if (!blobResponse.ok) throw new Error(`GitHub Blob 读取失败 (${blobResponse.status})`);
     const blob = await blobResponse.json();
     if (typeof blob.content !== 'string' || !blob.content.trim()) throw new Error('GitHub Blob 读取失败 (内容为空)');
@@ -791,6 +820,7 @@ async function readGitHubCollections(token) {
 
     return { sha: payload.sha || '', collections: await readRawCollections() };
   } catch (error) {
+    if (isRetryableGitHubError(error)) throw error;
     console.warn('[PromptHub] GitHub collections parse failed:', error?.message || error);
     throw new Error('GitHub 收藏数据格式错误');
   }
@@ -807,7 +837,7 @@ async function writeGitHubCollections(token, collections, sha) {
   };
   if (sha) body.sha = sha;
 
-  const response = await fetch(GITHUB_COLLECTIONS_API, {
+  const response = await fetchGitHub(GITHUB_COLLECTIONS_API, {
     method: 'PUT',
     headers: { ...githubHeaders(token), 'Content-Type': 'application/json' },
     body: JSON.stringify(body)

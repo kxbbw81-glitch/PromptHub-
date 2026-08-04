@@ -9,7 +9,7 @@ const backgroundSource = fs.readFileSync(path.join(__dirname, '../extension/back
 
 function createHarness() {
   const storage = { prompthub_github_token: 'github_pat_test_token_with_write_permission' };
-  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawFailure: false, rawGetCalls: 0, blobGetCalls: 0, conflictOnce: false, alwaysConflict: false };
+  const remote = { collections: [], putCalls: 0, omitApiContent: false, rawFailure: false, rawGetCalls: 0, blobGetCalls: 0, conflictOnce: false, alwaysConflict: false, hangRequests: false };
   const alarms = [];
   const alarmListeners = [];
   const event = { addListener() {} };
@@ -27,6 +27,7 @@ function createHarness() {
   const context = {
     TextDecoder,
     TextEncoder,
+    AbortController,
     URL,
     console,
     setTimeout: (callback, ms) => setTimeout(callback, Math.min(Number(ms) || 0, 1)),
@@ -47,6 +48,17 @@ function createHarness() {
       tabs: { create: async () => ({}), query: async () => [], update: async () => ({}) }
     },
     fetch: async (url, options = {}) => {
+      if (remote.hangRequests) {
+        return new Promise((resolve, reject) => {
+          const abort = () => {
+            const error = new Error('The operation was aborted');
+            error.name = 'AbortError';
+            reject(error);
+          };
+          if (options.signal?.aborted) abort();
+          else options.signal?.addEventListener('abort', abort, { once: true });
+        });
+      }
       if ((options.method || 'GET') === 'PUT') {
         remote.putCalls += 1;
         if (remote.alwaysConflict || (remote.conflictOnce && remote.putCalls === 1)) {
@@ -236,6 +248,25 @@ test('repeated GitHub save conflicts keep the queue and schedule automatic retry
   const receipt = await context.getCollectionReceipt('conflict-queued');
   assert.equal(receipt.state, 'failed');
   assert.equal(receipt.error, 'GitHub 正在更新收藏数据，已保留队列并自动重试');
+  assert.equal(storage.prompthub_queue.length, 1);
+  assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
+});
+
+test('GitHub request timeouts leave the queue retryable instead of keeping it syncing', async () => {
+  const { context, remote, storage, alarms } = createHarness();
+  remote.hangRequests = true;
+  const first = prompt('timeout-queued', 'A cinematic e-commerce product photograph of a hand-blown amber glass bottle on a weathered stone surface, soft side lighting, controlled reflections, faint atmospheric haze, 85mm lens, realistic texture, premium catalog styling, photorealistic finish, no text, no logo, no watermark.');
+
+  await context.addToQueue(first);
+  for (let attempt = 0; attempt < 30; attempt += 1) {
+    const receipt = await context.getCollectionReceipt('timeout-queued');
+    if (receipt?.state === 'failed') break;
+    await new Promise(resolve => setTimeout(resolve, 1));
+  }
+
+  const receipt = await context.getCollectionReceipt('timeout-queued');
+  assert.equal(receipt.state, 'failed');
+  assert.equal(receipt.error, 'GitHub 请求超时，已保留队列并将在 2 分钟后自动重试');
   assert.equal(storage.prompthub_queue.length, 1);
   assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
 });

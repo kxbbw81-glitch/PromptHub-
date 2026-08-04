@@ -71,7 +71,7 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
   assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
   assert.match(index, /css\/style\.css\?v=20260802f/);
-  assert.match(index, /js\/app\.js\?v=20260803a/);
+  assert.match(index, /js\/app\.js\?v=20260804a/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -146,6 +146,9 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /await removeSyncedQueueItems\(queueSnapshot\);/);
   assert.match(background, /for \(let attempt = 0; attempt < 8; attempt\+\+\)/);
   assert.match(background, /const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';/);
+  assert.match(background, /const GITHUB_REQUEST_TIMEOUT_MS = 30000;/);
+  assert.match(background, /async function fetchGitHub\(url, options = \{\}\)/);
+  assert.match(background, /function isRetryableGitHubError\(error\)/);
   assert.match(background, /async function schedulePrimaryRetry\(\)/);
   assert.match(background, /formatGitHubError\(error\)/);
   assert.match(popup, /action: 'addToQueue'/);
@@ -153,6 +156,8 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(popup, /id="btn-collect-all"/);
   assert.match(popup, /已加入收藏队列，等待 GitHub 主站验证/);
   assert.match(popup, /function waitForCollectionVerification/);
+  assert.match(popup, /const VERIFICATION_STALE_MS = 45000;/);
+  assert.match(popup, /GitHub 验证超时/);
   assert.match(popup, /function renderCollectionOutcome/);
   assert.match(popup, /主站已存在/);
   assert.match(popup, /#btn-notice/);
@@ -168,14 +173,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.18\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.18\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.19\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.19\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.18\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.18\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.19\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.19\.0/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
