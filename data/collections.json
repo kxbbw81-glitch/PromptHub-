@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T06:59:33.884Z",
+  "updatedAt": "2026-08-04T09:28:42.563Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_msegh977_vbe3",
+      "image": "https://pbs.twimg.com/media/HO0XVkubsAAVVz-?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO0XVkubsAAVVz-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0XWXkbQAAg2tb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0XXk6bEAAr3js?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a vertical 3:4 commercial campaign poster for a fictional [Product Category] brand.\n\nBrand: [Brand Name]\n\nProduct: [Product Name]\n\nMain word: [Main Word]\n\nTagline: [Tagline]\n\nColor palette: [Color Palette]\n\nModel: [Model]\n\nKey features: [Feature 1], [Feature 2], [Feature 3], [Feature 4]\n\nUse oversized bold typography with a strong one-point or diagonal perspective. The main word must feel integrated into the scene as a giant wall, corridor, street, stage, or spatial structure, with clear depth and readable letterforms.\n\nPlace the character near the center of the composition. The character must hold the product and extend that hand toward the camera, creating an exaggerated foreground and a strong 3D wide-angle effect. The product should be the closest, largest, and sharpest element, followed by the character in the midground and the giant typography in the background.\n\nKeep the product shape accurate, realistic, and clearly branded. Add appropriate details such as condensation, ice, bubbles, fruit, sauce, steam, or packaging elements, but keep them controlled and secondary.\n\nInclude a complete campaign layout with brand name, feature icons, vertical side text, campaign number, release date, product details, barcode, and micro typography. Avoid a thick footer bar that covers the character; distribute the information across the lower corners and side margins.\n\nHigh-resolution commercial photography, realistic skin and materials, strong perspective, dynamic pose, polished brand design, high visual impact.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO0XVkubsAAVVz-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0XWXkbQAAg2tb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO0XXk6bEAAr3js?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2084347909945151630",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785835720916,
+      "title": "产品广告",
+      "url": "https://x.com/Goodmanprotocol/status/2084347909945151630",
+      "collectedAt": "2026-08-04T09:28:42.563Z",
+      "githubSyncedAt": "2026-08-04T09:28:42.563Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
