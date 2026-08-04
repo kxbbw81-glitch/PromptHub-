@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "schedule": "04:17 Asia/Shanghai",
+  "policy": {
+    "approvedSourcesOnly": true,
+    "requireExplicitReusableLicense": true,
+    "requireFullPrompt": true,
+    "requireHttpsResultMedia": true,
+    "requireAttribution": true,
+    "rejectRestrictedThirdPartyIP": true,
+    "targetCategory": "电商视觉"
+  },
+  "sources": [
+    {
+      "id": "awesome-gpt-image-2-commerce",
+      "enabled": true,
+      "adapter": "awesome-gpt-image-2",
+      "name": "awesome-gpt-image-2 Products & E-commerce",
+      "websiteUrl": "https://gpt-image2.canghe.ai/",
+      "repositoryUrl": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "dataUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/cases.json",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/LICENSE",
+      "sourceCategory": "Products & E-commerce",
+      "maxItemsPerRun": 20
+    },
+    {
+      "id": "awesome-aiart-pics-commerce",
+      "enabled": true,
+      "adapter": "awesome-aiart-pics-prompts",
+      "name": "awesome-aiart-pics-prompts commerce examples",
+      "websiteUrl": "https://aiart.pics/",
+      "repositoryUrl": "https://github.com/Jermic/awesome-aiart-pics-prompts",
+      "dataUrl": "https://raw.githubusercontent.com/Jermic/awesome-aiart-pics-prompts/master/README.md",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "maxItemsPerRun": 20
+    }
+  ]
+}

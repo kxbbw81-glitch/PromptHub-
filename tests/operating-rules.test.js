@@ -9,6 +9,7 @@ const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
 const background = fs.readFileSync(path.join(root, 'extension/background.js'), 'utf8');
 const releaseScript = fs.readFileSync(path.join(root, 'scripts/release-domestic-collections.js'), 'utf8');
 const dailyAuditWorkflow = fs.readFileSync(path.join(root, '.github/workflows/audit-daily-collections.yml'), 'utf8');
+const commerceWorkflow = fs.readFileSync(path.join(root, '.github/workflows/sync-public-commerce-sources.yml'), 'utf8');
 
 test('the operating rulebook matches the primary collection architecture', () => {
   assert.match(rules, /data\/collections\.json`? 是收藏数据唯一的权威来源/);
@@ -31,4 +32,10 @@ test('the operating rulebook matches the primary collection architecture', () =>
   assert.match(dailyAuditWorkflow, /cron: '30 15 \* \* \*'/);
   assert.match(dailyAuditWorkflow, /node scripts\/audit-daily-collections\.js --apply/);
   assert.match(dailyAuditWorkflow, /node --test tests\/\*\.test\.js/);
+  assert.match(rules, /公开电商网站采集/);
+  assert.match(rules, /commerce-public-sources\.json/);
+  assert.match(rules, /04:17.*Asia\/Shanghai/);
+  assert.match(commerceWorkflow, /cron: '17 20 \* \* \*'/);
+  assert.match(commerceWorkflow, /node scripts\/sync-public-commerce-sources\.js --apply/);
+  assert.match(commerceWorkflow, /node --test tests\/\*\.test\.js/);
 });

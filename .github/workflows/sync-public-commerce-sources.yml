@@ -1,0 +1,42 @@
+name: Sync Approved Public Commerce Prompts
+
+on:
+  schedule:
+    # 04:17 Asia/Shanghai (UTC+8), separated from X discovery and title audit.
+    - cron: '17 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prompthub-public-commerce-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Read the latest main data
+        run: git pull --ff-only origin main
+      - name: Collect approved public commerce prompts
+        run: node scripts/sync-public-commerce-sources.js --apply
+      - name: Validate collection data and parser behavior
+        run: node --test tests/*.test.js
+      - name: Commit new commerce prompts
+        run: |
+          if git diff --quiet -- data/collections.json; then
+            exit 0
+          fi
+          git config user.name "prompthub-commerce[bot]"
+          git config user.email "prompthub-commerce[bot]@users.noreply.github.com"
+          git add data/collections.json
+          git commit -m "data: sync public commerce prompts"
+          git pull --rebase origin main
+          git push origin HEAD:main
