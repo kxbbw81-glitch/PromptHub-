@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T01:28:32.019Z",
+  "updatedAt": "2026-08-04T01:47:58.790Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-04",
+      "domain": "x.com",
+      "id": "ext_mse00m81_jb9d",
+      "image": "https://pbs.twimg.com/media/HM9C_jVakAAiFoR?format=jpg&name=240x240",
+      "images": [
+        "https://pbs.twimg.com/media/HM9C_jVakAAiFoR?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2生成古风写真：秋水不言。\n\n提示词：\n9:16 竖版，高精度古风仙侠叙事感写真，唐风幻想审美，女主级精修角色海报感，整体画面安静、柔和、若有所思、轻忧郁、温婉，具有秋日江边古渡中的轻叙事感与完整角色海报完成度。画面主体是一位年轻成年东方女性，视觉年龄约 20–28  x.com/liyue_ai/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HM9C_jVakAAiFoR?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2082121144099016793",
+      "tags": [
+        "东方",
+        "古风",
+        "写真",
+        "海报"
+      ],
+      "timestamp": 1785808070786,
+      "title": "GPT Image 2生成古风写真：秋水不言。",
+      "url": "https://x.com/liyue_ai/status/2082121144099016793",
+      "collectedAt": "2026-08-04T01:47:58.789Z",
+      "githubSyncedAt": "2026-08-04T01:47:58.789Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
