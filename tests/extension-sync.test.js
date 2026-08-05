@@ -207,7 +207,7 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
 });
 
-test('large GitHub collections use raw JSON for the pre-write snapshot and blob for confirmation', async () => {
+test('large GitHub collections use raw JSON before writing and metadata sha for confirmation', async () => {
   const { context, remote } = createHarness();
   remote.omitApiContent = true;
   remote.collections = [prompt('existing-large-file', 'A cinematic portrait of an adult woman beside a large window, soft natural light, realistic skin texture, tailored coat, warm neutral interior, 85mm lens, shallow depth of field, editorial photography, photorealistic finish, no text, no watermark.')];
@@ -218,7 +218,7 @@ test('large GitHub collections use raw JSON for the pre-write snapshot and blob 
   assert.equal(result.pendingVerification, true);
   assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
   assert.equal(remote.rawGetCalls >= 1, true);
-  assert.equal(remote.blobGetCalls >= 1, true);
+  assert.equal(remote.blobGetCalls, 0);
   assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
 });
 
@@ -236,7 +236,7 @@ test('large GitHub collections fall back to Blob when raw JSON is temporarily un
   assert.equal(remote.blobGetCalls >= 1, true);
 });
 
-test('post-write verification uses the written GitHub blob when raw JSON is stale', async () => {
+test('post-write verification uses the written GitHub sha when raw JSON is stale', async () => {
   const { context, remote, storage } = createHarness();
   remote.omitApiContent = true;
   remote.rawStaleAfterPut = true;
@@ -248,7 +248,7 @@ test('post-write verification uses the written GitHub blob when raw JSON is stal
   assert.equal(result.pendingVerification, true);
   assert.equal((await waitForReceipt(context, 'verify-with-written-blob')).outcome, 'saved');
   assert.equal(remote.rawGetCalls >= 1, true);
-  assert.equal(remote.blobGetCalls >= 1, true);
+  assert.equal(remote.blobGetCalls, 0);
   assert.deepEqual(remote.collections.map(item => item.id), ['verify-with-written-blob', 'existing-before-stale-raw']);
   assert.equal(storage.prompthub_queue, undefined);
 });

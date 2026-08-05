@@ -779,6 +779,17 @@ async function readGitHubBlobCollections(token, sha) {
   return { sha, collections: parseGitHubCollectionsPayload(decodeBase64Utf8(blob.content), 'Blob') };
 }
 
+async function readGitHubCollectionMetadata(token) {
+  const response = await fetchGitHub(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
+  if (response.status === 404) return { sha: '', size: 0 };
+  if (response.status === 401 || response.status === 403) {
+    throw new Error(`GitHub Token 权限不足 (${response.status})`);
+  }
+  if (!response.ok) throw new Error(`GitHub 读取失败 (${response.status})`);
+  const payload = await response.json();
+  return { sha: payload.sha || '', size: Number(payload.size || 0) };
+}
+
 async function readGitHubCollections(token) {
   const response = await fetchGitHub(GITHUB_COLLECTIONS_API, { headers: githubHeaders(token) });
   if (response.status === 404) return { sha: '', collections: [] };
@@ -860,6 +871,13 @@ async function writeGitHubCollections(token, collections, sha) {
 }
 
 async function verifyGitHubCollections(token, entries, writtenSha = '') {
+  if (writtenSha) {
+    const metadata = await readGitHubCollectionMetadata(token);
+    if (metadata.sha === writtenSha) {
+      return { success: true, count: entries.length, method: 'sha' };
+    }
+  }
+
   const snapshot = writtenSha
     ? await readGitHubBlobCollections(token, writtenSha)
     : await readGitHubCollections(token);
