@@ -1,7 +1,295 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T15:22:28.814Z",
+  "updatedAt": "2026-08-05T19:37:27.690Z",
   "collections": [
+    {
+      "id": "grok_x_2084652727595077860",
+      "title": "日系夏日车内逆光写真",
+      "category": "人像",
+      "tags": [
+        "portrait",
+        "japanese-summer",
+        "car-interior",
+        "backlight",
+        "film-grain",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "9:16，强逆光泛朦、面部高光过曝、浅景深柔焦、轻胶片颗粒，真人摄影，日系夏日车内写真。年轻美女坐在黑色汽车后排，机位从车门外略高处俯拍，中近景偏全身；长卷发散在肩颈，身体后靠，头部大幅仰向车窗阳光，五官被暖白高光融化，呈闭眼般迷离微醺的松弛感。冷白皮，阴影带轻微青绿反射，肩颈、手臂和交叠双腿有柔亮日光层次。白色碎花短袖连衣裙，轻薄棉纱或雪纺质感，蕾丝边和胸前系带，上身轻贴、裙摆在坐姿中自然褶皱；双手搭在脚踝附近，红色甲油，粉白绿小花束放在腰腹与大腿之间。车窗外低饱和绿色植物虚化，深色皮革座椅压暗，前景与窗边漂浮少量泡泡和彩色反光，真实光影，高光溢出但保留身体轮廓",
+      "image": "https://pbs.twimg.com/media/HO4sZm7bkAAd9xF.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO4sZm7bkAAd9xF.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO4sZm7bkAAd9xF.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MANISH1027512/status/2084652727595077860",
+      "url": "https://x.com/MANISH1027512/status/2084652727595077860",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085061960295719293",
+      "title": "电影感视频短片",
+      "category": "视频提示词",
+      "tags": [
+        "cinematic",
+        "action",
+        "gladiator",
+        "historical",
+        "text-to-video",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A fearless Roman gladiator battles two massive lions inside a packed ancient colosseum. The camera opens with a dramatic wide shot of the arena, then smoothly pushes into an intense close-up of the warrior's determined face. Cut to a roaring lion charging in slow motion, sand flying beneath its paws. The gladiator dodges, grabs the lion by the mane, and struggles with incredible strength. Dynamic handheld camera movement, cinematic tracking shots, ultra-realistic fur and skin textures, flying dust, sweat, blood stains, sunlight streaming through the arena, roaring crowd, epic historical atmosphere, high contrast, volumetric lighting, shallow depth of field, 8K photorealistic, HDR, action movie quality, smooth natural motion, dramatic pacing, powerful sound design, Hollywood blockbuster style.",
+      "image": "https://pbs.twimg.com/media/HO-gsJ4awAAvhx9.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO-gsJ4awAAvhx9.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO-gsJ4awAAvhx9.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HO-gsJ4awAAvhx9.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2085061843450798080/vid/avc1/720x1280/ZLUtMBvq0x-fS7O3.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MRB_AI24/status/2085061960295719293",
+      "url": "https://x.com/MRB_AI24/status/2085061960295719293",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085025280629129605",
+      "title": "甜辣棚拍视频短片",
+      "category": "视频提示词",
+      "tags": [
+        "action",
+        "martial-arts",
+        "grok-video",
+        "character",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "0s–2s 镜头切到从膝盖到头的中近景，略仰视，从左前方看角色。 角色突然加速做一套短促连招：向前一步，双拳在胸前快速交替摆拳，再收回到防守姿态。 手臂肌肉紧绷，护臂和尖刺在光线下闪光，体现攻击性。 2s–4s 镜头缓慢推近到腰部以上近景，仍保持略仰视。 角色略侧身，对着“看不见的对手”做一个高位回旋踢的结束动作，身体扭转到最大幅度时短暂停顿，腰部线条、侧腹肌和战斗服剪裁一览无余。 4s–6s 镜头极轻微后退，恢复到中近景。 角色落地收势，双手交叉抱胸或插腰，低头轻笑后抬眼直视镜头，带一点挑衅和自信，慢慢定格。 背景保持干净柔和，角色细节清晰，最后 1 秒动作几乎静止，方便观众仔细打量整体设定。",
+      "image": "https://pbs.twimg.com/media/HO9-5MHawAA7y7O.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO9-5MHawAA7y7O.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO9-5MHawAA7y7O.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Grok Imagine Video 1.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HO9-5MHawAA7y7O.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2085024683431456768/vid/avc1/720x1280/0D3pL9Ym3fvXmZUP.mp4?tag=25",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ou_zhen599/status/2085025280629129605",
+      "url": "https://x.com/ou_zhen599/status/2085025280629129605",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085052968936648924",
+      "title": "巨型白色洞洞鞋时尚广告",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "product-ad",
+        "studio",
+        "fashion",
+        "reference-face",
+        "commercial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the uploaded image as the main facial reference. Preserve the exact real face, skin tone, hairstyle, smile, facial features, and body proportions unchanged. Create an ultra-realistic luxury advertising poster featuring the same young African man dressed entirely in clean white athleisure clothing: oversized white sweatshirt, white jogger trousers, and white Crocs footwear. The subject is casually leaning back against a gigantic oversized white Crocs clog positioned vertically and slightly tilted, using it as a chair/backrest. His hands are relaxed inside his pockets and he has a confident, friendly smile. Background is a seamless premium light-blue studio environment with a glossy reflective floor and smooth gradient backdrop. Behind the subject, place the word \"ChuksAi\" in massive bold white condensed sans-serif typography stretching across the background wall, partially hidden behind the giant Crocs to create depth and a premium commercial advertising look. The oversized Crocs should be extremely detailed with realistic texture, ventilation holes, heel strap, logo button, molded foam construction, subtle shadows, and soft reflections. Studio lighting is soft, clean, high-end commercial lighting with subtle rim lights, realistic shadows, smooth highlights, luxury product-photography aesthetics, and glossy floor reflections. Minimalist composition, modern fashion campaign style, luxury footwear advertisement, professional color grading, ultra-sharp details, photorealistic skin texture, HDR, depth of field, premium magazine-quality finish. Canon EOS R5, 85mm lens, f/2.8, ISO 100, commercial product photography, ultra-realistic 8K resolution, masterpiece, best quality. Aspect Ratio: 4:5 Negative Prompt: blurry, low quality, extra fingers, duplicate limbs, distorted anatomy, bad proportions, cartoon, CGI look, watermark, text artifacts, oversaturated skin, unrealistic lighting, low resolution, face distortion, deformed footwear, poor reflections.",
+      "image": "https://pbs.twimg.com/media/HO-YnRSXYAAwLbt.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO-YnRSXYAAwLbt.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO-YnRSXYAAwLbt.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chukwudiemeka_/status/2085052968936648924",
+      "url": "https://x.com/chukwudiemeka_/status/2085052968936648924",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085064288566186144",
+      "title": "单眼发丝特写",
+      "category": "时尚",
+      "tags": [
+        "portrait",
+        "editorial",
+        "reference-face",
+        "cinematic",
+        "nano-banana",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Use the attached image as the SINGLE reference for appearance. Fully preserve the face, eye shape, eyebrows, nose, lips, jawline, hairstyle, skin tone, and all individual features. This must be exactly the same girl. Natural professional fashion model with realistic skin: natural texture, visible pores, light peach fuzz, natural imperfections, healthy glow. No plastic skin, retouching, or changes to appearance. Create an ultra-realistic cinematic close-up portrait. Only one expressive eye is visible, softly peeking from under thick, voluminous, natural wavy hair. Golden sunset light beautifully backlights the eyelashes and hair, creating a warm glow. Light natural makeup: dusty pink lips, gentle peach blush, natural eyebrows, and maximally realistic skin. The rest of the face is softly hidden by hair and artistic blur, fully focusing attention on the eye. Slight head tilt, vintage film grain, warm light flares, shallow depth of field, cinematic color grading, Vogue Editorial atmosphere, museum-level lighting, ultra-photorealism, ultra-high detail, vertical format 9:16.",
+      "image": "https://pbs.twimg.com/media/HO-i6yCW0AAt0Rb.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO-i6yCW0AAt0Rb.jpg",
+        "https://pbs.twimg.com/media/HO-i6yCX0AA6Wlv.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO-i6yCW0AAt0Rb.jpg",
+        "https://pbs.twimg.com/media/HO-i6yCX0AA6Wlv.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Gemini Nano Banana",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/codewithhajra/status/2085064288566186144",
+      "url": "https://x.com/codewithhajra/status/2085064288566186144",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085049695492084205",
+      "title": "天然鹅卵石高定礼服秀",
+      "category": "时尚",
+      "tags": [
+        "couture",
+        "runway",
+        "surreal-fashion",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra photorealistic haute couture runway photograph of a female supermodel wearing an extravagant gown made entirely from thousands of real natural pebbles. The dress has a fitted sculptural bodice, dramatic floor length skirt, and long sweeping train. Small smooth river stones in beige, ivory, gray, brown, and charcoal completely cover the gown, creating a rich three dimensional rocky texture. No normal fabric is visible. The model walks confidently on a luxury fashion runway. Dramatic cinematic lighting highlights the realistic stone textures, shadows, irregular shapes, and natural imperfections. Full body fashion photography, low angle, blurred audience, avant garde couture, wearable sculpture, ultra realistic skin, photorealistic materials, editorial fashion campaign, 8K detail.",
+      "image": "https://pbs.twimg.com/media/HO-VlP1W8AAwdv4.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO-VlP1W8AAwdv4.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO-VlP1W8AAwdv4.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/aylinspace/status/2085049695492084205",
+      "url": "https://x.com/aylinspace/status/2085049695492084205",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2084990379573846060",
+      "title": "夏日露天咖啡馆牛仔写真",
+      "category": "人像",
+      "tags": [
+        "editorial",
+        "cafe",
+        "film-grain",
+        "portrait",
+        "gpt-image",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Preserve the subject's facial features exactly as they are. Create a cinematic portrait with subtle analog film grain, rich texture, and highly realistic skin featuring natural pores and a matte, plastic-free finish. A stylish young woman is relaxing at an outdoor café terrace on a bright day. She is dressed in an oversized white tee paired with distressed light-blue denim shorts featuring frayed hems. She sits comfortably on a café chair with both knees drawn close to her body, holding a warm coffee cup near her lips as if taking a quiet sip. Her extra-long hair falls in soft, loose waves, with the top section tied into a casual half-up bun while the rest flows naturally. A gentle breeze lifts a few strands of hair for a candid, cinematic feel. She wears slim round sunglasses with warm brown-tinted lenses. Makeup is fresh and understated, including soft peach blush, subtle contouring, a delicate glow on the high points of the face, and nude beige-brown lips. Her accessories are elegant and minimal: small silver stud earrings, a refined silver wristwatch, and a few delicate silver rings. The camera captures her from a slightly off-center angle as she gazes away from the lens, creating a relaxed editorial mood. The background features a charming tree-lined street with lush greenery, outdoor café seating, and softly blurred city life under warm natural daylight. Photorealistic, premium editorial photography, cinematic color grading, shallow depth of field, ultra-detailed textures, authentic film aesthetic. Aspect ratio: 9:16",
+      "image": "https://pbs.twimg.com/media/HO9fqzTaEAAIHJL.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO9fqzTaEAAIHJL.jpg",
+        "https://pbs.twimg.com/media/HO9frmxaQAAjTwr.jpg",
+        "https://pbs.twimg.com/media/HO9fsWEbIAAzlnx.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO9fqzTaEAAIHJL.jpg",
+        "https://pbs.twimg.com/media/HO9frmxaQAAjTwr.jpg",
+        "https://pbs.twimg.com/media/HO9fsWEbIAAzlnx.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/john_my07/status/2084990379573846060",
+      "url": "https://x.com/john_my07/status/2084990379573846060",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085037928485687665",
+      "title": "暖光客厅沙发松弛感人像",
+      "category": "人像",
+      "tags": [
+        "portrait",
+        "lifestyle",
+        "candid",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A relaxed, photorealistic vertical portrait of a woman lounging sideways on a neutral beige sofa, wearing a light blue and white striped one-piece, barefoot with one leg extended toward the camera and the other bent, casual natural pose, gentle confident smile and direct eye contact. Soft, warm ambient light from a nearby lamp mixed with subtle daylight, soft shadows, cozy living room details: blue-and-white striped throw pillows, textured upholstery, terracotta tile floor. Cinematic shallow depth of field, soft bokeh, film-like color grading, warm skin tones, visible fabric and skin texture, minimal retouching, natural makeup, authentic candid mood, high resolution, 35mm–50mm perspective, wide aperture for soft background, balanced composition using rule of thirds, intimate yet tasteful atmosphere.",
+      "image": "https://pbs.twimg.com/media/HO-KsCRbEAMFY6C.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO-KsCRbEAMFY6C.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO-KsCRbEAMFY6C.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iSamarthX/status/2085037928485687665",
+      "url": "https://x.com/iSamarthX/status/2085037928485687665",
+      "domain": "x.com",
+      "date": "2026-08-05",
+      "timestamp": 1785958647602,
+      "collectedAt": "2026-08-05T19:37:27.602Z",
+      "githubSyncedAt": "2026-08-05T19:37:27.602Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
