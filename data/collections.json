@@ -1,7 +1,79 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T06:33:58.236Z",
+  "updatedAt": "2026-08-05T06:44:24.301Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "风景",
+      "date": "2026-08-05",
+      "domain": "x.com",
+      "id": "ext_msfq1qei_f60m",
+      "image": "https://pbs.twimg.com/media/HO41lQrbIAAO79_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO41lQrbIAAO79_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO41mdybIAAWoSh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeGM_obcAAT4WP?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOeGZVJaAAA8Kre?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOeGcNkbgAA_JbP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeGm93bQAA9Tyd?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "```\n围绕任意主题对象组织成明亮广告视觉：让大面积开阔天空或同等通透的户外场域占据主要空间，背景干净、高明度、中高饱和，带轻微自然颗粒和柔软远处云影，只服务于空气感与留白，不加入复杂景物。主题对象被缩成精确的小型实物，放在画面中部偏下的真实手掌或主题合理的承托动作上，承托面从一侧伸入，形成平稳水平线，日光从上方照亮对象顶部并在手部下缘留下清晰阴影，实拍质感、边缘锐利、尺寸克制，让“被郑重托起”的动作成为第一眼记忆。文字系统使用纯白、高反差、无底框覆盖在天空上：上方放极大号几何无衬线英文或主题标题，字距紧、行距压缩，左上形成宽阔字块；下方放更重的中文主题名或核心卖点，左右用巨大圆括号式弧线包围，上方叠一行很小的辅助外文，底部散落极小规格说明，形成大字、微字、实物之间的清爽尺度跳跃。右侧竖排三组细线圆形图标与短标签，线条统一为白色单线，图标带斜杠、简化符号和少量小点；左下保留圆圈箭头或方向符号，像包装说明与界面按钮同时出现。色彩随主题派生：从主题中提取最清爽、最洁净的高明度背景色作为主场域，白色承担文字、图标和弧线并保持最强亮度，主题对象只用小面积固有色或标签色形成识别，承托材质保持自然暖度或主题允许的真实触感，整体情绪必须是晴朗、轻盈、卫生、直接而不冷冰。所有可读内容由新主题重新命名，保留广告说明的层级、密度和位置关系；避免把对象放大成常规产品海报，也避免让图标、文字框或背景装饰抢走托举动作的中心性。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO41lQrbIAAO79_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO41mdybIAAWoSh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeGM_obcAAT4WP?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOeGZVJaAAA8Kre?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOeGcNkbgAA_JbP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOeGm93bQAA9Tyd?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/xiaoxiaodong01/status/2084662806931239074",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785912259051,
+      "title": "人格档案海报",
+      "url": "https://x.com/xiaoxiaodong01/status/2084662806931239074",
+      "collectedAt": "2026-08-05T06:44:24.301Z",
+      "githubSyncedAt": "2026-08-05T06:44:24.301Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-05",
+      "domain": "x.com",
+      "id": "ext_msfpzmq6_ulzb",
+      "image": "https://pbs.twimg.com/media/HO47tvoXMAA1-iR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO47tvoXMAA1-iR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO47t0eX0AAX5xg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO47uVMXMAAoacs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO47u0aWUAAem52?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Low angles, suitcases, flying skirts, and four fresh color palettes capture that perfect moment before departure\n\nGreat for travel portraits, luggage campaigns, summer styling, and social media content.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO47tvoXMAA1-iR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO47t0eX0AAX5xg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO47uVMXMAAoacs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO47u0aWUAAem52?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2084669426981310916",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785912160974,
+      "title": "机场候机人像",
+      "url": "https://x.com/MrLarus/status/2084669426981310916",
+      "collectedAt": "2026-08-05T06:44:24.301Z",
+      "githubSyncedAt": "2026-08-05T06:44:24.301Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
