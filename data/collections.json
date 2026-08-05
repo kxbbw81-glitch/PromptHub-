@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T20:43:09.651Z",
+  "updatedAt": "2026-08-05T06:33:58.236Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-05",
+      "domain": "x.com",
+      "id": "ext_msfpoau0_vekr",
+      "image": "https://pbs.twimg.com/media/HO4UWe-boAAiFDO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO4UWe-boAAiFDO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO4UX79aIAIMv2u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO4UZLybQAAc-_E?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO4UaxJaYAAi8zb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "NARUTO girls～\n请使用下面的prompt生成8张独立的图片（注意，不是多张图片collage到一张里，而是8张独立的图片）   比例：9:16     人物：random adult female character from {NARUTO}     主题：人物海报  x.com/DracoVibeCodin…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO4UWe-boAAiFDO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO4UX79aIAIMv2u?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO4UZLybQAAc-_E?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO4UaxJaYAAi8zb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/DracoVibeCoding/status/2084626263638208944",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1785911632344,
+      "title": "风格炼金术",
+      "url": "https://x.com/DracoVibeCoding/status/2084626263638208944",
+      "collectedAt": "2026-08-05T06:33:58.236Z",
+      "githubSyncedAt": "2026-08-05T06:33:58.236Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2084639066046562542",
       "title": "超写实古装帝王肖像",
