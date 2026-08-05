@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T19:37:27.690Z",
+  "updatedAt": "2026-08-05T21:15:49.272Z",
   "collections": [
     {
       "id": "grok_x_2084652727595077860",
@@ -35,7 +35,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2085061960295719293",
@@ -72,7 +72,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2085025280629129605",
@@ -108,7 +108,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2085052968936648924",
@@ -144,7 +144,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2085064288566186144",
@@ -181,7 +181,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2085049695492084205",
@@ -215,7 +215,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2084990379573846060",
@@ -254,7 +254,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "id": "grok_x_2085037928485687665",
@@ -288,7 +288,7 @@
       "timestamp": 1785958647602,
       "collectedAt": "2026-08-05T19:37:27.602Z",
       "githubSyncedAt": "2026-08-05T19:37:27.602Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-05T21:15:49.264Z"
     },
     {
       "aspectRatio": "3:4",
