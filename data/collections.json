@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T11:08:06.828Z",
+  "updatedAt": "2026-08-05T13:26:36.957Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-05",
+      "domain": "x.com",
+      "id": "ext_msg4e7sh_4wrw",
+      "image": "https://pbs.twimg.com/media/HO6y_aCWkAAXiQR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO6y_aCWkAAXiQR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO6y_aOWcAAjRqh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一张照片级真实、柔和高调的极简棚拍人像。一位明确成年的年轻东亚女性，约22至26岁，坐在简洁木质高凳上，竖构图，从头顶拍至大腿中部。人物位于画面中央，身体正面略微转向画面右侧，双腿自然并拢，一只手放在大腿之间，另一只手抬起轻触头发顶部，手肘向外展开。她直视镜头，嘴唇微启，神情平静、柔和、略带克制的自信感。\n\n她拥有精致柔和的鹅蛋脸、白皙中性肤色、深棕色杏仁眼、自然纤细眉形、秀气鼻梁和裸粉色双唇。妆容清透自然：轻薄半哑光底妆、浅桃粉腮红、柔和棕色眼影、纤细眼线、自然睫毛和低光泽唇妆。深棕近黑色长发盘成蓬松凌乱的高位丸子头，发顶略有松散卷曲，轻薄空气刘海落在额前，脸颊两侧垂落细碎发丝，保留真实飞发。\n\n她穿低饱和灰米色细肩带罗纹针织吊带上衣，交叠式深V领口，修身短款剪裁，细密竖向罗纹和自然布料张力清晰可见；下身搭配同色系浅裸米色高腰修身短裤，简洁无图案，面料平滑柔软，腰线贴合自然。整体造型采用灰米、裸杏和自然肤色，极简、干净、无首饰、无品牌标识。\n\n背景为纯净的浅灰白摄影棚墙面，左侧窗光投下大块几何矩形光影，明亮但柔和的自然光从画面左前方进入，均匀照亮面部、肩颈、手臂、腰腹和大腿，右侧形成浅淡阴影。整体高亮度、低饱和、低对比，空气感强，带有韩系美容画报、日系生活写真和极简时尚棚拍质感。85mm镜头，f/2.8，略高于眼平机位，浅景深，双眼精准对焦，背景轻柔虚化。保留真实毛孔、细小绒毛、自然肤色变化、发丝、针织和木凳纹理，轻微ISO 200胶片颗粒；无塑料皮肤、无过度磨皮、无夸张比例、无畸形手指、无额外肢体、无文字、标志、水印、边框或拼图，比例3:4。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO6y_aCWkAAXiQR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO6y_aOWcAAjRqh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2084972690947907783",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785936356081,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2084972690947907783",
+      "collectedAt": "2026-08-05T13:26:36.957Z",
+      "githubSyncedAt": "2026-08-05T13:26:36.957Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-05",
+      "domain": "x.com",
+      "id": "ext_msg4a61g_u72q",
+      "image": "https://pbs.twimg.com/media/HO8WhO7WYAAVtqP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO8WhO7WYAAVtqP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO8WjLBXAAA9lLH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO8Wk-iXkAAzV-3?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "这组真的有点像，把黄昏穿在身上了。\n\n[场景/草地 + 白花灌木 + 户外花园] → [画面先天就有夏天恋爱感]，没有复杂背景，整片绿色把人物托得很干净，白花又悄悄补了一点温柔和精致。\n[服装/珊瑚粉挂脖系结长裙 + 淡花纹印花] → [甜而不腻，肉感和仙气一起成立]，颜色吃满夕阳，布料一被光打透，整个人会有种发光的感觉。\n[姿态/侧躺、后仰回看、半跪坐] → [同一套裙子拍出三种情绪层次]，有慵懒、有暧昧，也有那种“她明明很温柔，但不好接近”的距离感。\n[光线/日落逆光 + 金色边缘光] → [头发、肩线和腿部轮廓都被勾出来]，这种光最容易把普通草地拍出电影感，氛围会比直给美更抓人。\n[质感/微风发丝 + 柔皮肤 + 低机位近距离] → [又轻又热，又柔又有攻击性]，你会觉得她不是在摆拍，像是刚好被黄昏偏爱了一下。\n\n有些图好看，是因为人漂亮。\n有些图让人舍不得划走，是因为连空气都站在她那边。\n这组明显是后者。\n直接把图片发给模型，它自动识别人物，套进提示词出图。提示词见评论区，欢迎返图",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO8WhO7WYAAVtqP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO8WjLBXAAA9lLH?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO8Wk-iXkAAzV-3?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2084911256125788514",
+      "tags": [
+        "电影感"
+      ],
+      "timestamp": 1785936167189,
+      "title": "这组真的有点像，把黄昏穿在身上了。",
+      "url": "https://x.com/Soranlan/status/2084911256125788514",
+      "collectedAt": "2026-08-05T13:26:36.957Z",
+      "githubSyncedAt": "2026-08-05T13:26:36.957Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
