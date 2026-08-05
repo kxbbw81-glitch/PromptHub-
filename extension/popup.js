@@ -97,7 +97,7 @@ function renderVerificationStatus(feedback, queueLength = 0) {
   panel.className = `verification-status${displayState === 'verified' ? ' success' : displayState === 'failed' ? ' error' : ''}`;
   icon.textContent = displayState === 'verified' ? '✓' : displayState === 'failed' ? '!' : '⏳';
   text.textContent = isStaleSync
-    ? `GitHub 验证超时，${queueLength} 个提示词仍在队列中，请点击下方重试`
+    ? `GitHub 队列提交超时，${queueLength} 个提示词仍在本机队列中，请点击下方重试`
     : receipt?.message || (queueLength > 0 ? `正在处理 ${queueLength} 个待验证收藏` : '暂无收藏验证记录');
   panel.style.display = 'flex';
 }
@@ -107,6 +107,9 @@ function renderCollectionOutcome(button, receipt) {
   button.classList.remove('mini-btn-collected', 'mini-btn-existing', 'mini-btn-rejected');
   if (receipt.outcome === 'saved') {
     button.textContent = '✓ 已写入主站';
+    button.classList.add('mini-btn-collected');
+  } else if (receipt.outcome === 'submitted') {
+    button.textContent = '✓ 已提交队列';
     button.classList.add('mini-btn-collected');
   } else if (receipt.outcome === 'already_exists') {
     button.textContent = '＝ 主站已存在';
@@ -151,11 +154,11 @@ async function waitForCollectionVerification(id, button) {
       await updateQueueUI();
       return;
     }
-    button.textContent = receipt.state === 'syncing' ? '正在验证…' : '已加入队列';
+    button.textContent = receipt.state === 'syncing' ? '正在提交…' : '已加入队列';
   }
   button.disabled = false;
-  button.textContent = '↻ 验证超时，重试收藏';
-  showToast('GitHub 验证超时，收藏仍保留在队列中');
+  button.textContent = '↻ 提交超时，重试收藏';
+  showToast('GitHub 队列提交超时，收藏仍保留在本机队列中');
   await updateQueueUI();
 }
 
@@ -178,14 +181,17 @@ async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
     }
     if (verified === trackedIds.length) {
       const saved = receipts.filter(receipt => receipt?.outcome === 'saved').length;
+      const submitted = receipts.filter(receipt => receipt?.outcome === 'submitted').length;
       const existing = receipts.filter(receipt => receipt?.outcome === 'already_exists').length;
-      button.textContent = existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
+      button.textContent = submitted ? `✓ 已提交队列 ${submitted} 个` : existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
       button.classList.add('mini-btn-collected');
-      showToast(existing ? `主站写入 ${saved} 个；${existing} 个已存在，未重复写入` : `已写入 GitHub 主站 ${saved} 个提示词`);
+      showToast(submitted
+        ? `已提交 GitHub 主站队列 ${submitted} 个提示词，等待自动合并或去重`
+        : existing ? `主站写入 ${saved} 个；${existing} 个已存在，未重复写入` : `已写入 GitHub 主站 ${saved} 个提示词`);
       await updateQueueUI();
       return;
     }
-    button.textContent = `正在验证 ${verified}/${trackedIds.length}`;
+    button.textContent = `正在提交 ${verified}/${trackedIds.length}`;
   }
   trackedIds.forEach(id => {
     const promptButton = buttonsById.get(id);
@@ -195,8 +201,8 @@ async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
     }
   });
   button.disabled = false;
-  button.textContent = '↻ 验证超时，重试主站';
-  showToast('GitHub 验证超时，收藏仍保留在队列中');
+  button.textContent = '↻ 提交超时，重试主站';
+  showToast('GitHub 队列提交超时，收藏仍保留在本机队列中');
   await updateQueueUI();
 }
 
@@ -724,7 +730,7 @@ $('#btn-sync').addEventListener('click', async () => {
       return;
     }
 
-    btn.textContent = '正在写入 GitHub 主站…';
+    btn.textContent = '正在提交 GitHub 主站队列…';
     const syncResult = await chrome.runtime.sendMessage({ action: 'syncToWebsite' });
 
     if (syncResult?.success) {
@@ -732,7 +738,7 @@ $('#btn-sync').addEventListener('click', async () => {
       const savedCount = Number(syncResult.count || 0);
       const skippedCount = Number(syncResult.skipped || 0);
       const syncMessage = savedCount > 0
-        ? `已写入 GitHub 主站 ${savedCount} 个提示词`
+        ? `已提交 GitHub 主站队列 ${savedCount} 个提示词，等待自动合并或去重`
         : skippedCount > 0
           ? `GitHub 主站无新增，${skippedCount} 个提示词已存在`
           : 'GitHub 主站无新增提示词';
@@ -746,13 +752,13 @@ $('#btn-sync').addEventListener('click', async () => {
       `;
       return;
     } else {
-      const errorMessage = syncResult?.error || 'GitHub 主站写入失败';
+      const errorMessage = syncResult?.error || 'GitHub 主站队列提交失败';
       showToast(errorMessage);
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">❌</div>
           <div class="empty-text" style="font-size:14px;color:#e74c3c;font-weight:600;">
-            GitHub 主站写入失败
+            GitHub 主站队列提交失败
           </div>
           <div class="empty-hint" style="margin-top:8px;">
             ${escapeHTML(errorMessage)}<br>收藏已保留在队列中，修复后可再次同步。

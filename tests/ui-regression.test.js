@@ -120,6 +120,7 @@ test('collections use GitHub as their source of truth instead of browser local s
   assert.match(app, /isDomesticSite\(\) \? 300000 : 60000/);
   assert.doesNotMatch(app, /localStorage\.setItem\(COLLECTIONS_KEY/);
   assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
+  assert.match(background, /const GITHUB_INBOX_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/inbox\/';/);
   assert.match(background, /const GITHUB_BLOB_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/git\/blobs\/';/);
   assert.match(background, /async function syncQueueToGitHub\(queue\)/);
   assert.match(popup, /GitHub Token/);
@@ -130,7 +131,8 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(app, /findDuplicateCollection\(getCollections\(\), safeItem\)/);
   assert.match(background, /function collectionFingerprint\(item\)/);
   assert.match(background, /alreadySaved: true, duplicateId:/);
-  assert.match(background, /const skipped = entries\.length - additions\.length;/);
+  assert.match(background, /async function writeGitHubInboxBatch\(token, entries\)/);
+  assert.match(background, /submittedToInbox: true/);
   assert.match(content, /alreadySaved: Boolean\(response\?\.alreadySaved\)/);
   assert.match(background, /async function addItemsToQueue\(items\)/);
   assert.match(background, /action === 'addItemsToQueue'/);
@@ -139,13 +141,11 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /function withQueueLock\(task\)/);
   assert.match(background, /const queueSnapshot = await getQueue\(\);/);
   assert.match(background, /const RECEIPT_KEY = 'prompthub_collection_receipts';/);
-  assert.match(background, /async function verifyGitHubCollections\(token, entries, writtenSha = ''\)/);
-  assert.match(background, /await readGitHubBlobCollections\(token, writtenSha\)/);
-  assert.match(background, /outcome: 'saved'/);
+  assert.match(background, /outcome: result\.submittedToInbox \? 'submitted' : 'saved'/);
   assert.match(background, /outcome: 'already_exists'/);
   assert.match(background, /const result = await syncQueueToGitHub\(queueSnapshot\);/);
   assert.match(background, /await removeSyncedQueueItems\(queueSnapshot\);/);
-  assert.match(background, /for \(let attempt = 0; attempt < 8; attempt\+\+\)/);
+  assert.match(background, /for \(let attempt = 0; attempt < 4; attempt\+\+\)/);
   assert.match(background, /const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';/);
   assert.match(background, /const GITHUB_REQUEST_TIMEOUT_MS = 30000;/);
   assert.match(background, /async function fetchGitHub\(url, options = \{\}\)/);
@@ -155,10 +155,10 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(popup, /action: 'addToQueue'/);
   assert.match(popup, /action: 'addItemsToQueue'/);
   assert.match(popup, /id="btn-collect-all"/);
-  assert.match(popup, /已加入收藏队列，等待 GitHub 主站验证/);
+  assert.match(popup, /已提交 GitHub 主站队列/);
   assert.match(popup, /function waitForCollectionVerification/);
   assert.match(popup, /const VERIFICATION_STALE_MS = 45000;/);
-  assert.match(popup, /GitHub 验证超时/);
+  assert.match(popup, /GitHub 队列提交超时/);
   assert.match(popup, /function renderCollectionOutcome/);
   assert.match(popup, /主站已存在/);
   assert.match(popup, /#btn-notice/);
@@ -174,14 +174,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.21\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.21\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.22\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.22\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.21\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.21\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.22\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.22\.0/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
@@ -199,7 +199,7 @@ test('the extension records an image aspect ratio during prompt recognition', ()
 });
 
 test('the extension reports the GitHub primary-site write result precisely', () => {
-  assert.match(popup, /已写入 GitHub 主站 \$\{savedCount\} 个提示词/);
+  assert.match(popup, /已提交 GitHub 主站队列 \$\{savedCount\} 个提示词/);
   assert.match(popup, /GitHub 主站无新增，\$\{skippedCount\} 个提示词已存在/);
   assert.match(popup, /收藏已保留在队列中，修复后可再次同步/);
   assert.match(background, /GITHUB_LARGE_FILE_BYTES/);

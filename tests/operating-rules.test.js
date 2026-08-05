@@ -10,13 +10,17 @@ const background = fs.readFileSync(path.join(root, 'extension/background.js'), '
 const releaseScript = fs.readFileSync(path.join(root, 'scripts/release-domestic-collections.js'), 'utf8');
 const dailyAuditWorkflow = fs.readFileSync(path.join(root, '.github/workflows/audit-daily-collections.yml'), 'utf8');
 const commerceWorkflow = fs.readFileSync(path.join(root, '.github/workflows/sync-public-commerce-sources.yml'), 'utf8');
+const inboxWorkflow = fs.readFileSync(path.join(root, '.github/workflows/merge-extension-inbox.yml'), 'utf8');
+const inboxMergeScript = fs.readFileSync(path.join(root, 'scripts/merge-extension-inbox.js'), 'utf8');
 
 test('the operating rulebook matches the primary collection architecture', () => {
   assert.match(rules, /data\/collections\.json`? 是收藏数据唯一的权威来源/);
-  assert.match(rules, /收藏后自动写入 GitHub 主站/);
+  assert.match(rules, /提交 data\/inbox\/\*\.json/);
+  assert.match(rules, /扩展不得在浏览器中直接读写整份 `data\/collections\.json`/);
+  assert.match(rules, /GitHub Action 合并提交成功后，才是用户可见主站数据同步成功/);
   assert.match(rules, /30 分钟后由 GitHub Action 发布到国内站/);
   assert.match(rules, /具体状态页/);
-  assert.match(rules, /只有 GitHub 成功确认才是主站同步成功/);
+  assert.match(rules, /只有 GitHub Action 合并提交成功才是主站同步成功/);
   assert.match(rules, /Grok CLI/);
   assert.match(rules, /GROK_CANDIDATE_FORMAT\.md/);
   assert.match(rules, /禁止使用浏览器自动操作 X/);
@@ -28,6 +32,14 @@ test('the operating rulebook matches the primary collection architecture', () =>
   assert.match(app, /getCollectionsRequestUrl/);
   assert.match(background, /queueAutomaticPrimarySync/);
   assert.match(background, /collectionSourceKey/);
+  assert.match(background, /writeGitHubInboxBatch/);
+  assert.match(background, /submittedToInbox: true/);
+  assert.match(inboxWorkflow, /name: Merge Extension Inbox/);
+  assert.match(inboxWorkflow, /data\/inbox\/\*\.json/);
+  assert.match(inboxWorkflow, /node scripts\/merge-extension-inbox\.js --apply/);
+  assert.match(inboxWorkflow, /node --test tests\/\*\.test\.js/);
+  assert.match(inboxMergeScript, /function mergeExtensionInbox/);
+  assert.match(inboxMergeScript, /githubSyncedAt: now/);
   assert.match(releaseScript, /30 \* 60 \* 1000/);
   assert.match(dailyAuditWorkflow, /cron: '30 15 \* \* \*'/);
   assert.match(dailyAuditWorkflow, /node scripts\/audit-daily-collections\.js --apply/);

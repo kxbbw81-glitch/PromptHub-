@@ -21,7 +21,8 @@ function createHarness() {
     hangRequests: false,
     rawStaleAfterPut: false,
     staleRawCollections: null,
-    currentSha: 'test-sha'
+    currentSha: 'test-sha',
+    inbox: []
   };
   const alarms = [];
   const alarmListeners = [];
@@ -79,6 +80,11 @@ function createHarness() {
         }
         const body = JSON.parse(options.body);
         const decoded = Buffer.from(body.content, 'base64').toString('utf8');
+        if (String(url).includes('/contents/data/inbox/')) {
+          remote.currentSha = `test-inbox-sha-${remote.putCalls}`;
+          remote.inbox.push({ url: String(url), payload: JSON.parse(decoded) });
+          return { ok: true, status: 200, json: async () => ({ content: { sha: remote.currentSha }, commit: { sha: `commit-${remote.putCalls}` } }) };
+        }
         const previousCollections = remote.collections;
         remote.collections = JSON.parse(decoded).collections;
         remote.currentSha = `test-sha-${remote.putCalls}`;
@@ -110,6 +116,10 @@ function createHarness() {
   vm.createContext(context);
   vm.runInContext(backgroundSource, context);
   return { context, remote, storage, alarms, alarmListeners };
+}
+
+function inboxIds(remote) {
+  return remote.inbox.flatMap(batch => batch.payload.items || []).map(item => item.id);
 }
 
 function prompt(id, body) {
@@ -150,7 +160,7 @@ test('concurrent collections are saved locally before automatic GitHub primary s
   assert.equal((await waitForReceipt(context, 'first')).state, 'verified');
   assert.equal((await waitForReceipt(context, 'second')).state, 'verified');
   assert.ok(remote.putCalls >= 1);
-  assert.deepEqual(remote.collections.map(item => item.id), ['second', 'first']);
+  assert.deepEqual(inboxIds(remote), ['first', 'second']);
   assert.equal(storage.prompthub_queue, undefined);
 });
 
@@ -170,7 +180,7 @@ test('one-click collection batches detected prompts into one queued GitHub write
   assert.equal((await waitForReceipt(context, 'batch-first')).state, 'verified');
   assert.equal((await waitForReceipt(context, 'batch-second')).state, 'verified');
   assert.equal(remote.putCalls, 1);
-  assert.deepEqual(remote.collections.map(item => item.id), ['batch-second', 'batch-first']);
+  assert.deepEqual(inboxIds(remote), ['batch-first', 'batch-second']);
   assert.equal(storage.prompthub_queue, undefined);
 });
 
@@ -183,12 +193,12 @@ test('one-click collection identifies the prompt already on the GitHub primary s
   const result = await context.addItemsToQueue([existing, newPrompt]);
 
   assert.deepEqual(Array.from(result.outcomes, outcome => outcome.outcome), ['queued', 'queued']);
-  assert.equal((await waitForReceipt(context, 'batch-existing')).outcome, 'already_exists');
-  assert.equal((await waitForReceipt(context, 'batch-new')).outcome, 'saved');
-  assert.deepEqual(remote.collections.map(item => item.id), ['batch-new', 'batch-existing']);
+  assert.equal((await waitForReceipt(context, 'batch-existing')).outcome, 'submitted');
+  assert.equal((await waitForReceipt(context, 'batch-new')).outcome, 'submitted');
+  assert.deepEqual(inboxIds(remote), ['batch-existing', 'batch-new']);
 });
 
-test('incomplete prompts and duplicate source posts never reach the primary site', async () => {
+test('incomplete prompts are rejected while repeated source posts are left to server merge dedupe', async () => {
   const { context, remote } = createHarness();
   const complete = prompt('complete', 'A cinematic editorial portrait of an adult woman standing in a quiet modern gallery, soft directional daylight, tailored black coat, realistic fabric texture, 85mm lens, shallow depth of field, gentle shadows, refined color palette, high-end magazine photography, photorealistic finish, no text, no watermark.');
   const samePost = { ...complete, id: 'same-post', prompt: `${complete.prompt} Additional styling notes.`, title: 'Same source' };
@@ -203,11 +213,11 @@ test('incomplete prompts and duplicate source posts never reach the primary site
   assert.equal(first.pendingVerification, true);
   assert.equal(duplicate.pendingVerification, true);
   assert.equal(rejected.success, false);
-  assert.deepEqual(remote.collections.map(item => item.id), ['complete']);
+  assert.deepEqual(inboxIds(remote), ['complete', 'same-post']);
   assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
 });
 
-test('large GitHub collections use raw JSON before writing and metadata sha for confirmation', async () => {
+test('large GitHub collections are not downloaded by the extension before queue submission', async () => {
   const { context, remote } = createHarness();
   remote.omitApiContent = true;
   remote.collections = [prompt('existing-large-file', 'A cinematic portrait of an adult woman beside a large window, soft natural light, realistic skin texture, tailored coat, warm neutral interior, 85mm lens, shallow depth of field, editorial photography, photorealistic finish, no text, no watermark.')];
@@ -216,13 +226,13 @@ test('large GitHub collections use raw JSON before writing and metadata sha for 
   const result = await context.addToQueue(next);
 
   assert.equal(result.pendingVerification, true);
-  assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'saved');
-  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.equal((await waitForReceipt(context, 'raw-fallback-new')).outcome, 'submitted');
+  assert.equal(remote.rawGetCalls, 0);
   assert.equal(remote.blobGetCalls, 0);
-  assert.deepEqual(remote.collections.map(item => item.id), ['raw-fallback-new', 'existing-large-file']);
+  assert.deepEqual(inboxIds(remote), ['raw-fallback-new']);
 });
 
-test('large GitHub collections fall back to Blob when raw JSON is temporarily unavailable', async () => {
+test('raw GitHub failures do not block extension inbox submission', async () => {
   const { context, remote } = createHarness();
   remote.omitApiContent = true;
   remote.rawFailure = true;
@@ -231,12 +241,12 @@ test('large GitHub collections fall back to Blob when raw JSON is temporarily un
   const result = await context.addToQueue(next);
 
   assert.equal(result.pendingVerification, true);
-  assert.equal((await waitForReceipt(context, 'blob-fallback-new')).outcome, 'saved');
-  assert.equal(remote.rawGetCalls >= 1, true);
-  assert.equal(remote.blobGetCalls >= 1, true);
+  assert.equal((await waitForReceipt(context, 'blob-fallback-new')).outcome, 'submitted');
+  assert.equal(remote.rawGetCalls, 0);
+  assert.equal(remote.blobGetCalls, 0);
 });
 
-test('post-write verification uses the written GitHub sha when raw JSON is stale', async () => {
+test('stale raw GitHub data does not affect extension inbox submission', async () => {
   const { context, remote, storage } = createHarness();
   remote.omitApiContent = true;
   remote.rawStaleAfterPut = true;
@@ -246,10 +256,10 @@ test('post-write verification uses the written GitHub sha when raw JSON is stale
   const result = await context.addToQueue(next);
 
   assert.equal(result.pendingVerification, true);
-  assert.equal((await waitForReceipt(context, 'verify-with-written-blob')).outcome, 'saved');
-  assert.equal(remote.rawGetCalls >= 1, true);
+  assert.equal((await waitForReceipt(context, 'verify-with-written-blob')).outcome, 'submitted');
+  assert.equal(remote.rawGetCalls, 0);
   assert.equal(remote.blobGetCalls, 0);
-  assert.deepEqual(remote.collections.map(item => item.id), ['verify-with-written-blob', 'existing-before-stale-raw']);
+  assert.deepEqual(inboxIds(remote), ['verify-with-written-blob']);
   assert.equal(storage.prompthub_queue, undefined);
 });
 
@@ -261,9 +271,9 @@ test('GitHub save conflicts are retried against a fresh remote snapshot', async 
   const result = await context.addToQueue(first);
 
   assert.equal(result.pendingVerification, true);
-  assert.equal((await waitForReceipt(context, 'conflict-retry')).outcome, 'saved');
+  assert.equal((await waitForReceipt(context, 'conflict-retry')).outcome, 'submitted');
   assert.equal(remote.putCalls, 2);
-  assert.deepEqual(remote.collections.map(item => item.id), ['conflict-retry']);
+  assert.deepEqual(inboxIds(remote), ['conflict-retry']);
   assert.equal(storage.prompthub_queue, undefined);
 });
 

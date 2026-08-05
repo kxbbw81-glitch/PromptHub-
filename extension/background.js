@@ -9,9 +9,11 @@ const WEBSITE_URL = GITHUB_PAGES_URL;
 const QUEUE_KEY = 'prompthub_queue';
 const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
+const GITHUB_INBOX_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/inbox/';
 const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
 const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/git/blobs/';
 const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
+const EXTENSION_INBOX_SCHEMA_VERSION = 1;
 const RECEIPT_KEY = 'prompthub_collection_receipts';
 const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';
 const PRIMARY_RETRY_DELAY_MINUTES = 2;
@@ -324,8 +326,8 @@ async function addItemsToQueue(items) {
 
   await setCollectionReceipts(queued.trackedItems, 'queued', {
     message: queued.added
-      ? `已加入 ${queued.added} 个提示词，等待 GitHub 主站验证（队列 ${queued.count} 个）`
-      : '已在队列，正在重新验证 GitHub 主站'
+      ? `已加入 ${queued.added} 个提示词，等待提交 GitHub 主站队列（本机队列 ${queued.count} 个）`
+      : '已在本机队列，正在重新提交 GitHub 主站队列'
   });
   queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue sync failed:', error?.message));
   return {
@@ -530,11 +532,11 @@ async function syncQueuedItems() {
   const queueSnapshot = await getQueue();
   if (queueSnapshot.length === 0) return { success: false, error: '待同步队列为空' };
 
-  await setCollectionReceipts(queueSnapshot, 'syncing', { message: '正在写入并验证 GitHub 主站' });
+  await setCollectionReceipts(queueSnapshot, 'syncing', { message: '正在提交 GitHub 主站入站队列' });
   try {
     const result = await syncQueueToGitHub(queueSnapshot);
     if (!result.success || !result.verified) {
-      const error = result.error || 'GitHub 主站验证未完成';
+      const error = result.error || 'GitHub 主站队列提交未完成';
       await setCollectionReceipts(queueSnapshot, 'failed', { error, message: '收藏未确认，保留在队列中等待重试' });
       await schedulePrimaryRetry();
       return { ...result, success: false, error };
@@ -547,8 +549,8 @@ async function syncQueuedItems() {
     const existingItems = queueSnapshot.filter(item => existingIds.has(item.id));
     if (savedItems.length) {
       await setCollectionReceipts(savedItems, 'verified', {
-        outcome: 'saved',
-        message: '已写入 GitHub 主站',
+        outcome: result.submittedToInbox ? 'submitted' : 'saved',
+        message: result.submittedToInbox ? '已提交 GitHub 主站队列，等待自动合并或去重' : '已写入 GitHub 主站',
         verifiedAt: new Date().toISOString()
       });
     }
@@ -575,10 +577,13 @@ async function syncQueuedItems() {
       existingIds: result.existingIds || [],
       verified: true,
       verifiedCount: result.verifiedCount || queueSnapshot.length,
-      verifiedAt: new Date().toISOString()
+      verifiedAt: new Date().toISOString(),
+      submittedToInbox: Boolean(result.submittedToInbox),
+      inboxPath: result.inboxPath || '',
+      commitSha: result.commitSha || ''
     };
   } catch (error) {
-    const message = error?.message || 'GitHub 主站写入失败';
+    const message = error?.message || 'GitHub 主站队列提交失败';
     const displayMessage = formatGitHubError(error);
     if (isRetryableGitHubError(error)) await schedulePrimaryRetry();
     await setCollectionReceipts(queueSnapshot, 'failed', { error: displayMessage, message: '收藏失败，已保留在队列中等待自动重试' });
@@ -870,6 +875,57 @@ async function writeGitHubCollections(token, collections, sha) {
   };
 }
 
+function inboxFileSegment(value) {
+  return String(value || 'batch')
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 60) || 'batch';
+}
+
+async function writeGitHubInboxBatch(token, entries) {
+  const now = new Date().toISOString();
+  const safeEntries = entries.map(entry => ({
+    ...entry,
+    collectedAt: entry.collectedAt || now,
+    githubSyncedAt: undefined,
+    domesticSyncedAt: undefined
+  }));
+  const payload = {
+    schemaVersion: EXTENSION_INBOX_SCHEMA_VERSION,
+    kind: 'prompthub-extension-inbox',
+    createdAt: now,
+    count: safeEntries.length,
+    items: safeEntries
+  };
+  const firstId = inboxFileSegment(safeEntries[0]?.id);
+  const nonce = Math.random().toString(36).slice(2, 8);
+  const path = `${Date.now().toString(36)}-${nonce}-${firstId}.json`;
+  const response = await fetchGitHub(`${GITHUB_INBOX_API_BASE}${path}`, {
+    method: 'PUT',
+    headers: { ...githubHeaders(token), 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      message: `data: queue PromptHub extension batch (${safeEntries.length})`,
+      content: encodeBase64Utf8(`${JSON.stringify(payload, null, 2)}\n`)
+    })
+  });
+  if (response.status === 401 || response.status === 403) {
+    throw new Error(`GitHub Token 权限不足 (${response.status})`);
+  }
+  if (response.status === 409 || response.status === 422) {
+    const error = new Error('GitHub 入站队列保存冲突');
+    error.retryable = true;
+    throw error;
+  }
+  if (!response.ok) throw new Error(`GitHub 入站队列保存失败 (${response.status})`);
+  const result = await response.json().catch(() => ({}));
+  return {
+    path: `data/inbox/${path}`,
+    sha: result?.content?.sha || '',
+    commitSha: result?.commit?.sha || ''
+  };
+}
+
 async function verifyGitHubCollections(token, entries, writtenSha = '') {
   if (writtenSha) {
     const metadata = await readGitHubCollectionMetadata(token);
@@ -968,46 +1024,23 @@ async function syncQueueToGitHub(queue) {
   if (entries.length === 0) return { success: true, count: 0, skipped: 0, savedIds: [], existingIds: [] };
 
   const token = await getGitHubToken();
-  for (let attempt = 0; attempt < 8; attempt++) {
-    const snapshot = await readGitHubCollections(token);
-    const collections = snapshot.collections.map(sanitizeRemoteItem).filter(Boolean);
-    const savedFingerprints = new Set(collections.map(collectionFingerprint));
-    const savedSources = new Set(collections.map(collectionSourceKey).filter(Boolean));
-    const additions = entries.filter(entry => !savedFingerprints.has(collectionFingerprint(entry)) && !savedSources.has(collectionSourceKey(entry)));
-    const existingEntries = entries.filter(entry => !additions.includes(entry));
-    const skipped = entries.length - additions.length;
-
-    if (additions.length === 0) {
-      return {
-        success: true,
-        count: 0,
-        skipped,
-        savedIds: [],
-        existingIds: existingEntries.map(entry => entry.id),
-        verified: true,
-        verifiedCount: entries.length
-      };
-    }
-
-    const now = new Date().toISOString();
-    const newCollections = additions
-      .map(entry => ({ ...entry, collectedAt: now, githubSyncedAt: now, domesticSyncedAt: null }))
-      .reverse();
-
+  for (let attempt = 0; attempt < 4; attempt++) {
     try {
-      const writeResult = await writeGitHubCollections(token, [...newCollections, ...collections], snapshot.sha);
-      const verification = await verifyGitHubCollections(token, additions, writeResult.sha);
+      const inboxResult = await writeGitHubInboxBatch(token, entries);
       return {
         success: true,
-        count: additions.length,
-        skipped,
-        savedIds: additions.map(entry => entry.id),
-        existingIds: existingEntries.map(entry => entry.id),
+        count: entries.length,
+        skipped: 0,
+        savedIds: entries.map(entry => entry.id),
+        existingIds: [],
         verified: true,
-        verifiedCount: verification.count
+        verifiedCount: entries.length,
+        submittedToInbox: true,
+        inboxPath: inboxResult.path,
+        commitSha: inboxResult.commitSha
       };
     } catch (error) {
-      if (!error.retryable || attempt === 7) throw error;
+      if (!error.retryable || attempt === 3) throw error;
       await waitForRetry(attempt);
     }
   }
