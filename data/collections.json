@@ -1,41 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T09:17:06.590Z",
+  "updatedAt": "2026-08-05T09:17:59.243Z",
   "collections": [
     {
-      "aspectRatio": "2:3",
+      "aspectRatio": "3:4",
       "category": "人像",
       "date": "2026-08-05",
       "domain": "x.com",
-      "id": "ext_msfvi4rz_j3rx",
-      "image": "https://pbs.twimg.com/media/HO0cnxDWgAAaXsv?format=jpg&name=small",
+      "id": "ext_msfvjb0i_dva4",
+      "image": "https://pbs.twimg.com/media/HO7wfFbbEAA4vHs?format=jpg&name=small",
       "images": [
-        "https://pbs.twimg.com/media/HO0cnxDWgAAaXsv?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HO0cnwlWcAA1IBx?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HO0cnwgW8AAXITK?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HO0cnwhX0AAH6C3?format=jpg&name=small"
+        "https://pbs.twimg.com/media/HO7wfFbbEAA4vHs?format=jpg&name=small"
       ],
       "model": "",
-      "prompt": "一张照片级真实、低饱和、自然抓拍感的都市街头人像。一位明确成年的年轻东亚女性，约22至26岁，站在现代城市十字路口附近的人行道上，竖构图，中近景，从头顶拍至腰部附近。人物位于画面中央偏右，身体微微转向画面左侧，肩膀自然放松，轻轻直视镜头，嘴角带克制而温柔的浅笑，神情清醒、亲切、略带时尚感，像朋友在街头随手拍下的一瞬间。\n\n她拥有精致柔和的鹅蛋脸、白皙中性肤色、深棕色杏仁眼、自然细眉、秀气鼻梁和柔和裸粉色双唇。妆容清透自然：轻薄半哑光底妆、浅桃粉腮红、柔和棕色眼影、细眼线、自然睫毛和低光泽裸粉唇。深棕色长发扎成低位马尾，发顶自然蓬松，额前为轻薄弧形刘海，脸颊两侧留有细碎发丝。佩戴一对细长银色大圆环耳饰。\n\n她穿一件做旧深灰黑色宽松牛仔夹克，明显水洗褪色，宽翻领、胸前口袋、金属纽扣、真实缝线和自然褶皱；内搭贴身低饱和咖啡灰色上衣。颈部佩戴多圈细棕色皮绳项链，其中一条长皮绳垂至胸前，末端带小巧银色珠饰和金属吊坠，形成轻微波西米亚风格。\n\n背景为柔和虚化的城市街景，可见现代办公楼、斑马线、路边树木、灯杆、车辆和少量远处行人。阴天或薄雾自然光从正前上方均匀照射，脸部阴影轻柔，发丝和肩部带有浅暖色边缘光。整体采用灰黑、棕灰、浅米色和柔和肤色，低饱和、低对比、轻微灰雾调，带有日系街拍、韩系生活画报和轻微胶片摄影质感。50mm镜头，f/2.0，眼平略高机位，浅景深，双眼精准对焦，背景形成柔和城市散景。保留真实毛孔、细小绒毛、自然肤色变化、发丝、牛仔和皮绳纹理，轻微ISO 400胶片颗粒；无塑料皮肤、无过度磨皮、无夸张比例、无畸形手指、无额外人物靠近主体、无文字、标志、水印、边框或拼图，比例3:4。",
+      "prompt": "以参考图为视觉基础，生成一组 4张独立导出的竖版时尚写真。人物为成年东亚女性，深棕色短发，五官精致，轻熟御姐气质中带一点可爱，保持同一张脸、同一发型、自然真实的身材比例。\n\n人物穿黑色无肩带修身包臀短裙，搭配黑色轻透丝袜、黑色漆皮尖头细高跟鞋、银色圆环耳饰和精致锁骨链，服装简约高级，不出现品牌标志。\n\n场景为黑白复古杂志风室内摄影棚：黑色皮质沙发、白色百叶窗、黑白排版海报墙、粉色复古电话、银色迪斯科球、时尚杂志、老式打字机、白色羊羔绒抱枕和黑色皮夹克。海报使用无意义或通用英文排版，不复制真实品牌与作品文字。\n\n整体采用低饱和黑灰色调，窗外自然光穿过百叶窗，在人物脸部和身体形成柔和明暗层次，搭配轻微直闪摄影质感。真实皮肤纹理，细腻但不过度磨皮，轻微广角，复古时尚杂志大片感，带少量 VHS 扫描线、数字故障颗粒和时间码装饰，但不要覆盖人物面部。\n\n四张动作分别为：\n\n跪坐在沙发上，身体微微侧转，双手拿着粉色卷轴道具搭在肩侧，眼神冷静地看向镜头。\n\n身披黑色皮夹克坐在沙发中央，双腿自然交叠，一只手撑住沙发，神态松弛又自信。\n\n蜷坐在沙发上，双腿弯曲靠近身体，低头整理高跟鞋后抬眼看向镜头，表情略带俏皮。\n\n半躺在沙发和白色绒毛抱枕之间，一只手轻托下巴，另一只手自然垂落，慵懒冷艳。\n\n每张照片使用不同的眼神、头部角度和手部动作，姿态自然舒展，不僵硬，不刻意卖弄性感。画面比例 3:4竖版，高清写实时尚摄影，四张必须分别单独生成，不要拼图。\n\n避免：肢体畸形、丝袜破损、手指错误、高跟鞋变形、面部僵硬、眼神空洞、夸张胸腰比例、过度暴露、低俗姿势、塑料皮肤、强烈霓虹光、乱码文字、Logo、水印、多人入镜。",
       "rawImages": [
-        "https://pbs.twimg.com/media/HO0cnxDWgAAaXsv?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HO0cnwlWcAA1IBx?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HO0cnwgW8AAXITK?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HO0cnwhX0AAH6C3?format=jpg&name=small"
+        "https://pbs.twimg.com/media/HO7wfFbbEAA4vHs?format=jpg&name=small"
       ],
       "referenceImages": [],
       "source": "插件扫描",
-      "sourceUrl": "https://x.com/ToroJushiAi/status/2084821692984021340",
+      "sourceUrl": "https://x.com/you1873118/status/2084868106959364502",
       "tags": [
-        "人像",
+        "写真",
+        "海报",
         "摄影",
         "低饱和"
       ],
-      "timestamp": 1785921422255,
-      "title": "街头涂鸦女性人像",
-      "url": "https://x.com/ToroJushiAi/status/2084821692984021340",
-      "collectedAt": "2026-08-05T09:17:06.590Z",
-      "githubSyncedAt": "2026-08-05T09:17:06.590Z",
+      "timestamp": 1785921476994,
+      "title": "霓虹夜街编辑写真女性人像",
+      "url": "https://x.com/you1873118/status/2084868106959364502",
+      "collectedAt": "2026-08-05T09:17:59.243Z",
+      "githubSyncedAt": "2026-08-05T09:17:59.243Z",
       "domesticSyncedAt": null
     },
     {
