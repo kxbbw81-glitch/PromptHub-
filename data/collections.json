@@ -1,7 +1,291 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T06:40:09.954Z",
+  "updatedAt": "2026-08-06T07:37:40.899Z",
   "collections": [
+    {
+      "id": "grok_x_2083647438414581888",
+      "title": "夜海柔雾CCD女性人像",
+      "category": "人像",
+      "tags": [
+        "ccd",
+        "portrait",
+        "beach",
+        "soft-diffusion",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Soft diffusion CCD photography, dreamy hazy atmosphere, nighttime beach setting, an adult Taiwanese idol-style woman with slightly imperfect natural skin texture, playing in the water on the beach and interacting with the camera, delicate pink lips, bikini, close-up shot, playful cute pouty expression, subtle blush, cinematic 2.35:1 aspect ratio.",
+      "image": "https://pbs.twimg.com/media/HOqaKFRaQAAJH3U.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOqaKFRaQAAJH3U.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOqaKFRaQAAJH3U.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2.35:1",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2083647438414581888",
+      "url": "https://x.com/BubbleBrain/status/2083647438414581888",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085172252841054319",
+      "title": "盛夏低机位白衣人像",
+      "category": "人像",
+      "tags": [
+        "summer",
+        "low-angle",
+        "gpt-image-2",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "主題：蒼天を仰ぐ白\n\n主体：雲が浮かぶ鮮烈な青空の下で、透ける白い長袖トップと青い小花柄の短い巻きスカートを着た若い女性を、地面近くから見上げる太腿上のポートレート。人物を画面中央いっぱいに大きく置き、空へ広がる長い髪、頭へ回した腕、右腰の蝶結びと波打つ裾を見せる。\n\n人物・表情：小さな卵形の顔を正面に向け、顎を少し上げ、濃茶色の大きな瞳で下方のカメラを見る。細い濃茶色の眉、小さくまっすぐな鼻、艶のある桃色の唇を少し開いた静かな表情。明るい肌には薄い桃色の頬。胸下までの濃茶色の長い髪は中央寄りで分かれ、薄い前髪と額へ落ちる細い毛束を作る。残りは風を受けて画面左へ扇状に長く流れ、縁が日光で明るく光る。\n\n服装・ポーズ：生成り寄りの白い短丈トップ。細かな縦リブと薄い透け感、深く丸いVネック、胸元中央の小さなボタン、身体に沿う長袖、胸下の切替と二重の短い裾。白地に淡い青の小花を散らした短い巻きスカートは、画面右腰で長い細紐を蝶結びにし、布を斜めに重ね、裾に幅広い二段フリルを付ける。画面左腕を大きく曲げて手を後頭部へ回し、右腕は身体に沿って下げ、右手を太腿横で緩く開く。腰をわずかに画面右へ寄せ、両脚で立つ。\n\n背景・光：背景のほぼ全体は濃い青空。画面左、上部中央、右端に立体的な白い積雲、下端に灰色の金属手すり、右下に低い緑の山と小さな白い屋根を入れる。画面左上からの硬い直射日光が髪の縁、顔、胸元、太腿を強く照らし、顎下、胸下、スカートの重なりへ明瞭な影を落とす。\n\n構図・カメラ：縦3:4。カメラは地面近くからの非常に強い仰角で、頭上の雲から太腿途中までを収める近接ポートレート。人物を画面高のほぼ全体へ大きく写し、顔を上三分の一、胸元を中央、右腰の結び目を右下寄り、太腿を前景として下半分へ置く。左肘は左上の画面端近く、両腿は下端で裁切する。顔と衣服にピントを合わせ、雲の輪郭も残る中程度の被写界深度。\n\n質感・スタイル：鮮烈な空色、雲の白、生成り、淡い水色を基調にした高精細フォトリアル写真。自然な肌理、薄手トップの縦リブ、小花柄、重なるフリル、風で分かれる髪束、強い夏の日差しを精密に描く。\n\nネガティブ：強い仰角と太腿前景を弱めない；右腰の蝶結びと青花フリル裾を省略しない",
+      "image": "https://pbs.twimg.com/media/HOt1v0gakAE63rm.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HOt1v0gakAE63rm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOt1v0gakAE63rm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2085172252841054319",
+      "url": "https://x.com/CyberTotal2026/status/2085172252841054319",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085192025125892546",
+      "title": "云端折叠城市男装大片",
+      "category": "时尚",
+      "tags": [
+        "surreal",
+        "editorial",
+        "conceptual",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic conceptual editorial photography of a young man sitting at a luxurious vintage wooden desk suspended high above the clouds during sunrise. Instead of blueprints or paper, he is carefully folding massive floating clouds into the shape of modern skyscrapers with his bare hands. Tiny glowing birds carry pieces of the clouds across the sky as if helping him build an invisible city. A golden measuring tape made of light floats beside him. He wears an elegant cream double-breasted suit, black turtleneck, polished leather shoes, and thin gold-framed glasses. Calm, focused expression. Endless sky with dramatic orange and blue gradients, soft volumetric sunlight, luxury editorial fashion composition, surreal yet photorealistic, dreamlike atmosphere, cinematic color grading, ultra-detailed textures, masterpiece, 8K, 85mm lens, shallow depth of field, no crowd, no text, no watermark, no logos.",
+      "image": "https://pbs.twimg.com/media/HPAWpMlbMAA3Hy9.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPAWpMlbMAA3Hy9.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPAWpMlbMAA3Hy9.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sf0tbl/status/2085192025125892546",
+      "url": "https://x.com/sf0tbl/status/2085192025125892546",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2084995613343760488",
+      "title": "北京文旅品牌视觉KV",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "brand-kv",
+        "tourism",
+        "beijing",
+        "logo-vi",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "一张可直接用于北京文旅主题推介会大屏的21:9 超宽品牌 KV，主题围绕城市遗产线路，主角是北京中轴线城市漫游，整体品牌语言为古都秩序与当代城市感，画面结构使用超宽横向叙事，以中轴线透视贯穿画面，钟鼓楼、城门屋脊与当代城市天际线形成纵深，左侧保留完整标题安全区，环境控制在由古建屋脊过渡至当代城市天际线的中轴线全景中，只保留克制的金色轴线光带作为氛围辅助，材质焦点放在灰瓦肌理、朱红木构、石路反光与晨雾层次，布光为清晨金色侧光配合建筑轮廓光，保证主体识别、质感和高级商业感并存，色彩方向为宫墙红 #8E2F2B + 琉璃金 #C9A45C + 天际灰蓝 #AAB8C4，排版按双语品牌标识 + 中文主标题 + 路线副标题 + 年度主题标签组织，明确把文字安全区放在横向左侧留白区；只允许出现以下精确文字：品牌标识「北京文旅 BEIJING CULTURE & TOURISM」、主标题「一轴阅古今」、副标题「北京中轴线城市漫游 · 穿行古都秩序」、辅助信息「北京文旅主题线路 · 2026」；保持清晰的主次字号和行距，不要压住主体最高光与关键识别面，不得生成清单之外的任何文字，不得自行添加英文、数字、促销词或伪文字，整张图需要兼顾商业可用性和视觉记忆点，不要变成电商主图，不要让文字压在主体最高光区。",
+      "image": "https://pbs.twimg.com/media/HO9kbdwbIAAeQKy.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO9kbdwbIAAeQKy.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO9kbdwbIAAeQKy.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "21:9",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2084995613343760488",
+      "url": "https://x.com/Mrpinecone888/status/2084995613343760488",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2084988846379548760",
+      "title": "品牌徽标与字标锁定系统",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "logo",
+        "vi",
+        "brand-system",
+        "vector",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Design a single, unified brand logo mark for a brand called \"[BRAND NAME]\", presented as one cohesive lockup — NOT a two-part composition, NOT a character/mascot with a face, body, or limbs. This logo consists only of a small symbolic emblem/icon and a custom wordmark, on a flat off-white/light-gray (#F4F4F2) background with generous negative space around it, centered in the frame.\n\nSTEP 1 — CATEGORY INFERENCE (critical, read carefully):\nDetermine what this brand actually is using common-sense, real-world interpretation of the name as a whole — the way a human branding designer would read it, not by decoding individual letters as an acronym or free-associating unrelated words from each letter. Specifically:\n- If \"[BRAND NAME]\" is a real, widely recognized brand or company, use its actual, well-known product/industry (e.g. a name everyone associates with fried chicken should produce chicken/food-industry visual cues — never reinterpret it as an unrelated acronym like locksmithing, sports, or finance).\n- If \"[BRAND NAME]\" is an invented or unfamiliar name, infer the category from the sound, language roots, and connotation of the full word/phrase as a whole, not by splitting it into initials and inventing a meaning for each letter.\n- NEVER manufacture a backronym or acronym expansion unless the user's brand name is explicitly given WITH its expansion spelled out.\n- The resulting category must be the single most obvious, common-sense reading of the name — not the most creative or unusual one.\n\nCOMPOSITION — ONE UNIFIED LOGO MARK:\n1. EMBLEM/ICON (small, positioned above or integrated with the wordmark, not a standalone illustration of a creature or person):\n   - A simple, bold, flat silhouette symbol directly representing an object, tool, gesture, or abstract shape drawn from the brand's actual inferred product/service — e.g. a symbolic object, a simplified iconographic shape, crossed tools, a badge, a radiating/motion-line device, or similar\n   - Rendered in black or the darkest brand color only, as clean geometric/flat shapes — no eyes, no face, no limbs, no character personality of any kind\n   - Small decorative supporting elements are allowed (a star, motion lines, a circular badge backdrop, small sparkles) as long as they stay abstract/symbolic and not figurative\n   - Scaled small relative to the wordmark, acting as a crest or badge sitting above or beside the type\n\n2. WORDMARK (the dominant element, large and centered):\n   - Custom hand-lettered logotype spelling \"[BRAND NAME]\" in extremely thick, chunky, rounded \"bubble\" letterforms\n   - Heavy black outline around every letter plus a hard-edged flat drop-shadow offset down-and-right in a darker shade of the fill color, creating a bold pop-art/comic sticker effect\n   - If the name has two or more words, stack them on separate lines at large scale, each line filled with a different flat color from the palette\n   - A short 1–3 word category-descriptor tagline in small, bold, tightly tracked uppercase sans-serif letters directly beneath the wordmark, plain flat color (no outline) — this must describe the brand's actual, most obvious industry, never an invented acronym expansion or unrelated category\n\nCOLOR & STYLE:\n- Color palette strictly limited to 2–3 flat colors total (one dominant brand hue + one accent + black/near-black outlines), fully saturated, no gradients\n- Flat 2D vector illustration, bold uniform outlines, high-contrast sticker/badge-logo aesthetic\n- Crisp, poster-clean, must remain legible and recognizable at small icon sizes\n- No photographic textures, no 3D rendering, no realistic shading\n- No character, creature, or personified figure of any kind should appear anywhere in this logo — that will be designed separately later\n- Single, centered, self-contained composition — this is the complete logo, not one half of a larger lockup",
+      "image": "https://pbs.twimg.com/media/HO9dHcyaEAAF-_l.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO9dHcyaEAAF-_l.jpg",
+        "https://pbs.twimg.com/media/HO9dHdnb0AADwqb.jpg",
+        "https://pbs.twimg.com/media/HO9dHcqboAAG_nz.jpg",
+        "https://pbs.twimg.com/media/HO9dHctaIAAk0Go.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO9dHcyaEAAF-_l.jpg",
+        "https://pbs.twimg.com/media/HO9dHdnb0AADwqb.jpg",
+        "https://pbs.twimg.com/media/HO9dHcqboAAG_nz.jpg",
+        "https://pbs.twimg.com/media/HO9dHctaIAAk0Go.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SaasJunctionHQ/status/2084988846379548760",
+      "url": "https://x.com/SaasJunctionHQ/status/2084988846379548760",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085267128580501514",
+      "title": "夏日度假村木廊时尚社论全身人像",
+      "category": "时尚",
+      "tags": [
+        "fashion",
+        "resort",
+        "full-body",
+        "korean-style",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "创作一张受现代夏季度假村街头时尚启发的超写实全身时尚社论人像。人物主体为一位 ins 网红韩女，整体气质时尚、精致、自然自信，具有典型韩系网红感与高级镜头表现力。\n\n拍摄场景设定在温暖金辉光照下的豪华度假村走廊中，人物站在当代木质格栅墙和巨大的奶油色圆柱旁。环境具有简洁的建筑线条、温暖的木质纹理、柔和的中性色调和电影感的生活方式氛围。采用视平线全身构图。\n\n人物拥有精致上镜的韩系五官与自然高级感，脸部轮廓流畅，眼睛明亮有神，鼻梁精致，嘴唇饱满自然，肤色白皙透亮，发型保持韩系网红常见的精致时尚感，整体呈现出真实而高级的 ins 风格。不要夸张卡通化，不要幼态化，保持明显成年女性特征。\n\n拍摄对象将左手轻轻置于木墙上，右手自然地放在宽松低腰蓝色牛仔裤的腰带上。肩膀放松，姿态自然自信，身体稍微偏向镜头。直视镜头，带着冷静、柔和的闭嘴表情，感觉自然而坦率。\n\n她穿着一件大廓形白色露肩修身短袖上衣，叠穿在精致的蓝白条纹挂脖比基尼上衣之外，搭配自然垂在臀部的宽松褪色特低腰蓝色牛仔裤。造型反映时尚的夏季度假村街头服饰风格，具有高雅的层搭感。搭配一条精致的金项链和细微的极简配饰。\n\n温暖的夕阳照进走廊，在头发和肩膀周围营造出柔和的金色边缘光，同时在木墙和地板上投射出微妙的电影感阴影。一阵轻柔的晚风轻轻吹动几缕散发。",
+      "image": "https://pbs.twimg.com/media/HPAxIgwWMAA7b_e.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPAxIgwWMAA7b_e.jpg",
+        "https://pbs.twimg.com/media/HPAxLKlWEAA740V.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPAxIgwWMAA7b_e.jpg",
+        "https://pbs.twimg.com/media/HPAxLKlWEAA740V.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chenlinspark/status/2085267128580501514",
+      "url": "https://x.com/chenlinspark/status/2085267128580501514",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085239125125615681",
+      "title": "欧式村庄红发花裙人像",
+      "category": "人像",
+      "tags": [
+        "lifestyle",
+        "travel",
+        "json-prompt",
+        "nano-banana",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "{\n  \"subject\": \"A beautiful young woman in her early-to-mid 20s with fair freckled skin, long strawberry-blonde/red hair styled in a high ponytail with soft face-framing strands, striking blue-green eyes, full lips with soft pink lipstick, and a gentle warm smile.\",\n  \"body\": \"Slender yet soft figure with natural posture.\",\n  \"outfit\": \"Light pink floral print spaghetti-strap dress with a ruched bustier-style bodice and soft romantic floral pattern in muted pink and beige tones.\",\n  \"pose\": \"Sitting outdoors on a rustic wooden chair, one hand gently holding a pink flower near her ear, the other hand resting in her lap, body facing the camera with a soft smile.\",\n  \"expression\": \"Warm, gentle, and serene smile with soft eye contact.\",\n  \"lighting\": \"Soft natural daylight under a partly cloudy sky, creating gentle highlights and a fresh outdoor glow.\",\n  \"setting\": \"Charming European village square with stone buildings, outdoor café umbrellas, cobblestone ground, and green hills in the background.\",\n  \"style\": \"Photorealistic, ultra-detailed 8k, cinematic lifestyle portrait, realistic fabric texture on the dress, sharp focus on face, high-end travel and fashion photography.\",\n  \"camera\": \"Shot on Sony A7R V, 50mm lens, f/2.0, natural depth of field\",\n  \"mood\": \"Romantic, soft, serene, charming European summer vibe\"\n}",
+      "image": "https://pbs.twimg.com/media/HPBB6v5asAQRJjN.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPBB6v5asAQRJjN.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPBB6v5asAQRJjN.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "Google Nano Banana 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Glowechoo/status/2085239125125615681",
+      "url": "https://x.com/Glowechoo/status/2085239125125615681",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085237100123664555",
+      "title": "静奢西装墨镜时尚海报",
+      "category": "时尚",
+      "tags": [
+        "vogue",
+        "quiet-luxury",
+        "poster",
+        "identity-lock",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a premium fashion poster in the style of Vogue and luxury advertising. Use the attached image as the SINGLE reference for appearance. Fully preserve the face, eye shape, eyebrows, nose, lips, jawline, hairstyle, skin tone, proportions, and all individual features. It must be exactly the same girl. Create an ultra-realistic professional fashion model look with natural skin: visible pores, natural texture, slight imperfections, and a healthy glow.\nDress her in a modern Quiet Luxury look: a milky oversize blazer, a white minimalist top, concise gold jewelry, and stylish designer sunglasses. Hair is voluminous, natural curls with a slight movement in the wind.\nClose-up, model slightly off-center, shot from a slight low angle. Add a powerful radial zoom blur radiating from the center, while the face remains perfectly sharp and detailed.\nCinematic color grading, subtle film grain, soft highlights, deep shadows, museum-level lighting.\nClean solid background with soft glow and dynamic radial blur.\nNo text, logos, captions, or graphic elements. Ultra-photorealism, premium studio photography, high detail, 4:5 format.\nNegative Prompt: face change, different face, plastic skin, CGI, AI artifacts, blurry face, bad anatomy, extra accessories, oversaturated colors, text, logos, watermarks, low quality.",
+      "image": "https://pbs.twimg.com/media/HPBAFkyW4AEu_Hp.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPBAFkyW4AEu_Hp.jpg",
+        "https://pbs.twimg.com/media/HPBAFknXQAA74Qy.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPBAFkyW4AEu_Hp.jpg",
+        "https://pbs.twimg.com/media/HPBAFknXQAA74Qy.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "Gemini Nano Banana",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/codewithhajra/status/2085237100123664555",
+      "url": "https://x.com/codewithhajra/status/2085237100123664555",
+      "domain": "x.com",
+      "date": "2026-08-06",
+      "timestamp": 1786001860810,
+      "collectedAt": "2026-08-06T07:37:40.810Z",
+      "githubSyncedAt": "2026-08-06T07:37:40.810Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
