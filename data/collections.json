@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T06:27:52.889Z",
+  "updatedAt": "2026-08-06T06:39:13.774Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "自然",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh5ai1y_i1t4",
+      "image": "https://pbs.twimg.com/media/HO65dpsXcAACyin?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO65dpsXcAACyin?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO65dp1WcAAOUIl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO65dqOWQAAy2FD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO65dqzXcAAffWW?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一张照片级真实、低饱和、安静克制的卧室生活方式人像。一位明确成年的年轻东亚女性，约22至26岁，半躺在铺有柔软白色床单和多个白色枕头的床上，竖构图，中近景，从头顶拍至大腿中部。人物位于画面中央偏右，身体沿画面左下至右上形成自然斜线，上身依靠枕头，右臂弯曲支撑在身侧，左手自然放在大腿附近，双腿轻微弯曲。她没有看镜头，而是低头望向画面左下方，嘴唇轻微闭合，神情平静、克制、略带疲惫与若有所思，像清晨刚醒来的自然瞬间。 她拥有柔和精致的鹅蛋脸、白皙暖调肤色、深棕色杏仁眼、自然眉形、秀气鼻梁和裸粉色双唇。妆容极淡：轻薄半哑光底妆、浅桃粉腮红、柔和棕色眼影、细致睫毛和自然低光泽唇色。深棕色长发自然侧分，带轻微柔软波浪，一侧垂落肩前，另一侧铺在枕头上，保留少量细碎发丝和真实发丝层次。 她穿一套灰色棉质运动内衣和配套低腰三角内裤。上衣为宽肩带U形领口短款运动文胸，下围为白色弹力松紧带，并带有黑色品牌文字；下装同样具有白色弹力腰边和黑色品牌字样。面料柔软贴身，清晰呈现棉质纤维、缝线、松紧带与自然褶皱。整体造型简洁、现代、居家化。 背景为柔和粉灰色卧室墙面，床头上方悬挂一幅极简抽象装饰画，左侧可见浅灰窗帘。柔和阴天或晨间自然光从画面左侧进入，均匀照亮面部、肩颈、手臂和腰腹，右侧形成轻柔阴影。整体采用灰色、白色、淡粉灰和自然肤色，低饱和、低对比、略微偏暖，具有日系生活写真、韩系居家画报和自然电影静帧质感。50mm镜头，f/2.2，略高机位轻微俯拍，浅景深，面部和腰腹清晰，背景轻柔虚化。保留真实毛孔、细小绒毛、自然肤色变化、发丝、棉布和床品纹理，轻微ISO 400胶片颗粒；无塑料皮肤、无过度磨皮、无夸张比例、无畸形手指、无额外肢体、无文字水印、无边框或拼图，比例2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO65dpsXcAACyin?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO65dp1WcAAOUIl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO65dqOWQAAy2FD?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO65dqzXcAAffWW?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2085093488966701365",
+      "tags": [
+        "人像",
+        "写真",
+        "清晨",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1785998328550,
+      "title": "日式卧室运动海报",
+      "url": "https://x.com/ToroJushiAi/status/2085093488966701365",
+      "collectedAt": "2026-08-06T06:38:53.135Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-06T06:39:13.774Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "电商视觉",
