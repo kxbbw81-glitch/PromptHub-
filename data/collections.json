@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T08:10:05.953Z",
+  "updatedAt": "2026-08-06T08:10:29.859Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "科幻",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh8jxfk_5h07",
+      "image": "https://pbs.twimg.com/media/HOcLZxfXcAAY1Zk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOcLZxfXcAAY1Zk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一、元思维与元提示词核心方法论 元思维 & 元提示词SOP（导演视角迭代，AI更懂AI） https://x.com/Astronaut_1216/status/1996785560715722965… ECHO模式提示词应用（野路子钩子架构师，元提示词迭代版） https://x.com/Astronaut_1216/status/1998572772360962545… Verify First思维（故意扔垃圾给AI，先验证再生成） https://x.com/Astronaut_1216/status/2002752527888949587… 意图识别+追问确认提示词（把AI当人，95%置信理解需求） https://x.com/Astronaut_1216/status/2010940231030100105…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOcLZxfXcAAY1Zk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Astronaut_1216/status/2085174748909363310",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786003807232,
+      "title": "一、元思维与元提示词核心方法论 元思维",
+      "url": "https://x.com/Astronaut_1216/status/2085174748909363310",
+      "collectedAt": "2026-08-06T08:10:08.069Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-06T08:10:29.859Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh8jxfi_jab2",
+      "image": "https://pbs.twimg.com/media/HPAiyzcbcAEv-U8?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPAiyzcbcAEv-U8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPAizc1aQAARLVk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "She is gently adjusting or inspecting a chrome mirrored racing helmet resting on the car hood, with a relaxed posture and her head slightly tilted downward, creating a calm, focused pre-race moment. Long dark brown hair tied into a low ponytail with soft face-framing strands, bold red matte lips, natural glam makeup, defined brows, soft matte nude lips, realistic skin texture, small silver stud earrings, no exaggerated retouching. Background features a professional stock car racing pit lane with race cars, crew members, helmets, safety barriers, Goodyear racing tires, sponsor decals, and a sweet cloudy sky. The environment feels authentic, busy, and energetic while maintaining shallow depth of field that keeps the subject in sharp focus. Soft diffused daylight from heavy clouds creates even illumination with subtle natural contrast, realistic reflections on the chrome helmet, cinematic color grading, premium sports editorial photography, eye-level composition, medium portrait framing, Sony A7R V, 85mm lens, f/2.0, ISO 100, RAW, HDR, ultra-detailed 8K, razor-sharp focus, realistic fabric textures, premium motorsport lifestyle aesthetic, Vogue Sports editorial quality.Negative Prompt: low quality, blurry, CGI, cartoon, anime, oversaturated colors, plastic skin, excessive sharpening, bad anatomy, extra limbs, extra fingers, distorted hands, duplicate person, warped helmet, watermark, text, logo artifacts, motion blur, noise, compression artifacts, unrealistic lighting, poor proportions, out-of-focus subject. Same Face as reference image .",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPAiyzcbcAEv-U8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPAizc1aQAARLVk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CaliraVal/status/2085204905157956028",
+      "tags": [
+        "cinematic",
+        "anime",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1786003807230,
+      "title": "赛车涂装",
+      "url": "https://x.com/CaliraVal/status/2085204905157956028",
+      "collectedAt": "2026-08-06T08:10:08.069Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-06T08:10:29.859Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "抽象",
