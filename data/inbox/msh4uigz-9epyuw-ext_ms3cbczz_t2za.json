@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-06T06:26:22.594Z",
+  "count": 14,
+  "items": [
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3cbczz_t2za",
+      "image": "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMszoQbaYAA0W-k?format=jpg&name=small"
+      ],
+      "prompt": "Generated in CliQi. \nPrompt:\nUltra-realistic high fashion studio portrait of a striking young East Asian woman posing confidently on a seamless light gray cyclorama studio background.\n\nShe has waist-length silky jet-black hair with perfectly blunt straight bangs, luminous",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785163599503,
+      "title": "Generated in CliQi.",
+      "url": "https://x.com/chenlinspark/status/2081348809230258379",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMszoQbaYAA0W-k?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081348809230258379",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3b92eu_0ak5",
+      "image": "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOJ_oC_WkAAOTxi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIO-nWXEAEpcVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIPAV7WgAAnvU4?format=jpg&name=small"
+      ],
+      "prompt": "同一个动作，换座到两座城市里。一张是雨后的玻璃幕墙，一张是老电车站。——\n\n提示—— 使用场景：照片级写实自然素材类型：高端时尚编辑人像，独立竖图主要要求：创作一张以“复古电车站，动作捕捉活力”为主题的原创9:16竖图时尚照片。仅使用提供的两张图片作为姿势和摄影质量参考；请勿复制人物、面部、身份、发型、服装或背景。参考图片1的作用：略微后转的姿势参考。参考图片2的作用：自然的面部、手部和摄影质量参考。拍摄对象：一位年龄在35-45岁左右的东亚成年女性，自信且富有表现力。保留其精确的动作骨架，同时使其具有动态感：身体转向镜头约35-45度，头部后仰直视镜头，重心落在后腿上，一只手拨弄耳边的头发或抓住衣领，另一只手臂自然下垂或插入口袋。从头到脚的完整服装清晰可见，手部和四肢的解剖结构也十分逼真。场景/背景：一个位于历史街区的老式电车站，一辆饱经风霜的米绿色电车正从她身后驶入，头顶的电线、磨损的站台边缘、字迹模糊不清的旧时刻表，以及几个模糊的通勤者，他们只是背景中不明显的轮廓。服装：一件锈橙色短款羊毛夹克，内搭米色衬衫，系着一条窄围巾；一条高腰深橄榄绿中长裙，侧边开衩设计大胆，但遮盖度适中；不透明的连裤袜；复古皮质短靴；一个小巧的硬质手提包；一套完整、精致、充满时代感的都市时尚装扮。构图/取景：9:16 人像，全身抓拍，街头时尚风格，相机置于臀部高度，略微偏离轴线，仿佛在拍摄过程中被捕捉到。人物转身瞬间，外套下摆和围巾因运动而微微抬起，电车和背景呈现微妙的动态虚化效果，而面部和服装保持清晰。站台和电车之间形成动感的对角线。光线/氛围：傍晚的侧光照射在站台上，头发和外套上呈现暖色调的高光，阴影部分则较为冷色调，营造出胶片纪录片般的质感，真实的快门拖拽感，同时又不影响人物的清晰度。风格/媒介：写实专业的街头风格摄影，35mm 镜头的质感，颗粒感十足，面料和金属纹理真实自然，既有电影感又不失真实感。限制条件：无文字、无标志、无水印、无拼贴、无分屏、无重复人物、无裁剪脚部、无暴露服装、无青少年形象、无变形人体结构、面部无过度虚化。",
+      "source": "插件扫描",
+      "tags": [
+        "人像",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785161812854,
+      "title": "同一个动作，换座到两座城市里。一张是雨后的玻璃幕墙，一张是老电车站。——",
+      "url": "https://x.com/chenlinspark/status/2081371459289854176",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOJ_oC_WkAAOTxi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIO-nWXEAEpcVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIPAV7WgAAnvU4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081371459289854176",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3b5td0_gqq3",
+      "image": "https://pbs.twimg.com/media/HOMO8kaXQAA5sai?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMO8kaXQAA5sai?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMO9WZX0AAhdLO?format=jpg&name=small"
+      ],
+      "prompt": "同一个靠窗远眺，清透风像周末的安静呼吸，港风复古则多了一点“等人”的故事感。\n\n——Prompt——\n生成一张 9:16 竖版、单张独立图片、真实摄影质感的清透自然生活感女性写真。画面主体是一位 26 岁、明确成年的东方女性，成年气质清楚，不幼态化；脸型柔和流畅，眉眼清秀自然，眼神干净安静，妆容是清透淡妆、自然眉形、低饱和豆沙粉唇色，肤质保留真实细微纹理，黑色中长发自然披散，气质亲近、温柔、耐看，不是网红脸，也不是学生感。\n\n时间切片是安静的周末上午，人物正站在浅色公寓的窗边，身体向窗外略转约30度，肩膀放松，重心稳定；她的一只手用放松的手指轻扶白色亚麻窗帘边缘，窗帘被微风带起一点，另一只手自然落在身侧并轻轻触碰米白开衫的衣摆，眼神明确看向窗外远处的树影和城市天际线，不看镜头，表情像被生活中一个安静瞬间吸引，动作摄影可信、连续、自然。\n\n服装是完整的米白色针织开衫，柔软、略宽松、针织纹理清楚，内搭浅蓝色棉质衬衫，搭配高腰浅色长裤，衣料自然垂落，不透明、不情趣化、不暴露重点部位；主色为米白和浅蓝，辅以浅木色与自然肤色，整体低饱和、清爽、生活化，发丝和衣摆只有轻微自然动态，视觉重点是脸部、肩颈线条、手扶窗帘的动作和服装层次。\n\n场景是干净的浅色公寓窗边，只保留白色亚麻窗帘、浅色木质窗台和窗外轻微虚化的绿色树影三个环境细节，前景有一点窗帘柔焦，中景人物清晰，后景是柔和虚化的远处城市景色；使用 50mm 镜头、平视机位、半身到大腿以上构图，人物位于画面偏右，左侧留出窗外光线和呼吸感，能清楚看见脸部、完整手部、窗帘边缘和上半身服装，不要身体局部特写。\n\n柔和的自然窗光从侧前方进入，照亮人物脸侧、眼睛、鼻梁、肩颈和针织纹理，另一侧保留柔和阴影，窗外远处有轻微泛白天光但不过曝；整体采用奶油暖白生活剧照滤镜，色温略暖、低对比、柔和高光、干净暗部、真实肤色、轻微空气感和细腻自然摄影质感，像真实生活电影中被安静捕捉到的一帧。必须是单张完整竖版照片，不要拼图、九宫格、分屏、海报、文字或水印。",
+      "source": "插件扫描",
+      "tags": [
+        "东方",
+        "写真",
+        "海报",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785161661156,
+      "title": "同一个靠窗远眺，清透风像周末的安静呼吸，港风复古则多了一点“等人”的故事感。",
+      "url": "https://x.com/chenlinspark/status/2081539062368805194",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMO8kaXQAA5sai?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMO9WZX0AAhdLO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081539062368805194",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3arirh_zzpj",
+      "image": "https://pbs.twimg.com/media/HOFV8FSbwAEqApk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOFV8FSbwAEqApk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "创作一幅竖版生活肖像，比例约为4:5，描绘一位成年东亚女性坐在黑色皮沙发上，从大腿以上拍摄，采用放松的四分之三侧身姿势，脸转向左上方，带着柔和而沉思的微笑。她留着长长的深色披肩发，身穿象牙白色无袖半透明连衣裙，裙身采用层叠垂坠面料，饰有精致的蕾丝滚边，领口为深V设计。赋予她自然丰满的胸部，以一种雅致的时尚大片风格，展现恰到好处的乳沟。她的双手放在膝盖附近，一条弯曲的腿斜伸到左下角的前景中。场景设定在一个温暖现代的室内，高大的黑色多格窗框，窗外是清冷的蓝绿色日光，她身后是一盏柔和发光的落地灯，左侧远处背景中有一个模糊的坐姿人物，黑色皮革软垫，浅色瓷砖地板，右侧是一面镶有画框的木质墙。运用柔和的金色阳光、清冷的窗户光线、柔和的阴影过渡、自然的肌肤纹理、逼真的室内摄影风格，营造一种平静而温馨的氛围。避免出现变形的手部、多余的肢体、塑料感十足的皮肤、生硬的阴影、过度曝光、其他人物、清晰可辨的文字或水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOFV8FSbwAEqApk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1785160994237,
+      "title": "夜深了 晚安玛卡巴卡",
+      "updatedAt": "2026-07-27T14:05:10.506Z",
+      "url": "https://x.com/yangyanglxy/status/2081039158190162359",
+      "sourceUrl": "https://x.com/yangyanglxy/status/2081039158190162359",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3aofjh_c7n2",
+      "image": "https://pbs.twimg.com/media/HONpnNYaYAAbwdB?format=jpg&name=4096x4096",
+      "images": [
+        "https://pbs.twimg.com/media/HONpnNYaYAAbwdB?format=jpg&name=4096x4096"
+      ],
+      "model": "",
+      "prompt": "Public prompt:\n\nCreate a realistic vertical 9:16 photographed portrait. Subject and action: summer aesthetic. Composition: Vertical three-quarter seated portrait, centered subject filling most of the frame from head to folded lower legs, face near the upper third, minimal headroom, foreground blooms softly obscuring the bottom edge. Camera: Eye-level camera at close conversation distance, natural 50mm lens feel with mild background compression and shallow depth of field. Wardrobe: Traditional deep cobalt-blue yukata with an all-over botanical print of large pale blue, white, cream, and muted yellow flowers with green stems; wide sleeves and overlapping front panels; a pale cream patterned obi tied at the waist; The fabric gathers in gravity folds at the elbows, waist, and folded lap, with slight natural wrinkling. Setting: She sits tightly enclosed within a dense hydrangea shrub, surrounded on every side by large round flower clusters and broad veined leaves; nearer blossoms at the bottom edge fall out of focus while the foliage behind her is dark and densely layered. Finish: Soft late-20th-century Japanese color-negative film fingerprint: cool blue-green bias, moderately saturated blues and foliage, gentle contrast with deep but not crushed leafy shadows, creamy skin tones, soft highlight roll-off, fine visible grain across the frame and on the skin, visible pores and faint natural cheek and under-eye unevenness, restrained sharpening, and slight lens softness in peripheral foliage.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HONpnNYaYAAbwdB?format=jpg&name=4096x4096"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1785160850093,
+      "title": "20世纪晚期日本风情",
+      "updatedAt": "2026-07-27T14:02:48.146Z",
+      "url": "https://x.com/sidona/status/2081623636755259700",
+      "sourceUrl": "https://x.com/sidona/status/2081623636755259700",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3anuof_j4ut",
+      "image": "https://pbs.twimg.com/media/HOMkcsEaIAAwRBR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMkcsEaIAAwRBR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMkee7aIAAc1IP?format=jpg&name=small"
+      ],
+      "prompt": "Gpt Image 2\nPrompt :\nCreate a photorealistic editorial portrait.\nWaist-up portrait, high angle, looking down, rear-left three-quarter view\nA 20s seductive stunning Japanese or Korean woman, full bust, narrow defined waist, flat abdomen, long straight side-part black hair.\nWearing crisp Y2K schoolgirl-inspired styling, cropped white short-sleeve button shirt, black lace bra, ultra low-rise yellow plaid pleated mini skirt, delicate pendant necklace.\nShe has her chin tucked toward one shoulder line with the neck softly folded by the selected pose.\nIn Rome old-town stone corner, warm-toned wall texture, cobblestone ground.\nInspired by Kishin Shinoyama, polished Japanese portrait image language, high-key Japanese portrait color grade, elevated exposure.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1785160823055,
+      "title": "Gpt Image 2",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2081547857916801165",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMkcsEaIAAwRBR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMkee7aIAAc1IP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2081547857916801165",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "自然",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3a9ehm_k7iw",
+      "image": "https://pbs.twimg.com/media/HOI43SHbIAAaC9K?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOI43SHbIAAaC9K?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SGbkAAszSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SUbsAEycIA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SNbMAAOVEw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93abUAAyZSl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93ZbQAAHVYq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93TbQAARamS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93gakAAgDkc?format=jpg&name=small"
+      ],
+      "prompt": "爱上一条河流的人，只是因为他们尚未见过海洋。\n\n而我看见了整个银河，却心中只容得下一颗星辰。\n\n♡Prompt GPT \n\n超现实主义电影般的夏季肖像，描绘一位美丽的年轻成年越南女性站在宁静的石质花园小径上，四周环绕着郁郁葱葱的绿树，沐浴在金色晨光中。\n\n她身材苗条优雅，自然及长的直黑发微微飘动，温暖的棕色眼睛温柔向下凝视，面部轮廓精致，皮肤纹理逼真，毛孔清晰可见，妆容自然淡雅。一朵新鲜的白色波斯菊轻轻别在她右耳后。\n\n她身穿合身的橄榄绿色细肩带吊带背心，搭配一条随风轻舞的白色棉质长裙。\n\n姿势：\n她以羞涩而女性化的姿态站立，肩膀微微放松，双手轻轻交叠置于身前。头部微微向下倾斜，唇边绽放柔和宁静的微笑。一侧肩膀微妙地转向镜头，形成优雅的S形轮廓。长发自然垂落于一肩，几缕发丝在风中轻轻飘浮。\n\n镜头构图：\n中景肖像（大腿中部以上），居中构图。\n眼平视角。\n长长的石质小径延伸至背景。\n自然的引导线条。\n平衡的负空间。\n梦幻的电影式取景。\n前景树叶从左上角柔和进入，增添深度。\n自然的环境框定。\n\n光线：\n金色时段晨光透过茂密树叶过滤而入。\n柔和的逆光。\n美丽的太阳耀斑从左上角进入。\n温暖的轮廓光勾勒发丝。\n柔和的斑驳光洒落肩头和小径。\n轻柔的大气雾气。\n\n背景：\n宁静的植物园。\n茂密的绿色植被。\n自然的灌木丛。\n石质步行道。\n柔和的虚化效果。\n宁静的夏日氛围。\n\n色彩分级：\nKodak Portra 400。\nFuji 400H 色彩科学。\n温暖的绿色调色板。\n奶油般的明亮点。\n柔和的胶片对比度。\n细微的胶片颗粒。\n轻微的晕影效果。\n复古模拟摄影美学。\n\n相机：\n使用 Sony A7R V 拍摄。\n85mm GM 肖像镜头。\nf/1.8。\n自然的浅景深。\n超现实主义 RAW 照片。\n纪实生活摄影。\n\n品质：\n超现实主义。\n8K。\n自然的皮肤纹理。\n无 AI 痕迹。\n无塑料感皮肤。\n无过度美颜滤镜。\n真实的户外抓拍肖像。",
+      "source": "插件扫描",
+      "tags": [
+        "8k",
+        "摄影"
+      ],
+      "timestamp": 1785160148890,
+      "title": "爱上一条河流的人，只是因为他们尚未见过海洋。",
+      "url": "https://x.com/YUKIMASTERAI/status/2081288508141089026",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOI43SHbIAAaC9K?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SGbkAAszSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SUbsAEycIA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOI43SNbMAAOVEw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93abUAAyZSl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93ZbQAAHVYq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93TbQAARamS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HN_Q93gakAAgDkc?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2081288508141089026",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3a933u_ele7",
+      "image": "https://pbs.twimg.com/media/HOKPklUbsAAVs6q?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOKPklUbsAAVs6q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklNbIAIDnr7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklUaQAAwuAO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklLasAADxZG?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "“眨眼之间，半生已过，何必为遥远之事浪费时间去怨恨”\n\n\n\n以下是用于再现照片风格、布局和氛围的详细提示，不复制照片中人物的身份：\n\n⸻\n\nPrompt GPT Image\n\n超写实电影般的奢华时尚编辑肖像，描绘一位美丽的年轻成年东亚女性在极简白色摄影工作室中优雅地摆姿势。\n\n她拥有纤细的沙漏型身材，精致的面部特征，富有表现力的温暖棕色眼睛，自然柔和的粉色嘴唇，逼真的皮肤纹理带有可见毛孔，以及深色头发，造型为精致的松散低髻，柔软的发丝轻柔地框住她的脸庞。\n\n她身穿一件优雅的黑色缎面长袖迷你连衣裙，带有奢华的丝光泽，深V领口，贴合腰身的剪裁，不对称裹身裙摆，以及飘逸的垂褶侧面板。她搭配经典的黑色尖头细高跟鞋和一件精致的珍珠手链。\n\n她优雅地坐在一张透明亚克力椅子上，交叉着修长的双腿，同时微微向后倚靠在椅子上。一只手臂自然地搭在椅背上，另一只手则举到下巴附近，手指放松。她平静地望向镜头，带着沉着、自信的编辑式表情。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKPklUbsAAVs6q?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklNbIAIDnr7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklUaQAAwuAO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOKPklLasAADxZG?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1785160134138,
+      "title": "“眨眼之间，半生已过，何必为遥远之事浪费时间去怨恨”",
+      "updatedAt": "2026-07-27T13:57:17.102Z",
+      "url": "https://x.com/YUKIMASTERAI/status/2081383846743101569",
+      "sourceUrl": "https://x.com/YUKIMASTERAI/status/2081383846743101569",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms39utcp_an2s",
+      "image": "https://pbs.twimg.com/media/HOKPpSXXQAACJig?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HOKPpSXXQAACJig?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSbWIAAogQV?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSZXkAAMwb2?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSaWgAEaf7M?format=jpg&name=360x360"
+      ],
+      "prompt": "GPT Image 2 on ChatGPT\n\nRome Bath｜1\n\nPrompt \n电影感十足时尚肖像，古老而饱经风霜的石砌浴场，沐浴在金色的夕阳余晖中。一位优雅的年轻女子站在画面中心偏左的位置，身旁是一根巨大的砂岩柱，她以四分之三侧面的姿势背对镜头。她的身体背对着镜头，头转向左肩，目光直视观者，神情平静而略带脆弱，双唇微启。她五官精致，肌肤散发着自然光泽，一头乌黑的秀发随意地挽成一个浪漫的发髻，几缕发丝轻柔地垂落在脸颊两侧，在逆光下熠熠生辉。\n\n她身着一袭优雅的露背曳地长裙，裙身采用闪亮的古金色面料制成。裙子配有纤细的珠宝肩带，背部采用极具戏剧性的低开设计，肩胛骨之间垂坠着柔软的褶皱，精致的金属刺绣在温暖的阳光下熠熠生辉。整件礼服应展现出奢华、精致和永恒的气质，以低调的闪光质感而非现代的亮片装饰为特色。一只手臂自然地垂在柱子旁，另一只手臂则略微向下伸展至身侧，勾勒出一个姿态优雅却又不失自然的轮廓。\n\n用宏伟的古罗马或拜占庭建筑环绕她：粗壮的圆柱形石柱、斑驳的柱头、饱经风霜的矩形柱基、粗糙的赭色墙壁、幽暗的拱门以及一排排纵横交错的柱子，营造出深邃的景深。在画面右下角放置一个宁静的碧绿色浴池，池面柔和地反射着琥珀色的光芒。细雾、蒸汽和被阳光照射的尘埃颗粒在女子和柱子周围飘荡。背景应柔和虚化，但仍需展现出重复的建筑结构和幽暗的壁龛。\n\n使用温暖的琥珀色、青铜色、蜂蜜色、柔和的赤陶色和古金色，与清冷的蓝绿色池水形成对比。用强烈的定向阳光从左上方照射到人物身后，在她头发、肩膀和长袍周围形成明亮的轮廓光。添加柔和的立体光线、朦胧的氛围、深邃的建筑阴影以及水面反射的微妙光线。保持高对比度、浓郁鲜艳的色彩、逼真的皮肤纹理、细致的石块风化以及精细渲染的织物质感。\n\n将照片构图为亲密的半身肖像，相机位置在腰部左右，使用85mm电影镜头，浅景深，柔和的背景虚化，自然的透视效果以及优雅的编辑构图。营造浪漫、神秘、怀旧而又静谧高贵的氛围，如同在被遗忘的古老圣地拍摄的奢华香水广告。追求照片级的真实感、电影级的写实效果、精细的色彩分级、细腻的胶片颗粒感、超高的细节表现、柔和的高光晕、真实的解剖结构，画面中不应出现现代物品、文字、水印、多余的人物、扭曲的手部以及夸张的奇幻元素。",
+      "source": "插件扫描",
+      "tags": [
+        "电影感"
+      ],
+      "timestamp": 1785159468313,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081560205868081184",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOKPpSXXQAACJig?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSbWIAAogQV?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSZXkAAMwb2?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HOKPpSaWgAEaf7M?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2081560205868081184",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms39nrd0_wv32",
+      "image": "https://pbs.twimg.com/media/HOOWXyFa0AAZEPO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOOWXyFa0AAZEPO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOOWYbUasAAR0Qr?format=jpg&name=small"
+      ],
+      "prompt": "继续写实感系列-认真工作的人最美\n真实手机抓拍＋年轻成年女性＋具体生活动作，加入更明确的小事件、环境互动和轻微反差，真实感会更强\n\n提示词：\n竖版3:4，单张真实手机夜间抓拍，不要拼贴，不要四宫格，不要文字排版。\n\n仅参考此前系列中年轻成年亚洲女性的五官、脸型、自然肤质和黑色长直发，保持人物外貌一致，只参考外貌，完全重建新场景。\n\n深夜，一位年轻成年亚洲女性站在打印店内，穿浅灰色无袖针织上衣、深灰色宽松长裙和平底鞋，浅色帆布包放在脚边。她身体微微前倾，一只手扶着打印机边缘，另一只手接住刚刚打印出来的纸张，低头认真检查内容。\n\n打印机旁边散放着订书机、透明文件袋、几张废纸和半杯没喝完的饮料。店内没有工作人员，只有冷白色顶灯，玻璃门外是安静的深夜街道。人物神情专注、有一点疲惫，不看镜头，不微笑。\n\n普通手机后置摄像头，从玻璃门外或店内斜后方拍摄，中景构图，玻璃有轻微反光，画面略微倾斜，保留手机夜拍噪点和生活杂乱感。\n\n负面提示词：办公室广告，豪华打印店，回头笑，正面对镜头，商业摆拍，纸张漂浮，打印机结构错误，多余手指，文字内容清晰可辨，塑料皮肤，水印。",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785159139140,
+      "title": "继续写实感系列-认真工作的人最美",
+      "url": "https://x.com/Adam38363368936/status/2081673488088309881",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOOWXyFa0AAZEPO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOOWYbUasAAR0Qr?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2081673488088309881",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms31pvfl_fgsq",
+      "image": "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMJrH2X0AADiF6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "她在织机前系好最后一段青缎，深色木线把人物和远山分成两层。\n\n——Prompt——\n参考上传的两张图片，仅借鉴其蓝白瓷器 / 青绿版画的风格与构图关系，不复制参考人物身份。生成一张 4:5 竖版、1122×1402 像素的独立当代东方女性写真海报。一位约 25 岁、明确成年的虚构东方女性，黑色低盘发，自然东方五官，神情柔和而克制，穿象牙白立领上衣、浅青绿色外衫和低饱和裙装，佩戴极简青玉色耳饰。色彩使用宣纸白、瓷白、钴蓝、青绿和少量木质深褐，表现瓷釉开片、纸纤维、木刻刀线和旧印刷颗粒。\n\n时间切片是清晨园门下的片刻停步。人物站在深色木质园门旁，手里轻轻举着一枝淡色玉兰，头部转向花朵，视线落在花瓣上，另一只手自然垂落，动作只保留观察花枝这一件小事。背景只保留园门上的蓝白花卉瓷片、门洞后的浅青绿远山和米白墙面上的竹影。\n\n采用大半身三分之二侧面构图，人物位于右侧，左侧留出大面积宣纸白，园门木框与花枝组成简洁的视觉线条。柔和清晨光照亮面部、花瓣、手部与青绿外衫，蓝白边框保持克制而清晰，整体像收藏级当代东方版画海报，不生成任何文字或水印。\n\n负面约束：不要文字、汉字、Logo、水印、拼图、网格、长图、多人、重复人物、欧美脸、幼态脸、塑料皮肤、3D、动漫感、廉价国潮、仙侠特效、鲜艳红金、复杂家具、畸形手指、额外肢体、背景拥挤、透明或暴露服装。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMJrH2X0AADiF6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "东方",
+        "版画",
+        "青绿",
+        "瓷白",
+        "写真"
+      ],
+      "timestamp": 1785145800801,
+      "title": "她在织机前系好最后一段青缎",
+      "updatedAt": "2026-07-27T13:55:22.625Z",
+      "url": "https://x.com/chenlinspark/status/2081593672173289667",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081593672173289667",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms30dpic_c98d",
+      "image": "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small",
+      "prompt": "新中式不等于把中式符号堆满。\n\n一套蓝灰剪裁、一张茶桌、一点窗光，人物轻轻回头，画面就有了东方气质。\n\n——Prompt——\nUse case: photorealistic-natural\nAsset type: editorial lifestyle portrait, independent image 2 of 4\nPrimary request: Create a brand-new realistic photograph of a clearly adult East Asian woman, approximately 30 years old, inside a minimalist new Chinese tea room. Preserve this action skeleton: her body is turned sideways to the camera, she is lightly side-on and naturally turning her head back to look at the camera, candid and unposed, relaxed posture. She stands beside a simple tea table with only a small ceramic teapot and one cup.\nInput images: the two local reference images are style references only for Eastern negative space, soft natural window light, understated editorial portrait mood, and quiet composition; do not copy the original person, face, hairstyle, clothing, or room.\nScene/backdrop: minimalist contemporary Chinese tea room, pale plaster walls, light ash wood, a single dark stone tea table, restrained architectural lines, one tall window, sparse and calm, large areas of uncluttered negative space.\nSubject: clearly adult East Asian woman, natural facial proportions, realistic anatomy, natural hands and fingers, dark hair in a low loose knot, understated makeup. She wears a complete blue-gray tailored set: structured collarless jacket and wide-leg trousers, matte textured fabric, subtle tonal buttons, modest and elegant.\nStyle/medium: high-end real photography, believable skin texture and textile detail, quiet contemporary fashion editorial, 50mm lens, shallow depth of field, no artificial glamour retouching.\nComposition/framing: strict 9:16 vertical portrait, full-body or three-quarter full figure with the complete blue-gray outfit visible, subject placed slightly off-center with architectural negative space, body facing sideways and head turned back toward lens, eye-level camera.\nLighting/mood: soft natural side light from the tall window, gentle shadow gradients, tranquil, refined, meditative.\nColor palette: blue-gray suit, warm ivory plaster, pale ash wood, charcoal stone, very restrained neutral accents.\nMaterials/textures: washed matte wool or cotton tailoring, subtly tactile plaster, light wood grain, handmade ceramic glaze, real skin and hair texture.\nText (verbatim): \"\"\nConstraints: clothes fully cover the body and are completely visible; keep the pose natural and non-posing; no text, no logo, no watermark.\nAvoid: minors, childlike appearance, copied reference identity, exaggerated beauty filter, deformed hands, extra fingers, fused fingers, cropped clothing, nudity, lingerie, glamour pose, busy décor, red wedding styling, collage, split screen, illustration, CGI, text, watermark.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1785143553636,
+      "title": "新中式不等于把中式符号堆满。",
+      "url": "https://x.com/chenlinspark/status/2081561713321865342",
+      "images": [
+        "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081561713321865342",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "人像",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms2vew4m_cn05",
+      "image": "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small",
+      "prompt": "GPT Image 2 on ChatGPT\n\nMilan, All Day Long｜Walking Alone at Dawn\n\nPrompt \nA serene pre-dawn photograph of a young Japanese woman, around 20 years old, standing alone in the empty Piazza del Duomo in Milan just before sunrise, the cathedral's Gothic spires silhouetted against a deep cobalt-blue sky, no other people in sight.\n\nHer face shows classic Japanese features — soft oval shape, gentle almond eyes with a calm, introspective gaze, natural pink lips. Her skin, fair with a cool undertone, shows realistic subsurface scattering under the pre-dawn ambient light, subtle specular highlights on her cheekbones, natural pore texture preserved.\n\nHer hair is straight and sleek, worn down past her shoulders, with one or two strands displaced by the cool early breeze. She wears a tailored charcoal wool coat over a minimalist slip dress, hands tucked into her pockets against the morning chill.\n\nThe lighting is the deep cobalt blue-hour glow before sunrise, cool and even with no directional shadow, the cathedral's white marble taking on a faint blue luminescence. Subtle ISO 400 film grain sits in the shadow areas. Aspect ratio 2:3. No watermark, no text overlay, not cartoon, not illustration, not anime.",
+      "source": "插件扫描",
+      "tags": [
+        "anime",
+        "minimalist"
+      ],
+      "timestamp": 1785135210790,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081590406375170445",
+      "images": [
+        "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOGLhJMWUAA9wfD?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2081590406375170445",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    },
+    {
+      "category": "抽象",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms2v6pyy_m8i3",
+      "image": "https://pbs.twimg.com/media/HOF-ruqW0AAnYVt?format=jpg&name=small",
+      "prompt": "GPT Image 2 on ChatGPT\n\nPrompt \n一位年轻成年东亚女性站在落地玻璃窗前，身体背向镜头约150°，双手自然扶在窗框上，身体轻轻前倾，肩膀放松，头部自然回望镜头，眼神平静、自信且柔和，嘴唇自然闭合。\n\n修长健美但不过度夸张的身材，腰线清晰，肩背线条优雅，臀腿比例自然，腿部修长，一只脚自然踮起，仅脚尖轻触地面，整体姿态轻盈。\n\n黑色运动文胸（细肩带交叉X形露背设计），黑色高腰紧身运动短裤，高级哑光运动面料，无任何Logo或文字。\n\n深棕黑色头发盘成自然丸子头，少量碎发自然散落，真实发丝纹理。\n\n现代高层公寓落地窗，窗外为现代城市CBD，高楼轻微虚化，冬季或初春冷色城市景观，玻璃略带自然反光。\n\n上午9点左右阳光从窗外射入，形成真实逆光和轮廓光，阳光照亮肩膀、后背、臀腿边缘，皮肤有自然暖色高光，室内保持柔和阴影，不使用HDR。\n\n整体色调低饱和、奶油色、高级商业广告风格，Lululemon、Alo Yoga、Nike Women Campaign 风格。\n\nNegative Prompt：\nplastic skin, CGI, AI look, cartoon, illustration, oversaturated, HDR, distorted anatomy, bad hands, extra fingers, extra limbs, deformed legs, exaggerated hips, unrealistic muscles, glossy skin, watermark, logo, text, blur, low quality.",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785134829562,
+      "title": "GPT Image 2 on ChatGPT",
+      "url": "https://x.com/ToroJushiAi/status/2081288414570135862",
+      "images": [
+        "https://pbs.twimg.com/media/HOF-ruqW0AAnYVt?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOF-ruqW0AAnYVt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2081288414570135862",
+      "collectedAt": "2026-08-06T06:26:22.594Z"
+    }
+  ]
+}
