@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-06T06:45:44.604Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh5je7f_s8s6",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg"
+      ],
+      "model": "",
+      "prompt": "同时也打破了闭源这堵墙，在Codex 里使用 Open Design 插件后，不光与 Codex生态互通，更重要的是，你依旧可以在 Open Design中随时切换模型，同时保持上下文不断。\n\n明天大家在 Codex/ChatGPT 客户端更新后应该就可以在插件市场体验 Open Design了！期待大家的反馈！\n\n接下来我们会发布完整 Demo，展示如何在 Codex 中真正用 Open Design 进行创作。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/tuturetom/status/2084986587088110004",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785998743468,
+      "title": "太惊喜了",
+      "url": "https://x.com/tuturetom/status/2084986587088110004",
+      "collectedAt": "2026-08-06T06:45:44.604Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "动物",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh5je7i_qoo9",
+      "image": "https://pbs.twimg.com/media/HO9ifCvX0AAog89?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO9ifCvX0AAog89?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO9ijulXMAA7J4J?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO9ilNrXYAABAmX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO9il_oXEAA4gJ8?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "用 ChatGPT-Image2 生成餐饮手绘标记海报，品质感拉满了！\n\n真实菜品摄影 + 手绘大标题 + 白色标注线条 + 品牌菜单排版\n\n我做了 4 个方向：\n\n南洋早午餐、新中式茶点、泰式轻食、日式烧鸟\n\n相比普通菜单图，更能做出带优质、精致、手作属性的餐饮新品海报！\n\n提示词放评论区  x.com/MrLarus/status…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO9ifCvX0AAog89?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO9ijulXMAA7J4J?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO9ilNrXYAABAmX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO9il_oXEAA4gJ8?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2084994767985770980",
+      "tags": [
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1785998743470,
+      "title": "手绘讲解视频",
+      "url": "https://x.com/MrLarus/status/2084994767985770980",
+      "collectedAt": "2026-08-06T06:45:44.604Z"
+    }
+  ]
+}
