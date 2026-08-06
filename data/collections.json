@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T08:10:29.859Z",
+  "updatedAt": "2026-08-06T09:24:43.996Z",
   "collections": [
     {
       "aspectRatio": "",
@@ -29,7 +29,7 @@
       "collectedAt": "2026-08-06T08:10:08.069Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T08:10:29.859Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "2:3",
@@ -63,7 +63,7 @@
       "collectedAt": "2026-08-06T08:10:08.069Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T08:10:29.859Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "16:9",
@@ -92,7 +92,7 @@
       "collectedAt": "2026-08-06T08:09:50.100Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T08:10:05.953Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "2:3",
@@ -121,7 +121,7 @@
       "collectedAt": "2026-08-06T08:09:50.100Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T08:10:05.953Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2083647438414581888",
@@ -155,7 +155,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2085172252841054319",
@@ -189,7 +189,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2085192025125892546",
@@ -223,7 +223,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2084995613343760488",
@@ -258,7 +258,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2084988846379548760",
@@ -299,7 +299,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2085267128580501514",
@@ -335,7 +335,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2085239125125615681",
@@ -369,7 +369,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2085237100123664555",
@@ -405,7 +405,7 @@
       "timestamp": 1786001860810,
       "collectedAt": "2026-08-06T07:37:40.810Z",
       "githubSyncedAt": "2026-08-06T07:37:40.810Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "9:16",
@@ -441,7 +441,7 @@
       "collectedAt": "2026-08-06T06:45:44.604Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T06:46:04.211Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "",
@@ -470,7 +470,7 @@
       "collectedAt": "2026-08-06T06:45:44.604Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T06:46:04.211Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "2:3",
@@ -509,7 +509,7 @@
       "collectedAt": "2026-08-06T06:38:53.135Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T06:39:13.774Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_product-carousel-storyboard",
@@ -550,7 +550,7 @@
       "timestamp": 1785998223170,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_luxury-watch-macro-campaign",
@@ -591,7 +591,7 @@
       "timestamp": 1785998223170,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_luxury-jewelry-campaign",
@@ -632,7 +632,7 @@
       "timestamp": 1785998223170,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_scandinavian-chair-lifestyle",
@@ -673,7 +673,7 @@
       "timestamp": 1785998223170,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_fine-fragrance-obsidian-hero",
@@ -714,7 +714,7 @@
       "timestamp": 1785998223169,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_organic-coffee-lifestyle-pour",
@@ -755,7 +755,7 @@
       "timestamp": 1785998223169,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_luxury-handbag-shelf-hero",
@@ -796,7 +796,7 @@
       "timestamp": 1785998223169,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_premium-headphones-sculptural-hero",
@@ -837,7 +837,7 @@
       "timestamp": 1785998223169,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_luxury-skincare-hero",
@@ -878,7 +878,7 @@
       "timestamp": 1785998223169,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "github_joesai_luxury-ev-night-showroom",
@@ -919,7 +919,7 @@
       "timestamp": 1785998223169,
       "collectedAt": "2026-08-06T06:37:03.098Z",
       "githubSyncedAt": "2026-08-06T06:37:03.098Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "aspectRatio": "2:3",
@@ -956,7 +956,7 @@
       "mediaType": "image",
       "commerceType": "品牌视觉",
       "githubSyncedAt": "2026-08-06T06:27:52.889Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
     },
     {
       "id": "grok_x_2084652727595077860",
