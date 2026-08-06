@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T07:37:40.899Z",
+  "updatedAt": "2026-08-06T08:10:05.953Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh8jibq_j6cr",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2085017199836807168/img/0CvDXN8GtCJXDEmR.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085017199836807168/img/0CvDXN8GtCJXDEmR.jpg"
+      ],
+      "model": "",
+      "prompt": "Ford v Ferrari, The Pursuit of Happyness, The Trial of the Chicago 7. The cinematographer behind all three, Phedon Papamichael, joins the Higgsfield Global Film Festival as a jury member. A 2x Oscar nominee, 2x BAFTA nominee, and ASC member will be judging the first generation",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085017199836807168/img/0CvDXN8GtCJXDEmR.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Ankit_patel211/status/2085046064848285713",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786003787654,
+      "title": "AI提示词",
+      "url": "https://x.com/Ankit_patel211/status/2085046064848285713",
+      "collectedAt": "2026-08-06T08:09:50.100Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-06T08:10:05.953Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-08-06",
+      "domain": "x.com",
+      "id": "ext_msh8jibo_tgj2",
+      "image": "https://pbs.twimg.com/media/HO6_qQPasAAE8Q5?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO6_qQPasAAE8Q5?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "梯子都开了，结果只刷 X 吃瓜，真的血亏。 这几个地方可以常看： 1、Reddit 老外版贴吧，但质量高很多。AI、创业、投资、编程，很多是真人踩坑经验。 2、Hacker News 技术圈老哥最爱蹲的地方，新项目、开源工具、创业故事，信息密度很吓人。 3、Product Hunt 每天一堆新产品首发，很多 AI 工具还没被中文圈吹爆，这里已经有人在玩了。 4、LinkedIn 别只拿它找工作，很多创始人、投资人会直接发判断，比媒体快半拍。 5、GitHub Trending 看开发者真的在用什么，比看营销文靠谱太多。 6、Telegram 频道选对了，资料、工具、海外动态流得飞快。 翻墙不是换个地方刷爽文，是去捡信息差。 别把梯子用成高级版短视频入口，太奢侈了。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO6_qQPasAAE8Q5?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/huoshan007/status/2084829493940916390",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786003787652,
+      "title": "我发现很多人翻出来之后",
+      "url": "https://x.com/huoshan007/status/2084829493940916390",
+      "collectedAt": "2026-08-06T08:09:50.100Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-06T08:10:05.953Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2083647438414581888",
       "title": "夜海柔雾CCD女性人像",
