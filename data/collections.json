@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T06:46:04.211Z",
+  "updatedAt": "2026-08-06T06:40:09.954Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -69,7 +69,7 @@
     },
     {
       "aspectRatio": "2:3",
-      "category": "自然",
+      "category": "人像",
       "date": "2026-08-06",
       "domain": "x.com",
       "id": "ext_msh5ai1y_i1t4",
@@ -99,11 +99,421 @@
         "极简"
       ],
       "timestamp": 1785998328550,
-      "title": "日式卧室运动海报",
+      "title": "低饱和卧室晨光写真",
       "url": "https://x.com/ToroJushiAi/status/2085093488966701365",
       "collectedAt": "2026-08-06T06:38:53.135Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T06:39:13.774Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_product-carousel-storyboard",
+      "title": "多产品轮播广告故事板",
+      "prompt": "目标：生成一张适合轮播广告或多帧 campaign 展示的商业故事板，让多个产品画面像同一套系统。资产类型：多帧社媒广告概念图或产品轮播 campaign 视觉。场景：一个干净的展示板，上面并列多个 campaign 画面，每一帧强调不同产品角度、卖点或造型时刻。主体：一组协调统一的产品序列或产品家族，传达“可滑动、可叙事、可零售化”的完整视觉系统。构图：横向多面板布局，包含 3 到 5 个对齐画面，每个分栏各有重点，但配色与 art direction 保持统一。光线：所有分栏都保持一致的商业摄影光感，让整组视觉像同一场 campaign。材质与风格：现代付费社媒 art direction、卡片式分镜、高级零售配色纪律、清晰的产品叙事。约束：不要混乱拼贴，不要各栏风格不一致，不要细小不可读标签，不要杂乱，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "轮播广告",
+        "产品故事板",
+        "多面板",
+        "社媒营销",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/product-carousel-storyboard.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/product-carousel-storyboard.png"
+      ],
+      "aspectRatio": "2:1",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/commercial-formats/product-carousel-storyboard.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/product-carousel-storyboard.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/commercial-formats/product-carousel-storyboard.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223170,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_luxury-watch-macro-campaign",
+      "title": "深石墨高端腕表微距广告",
+      "prompt": "目标：生成一张高级腕表 campaign 图，重点体现工艺、金属打磨和精密感。资产类型：高端腕表发布的商业主视觉。场景：深石墨色摄影棚背景，搭配弧形拉丝金属底座和克制的阴影层次。主体：一只高端腕表作为主角，表壳、表链、表盘纹理和表冠都要清楚呈现。构图：紧凑 hero 构图，三分之四角度，腕表在画面中占据主导，像奢侈腕表平面广告。光线：方向性受控布光，金属高光利落，反差克制，表盘反射精致。材质与风格：拉丝钢、抛光切面、蓝宝石镜面、精细表盘纹理，整体偏单色高奢调性。约束：不要模特，不要手腕，不要文字，不要 logo，不要第二只表，不要跳脱色彩，不要廉价 CGI 感，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "高端腕表",
+        "微距广告",
+        "金属工艺",
+        "奢华主视觉",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-watch-macro-campaign.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-watch-macro-campaign.png"
+      ],
+      "aspectRatio": "4:5",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/watches/luxury-watch-macro-campaign.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-watch-macro-campaign.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/watches/luxury-watch-macro-campaign.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223170,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_luxury-jewelry-campaign",
+      "title": "黑金钻石项链广告主图",
+      "prompt": "目标：生成一张高级珠宝 campaign 图，既要体现工艺，又要让珠宝闪耀真实可信。资产类型：用于首页 hero 或社媒投放的高级珠宝主视觉。场景：深炭黑到黑色的奢华背景，搭配高光黑色底座和克制的反射面。主体：一条钻石项链作为唯一主角，摆放优雅。构图：近景到中近景构图，项链核心部分必须清晰可见，整体像高级杂志广告。光线：戏剧化但可控的聚光，钻石高光锐利，阴影柔和下沉。材质与风格：抛光贵金属、精细切割宝石、黑色漆面反射、亲密而高端的编辑感。约束：不要模特，不要手，不要文字，不要 logo，不要夸张星芒特效，不要杂乱，不要廉价饰品感，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "高级珠宝",
+        "钻石项链",
+        "黑色背景",
+        "广告主图",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-jewelry-campaign-necklace.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-jewelry-campaign-necklace.png"
+      ],
+      "aspectRatio": "3:2",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/jewelry/luxury-jewelry-campaign.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-jewelry-campaign-necklace.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/jewelry/luxury-jewelry-campaign.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223170,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_scandinavian-chair-lifestyle",
+      "title": "北欧单椅自然光场景图",
+      "prompt": "目标：生成一张能体现尺度感、温度感和购买欲的高端家具生活方式图。资产类型：北欧单椅的室内展示视觉。场景：有自然日光的室内空间，灰泥墙面、橡木地板、少量装饰，整体简洁现代。主体：一把北欧风单椅作为绝对主角。构图：轻微斜角室内视角，椅子主导画面，装饰克制，适合商业裁切。光线：柔和窗光，氛围安静、通透、舒适。材质与风格：织物包覆、橡木纹理、灰泥肌理，暖白和燕麦色为主。约束：不要人物，不要宠物，不要文字，不要杂乱，不要家具结构错误，不要展厅式 CGI 感，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "场景种草",
+      "tags": [
+        "北欧家具",
+        "单椅",
+        "自然光",
+        "室内场景",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/scandinavian-chair-lifestyle.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/scandinavian-chair-lifestyle.png"
+      ],
+      "aspectRatio": "4:5",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/home-living/scandinavian-chair-lifestyle.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/scandinavian-chair-lifestyle.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/home-living/scandinavian-chair-lifestyle.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223170,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_fine-fragrance-obsidian-hero",
+      "title": "黑曜石香水奢华主视觉",
+      "prompt": "目标：生成一张电影感高级香氛主视觉，既神秘又昂贵，能承担品牌定调的作用。资产类型：高端香水新品发布的商业 hero 视觉。场景：深黑摄影棚环境，黑曜石底座，克制的反射面，配合极轻微氛围雾。主体：一只建筑感香水瓶，烟熏玻璃瓶身，深色瓶盖，不出现品牌标识。构图：居中主视觉，瓶身完整可见，整体偏对称，留白充分，像奢侈品 campaign。光线：顶部和后方受控聚光，瓶身边缘高光干净，底座有柔和反射。材质与风格：烟熏玻璃、抛光漆面、深色石材、少量金属细节，高级编辑感明显。约束：不要文字，不要 logo，不要花卉，不要模特，不要手，不要繁杂道具，不要廉价闪光特效，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "香水",
+        "黑曜石",
+        "奢华主图",
+        "新品发布",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/fine-fragrance-obsidian-hero.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/fine-fragrance-obsidian-hero.png"
+      ],
+      "aspectRatio": "4:5",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/fragrance/fine-fragrance-obsidian-hero.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/fine-fragrance-obsidian-hero.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/fragrance/fine-fragrance-obsidian-hero.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223169,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_organic-coffee-lifestyle-pour",
+      "title": "晨光有机咖啡生活方式图",
+      "prompt": "目标：生成一张既温暖又现代的咖啡生活方式图片，同时保证产品清晰可读。资产类型：用于有机咖啡品牌的投放素材或落地页视觉。场景：带晨光的厨房台面，少量陶瓷道具、亚麻纹理和干净的编辑式陈列。主体：一包或一罐咖啡作为主产品，旁边是一杯刚刚倒好的咖啡。构图：以产品为主的生活方式构图，预留文案空间，蒸汽真实，道具克制。光线：柔和金色晨光，温暖、治愈，同时保持高级感。材质与风格：哑光包装、陶瓷杯、亚麻布、木纹、丰富咖啡油脂层次。约束：不要人物，不要可读文字，不要杂乱，不要不真实的倒液动作，不要 logo，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "场景种草",
+      "tags": [
+        "咖啡",
+        "生活方式",
+        "晨光",
+        "品牌场景",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/organic-coffee-lifestyle-pour.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/organic-coffee-lifestyle-pour.png"
+      ],
+      "aspectRatio": "3:2",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/food-beverage/organic-coffee-lifestyle-pour.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/organic-coffee-lifestyle-pour.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/food-beverage/organic-coffee-lifestyle-pour.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223169,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_luxury-handbag-shelf-hero",
+      "title": "暖调奢华手袋货架主图",
+      "prompt": "目标：生成一张高级手袋主视觉，让包型清晰、陈列感强、零售气质突出。资产类型：奢侈手袋新品的电商 hero 图。场景：暖中性色棚拍层板场景，带轻微建筑投影和柔和空间层次。主体：一只结构感明确的皮革手袋作为唯一主角。构图：正面偏三分之四视角，整只包完整可见，轮廓和提手形态清楚，四周有呼吸感。光线：柔和棚拍光，金属件高光受控，阴影优雅。材质与风格：顺滑皮革、拉丝金属五金、灰褐或黑色系，高级零售质感。约束：不要 logo，不要可读文字，不要模特，不要手，不要杂乱，不要多余包袋，不要变形，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "奢华手袋",
+        "皮革",
+        "产品主图",
+        "零售陈列",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-handbag-shelf-hero.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-handbag-shelf-hero.png"
+      ],
+      "aspectRatio": "5:4",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/fashion/luxury-handbag-shelf-hero.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-handbag-shelf-hero.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/fashion/luxury-handbag-shelf-hero.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223169,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_premium-headphones-sculptural-hero",
+      "title": "雕塑感旗舰耳机主视觉",
+      "prompt": "目标：生成一张高级消费电子主视觉，让产品既像雕塑，又具备商业广告完成度。资产类型：旗舰头戴式耳机发布视觉。场景：极简石材与金属组合场景，柔和渐变背景，底座像工业雕塑。主体：一副头戴式耳机作为唯一主角，头梁、耳罩和表面材质需要清楚可见。构图：三分之四 hero 角度，产品占比大，留白优雅，整体像高端科技品牌 campaign。光线：柔和但有方向性的棚拍光，边缘金属高光清晰，阴影有层次。材质与风格：阳极氧化金属、哑光聚合物、柔软皮革耳垫，石墨灰与银色调克制高级。约束：不要 logo，不要文字，不要人物，不要杂乱线缆，不要多余设备，不要夸张霓虹特效，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "消费电子",
+        "头戴耳机",
+        "雕塑感",
+        "科技广告",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/premium-headphones-sculptural-hero.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/premium-headphones-sculptural-hero.png"
+      ],
+      "aspectRatio": "4:5",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/consumer-tech/premium-headphones-sculptural-hero.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/premium-headphones-sculptural-hero.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/consumer-tech/premium-headphones-sculptural-hero.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223169,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_luxury-skincare-hero",
+      "title": "象牙色精华液电商主图",
+      "prompt": "目标：生成一张高端护肤品主视觉，画面要昂贵、干净，并且适合电商转化。资产类型：面部精华新品的电商 hero 横幅。场景：温暖象牙色摄影棚场景，圆形洞石底座，浅浅水波反射，带有柔和植物投影。主体：一只磨砂玻璃精华瓶，搭配香槟金拉丝瓶盖，标签区域保持空白。构图：产品居中，略微低机位，整瓶完整可见，预留足够文案留白。光线：柔和漫射棚拍光，带通透高光，整体情绪安静、洁净、奢华。材质与风格：磨砂玻璃、拉丝金属、抛光石材、轻微水面反光，色调克制。约束：不要 logo，不要可读文字，不要手，不要多余道具，不要重复产品，不要杂乱，不要变形，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "护肤品",
+        "精华液",
+        "产品主图",
+        "高端棚拍",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-skincare-hero.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-skincare-hero.png"
+      ],
+      "aspectRatio": "3:2",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/beauty/luxury-skincare-hero.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-skincare-hero.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/beauty/luxury-skincare-hero.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223169,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "github_joesai_luxury-ev-night-showroom",
+      "title": "豪华电动车夜间展厅",
+      "prompt": "目标：生成一张高端汽车品牌视觉，气质要未来、优雅，而且具有真实商业广告感。资产类型：豪华电动车发布的 campaign hero 图。场景：夜间建筑感展厅，抛光混凝土、玻璃幕墙、轻微城市反射。主体：一辆豪华电动车作为主角，采用干净的三分之四侧面角度，灯组识别特征清楚。构图：宽银幕式构图，车辆必须绝对主导，横向平衡清楚，留白克制。光线：受控建筑夜景光，车身高光明确，地面反射柔和。材质与风格：金属车漆、深色玻璃、抛光混凝土、拉丝铝，高端极简。约束：不要可读标识，不要 logo，不要人物，不要车流，不要拥挤背景，不要科幻过头特效，不要水印。",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "汽车广告",
+        "夜间展厅",
+        "品牌发布",
+        "产品主视觉",
+        "GitHub 公开仓库"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-ev-night-showroom.png",
+      "images": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-ev-night-showroom.png"
+      ],
+      "aspectRatio": "2:1",
+      "source": "GitHub · JoeSai Commercial Prompts",
+      "sourceUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/automotive/luxury-ev-night-showroom.md",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/LICENSE",
+      "attribution": "JoeSai/awesome-gpt-image-2-commercial-prompts (MIT)",
+      "sourceRepository": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts",
+      "collectionOrigin": "github-plugin-public-prompt",
+      "rawImages": [
+        "https://raw.githubusercontent.com/JoeSai/awesome-gpt-image-2-commercial-prompts/main/assets/examples/luxury-ev-night-showroom.png"
+      ],
+      "referenceImages": [],
+      "url": "https://github.com/JoeSai/awesome-gpt-image-2-commercial-prompts/blob/main/prompts/automotive/luxury-ev-night-showroom.md",
+      "domain": "github.com",
+      "date": "2026-08-06",
+      "timestamp": 1785998223169,
+      "collectedAt": "2026-08-06T06:37:03.098Z",
+      "githubSyncedAt": "2026-08-06T06:37:03.098Z",
       "domesticSyncedAt": null
     },
     {

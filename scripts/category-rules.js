@@ -19,7 +19,7 @@ const CATEGORY_RULES = [
   ['建筑', [['architecture', 7], ['建筑', 7], ['interior design', 6], ['室内设计', 6], ['facade', 4], ['空间设计', 4], ['建筑摄影', 4]]],
   ['城市', [['cityscape', 7], ['城市天际线', 7], ['urban street', 5], ['城市街道', 5], ['downtown', 4], ['摩天大楼', 4]]],
   ['风景', [['landscape', 7], ['风景', 7], ['mountain', 5], ['山脉', 5], ['valley', 4], ['海岸', 4], ['sunset', 3], ['日落', 3]]],
-  ['自然', [['nature', 7], ['自然', 7], ['forest', 5], ['森林', 5], ['botanical', 4], ['植物', 4], ['flower', 3], ['花卉', 3]]],
+  ['自然', [['nature', 7], ['自然', 3], ['forest', 5], ['森林', 5], ['botanical', 4], ['植物', 4], ['flower', 3], ['花卉', 3]]],
   ['动物', [['wildlife', 7], ['动物', 7], ['animal portrait', 7], ['宠物', 5], ['dog', 4], ['犬', 4], ['feline', 4], ['猫咪', 4]]],
   ['美食', [['food photography', 7], ['美食', 7], ['料理', 5], ['dish', 4], ['dessert', 4], ['餐桌', 3], ['烹饪', 3]]],
   ['时尚', [['fashion', 7], ['时尚', 7], ['editorial', 4], ['couture', 5], ['runway', 5], ['lookbook', 5], ['服装', 4], ['穿搭', 4], ['swimsuit', 3]]],
@@ -30,7 +30,7 @@ const CATEGORY_RULES = [
 ];
 
 function searchableText(item) {
-  return [item.title, item.prompt, ...(Array.isArray(item.tags) ? item.tags : [])]
+  return [item.title, item.prompt, item.commerceType, ...(Array.isArray(item.tags) ? item.tags : [])]
     .filter(Boolean)
     .join(' ')
     .toLowerCase();

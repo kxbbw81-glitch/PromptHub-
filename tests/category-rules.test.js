@@ -24,6 +24,17 @@ test('uses e-commerce as the primary category while retaining its use-case type'
   assert.equal(classifyCommerceType(item), 'UGC / 口碑');
 });
 
+test('uses a validated commerce subtype as a primary-category signal', () => {
+  const item = {
+    title: '北欧单椅自然光场景图',
+    prompt: 'A Scandinavian chair in a naturally lit room with oak flooring and a restrained interior.',
+    commerceType: '场景种草'
+  };
+
+  assert.equal(classifyCollection(item), '电商视觉');
+  assert.equal(classifyCommerceType(item), '场景种草');
+});
+
 test('recognizes reusable logo and visual-identity proposal prompts as brand visuals', () => {
   const item = {
     title: 'Four-panel Logo Proposal',
@@ -42,6 +53,14 @@ test('classifies persona templates and selfies without falling back to abstract'
   assert.equal(classifyCollection({
     title: 'Korean bedroom smartphone selfie',
     prompt: 'A photorealistic selfie of an adult woman in a bedroom.'
+  }), '人像');
+});
+
+test('does not mistake natural portrait details for a nature subject', () => {
+  assert.equal(classifyCollection({
+    title: '低饱和卧室晨光写真',
+    tags: ['人像', '写真'],
+    prompt: '成年女性卧室生活方式人像，使用自然光，保留自然肤色、自然发丝和真实皮肤纹理。'
   }), '人像');
 });
 
