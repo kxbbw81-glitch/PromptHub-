@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T13:08:06.082Z",
+  "updatedAt": "2026-08-07T13:43:30.563Z",
   "collections": [
     {
       "aspectRatio": "2:3",
@@ -976,35 +976,6 @@
       "timestamp": 1785998743470,
       "title": "手绘讲解视频",
       "url": "https://x.com/MrLarus/status/2084994767985770980",
-      "collectedAt": "2026-08-06T06:45:44.604Z",
-      "mediaType": "image",
-      "githubSyncedAt": "2026-08-06T06:46:04.211Z",
-      "domesticSyncedAt": "2026-08-06T09:24:43.993Z"
-    },
-    {
-      "aspectRatio": "",
-      "category": "抽象",
-      "date": "2026-08-06",
-      "domain": "x.com",
-      "id": "ext_msh5je7f_s8s6",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg"
-      ],
-      "model": "",
-      "prompt": "同时也打破了闭源这堵墙，在Codex 里使用 Open Design 插件后，不光与 Codex生态互通，更重要的是，你依旧可以在 Open Design中随时切换模型，同时保持上下文不断。 明天大家在 Codex/ChatGPT 客户端更新后应该就可以在插件市场体验 Open Design了！期待大家的反馈！ 接下来我们会发布完整 Demo，展示如何在 Codex 中真正用 Open Design 进行创作。",
-      "rawImages": [
-        "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/tuturetom/status/2084986587088110004",
-      "tags": [
-        "AI生成"
-      ],
-      "timestamp": 1785998743468,
-      "title": "太惊喜了",
-      "url": "https://x.com/tuturetom/status/2084986587088110004",
       "collectedAt": "2026-08-06T06:45:44.604Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-06T06:46:04.211Z",
