@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-07T10:03:06.589Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-07",
+      "domain": "x.com",
+      "id": "ext_msis12cs_qyr8",
+      "image": "https://pbs.twimg.com/media/HO_uVwGW4AArUQQ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO_uVwGW4AArUQQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_uVvjWEAEiysI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_uVvWW0AAAauY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_uVvqXAAAhxkg?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4竖版，照片级真实、低饱和、电影感强烈的高端酒吧调酒人像。一位明确成年的虚构东亚女性，约22至26岁，站在现代酒吧的大理石吧台后方，画面从头顶拍至腰部附近。人物位于画面中央，身体正面略微转向画面左侧，左手握住不锈钢调酒壶，向吧台上的马天尼杯缓慢倒入透明鸡尾酒，右手自然平放在台面上，手指微微张开。她直视镜头，神情冷静、自信、克制，嘴唇微闭，带有略显危险和高级感的夜间时尚气质。\n\n她拥有精致偏长的鹅蛋脸、暖调浅肤色、深棕色杏仁眼、自然细眉、挺直鼻梁和饱和度适中的深红色双唇。妆容为精致夜间妆：轻薄半哑光底妆、暖棕眼影、清晰上扬眼线、根根分明的睫毛、柔和修容和深红丝绒唇妆。深棕近黑色长发扎成高位马尾，发顶自然蓬松，脸颊两侧留有细碎发丝。佩戴细长银色垂坠耳环和一条带小吊坠的银色项链，手指涂深酒红色指甲油。\n\n她穿黑色仿皮或丝缎质感细肩带修身连衣裙，深V领口，胸前带自然扭结与褶皱，面料具有细腻油润反光和真实张力，造型成熟、极简、无图案。\n\n背景为现代高级酒吧，后方酒架摆放多瓶玻璃酒瓶，整面背景被青绿色霓虹灯带照亮，局部带暖橙色竖向灯光。吧台为浅灰白大理石，表面反射人物、酒杯和霓虹光。冷青色环境光作为主色，柔和暖光从左侧补充面部和皮肤，形成冷暖对比。整体采用青绿、黑色、深红、银色和自然肤色，低饱和、中高对比，具有电影酒吧场景、夜间时尚画报和高级香水广告质感。50mm或85mm镜头，f/2.0，眼平略低机位，浅景深，双眼与倒酒动作清晰，背景酒瓶柔和虚化。保留真实毛孔、发丝、金属反光、液体流动、玻璃折射、大理石纹理和指甲细节，轻微ISO 800胶片颗粒；无塑料皮肤、无过度磨皮、无畸形手指、无额外肢体、无文字、Logo、水印、边框或拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO_uVwGW4AArUQQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_uVvjWEAEiysI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_uVvWW0AAAauY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_uVvqXAAAhxkg?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2085516269776998837",
+      "tags": [
+        "青绿",
+        "人像",
+        "电影感",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1786096985645,
+      "title": "霓虹夜街电影感女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2085516269776998837",
+      "collectedAt": "2026-08-07T10:03:06.589Z"
+    }
+  ]
+}
