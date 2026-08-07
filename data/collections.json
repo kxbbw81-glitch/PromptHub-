@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T09:22:39.230Z",
+  "updatedAt": "2026-08-07T09:29:23.760Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-07",
+      "domain": "x.com",
+      "id": "ext_msiqtc1b_8fz6",
+      "image": "https://pbs.twimg.com/media/HO_tfvuXAAAZRSs?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HO_tfvuXAAAZRSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_tfvyWwAASGqI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_tfv2WAAAlmQk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_tfv3WwAAmrIp?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4竖版，照片级真实、自然抓拍感的都市街边咖啡馆生活方式人像。一位明确成年的虚构东亚女性，约22至26岁，坐在城市咖啡馆露台的法式藤编椅上，画面从头顶拍至大腿中部。人物身体略微朝画面左侧，双腿自然并拢，一只手举着透明塑料杯装的冰咖啡，黑色吸管轻触嘴唇，另一只手放松垂在座椅旁。她直视镜头，神情平静、自信、略带审视感，像朋友在街头随手拍下的一瞬间。 她拥有精致偏长的鹅蛋脸、健康暖调浅肤色、深棕色杏仁眼、自然浓眉、挺直鼻梁和裸棕粉色双唇。妆容清透克制：轻薄半哑光底妆、浅蜜桃腮红、暖棕眼影、细眼线、自然睫毛，保留真实毛孔、轻微雀斑、细小绒毛和肤色变化。深棕近黑色头发盘成蓬松凌乱高发髻，轻薄刘海覆盖额头，脸侧留有碎发。佩戴细金属无框或半框眼镜、简洁金色圆环耳饰和少量戒指。 她穿一件奶油白细罗纹修身短款背心，宽圆领、细肩带，露出腰腹与肚脐；外搭宽松低饱和鼠尾草灰绿色拉链连帽卫衣，落肩长袖，自然敞开；下身搭配浅蓝色高腰牛仔短裤，磨白水洗、金属纽扣、腰袢、口袋缝线和毛边裤脚清晰可见。整体造型轻松、年轻、城市休闲。 背景为现代商业街咖啡馆露台，可见深色玻璃橱窗、绿色遮阳棚、石材外墙、盆栽树木、人行道和少量远处行人，背景自然虚化。柔和阴天日光从左前方进入，均匀照亮面部、手部、衣服和咖啡杯，整体低饱和、低对比、自然曝光，具有日系街拍、韩系生活画报和轻微胶片感。50mm镜头，f/2.2，略高于眼平机位，双眼精准对焦，背景柔和散景。保留真实皮肤、发丝、棉布、牛仔、塑料杯、冰块和藤编纹理，轻微ISO 400胶片颗粒；无塑料皮肤、无过度磨皮、无畸形手指、无额外肢体、无文字、Logo、水印、边框或拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO_tfvuXAAAZRSs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_tfvyWwAASGqI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_tfv2WAAAlmQk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HO_tfv3WwAAmrIp?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2085546471328502180",
+      "tags": [
+        "人像",
+        "低饱和"
+      ],
+      "timestamp": 1786094945328,
+      "title": "街头涂鸦牛仔短裙女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2085546471328502180",
+      "collectedAt": "2026-08-07T09:29:06.113Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-07T09:29:23.760Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "自然",
