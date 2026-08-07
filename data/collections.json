@@ -1,7 +1,334 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T09:24:43.996Z",
+  "updatedAt": "2026-08-07T07:37:22.996Z",
   "collections": [
+    {
+      "id": "grok_x_2085323547992576199",
+      "title": "窗边复古女巫柔雾写真",
+      "category": "人像",
+      "tags": [
+        "portrait",
+        "witch",
+        "film-grain",
+        "window-light",
+        "photoreal",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "柔雾自然光人像、浅景深背景虚化、窗光过曝边缘、轻胶片颗粒、低对比灰雾；真人摄影，复古奇幻女巫主题写真。年轻美女背对镜头三分之二侧身回望，站在室内窗边，头部低垂向右、闭眼、嘴唇微张，神情迷离且欲言又止。短黑发内扣，暖象牙白肤调，肩臂被右侧冷白窗光柔亮勾边，淡粉腮红与柔粉水润唇。黑色尖顶宽檐女巫帽，深墨绿色露肩挂脖长裙，黑色半透明薄纱披肩和流苏袖，腰后挂钥匙与圆形饰件；身形圆润饱满，肩颈纤细、腰线收紧、腰臀比例明显，贴身哑光弹性裙在腰臀处形成包裹感，后中线抽褶纵向聚拢，下摆褶皱垂落。右手轻拉黑色薄纱，右侧窗台有常春藤、玻璃瓶、卷轴、旧书和复古盒子，前景道具大幅虚化，背景旧墙暖灰暗部，真实光影，柔和写真质感",
+      "image": "https://pbs.twimg.com/media/HPCOi5OasAAPdmn.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPCOi5OasAAPdmn.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPCOi5OasAAPdmn.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MANISH1027512/status/2085323547992576199",
+      "url": "https://x.com/MANISH1027512/status/2085323547992576199",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085624482190774289",
+      "title": "上元灯会兔灯汉服夜拍",
+      "category": "人像",
+      "tags": [
+        "hanfu",
+        "lantern",
+        "portrait",
+        "night",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "4:5，压暗环境+柔化闪光bloom，上元灯会古风夜拍写真，韩系妆感×东方灯节，人群虚化，现场暖光斑。 成年年轻女性，20-24岁，韩系淡颜，柔和拱眉、明显卧蚕、面中桃粉腮红，玫瑰水光妆，水润质感只在唇与眼周，额头与双颊自然半哑光，真实皮肤纹理，空气感碎发，松散半盘发。 穿月白偏烟灰紫的宋制/明制古装，薄绸外披+立领内衫，窄边织金点缀，轻盈通透。 场景为花灯长街，背景是成片暖黄色灯笼与模糊人群。 人物侧身回头看向镜头，手里拿着兔子灯，嘴角轻笑，神态温柔灵动，像在人群中被突然拍到的一瞬。 镜头为平视半身近距离抓拍，环境压低一到两档，柔化闪光落在脸颊、鼻梁窄线、发丝、耳坠和薄绸边缘，形成高光弥散与柔焦 bloom，背景灯笼化为暖黄光斑，浅景深。 轻量负面：不要塑料皮肤、不要全脸连续油膜、不要湿亮蜡感、不要过度磨皮、不要婚庆红金、不要仙侠法术、不要廉价影楼汉服、不要背景人群五官清晰、不要手指畸形、不要多余肢体、不要头颈断裂、不要额外文字水印。",
+      "image": "https://pbs.twimg.com/media/HPGPB18XcAARK5N.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPGPB18XcAARK5N.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPGPB18XcAARK5N.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chenlinspark/status/2085624482190774289",
+      "url": "https://x.com/chenlinspark/status/2085624482190774289",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085616187757707301",
+      "title": "樱花树上水晶纱裙幻境",
+      "category": "时尚",
+      "tags": [
+        "fashion",
+        "fantasy",
+        "cherry-blossom",
+        "midjourney",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A masterpiece of surreal romantic fantasy fashion photography, ultra realistic, Midjourney 8.2 style. A beautiful ethereal young woman with porcelain-like pale skin and soft delicate facial features sits gracefully on a blooming white cherry blossom tree branch. She wears an elegant translucent white crystal organza dress, layered with flowing transparent silk fabric that floats dramatically in the wind like liquid glass. Her short platinum blonde hair moves softly in the breeze, blending with the flowing transparent fabric around her. Low angle perspective from the ground looking upward, creating a dreamlike sense of scale and fantasy. Her elegant figure is surrounded by countless white cherry blossoms, delicate petals, and transparent flowing ribbons of fabric swirling through the sky. She has a peaceful, melancholic expression, eyes gently closed, like a fragile dream or a springtime goddess descending into the human world. The background shows a bright blue sky, soft white clouds, old residential buildings partially hidden behind blooming cherry trees, creating a surreal contrast between ordinary urban life and a fantasy dream world. Extreme realistic details: natural skin texture, realistic translucent fabric, delicate flower petals, soft sunlight passing through silk, subtle shadows, realistic hair strands, cinematic depth of field. Dreamy Japanese spring atmosphere, poetic visual storytelling, magical realism, contemporary fashion editorial photography, inspired by Japanese fantasy films and high-end couture photography. Ultra detailed, 8K RAW photography, Leica M6 color film aesthetic, soft natural lighting, volumetric sunlight, realistic materials, cinematic composition, masterpiece. surreal melting reality effect, the boundary between human, glass, silk and nature dissolving, dreamlike visual distortion, impossible beauty --ar 9:16 --style raw --v 8.2 --chaos 10 --s 500",
+      "image": "https://pbs.twimg.com/media/HPGY2RUbAAEUbtw.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPGY2RUbAAEUbtw.jpg",
+        "https://pbs.twimg.com/media/HPGY2EWaAAAgSpJ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPGY2RUbAAEUbtw.jpg",
+        "https://pbs.twimg.com/media/HPGY2EWaAAAgSpJ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Midjourney 8.2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liluocheng13/status/2085616187757707301",
+      "url": "https://x.com/liluocheng13/status/2085616187757707301",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085611975971881026",
+      "title": "雨夜女王与黑甲骑士",
+      "category": "奇幻",
+      "tags": [
+        "medieval",
+        "gothic",
+        "cinematic",
+        "midjourney",
+        "fantasy",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A masterpiece of dark romantic medieval fantasy, cinematic gothic tragedy, ultra realistic fantasy artwork, Midjourney 8.2 style. A wounded pale blonde queen in a torn white ceremonial gown sits on the cold wet stone ground, leaning quietly against a massive black armored knight. Her delicate face looks exhausted and sorrowful, eyes lowered, expression filled with grief and tenderness. A small broken crown rests on her head, her long silver-blonde hair falling naturally over her shoulders. Beside her stands a gigantic dark medieval knight wearing extremely detailed black iron armor, an ancient battle-worn helmet, heavy fur cloak, and a massive sword planted into the ground. His presence is powerful, silent, and protective, like a fallen guardian after a lost war. The two figures are not enemies, but survivors of the same tragedy. Their bodies are close, creating a feeling of forbidden love, loyalty, and the final moment before separation. A devastated battlefield surrounds them, broken weapons, scattered white fabric, fallen red rose petals, cracked stone floor reflecting rainwater. Heavy rain is falling from the dark sky, countless realistic raindrops visible in the air, water dripping from armor plates and soaking the white dress fabric. Wet surfaces create subtle reflections. Dark cinematic atmosphere, cold gray color palette, soft diffused light through rain clouds, melancholic mood, medieval gothic romance, tragic fantasy movie still, inspired by dark European legends. Extreme detail on armor engraving, realistic wet fabric texture, realistic skin, cinematic depth of field, volumetric rain, film grain, IMAX 70mm photography, Unreal Engine 5 quality, photorealistic fantasy concept art. The emotional atmosphere is quiet and heartbreaking, not heroic, not victorious, but a silent farewell between two souls who have lost everything. --ar 16:9 --style raw --v 8.2 --chaos 8 --s 350",
+      "image": "https://pbs.twimg.com/media/HPGVB0pbAAA_Bqk.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPGVB0pbAAA_Bqk.jpg",
+        "https://pbs.twimg.com/media/HPGVB0rakAA5yGn.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPGVB0pbAAA_Bqk.jpg",
+        "https://pbs.twimg.com/media/HPGVB0rakAA5yGn.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Midjourney 8.2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liluocheng13/status/2085611975971881026",
+      "url": "https://x.com/liluocheng13/status/2085611975971881026",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085560003474391246",
+      "title": "东方赛博机械武士",
+      "category": "科幻",
+      "tags": [
+        "cyberpunk",
+        "samurai",
+        "oriental",
+        "midjourney",
+        "character",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A masterpiece of ultra-detailed oriental cyberpunk fantasy art, cinematic samurai warrior aesthetic, extreme visual density, 16K resolution. A mysterious East Asian female cybernetic samurai warrior, elegant pale face, cold emotionless expression, sharp eyes glowing with subtle blue light. Her black hair flows wildly in the wind, partially covering her face, fused with an elaborate futuristic mechanical headdress inspired by ancient Japanese and Chinese royal ornaments. She wears a magnificent hybrid armor combining traditional oriental silk robes and advanced biomechanical technology. The white embroidered fabric is covered with intricate golden patterns, reflecting metallic textures and holographic light. Her body is integrated with complex black mechanical structures, exposed cables, cybernetic implants, energy conduits, and ancient engraved metal components. She holds a glowing cyan energy katana vertically in front of her body, the blade emitting intense futuristic light. The sword reflects her face and armor, creating a dramatic cinematic contrast between ancient elegance and futuristic technology. The mechanical elements resemble a fusion of samurai armor, Tang dynasty ceremonial clothing, and high-end sci-fi machinery. Countless wires, metal ornaments, engraved details, mechanical joints, and tiny technological components surround her like a living artificial deity. Low-angle close-up shot, extreme perspective, powerful heroic composition, IMAX 70mm cinematic photography, Unreal Engine 5 quality, physically based rendering, ray tracing, HDR, volumetric lighting. A fusion of: Japanese cyberpunk, Chinese Tang dynasty aesthetics, dark fantasy, mechanical goddess design, samurai mythology, high fashion editorial photography, AAA game character concept art. Ultra realistic textures, realistic metal reflections, silk embroidery details, cinematic color grading, cold blue atmosphere mixed with warm golden highlights, masterpiece, museum-quality fantasy artwork. –ar 9:16 –style raw –v 8.2 –s 750",
+      "image": "https://pbs.twimg.com/media/HPFlwwmbIAAXmea.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPFlwwmbIAAXmea.jpg",
+        "https://pbs.twimg.com/media/HPFlwwCaEAAFg4P.jpg",
+        "https://pbs.twimg.com/media/HPFlwv8aYAAsTJI.jpg",
+        "https://pbs.twimg.com/media/HPFlwjZa0AAJEA3.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPFlwwmbIAAXmea.jpg",
+        "https://pbs.twimg.com/media/HPFlwwCaEAAFg4P.jpg",
+        "https://pbs.twimg.com/media/HPFlwv8aYAAsTJI.jpg",
+        "https://pbs.twimg.com/media/HPFlwjZa0AAJEA3.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Midjourney 8.2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liluocheng13/status/2085560003474391246",
+      "url": "https://x.com/liluocheng13/status/2085560003474391246",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085597072896799083",
+      "title": "花船双姝东方高定大片",
+      "category": "时尚",
+      "tags": [
+        "fashion",
+        "heritage",
+        "hanfu",
+        "luxury",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-premium cinematic heritage fashion campaign image with absolutely no text, no logo, no watermark, and no readable typography anywhere in the frame. Preserve the exact visual logic of an intimate flower-boat leisure tableau seen from a slightly elevated top-down angle: two adult noble women reclining closely together inside an ornate lacquered pleasure boat surrounded by abundant blossoms, luxurious layered silk robes, refined ceremonial objects, fruit, lantern light, and calm petal-strewn water. The final artwork must feel like a Cannes-level luxury visual: intimate, aristocratic, emotionally magnetic, materially exquisite, culturally refined, and overwhelmingly beautiful. Core composition: Use a wide cinematic horizontal frame viewed from above at a gentle diagonal angle. The pleasure boat should occupy most of the frame, cutting across the image with elegant asymmetry. One woman reclines on the left side, leaning inward and slightly forward, her hand lifted near her lips, collarbone, or veil in a soft teasing gesture. The second woman reclines on the right side, turned upward toward her companion, holding a round painted silk fan across her lap. Their bodies and flowing garments must create a graceful interwoven S-curve, making their emotional exchange the center of the composition. Keep dark-green reflective water visible at the upper left with scattered flower petals, while dense blossoms, lantern glow, silk drapery, and ceremonial objects frame the lower and right edges. Orbit emphasis: Increase the emotional intimacy and private springtime tension between the two women. Their eye contact, smiles, hand gestures, and leaning body language should feel warmer, closer, and more suggestive of shared delight inside a secluded floating celebration. The left woman’s gesture should feel flirtatious yet elegant, while the right woman’s expression should feel receptive, luminous, and softly captivated. Their poses must feel alive, not staged: intimate, graceful, and effortlessly aristocratic. Subject direction: Design two original adult women with soft noble beauty, serene maturity, and emotionally warm expressions, never resembling any real actress or public figure. Their anatomy should feel naturally mature and believable beneath the robes: soft realistic body weight, natural chest gravity under layered fabric, graceful waist-to-hip flow, smooth hip-to-thigh transitions, subtle skin elasticity, faint natural skin texture, and tasteful realism only where neckline, hands, neck, or forearms are visible. Wardrobe and textile direction: Dress both women in couture-level hanfu-inspired spring robes made of translucent gauze, layered silk, brocade edging, pearl trimming, embroidered floral motifs, and gold-thread detailing. Use a highly refined palette of blush pink, petal peach, apricot cream, warm ivory, pale celadon, misty jade, powdered rose, and soft champagne gold. The robes must pool lavishly across cushions and the wooden deck, forming rich rivers of pastel fabric. Lighting and atmosphere: Use exquisite late-afternoon golden light filtered through blossom haze. The sunlight should skim across translucent sleeves, cheeks, lips, floral ornaments, fan silk, fruit surfaces, and polished lacquer edges, creating creamy highlights and gentle shadow falloff. Material realism: Render every material at an elite level: translucent silk gauze, satin sheen, embroidered thread, pearl luster, lacquered wood, ceramic glaze, fruit skin, lantern glass, polished metal details, painted fan paper, and reflective water. Color direction: Use a refined palette of blush pink, petal peach, apricot cream, pale celadon, misty jade, warm ivory, soft gold, dusty rose, and deep lacquer red-brown accents. Rendering style: ultra-premium cinematic historical fashion tableau, elevated top-down flower boat composition, two elegant adult women in layered pastel hanfu-inspired robes, intimate eye contact, painted silk fan, curated fruit trays, lantern glow, blossom immersion, petal-strewn water, couture textile realism, delicate skin realism, museum-grade luxury image, Cannes-level art direction, 8k. Negative prompt: text, title, logo, watermark, readable letters, modern objects, modern clothing, plastic fabric, cheap costume texture, vulgar erotic pose, exaggerated exposure, fantasy armor, martial arts action, crowded festival scene, low-detail faces, oversharpening, harsh contrast, neon colors, messy composition, real actress likeness",
+      "image": "https://pbs.twimg.com/media/HPGCHR5boAAr3rA.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPGCHR5boAAr3rA.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPGCHR5boAAr3rA.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "GPT-image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ou_zhen599/status/2085597072896799083",
+      "url": "https://x.com/ou_zhen599/status/2085597072896799083",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085624482635346187",
+      "title": "金色街头牛仔男士肖像",
+      "category": "人像",
+      "tags": [
+        "portrait",
+        "street",
+        "cinematic",
+        "golden-hour",
+        "denim",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A full-body cinematic street portrait of a young South Asian man with short, curly, messy black hair and a well-groomed short beard. He is sitting casually on a simple vintage metal-frame chair outdoors against a textured, rustic wall. He is holding a smartphone in his left hand and making a relaxed victory/peace sign with his right hand while looking directly at the camera with a subtle, confident expression. Outfit: Oversized classic blue denim jacket worn open over a plain white crew-neck t-shirt, paired with matching loose-fit wide-leg blue jeans. Clean white low-top sneakers on his feet, and a minimalist chain necklace with a small pendant around his neck. Background & Setting: The background features a large, weathered, off-white plaster wall with visible cracks and peeling texture. On the right, a tall, retro wooden-framed window with glass panes. The ground is rough, cracked concrete with scattered dry leaves and subtle debris. A couple of small aloe vera plants sit near the base of the wall. Lighting & Vibe: Warm golden-hour sunlight casting soft, direct shadows of the man onto the wall behind him. Retro cinematic film aesthetic with subtle grain, rich color contrast, deep warm tones, and high detail on fabric textures and wall surfaces. High resolution, shot on 35mm lens, f/2.8 depth of field.",
+      "image": "https://pbs.twimg.com/media/HPDvzr3a8AAHIY7.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPDvzr3a8AAHIY7.jpg",
+        "https://pbs.twimg.com/media/HPDvzr5bkAA0BvI.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPDvzr3a8AAHIY7.jpg",
+        "https://pbs.twimg.com/media/HPDvzr5bkAA0BvI.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Tanvir48992/status/2085624482635346187",
+      "url": "https://x.com/Tanvir48992/status/2085624482635346187",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085625285341479284",
+      "title": "Y2K闺房运动时尚写真",
+      "category": "人像",
+      "tags": [
+        "editorial",
+        "portrait",
+        "y2k",
+        "photoreal",
+        "midjourney",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Photorealistic editorial portrait. Waist up, eye level, left profile, natural horizontal crop. Seductive stunning Japanese woman, 20s, full bust, narrow defined waist, flat abdomen. Long soft center parted honey caramel brown waves. Young beautiful Korean idol face, looking toward camera, pressed lips, barely contained playful smile. Sporty ringer baby tee and dolphin shorts: fitted cropped ringer tee with contrast collar and sleeve binding, low rise dolphin micro shorts with contrast piping. Head slightly off axis, face plane angled diagonally, arms crossed loosely, back facing turn back pose with torso rotated toward camera. Y2K retro bedroom: bed edge, desk corner, CRT TV, vinyl record wall posters, window area or floor rug. Indoor window daylight, minimal rim light. Mika Ninagawa inspired explosive vivid complex color, warm digital portrait rendering. --sd --chaos 10 --ar 16:9 --stylize 250 --profile 5utqw2m",
+      "image": "https://pbs.twimg.com/media/HPGhGuObkAAbXJA.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPGhGuObkAAbXJA.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPGhGuObkAAbXJA.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2085625285341479284",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2085625285341479284",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085628727023591784",
+      "title": "递归连帽衫超现实肖像",
+      "category": "人像",
+      "tags": [
+        "surreal",
+        "portrait",
+        "recursive",
+        "identity-lock",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Transform the uploaded image into an ultra realistic surreal cinematic portrait while preserving my exact facial identity, hairstyle, facial structure, skin tone, expression, clothing, and body proportions with maximum accuracy. Create a visually impossible recursive composition where I am wearing a white zip-up hoodie over a red shirt, pulling the hoodie open with both hands. Inside the opened hoodie, reveal a second realistic version of myself emerging from within my torso, wearing the same white hoodie and red shirt, with an identical shocked facial expression. The inner version reaches one hand dramatically toward the camera as if escaping from another dimension. Make the inner body appear physically integrated into the outer body with seamless realistic anatomy, convincing depth, natural fabric folds, realistic skin texture, accurate hands and fingers, and believable lighting interaction. Clean neutral gray studio background, centered portrait composition, dramatic forced perspective, cinematic soft lighting, shallow depth of field, photorealistic skin pores, realistic clothing textures, surreal conceptual photography, mind-bending visual illusion, premium editorial photography, Hollywood VFX quality, ultra detailed, 8K HDR, masterpiece, no distortion, no extra limbs, no malformed hands, no text, no watermark.",
+      "image": "https://pbs.twimg.com/media/HPGkQgXXoAA5cP-.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPGkQgXXoAA5cP-.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPGkQgXXoAA5cP-.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Divine_Oreoluwa/status/2085628727023591784",
+      "url": "https://x.com/Divine_Oreoluwa/status/2085628727023591784",
+      "domain": "x.com",
+      "date": "2026-08-07",
+      "timestamp": 1786088242904,
+      "collectedAt": "2026-08-07T07:37:22.904Z",
+      "githubSyncedAt": "2026-08-07T07:37:22.904Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "科幻",
