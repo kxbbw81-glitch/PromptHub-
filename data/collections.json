@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T07:37:22.996Z",
+  "updatedAt": "2026-08-07T08:48:58.555Z",
   "collections": [
     {
       "id": "grok_x_2085323547992576199",
@@ -35,7 +35,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085624482190774289",
@@ -70,7 +70,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085616187757707301",
@@ -107,7 +107,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085611975971881026",
@@ -144,7 +144,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085560003474391246",
@@ -185,7 +185,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085597072896799083",
@@ -220,7 +220,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085624482635346187",
@@ -257,7 +257,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085625285341479284",
@@ -292,7 +292,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "id": "grok_x_2085628727023591784",
@@ -327,7 +327,7 @@
       "timestamp": 1786088242904,
       "collectedAt": "2026-08-07T07:37:22.904Z",
       "githubSyncedAt": "2026-08-07T07:37:22.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-07T08:48:58.552Z"
     },
     {
       "aspectRatio": "",
