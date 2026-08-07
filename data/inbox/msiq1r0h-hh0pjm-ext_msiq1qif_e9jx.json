@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-07T09:07:38.369Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-08-07",
+      "domain": "x.com",
+      "id": "ext_msiq1qif_e9jx",
+      "image": "https://pbs.twimg.com/media/HPDOhUtW8AAYZXw?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPDOhUtW8AAYZXw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "画面左侧的非持机手前臂藏在背心前片内，只有食指从领口内侧斜向右上方伸出。食指接近伸直，指尖轻触颈根正前方略偏画面左的位置，即靠画面左侧的锁骨内端上方、胸骨上窝外侧的浅凹处；不触碰喉部正中，也不到达下颌。\n中指、无名指和小指完全不可见，画面中不出现这三根手指的指尖、指甲、侧缘或局部轮廓；它们被领口下方的上衣前片遮住，不在胸前、领口边缘或颈侧额外露出。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPDOhUtW8AAYZXw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ricktung/status/2085393863745691959",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786093657719,
+      "title": "画面左侧的非持机手前臂藏在背心前片内",
+      "url": "https://x.com/ricktung/status/2085393863745691959",
+      "collectedAt": "2026-08-07T09:07:38.369Z"
+    }
+  ]
+}
