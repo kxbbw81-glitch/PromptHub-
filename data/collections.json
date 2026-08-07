@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T10:36:14.024Z",
+  "updatedAt": "2026-08-07T13:08:06.082Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-07",
+      "domain": "x.com",
+      "id": "ext_msiymkto_vm43",
+      "image": "https://pbs.twimg.com/media/HPCcZeHXsAAyNxF?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPCcZeHXsAAyNxF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPCcZeHXMAEo0Hb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPCcZfBWwAARYjc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPCcZeGWgAASWeF?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4竖版，照片级真实、冷静自然的室内泳池生活方式人像。一位明确成年的虚构东亚女性，约22至26岁，站在现代室内泳池的浅水区，水位到胸口下方，画面从头顶拍至水下大腿附近。人物位于画面中央，身体正面略微转向画面左侧，双臂自然垂入水中，双腿在清澈池水下隐约可见。她没有看镜头，而是侧头望向画面右侧远方，嘴唇自然闭合，神情平静、克制、略带若有所思，像游泳后短暂停留的瞬间。 她拥有清秀柔和的鹅蛋脸、白皙中性肤色、深棕色杏仁眼、自然眉形、秀气鼻梁和裸粉色双唇。妆容极淡：轻薄半哑光底妆、浅灰棕眼影、细眼线、自然睫毛和低光泽唇色。深棕近黑色短发剪至下颌或颈部，完全被水打湿，发丝成束贴在额头、耳侧和后颈，保留真实湿发纹理。脸部、肩颈、锁骨与手臂布满细小水珠和自然湿润高光。 她穿一套低饱和深红色三角比基尼，细挂脖肩带，简洁无图案，湿润面料自然贴合身体并产生真实反光，保持正常遮盖。池水呈浅蓝青色，水面在胸前形成自然折射、波纹和反射，水下身体因光线折射略微变形但比例真实。 背景为简洁现代的室内泳池，浅灰白墙面、大面积高窗、石材池边和柔和虚化的蓝色水面。阴天自然光从左侧高窗进入，均匀照亮面部、肩膀和水面，形成冷灰蓝色环境光与细腻浅影。整体低饱和、低对比、略微压暗，安静、清冷、具有日系写真、独立电影静帧和高级泳装画报质感。50mm或85mm镜头，f/2.8，眼平机位，浅景深，双眼精准对焦。保留真实毛孔、细小绒毛、水珠、湿发、泳装纤维、池水波纹和瓷砖纹理，轻微ISO 400胶片颗粒；无塑料皮肤、无过度磨皮、无夸张比例、无畸形肢体、无额外人物、无文字、Logo、水印、边框或拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPCcZeHXsAAyNxF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPCcZeHXMAEo0Hb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPCcZfBWwAARYjc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPCcZeGWgAASWeF?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2085697468176420960",
+      "tags": [
+        "人像",
+        "写真",
+        "低饱和"
+      ],
+      "timestamp": 1786108067053,
+      "title": "室内泳池室内泳装海报",
+      "url": "https://x.com/ToroJushiAi/status/2085697468176420960",
+      "collectedAt": "2026-08-07T13:07:47.829Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-07T13:08:06.082Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
