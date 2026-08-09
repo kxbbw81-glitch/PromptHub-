@@ -1,7 +1,379 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T14:48:05.170Z",
+  "updatedAt": "2026-08-09T19:36:23.923Z",
   "collections": [
+    {
+      "id": "grok_x_2086514490577666163",
+      "title": "编辑写真女性人像",
+      "category": "人像",
+      "tags": [
+        "fashion",
+        "editorial",
+        "midjourney",
+        "sref",
+        "concept-portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic fashion editorial close-up of a dark-skinned woman surrounded by thick ivory-white albino snakes wrapped around the head, neck and shoulders. Intense pale eyes, shaved head, detailed skin pores and snake scales. Cool blue-gray background, hard directional light from upper left, deep dramatic shadows, sculptural chiaroscuro, surreal mythological mood\n\n--sref 3519650329::3 1552671844::2 2011261218 2604369921 --profile pp1ovuc 9dq6xzy 5fdxp55 --stylize 80 --exp 12 --hd --v 8.2",
+      "image": "https://pbs.twimg.com/media/HPTFT60XEAEPGPm.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPTFT60XEAEPGPm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPTFT60XEAEPGPm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "midjourney",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ibexdream/status/2086514490577666163",
+      "url": "https://x.com/ibexdream/status/2086514490577666163",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085727678720622945",
+      "title": "时尚人像",
+      "category": "人像",
+      "tags": [
+        "midjourney",
+        "black-and-white",
+        "portrait",
+        "film-grain",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Black and white wide-angle of elderly Arikara chief in New York, white tribal face paint, wearing tribal buffalo and deerskin clothing, tribal jewellery and feathers, bokeh, expired film grain and dust --ar 16:9 --raw --stylize 75 --hd --v 8.2",
+      "image": "https://pbs.twimg.com/media/HPH-GV8WQAARVyg.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPH-GV8WQAARVyg.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPH-GV8WQAARVyg.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "midjourney",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/michaelrabone/status/2085727678720622945",
+      "url": "https://x.com/michaelrabone/status/2085727678720622945",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086456786538689023",
+      "title": "四格肖像",
+      "category": "时尚",
+      "tags": [
+        "y2k",
+        "k-pop",
+        "collage",
+        "nano-banana",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "主体人物：\n一位年轻亚洲女性，K-pop 偶像风格，白皙肌肤，精致柔和的五官，具有韩系明星感。长款蓬松深色波浪卷发，空气刘海，其中一个画面佩戴白色蝴蝶结发夹。\n服装：\n黑色亮片装饰短款上衣（bralette 风格），搭配深色牛仔裤，整体呈现 Y2K 时尚、韩流偶像舞台感。\n\n妆容：\n桃色腮红，水光感唇妆，柔和眼线，自然精致的韩系妆容。\n姿势：\n采用数字剪贴簿拼贴形式，同一人物以多个摄影切片形式出现，每个切片展示不同姿态：\n\n顶部中央（Panel 1）：\n半身肖像，人物直视镜头或微微低头，一只手放在头发中，手肘抬起，背景为模糊城市景观。\n右下角（Panel 2）：\n坐姿或半躺姿态，身体向后倚靠，一只手支撑身体，冷酷地看向镜头，穿着牛仔裤，展现随性时尚感。\n\n右侧中间（Panel 3）：\n回眸肩拍视角，人物回头看向镜头，眼神温柔，一只手抬起触碰头发。\n左下角（Panel 4）：\n特写肖像，人物侧脸看向一旁，佩戴白色蝴蝶结发夹，突出精致五官。\n\n左上角（Panel 5）：\n胸像照片，人物望向镜头之外，呈现梦幻、温柔的表情。\n场景：\n数字剪贴簿（Digital Scrapbook）与粉丝编辑拼贴（Fan-Edit Collage）风格。\n多个同一人物的摄影剪影被裁剪后，随机但协调地排列在复古纹理背景上。\n每张人物照片边缘带有厚实白色描边，类似贴纸效果。\n\n背景：\n复古报纸印刷纹理背景：\n米黄色\n\n暖色调\n泛旧纸张质感\n\n怀旧 Y2K 氛围\n装饰元素：\n\n撕纸边缘效果\n白色雏菊花朵图案\n\n棕色毛绒泰迪熊贴纸（位于左下角）\n手账贴纸元素\n文字贴纸：\n加入撕纸拼贴风格文字块：\n“iqrasaifiii”\n\n“i swear she's an angel”\n“beyoutiful”\n\n文字呈现：\n杂志剪贴风\nRansom-note（报纸剪字）风格\n手账装饰感\n\n环境氛围：\n整体融合：\n\nY2K（千禧复古）\nCoquette（少女甜美风）\nK-pop Idol Fan Art（韩流偶像粉丝艺术）\nDigital Scrapbook（数字手账）\n\nVintage Aesthetic（复古美学）\n风格特点：\n\n甜美\n青春\n梦幻\n\n时尚\n\n粉丝应援海报感\n构图：\n多层叠加结构\n\n图片相互覆盖\n中央与右侧人物照片尺寸更大\n\n小尺寸照片与装饰填充四周空白\n整体呈现混乱但高度协调的拼贴布局\n摄影风格：\n高端时尚杂志摄影风格（High-end Fashion Editorial Photography）\n特点：\n人像摄影\n\n偶像写真\n\n时尚大片质感\n85mm 人像长焦镜头效果\n灯光：\n自然窗边光：\n柔和方向性阳光\n侧面自然光照射\n\n轻柔阴影\n\n高级人像摄影布光\n色彩：\n原始照片略微降低饱和度\n与暖米色复古报纸背景形成对比\n整体偏暖色调\n\n怀旧胶片感\n画质要求：\n\n高保真人物抠图\n\n高清摄影质量\n精细边缘处理\n高细节\n时尚杂志级画质\n\n画面比例：\n（可根据需求设置，如 9:16、4:5 或 1:1）\n整体描述：\n制作一张 Y2K 风格数字剪贴簿，将同一位 K-pop 偶像风格亚洲女性的多张时尚写真照片，以贴纸形式叠加排列在复古报纸纹理背景上。照片带有白色描边、撕纸边缘、手账贴纸、花朵和文字装饰，呈现青春少女、韩流粉丝应援、复古潮流与高级时尚摄影融合的数字艺术作品。",
+      "image": "https://pbs.twimg.com/media/HPSVXw_bUAE2Ry3.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPSVXw_bUAE2Ry3.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPSVXw_bUAE2Ry3.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "nano banana 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Lucky_Lambsy/status/2086456786538689023",
+      "url": "https://x.com/Lucky_Lambsy/status/2086456786538689023",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2085788573333389568",
+      "title": "沙漠黑马斗篷人像",
+      "category": "风景",
+      "tags": [
+        "midjourney",
+        "celestial",
+        "chinese-architecture",
+        "concept-art",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "surreal Chinese celestial realm, ancient Chinese heavenly palace megastructure, colossal Taoist temple architecture, endless layered pagodas and pavilions rising above a vast sea of clouds, impossible architecture, monumental scale, towering cliffs disappearing into clouds, floating temples and distant mountain peaks, tiny ancient Chinese robed figures overlooking the landscape, extreme sense of scale, majestic and mysterious atmosphere, cinematic fantasy concept art, ultra wide environmental composition, intricate traditional wooden architecture, sweeping curved roofs, glowing warm lantern interiors, cyan teal sky, blue mist, warm golden orange sunlight, dramatic volumetric clouds, atmospheric perspective, god rays, soft haze, reflective wet stone, ethereal dreamscape, highly detailed, epic cinematic lighting, photorealistic fantasy environment, grand composition, depth and scale, no modern elements, no text, no watermark",
+      "image": "https://pbs.twimg.com/media/HPI1pR2asAAt0X0.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPI1pR2asAAt0X0.jpg",
+        "https://pbs.twimg.com/media/HPI1pS4bgAA1DaI.jpg",
+        "https://pbs.twimg.com/media/HPI1pR5bkAAEeSH.jpg",
+        "https://pbs.twimg.com/media/HPI1pR4bQAAelGJ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPI1pR2asAAt0X0.jpg",
+        "https://pbs.twimg.com/media/HPI1pS4bgAA1DaI.jpg",
+        "https://pbs.twimg.com/media/HPI1pR5bkAAEeSH.jpg",
+        "https://pbs.twimg.com/media/HPI1pR4bQAAelGJ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "midjourney",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/you1873118/status/2085788573333389568",
+      "url": "https://x.com/you1873118/status/2085788573333389568",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086527935142322413",
+      "title": "海边人像",
+      "category": "风景",
+      "tags": [
+        "midjourney",
+        "sref",
+        "lighthouse",
+        "gothic",
+        "landscape",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "old weathered lighthouse perched on dramatic seaside cliffs, swirling fog, crashing waves, glowing lantern room, windswept grasses, gothic storybook atmosphere, highly detailed illustration --ar 16:9 --sref 1903242818 --stylize 300 --hd",
+      "image": "https://pbs.twimg.com/media/HO4OxGGWMAA4Kl-.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HO4OxGGWMAA4Kl-.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HO4OxGGWMAA4Kl-.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "midjourney",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/heathergreen/status/2086527935142322413",
+      "url": "https://x.com/heathergreen/status/2086527935142322413",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086523169922331090",
+      "title": "霓虹夜街电影感产品海报",
+      "category": "赛博朋克",
+      "tags": [
+        "logo",
+        "brand",
+        "pcb",
+        "asset-shifting",
+        "gpt-image",
+        "VI",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "[BRAND NAME =  _____________]\n[METAL MATERIAL = __________]\n[BACKGROUND COLOR = _____]\n\nCreate a square 1:1 extreme-detail macro visualization of the authentic official standalone symbol of [BRAND NAME], physically fabricated as an intricate conductive circuit-board artwork embedded into a real PCB.\n\nCORE VISUAL SYSTEM\n\nThe image must not look like a conventional metallic logo placed on a circuit-board background.\n\nThe logo itself must be BUILT FROM the electronic topology.\n\nTranslate the authentic geometry of [BRAND NAME] into an extremely dense network of exposed [METAL MATERIAL] conductive traces, contact pads and selectively filled metallic regions integrated directly into a [BACKGROUND COLOR] PCB substrate.\n\nThe central visual idea is the collision of two systems:\n1. the instantly recognizable authentic brand silhouette;\n2. the functional visual language of precision PCB routing.\n\nFrom normal viewing distance the authentic brand symbol must read immediately. At close inspection, its surfaces and contours must resolve into hundreds of individually routed conductive traces.\n\nBRAND ACCURACY\n\nAutomatically identify the most recognizable authentic official standalone symbol of [BRAND NAME].\n\nPreserve its canonical silhouette, proportions, stroke relationships, characteristic curves, intersections, counterforms, internal negative spaces and spacing.\n\nDo not redesign, simplify or replace the identity with a generic symbol.\n\nIgnore the logo's native colors. Translate its geometry exclusively through the PCB and [METAL MATERIAL] material system.\n\nIf the official mark contains multiple separated elements, preserve them as separate topological regions with their authentic relative placement.\n\nPCB CONSTRUCTION\n\nConstruct the entire image as a physically believable manufactured printed circuit board viewed almost perfectly from above.\n\nThe base is a rigid flat PCB covered in a fine matte [BACKGROUND COLOR] solder mask.\n\nThe logo is not printed, engraved, embossed or placed on top as a separate solid emblem.\n\nInstead, build its geometry from microscopically raised exposed conductive paths fabricated into the PCB itself.\n\nUse hundreds of narrow [METAL MATERIAL] traces approximately equal in width, with realistic microscopic thickness and softly rounded manufactured edges.\n\nRoute neighboring traces as organized parallel streams following the underlying geometry of the brand.\n\nAllow these streams to:\nrun parallel,\nbend around curves,\nsplit,\nmerge visually without physically intersecting,\nchange direction,\ncompress in narrow areas,\nexpand across broad areas,\nand flow around authentic negative spaces.\n\nUse PCB-like angular routing where appropriate, including restrained 45-degree directional transitions, but allow smoother routing where required to preserve characteristic brand curves.\n\nThe topology must feel deliberately engineered rather than generated as random decorative circuitry.\n\nTRACE LANGUAGE\n\nTreat conductive traces like extremely precise contour drawing.\n\nUse trace direction to describe form.\n\nBroad logo regions should contain long families of parallel traces.\nCurved regions should create controlled nested contour flows.\nTight intersections should produce denser routing.\nNegative spaces must remain clearly open and readable.\nOuter boundaries should be resolved by the termination and direction of traces rather than by one heavy decorative outline.\n\nVary topology locally while maintaining one coherent manufacturing language.\n\nDo not fill every region with identical circuitry.\n\nWhere useful for visual hierarchy, allow selected important regions to become continuous exposed [METAL MATERIAL] planes surrounded by dense routed traces, similar to large copper pours on a PCB.\n\nThese solid metallic areas should remain shallow and flush-to-slightly-raised, never becoming thick 3D extrusions.\n\nELECTRONIC ENVIRONMENT\n\nSurround the central brand artwork with authentic miniature PCB architecture extending naturally toward all frame edges.\n\nInclude realistically scaled:\nSMD resistors,\nceramic capacitors,\nsmall IC packages,\nmicrochips,\nIC pins,\ncontact pads,\nvias,\nsolder joints,\nsmall rectangular electronic components,\nand dense secondary conductive routing.\n\nArrange components in believable engineered clusters.\n\nSome traces from the logo may visually continue toward surrounding circuitry so the brand appears genuinely integrated into the electronic system rather than pasted into its center.\n\nMaintain irregular but intentional component density. Leave occasional calm areas of exposed solder mask between dense electronic clusters.\n\nDo not create random sci-fi circuitry, glowing technology patterns or decorative motherboard graphics.\n\nMETAL MATERIAL\n\nAll exposed conductive artwork uses [METAL MATERIAL].\n\nTreat [METAL MATERIAL] as a physically real conductive surface with its authentic optical behavior rather than simply assigning it a color.\n\nThe traces have microscopic rounded shoulders and extremely small edge radii that catch narrow highlights.\n\nUse restrained surface micro-texture and minute manufacturing variation.\n\nMetallic planes should show a subtle fine-grain finish rather than perfectly smooth CGI surfaces.\n\nThe material should produce:\nsoft broad reflections on larger exposed regions,\nthin bright specular lines along microscopic trace edges,\nsubtle tonal variation between neighboring traces,\nand darker reflected values where the environment is blocked.\n\nAvoid chrome-like perfection unless [METAL MATERIAL] physically requires it.\n\nPCB MATERIAL\n\nThe [BACKGROUND COLOR] PCB solder mask is deep, dense and predominantly matte with subtle low-level reflectivity.\n\nAdd extremely fine physical grain, microscopic manufacturing texture and occasional tiny surface imperfections visible only at macro scale.\n\nKeep the substrate visually quiet so the metallic routing remains dominant.\n\nNo stone, plastic slab, fabric, painted panel or generic colored background.\n\n[BACKGROUND COLOR] must describe the actual PCB solder-mask color.\n\nMICRO-RELIEF AND CONTACT\n\nThe metal traces sit only microscopically above the solder-mask surface.\n\nCreate tiny contact shadows and restrained ambient occlusion immediately beside raised conductive paths, pads and components.\n\nThe relief must be tactile under macro photography but physically shallow.\n\nDo not turn traces into thick wires, tubes, cables, ropes or extruded typography.\n\nSolder joints should show tiny convex metallic menisci where components meet pads.\n\nComponent bodies should have realistic ceramic, polymer and semiconductor-package roughness distinct from the conductive metal.\n\nLIGHTING\n\nUse controlled macro product-photography lighting.\n\nPlace one very large diffused rectangular softbox above and slightly upper-left/front of the PCB, broad enough to illuminate the complete scene consistently.\n\nIts reflection should create soft luminous bands across large metallic areas and thousands of coordinated narrow highlights along the raised conductive traces.\n\nUse weak neutral frontal fill only to prevent black clipping.\n\nMaintain enough negative fill that microscopic dark separation remains visible between neighboring traces.\n\nThe lighting must reveal the physical height and curvature of the circuitry through grazing specular response and micro-shadowing.\n\nNo colored rim lights.\nNo neon.\nNo emissive circuitry.\nNo artificial glow.\nNo dramatic volumetric light.\n\nREFLECTION SYSTEM\n\nReflections are essential to describing the micro-geometry.\n\nEach metallic trace should carry a narrow controlled specular response generated by the same large studio source.\n\nHighlights should vary naturally as traces change orientation.\n\nLong parallel traces should create rhythmic families of coordinated bright and dark lines.\n\nCurved routing should visibly bend the reflections with its geometry.\n\nLarger metallic regions should carry broader softbox reflections with smooth tonal falloff.\n\nAvoid uniformly bright gold outlines or identical highlights on every trace.\n\nCAMERA\n\nPhotograph the PCB almost perfectly perpendicular to its surface.\n\nUse the visual character of a 90–120 mm macro or telephoto product lens.\n\nCamera pitch and yaw approximately 0–2 degrees.\n\nMinimal perspective convergence and minimal geometric distortion.\n\nThe result should feel nearly orthographic while retaining the subtle optical character of real macro photography.\n\nFrame the authentic brand symbol prominently in the center while allowing surrounding electronics to crop naturally against all four edges.\n\nThe board itself extends beyond the image boundaries.\n\nDEPTH OF FIELD\n\nKeep the central PCB artwork and almost all of the logo sharply resolved.\n\nUse approximately f/8–f/11 macro-product-photography behavior.\n\nOnly extremely subtle optical softening may appear toward distant peripheral micro-components.\n\nDo not use shallow cinematic macro blur or strong bokeh.\n\nEvery important conductive trace inside the brand symbol must remain individually legible.\n\nRENDER CHARACTER\n\nCreate the physical credibility of an exceptionally detailed photographed custom PCB.\n\nUse physically based path-traced material behavior, realistic micro-specular response, restrained ambient occlusion, accurate metallic reflections, microscopic edge rounding, subtle surface roughness and high-frequency manufacturing detail.\n\nPreserve tiny imperfections that prevent the object from feeling procedurally perfect.\n\nThe final hierarchy must read at three distances:\n\nDISTANCE 1 — unmistakable authentic [BRAND NAME] symbol.\n\nDISTANCE 2 — sophisticated flowing architecture of parallel [METAL MATERIAL] conductive traces.\n\nDISTANCE 3 — real PCB fabrication detail: microscopic pads, solder, vias, component surfaces, edge reflections and material grain.\n\nNEGATIVE CONSTRAINTS\n\nNo conventional solid 3D logo.\nNo logo floating above the PCB.\nNo backing plate behind the logo.\nNo printed logo.\nNo engraved logo.\nNo thick metallic extrusion.\nNo thick wires or tubular circuitry.\nNo generic circuit texture clipped inside a logo mask.\nNo random maze pattern.\nNo cyberpunk styling.\nNo neon.\nNo glowing traces.\nNo holographic effects.\nNo futuristic HUD graphics.\nNo excessive bloom.\nNo dramatic shallow DOF.\nNo wide-angle perspective.\nNo perfectly clean synthetic surfaces.\nNo ornamental circuitry unrelated to the authentic brand geometry.\n\nThe circuitry must define the identity itself: authentic brand geometry reconstructed through physically plausible PCB routing and [METAL MATERIAL] fabrication.",
+      "image": "https://pbs.twimg.com/media/HPTOzqHXMAAhZew.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPTOzqHXMAAhZew.jpg",
+        "https://pbs.twimg.com/media/HPTOzbGXoAI3SBz.jpg",
+        "https://pbs.twimg.com/media/HPTOz6MW4AABevU.jpg",
+        "https://pbs.twimg.com/media/HPTOzfsWQAA_LpJ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPTOzqHXMAAhZew.jpg",
+        "https://pbs.twimg.com/media/HPTOzbGXoAI3SBz.jpg",
+        "https://pbs.twimg.com/media/HPTOz6MW4AABevU.jpg",
+        "https://pbs.twimg.com/media/HPTOzfsWQAA_LpJ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "gpt image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AmirMushich/status/2086523169922331090",
+      "url": "https://x.com/AmirMushich/status/2086523169922331090",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086477914699170293",
+      "title": "口播视频",
+      "category": "视频提示词",
+      "tags": [
+        "video-prompt",
+        "cyberpunk",
+        "ui",
+        "minimax",
+        "higgsfield",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "@[ref img] is the sole visual authority for ZENITH, his face, body, hairstyle, black tactical bodysuit, cyan circuit details, exposed cybernetic arm, and the complete operative-dossier interface including typography, numbers, icons, colors, panels, lighting, layout, and 9:16 vertical composition.\n\nAnimate this exact screen without redesigning it. Preserve every existing label, stat value, diagnostic value, icon, panel boundary, and final UI position.\n\n[GOAL]\nCreate a polished 15-second futuristic cyber-operative character dossier opening. The feeling is elite black-ops intelligence software coming online and identifying an extremely dangerous enhanced operative.\n\nUse one continuous locked straight-on full-screen composition. No camera movement, cuts, reframing, cropping, zooming, rotation, or perspective distortion.\n\n[SEQUENCE]\n\n0–2.2 seconds:\nBegin from near-black charcoal with only extremely faint cyan interface traces visible.\n\nA thin horizontal biometric scanner travels downward through the screen, gradually revealing ZENITH’s silhouette and the outer dossier frame.\n\nFine digital particles, tiny grid points, circuit traces, and subtle cyan data noise activate progressively.\n\nZENITH remains almost motionless in shadow.\n\nHis cybernetic arm gives one extremely subtle mechanical initialization twitch as internal joints power on.\n\n2.2–5.5 seconds:\nThe OPERATIVE DOSSIER header, FILE ID: ZN-7X-00, ZENITH nameplate, CYBERNETIC OPERATIVE subtitle, PROFILE panel, portrait frame, biometric panel, and THREAT LEVEL panel resolve through precise line-draw and scanning animations.\n\nReveal the existing profile information exactly:\nROLE: Black Ops / Infiltration\nHEIGHT: 6’2” / 188 cm\nBUILD: Lean / Athletic\nAFFILIATION: Unknown\n\nThe THREAT LEVEL display resolves into:\nEXTREME\nCLASS: OMEGA\n\nZENITH emerges completely from darkness into the exact referenced standing pose.\n\nHe takes one controlled breath, subtly raises his chest and shoulders, then settles.\n\nHis stern gaze sharpens toward the viewer.\n\nMaintain his exact angular face, slick black hairstyle, lean proportions, black fitted suit, cyan circuitry, and single exposed cybernetic arm.\n\nThin cyan suit lines illuminate progressively from the upper torso toward the legs and cybernetic arm.\n\n5.5–10.8 seconds:\nAnimate the OPERATIVE METRICS panel sequentially.\n\nEach bar fills smoothly left-to-right and lands precisely on the existing final value:\n\nSTRENGTH — 84\nAGILITY — 96\nREFLEX — 98\nENDURANCE — 88\nSTEALTH — 97\nCOMBAT IQ — 93\nCYBER SYNC — 94\nTACTICAL EFFICIENCY — 91\n\nEach completed value receives one restrained cyan confirmation pulse. Do not alter the final numbers.\n\nSimultaneously, the biometric body scan draws vertically through the miniature human silhouette.\n\nSmall waveform and graph elements activate with subtle believable data movement.\n\nThe CYBERNETIC ARM DIAGNOSTICS section powers online from shoulder to fingertips.\n\nCallout lines trace toward the mechanical joints while the existing diagnostic values resolve exactly:\n\nMOTOR UNITS — 100%\nSTRENGTH OUTPUT — 132%\nRESPONSE TIME — 0.008s\nSENSOR SUITE — ONLINE\nGRIP FORCE — 2,400 N\nSYSTEM INTEGRITY — 100% / OPTIMAL\n\nThe circular SYSTEM INTEGRITY indicator completes one clean clockwise sweep and locks at 100%.\n\nZENITH’s mechanical fingers make one tiny natural calibration movement before returning to the exact referenced resting position.\n\n10.8–13.3 seconds:\nThe SPECIALIZATIONS and EQUIPMENT LOADOUT sections activate from left to right.\n\nExisting specialization icons receive brief controlled cyan illumination:\nSTEALTH INFILTRATION\nCQC EXPERT\nCYBERNETIC ENHANCEMENT\nINTEL GATHERING\n\nExisting equipment cards resolve cleanly:\nSHADOW BLADE\nEMP SHARD\nSMOKE DISPERSER\nDATA SPIKE\n\nDo not physically place these weapons or tools into ZENITH’s hands. They remain UI inventory graphics only.\n\nA subtle electronic current travels through the cyan circuitry across ZENITH’s suit and into the cybernetic arm.\n\nThe mechanical shoulder, elbow, wrist, and finger joints produce extremely restrained servo adjustments.\n\nZENITH tightens his organic fist slightly.\n\nHe gives one natural blink while maintaining his intimidating expression and exact stance.\n\n13.3–15 seconds:\nThe lower dossier statement and STATUS: ACTIVE indicator reach full brightness.\n\nA controlled cyan system pulse travels once around the outer interface frame and converges briefly behind ZENITH.\n\nHis cybernetic arm emits a restrained internal energy glow through existing cyan seams—no new effects or weapons.\n\nThe pulse settles immediately.\n\nHold the fully assembled screen matching @[ref img] exactly.\n\nZENITH continues subtle breathing.\nTiny cybernetic servos remain alive.\nCyan suit circuitry gives a gentle idle pulse.\nBiometric waveforms move minimally.\nSmall particles shimmer.\nAll text, numbers, icons, diagnostic values, stat bars, and UI geometry remain completely stable and readable.\n\n[CHARACTER MOTION]\nZENITH is disciplined and nearly motionless.\n\nMovement must remain minimal and believable:\ncontrolled breathing,\none blink,\nsmall shoulder adjustment,\nslight organic fist tightening,\ntiny cybernetic finger calibration,\nsubtle mechanical joint settling.\n\nDo not turn his body away from the referenced pose.\nDo not change his facial structure, hairstyle, costume, proportions, cybernetic-arm design, or expression language.\n\n[UI MOTION]\nPremium classified-military sci-fi HUD animation.\n\nUse:\nprecise line drawing,\nscanner sweeps,\ndata ticks,\nsegmented stat fills,\nrestrained cyan confirmation pulses,\nbiometric scan lines,\nmechanical diagnostic tracing,\nvery subtle particles,\nclean system boot transitions.\n\nKeep every panel, icon, label, number, and geometric boundary fixed once revealed.\n\nNo floating panels.\nNo rearranging the interface.\nNo unnecessary glitching.\nNo aggressive flicker.\nNo holographic elements crossing over readable text.\n\n[VISUAL STYLE]\nCrisp premium futuristic game UI.\nClean stylized 2D animation matching the reference.\nDark charcoal-black interface with cyan/teal illumination and white typography.\nSharp angular graphic character rendering.\nSubtle depth separation between ZENITH and the HUD while preserving the exact flat front-facing composition.\nHigh readability throughout.\n\n[STRICT PRESERVATION]\nDo not introduce:\nnew text,\nnew numbers,\nnew stats,\nnew icons,\nextra cybernetic limbs,\nadditional weapons,\nextra characters,\nnew logos,\ncaptions,\nenvironment scenery,\ncamera motion,\nscreen shake,\ninterface redesign,\nnew panels,\nor additional objects.\n\nDo not change any final UI values.\n\n[Audio]\nLow classified-system boot hum.\nSoft scanner sweep.\nFine electronic data ticks.\nShort restrained confirmation tones as each metric locks.\nQuiet mechanical servo clicks from the cybernetic arm.\nSubtle electrical current as the cyan suit circuitry activates.\nLow biometric pulse.\nOne refined completion chime when STATUS: ACTIVE resolves.\n\nNo dialogue.\nNo background music.",
+      "image": "https://pbs.twimg.com/media/HPSoykdasAA2A2AGP.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPSoykdasAA2A2AGP.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPSoykdasAA2A2AGP.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "minimax h3",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HPSoykdasAA2A2AGP.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2086477846579732480/vid/avc1/1440x2560/bGkKiYWCsit3TTXW.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/adithatipalli/status/2086477914699170293",
+      "url": "https://x.com/adithatipalli/status/2086477914699170293",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086260960772407745",
+      "title": "热带城市泳装回眸",
+      "category": "人像",
+      "tags": [
+        "国风",
+        "json-prompt",
+        "完整提示词",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "{\n  \"style_name\": \"Spring Porcelain / 春瓷粉黛\",\n  \"medium\": \"高净度国风妆造数字人像摄影\",\n  \"composition\": {\n    \"aspect_ratio\": \"9:16\",\n    \"framing\": \"半身近景\",\n    \"camera_angle\": \"平视3/4侧身回眸\",\n    \"subject_position\": \"中央略偏右\",\n    \"pose\": \"身体侧转，头部回望镜头，右侧团扇局部切入\",\n    \"visual_structure\": \"横向扩张发髻 + 中央面部焦点 + 极简留白背景\"\n  },\n  \"lighting\": {\n    \"setup\": \"正面偏上大型漫射柔光结合均匀填充光\",\n    \"contrast\": \"低反差高键\",\n    \"shadow\": \"极浅暖灰柔影\",\n    \"highlights\": [\n      \"瓷肌柔亮高光\",\n      \"乌发丝缎反光\",\n      \"唇部水光\",\n      \"珍珠与刺绣微高光\"\n    ]\n  },\n  \"color_grading\": {\n    \"palette\": \"暖象牙灰、薄荷玉青、藕荷粉、粉白肤色、乌黑、胭脂红、奶油鹅黄\",\n    \"background\": \"#E4E3DA\",\n    \"mint_green\": \"#B9DCCB\",\n    \"dusty_pink\": \"#CDA7AF\",\n    \"skin\": \"#F2D3CE\",\n    \"shadow\": \"#B9A9A4\",\n    \"hair\": \"#111012\",\n    \"lip_accent\": \"#D94A68\",\n    \"floral_accent\": \"#E9DEAA\"\n  },\n  \"texture\": {\n    \"skin_or_surface\": \"平滑细腻粉白瓷釉感，柔亮而洁净\",\n    \"hair\": \"高密度乌黑丝缎质感\",\n    \"fabric_or_material\": \"薄荷青提花丝织物、刺绣、珍珠、透明树脂发饰\",\n    \"finish\": \"高清数字精修、柔和高键、低噪点、边缘细腻\"\n  },\n  \"visual_keywords\": [\n    \"春瓷\",\n    \"粉黛\",\n    \"花朝\",\n    \"玉润\",\n    \"回眸\",\n    \"环髻\",\n    \"春花\",\n    \"珍珠\",\n    \"薄荷青\",\n    \"藕荷粉\",\n    \"水光红唇\",\n    \"粉白瓷肌\",\n    \"绢面柔光\",\n    \"国风妆造\",\n    \"古典人偶感\"\n  ],\n  \"constraints\": [\n    \"人物明确呈现成熟成年比例\",\n    \"面部结构自然稳定，双眼视线协调\",\n    \"颈部与肩部在回眸姿态下连接自然\",\n    \"左右大型环状发髻结构完整清晰\",\n    \"花朵、珍珠和透明发饰具有明确空间层级\",\n    \"刺绣与提花纹样遵循真实织物结构\",\n    \"画面干净清晰，减少不必要噪点与颗粒感\",\n    \"粒子特效保持克制，背景保持通透整洁\",\n    \"手部结构自然准确，手指数量正确，比例正常，关节清晰\",\n    \"持扇动作自然合理，整体细节稳定\",\n    \"左上角加入stylized V与猫元素组合图形logo\",\n    \"右下角加入小型手写签名voxCAT\",\n    \"服装加入低调VOXCAT吊牌或织标\"\n  ],\n  \"output_specs\": {\n    \"aspect_ratio\": \"9:16\",\n    \"resolution\": \"high resolution\",\n    \"focus\": [\n      \"浅青与桃粉眼妆\",\n      \"水润胭脂红唇\",\n      \"瓷白肤质\",\n      \"乌黑环状发髻\",\n      \"春花珍珠头饰\",\n      \"薄荷青提花织物\"\n    ]\n  }\n}",
+      "image": "https://pbs.twimg.com/media/HPPjRqXaMAE4V9m.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPPjRqXaMAE4V9m.jpg",
+        "https://pbs.twimg.com/media/HPPjRqZaQAAofjW.jpg",
+        "https://pbs.twimg.com/media/HPPjRqYbEAAFTs4.jpg",
+        "https://pbs.twimg.com/media/HPPjRrBbMAAebUR.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPPjRqXaMAE4V9m.jpg",
+        "https://pbs.twimg.com/media/HPPjRqZaQAAofjW.jpg",
+        "https://pbs.twimg.com/media/HPPjRqYbEAAFTs4.jpg",
+        "https://pbs.twimg.com/media/HPPjRrBbMAAebUR.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2086260960772407745",
+      "url": "https://x.com/VoxcatAI/status/2086260960772407745",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086057107137126636",
+      "title": "电影感女性人像",
+      "category": "时尚",
+      "tags": [
+        "gpt-image",
+        "fashion",
+        "editorial",
+        "完整提示词",
+        "lifestyle",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "9:16竖构图，超写实真人时尚摄影，Editorial生活方式写真，电影静帧质感，真实摄影，不是插画、CG。\n\n一位20岁以上成年东亚女性，精致自然的纯欲淡颜，小巧柔和鹅蛋脸，流畅下颌线，清亮深棕色杏眼，自然卧蚕，秀气鼻梁，柔润裸粉色嘴唇；白皙通透、白里透红的自然皮肤，保留细微真实肌理。妆容为清透夏日裸妆：轻薄奶油肌、奶茶棕眼影、纤细睫毛、淡粉腮红、低饱和豆沙裸粉唇，干净柔和，不网红、不塑料。\n\n黑色偏自然棕调长发，长度至胸下，柔顺蓬松，轻微自然波浪；空气刘海自然覆盖额头，两侧较长碎发修饰脸型，发丝被窗边微风轻轻吹动。\n\n穿象牙白长袖雪纺OL衬衫，轻薄柔软、自然透光，宽松但腰部自然收束，袖口简洁；搭配浅灰色高腰修身A字短裙、10D均匀哑光黑色连裤袜、黑色尖头细跟高跟鞋，佩戴极简银色腕表与小巧金属耳饰。衣物表面平滑干净，以自然垂坠、大块柔和褶皱和光线变化表现材质，避免密集织纹。\n\n人物跪坐在落地窗旁的木地板上，身体以约45°侧后方向面对镜头，臀部自然落向脚跟附近，双腿屈膝折叠并分别向身体两侧自然展开，小腿贴近地面，腿部结构清晰合理。上半身轻轻向前倾，一侧前臂自然搭在旁边单人椅的木质扶手上，另一只手屈肘托住下颌侧面；腰背形成自然柔和曲线。头部向镜头回转，微微抬眸直视镜头，嘴唇轻启，神态安静、慵懒、温柔，带一点若有所思的纯欲感。\n\n场景为现代高级公寓窗边阅读角：右侧大型落地窗，左侧胡桃木书架与米白色布艺单人椅，书架摆放少量书籍和垂坠绿植；木地板前景放一本自然翻开的摄影画册，窗外是虚化的绿色树木与城市建筑。前景少量绿植虚化形成天然框景，环境整洁、安静、有生活感。\n\n50mm平视中全身摄影，人物主体偏画面中央，浅景深。午后阳光从右侧落地窗斜射进入，柔和轮廓光与自然面部补光，地板留下真实窗光和阴影。奶油白、胡桃木棕、鼠尾草绿、浅灰色调，Kodak Gold式低饱和暖色电影感，曝光克制，肤色自然。\n\n材质与纠错：真实皮肤、真实发丝、雪纺柔和透光、丝袜表面均匀连续；避免鱼鳞纹、蜂窝纹、网格纹、密集颗粒、程序化纹理和AI波浪纹。严格两只手、两条腿，五指完整，手腕和肘关节正确，双腿屈曲关系符合人体结构，高跟鞋左右正确。避免动漫脸、网红脸、塑料皮肤、过度磨皮、HDR、过度锐化、畸形肢体、多余手指、多余肢体、文字、Logo、水印。",
+      "image": "https://pbs.twimg.com/media/HPMp4IfWYAAHizb.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPMp4IfWYAAHizb.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPMp4IfWYAAHizb.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "gpt image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Imp21cn/status/2086057107137126636",
+      "url": "https://x.com/Imp21cn/status/2086057107137126636",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2086525196005990826",
+      "title": "电影感品牌视觉",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "iphone-photo",
+        "nyc",
+        "street",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Present-day New York City street scene, a parked car at the curb with visible realistic brand logo and license plate (Vehicle license plate: 432 JKL W6), authentic storefronts, signs, sidewalks, traffic details and everyday urban clutter. RAW iPhone photo quality, rear camera, natural daylight, realistic exposure, slight handheld blur, subtle sensor noise, unedited colors, natural reflections, no cinematic grading, no studio lighting, no CGI look, no artificial sharpness.\n\nIn the top-left, there is an ad on the billboard titled “What do you think?” featuring a quote from @WolfRiccardo, along with the ChatGPT logo and a panther profile picture.",
+      "image": "https://pbs.twimg.com/media/HPTS0ZEXgAAyOZc.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HPTS0ZEXgAAyOZc.jpg",
+        "https://pbs.twimg.com/media/HPTS79aWAAEqRQJ.jpg",
+        "https://pbs.twimg.com/media/HPTTAMBXoAA7C8o.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPTS0ZEXgAAyOZc.jpg",
+        "https://pbs.twimg.com/media/HPTS79aWAAEqRQJ.jpg",
+        "https://pbs.twimg.com/media/HPTTAMBXoAA7C8o.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/WolfRiccardo/status/2086525196005990826",
+      "url": "https://x.com/WolfRiccardo/status/2086525196005990826",
+      "domain": "x.com",
+      "date": "2026-08-09",
+      "timestamp": 1786304183834,
+      "collectedAt": "2026-08-09T19:36:23.834Z",
+      "githubSyncedAt": "2026-08-09T19:36:23.834Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
