@@ -1904,7 +1904,7 @@
     const app = $('#app');
     const collections = getCollections();
     const tabs = [
-      { key: 'paste',     icon: '📋', label: '粘贴识别', desc: '从社交媒体复制内容自动解析' },
+      { key: 'paste',     icon: '📋', label: '粘贴识别', desc: '从社交媒体或微信公众号复制内容自动解析' },
       { key: 'manual',    icon: '✏️', label: '手动创建', desc: '直接填写提示词详细信息' },
       { key: 'extension', icon: '🧩', label: '浏览器插件', desc: '安装插件一键收藏网页提示词' }
     ];
@@ -1944,16 +1944,17 @@
               <div class="imp-card-top">
                 <div class="imp-card-badge">STEP 1</div>
                 <h2>粘贴帖子内容</h2>
-                <p>从 Twitter / Reddit / Discord / 小红书 等复制帖子全文，智能算法自动提取提示词、图片和标题</p>
+                <p>从 Twitter / Reddit / Discord / 小红书 / 微信公众号复制帖子全文，智能算法自动提取提示词、图片和标题</p>
               </div>
               <div class="imp-paste-box">
-                <textarea id="import-raw" class="imp-paste-area" placeholder="在此粘贴从社交媒体复制的帖子内容…&#10;&#10;系统会自动识别：&#10;• 英文提示词文本&#10;• 图片 URL&#10;• 中文标题&#10;• 推荐分类与标签"></textarea>
+                <textarea id="import-raw" class="imp-paste-area" placeholder="在此粘贴从社交媒体或微信公众号复制的帖子内容…&#10;&#10;系统会自动识别：&#10;• 完整提示词文本&#10;• 图片 URL&#10;• 公众号文章标题&#10;• 推荐分类与标签"></textarea>
               </div>
               <div class="imp-paste-bar">
                 <div class="imp-chips">
                   <span class="imp-chip">Midjourney</span>
                   <span class="imp-chip">Stable Diffusion</span>
                   <span class="imp-chip">DALL·E</span>
+                  <span class="imp-chip">微信公众号</span>
                   <span class="imp-chip">图片链接</span>
                 </div>
                 <div class="imp-paste-btns">
@@ -2013,7 +2014,7 @@
                   <h2>PromptHub 浏览器插件</h2>
                   <p>在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏</p>
                 </div>
-                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.22.0.zip" download="PromptHub-Extension-v3.22.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.22.0">↓ 下载浏览器插件 <span>v3.22.0</span></a>
+                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.23.0.zip" download="PromptHub-Extension-v3.23.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.23.0">↓ 下载浏览器插件 <span>v3.23.0</span></a>
               </div>
 
               <div class="imp-ext-feats">

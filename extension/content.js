@@ -170,15 +170,36 @@
     'user-avatar', 'user-image', 'account-icon', 'icon',
   ];
 
-  function isAvatarOrIcon(img) {
-    if (!img || !img.src) return true;
+  const WECHAT_ARTICLE_HOST = /(^|\.)mp\.weixin\.qq\.com$/i;
+  const WECHAT_QR_PATTERNS = ['qrcode', 'qr-code', 'wxcode', 'codeimg', 'mpcode'];
 
-    const src = img.src.toLowerCase();
+  function getImageUrl(img) {
+    if (!img) return '';
+    const candidates = [
+      img.currentSrc,
+      img.dataset?.src,
+      img.getAttribute?.('data-src'),
+      img.dataset?.original,
+      img.getAttribute?.('data-original'),
+      img.src
+    ];
+    return candidates.find(url => /^https?:\/\//i.test(String(url || ''))) || '';
+  }
+
+  function isWeChatArticle() {
+    return WECHAT_ARTICLE_HOST.test(location.hostname) && Boolean(document.querySelector('#js_content, .rich_media_content'));
+  }
+
+  function isAvatarOrIcon(img, imageUrl = getImageUrl(img)) {
+    if (!img || !imageUrl) return true;
+
+    const src = imageUrl.toLowerCase();
 
     // URL 模式匹配
     for (const pattern of AVATAR_PATTERNS) {
       if (src.includes(pattern)) return true;
     }
+    if (isWeChatArticle() && WECHAT_QR_PATTERNS.some(pattern => src.includes(pattern))) return true;
 
     // CSS 类名匹配 — 检查 img 及其所有祖先元素
     let node = img;
@@ -232,14 +253,15 @@
     let aspectRatio = '';
 
     function addImg(img) {
-      if (!img || !img.src || isAvatarOrIcon(img)) return;
-      if (seen.has(img.src)) return;
-      seen.add(img.src);
+      const imageUrl = getImageUrl(img);
+      if (!imageUrl || isAvatarOrIcon(img, imageUrl)) return;
+      if (seen.has(imageUrl)) return;
+      seen.add(imageUrl);
       if (!aspectRatio) {
         const rect = img.getBoundingClientRect();
         aspectRatio = formatAspectRatio(img.naturalWidth || img.width || rect.width, img.naturalHeight || img.height || rect.height);
       }
-      results.push(img.src);
+      results.push(imageUrl);
     }
 
     // 1. 站点特定选择器（最高优先级）
@@ -255,11 +277,15 @@
       // Civitai / 通用
       '[class*="gallery"] img',
       '[class*="post-image"] img',
+      // 微信公众号文章正文，图片通常使用 data-src 懒加载
+      '#js_content img',
+      '.rich_media_content img',
     ];
 
     let article = el.closest('article') || el.closest('[data-testid="tweet"]') ||
                   el.closest('[data-testid="post-content"]') || el.closest('.post') ||
-                  el.closest('[class*="message"]') || el;
+                  el.closest('[class*="message"]') ||
+                  el.closest('#js_content, .rich_media_content') || el;
 
     for (const sel of siteSelectors) {
       const imgs = article.querySelectorAll ? article.querySelectorAll(sel) : [];
@@ -332,8 +358,89 @@
     return '未命名提示词';
   }
 
+  function buildPromptCandidate(text, el, options = {}) {
+    const rawText = String(text || '').trim();
+    const parsed = globalThis.PromptHubParser?.parsePromptText(rawText, {
+      titleCandidates: options.titleCandidates || [extractTitle(rawText, el)],
+      pageTitle: document.title
+    });
+    const promptText = parsed?.prompt || rawText;
+    if (!((isPromptLike(rawText) || globalThis.PromptHubParser?.looksLikePrompt(promptText)) && isCompleteCandidate(promptText))) {
+      return null;
+    }
+
+    const imageData = findContentImages(options.imageRoot || el);
+    const url = findPostUrl(el);
+    return {
+      id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
+      title: parsed?.title || extractTitle(rawText, el),
+      prompt: promptText,
+      category: detectCategory(promptText),
+      tags: extractTags(promptText),
+      image: imageData.images[0] || '',
+      images: imageData.images,
+      aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
+      url,
+      sourceUrl: url,
+      domain: new URL(url).hostname,
+      source: options.source || '插件扫描',
+      date: new Date().toISOString().slice(0, 10),
+      timestamp: Date.now()
+    };
+  }
+
+  function isWeChatPromptLabel(text) {
+    return /^(?:完整(?:版)?提示词|(?:AI|文生图|绘图|生图)?提示词|prompt|正(?:向|面)提示词|画面提示)\s*[:：]?\s*$/i.test(String(text || '').trim());
+  }
+
+  function isWeChatPromptBoundary(text) {
+    return /^(?:参考图(?:片)?|结果图(?:片)?|模型(?:参数)?|作者|来源|公众号|相关阅读|写在最后|版权(?:声明)?|扫码(?:关注)?|免责声明)\s*[:：]?\s*$/i.test(String(text || '').trim());
+  }
+
+  function getWeChatArticleBlocks(root) {
+    const blocks = [...root.querySelectorAll('p, pre, blockquote, li')]
+      .map(node => node.textContent.replace(/\s+/g, ' ').trim())
+      .filter(text => text.length > 0);
+    return blocks.length ? blocks : String(root.innerText || '').split(/\n+/).map(text => text.trim()).filter(Boolean);
+  }
+
+  function extractWeChatArticlePrompts() {
+    if (!isWeChatArticle()) return [];
+    const root = document.querySelector('#js_content, .rich_media_content');
+    if (!root) return [];
+
+    const title = document.querySelector('#activity-name, h1.rich_media_title, .rich_media_title')?.textContent?.trim() || document.title;
+    const blocks = getWeChatArticleBlocks(root);
+    const candidates = [blocks.join('\n')];
+
+    blocks.forEach((block, index) => {
+      if (!isWeChatPromptLabel(block)) return;
+      const section = [];
+      for (let cursor = index + 1; cursor < blocks.length && section.length < 24; cursor++) {
+        if (isWeChatPromptBoundary(blocks[cursor])) break;
+        section.push(blocks[cursor]);
+      }
+      if (section.length) candidates.unshift(`${block}\n${section.join('\n')}`);
+    });
+
+    const seen = new Set();
+    return candidates.map(text => buildPromptCandidate(text, root, {
+      titleCandidates: [title],
+      imageRoot: root,
+      source: '微信公众号文章'
+    })).filter(candidate => {
+      if (!candidate) return false;
+      const key = candidate.prompt.replace(/\s+/g, ' ').trim().toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).slice(0, 8);
+  }
+
   // --- 扫描页面提示词 ---
   function extractPrompts() {
+    const weChatPrompts = extractWeChatArticlePrompts();
+    if (weChatPrompts.length) return weChatPrompts;
     const prompts = [];
     const seen = new Set();
 
@@ -361,39 +468,10 @@
       if (text.length < 50 || text.length > 3000) continue;
       if (seen.has(text)) continue;
 
-      const parsed = globalThis.PromptHubParser?.parsePromptText(text, {
-        titleCandidates: [extractTitle(text, el)],
-        pageTitle: document.title
-      });
-
-      if ((isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) && isCompleteCandidate(parsed?.prompt || text)) {
-        seen.add(text);
-
-        const promptText = parsed?.prompt || text;
-        const title = parsed?.title || extractTitle(text, el);
-        const imageData = findContentImages(el);
-        const images = imageData.images;
-        const image = images[0] || '';
-        const category = detectCategory(promptText);
-        const tags = extractTags(promptText);
-
-        prompts.push({
-          id: 'ext_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
-          title,
-          prompt: promptText,
-          category,
-          tags,
-          image,
-          images,
-          aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
-          url: findPostUrl(el),
-          sourceUrl: findPostUrl(el),
-          domain: new URL(findPostUrl(el)).hostname,
-          source: '插件扫描',
-          date: new Date().toISOString().slice(0, 10),
-          timestamp: Date.now()
-        });
-      }
+      const candidate = buildPromptCandidate(text, el);
+      if (!candidate) continue;
+      seen.add(text);
+      prompts.push(candidate);
     }
 
     return prompts;

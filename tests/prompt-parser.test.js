@@ -55,6 +55,28 @@ https://cdn.example.com/ref.webp
   assert.doesNotMatch(parsed.prompt, /一键复制|分类|参考图片/);
 });
 
+test('extracts a complete prompt copied from a WeChat article', () => {
+  const raw = `
+雾林红伞电影人像
+微信公众号文章
+
+完整提示词
+创作一张雨后雾林中的电影感女性人像。成年东亚女性站在湿润的石阶上，手持一把暗红色长柄雨伞，人物身穿深灰羊毛长外套与黑色长裙，微微侧身回望镜头。背景是被薄雾包裹的松树林，雨水在石阶与树叶上形成细小反光，清晨冷灰色自然光从树冠间落下，红伞成为画面唯一的暖色焦点。使用85mm人像镜头，浅景深，真实皮肤纹理，柔和胶片颗粒，低饱和电影调色，细节清晰，不要文字，不要水印，不要额外肢体。
+
+参考图片
+https://mmbiz.qpic.cn/mmbiz_jpg/example/0?wx_fmt=jpeg
+`;
+
+  const parsed = parser.parsePromptText(raw);
+
+  assert.equal(parsed.title, '雾林红伞电影人像');
+  assert.match(parsed.prompt, /^创作一张雨后雾林中的电影感女性人像/);
+  assert.doesNotMatch(parsed.prompt, /微信公众号文章|参考图片/);
+  // Pasted WeChat article text should keep its prompt clean. The extension reads
+  // the article page's lazy-loaded image nodes separately from this text parser.
+  assert.deepEqual(parsed.imageUrls, []);
+});
+
 test('generates a compact title when the first line is the prompt body', () => {
   const raw = 'A cinematic portrait of an astronaut sitting in a quiet greenhouse, soft morning light, 50mm lens, photorealistic, ultra detailed, gentle color grading, no text, no watermark.';
   const parsed = parser.parsePromptText(raw);
