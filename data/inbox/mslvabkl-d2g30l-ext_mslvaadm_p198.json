@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-09T13:57:34.869Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-09",
+      "domain": "x.com",
+      "id": "ext_mslvaadm_p198",
+      "image": "https://pbs.twimg.com/media/HPOkX4SXAAAkGow?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPOkX4SXAAAkGow?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPOkX5rXQAAWTuV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPOkX4WWoAAhC7B?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPOkX4SW8AImPtQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4竖版，照片级真实、低饱和、低对比、带轻微暖灰电影感的日式室内生活方式人像。一位明确成年的虚构东亚女性，约22至26岁，坐在传统日式榻榻米房间内，背对镜头并微微侧转，画面从头顶拍至臀腿附近。她盘腿坐在榻榻米上，双臂高举到头顶，正在用双手扎起湿润凌乱的高马尾；背部与肩胛完全朝向镜头，腰线自然，身体略微扭转，使侧脸与一侧肩颈清晰可见。她回头望向画面左侧，眼神安静、克制、略带疲惫与若有所思，嘴唇自然微启，不刻意摆拍。\n\n她拥有精致偏长的鹅蛋脸、白皙中性肤色、灰棕色杏仁眼、自然细眉、秀气鼻梁和低饱和裸粉色双唇。妆容极淡：轻薄半哑光底妆、柔和灰棕眼影、细眼线、自然睫毛和浅桃色腮红。深棕近黑色长发略微潮湿，正在被双手束成高马尾，发丝成束垂落，部分碎发贴在脸颊、耳侧、颈部和后背，保留真实飞发。\n\n人物上半身裸露但采用克制非情色构图，不显示乳头或明确敏感部位，胸部由身体角度与手臂自然遮挡。下身穿宽松复古蓝色牛仔裤，低腰松垮穿着，腰头略微下移，露出白色弹力内裤腰边，牛仔布呈现明显水洗、磨旧、自然褶皱和厚实棉布质感。不要明显品牌文字或Logo。\n\n场景为传统日式和室：榻榻米地面、木质窗框、障子或拉门、深色木梁和浅棕墙面。左侧放置一台复古浅蓝灰色金属电风扇，略有旧化磨损；右侧窗外隐约可见绿色庭院。暖色自然窗光从右侧进入，轻柔照亮侧脸、肩颈、背部、腰线与发丝，室内其余区域保持柔和阴影。整体采用暖灰、木色、蓝灰、肤色与低饱和牛仔蓝，安静、私密、带夏日下午的生活切片感。50mm镜头，f/2.2，略高于腰部机位，浅景深，人物背部、侧脸和发丝清晰，背景柔和虚化。保留真实毛孔、细小绒毛、皮肤自然起伏、湿发、牛仔、榻榻米、木纹和金属风扇纹理，轻微ISO400胶片颗粒；无塑料皮肤、无过度磨皮、无夸张比例、无畸形手指、无额外肢体、无文字、Logo、水印、边框或拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPOkX4SXAAAkGow?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPOkX5rXQAAWTuV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPOkX4WWoAAhC7B?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPOkX4SW8AImPtQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2086195751781056607",
+      "tags": [
+        "人像",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1786283853323,
+      "title": "和室障子电影感女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2086195751781056607",
+      "collectedAt": "2026-08-09T13:57:34.869Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "风景",
+      "date": "2026-08-09",
+      "domain": "x.com",
+      "id": "ext_mslvaado_br33",
+      "image": "https://pbs.twimg.com/media/HPQeCrcbYAAJ3QC?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPQeCrcbYAAJ3QC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPQKnJ7bUAA-mEa?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一幅传统中国书法横幅作品，横向超宽构图，暖米黄色、淡古旧色的宣纸背景，纸张有非常轻微自然纤维纹理和岁月感。\n画面中央从右到左的顺序横向书写主文字，狂放书艺风格，草书奔放字形，飞白技法应用，笔触刚劲有力且富有节奏感，字形自由流动，极具表现力和情感张力，纯黑墨色，毛笔真实书写效果。字体不要规整，不要像电脑字体，每个字大小、重心、倾斜角度略有变化，字与字之间疏密自然，整体气势连贯。\n笔触强调中锋与侧锋变化、粗细变化、浓淡墨色、枯笔、飞白、自然墨迹边缘、毛笔分叉纹理，部分笔画迅疾飘逸，部分笔画厚重沉稳，具有真实手写书法的随机性和力量感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPQeCrcbYAAJ3QC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPQKnJ7bUAA-mEa?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrGafish/status/2086325868385931523",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786283853324,
+      "title": "GPT / 中文书法 / 草书",
+      "url": "https://x.com/MrGafish/status/2086325868385931523",
+      "collectedAt": "2026-08-09T13:57:34.869Z"
+    }
+  ]
+}
