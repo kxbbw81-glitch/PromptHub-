@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-09T14:04:08.031Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-09",
+      "domain": "x.com",
+      "id": "ext_mslviq8a_ruu6",
+      "image": "https://pbs.twimg.com/media/HPOUVBqXUAAO1QG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPOUVBqXUAAO1QG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPLIu2OWgAEQaXm?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n冷蓝高键雪景逆光成像，窗外全局高曝光并接近高光溢出，人物由蓝白轮廓光和背部内部的柔和粉灰阴影塑形，叠加轻度空气雾化、低微对比与柔焦光晕，摄影拟真的高质量数字渲染人像；采用 1152×2048、严格 9:16 竖幅画布，平视的中近景背影构图，从头顶拍至大腿中上部，一位年轻成年女性背对镜头站在大型落地窗前，人物占画面约七成，身体中心略偏画面右侧，窗框在底部形成稳定水平线，画面左侧保留明亮玻璃空间。人物脸部完全不可见，头部轻微朝画面左侧偏转，窄肩、明显内收的腰线与柔和腰臀曲线，裸露肩背，肩胛骨、脊柱沟、脊柱两侧肌理和腰窝通过细腻阴影清楚呈现；画面左侧手臂屈肘抬起，前臂斜向上伸展，手掌靠近或轻触带水汽的玻璃，五根手指自然分开，画面右侧手臂放松下垂，上身存在轻微扭转。长发以深灰蓝为暗部主色，逆光表层呈雾蓝和银蓝，头顶自然蓬松，肩部附近形成松散波浪，较长发束集中在画面右侧并越过肩背垂至腰胯附近。身穿冷灰蓝色露背连衣短裙，肩背大面积裸露，一条极细系带横跨肩胛下方，在画面右侧打结并垂下两根长绳；轻薄柔软的长袖布料从双臂和身体两侧垂落，形成纵向褶皱，下半身裙装贴合腰臀，裙摆落在大腿上部，面料低反光、略带半透明和柔和垂坠感。人物固有肤色为暖浅米粉，冷白窗光使肩背边缘转为淡粉紫和冷灰，皮肤表面平滑但保留真实肩胛与脊柱结构。玻璃布满雾气、凝结水点和模糊水痕，窗外为积雪覆盖的冬季景观，仅保留虚化的树木、屋顶与雪地轮廓，底部露出深色窗框和暖棕色室内窗台；肩背和细系带相对最清晰，头发与手掌边缘被光晕轻微柔化，雪景背景高度虚化。避免露出人物正脸，避免正面姿态，避免手指粘连或数量错误，避免脊柱和肩胛结构畸形，避免多余系带，避免衣料遮住主要背部轮廓，避免将雪景生成成晴朗蓝天，避免锐利硬光和过度塑料皮肤。画面右下角增加艺术性手写文字“ChenLin”作为署名。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPOUVBqXUAAO1QG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPLIu2OWgAEQaXm?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2086203297019371957",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1786284247115,
+      "title": "窗外是冬天",
+      "url": "https://x.com/chenlinspark/status/2086203297019371957",
+      "collectedAt": "2026-08-09T14:04:08.031Z"
+    }
+  ]
+}
