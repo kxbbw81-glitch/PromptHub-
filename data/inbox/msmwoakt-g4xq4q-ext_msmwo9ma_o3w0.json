@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:24:12.557Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwo9ma_o3w0",
+      "image": "https://pbs.twimg.com/media/HFRv8D2bYAATxnk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFRv8D2bYAATxnk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a moody, ethereal cinematic portrait of a woman with a dramatic over-the-shoulder pose.\n\n1. Pose and Expression\n\n• Perspective: subject positioned with her back facing the camera, torso elegantly twisted, looking back over her shoulder, creating a graceful curve along the spine and highlighting shoulder blades\n\n• Gaze: direct eye contact with the camera, piercing yet soft expression, chin slightly tucked toward shoulder to evoke intimacy and mystery\n\n• Hand Placement: hands gently raised near chest/shoulder, fingers softly interlaced or delicately touching\n\n• Hair: loose messy bun with soft wispy strands falling naturally across the face, slightly windswept look\n\n2. Lighting and Color Palette\n\n• Lighting: strong side lighting, warm golden-hour sunlight, high contrast chiaroscuro effect, one side illuminated while the other fades into deep shadow\n\n• Skin Tone: luminous, glowing, pearlescent skin texture\n\n• Color Scheme: earthy muted tones, deep greens, dark browns, soft neutral background, warm skin tones as focal point\n\n3. Wardrobe and Accessories\n\n• Outfit: backless silky dress or top, smooth light fabric, paired with dark voluminous sleeves for strong texture contrast\n\n• Accessories: elegant drop pearl earrings reflecting light subtly\n\n4. Composition and Atmosphere\n\n• Framing: medium close-up shot, framed naturally with blurred foreground leaves for a voyeuristic, through-the-foliage effect\n\n• Depth of Field: shallow depth of field, sharp focus on face, soft bokeh in background and foreground\n\n• Mood: cinematic, melancholic, romantic, high-fashion editorial style, soft dreamy atmosphere\n\nFace reference: soft oval face, smooth glowing skin, symmetrical features, natural makeup, gentle but expressive eyes, slightly parted lips",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFRv8D2bYAATxnk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Ciri_ai/status/2041379629668446277",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1786346651314,
+      "title": "电影感女性人像",
+      "url": "https://x.com/Ciri_ai/status/2041379629668446277",
+      "collectedAt": "2026-08-10T07:24:12.557Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwo9mb_k137",
+      "image": "https://pbs.twimg.com/media/HFPaNJEbMAAzT70?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFPaNJEbMAAzT70?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJMaoAAiaf5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJEaQAAYeVS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNKdbcAAWfOY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"subject_details\": {\n\n\"use_reference_image\": true,\n\n\"override\": false,\n\n\"physique\": {\n\n\"build\": \"Slender, toned, athletic\",\n\n\"legs\": \"Very long, crossed at the knee, smooth tanned skin with soft highlights\"\n\n\"attire_and_accessories\": {\n\n\"outfit\": {\n\n\"type\": \"Halter-neck mini dress\",\n\n\"color\": \"Deep burgundy / maroon\",\n\n\"neckline\": \"Extremely deep plunging V-neck\",\n\n\"material\": \"Soft, draped fabric\"\n\n\"footwear\": {\n\n\"type\": \"High-heeled sandals\",\n\n\"style\": \"Minimalist gold metallic thin straps\",\n\n\"heel\": \"Stiletto\"\n\n\"jewelry\": {\n\n\"necklaces\": [\n\n\"Delicate gold chain with a small cross pendant\",\n\n\"Thin gold choker-length chain\"\n\n\"wrists\": [\n\n\"Multiple gold bangles on the right wrist\",\n\n\"Dainty gold chain bracelets on the left wrist\"\n\n\"hands\": \"Several thin gold rings on multiple fingers\"\n\n\"accessories\": {\n\n\"bag\": \"Rectangular gold metallic clutch with a long gold box-link chain strap draped over the lap\"\n\n\"composition_and_environment\": {\n\n\"pose\": \"Seated on a tall bar stool, legs crossed, one hand resting on the clutch, the other hand tucked slightly behind the hair\",\n\n\"setting\": \"Upscale outdoor bar or tropical patio\",\n\n\"background_elements\": {\n\n\"wall\": \"Off-white/cream textured fluted vertical paneling\",\n\n\"foliage\": \"Large green tropical leaves and palm fronds visible behind the subject\",\n\n\"details\": \"Blurred bar shelf in the upper left with glass bottles and barware\"\n\n\"lighting\": {\n\n\"type\": \"Bright, natural daylight\",\n\n\"effects\": \"Soft shadows, high-key lighting, specular highlights on jewelry and metallic clutch\"\n\n\"camera_specs\": {\n\n\"angle\": \"Eye-level, slightly low angle to emphasize height\",\n\n\"depth_of_field\": \"Shallow (bokeh), sharp focus on the subject, blurred background\",\n\n\"aspect_ratio\": \"3:4 (Vertical Portrait)\"\n\n\"artistic_style\": \"Hyper-realistic high-fashion photography, cinematic, glamorous aesthetic\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFPaNJEbMAAzT70?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJMaoAAiaf5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJEaQAAYeVS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNKdbcAAWfOY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2041282303335288836",
+      "tags": [
+        "cinematic",
+        "minimalist",
+        "bokeh"
+      ],
+      "timestamp": 1786346651315,
+      "title": "纽约天际酒店床边人像",
+      "url": "https://x.com/sumiturkude007/status/2041282303335288836",
+      "collectedAt": "2026-08-10T07:24:12.557Z"
+    }
+  ]
+}
