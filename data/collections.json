@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T09:13:31.910Z",
+  "updatedAt": "2026-08-10T09:15:04.560Z",
   "collections": [
     {
       "aspectRatio": "2:3",
@@ -1034,6 +1034,35 @@
       "collectedAt": "2026-08-10T07:29:36.623Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:29:51.046Z",
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "自然",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwpsmx_b8sw",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2040337450833461248/img/rtfEaXcM3gwQd8r_.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2040337450833461248/img/rtfEaXcM3gwQd8r_.jpg"
+      ],
+      "model": "",
+      "prompt": "这个叫http://Blueprint.am的AI工具，真的做到了它的口号「Build it all」——想造啥，聊两句就能造。 你只需要用自然语言跟AI说一句你的需求，比如“帮我做一台笔式绘图仪”，AI就能瞬间生成完整的硬件原型全套设计。 再到一步步的详细组装教程、所需工具清单，甚至连零件的直接采购链接，都给你一次性配齐。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2040337450833461248/img/rtfEaXcM3gwQd8r_.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AYi_AInotes/status/2040337806141309163",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786346722617,
+      "title": "发现个好玩的 AI 工具",
+      "url": "https://x.com/AYi_AInotes/status/2040337806141309163",
+      "collectedAt": "2026-08-10T07:25:23.710Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:25:48.598Z",
       "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
@@ -6899,36 +6928,6 @@
       "mediaType": "image",
       "titleSource": "prompt-audit",
       "titleGeneratedAt": "2026-08-04T15:37:30.280Z"
-    },
-    {
-      "aspectRatio": "4:3",
-      "category": "抽象",
-      "date": "2026-08-04",
-      "domain": "x.com",
-      "id": "ext_mse1ifis_b1b9",
-      "image": "https://pbs.twimg.com/media/HOuKcS4a0AAyu85?format=jpg&name=small",
-      "images": [
-        "https://pbs.twimg.com/media/HOuKcS4a0AAyu85?format=jpg&name=small"
-      ],
-      "model": "GPT Image 2",
-      "prompt": "如果哪天你突然失业了，这篇内容值得你认真看完。\n\n有个叫Fiverr的平台，可以理解成“海外版技能交易市场”，专门接各种远程零活。当下AI图像类的需求特别火，几乎爆单。\n\n我把几个路子给你列出来，别到时候说我没提醒：\n\n 商业海报/插画：一张能卖50到100美金，折合人民币几百块。你用GPT Image 2出图，也就几秒钟的事。\n\n 老照片修复上色：一张15到30美金。老外对家庭老照片的感情很深，这类需求一直很稳，根本不愁卖。\n\n 头像/社媒素材：一套20美金起步，批量接单的话基本就是躺赚。\n\n老外的付费习惯跟国内差别很大，他们觉得值就直接刷卡，不会跟你磨半天价。\n\n你现在需要做的事情其实很简单：去Fiverr注册个账号，把你用AI生成的作品传上去当成作品集，定个合理的价格，然后开始接单。初期可以从低价跑量开始积累好评，等评分上去之后再逐步提价。\n\n语言不太行？现在翻译工具一大堆，基础沟通完全够用。\n\n这条路门槛真不高，最大的障碍只是你敢不敢迈出这一步。\n\n与其让AI帮你玩，不如让AI帮你赚钱，把会员费十倍赚回来。\n https://fiverr.com",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HOuKcS4a0AAyu85?format=jpg&name=small"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/bkdgiffug/status/2084340018768912388",
-      "tags": [
-        "海报",
-        "插画"
-      ],
-      "timestamp": 1785810581524,
-      "title": "如果哪天你突然失业了，这篇内容值得你认真看完。",
-      "url": "https://x.com/bkdgiffug/status/2084340018768912388",
-      "collectedAt": "2026-08-04T02:30:13.731Z",
-      "githubSyncedAt": "2026-08-04T15:37:30.280Z",
-      "domesticSyncedAt": "2026-08-04T17:41:05.169Z",
-      "mediaType": "image"
     },
     {
       "aspectRatio": "1:1",
