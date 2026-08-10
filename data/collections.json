@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:06:22.050Z",
+  "updatedAt": "2026-08-10T07:07:11.573Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmw1vrw_jca2",
+      "image": "https://pbs.twimg.com/media/HKTLvb_agAAQ_yh?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKTLvb_agAAQ_yh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTL5v1a0AA81Dv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTNjPfbAAA26W3?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "You can now review every credit change on your account: credits used, credits added, refunds for failed generations, and your balance before and after each change. We want the credit system to be more transparent, so every deduction and refund is easy to understand.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKTLvb_agAAQ_yh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTL5v1a0AA81Dv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTNjPfbAAA26W3?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/underwoodxie96/status/2064000557342470574",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786345606940,
+      "title": "AI提示词",
+      "url": "https://x.com/underwoodxie96/status/2064000557342470574",
+      "collectedAt": "2026-08-10T07:06:47.736Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:07:11.573Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
