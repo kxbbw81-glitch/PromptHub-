@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:30:24.305Z",
+  "updatedAt": "2026-08-10T07:48:36.396Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmxj493_mctu",
+      "image": "https://pbs.twimg.com/media/HFJuoodXgAAM7bA?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFJuoodXgAAM7bA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFJupUSW4AAyMiA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFJHaegasAAhCrt?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Don't sleep on Grok Imagine's high-quality mode. A full-body fashion portrait of a 22-28 year old Korean-style high-society woman with striking nine-head proportion, extremely long legs, ultra-pronounced hourglass figure, sitting provocatively in a luxurious modern living room. She has a small delicate face, refined features, sharp nose bridge, full lips, long lashes, cold white smooth translucent skin with bright milky glow under direct flash, black long hair in natural middle part, voluminous at crown, one side falling over her chest, the other cascading down her back, mature glossy luxurious black hair texture. Wearing a tight black sequined strapless mini dress that clings to breasts, tiny waist and hips, extremely short hemline showcasing legs, dense black sequins sparkling, prominent black fluffy fur tail or fur trim detail at side/back for luxury wrapping effect. Sitting on light beige carpet, body in strong S-curve with hip twist, pelvis slightly forward, waist cinched, upper body leaning back slightly, shoulders and pelvis in opposite subtle rotation. One leg extended diagonally forward to the left in relaxed elongated line from thigh root to pointed foot, the other leg bent with knee flared outward creating clear thigh separation and hip opening, reinforcing hourglass contrast. One hand lightly holding small accessory or glasses, index finger of the other hand pressing edge of lower lip with controlled teasing gesture. Head slightly tilted, direct piercing eye contact with camera, cold aloof expression, slightly parted lips with visible breathing, nonchalant contemptuous high-fashion attitude like being interrupted yet still commanding. Indoor modern living room setting: beige sofa, light curtains, light striped carpet, right side dark brown patterned throw blanket, warm neutral luxury home atmosphere, nighttime indoor mood. Shot from slightly low angle near knee-to-waist level, near 35mm direct flash look, strong frontal flash lighting highlighting face, collarbones, chest, legs with clear shadows, background slightly darker, sparkling sequins catching light. Color palette black, off-white, skin tones, warm browns, low-to-medium saturation, clean bright skin, Korean high-fashion direct flash aesthetic. Accessories: long earrings, bracelet, necklace, red manicure and pedicure, small glasses or jewelry, all secondary to dominant leg pose, face expression and body curve tension. Highly detailed textures: silky smooth skin, clean elongated leg lines, dense shimmering sequins, plush fur trim, soft sofa and carpet, visible fabric weave on throw. Overall atmosphere: cold glamorous, high-class Korean influencer-celebrity vibe, restrained yet aggressively seductive, commanding nighttime living room fashion pose, 9:16 vertical composition, full body in frame, focus on face, chest-waist-hip transition, pelvis twist, foreground extended leg.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFJuoodXgAAM7bA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFJupUSW4AAyMiA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFJHaegasAAhCrt?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MANISH1027512/status/2040815302548640224",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1786348090695,
+      "title": "Don't sleep on Grok Imagine's high-quality mode.",
+      "url": "https://x.com/MANISH1027512/status/2040815302548640224",
+      "collectedAt": "2026-08-10T07:48:14.263Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:48:36.396Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
