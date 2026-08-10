@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:29:51.046Z",
+  "updatedAt": "2026-08-10T07:30:24.305Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwvqnm_mug0",
+      "image": "https://pbs.twimg.com/media/HPUGHoKXgAES_HY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPUGHoKXgAES_HY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPUGHoMWUAAYKfj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPUGHoUW0AAu3nw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPUGHoYWEAATeOM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4竖版，照片级真实、低饱和、低对比、深灰黑背景的极简室内时尚人像。一位明确成年的虚构东亚女性，约22–28岁，站在暗色摄影棚或极简室内空间中，画面从头顶拍至胯部附近。人物位于中央，身体正面朝向镜头但头部转向画面右侧并微微抬起，下巴略上扬，不直视镜头，嘴唇轻启，神情冷静、克制、略带疏离和运动时尚感。双臂自然放到身后，使肩膀与锁骨打开，姿态放松但具有轻微力量感。 她拥有精致偏长鹅蛋脸、白皙中性偏暖肤色、深棕色杏仁眼、自然细眉、挺直鼻梁和低饱和裸粉色双唇。妆容极淡：轻薄半哑光底妆、柔和灰棕眼影、自然眼线与睫毛，保留真实毛孔、细小绒毛、自然肤色变化和轻微湿润高光，不要塑料皮肤。 深棕近黑色长发扎成低马尾或松散辫发，部分发丝藏在帽后，耳侧保留少量碎发。头戴浅米灰色棒球帽，帽檐压低并遮住部分额头与眼睛，上面仅有极小深色简约标记。她穿象牙白色细肩带罗纹吊带背心，V形蕾丝领口，胸前有纵向罗纹与轻微褶皱，版型贴合但自然；外搭一件黑色短款开衫或轻薄运动外套，敞开穿着，仅覆盖肩膀与手臂。下身为深灰黑色宽松抽绳运动裤，腰部松紧设计，整体融合内搭、运动与街头风。 背景为深灰至黑色无缝墙面，没有道具。主光从左前上方柔和照射，形成明显但不过硬的低调侧光，重点照亮脸部、鼻梁、嘴唇、锁骨、肩颈与白色上衣；右侧身体和黑色外套逐渐沉入阴影。整体采用象牙白、黑色、炭灰、浅卡其和自然肤色，低饱和、低对比、略微压暗曝光，具有90年代运动时尚Editorial、韩系街头画报和电影静帧质感。85mm镜头，f/2.0–2.8，眼平略低机位，浅景深，脸部、帽檐、蕾丝、罗纹和锁骨细节清晰，背景柔化。轻微ISO400胶片颗粒。避免过度磨皮、HDR、过锐化、畸形手指、额外肢体、错误服装结构、文字、明显Logo、水印、边框或拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPUGHoKXgAES_HY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPUGHoMWUAAYKfj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPUGHoUW0AAu3nw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPUGHoYWEAATeOM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2086648744540516362",
+      "tags": [
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1786346999986,
+      "title": "街头涂鸦运动海报",
+      "url": "https://x.com/ToroJushiAi/status/2086648744540516362",
+      "collectedAt": "2026-08-10T07:30:01.018Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:30:24.305Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
