@@ -1,7 +1,66 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:25:31.247Z",
+  "updatedAt": "2026-08-10T07:25:48.598Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "自然",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwpsmx_b8sw",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2040337450833461248/img/rtfEaXcM3gwQd8r_.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2040337450833461248/img/rtfEaXcM3gwQd8r_.jpg"
+      ],
+      "model": "",
+      "prompt": "这个叫http://Blueprint.am的AI工具，真的做到了它的口号「Build it all」——想造啥，聊两句就能造。 你只需要用自然语言跟AI说一句你的需求，比如“帮我做一台笔式绘图仪”，AI就能瞬间生成完整的硬件原型全套设计。 再到一步步的详细组装教程、所需工具清单，甚至连零件的直接采购链接，都给你一次性配齐。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2040337450833461248/img/rtfEaXcM3gwQd8r_.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AYi_AInotes/status/2040337806141309163",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786346722617,
+      "title": "发现个好玩的 AI 工具",
+      "url": "https://x.com/AYi_AInotes/status/2040337806141309163",
+      "collectedAt": "2026-08-10T07:25:23.710Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:25:48.598Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "电商视觉",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwpsmw_have",
+      "image": "https://pbs.twimg.com/media/HFCqCzTakAAHauE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFCqCzTakAAHauE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create image: Use the attached reference image as a visual guide for the character’s appearance, maintaining strong resemblance to the person in the reference. Preserve key visual traits such as facial structure and overall proportions, while allowing small natural variations typical of real photography. The generated subject should clearly resemble the reference while remaining a natural photographic interpretation. A photorealistic image of a person wearing an oversized, chunky knit vibrant red off-shoulder sweater, exposing the back and one shoulder, holding a white paper sheet with a subtle shadow of text on it in their hands. A decorative pearl hair clip is visible on the back of their head. The person is seated comfortably on a wide, light-colored window sill, with their back partially turned towards the viewer, looking out into the distant city. On the window sill beside them, a small white plate holds two golden croissants and a single red plum. To the left, a wooden tray rests on a fluffy brown mat, containing several bowls: a large white bowl, and two smaller white bowls filled with various snacks or condiments. The expansive window frames a breathtaking panoramic view of a bustling city skyline under a bright, clear blue sky dotted with fluffy white clouds. Prominently featured in the distance is the iconic Oriental Pearl TV Tower, surrounded by numerous modern skyscrapers and older architectural buildings stretching along a river, resembling Shanghai's Bund area. The scene is bathed in natural, bright daylight, casting soft shadows and creating a warm and inviting atmosphere, with a serene, luxurious, and contemplative mood. -ar 3:4",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFCqCzTakAAHauE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Chryzleenprompt/status/2040317605039485276",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1786346722616,
+      "title": "草原蓝天针织背心",
+      "url": "https://x.com/Chryzleenprompt/status/2040317605039485276",
+      "collectedAt": "2026-08-10T07:25:23.710Z",
+      "mediaType": "image",
+      "commerceType": "品牌视觉",
+      "githubSyncedAt": "2026-08-10T07:25:48.598Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
