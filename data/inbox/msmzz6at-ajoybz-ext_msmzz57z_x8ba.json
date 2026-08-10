@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:56:39.077Z",
+  "count": 4,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzz57z_x8ba",
+      "image": "https://pbs.twimg.com/media/HDggplfXcAAReaZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HDggplfXcAAReaZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HDggplfW0AA5F8x?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HAHtupbWEAIRZAx?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "CCD系列\n\nNo grok pls！\n\nNano banana prompt：\n\n{\n  \"prompt\": {\n    \"style_and_tech\": \"mobile phone photo, ultra-low resolution, old CCD camera aesthetic, strong on-camera flash photography, harsh flash shadows and highlights, grainy texture, dark dim environment, mysterious moody atmosphere, aspect ratio 4:7, centered composition, upper body portrait (bust shot), low angle shot looking up, from chest up including shoulders and collarbones\",\n    \n    \"subject_age_and_nationality\": \"20 years old, Chinese woman, top-tier seductive imperial sister, yujie aesthetic\",\n    \n    \"hair\": \"light platinum blonde / pale ash blonde long hair, very messy and scattered, disheveled strands falling naturally, several fine hair strands casually covering part of one eye and forehead\",\n    \n    \"face_shape_and_skin\": \"super mini sharp V-shaped face, extremely delicate and refined facial features, cold fair skin, smooth porcelain-like texture\",\n    \n    \"eyes\": \"large deep-set eyes, prominent aegyo-sal / under-eye fat pads, thin sharp black eyeliner, hazy dreamy eye expression, complex gaze — dangerous + lingering attachment + longing, staring directly and intensely into camera, confident yet slightly arrogant\",\n    \n    \"expression\": \"subtle delicate faint smile at the corner of the lips, appears gentle and soft on surface, but overall exudes scheming + high-cold + detached + fake-kindness aura, tsundere + seductive + dangerous vibe\",\n    \n    \"makeup\": \"light natural foundation, subtle contouring and highlighting on face (appropriate high points, not overdone), no excessive glow or dewy look\",\n    \n    \"nose_and_lips\": \"perfectly sculpted tall straight nose bridge and delicate tip like an art piece, natural lip shape with soft pink-nude lipstick\",\n    \n    \"clothing\": \"light apricot / pale peach thin high-neck top, tight-fitting stretch fabric, visibly strained and stretched over extremely full prominent bust, deep cleavage emphasized, fabric clinging to curves, high-neck collar framing the neck and collarbones\",\n    \n    \"body framing\": \"upper body focus, perfect exaggerated S-curve starting from bust and waist, slim shoulders, visible collarbones, hourglass silhouette from chest to upper waist, no full body or lower half in frame\",\n    \n    \"overall_character_vibe\": \"confident +Arrogant + dark and cold + cold + fake kindness, looks gentle but feels dangerously captivating\",\n    \n    \"negative\": \"--no full body, no lower body, no legs, no extra people, no text, no watermark, no strong rim light, no colorful background, no cartoon style, no anime, no heavy blur, no overexposure, no extreme wide shot\"\n  }--ar 4:7\"\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HDggplfXcAAReaZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HDggplfW0AA5F8x?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HAHtupbWEAIRZAx?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/94vanAI/status/2033411148863709404",
+      "tags": [
+        "anime",
+        "dark",
+        "dreamy"
+      ],
+      "timestamp": 1786352197679,
+      "title": "CCD系列",
+      "url": "https://x.com/94vanAI/status/2033411148863709404",
+      "collectedAt": "2026-08-10T08:56:39.077Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzz57z_7r69",
+      "image": "https://pbs.twimg.com/media/HDgAyJjbQAAxhIS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HDgAyJjbQAAxhIS?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Boarding soon. Not ready yet.\n\n搭乗口の前で、まだどこにも行きたくない自分がいる。\n登机牌攥了半天 还在想要不要去。\n\nPortra 400 · 50mm · terminal golden hour\nDo you pack to leave, or to have a reason to come back?\n\noc. ver",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HDgAyJjbQAAxhIS?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2033376101964402704",
+      "tags": [
+        "golden hour"
+      ],
+      "timestamp": 1786352197679,
+      "title": "Boarding soon. Not ready yet.",
+      "url": "https://x.com/sidona/status/2033376101964402704",
+      "collectedAt": "2026-08-10T08:56:39.077Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzz57z_hnri",
+      "image": "https://pbs.twimg.com/media/HDc0tGnbgAA7sYC?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HDc0tGnbgAA7sYC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Sunset Beach Selfie\n\n【 long straight dark-brown hair parted softly in the middle, natural texture lightly lifted by sea breeze.\noutfit: casual summer beach mix — pale graphic baby tee, light-wash denim mini skirt, khaki cargo pants variation among friends, beige mesh sleeveless top layered over neutral inner, relaxed brown velour zip hoodie set】\n\nAMICRE: Witness report received.\nFour-idol shoreline gathering evidence logged.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HDc0tGnbgAA7sYC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/SDT_side/status/2033151709841940792",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1786352197679,
+      "title": "Sunset Beach Selfie",
+      "url": "https://x.com/SDT_side/status/2033151709841940792",
+      "collectedAt": "2026-08-10T08:56:39.077Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzz580_7u84",
+      "image": "https://pbs.twimg.com/media/HDYJk-xWwAALKvJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HDYJk-xWwAALKvJ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Grok !!  \n\n「I am testing a new model 」\n\n---prompt--- \nJapanese-style film photograph, Fujifilm aesthetic, shot on pushed Fuji Pro 400H at ISO 800 — prominent visible film grain throughout, warm and intimate.\n  A stunning Korean female idol wearing a sexy modern ivory wedding",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HDYJk-xWwAALKvJ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2032824147345113197",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786352197680,
+      "title": "Grok !!",
+      "url": "https://x.com/BubbleBrain/status/2032824147345113197",
+      "collectedAt": "2026-08-10T08:56:39.077Z"
+    }
+  ]
+}
