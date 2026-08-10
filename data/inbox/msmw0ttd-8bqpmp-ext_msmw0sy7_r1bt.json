@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:05:57.745Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmw0sy7_r1bt",
+      "image": "https://pbs.twimg.com/media/HKTKuuIWgAAMjAr?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKTKuuIWgAAMjAr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTKvw5WgAAB6Zv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTK4bUWIAAoRPU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTK6kIW8AA8id5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKOgNvdWcAAK0JV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKOgU1NXwAAONtL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKOgg5dXoAAA07z?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "请基于我上传的清晰单人人像参考图，创作一组 8 张「网球女孩」主题时尚写真，全部为 3:4 竖构图，分别独立成片。\n必须保留参考人物本人的真实五官特征、脸型、眼睛、鼻子、嘴唇、肤色和辨识度，不能换脸，不能变成陌生人，不能网红脸，不能动漫化，不能塑料娃娃脸。皮肤保留真实纹理和实拍感。\n整体风格为：夏日网球少女、时尚运动大片、Y2K 体育杂志、青春、活力、甜酷、健康性感。画面像高预算杂志写真，不是普通运动照，不是廉价影楼风。\n服装元素可围绕：白色网球裙、百褶短裙、白色运动背心、短款 polo、网球连衣裙、黄色 V 领针织毛衣、白色运动外套、发带、腕带、白袜、复古网球鞋。发型可用高马尾、自然卷发、半扎发、运动感碎发。妆容清透但精致，健康腮红、亮泽唇、自然睫毛。\n场景以蓝色网球场、网球网、白色边线、散落网球、球筐、蓝天、看台为主。色彩明亮高级，以蓝色、白色、黄色、荧光绿为主。光线为夏日阳光硬光或正面闪光灯，清晰阴影，轻微胶片感。\n8 张图的人物表情、眼神、角度、机位、动作必须明显不同，不能雷同。避免眼神空洞、姿势重复、站桩摆拍。动作自然有抓拍感，可包含挥拍、坐姿、躺姿、趴网、抛球、回头、走动、近景造型等。身体比例、手指、四肢、球拍结构必须正常真实。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKTKuuIWgAAMjAr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTKvw5WgAAB6Zv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTK4bUWIAAoRPU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKTK6kIW8AA8id5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKOgNvdWcAAK0JV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKOgU1NXwAAONtL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKOgg5dXoAAA07z?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/zhongying14/status/2063998740977828114",
+      "tags": [
+        "人像",
+        "写真"
+      ],
+      "timestamp": 1786345556623,
+      "title": "出一些运动主题的写真",
+      "url": "https://x.com/zhongying14/status/2063998740977828114",
+      "collectedAt": "2026-08-10T07:05:57.745Z"
+    }
+  ]
+}
