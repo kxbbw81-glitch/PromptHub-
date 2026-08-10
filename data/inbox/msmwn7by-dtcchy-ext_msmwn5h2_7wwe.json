@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:23:21.694Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwn5h2_7wwe",
+      "image": "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbjNlbUAAjjji?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbj-JboAEsSuV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEt-T-WbUAA525B?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEt-UbgbAAAFXkR?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "\"action\": \"text_to_image\",\n\"text\": \"Ultra-realistic 9:16 portrait in a vintage, high-contrast editorial style. The subject is Jisoo of BLACKPINK, featuring her elegant heart-shaped lips, double eyelids, and sophisticated, symmetrical facial features with a porcelain skin tone and dark expressive eyes. She is standing and leaning back against an ornate grand piano, with both arms spread and resting along the piano edge. Her head is slightly tilted back, with a relaxed, sultry pose and parted lips. She is wearing a deep red satin corset top with a low sweetheart neckline and front hook-and-eye closures, paired with black leather pants. Accessories include gold hoop earrings, layered thin gold necklaces with a dark cross pendant, and a thin gold bracelet. The setting is an ornate vintage-style room with a warm, dim ambiance. The piano is black with twisted gold-leaf legs and gold panel detailing. The background features a textured terracotta wall, a framed landscape painting in a heavy gold frame, and faint microphone stands visible on the right. Lighting is direct front flash, creating high contrast with strong shadows cast onto the back wall. High detail, sharp textures, cinematic editorial photography style, shallow depth of field, crisp focus on the subject. --ar 9:16\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFCbiXaasAAK1i0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbjNlbUAAjjji?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFCbj-JboAEsSuV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEt-T-WbUAA525B?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEt-UbgbAAAFXkR?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2041413918019780792",
+      "tags": [
+        "cinematic",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1786346599287,
+      "title": "电影感女性人像",
+      "url": "https://x.com/youngcatwoman/status/2041413918019780792",
+      "collectedAt": "2026-08-10T07:23:21.694Z"
+    }
+  ]
+}
