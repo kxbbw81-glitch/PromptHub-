@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:29:36.623Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwuknc_0vti",
+      "image": "https://pbs.twimg.com/media/HPSt0ErWcAAqABY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPSt0ErWcAAqABY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSt0ErXQAImJUw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSt0EtXYAEp9jN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSt0EyXkAAVn5J?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_EFWYAI3ioO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_EBXIAEMJtP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_ECWUAABGOn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_ECXIAEQojo?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Direct flash, strong seated poses, and elongated leg lines turn a rough stairwell into a fashion set\n\nThe rougher the space, the more refined the styling feels!\n\nGreat for hosiery campaigns, fashion portraits, and editorial photography!",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPSt0ErWcAAqABY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSt0ErXQAImJUw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSt0EtXYAEp9jN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSt0EyXkAAVn5J?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_EFWYAI3ioO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_EBXIAEMJtP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_ECWUAABGOn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPIE_ECXIAEQojo?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2086483680264950056",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786346945545,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/MrLarus/status/2086483680264950056",
+      "collectedAt": "2026-08-10T07:29:36.623Z"
+    }
+  ]
+}
