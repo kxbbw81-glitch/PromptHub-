@@ -79,6 +79,54 @@ async function updateQueueUI() {
     hq.style.display = 'none';
   }
   renderVerificationStatus(feedback, queue.length);
+  renderSyncTasks(feedback?.receipts || []);
+}
+
+const TASK_STATE_LABELS = {
+  queued: '待上传',
+  syncing: '上传中',
+  submitted: '已提交',
+  verified: '主站已确认',
+  failed: '上传失败'
+};
+
+function formatTaskTime(value) {
+  const date = new Date(value || 0);
+  if (!Number.isFinite(date.getTime())) return '';
+  return date.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+}
+
+function taskTitle(receipt) {
+  return receipt?.title || receipt?.item?.title || receipt?.sourceUrl || '未命名提示词';
+}
+
+function renderSyncTasks(receipts) {
+  const panel = $('#sync-tasks');
+  const list = $('#sync-task-list');
+  const tasks = (Array.isArray(receipts) ? receipts : []).slice(0, 20);
+  if (!tasks.length) {
+    panel.style.display = 'none';
+    list.innerHTML = '';
+    return;
+  }
+
+  panel.style.display = 'block';
+  list.innerHTML = tasks.map(receipt => {
+    const state = receipt.state || 'queued';
+    const outcome = receipt.outcome === 'already_exists' ? '主站已存在' : TASK_STATE_LABELS[state] || '处理中';
+    const detail = receipt.error || receipt.message || '';
+    return `
+      <div class="sync-task sync-task-${escapeHTML(state)}">
+        <span class="sync-task-dot" aria-hidden="true"></span>
+        <div class="sync-task-main">
+          <div class="sync-task-title">${escapeHTML(taskTitle(receipt))}</div>
+          <div class="sync-task-meta">${escapeHTML(outcome)} · ${escapeHTML(formatTaskTime(receipt.updatedAt))}</div>
+          ${detail ? `<div class="sync-task-detail">${escapeHTML(detail)}</div>` : ''}
+        </div>
+        ${state === 'failed' ? `<button class="sync-task-retry" data-retry-id="${escapeHTML(receipt.id)}" type="button">重试</button>` : ''}
+      </div>
+    `;
+  }).join('');
 }
 
 function renderVerificationStatus(feedback, queueLength = 0) {
@@ -736,6 +784,16 @@ $('#btn-notice').addEventListener('click', async () => {
   renderVerificationStatus(feedback, feedback?.queueCount || 0);
   const receipt = feedback?.latest;
   showToast(receipt?.message || (feedback?.queueCount ? `正在验证 ${feedback.queueCount} 个收藏` : '暂无收藏验证记录'));
+});
+
+$('#sync-task-list').addEventListener('click', async event => {
+  const button = event.target.closest('[data-retry-id]');
+  if (!button) return;
+  button.disabled = true;
+  button.textContent = '排队中';
+  const result = await chrome.runtime.sendMessage({ action: 'retryCollectionReceipt', id: button.dataset.retryId });
+  showToast(result?.success ? '已重新加入上传队列' : result?.error || '重新排队失败');
+  await updateQueueUI();
 });
 
 // --- GitHub 主站失败队列的即时重试 ---

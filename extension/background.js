@@ -21,6 +21,7 @@ const PRIMARY_RETRY_DELAY_MINUTES = 2;
 const MAIN_VERIFICATION_DELAY_MINUTES = 1;
 const MAIN_VERIFICATION_PERIOD_MINUTES = 2;
 const MAIN_VERIFICATION_TIMEOUT_MS = 5 * 60 * 1000;
+const QUEUE_UPLOAD_BATCH_SIZE = 5;
 const GITHUB_REQUEST_TIMEOUT_MS = 30000;
 let queueMutation = Promise.resolve();
 let receiptMutation = Promise.resolve();
@@ -383,6 +384,7 @@ async function setCollectionReceipts(items, state, details = {}) {
       const storedItem = details.keepItem ? sanitizeRemoteItem(item) : previous.item || null;
       current[item.id] = {
         id: item.id,
+        title: trimText(item.title || previous.title || storedItem?.title, 120),
         sourceUrl: trimText(item.sourceUrl || item.url || previous.sourceUrl, 2048),
         state,
         outcome: trimText(details.outcome, 40),
@@ -411,7 +413,8 @@ async function getCollectionReceipt(id) {
 async function getCollectionFeedback() {
   const [queue, data] = await Promise.all([getQueue(), chrome.storage.local.get(RECEIPT_KEY)]);
   const receipts = Object.values(data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {});
-  const latest = receipts.sort((left, right) => Date.parse(right.updatedAt || 0) - Date.parse(left.updatedAt || 0))[0] || null;
+  const recent = receipts.sort((left, right) => Date.parse(right.updatedAt || 0) - Date.parse(left.updatedAt || 0));
+  const latest = recent[0] || null;
   const stats = receipts.reduce((acc, receipt) => {
     if (receipt?.state === 'queued') acc.queued += 1;
     else if (receipt?.state === 'syncing') acc.syncing += 1;
@@ -420,7 +423,17 @@ async function getCollectionFeedback() {
     else if (receipt?.state === 'failed') acc.failed += 1;
     return acc;
   }, { queued: 0, syncing: 0, submitted: 0, verified: 0, failed: 0 });
-  return { queueCount: queue.length, submittedCount: stats.submitted, stats, latest };
+  return { queueCount: queue.length, submittedCount: stats.submitted, stats, latest, receipts: recent };
+}
+
+async function retryCollectionReceipt(id) {
+  const receipt = await getCollectionReceipt(id);
+  const item = sanitizeRemoteItem(receipt?.item);
+  if (!item || !isCompleteCollectionItem(item)) {
+    return { success: false, error: '该任务缺少完整收藏数据，请重新扫描后收藏' };
+  }
+  const result = await addToQueue(item);
+  return { ...result, retried: Boolean(result?.success) };
 }
 
 async function scheduleMainVerification() {
@@ -552,6 +565,11 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true;
   }
 
+  if (request.action === 'retryCollectionReceipt') {
+    retryCollectionReceipt(request.id).then(sendResponse).catch(e => sendResponse({ success: false, error: e.message }));
+    return true;
+  }
+
   if (request.action === 'collectionMutation') {
     mutateGitHubCollections(request.operation, request.item)
       .then(sendResponse)
@@ -633,8 +651,9 @@ async function syncToWebsite() {
 }
 
 async function syncQueuedItems() {
-  const queueSnapshot = await getQueue();
-  if (queueSnapshot.length === 0) return { success: false, error: '待同步队列为空' };
+  const queue = await getQueue();
+  if (queue.length === 0) return { success: false, error: '待同步队列为空' };
+  const queueSnapshot = queue.slice(0, QUEUE_UPLOAD_BATCH_SIZE);
 
   await setCollectionReceipts(queueSnapshot, 'syncing', { message: '正在提交 GitHub 主站入站队列' });
   try {
@@ -683,6 +702,12 @@ async function syncQueuedItems() {
         message: 'GitHub 主站已确认，未重复写入',
         verifiedAt: new Date().toISOString()
       });
+    }
+    const remainingQueue = await getQueue();
+    if (remainingQueue.length) {
+      setTimeout(() => {
+        queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Next queue batch failed:', error?.message));
+      }, 0);
     }
     return {
       success: true,

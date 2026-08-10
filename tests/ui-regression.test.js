@@ -139,7 +139,8 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(background, /\[\.\.\.queue, \.\.\.additions\]/);
   assert.match(background, /let queueMutation = Promise\.resolve\(\);/);
   assert.match(background, /function withQueueLock\(task\)/);
-  assert.match(background, /const queueSnapshot = await getQueue\(\);/);
+  assert.match(background, /const queue = await getQueue\(\);/);
+  assert.match(background, /const queueSnapshot = queue\.slice\(0, QUEUE_UPLOAD_BATCH_SIZE\);/);
   assert.match(background, /const RECEIPT_KEY = 'prompthub_collection_receipts';/);
   assert.match(background, /const MAIN_VERIFICATION_ALARM_NAME = 'prompthub_main_verification';/);
   assert.match(background, /async function verifySubmittedMainReceipts\(\)/);
@@ -180,14 +181,21 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.26\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.26\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.27\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.27\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.26\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.26\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.27\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.27\.0/);
+});
+
+test('the extension shows a per-item ordered sync task panel', () => {
+  assert.match(popupHtml, /id="sync-task-list"/);
+  assert.match(popupHtml, /每批最多 5 个，按顺序上传/);
+  assert.match(popup, /retryCollectionReceipt/);
+  assert.match(background, /const QUEUE_UPLOAD_BATCH_SIZE = 5/);
 });
 
 test('the extension recognizes WeChat article prompt blocks and lazy-loaded images', () => {
@@ -196,7 +204,7 @@ test('the extension recognizes WeChat article prompt blocks and lazy-loaded imag
   assert.match(content, /data-src/);
   assert.match(content, /extractWeChatArticlePrompts/);
   assert.match(app, /微信公众号复制帖子全文/);
-  assert.match(app, /PromptHub-Extension-v3\.26\.0\.zip/);
+  assert.match(app, /PromptHub-Extension-v3\.27\.0\.zip/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {

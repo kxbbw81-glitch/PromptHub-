@@ -192,6 +192,25 @@
     .verification-status.error { background: #FFF0EE; color: #B63A2B; }
     .verification-status-icon { flex: 0 0 auto; }
     .verification-status-text { min-width: 0; flex: 1; }
+    .sync-tasks {
+      margin: 0 16px 10px; padding: 10px;
+      border: 1px solid #E8E6DE; border-radius: 8px; background: #fff;
+    }
+    .sync-tasks-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+    .sync-tasks-title { font-size: 12px; font-weight: 800; }
+    .sync-tasks-hint { font-size: 9px; color: #999; }
+    .sync-task-list { display: grid; gap: 7px; max-height: 180px; overflow-y: auto; }
+    .sync-task { display: flex; align-items: flex-start; gap: 8px; padding: 7px; border-radius: 6px; background: #FAFAF8; }
+    .sync-task-dot { width: 7px; height: 7px; margin-top: 4px; border-radius: 50%; background: #D0CEC6; flex: 0 0 auto; }
+    .sync-task-syncing .sync-task-dot, .sync-task-submitted .sync-task-dot { background: #E6B800; }
+    .sync-task-verified .sync-task-dot { background: #00B894; }
+    .sync-task-failed .sync-task-dot { background: #E74C3C; }
+    .sync-task-main { min-width: 0; flex: 1; }
+    .sync-task-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; font-weight: 700; }
+    .sync-task-meta { margin-top: 2px; font-size: 9px; color: #888; }
+    .sync-task-detail { margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 9px; color: #999; }
+    .sync-task-retry { border: 0; border-radius: 5px; padding: 5px 7px; background: #FFD93D; color: #1A1A1A; font: inherit; font-size: 9px; font-weight: 700; cursor: pointer; }
+    .sync-task-retry:disabled { opacity: .55; cursor: wait; }
     .btn-sync {
       padding: 8px 16px;
       background: #FFD93D; color: #1A1A1A;
@@ -267,7 +286,7 @@
       <div class="header-icon">🍌</div>
       <div>
         <div class="header-title">PromptHub</div>
-        <div class="header-sub">AI 提示词收集器 v3.26.0</div>
+        <div class="header-sub">AI 提示词收集器 v3.27.0</div>
       </div>
     </div>
     <div class="header-queue" id="header-queue" style="display:none;">
@@ -313,6 +332,14 @@
     <span class="verification-status-icon" id="verification-status-icon">⏳</span>
     <span class="verification-status-text" id="verification-status-text"></span>
   </div>
+
+  <section class="sync-tasks" id="sync-tasks" style="display:none;" aria-label="同步任务">
+    <div class="sync-tasks-head">
+      <span class="sync-tasks-title">同步任务</span>
+      <span class="sync-tasks-hint">每批最多 5 个，按顺序上传</span>
+    </div>
+    <div class="sync-task-list" id="sync-task-list"></div>
+  </section>
 
   <!-- Queue Bar -->
   <div class="queue-bar" id="queue-bar" style="display:none;">

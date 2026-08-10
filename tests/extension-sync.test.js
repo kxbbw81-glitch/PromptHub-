@@ -189,6 +189,25 @@ test('one-click collection batches detected prompts into one queued GitHub write
   assert.equal(storage.prompthub_queue, undefined);
 });
 
+test('large collection queues upload in ordered batches of five without losing later items', async () => {
+  const { context, remote, storage } = createHarness();
+  const items = Array.from({ length: 12 }, (_, index) => prompt(
+    `ordered-${index + 1}`,
+    `A detailed commercial product photograph number ${index + 1} featuring a crafted glass object on natural stone, controlled side light, realistic reflections, precise material texture, balanced catalog composition, 85mm lens, shallow depth of field, premium editorial finish, photorealistic, no text, no logo, no watermark.`
+  ));
+
+  const result = await context.addItemsToQueue(items);
+  assert.equal(result.added, 12);
+
+  for (let attempt = 0; attempt < 80 && inboxIds(remote).length < 12; attempt += 1) {
+    await new Promise(resolve => setTimeout(resolve, 2));
+  }
+
+  assert.deepEqual(remote.inbox.map(batch => batch.payload.items.length), [5, 5, 2]);
+  assert.deepEqual(inboxIds(remote), items.map(item => item.id));
+  assert.equal(storage.prompthub_queue, undefined);
+});
+
 test('one-click collection identifies the prompt already on the GitHub primary site', async () => {
   const { context, remote } = createHarness();
   const existing = prompt('batch-existing', 'A refined interior portrait of an adult woman in a sunlit studio, linen textures, soft window shadows, a 50mm lens, realistic skin and fabric, warm neutral palette, editorial composition, shallow depth of field, photorealistic finish, no text, no watermark.');
