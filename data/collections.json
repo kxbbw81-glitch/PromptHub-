@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T09:36:03.066Z",
+  "updatedAt": "2026-08-10T09:57:50.645Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -156,7 +156,7 @@
       "collectedAt": "2026-08-10T08:56:39.077Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:56:53.914Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -185,7 +185,7 @@
       "collectedAt": "2026-08-10T08:56:39.077Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:56:53.914Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "2:3",
@@ -214,7 +214,7 @@
       "collectedAt": "2026-08-10T08:56:39.077Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:56:53.914Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -249,7 +249,7 @@
       "collectedAt": "2026-08-10T08:56:39.077Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:56:53.914Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "2:3",
@@ -278,7 +278,7 @@
       "collectedAt": "2026-08-10T08:56:29.268Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:56:53.914Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "4:5",
@@ -310,7 +310,7 @@
       "mediaType": "image",
       "commerceType": "UGC / 口碑",
       "githubSyncedAt": "2026-08-10T08:55:22.725Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "16:9",
@@ -341,7 +341,7 @@
       "collectedAt": "2026-08-10T08:54:57.824Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:55:22.725Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -372,7 +372,7 @@
       "collectedAt": "2026-08-10T08:54:47.993Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:55:22.725Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -407,7 +407,7 @@
       "collectedAt": "2026-08-10T08:47:10.821Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:47:33.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "16:9",
@@ -438,7 +438,7 @@
       "collectedAt": "2026-08-10T08:44:19.537Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:44:51.354Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "1:1",
@@ -467,7 +467,7 @@
       "collectedAt": "2026-08-10T08:44:07.119Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:44:51.354Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "2:3",
@@ -504,7 +504,7 @@
       "collectedAt": "2026-08-10T08:44:07.119Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:44:51.354Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "2:3",
@@ -534,7 +534,7 @@
       "mediaType": "image",
       "commerceType": "UGC / 口碑",
       "githubSyncedAt": "2026-08-10T08:43:50.451Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "16:9",
@@ -569,7 +569,7 @@
       "collectedAt": "2026-08-10T08:41:44.399Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:42:07.045Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -605,7 +605,7 @@
       "collectedAt": "2026-08-10T08:41:44.399Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:42:07.045Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "16:9",
@@ -637,7 +637,7 @@
       "mediaType": "image",
       "commerceType": "商品详情页",
       "githubSyncedAt": "2026-08-10T08:42:07.045Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -666,7 +666,7 @@
       "collectedAt": "2026-08-10T08:41:11.771Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:41:36.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "16:9",
@@ -703,7 +703,7 @@
       "collectedAt": "2026-08-10T08:41:11.771Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:41:36.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -737,7 +737,7 @@
       "collectedAt": "2026-08-10T08:41:11.771Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:41:36.904Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "16:9",
@@ -768,7 +768,7 @@
       "collectedAt": "2026-08-10T08:40:03.979Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:40:28.814Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "3:4",
@@ -807,7 +807,7 @@
       "collectedAt": "2026-08-10T08:40:03.979Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:40:28.814Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -838,7 +838,7 @@
       "collectedAt": "2026-08-10T08:40:03.979Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:40:28.814Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -874,7 +874,7 @@
       "collectedAt": "2026-08-10T08:40:03.979Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:40:28.814Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -914,7 +914,7 @@
       "mediaType": "image",
       "commerceType": "产品主图",
       "githubSyncedAt": "2026-08-10T08:40:28.814Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -951,7 +951,7 @@
       "collectedAt": "2026-08-10T08:39:10.622Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:39:34.328Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
@@ -983,7 +983,7 @@
       "collectedAt": "2026-08-10T08:39:10.622Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:39:34.328Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "3:4",
@@ -1016,7 +1016,7 @@
       "collectedAt": "2026-08-10T08:38:49.276Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T08:39:14.526Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "",
@@ -1047,7 +1047,7 @@
       "mediaType": "image",
       "commerceType": "品牌视觉",
       "githubSyncedAt": "2026-08-10T08:39:14.526Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
       "aspectRatio": "9:16",
