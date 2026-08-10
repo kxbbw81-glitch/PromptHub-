@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:07:11.573Z",
+  "updatedAt": "2026-08-10T07:16:53.436Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwectr_4e1n",
+      "image": "https://pbs.twimg.com/media/HHiW6claMAAxtbS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HHiW6claMAAxtbS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dz1aAAAFQE1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dz2bsAAujX0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dz0bUAA4rDR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dzzakAAFz-E?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Please generate an image based on the theme: “A stunning woman on a crowded commuter train who makes people instinctively take a second look.” She is a 20-year-old Japanese woman with a refined beauty that naturally draws everyone’s gaze. She has soft, long black hair styled into a low ponytail. Large double-lidded eyes, a well-defined nose bridge, and subtly glossy, modest lips. Her face is small, with a long, elegant neck, and a slender yet feminine figure with gentle curves. Her outfit consists of a lightweight white shirt and a beige tight skirt. The shirt has a slight translucency with natural wrinkles. The scene takes place inside a crowded morning train. She is holding onto a strap, caught in a moment of slightly losing her balance. The shot is taken from a diagonal rear angle, from a passenger’s perspective, looking slightly upward. She appears natural and unaware of the camera. The image has a slight motion blur and rough framing.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HHiW6claMAAxtbS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dz1aAAAFQE1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dz2bsAAujX0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dz0bUAA4rDR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HHh1dzzakAAFz-E?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2051555574719119652",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786346188911,
+      "title": "通勤列车女性人像",
+      "url": "https://x.com/BubbleBrain/status/2051555574719119652",
+      "collectedAt": "2026-08-10T07:16:29.802Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:16:53.436Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "抽象",
