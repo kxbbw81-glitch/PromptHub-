@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T04:01:09.260Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmpf56x_0qdg",
+      "image": "https://pbs.twimg.com/media/HPPO82xXAAAbYvO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPPO82xXAAAbYvO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPPO826WUAAg4bv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPPO82oXYAAgoAB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPPO828WoAAbhPm?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4竖版，照片级真实、低饱和、低对比、暖黑金色调的高级夜间室内时尚人像。一位明确成年的虚构东亚女性，约22–26岁，坐在高档酒店酒廊、餐厅或夜间会所的浅米色布艺沙发扶手边，画面从头顶拍至大腿中部。人物以三分之二背影朝向镜头，身体侧坐并向画面右侧倾斜，一侧前臂自然搭在沙发扶手上，另一只手放松靠近身体。她轻轻回头，通过右侧脸看向画面右方而非镜头，嘴唇自然闭合，神情冷静、克制、略带疏离与成熟感。\n\n她拥有精致偏长的鹅蛋脸、白皙中性偏暖肤色、深棕色杏仁眼、自然细眉、挺直鼻梁和低饱和裸红色双唇。妆容精致但克制：轻薄半哑光底妆、暖棕眼影、细长上扬眼线、自然卷翘睫毛、轻微修容与柔和裸红唇。保留真实毛孔、细小绒毛、自然肤色变化和轻微眼下细节，不要塑料皮肤。\n\n深棕近黑色长发盘成低位松散发髻，顶部与后脑保持自然蓬松，发侧使用细小金属发夹固定，额前和耳边保留少量碎发。佩戴细长银色或水晶垂坠耳环。\n\n她穿一件黑色修身挂脖迷你连衣裙，颈后由多条细黑色绑带系结，完整露出肩膀、肩胛骨与上背部；裙身为哑光弹力面料，贴合身体但不过度紧绷，大腿侧边带小面积低调镂空或编织装饰。整体剪裁简洁、成熟、现代，无明显Logo。\n\n背景为深色高级酒廊：黑色或深棕墙面、玻璃、餐桌、酒杯与远处暖黄色小灯高度虚化，形成低调金色散景。主光为柔和暖色侧前光，从左前上方照亮侧脸、肩膀、上背、手臂和腿部；背景保持较暗，局部环境灯形成轻微轮廓光。整体采用黑色、深棕、暖金、浅米色和自然肤色，低饱和、低对比、略微压暗曝光，具有高级酒店Editorial、夜间时装画报和电影静帧质感。85mm镜头，f/2.0，眼平略高机位，浅景深，侧脸、睫毛、肩背、耳环与裙装纹理清晰，背景完全奶油化。轻微ISO800胶片颗粒；避免过度磨皮、HDR、过锐化、畸形手指、额外肢体、错误人体比例、文字、Logo、水印、边框或拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPPO82xXAAAbYvO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPPO826WUAAg4bv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPPO82oXYAAgoAB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPPO828WoAAbhPm?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2086482637674389935",
+      "tags": [
+        "人像",
+        "低饱和"
+      ],
+      "timestamp": 1786334468361,
+      "title": "红唇女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2086482637674389935",
+      "collectedAt": "2026-08-10T04:01:09.260Z"
+    }
+  ]
+}
