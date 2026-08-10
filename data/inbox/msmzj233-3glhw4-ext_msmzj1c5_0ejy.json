@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:44:07.119Z",
+  "count": 4,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzj1c5_0ejy",
+      "image": "https://pbs.twimg.com/media/HETHt84bYAEZzFS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HETHt84bYAEZzFS?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "突然发现我弟做医疗器械赛道的思路好清晰！\n\n我以前总觉得他在瞎折腾，直到上个月他换手机的钱都是自己赚的，我才知道这家伙背后在偷偷努力搞钱，着实没想到。\n\n一、不做大通货，专盯趋势品和消耗品\n数码、虚拟这种人人都卖的，竞争太大没意思。他的选品思路就两点：\n\n1、找趋势\n比如看现在居家养老的人越来越多，年轻人开始给家里老人买高科技装备，立刻去搜电动多功能护理床、轻便助行器、爬楼机这些关键词。\n\n这叫适老化装备，是个正在起来的大品类。为了让老人生活更有尊严，现在的年轻人很愿意花钱。\n\n2、抓消耗\n像雾化器用的面罩成人护理垫、造口护理包这些，属于定期要换、离不来的。\n\n找一个口碑还不错的款，价格有优势，就能吸引人回头买。尤其是耗材，只要第一单用好了，后面就是源源不断的复购。\n\n二、把硬核参数和专业度做成核心卖点\n医疗器械的买家最关心的就是：专业不专业、好不好用、安不安全。\n\n1、直接对标医院标准：文案要强调医用级材质、医院同款电机、拿到了具体的备案号。用这些专业数据给买家底气，让他们觉得买这个就是把医院的专业护理搬回家了。\n\n2、强调护理减负：比如护理床，要写清楚一个人就能轻松帮老人翻身，不用再费劲去搬。解决的是照护者腰酸背痛的痛点，卖的是省心和省力。\n\n3、死磕安全细节：重点展示防滑垫多厚、钢管多粗、断电保护怎么做。医疗器械的买家最怕出意外，要把稳当、结实、耐用这些硬指标顶在最前面，给足安全感。\n\n三、用无货源模式，把想法变成钱\n思路再好，压货了就是风险，尤其是医疗器械这种大件。\n\n1、前期准备：头像、名字看起来像个靠谱的医疗选品专家，或者是很懂康复的专业人士。\n\n2、上架商品：在货源平台把那些真实的视频、实拍图保存下来。写标题时，多加一些大厂平替、康复科同款之类的词，主图一定要显眼。\n\n3、出单发货：出单了立马去货源平台下单，地址填买家的。一定要提醒卖家无痕发货，里面不能放价格单，最好是顺丰发货，因为买这东西的人通常都很急。\n\n关于售后，选品时要挑那种有专业视频教程的厂家。医疗器械很多时候不是坏了，而是老人不会用。发个视频过去教一下，能解决大半的售后问题。\n\n最后我想说，想都是问题，做才是答案。听得再多看得再多，不如自己试一遍。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HETHt84bYAEZzFS?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/weiyux2021/status/2036972531576684947",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351446149,
+      "title": "突然发现我弟做医疗器械赛道的思路好清晰！",
+      "url": "https://x.com/weiyux2021/status/2036972531576684947",
+      "collectedAt": "2026-08-10T08:44:07.119Z"
+    },
+    {
+      "aspectRatio": "4:3",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzj1c6_iujy",
+      "image": "https://pbs.twimg.com/media/HEzkxQlbIAEZh31?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HEzkxQlbIAEZh31?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzkxUUboAAFmw4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEzkzHFbgAATPVt?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzk0cia8AACsfs?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "卧槽！挖到一个很猛的爬虫工具叫 XCrawl\n\n结合 OpenClaw 可以直接做小红书内容工厂\n\n之前用 OpenClaw 抓小红书内容，经常抓不到内容或者直接被禁止爬取，试了 XCrawl 之后，发现可以稳定爬取笔记内容和评论\n\n而且它可以把网页变成 Agent 能直接用的内容，不是截图，是干净的正文、结构化的数据，Agent 拿到就能处理。\n\n官方文档还提供了 4 个 Skills，适配大部分数据抓取场景：\n\n1、xcrawl-scrape\n\n用来抓网站的某篇文章、某个产品页，直接给个链接，它就能把内容提取成干净的 Markdown 或 JSON，不会给你一堆没用的导航栏、广告之类的。\n\n2、xcrawl-map\n\n用来了解一个网站的整体结构，它会帮你把站点里的所有链接列出来，你可以看到有哪些板块、哪些页面，然后再决定要抓哪些。\n\n3、xcrawl-crawl\n批量抓取多个页面\n\n4、xcrawl-search\n\n抓取搜索引擎结果，这个 Skill 能直接返回搜索结果，包括标题、链接、摘要。\n\n配置很简单，直接把官方文档页面复制给 OpenClaw，再给它 API Key 就行了。\n\n新注册送 1000 积分，如果你也在经常需要让 Agent 抓网页数据，可以用免费额度先体验\n\n官方文档和地址见评论区",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEzkxQlbIAEZh31?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzkxUUboAAFmw4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEzkzHFbgAATPVt?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzk0cia8AACsfs?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/imaxichuhai/status/2039257066976731561",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351446150,
+      "title": "卧槽！挖到一个很猛的爬虫工具叫 XCrawl",
+      "url": "https://x.com/imaxichuhai/status/2039257066976731561",
+      "collectedAt": "2026-08-10T08:44:07.119Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzj1c6_cwpi",
+      "image": "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZAKaMAA9oSV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALakAEMB-t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALaIAAvglQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Nano banana 2 \n\nJenna Ortega, Sadie Sink, Sabrina Carpenter, Sydney Sweeney\n\nCreated via @yapper_so \n\nPrompt :-\nUse the provided reference image for the subject’s identity, facial features, body proportions, hair, and overall likeness. Preserve the exact face, skin tone, and realism from the reference image without alteration.\nThe subject is wearing a matching two-piece activewear set in dusty blush pink / matte pastel pink. The outfit consists of a minimalist thin-strap sports bra with a scoop neckline and high-waisted, form-fitting leggings. Nails are medium-length, almond-shaped, painted in a pale pink or nude polish.\nThe subject is posing for a mirror selfie, standing upright. The left hand rests on the hip, while the right hand holds a silver or white smartphone at face level.\nThe environment is a bright, modern Pilates studio. A wooden Pilates reformer machine with black tension springs and cables is visible. The background includes a pink padded reformer carriage and neatly stacked pink foam yoga blocks. The walls are clean and neutral, in off-white or light grey tones.\nLighting is soft, diffused indoor studio lighting, creating even illumination with natural reflections and minimal harsh shadows.\nMedium shot to full-body mirror selfie composition, subject centered vertically. Portrait orientation with a 3:4 aspect ratio. High-resolution, photorealistic fitness lifestyle aesthetic, with sharp focus on the subject and a shallow depth of field that softly blurs the background.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZAKaMAA9oSV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALakAEMB-t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALaIAAvglQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2039096900897456228",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "studio lighting"
+      ],
+      "timestamp": 1786351446151,
+      "title": "Nano banana 2",
+      "url": "https://x.com/sumiturkude007/status/2039096900897456228",
+      "collectedAt": "2026-08-10T08:44:07.119Z"
+    },
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzj1c7_j3m1",
+      "image": "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Jeans Photo-Shot.\n\nNano Banana Pro Prompt: \n\n{\n  \"Objective\": \"Create a 2x2 grid fashion-focused image highlighting denim jeans on a beautiful Asian woman, emphasizing natural beauty, minimalism, and effortless style.\",\n  \"Composition\": {\n    \"layout\": \"2x2 grid\",\n    \"aspect_ratio\": \"1:1\",\n    \"framing\": \"mix of close-up and mid-body shots, strong emphasis on jeans fit and texture\"\n  },\n  \"Subject\": {\n    \"appearance\": \"extremely beautiful Asian woman\",\n    \"features\": [\n      \"soft natural skin (no glossy effect)\",\n      \"long slightly messy wavy hair\",\n      \"delicate facial features\",\n      \"clean natural makeup\"\n    ],\n    \"outfit\": {\n      \"top\": \"minimal white crop top or bralette\",\n      \"bottom\": \"high-waisted denim jeans\",\n      \"layer\": \"oversized denim jacket loosely worn or slipping off shoulders\"\n    }\n  },\n  \"Focus\": {\n    \"primary\": \"denim jeans\",\n    \"details\": [\n      \"fit around waist and hips\",\n      \"texture of denim fabric\",\n      \"natural folds and creases\",\n      \"casual styling\"\n    ]\n  },\n  \"Poses\": [\n    {\n      \"position\": \"top left\",\n      \"pose\": \"close-up portrait, hand near lips\",\n      \"focus\": \"face and upper denim jacket\",\n      \"vibe\": \"soft, captivating beauty\"\n    },\n    {\n      \"position\": \"top right\",\n      \"pose\": \"standing full body, hands near waistband\",\n      \"focus\": \"jeans fit and silhouette\",\n      \"vibe\": \"confident, clean fashion\"\n    },\n    {\n      \"position\": \"bottom left\",\n      \"pose\": \"side profile, jacket slipping off shoulder\",\n      \"focus\": \"hip line and denim structure\",\n      \"vibe\": \"effortless, slightly candid\"\n    },\n    {\n      \"position\": \"bottom right\",\n      \"pose\": \"looking down, hair falling naturally\",\n      \"focus\": \"waistline and soft styling\",\n      \"vibe\": \"calm, editorial beauty\"\n    }\n  ],\n  \"Photography\": {\n    \"camera\": \"smartphone or mirrorless\",\n    \"quality\": \"natural, slightly soft\",\n    \"lighting\": \"soft diffused studio light\",\n    \"imperfections\": [\n      \"subtle grain\",\n      \"natural shadows\",\n      \"no over-retouching\"\n    ],\n    \"style\": \"minimal fashion editorial with natural tones\"\n  },\n  \"Background\": {\n    \"setting\": \"clean studio\",\n    \"color\": \"light gray or off-white\",\n    \"style\": \"minimal, no distractions\"\n  },\n  \"Mood\": \"clean, modern, soft, beauty-focused, effortless fashion\",\n  \"Rendering\": {\n    \"style_keywords\": [\n      \"denim fashion\",\n      \"minimal editorial\",\n      \"asian beauty\",\n      \"clean aesthetic\",\n      \"natural photography\",\n      \"jeans focus\"\n    ],\n    \"realism\": \"photorealistic\",\n    \"detail_level\": \"high (fabric texture, natural skin, hair strands)\",\n    \"aspect_ratio\": \"--ar 1:1\"\n  },\n  \"Response_Format\": {\n    \"type\": \"image_generation_prompt_json\",\n    \"editable_fields\": [\n      \"poses\",\n      \"outfit\",\n      \"lighting\",\n      \"focus\"\n    ]\n  }\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/craftian_keskin/status/2039314017710117197",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1786351446151,
+      "title": "Jeans Photo-Shot.",
+      "url": "https://x.com/craftian_keskin/status/2039314017710117197",
+      "collectedAt": "2026-08-10T08:44:07.119Z"
+    }
+  ]
+}
