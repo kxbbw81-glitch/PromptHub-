@@ -105,7 +105,9 @@ function renderVerificationStatus(feedback, queueLength = 0) {
 function renderCollectionOutcome(button, receipt) {
   if (!button || !receipt) return;
   button.classList.remove('mini-btn-collected', 'mini-btn-existing', 'mini-btn-rejected');
-  if (receipt.outcome === 'saved') {
+  if (receipt.state === 'submitted' || receipt.outcome === 'submitted') {
+    button.textContent = '⏳ 等待主站合并';
+  } else if (receipt.outcome === 'saved') {
     button.textContent = '✓ 已写入主站';
     button.classList.add('mini-btn-collected');
   } else if (receipt.outcome === 'submitted') {
@@ -147,6 +149,12 @@ async function waitForCollectionVerification(id, button) {
       await updateQueueUI();
       return;
     }
+    if (receipt.state === 'submitted') {
+      renderCollectionOutcome(button, receipt);
+      showToast('已提交待合并队列，尚未写入主站；插件会自动复查');
+      await updateQueueUI();
+      return;
+    }
     if (receipt.state === 'failed') {
       button.disabled = false;
       button.textContent = '↻ 重试收藏';
@@ -170,7 +178,7 @@ async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
     const verified = receipts.filter(receipt => receipt?.state === 'verified').length;
     const failed = receipts.filter(receipt => receipt?.state === 'failed').length;
     receipts.forEach((receipt, index) => {
-      if (receipt?.state === 'verified') renderCollectionOutcome(buttonsById.get(trackedIds[index]), receipt);
+      if (receipt?.state === 'verified' || receipt?.state === 'submitted') renderCollectionOutcome(buttonsById.get(trackedIds[index]), receipt);
     });
     if (failed) {
       button.disabled = false;
@@ -179,14 +187,14 @@ async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
       await updateQueueUI();
       return;
     }
-    if (verified === trackedIds.length) {
+    const submitted = receipts.filter(receipt => receipt?.state === 'submitted').length;
+    if (verified + submitted === trackedIds.length) {
       const saved = receipts.filter(receipt => receipt?.outcome === 'saved').length;
-      const submitted = receipts.filter(receipt => receipt?.outcome === 'submitted').length;
       const existing = receipts.filter(receipt => receipt?.outcome === 'already_exists').length;
-      button.textContent = submitted ? `✓ 已提交队列 ${submitted} 个` : existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
-      button.classList.add('mini-btn-collected');
+      button.textContent = submitted ? `⏳ 等待主站合并 ${submitted} 个` : existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
+      if (!submitted) button.classList.add('mini-btn-collected');
       showToast(submitted
-        ? `已提交 GitHub 主站队列 ${submitted} 个提示词，等待自动合并或去重`
+        ? `已提交待合并队列 ${submitted} 个提示词，尚未写入主站；插件会自动复查`
         : existing ? `主站写入 ${saved} 个；${existing} 个已存在，未重复写入` : `已写入 GitHub 主站 ${saved} 个提示词`);
       await updateQueueUI();
       return;
@@ -738,7 +746,7 @@ $('#btn-sync').addEventListener('click', async () => {
       const savedCount = Number(syncResult.count || 0);
       const skippedCount = Number(syncResult.skipped || 0);
       const syncMessage = savedCount > 0
-        ? `已提交 GitHub 主站队列 ${savedCount} 个提示词，等待自动合并或去重`
+        ? `已提交待合并队列 ${savedCount} 个提示词，尚未写入主站；插件会自动复查`
         : skippedCount > 0
           ? `GitHub 主站无新增，${skippedCount} 个提示词已存在`
           : 'GitHub 主站无新增提示词';

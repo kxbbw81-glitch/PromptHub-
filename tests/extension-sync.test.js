@@ -143,7 +143,7 @@ function prompt(id, body) {
 async function waitForReceipt(context, id) {
   for (let attempt = 0; attempt < 20; attempt += 1) {
     const receipt = await context.getCollectionReceipt(id);
-    if (receipt?.state === 'verified') return receipt;
+    if (receipt?.state === 'verified' || receipt?.state === 'submitted') return receipt;
     await new Promise(resolve => setTimeout(resolve, 1));
   }
   return context.getCollectionReceipt(id);
@@ -157,8 +157,8 @@ test('concurrent collections are saved locally before automatic GitHub primary s
   const results = await Promise.all([context.addToQueue(first), context.addToQueue(second)]);
 
   assert.ok(results.every(result => result.success && result.pendingVerification));
-  assert.equal((await waitForReceipt(context, 'first')).state, 'verified');
-  assert.equal((await waitForReceipt(context, 'second')).state, 'verified');
+  assert.equal((await waitForReceipt(context, 'first')).state, 'submitted');
+  assert.equal((await waitForReceipt(context, 'second')).state, 'submitted');
   assert.ok(remote.putCalls >= 1);
   assert.deepEqual(inboxIds(remote), ['first', 'second']);
   assert.equal(storage.prompthub_queue, undefined);
@@ -177,8 +177,8 @@ test('one-click collection batches detected prompts into one queued GitHub write
   assert.equal(result.added, 2);
   assert.equal(result.rejected, 1);
   assert.deepEqual([...result.trackedIds], ['batch-first', 'batch-second']);
-  assert.equal((await waitForReceipt(context, 'batch-first')).state, 'verified');
-  assert.equal((await waitForReceipt(context, 'batch-second')).state, 'verified');
+  assert.equal((await waitForReceipt(context, 'batch-first')).state, 'submitted');
+  assert.equal((await waitForReceipt(context, 'batch-second')).state, 'submitted');
   assert.equal(remote.putCalls, 1);
   assert.deepEqual(inboxIds(remote), ['batch-first', 'batch-second']);
   assert.equal(storage.prompthub_queue, undefined);
@@ -214,7 +214,7 @@ test('incomplete prompts are rejected while repeated source posts are left to se
   assert.equal(duplicate.pendingVerification, true);
   assert.equal(rejected.success, false);
   assert.deepEqual(inboxIds(remote), ['complete', 'same-post']);
-  assert.equal((await context.getCollectionReceipt('same-post')).state, 'verified');
+  assert.equal((await context.getCollectionReceipt('same-post')).state, 'submitted');
 });
 
 test('large GitHub collections are not downloaded by the extension before queue submission', async () => {

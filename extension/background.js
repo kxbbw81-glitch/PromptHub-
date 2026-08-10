@@ -16,7 +16,10 @@ const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
 const EXTENSION_INBOX_SCHEMA_VERSION = 1;
 const RECEIPT_KEY = 'prompthub_collection_receipts';
 const PRIMARY_RETRY_ALARM_NAME = 'prompthub_primary_retry';
+const MAIN_VERIFICATION_ALARM_NAME = 'prompthub_main_verification';
 const PRIMARY_RETRY_DELAY_MINUTES = 2;
+const MAIN_VERIFICATION_DELAY_MINUTES = 1;
+const MAIN_VERIFICATION_PERIOD_MINUTES = 2;
 const GITHUB_REQUEST_TIMEOUT_MS = 30000;
 let queueMutation = Promise.resolve();
 let receiptMutation = Promise.resolve();
@@ -405,6 +408,44 @@ async function getCollectionFeedback() {
   return { queueCount: queue.length, latest };
 }
 
+async function scheduleMainVerification() {
+  await chrome.alarms.create(MAIN_VERIFICATION_ALARM_NAME, {
+    delayInMinutes: MAIN_VERIFICATION_DELAY_MINUTES,
+    periodInMinutes: MAIN_VERIFICATION_PERIOD_MINUTES
+  });
+}
+
+async function verifySubmittedMainReceipts() {
+  const data = await chrome.storage.local.get(RECEIPT_KEY);
+  const receipts = Object.values(data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {});
+  const submitted = receipts.filter(receipt => receipt?.state === 'submitted' && receipt?.sourceUrl);
+  if (submitted.length === 0) {
+    await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
+    return { checked: 0, confirmed: 0 };
+  }
+
+  const token = await getGitHubToken();
+  if (!token) return { checked: submitted.length, confirmed: 0 };
+
+  try {
+    const snapshot = await readGitHubCollections(token);
+    const sourceUrls = new Set(snapshot.collections.map(item => normalizeSourceUrl(item.sourceUrl || item.url)).filter(Boolean));
+    const confirmed = submitted.filter(receipt => sourceUrls.has(normalizeSourceUrl(receipt.sourceUrl)));
+    if (confirmed.length) {
+      await setCollectionReceipts(confirmed.map(receipt => ({ id: receipt.id, sourceUrl: receipt.sourceUrl })), 'verified', {
+        outcome: 'saved',
+        message: '已验证写入 GitHub 主站',
+        verifiedAt: new Date().toISOString()
+      });
+    }
+    if (confirmed.length === submitted.length) await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
+    return { checked: submitted.length, confirmed: confirmed.length };
+  } catch (error) {
+    console.warn('[PromptHub] Main verification deferred:', error?.message || error);
+    return { checked: submitted.length, confirmed: 0 };
+  }
+}
+
 async function removeQueueItem(prompt) {
   return withQueueLock(async () => {
     const fingerprint = collectionFingerprint({ prompt });
@@ -548,11 +589,19 @@ async function syncQueuedItems() {
     const savedItems = queueSnapshot.filter(item => savedIds.has(item.id));
     const existingItems = queueSnapshot.filter(item => existingIds.has(item.id));
     if (savedItems.length) {
-      await setCollectionReceipts(savedItems, 'verified', {
-        outcome: result.submittedToInbox ? 'submitted' : 'saved',
-        message: result.submittedToInbox ? '已提交 GitHub 主站队列，等待自动合并或去重' : '已写入 GitHub 主站',
-        verifiedAt: new Date().toISOString()
-      });
+      if (result.submittedToInbox) {
+        await setCollectionReceipts(savedItems, 'submitted', {
+          outcome: 'submitted',
+          message: '已提交待合并队列，尚未写入 GitHub 主站；插件会自动复查'
+        });
+        await scheduleMainVerification();
+      } else {
+        await setCollectionReceipts(savedItems, 'verified', {
+          outcome: 'saved',
+          message: '已验证写入 GitHub 主站',
+          verifiedAt: new Date().toISOString()
+        });
+      }
     }
     if (existingItems.length) {
       await setCollectionReceipts(existingItems, 'verified', {
@@ -1052,10 +1101,14 @@ chrome.alarms.onAlarm.addListener(alarm => {
   if (alarm.name === PRIMARY_RETRY_ALARM_NAME) {
     queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Primary retry failed:', error?.message || error));
   }
+  if (alarm.name === MAIN_VERIFICATION_ALARM_NAME) {
+    verifySubmittedMainReceipts().catch(error => console.warn('[PromptHub] Main verification failed:', error?.message || error));
+  }
 });
 
 chrome.runtime.onStartup.addListener(() => {
   queueAutomaticPrimarySync().catch(error => console.warn('[PromptHub] Queue recovery failed:', error?.message));
+  verifySubmittedMainReceipts().catch(error => console.warn('[PromptHub] Main verification recovery failed:', error?.message));
 });
 
 async function waitForTabComplete(tabId) {
