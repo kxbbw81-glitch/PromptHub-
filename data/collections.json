@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T02:17:16.059Z",
+  "updatedAt": "2026-08-10T02:20:41.457Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmltg5c_tkf7",
+      "image": "https://pbs.twimg.com/media/HObugNgWkAIRzC6?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HObugNgWkAIRzC6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObugNuWIAAVy5t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObugOTWEAAUB7o?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObugNgWoAAvAnL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt 一位20多岁的年轻成年东亚女性侧身跪坐在纯白无缝摄影棚地面上，画面从头顶拍至大腿上部。人物位于中央略偏右，臀部坐在脚跟附近，身体朝画面右侧，腰背向后自然伸展，胸腔轻微打开，形成柔和弧线。靠近镜头的左臂向后伸直，左手平放在地面支撑身体，五指自然分开；右臂和右手位于身体后侧或画面外。头部向后轻仰并转向镜头，平静直视，嘴唇微启，神情柔和、自信、略带慵懒感。 她拥有精致偏长的鹅蛋脸、清晰柔和的下颌线、杏仁形深棕眼睛、自然细眉、纤细鼻梁和浅裸粉色嘴唇。妆容清淡，仅有轻薄底妆、自然睫毛、细眼线、暖棕眼影和淡珊瑚腮红。肤色暖白偏自然，保留真实毛孔、细小绒毛、轻微肤色变化和柔和皮脂高光，不要塑料磨皮。 深棕黑色超长头发自然披散，带松散大波浪，发量丰富，从头顶垂落至腰臀附近，大部分集中在画面左侧背后，发尾自然蓬松。保留真实重量、独立发丝、少量碎发和柔和光泽。 她穿纯色浅裸米色三角比基尼。上衣为细肩带挂脖三角杯结构，胸前中央自然连接，面料哑光、完全不透明；下身为同色低腰侧系带泳裤，画面右侧腰部有清晰蝴蝶结系带。泳装贴合自然，不夸张塑形，无图案、无品牌标识。 背景为暖白至浅灰白的无缝摄影棚渐变，没有任何道具。大型柔光箱从画面左前上方照射，右侧反光板轻柔补光，人物肩膀、锁骨、腰腹和腿部形成细腻高光，地面保留浅淡自然阴影。整体高键、低饱和、低对比，以裸米色、暖肤色、奶油白和深棕发色为主。 摄影风格：85mm或105mm人像镜头，f/2.8，平视略低机位，中浅景深，面部、左手、泳装和发丝清晰，真实皮肤、布料和地面纹理，轻微ISO200胶片颗粒，soft swimwear beauty editorial，Japanese studio fashion photography，photorealistic。 避免：未成年人特征、裸体、露点、透明泳装、夸张胸腰臀比例、错误跪姿、扭曲脊柱、畸形手指、融合手臂、重复肢体、塑料皮肤、过度磨皮、强HDR、过度锐化、杂乱背景、CG、动漫、文字、水印、Logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HObugNgWkAIRzC6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObugNuWIAAVy5t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObugOTWEAAUB7o?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HObugNgWoAAvAnL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2082888961685430337",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1786328417280,
+      "title": "Prompt",
+      "url": "https://x.com/ToroJushiAi/status/2082888961685430337",
+      "collectedAt": "2026-08-10T02:20:18.105Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T02:20:41.457Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "自然",
