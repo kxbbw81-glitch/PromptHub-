@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:41:11.771Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzf84l_bbk5",
+      "image": "https://pbs.twimg.com/media/HE25oVcaQAArw0d?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE25oVcaQAArw0d?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE25pN-a4AAtWOS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE25puGbIAA5sCP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Made with Nano Banana 2 on @yapper_so\n\nAnya Taylor-Joy , Sydney Sweeney and Sabrina Carpenter \n\nPrompt:\n\n{\n  “meta”: {\n    “quality”: “ultra_photorealistic, raw style, 8k, masterpiece”,\n    “camera”: “iPhone 15 Pro Max”,\n    “lighting”: “Warm, dim, ambient indoor bedroom",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE25oVcaQAArw0d?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE25pN-a4AAtWOS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE25puGbIAA5sCP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2039669926441697345",
+      "tags": [
+        "photorealistic",
+        "8k"
+      ],
+      "timestamp": 1786351268325,
+      "title": "Made with Nano Banana 2 on @yapper_so",
+      "url": "https://x.com/youngcatwoman/status/2039669926441697345",
+      "collectedAt": "2026-08-10T08:41:11.771Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzf84l_wu84",
+      "image": "https://pbs.twimg.com/media/HE5sXVWbYAAXlHk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE5sXVWbYAAXlHk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE5shY1agAAxsqv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE5swKZacAAD98X?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE5s4cTbEAAdbJh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEq8cX8aMAA5COq?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "“Golden Seductive Grace”\n\nGoogle Nano Banana 2\n\nPrompt:\n{\n  \"prompt\": \"Photorealistic image of Sadie Sink, 22 years old, beautiful young woman with long wavy fiery red hair, fair skin, green eyes, sharp facial features, perfect makeup with smokey eyes and nude lips, posing",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE5sXVWbYAAXlHk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE5shY1agAAxsqv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE5swKZacAAD98X?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE5s4cTbEAAdbJh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEq8cX8aMAA5COq?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/PeterPanLam1990/status/2039687723230134418",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1786351268325,
+      "title": "“Golden Seductive Grace”",
+      "url": "https://x.com/PeterPanLam1990/status/2039687723230134418",
+      "collectedAt": "2026-08-10T08:41:11.771Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzf84l_2e57",
+      "image": "https://pbs.twimg.com/media/HE4MIglbsAAvQ1E?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE4MIglbsAAvQ1E?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Same blue shirt, two storefront moods.\nOne smiled into the light, one leaned into it.\n\n同じブルーでも、空気は少しずつ変わる。あなたはどっち？\n同一件蓝衬衫，一张更像发光的门店封面，一张更像路过时突然停下来的轻松瞬间。\n\n Storefront portrait + warm sign backlight + oversized",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE4MIglbsAAvQ1E?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2039581034325610731",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351268325,
+      "title": "Same blue shirt, two storefront moods.",
+      "url": "https://x.com/sidona/status/2039581034325610731",
+      "collectedAt": "2026-08-10T08:41:11.771Z"
+    }
+  ]
+}
