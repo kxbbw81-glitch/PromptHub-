@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T06:55:50.082Z",
+  "updatedAt": "2026-08-10T06:56:11.141Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmvnoab_azka",
+      "image": "https://pbs.twimg.com/media/HPSvpfVaQAA54B0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPSvpfVaQAA54B0?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic ultra-wide-angle selfie-style portrait with dynamic motion blur, direct flash film photography style, heavy film grain, high contrast flash lighting, Douyin hot-girl diary aesthetic, casual daily snapshot vibe, not overly staged, spontaneous and slightly imperfect framing. Medium-close composition from a slightly low upward angle, dynamic handheld selfie perspective, strong sense of movement. A beautiful young adult East Asian woman with waist-length deep brown wavy hair slightly messy from the night wind, doll-like cute facial features, cool fair skin, delicate oval face with a slightly pointed chin. Translucent natural base makeup, soft smoky eyes, glossy deep red lips. She has a slim figure, small bust, pale luminous skin. Her expression is lazily seductive: half-lidded eyes, lips slightly parted as if she just stopped talking, a faint knowing smile, looking straight into the camera with a soft, almost bored allure. Her head is tilted back a little, one shoulder dropped, body leaning slightly away from the camera. Hair partially covers one eye. She wears an oversized pink sleeveless cropped tank that hangs loosely, revealing a thin strip of midriff, black ultra-short shorts, and a black multi-pocket underarm bag slung casually. Round hoop earrings and a large black dial watch. Background: quiet urban street at night under warm streetlights mixed with harsh direct flash, red brick wall, large trees casting leaf shadows, distant blurred city lights. Warm brown-gray-black palette, dramatic flash highlights, deep shadows, shallow depth of field, soft bokeh, natural skin texture with visible pores, realistic phone-camera texture, heavy film grain, candid nightlife atmosphere, imperfect composition, 8K detail.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPSvpfVaQAA54B0?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2086485826473714073",
+      "tags": [
+        "photorealistic",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1786344944051,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/BubbleBrain/status/2086485826473714073",
+      "collectedAt": "2026-08-10T06:55:45.126Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T06:56:11.141Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "时尚",
