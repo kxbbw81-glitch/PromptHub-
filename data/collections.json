@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T11:09:06.670Z",
+  "updatedAt": "2026-08-10T11:57:07.043Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -32,7 +32,7 @@
       "collectedAt": "2026-08-10T10:50:19.967Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T10:50:43.928Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T11:57:07.039Z"
     },
     {
       "aspectRatio": "2:3",
@@ -67,7 +67,7 @@
       "collectedAt": "2026-08-10T10:48:26.083Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T10:48:57.687Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T11:57:07.039Z"
     },
     {
       "aspectRatio": "3:4",
