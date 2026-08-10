@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T02:06:16.109Z",
+  "updatedAt": "2026-08-10T02:07:00.609Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmlbt9a_iyzv",
+      "image": "https://pbs.twimg.com/media/HPSzf76a4AA2vBR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPSzf76a4AA2vBR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSzf77bcAAj2DB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSzf7baIAA68Ba?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSwsAYbkAEMRKK?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "出了好图之后自然少不了要做变体系列图 上一张帖子的图片prompt贴下面了： Kai Böttcher 摄影美学启发，photomanipulation（数字影像重构），超现实写实主义，情绪化时尚摄影，电影感室内人像。 一名成年韩系混血甜酷女性，深黑色长发自然散落，头发略微凌乱并铺散在身体周围，小巧成熟的椭圆脸，细长眼型，微微湿润的眼神，若有所思地直视镜头，双唇自然微张，低饱和裸粉色唇妆。真实细腻皮肤纹理，保留毛孔、细小肌理与面部微小雀斑，鼻梁与脸颊具有非常自然的油脂高光，不过度磨皮，不过度锐化。 人物仰躺在室内柔软表面上，身体呈轻微斜向构图，摄影机非常靠近人物，以略高于床面的贴近式实验机位拍摄，镜头沿人物身体斜向切入，面部位于画面视觉中心偏左。人物一只手自然弯曲放在头部上方，手中松散缠绕细金属链饰；另一只手向镜头方向自然伸出，形成明显的近大远小透视，前景手臂被大幅虚化，只作为画面遮挡与纵深结构存在。 人物穿黑色极简细肩带上衣，佩戴细银色项链与少量金属首饰。人物周围散落少量银色链条、珠饰、透明或半透明材质的小型物件，不强调具体道具功能，而作为折射、闪光和前景虚化元素。 室内环境保持昏暗、私密、略带生活痕迹，背景不可过度清晰，仅保留床面、布料、暗色家具或零散物件形成空间暗示。 标准曝光，不做明显欠曝。 整体色调以黄绿色、橄榄绿、暗卡其、旧金色、琥珀黄色为主，肤色被环境光轻微染成温暖黄绿色，但保持真实自然。高光呈暖琥珀色，暗部带深橄榄绿与青绿色偏色，降低蓝色与纯红色比例，整体低到中等饱和度。 镜头前加入透明玻璃、塑料薄膜、首饰或折射材质作为极近前景，制造局部模糊光斑、玻璃折射、边缘重影、微弱鬼影、局部耀斑与不规则光晕，部分区域轻微失焦，但人物双眼与面部核心区域仍保持可辨识焦点。 实验性镜头角度，近距离广角透视感，轻微倾斜画面，非标准商业人像构图，大面积前景遮挡，浅景深，前景强烈虚化，背景柔化。 soft focus lens，dreamy diffusion，subtle halation，diffused highlights，gentle highlight bloom，pearlescent soft reflection，soft optical flare，glass refraction，foreground bokeh，slight chromatic aberration，organic motion softness。 细腻胶片颗粒，轻微褪色胶片质感，低照度数字压缩痕迹，暗部保留层次，有限动态范围，轻微镜头雾化，柔和反差，黑位略微抬起，不做强 HDR，不做过度锐利商业摄影。 画面保持真实摄影逻辑，同时加入约 15–25% controlled visual anomaly：主要通过镜头折射、局部重影、前景玻璃反射、异常虚焦与光学耀斑完成数字影像重构，不出现明显奇幻物体，不破坏真人摄影可信度。 cinematic intimate portrait photography, experimental close-up, photomanipulation, surreal realism, yellow-green color grading, olive green shadows, amber highlights, soft focus, shallow depth of field, optical diffusion, analog film grain, realistic skin texture, subtle freckles, atmospheric indoor photography, imperfect optical artifacts, quiet sensual tension, spontaneous editorial photography. 避免：纯绿色滤镜覆盖全图、荧光绿、高饱和绿色、严重欠曝、硬闪光、锐利数码感、过度磨皮、塑料皮肤、AI模板脸、过强HDR、复杂场景、过多道具、杂乱背景、夸张奇幻效果、明显拼贴边界、多人、重复肢体、畸形手指。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPSzf76a4AA2vBR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSzf77bcAAj2DB?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSzf7baIAA68Ba?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPSwsAYbkAEMRKK?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2086490183038582876",
+      "tags": [
+        "cinematic",
+        "dreamy",
+        "bokeh",
+        "青绿",
+        "人像"
+      ],
+      "timestamp": 1786327594463,
+      "title": "出了好图之后自然少不了要做变体系列图",
+      "url": "https://x.com/nanyuan0412/status/2086490183038582876",
+      "collectedAt": "2026-08-10T02:06:36.190Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T02:07:00.609Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmlbt9a_jote",
+      "image": "https://pbs.twimg.com/media/HPSwsAYbkAEMRKK?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HPSwsAYbkAEMRKK?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "研究一个摄影师的风格：kai böttcher 德国的一个摄影师，他的人像照我超级喜欢。 以电影叙事美学为核心的精致女性肖像，强调色彩情绪、光影质感与模特情感的捕捉，同时通过大量幕后分享展现“从简陋现场到完美成片”的完整过程。 他的影响力更多体现在实践示范与视觉语言传播上，而非传统美术史意义上的“流派开创”——他帮助更多人理解专业肖像摄影的真实工作流，并提供了可直接使用的调色工具。 想要将他的风格翻译成视觉语言，用提示词来生图，但也难以复刻出它那样的效果，不过却出现了一个这样很不戳的色调，捉襟见肘了！",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPSwsAYbkAEMRKK?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2086487661473317253",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1786327594462,
+      "title": "研究一个摄影师的风格：kai böttcher",
+      "url": "https://x.com/nanyuan0412/status/2086487661473317253",
+      "collectedAt": "2026-08-10T02:06:36.190Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T02:07:00.609Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "建筑",
