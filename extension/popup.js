@@ -490,7 +490,11 @@ const SCAN_FUNCTION = () => {
 
   function isCompleteCandidate(text) {
     const value = String(text || '').trim();
-    if (value.length < 160) return false;
+    const parserComplete = globalThis.PromptHubParser?.isCompletePrompt;
+    if (typeof parserComplete === 'function') return parserComplete(value);
+    const commas = (value.match(/[,，]/g) || []).length;
+    const hasGenerationParams = /\b(--ar|--v|--style|--chaos|--stylize|--niji|seed|cfg|sampler)\b/i.test(value);
+    if (value.length < 80 || (value.length < 160 && !(commas >= 3 || hasGenerationParams))) return false;
     return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
   }
 

@@ -178,14 +178,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.24\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.24\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.25\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.25\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.24\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.24\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.25\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.25\.0/);
 });
 
 test('the extension recognizes WeChat article prompt blocks and lazy-loaded images', () => {
@@ -194,7 +194,7 @@ test('the extension recognizes WeChat article prompt blocks and lazy-loaded imag
   assert.match(content, /data-src/);
   assert.match(content, /extractWeChatArticlePrompts/);
   assert.match(app, /微信公众号复制帖子全文/);
-  assert.match(app, /PromptHub-Extension-v3\.24\.0\.zip/);
+  assert.match(app, /PromptHub-Extension-v3\.25\.0\.zip/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {

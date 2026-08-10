@@ -86,6 +86,14 @@ test('generates a compact title when the first line is the prompt body', () => {
   assert.equal(parsed.prompt, raw);
 });
 
+test('accepts a short but strongly structured image prompt', () => {
+  const prompt = 'Cinematic perfume bottle on black stone, soft side lighting, clean reflection, 85mm lens, shallow depth of field, photorealistic, no text, no watermark.';
+
+  assert.ok(prompt.length < 160);
+  assert.equal(parser.isCompletePrompt(prompt), true);
+  assert.equal(parser.isCompletePrompt('Cinematic perfume bottle, soft light,'), false);
+});
+
 test('replaces social platform titles with a content-specific prompt summary', () => {
   const raw = `
 GPT Image 2 on ChatGPT

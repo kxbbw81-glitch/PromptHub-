@@ -422,7 +422,14 @@
 
   function isCompletePrompt(text) {
     const value = cleanText(text);
-    if (value.length < 160 || promptScore(value) < 3) return false;
+    const score = promptScore(value);
+    const commaCount = (value.match(/[,，]/g) || []).length;
+    const hasGenerationParams = /\b(--ar|--v|--style|--chaos|--stylize|--niji|seed|cfg|sampler)\b/i.test(value);
+
+    // Short X posts can contain a complete, useful prompt. Accept them only
+    // when their structure is strong enough to avoid treating captions as prompts.
+    if (value.length < 80 || score < 3) return false;
+    if (value.length < 160 && !(score >= 4 && (commaCount >= 3 || hasGenerationParams))) return false;
 
     // Collapsed social posts commonly end mid-clause. Keep those out of the library.
     return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
