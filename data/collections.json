@@ -1,7 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:21:13.036Z",
+  "updatedAt": "2026-08-10T07:24:40.047Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwo9mb_k137",
+      "image": "https://pbs.twimg.com/media/HFPaNJEbMAAzT70?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFPaNJEbMAAzT70?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJMaoAAiaf5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJEaQAAYeVS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNKdbcAAWfOY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"subject_details\": { \"use_reference_image\": true, \"override\": false, \"physique\": { \"build\": \"Slender, toned, athletic\", \"legs\": \"Very long, crossed at the knee, smooth tanned skin with soft highlights\" \"attire_and_accessories\": { \"outfit\": { \"type\": \"Halter-neck mini dress\", \"color\": \"Deep burgundy / maroon\", \"neckline\": \"Extremely deep plunging V-neck\", \"material\": \"Soft, draped fabric\" \"footwear\": { \"type\": \"High-heeled sandals\", \"style\": \"Minimalist gold metallic thin straps\", \"heel\": \"Stiletto\" \"jewelry\": { \"necklaces\": [ \"Delicate gold chain with a small cross pendant\", \"Thin gold choker-length chain\" \"wrists\": [ \"Multiple gold bangles on the right wrist\", \"Dainty gold chain bracelets on the left wrist\" \"hands\": \"Several thin gold rings on multiple fingers\" \"accessories\": { \"bag\": \"Rectangular gold metallic clutch with a long gold box-link chain strap draped over the lap\" \"composition_and_environment\": { \"pose\": \"Seated on a tall bar stool, legs crossed, one hand resting on the clutch, the other hand tucked slightly behind the hair\", \"setting\": \"Upscale outdoor bar or tropical patio\", \"background_elements\": { \"wall\": \"Off-white/cream textured fluted vertical paneling\", \"foliage\": \"Large green tropical leaves and palm fronds visible behind the subject\", \"details\": \"Blurred bar shelf in the upper left with glass bottles and barware\" \"lighting\": { \"type\": \"Bright, natural daylight\", \"effects\": \"Soft shadows, high-key lighting, specular highlights on jewelry and metallic clutch\" \"camera_specs\": { \"angle\": \"Eye-level, slightly low angle to emphasize height\", \"depth_of_field\": \"Shallow (bokeh), sharp focus on the subject, blurred background\", \"aspect_ratio\": \"3:4 (Vertical Portrait)\" \"artistic_style\": \"Hyper-realistic high-fashion photography, cinematic, glamorous aesthetic\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFPaNJEbMAAzT70?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJMaoAAiaf5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNJEaQAAYeVS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFPaNKdbcAAWfOY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2041282303335288836",
+      "tags": [
+        "cinematic",
+        "minimalist",
+        "bokeh"
+      ],
+      "timestamp": 1786346651315,
+      "title": "纽约天际酒店床边人像",
+      "url": "https://x.com/sumiturkude007/status/2041282303335288836",
+      "collectedAt": "2026-08-10T07:24:12.557Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:24:40.047Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwo9ma_o3w0",
+      "image": "https://pbs.twimg.com/media/HFRv8D2bYAATxnk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFRv8D2bYAATxnk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a moody, ethereal cinematic portrait of a woman with a dramatic over-the-shoulder pose. 1. Pose and Expression • Perspective: subject positioned with her back facing the camera, torso elegantly twisted, looking back over her shoulder, creating a graceful curve along the spine and highlighting shoulder blades • Gaze: direct eye contact with the camera, piercing yet soft expression, chin slightly tucked toward shoulder to evoke intimacy and mystery • Hand Placement: hands gently raised near chest/shoulder, fingers softly interlaced or delicately touching • Hair: loose messy bun with soft wispy strands falling naturally across the face, slightly windswept look 2. Lighting and Color Palette • Lighting: strong side lighting, warm golden-hour sunlight, high contrast chiaroscuro effect, one side illuminated while the other fades into deep shadow • Skin Tone: luminous, glowing, pearlescent skin texture • Color Scheme: earthy muted tones, deep greens, dark browns, soft neutral background, warm skin tones as focal point 3. Wardrobe and Accessories • Outfit: backless silky dress or top, smooth light fabric, paired with dark voluminous sleeves for strong texture contrast • Accessories: elegant drop pearl earrings reflecting light subtly 4. Composition and Atmosphere • Framing: medium close-up shot, framed naturally with blurred foreground leaves for a voyeuristic, through-the-foliage effect • Depth of Field: shallow depth of field, sharp focus on face, soft bokeh in background and foreground • Mood: cinematic, melancholic, romantic, high-fashion editorial style, soft dreamy atmosphere Face reference: soft oval face, smooth glowing skin, symmetrical features, natural makeup, gentle but expressive eyes, slightly parted lips",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFRv8D2bYAATxnk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Ciri_ai/status/2041379629668446277",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1786346651314,
+      "title": "电影感女性人像",
+      "url": "https://x.com/Ciri_ai/status/2041379629668446277",
+      "collectedAt": "2026-08-10T07:24:12.557Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:24:40.047Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwnxcw_nlib",
+      "image": "https://pbs.twimg.com/media/HFSADaoaMAALl4n?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFSADaoaMAALl4n?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "#prompts: A striking 9:16 vertical full-body portrait captures a confident woman Amanda Seyfried sitting dynamically on a light gray studio floor, gazing directly and intensely into the lens. The perspective is a slight low angle, emphasizing the length of her legs and her strong presence. She wears a sleek black form-fitting bodysuit with a mandarin collar and silver chain details at the waist, layered with sheer black tights and black pointed slingback stiletto heels. One leg is extended forward, and her other is sharply bent with the knee raised. The minimalist studio background is evenly lit with soft diffused high-key lighting at 5500K, creating gentle gradients and casting subtle ground shadows. The photograph is hyper-realistic with fine skin micro-texture, subsurface scattering, and accurate fabric weave details. It exhibits a breathtaking cinematic aesthetic with immaculate composition, sharp focus, and polished visual poetry. This award-winning shot is a pure, ultra-high resolution capture with natural proportions.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFSADaoaMAALl4n?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GenAngelsAI/status/2041397393426612644",
+      "tags": [
+        "cinematic",
+        "minimalist"
+      ],
+      "timestamp": 1786346635424,
+      "title": "电影感女性人像",
+      "url": "https://x.com/GenAngelsAI/status/2041397393426612644",
+      "collectedAt": "2026-08-10T07:23:56.635Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T07:24:40.047Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "电商视觉",
