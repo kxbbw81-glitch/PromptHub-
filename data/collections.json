@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T09:34:25.049Z",
+  "updatedAt": "2026-08-10T09:36:03.066Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "电商视觉",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msn1d6x0_ve92",
+      "image": "https://pbs.twimg.com/media/G_5OKeabQAABTe7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_5OKeabQAABTe7?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "30 分钟，AI 生成全套电商产品素材！ 上传一张产品图 → 主图到详情页一次跑完 电商全套出图提示词（可直接商用） https://flowith.io/conv/04bb8569-9b45-4eec-a76e-fcf304c7213a?U2FsdGVkX18CuoFmPCcqzWy52yuxKPS5FSxmdc9WKuZh8FdIlhyiBeBv6pxq4PRet/BucubNf0pLKKHoQZOS/g==… 一套提示词，直接生成 首页主图（第一眼抓点击） 卖点图（参数 / 优势清晰表达） 细节特写图（材质 / 结构 / 质感）",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_5OKeabQAABTe7?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nuannuan_share/status/2017147874409402386",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786354532676,
+      "title": "30 分钟，AI 生成全套电商产品素材！",
+      "url": "https://x.com/nuannuan_share/status/2017147874409402386",
+      "collectedAt": "2026-08-10T09:35:34.278Z",
+      "mediaType": "image",
+      "commerceType": "商品详情页",
+      "githubSyncedAt": "2026-08-10T09:36:03.066Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
