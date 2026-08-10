@@ -1,7 +1,104 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T08:43:50.451Z",
+  "updatedAt": "2026-08-10T08:44:51.354Z",
   "collections": [
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzjans_5bo5",
+      "image": "https://pbs.twimg.com/media/HEvCHEubgAAZAcq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEvCHEubgAAZAcq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXN_X0AAOOst?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "想做短视频副业，但不想每晚熬夜剪片 与其开会员堆一堆软件，不如直接试试这四个能串起工作流的Github项目 从生成、剪辑、翻译到多平台发布 1、视频生成：MoneyPrinterTurbo 输入一个主题，就能先把文案、配音、字幕和素材初稿跑出来，适合快速搭建一条视频框架。 ：https://github.com/harry0703/MoneyPrinterTurbo… 2、视频剪辑：FunClip 先识别视频内容，再按文本片段剪视频，能大幅缩减视频剪辑时间。 ：https://github.com/modelscope/FunClip… 3、视频翻译：KrillinAl 做视频翻译、配音、多语言适配，适合把一条内容扩成多语种版本（Tiktok、ins等）。 ：https://github.com/krillinai/KrillinAI… 4、多平台发布：social-auto-upload 前面都做完了，最后一公里别再手动重复发。这个项目可以实现抖音、小红书、B站多平台分发。 ：https://github.com/dreammis/social-auto-upload… 如果想了解更多的赚钱项目，请看我收录的Github赚钱项目列表。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEvCHEubgAAZAcq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXN_X0AAOOst?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Saccc_c/status/2038937100981084392",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351458232,
+      "title": "想做短视频副业，但不想每晚熬夜剪片",
+      "url": "https://x.com/Saccc_c/status/2038937100981084392",
+      "collectedAt": "2026-08-10T08:44:19.537Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T08:44:51.354Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "1:1",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzj1c7_j3m1",
+      "image": "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Jeans Photo-Shot. Nano Banana Pro Prompt: { \"Objective\": \"Create a 2x2 grid fashion-focused image highlighting denim jeans on a beautiful Asian woman, emphasizing natural beauty, minimalism, and effortless style.\", \"Composition\": { \"layout\": \"2x2 grid\", \"aspect_ratio\": \"1:1\", \"framing\": \"mix of close-up and mid-body shots, strong emphasis on jeans fit and texture\" }, \"Subject\": { \"appearance\": \"extremely beautiful Asian woman\", \"features\": [ \"soft natural skin (no glossy effect)\", \"long slightly messy wavy hair\", \"delicate facial features\", \"clean natural makeup\" ], \"outfit\": { \"top\": \"minimal white crop top or bralette\", \"bottom\": \"high-waisted denim jeans\", \"layer\": \"oversized denim jacket loosely worn or slipping off shoulders\" } }, \"Focus\": { \"primary\": \"denim jeans\", \"details\": [ \"fit around waist and hips\", \"texture of denim fabric\", \"natural folds and creases\", \"casual styling\" ] }, \"Poses\": [ { \"position\": \"top left\", \"pose\": \"close-up portrait, hand near lips\", \"focus\": \"face and upper denim jacket\", \"vibe\": \"soft, captivating beauty\" }, { \"position\": \"top right\", \"pose\": \"standing full body, hands near waistband\", \"focus\": \"jeans fit and silhouette\", \"vibe\": \"confident, clean fashion\" }, { \"position\": \"bottom left\", \"pose\": \"side profile, jacket slipping off shoulder\", \"focus\": \"hip line and denim structure\", \"vibe\": \"effortless, slightly candid\" }, { \"position\": \"bottom right\", \"pose\": \"looking down, hair falling naturally\", \"focus\": \"waistline and soft styling\", \"vibe\": \"calm, editorial beauty\" } ], \"Photography\": { \"camera\": \"smartphone or mirrorless\", \"quality\": \"natural, slightly soft\", \"lighting\": \"soft diffused studio light\", \"imperfections\": [ \"subtle grain\", \"natural shadows\", \"no over-retouching\" ], \"style\": \"minimal fashion editorial with natural tones\" }, \"Background\": { \"setting\": \"clean studio\", \"color\": \"light gray or off-white\", \"style\": \"minimal, no distractions\" }, \"Mood\": \"clean, modern, soft, beauty-focused, effortless fashion\", \"Rendering\": { \"style_keywords\": [ \"denim fashion\", \"minimal editorial\", \"asian beauty\", \"clean aesthetic\", \"natural photography\", \"jeans focus\" ], \"realism\": \"photorealistic\", \"detail_level\": \"high (fabric texture, natural skin, hair strands)\", \"aspect_ratio\": \"--ar 1:1\" }, \"Response_Format\": { \"type\": \"image_generation_prompt_json\", \"editable_fields\": [ \"poses\", \"outfit\", \"lighting\", \"focus\" ] } }",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/craftian_keskin/status/2039314017710117197",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1786351446151,
+      "title": "Jeans Photo-Shot.",
+      "url": "https://x.com/craftian_keskin/status/2039314017710117197",
+      "collectedAt": "2026-08-10T08:44:07.119Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T08:44:51.354Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzj1c6_cwpi",
+      "image": "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZAKaMAA9oSV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALakAEMB-t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALaIAAvglQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Nano banana 2 Jenna Ortega, Sadie Sink, Sabrina Carpenter, Sydney Sweeney Created via @yapper_so Prompt :- Use the provided reference image for the subject’s identity, facial features, body proportions, hair, and overall likeness. Preserve the exact face, skin tone, and realism from the reference image without alteration. The subject is wearing a matching two-piece activewear set in dusty blush pink / matte pastel pink. The outfit consists of a minimalist thin-strap sports bra with a scoop neckline and high-waisted, form-fitting leggings. Nails are medium-length, almond-shaped, painted in a pale pink or nude polish. The subject is posing for a mirror selfie, standing upright. The left hand rests on the hip, while the right hand holds a silver or white smartphone at face level. The environment is a bright, modern Pilates studio. A wooden Pilates reformer machine with black tension springs and cables is visible. The background includes a pink padded reformer carriage and neatly stacked pink foam yoga blocks. The walls are clean and neutral, in off-white or light grey tones. Lighting is soft, diffused indoor studio lighting, creating even illumination with natural reflections and minimal harsh shadows. Medium shot to full-body mirror selfie composition, subject centered vertically. Portrait orientation with a 3:4 aspect ratio. High-resolution, photorealistic fitness lifestyle aesthetic, with sharp focus on the subject and a shallow depth of field that softly blurs the background.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZAKaMAA9oSV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALakAEMB-t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALaIAAvglQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2039096900897456228",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "studio lighting"
+      ],
+      "timestamp": 1786351446151,
+      "title": "Nano banana 2",
+      "url": "https://x.com/sumiturkude007/status/2039096900897456228",
+      "collectedAt": "2026-08-10T08:44:07.119Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T08:44:51.354Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "电商视觉",
