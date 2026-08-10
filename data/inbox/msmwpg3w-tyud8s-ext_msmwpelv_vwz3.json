@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:25:06.380Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwpelv_vwz3",
+      "image": "https://pbs.twimg.com/media/HFI8Qp-bwAAiEs1?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFI8Qp-bwAAiEs1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFI8TeUb0AAsGEj?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "#prompts:\nA striking, full-body fashion photograph featuring a young woman with warm, wavy brown hair, standing confidently on a weathered stone balustrade. She wears a sleek, glossy black one-piece swimsuit, sheer black tights, and classic black pointed-toe stiletto high heels. Her pose is composed, with arms crossed over her chest. The background captures a beautiful, sun-drenched Mediterranean coastal landscape, with deep blue sea and a terraced hillside town stretching towards a distant hill under a clear sky. The natural daylight is bright and soft, illuminating her form and creating a polished, radiant glow on her skin. The composition is focused and intimate, shot with a slightly shallow depth of field that keeps the subject sharp while beautifully blurring the distant scenery. The aesthetic is clean and elegant, blending a sophisticated high-fashion feel with the authentic texture of the coastal location.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFI8Qp-bwAAiEs1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFI8TeUb0AAsGEj?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GenAngelsAI/status/2040759923848716630",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786346704435,
+      "title": "时尚人像",
+      "url": "https://x.com/GenAngelsAI/status/2040759923848716630",
+      "collectedAt": "2026-08-10T07:25:06.380Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwpelw_dps2",
+      "image": "https://pbs.twimg.com/media/HFMUNTqaMAEVNGy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFMUNTqaMAEVNGy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFMUlwPakAA-0Rk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFMU2pdasAAkGEJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFMU9n-a8AA7o3m?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A bright, high-key Japanese photobook-style portrait of a [Subject] [Pose], [Hair], [Expression], wearing [Outfit] and [Accessory]. The scene is set in [Setting] with [Lighting & Atmosphere]. [Photography Style].\n\n====Prompt example====\n\n1. bright high-key japanese photobook portrait east asian k-pop beauty wet long black hair glossy lips, red black lace bikini, sexy hair flip pose like waiting to be seduced, direct inviting gaze, fuji pro 400h fine grain dreamy komorebi cool moonlight, 50mm real film\n\n2. high-key film shot seductive east asian k-pop girl red black lace bikini, wet hair water lips, sensual hair toss waiting pose, bright soft light with komorebi rays, fuji pro 400h grain dreamy retro ins atmosphere\n\n3. bright japanese photobook portrait k-pop east asian stunner in red black lace bikini, drenched hair glossy lips, sexy hair flip like inviting someone over, intense direct eyes, fuji pro 400h fine grain cool moonlight komorebi, 50mm\n\n4. high-key cinematic fuji pro 400h portrait east asian k-pop beauty wet black hair shiny lips, red black lace bikini, provocative hair flip seductive waiting pose, dreamy soft komorebi cool tones, 50mm film\n\nTag: @BeautyVerse_Lab , @Asan0_Misaki , @your_y6 , @NekoGirls_Art  @coharuhiyori55 https://x.com/underwoodxie96/underwoodxie96/status/2040639686893518886…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFMUNTqaMAEVNGy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFMUlwPakAA-0Rk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFMU2pdasAAkGEJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFMU9n-a8AA7o3m?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/PeterPanLam1990/status/2040999403058561060",
+      "tags": [
+        "cinematic",
+        "dreamy"
+      ],
+      "timestamp": 1786346704436,
+      "title": "调皮表情美妆人像",
+      "url": "https://x.com/PeterPanLam1990/status/2040999403058561060",
+      "collectedAt": "2026-08-10T07:25:06.380Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwpelw_lrbh",
+      "image": "https://pbs.twimg.com/media/HFMuMjfacAA2Oe_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HFMuMjfacAA2Oe_?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a medium shot of the person from the uploaded reference. Preserve their real facial features, bone structure, eye shape, nose shape, lips, and overall facial identity - the face must clearly match the uploaded person. Do not alter age, ethnicity, or facial proportions. The mouth rests in a neutral, relaxed position with lips touching naturally and no muscular tension in the cheeks. The head is tilted slightly downward and angled to the subject's left. The eyes are obscured by dark, cat-eye shaped sunglasses, sitting securely on the bridge of the nose. The left hand interacts with the hair near the crown, fingers slightly curved as they lift the strands. The hair structure is long and wavy, characterized by significant volume and separation where the hand disturbs the natural fall. The strands flow heavily over the shoulders. The skin features realistic human skin with visible skin micro-texture, subtle natural pores, soft peach-fuzz on cheeks and jawline, natural skin depth, and no plastic or over-smoothed look. Sunlight hits the skin directly, revealing natural texture on the chest and face without artificial gloss. The body is oriented slightly to the left, with the right arm relaxed downward and the left arm raised, elbow bent outward. A white, long-sleeved button-down shirt is worn open, made of a crisp material like cotton or linen that holds structure in the rolled sleeves and collar while draping loosely around the frame. Underneath, a fitted, matte stretch-fabric top contours tight to the torso. High-waisted trousers with a structured waistband and visible pleats sit at the natural waist. A metal link watch hangs loosely on the left wrist. The setting is an outdoor cafe environment. The background displays a blurred glass storefront reflecting the street, with indistinct shapes of seated figures and tables creating spatial depth. To the right foreground, a white table surface with a small potted plant adds immediate environmental context. The image is captured with a portrait lens, likely 85mm, utilizing a shallow depth of field to render the background in soft bokeh while keeping the subject sharpness high. Lighting is natural and directional from the upper left, creating distinct, hard shadows under the chin and nose, and bright, realistic highlights on the hair and collarbones, simulating a sunny day without cosmetic softening.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HFMuMjfacAA2Oe_?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AIwithSarah_/status/2041025855703675178",
+      "tags": [
+        "dark",
+        "bokeh"
+      ],
+      "timestamp": 1786346704437,
+      "title": "咖啡馆夜景女性人像",
+      "url": "https://x.com/AIwithSarah_/status/2041025855703675178",
+      "collectedAt": "2026-08-10T07:25:06.380Z"
+    }
+  ]
+}
