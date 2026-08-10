@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:05:39.864Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmw0eyu_jqgb",
+      "image": "https://pbs.twimg.com/media/HKa6zWMbMAA9I_B?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HKa6zWMbMAA9I_B?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKa6zWOakAA655_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKa61Rpa4AEPeG9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKa61PwaoAAA0c4?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "创建一张照片级真实感的编辑肖像，描绘一位20岁的日本或韩国女性肖像主体，戴着白色边框、细框眼镜，正常佩戴在脸上，镜片对准眼睛，以及小泪滴状宝石耳环细节，低调精致的闪光，自然的基本体型，视觉高度约160-165厘米，身体比例锚定为83-62-88，躯干与腿部比例平衡约为4:6，低对比度的腰部曲线，适度的胸部和臀部，光滑自然的轮廓，年轻诱人的迷人美貌脸庞，富有磁性的女性面部平衡，轮廓分明的眼睛和嘴唇，感性迷人的肖像存在感，锁骨长度的分层头发，轻盈自然的体积，柔和的面部框架动态，柔和的黑茶棕色头发，柔和的棕黑色沙龙色调，无，无，她坐在一张自然融入当前场景的椅子上，椅子的风格、材质和比例选择与环境匹配。让图像模型在选定的姿势基础上选择一种明显不同的、非默认的物理上可信的身体排列，带有明显的重量转移、四肢角度、躯干方向和不对称性，与服装、相机构图和环境兼容。让图像模型选择自然多变的双手放置方式，适合选定的身体姿势支撑接触、服装和相机裁剪，而不默认僵硬地垂放在身体两侧。让图像模型选择一个自然的角度和方向，与相机角度、身体方向和选定姿势兼容。场景设定为英国唱片聆听角落，转盘装置，堆叠的黑胶唱片套，书架音箱，陈旧的木柜，灯具作为可见物体，小边桌，室内雨天日光环境，昏暗灰色窗户亮度，柔和的阴天室内光线，如果可见则为柔和的外部天空，最小限度的夜间主体边缘光，沿脸部、头发、肩膀和身体轮廓的微弱凉爽边缘描边，主要为黑暗的主体质量，场景优先级：（英国唱片聆听角落，转盘装置：1.35），保持选定的可识别环境在主体身后可见，保留清晰的空间语境和背景细节，避免平淡或空洞的背景。她穿着哥特休闲针织与褶边服装，合身的针织上衣，蕾丝吊带背心层，大缎带蝴蝶结，高腰分层褶边迷你裙，纽扣和肩带细节，主要面料颜色由服装颜色选择控制，对比面板由对比调色板控制。灵感来源于 Leslie Kee，精致的商业肖像图像语言。精致的明星肖像摄影，高清商业清晰度，无瑕修图效果，鲜艳的时尚色彩，高级封面拍摄强度。构图采用中景，腰部以上构图，自然主体存在感，显示部分背景，腰部高度相机位置，水平镜头轴线，接地时尚肖像高度，无向上或向下倾斜，相机定位在主体左侧，90度左侧脸部视角，横向躯干方向，无，超浅景深，刀锋般薄的焦点平面，前景和背景快速失焦，极窄的在焦区域，强烈的光学焦点衰减。光泽的日本肖像色彩分级，提升曝光，奶油般苍白的皮肤高光，温暖的皮肤保护，青绿阴影，饱和的光部，干净的深黑，精致效果，自然摄影细节，连贯的面料结构，清晰的面部可读性，逼真的空间深度，除非明确要求，否则不要添加可见文本。\n\nGpt-Image-2 & NanoBanana",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HKa6zWMbMAA9I_B?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKa6zWOakAA655_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKa61Rpa4AEPeG9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HKa61PwaoAAA0c4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2064543699460354240",
+      "tags": [
+        "青绿",
+        "摄影"
+      ],
+      "timestamp": 1786345538502,
+      "title": "米色针织情绪肖像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2064543699460354240",
+      "collectedAt": "2026-08-10T07:05:39.864Z"
+    }
+  ]
+}
