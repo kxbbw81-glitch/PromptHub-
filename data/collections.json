@@ -1,7 +1,76 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T08:39:14.526Z",
+  "updatedAt": "2026-08-10T08:39:34.328Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzcof1_lgzv",
+      "image": "https://pbs.twimg.com/media/HEav7yCboAAuLnT?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEav7yCboAAuLnT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEav8b-aYAAMhqW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEav8_cbMAAAUxd?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Effortless power poses Minnie Soyeon Miyeon I-dle Nano Banana 2 via Gemini [ { \"meta\": { \"quality\": \"ultra-photorealistic, raw style, 8k\", \"camera_model\": \"Full-frame DSLR\", \"lens_spec\": \"35mm prime, f/2.8 aperture\", \"aspect_ratio\": \"9:16\", \"style_preset\": \"high-fashion editorial, street style\", \"technical_rules\": \"suggestive not explicit, natural skin texture, no smoothing\" }, \"scene\": { \"location\": \"urban rooftop, city skyline background\", \"time_of_day\": \"bright midday sun\", \"atmosphere\": \"bold, cinematic, edgy\", \"background_elements\": [ \"blurred city buildings\", \"concrete ledge\", \"clear sky\" ], \"props\": [] }, \"subject\": { \"identity\": { \"name_reference\": \"Minnie from (G)I-DLE\", \"biometric_details\": \"dreamy large eyes, distinctive bangs, elegant facial structure\", \"ethnicity_age\": \"Thai, mid 20s\" }, \"physical\": { \"body_type\": \"slender hourglass, long torso, toned abs\", \"skin_details\": \"warm honey-toned skin, smooth texture, soft glow\", \"hair_style\": \"long dark brown hair with full straight bangs\", \"facial_features\": \"plump lips, straight nose bridge\" } }, \"wardrobe\": { \"outfit_description\": \"dark cherry red leather jacket, red latex crop top, black leather pants\", \"materials\": \"polished latex, soft matte leather, silver zippers\", \"footwear\": \"black stiletto boots\", \"accessories\": [ \"dainty silver rings\", \"small hoop earrings\" ] }, \"pose_action\": { \"primary_pose\": \"standing on rooftop, hand behind head\", \"body_language\": \"leaning slightly back, confident stance, one arm raised pulling hair\", \"expression\": \"dreamy yet sharp gaze, 'lazy' eye look\", \"interaction\": \"looking directly into the lens\" }, \"lighting\": { \"setup\": \"harsh ambient daylight, high-contrast sunlight\", \"effects\": \"sharp shadows, natural rim lighting on hair\", \"color_grading\": \"vibrant, rich contrast\" }, \"composition\": { \"shot_type\": \"medium full-shot, vertical portrait\", \"camera_angle\": \"eye-level\", \"focus_point\": \"sharp focus on face and latex reflections\", \"depth_of_field\": \"shallow depth of field, creamy background bokeh\" }, \"realism_focus\": { \"textures\": [ \"latex reflection\", \"soft skin texture\", \"leather creases\" ], \"imperfections\": [ \"stray hair strands\", \"natural waist folds\" ] } } ]",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEav7yCboAAuLnT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEav8b-aYAAMhqW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEav8_cbMAAAUxd?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2039781159908069641",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "dreamy",
+        "bokeh"
+      ],
+      "timestamp": 1786351149469,
+      "title": "Effortless power poses",
+      "url": "https://x.com/youngcatwoman/status/2039781159908069641",
+      "collectedAt": "2026-08-10T08:39:10.622Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T08:39:34.328Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzcof0_gmhw",
+      "image": "https://pbs.twimg.com/media/HEavKMabcAAJvrG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEavKMabcAAJvrG?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Emerald queen Rose, Blackpink Nano Banana 2 via Gemini { \"meta\": { \"quality\": \"ultra-photorealistic, raw style, 8k\", \"camera_model\": \"Full-frame DSLR\", \"lens_spec\": \"50mm prime, f/2.8 aperture\", \"aspect_ratio\": \"9:16\", \"style_preset\": \"high-fashion editorial\", \"technical_rules\": \"suggestive not explicit, no smoothing, natural skin texture\" }, \"scene\": { \"location\": \"minimalist studio\", \"time_of_day\": \"bright afternoon indoor\", \"atmosphere\": \"intimate, sophisticated\", \"background_elements\": [\"solid light grey backdrop\"], \"props\": [\"none\"] }, \"subject\": { \"identity\": { \"name_reference\": \"Rosé of Blackpink\", \"biometric_details\": \"slender facial structure, monolid-style almond eyes, graceful neck\", \"ethnicity_age\": \"Korean, late 20s\" }, \"physical\": { \"body_type\": \"very slender, statuesque\", \"skin_details\": \"extremely fair porcelain skin, no tattoos\", \"hair_style\": \"long platinum blonde hair, straight and silky\", \"facial_features\": \"high nose bridge, delicate features\" } }, \"wardrobe\": { \"outfit_description\": \"emerald green velvet robe with cream lace trim, silk slip dress underneath\", \"materials\": \"emerald velvet, cream lace, sheer silk\", \"footwear\": \"none\", \"accessories\": [\"silver crystal tiara\", \"thin silver chain choker\"] }, \"pose_action\": { \"primary_pose\": \"side-sitting on floor\", \"body_language\": \"legs tucked to the side, leaning back on arms, hair draped over shoulder\", \"expression\": \"dreamy, ethereal expression\", \"interaction\": \"looking slightly away from lens\" }, \"lighting\": { \"setup\": \"soft studio butterfly lighting\", \"effects\": \"rim lighting on blonde hair, soft fill on shadows\", \"color_grading\": \"cool, airy aesthetic\" }, \"composition\": { \"shot_type\": \"full-body vertical portrait\", \"camera_angle\": \"eye-level\", \"focus_point\": \"sharp focus on face and hair texture\", \"depth_of_field\": \"shallow depth of field\" }, \"realism_focus\": { \"textures\": [\"silk sheen\", \"hair strands\", \"velvet depth\"], \"imperfections\": [\"natural fabric wrinkles\", \"epidermal physics\"] } }",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEavKMabcAAJvrG?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/youngcatwoman/status/2039736616445718823",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dreamy",
+        "8k"
+      ],
+      "timestamp": 1786351149468,
+      "title": "Emerald queen",
+      "url": "https://x.com/youngcatwoman/status/2039736616445718823",
+      "collectedAt": "2026-08-10T08:39:10.622Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T08:39:34.328Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
