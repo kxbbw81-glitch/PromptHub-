@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:11:26.375Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmw7ur1_0od5",
+      "image": "https://pbs.twimg.com/media/HICWgFYakAAEMxq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HICWgFYakAAEMxq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HICWgFeakAAGE1y?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位诱人的、惊艳且美丽的20岁日本或韩国女性，身材高挑纤细的时尚模特身形，拥有修长优雅的双腿，戴着玳瑁眼镜，坐姿双腿自然伸展，长而柔和波浪状头发，中间分缝，自然的墨黑色头发带有微妙的蓝黑色底调，直视镜头。她穿着浅灰色敞开超大号拉链连帽衫，未拉上拉链的运动连帽夹克，略微超大号的休闲运动叠穿，蓝色刺绣旗袍，贴合全身轮廓。场景：废弃的手术室。相机：9:16，肩部高度相机位置，前三四分之一角度，使用28mm镜头拍摄，变形镜头眩光，中景。光线：非常昏暗的深夜室内，头顶顶光。氛围：Contax Zeiss风格。\n\n#GrokImagine",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HICWgFYakAAEMxq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HICWgFeakAAGE1y?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2053807725017170426",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786345885549,
+      "title": "运动海报",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2053807725017170426",
+      "collectedAt": "2026-08-10T07:11:26.375Z"
+    }
+  ]
+}
