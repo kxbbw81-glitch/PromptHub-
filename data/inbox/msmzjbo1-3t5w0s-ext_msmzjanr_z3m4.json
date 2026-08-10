@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:44:19.537Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzjanr_z3m4",
+      "image": "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZAKaMAA9oSV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALakAEMB-t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALaIAAvglQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Nano banana 2 \n\nJenna Ortega, Sadie Sink, Sabrina Carpenter, Sydney Sweeney\n\nCreated via @yapper_so \n\nPrompt :-\nUse the provided reference image for the subject’s identity, facial features, body proportions, hair, and overall likeness. Preserve the exact face, skin tone, and realism from the reference image without alteration.\nThe subject is wearing a matching two-piece activewear set in dusty blush pink / matte pastel pink. The outfit consists of a minimalist thin-strap sports bra with a scoop neckline and high-waisted, form-fitting leggings. Nails are medium-length, almond-shaped, painted in a pale pink or nude polish.\nThe subject is posing for a mirror selfie, standing upright. The left hand rests on the hip, while the right hand holds a silver or white smartphone at face level.\nThe environment is a bright, modern Pilates studio. A wooden Pilates reformer machine with black tension springs and cables is visible. The background includes a pink padded reformer carriage and neatly stacked pink foam yoga blocks. The walls are clean and neutral, in off-white or light grey tones.\nLighting is soft, diffused indoor studio lighting, creating even illumination with natural reflections and minimal harsh shadows.\nMedium shot to full-body mirror selfie composition, subject centered vertically. Portrait orientation with a 3:4 aspect ratio. High-resolution, photorealistic fitness lifestyle aesthetic, with sharp focus on the subject and a shallow depth of field that softly blurs the background.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEw0ZACaEAAKTq4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZAKaMAA9oSV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALakAEMB-t?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEw0ZALaIAAvglQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sumiturkude007/status/2039096900897456228",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "studio lighting"
+      ],
+      "timestamp": 1786351458231,
+      "title": "Nano banana 2",
+      "url": "https://x.com/sumiturkude007/status/2039096900897456228",
+      "collectedAt": "2026-08-10T08:44:19.537Z"
+    },
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzjanr_qlnu",
+      "image": "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Jeans Photo-Shot.\n\nNano Banana Pro Prompt: \n\n{\n  \"Objective\": \"Create a 2x2 grid fashion-focused image highlighting denim jeans on a beautiful Asian woman, emphasizing natural beauty, minimalism, and effortless style.\",\n  \"Composition\": {\n    \"layout\": \"2x2 grid\",\n    \"aspect_ratio\": \"1:1\",\n    \"framing\": \"mix of close-up and mid-body shots, strong emphasis on jeans fit and texture\"\n  },\n  \"Subject\": {\n    \"appearance\": \"extremely beautiful Asian woman\",\n    \"features\": [\n      \"soft natural skin (no glossy effect)\",\n      \"long slightly messy wavy hair\",\n      \"delicate facial features\",\n      \"clean natural makeup\"\n    ],\n    \"outfit\": {\n      \"top\": \"minimal white crop top or bralette\",\n      \"bottom\": \"high-waisted denim jeans\",\n      \"layer\": \"oversized denim jacket loosely worn or slipping off shoulders\"\n    }\n  },\n  \"Focus\": {\n    \"primary\": \"denim jeans\",\n    \"details\": [\n      \"fit around waist and hips\",\n      \"texture of denim fabric\",\n      \"natural folds and creases\",\n      \"casual styling\"\n    ]\n  },\n  \"Poses\": [\n    {\n      \"position\": \"top left\",\n      \"pose\": \"close-up portrait, hand near lips\",\n      \"focus\": \"face and upper denim jacket\",\n      \"vibe\": \"soft, captivating beauty\"\n    },\n    {\n      \"position\": \"top right\",\n      \"pose\": \"standing full body, hands near waistband\",\n      \"focus\": \"jeans fit and silhouette\",\n      \"vibe\": \"confident, clean fashion\"\n    },\n    {\n      \"position\": \"bottom left\",\n      \"pose\": \"side profile, jacket slipping off shoulder\",\n      \"focus\": \"hip line and denim structure\",\n      \"vibe\": \"effortless, slightly candid\"\n    },\n    {\n      \"position\": \"bottom right\",\n      \"pose\": \"looking down, hair falling naturally\",\n      \"focus\": \"waistline and soft styling\",\n      \"vibe\": \"calm, editorial beauty\"\n    }\n  ],\n  \"Photography\": {\n    \"camera\": \"smartphone or mirrorless\",\n    \"quality\": \"natural, slightly soft\",\n    \"lighting\": \"soft diffused studio light\",\n    \"imperfections\": [\n      \"subtle grain\",\n      \"natural shadows\",\n      \"no over-retouching\"\n    ],\n    \"style\": \"minimal fashion editorial with natural tones\"\n  },\n  \"Background\": {\n    \"setting\": \"clean studio\",\n    \"color\": \"light gray or off-white\",\n    \"style\": \"minimal, no distractions\"\n  },\n  \"Mood\": \"clean, modern, soft, beauty-focused, effortless fashion\",\n  \"Rendering\": {\n    \"style_keywords\": [\n      \"denim fashion\",\n      \"minimal editorial\",\n      \"asian beauty\",\n      \"clean aesthetic\",\n      \"natural photography\",\n      \"jeans focus\"\n    ],\n    \"realism\": \"photorealistic\",\n    \"detail_level\": \"high (fabric texture, natural skin, hair strands)\",\n    \"aspect_ratio\": \"--ar 1:1\"\n  },\n  \"Response_Format\": {\n    \"type\": \"image_generation_prompt_json\",\n    \"editable_fields\": [\n      \"poses\",\n      \"outfit\",\n      \"lighting\",\n      \"focus\"\n    ]\n  }\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE0ZRLia8AA--vX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/craftian_keskin/status/2039314017710117197",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1786351458231,
+      "title": "Jeans Photo-Shot.",
+      "url": "https://x.com/craftian_keskin/status/2039314017710117197",
+      "collectedAt": "2026-08-10T08:44:19.537Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzjans_5bo5",
+      "image": "https://pbs.twimg.com/media/HEvCHEubgAAZAcq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEvCHEubgAAZAcq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXN_X0AAOOst?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "想做短视频副业，但不想每晚熬夜剪片\n\n与其开会员堆一堆软件，不如直接试试这四个能串起工作流的Github项目\n\n从生成、剪辑、翻译到多平台发布\n\n1、视频生成：MoneyPrinterTurbo\n输入一个主题，就能先把文案、配音、字幕和素材初稿跑出来，适合快速搭建一条视频框架。\n：https://github.com/harry0703/MoneyPrinterTurbo…\n\n2、视频剪辑：FunClip\n先识别视频内容，再按文本片段剪视频，能大幅缩减视频剪辑时间。\n：https://github.com/modelscope/FunClip…\n\n3、视频翻译：KrillinAl\n做视频翻译、配音、多语言适配，适合把一条内容扩成多语种版本（Tiktok、ins等）。\n：https://github.com/krillinai/KrillinAI…\n\n4、多平台发布：social-auto-upload\n前面都做完了，最后一公里别再手动重复发。这个项目可以实现抖音、小红书、B站多平台分发。\n ：https://github.com/dreammis/social-auto-upload…\n\n如果想了解更多的赚钱项目，请看我收录的Github赚钱项目列表。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEvCHEubgAAZAcq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEmEXN_X0AAOOst?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Saccc_c/status/2038937100981084392",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351458232,
+      "title": "想做短视频副业，但不想每晚熬夜剪片",
+      "url": "https://x.com/Saccc_c/status/2038937100981084392",
+      "collectedAt": "2026-08-10T08:44:19.537Z"
+    }
+  ]
+}
