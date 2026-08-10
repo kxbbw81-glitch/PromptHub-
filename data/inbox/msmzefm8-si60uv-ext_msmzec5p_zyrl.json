@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:40:31.376Z",
+  "count": 5,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzec5p_zyrl",
+      "image": "https://pbs.twimg.com/media/HE9c2bXb0AAYl9i?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE9c2bXb0AAYl9i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE9c2bZa8AA7npY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE9c2a9X0AAE8hR?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HE9c2baaUAAVoFv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "This time I produced with a different approach. I made production for Grok by removing expressions such as \"hyper realistic, cinematic\" from the prompt and I think the production was a little more successful. It's still not at the level I wanted, but at least it wasn't completely anime visual. Others gave very successful results.\n\n1.Grok, 2.Whisk, 3.Banana App, 4.Flow,\n\nPrompt;\n\nultra realistic full body portrait of a beautiful Korean woman in her early 20s, small mouth with slightly full lips, smooth pale skin, natural elegant makeup, defined cheekbones, subtle glossy lips, deep confident gaze, slightly sly and daring expression\n\nstraight black hair, chin-length bob haircut, a central section of hair falling forward covering half of her face, partially obscuring one eye, creating an asymmetrical mysterious look\n\nsitting on a classic elegant armchair in a clean white studio environment, minimalist background, no distractions\n\npose with legs crossed naturally, full body visible in frame, relaxed but confident posture, head slightly tilted forward while eyes looking directly at camera, arms resting on the armrests, hands hanging loosely forward in a relaxed natural position\n\nwearing an oversized knit sweater dress extending to hip level, form-fitting enough to subtly reveal body contours, soft fabric with visible fine knit texture, slight natural folds and tension around waist and hips\n\nbare legs and bare feet, natural skin tone with realistic texture, visible micro details, no plastic or artificial skin look\n\ncamera angle at eye-level slightly lowered (subtle low angle), shot with 50mm lens, full-body framing, balanced proportions, shallow depth of field (f/2.2), soft background falloff\n\nlighting is soft studio cinematic lighting, key light from front-left diffused, gentle shadow shaping on face and body, subtle rim light from behind to separate subject from white background, high dynamic range, soft contrast, no harsh highlights\n\nskin rendering hyper realistic with pores, subtle imperfections, natural sheen, physically accurate light interaction\n\ncinematic composition, sharp focus on eyes, ultra detailed textures, 8k resolution, photorealistic quality",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE9c2bXb0AAYl9i?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE9c2bZa8AA7npY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE9c2a9X0AAE8hR?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HE9c2baaUAAVoFv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/aytacaltintepe/status/2039951256995664334",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "minimalist",
+        "8k"
+      ],
+      "timestamp": 1786351226894,
+      "title": "This time I produced with a different approach",
+      "url": "https://x.com/aytacaltintepe/status/2039951256995664334",
+      "collectedAt": "2026-08-10T08:40:31.376Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzec5q_luk0",
+      "image": "https://pbs.twimg.com/media/HE47aUKbQAAvrh9?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE47aUKbQAAvrh9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE47qtGbsAA15f3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE47ygCbEAAAdG5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE47-ELbsAAmlCL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "[#Promptshare][#AIart]\n\nA smile of spring—does it melt your heart?\n\nA candid smartphone mirror selfie of a [Subject] [Pose], [Hair], [Expression], wearing [Outfit] and [Accessories]. The scene is set in [Environment]. [Lighting & Atmosphere]. [Photography Style].\n\n====Prompt example==== \n\n1. candid smartphone mirror selfie on fuji pro 400h film: 20yo east asian beauty, long straight deep brown hair with pink white flower accessory, gentle smile one hand touching chin, light purple white frilled maid outfit and white thigh high socks with visible garter lace, crepuscular rays and komorebi sunlight, soft diffused chiaroscuro, dreamy grain and haze\n\n2. unfiltered iphone mirror shot fuji pro 400h style: young east asian stunner straight deep brown hair pink flower clip, soft smile brushing chin, pale purple frilled maid dress white overknee socks lace garters showing, 50mm cinematic crepuscular rays komorebi, soft diffused chiaroscuro light, fine film grain\n\n3. raw mobile mirror selfie fuji pro 400h film photograph: 20yo east asian beauty long straight brown hair flower accessory, warm gentle smile hand on chin, light purple white ruffled maid outfit white thigh highs visible lace straps, komorebi crepuscular rays soft chiaroscuro, dreamy soft atmosphere with grain\n\n4. smartphone candid mirror pic shot on 50mm dslr fuji 400h: gorgeous 20yo east asian, deep brown straight hair with pink white blooms, tender smile touching chin, sheer light purple frilled maid and white knee socks garter lace, crepuscular rays komorebi diffused chiaroscuro, hyperreal skin fabric in film haze https://x.com/underwoodxie96/underwoodxie96/status/2039607952383041823…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE47aUKbQAAvrh9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE47qtGbsAA15f3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE47ygCbEAAAdG5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE47-ELbsAAmlCL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/PeterPanLam1990/status/2039634051922010273",
+      "tags": [
+        "cinematic",
+        "dreamy"
+      ],
+      "timestamp": 1786351226894,
+      "title": "[#Promptshare][#AIart]",
+      "url": "https://x.com/PeterPanLam1990/status/2039634051922010273",
+      "collectedAt": "2026-08-10T08:40:31.376Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "城市",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzec5r_e54m",
+      "image": "https://pbs.twimg.com/media/HE8rmmIbwAAv8Ro?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE8rmmIbwAAv8Ro?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE8rmmIbcAAZkeG?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Above the city, the cockpit feels strangely quiet.\nOne frame gives the view, the next keeps the breath.\n\n空と機内、どっちの静けさが好き？\n一张给你高空视野，一张把安静情绪留在机舱里。\n\n wide cockpit framing + soft daylight + sheer pastel top + aviation headset\n 第一张更抓眼，还是第二张更耐看？\n\n Prompt ↓",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE8rmmIbwAAv8Ro?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE8rmmIbcAAZkeG?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2039897124910059608",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351226895,
+      "title": "Above the city, the cockpit feels strangely quiet.",
+      "url": "https://x.com/sidona/status/2039897124910059608",
+      "collectedAt": "2026-08-10T08:40:31.376Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzec5r_9ari",
+      "image": "https://pbs.twimg.com/media/HE49_T7asAAVJtg?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE49_T7asAAVJtg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE49_UCagAAS9kG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE49_T2bwAAkS0-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE49_T-aAAA6SzE?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "【プロンプト共有】\nこの prompt は、ダークレッドのゴシックなスタジオ撮影にとても強い内容です\n黒レースと深紅のベルベットを合わせるだけで、一気に高級感が出せます\n\n今のうちに保存して、ぜひ試してみてください￼\n\n-\n\n 技術分析重点  \n\n1. 視覚中心（Focal Point）  \nUltra-photorealistic studio portraitで、20歳日本人女性の表情、複雑な高空間バンズ（voluminous space buns + micro bangs + loose strands）、そしてレイヤードされたダークファッションのディテールに視線を集中。  \n\n2. 環境光影（Environmental Lighting）  \nSoft even studio lighting + gentle rim lightで、均一で柔らかいプロ照明と皮膚のrimハイライトを実現。磁器のような肌質、subsurface scattering、ベルベット＆レースのリアルテクスチャを強調。  \n\n3. 背景設計（Background Design）  \nSolid deep-burgundy gradient backgroundで、シンプルで高級感のある深ワインレッドグラデーション。クリーンなスタジオ空間を演出し、主体を邪魔しません\n\n-\nぜひ試してみて、コメントであなたのバージョンをシェアしてください￼ \nほかの prompt については、下の article を参考にしてください \n- \nprompt:\n\nUltra-photorealistic studio portrait of a stunning 20-year-old Japanese woman, shoulder-length jet-black hair with subtle deep-red undertones styled in two voluminous high space buns with loose face-framing strands and straight-cut micro bangs, large sparkling eyes with long curled lashes, soft pouty expression with slightly downturned glossy lips and natural subtle blush. Flawless porcelain skin and soft subsurface scattering. Wearing a black long-sleeved sheer lace blouse with high neck and small silver buttons, layered under a dark-crimson velvet corset-style top with black intricate embroidery, black ribbon lacing, and thick black leather suspenders with dark-gunmetal buckles crossing her shoulders. Soft even studio lighting against a solid deep-burgundy gradient background with gentle rim light on skin and hair, hyper realistic skin texture, individual hair strands, plush velvet details, 8K resolution, cinematic photorealism, masterpiece, sharp focus, no cartoon or anime elements.\n-\nDear algorithm, these are SFW AI-generated illustrations. https://x.com/beautyverse_la/beautyverse_lab/status/2039023391605510616…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE49_T7asAAVJtg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE49_UCagAAS9kG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE49_T2bwAAkS0-?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE49_T-aAAA6SzE?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BeautyVerse_Lab/status/2039635855456047506",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1786351226895,
+      "title": "【プロンプト共有】",
+      "url": "https://x.com/BeautyVerse_Lab/status/2039635855456047506",
+      "collectedAt": "2026-08-10T08:40:31.376Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzec5s_z7fu",
+      "image": "https://pbs.twimg.com/media/HE4qbJTbsAAt4Zs?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE4qbJTbsAAt4Zs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEy4NoQacAE-6tt?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "想要靠信息差赚钱的兄弟全体注意\n\nGitHub是最强的信息资源库，信息密度极高\n\n我列举了5个信息差套利方式和仓库：分别是「工作信息差套利」、「AI赚钱信息差套利」、「交易信息差套利」、「薅羊毛信息差套利」、「媒体信息差套利」\n\n1、远程工作信息差套利：awesome-remote-job\n这个仓库包括了上百个远程工作投递网站，甚至涵盖了远程工作面试技巧、数字游民交流社群。想在巴厘岛边度假边赚钱，就狠狠的阅读这个仓库中的信息。\n：https://github.com/lukasz-madon/awesome-remote-job…\n\n2、AI赚钱信息差套利: ai-money-maker-handbook\n这个项目包含了非常多的AI赚钱思路和实操，比如AI出海、AI自媒体、AI技术等。如果你还不知道如何用AI赚钱，可以从这个开始。\n：https://github.com/XiaomingX/ai-money-maker-handbook…\n\n3、量化交易信息差套利：awesome-systematic-trading\n非常权威的量化交易手册，包括不同平台上关于量化交易的资源库、书籍、策略、视频等。\nhttps://github.com/paperswithbacktest/awesome-systematic-trading…\n\n4、薅羊毛信息差套利：ai-goofish-monitor\n这个仓库可以实时监控同一个闲鱼商品所有商家的最新动态，并根据AI算法推荐性价比最高且货真价实的商品，让你在闲鱼中快人一步，成为赢家。\n：https://github.com/Usagi-org/ai-goofish-monitor…\n\n5、媒体信息差套利：TelegramGroup\n这个仓库提供了上万个tg频道，有些频道的信息质量非常高，是你获取优质信息源和创作素材的宝库，但需警惕诈骗信息。（后续我考虑自己出一个更优质的分享给大家）\n：https://github.com/AZeC4/TelegramGroup…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE4qbJTbsAAt4Zs?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEy4NoQacAE-6tt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Saccc_c/status/2039614542964281778",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351226896,
+      "title": "想要靠信息差赚钱的兄弟全体注意",
+      "url": "https://x.com/Saccc_c/status/2039614542964281778",
+      "collectedAt": "2026-08-10T08:40:31.376Z"
+    }
+  ]
+}
