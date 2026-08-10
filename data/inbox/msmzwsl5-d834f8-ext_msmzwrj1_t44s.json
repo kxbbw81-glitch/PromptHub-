@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:54:47.993Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzwrj1_t44s",
+      "image": "https://pbs.twimg.com/media/HD65VxFbsAAuQ48?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HD65VxFbsAAuQ48?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HD26gjHbQAAUK7h?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "Seedream生成多重曝光效果。\n参考图是之前发布的图片。\n\n提示词：\n前景是图中的人物，换一身时尚黑色大衣，戴着灰色围巾站立在山顶岩石仰头望向上方；背景叠加同一人物的超大特写望向反方向，挺拔的身姿同样仰头的姿态。\n\n场景是黄昏时分的山顶，远处有落日余晖，天空从橙黄渐变到浅灰，地平线处有朦胧山脉，整体氛围温暖且富有梦幻感，细节清晰，光影柔和。图片风格为写真，质感光照，自然光线，质感十足。原比例。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HD65VxFbsAAuQ48?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HD26gjHbQAAUK7h?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2035267876815544453",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1786352086621,
+      "title": "Seedream生成多重曝光效果。",
+      "url": "https://x.com/liyue_ai/status/2035267876815544453",
+      "collectedAt": "2026-08-10T08:54:47.993Z"
+    }
+  ]
+}
