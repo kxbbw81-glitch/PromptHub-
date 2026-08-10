@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T06:56:11.141Z",
+  "updatedAt": "2026-08-10T06:59:45.782Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmvsc9g_usq0",
+      "image": "https://pbs.twimg.com/media/HOonMt6WsAAStRJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOonMt6WsAAStRJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOonMt7X0AAvtrZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOonMt-XcAAkgfc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOonMuHXgAAc6_u?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一张写实细腻的日系私房人像摄影，一位明确成年的年轻东亚女性，约22至26岁，半躺在铺着柔软白色床品的床上，身体略微侧向画面右侧，上半身自然后靠，腰腹与大腿部分进入画面。她拥有清秀柔和的鹅蛋脸、自然偏白肤色、深棕色杏仁眼、细直鼻梁、淡粉色微启双唇。深棕近黑色中长直发，发尾轻微内弯，轻薄空气刘海自然覆盖额头，少量碎发落在脸颊与肩颈。 她穿一套低饱和裸粉色蕾丝内衣，细肩带三角杯文胸，精细花卉蕾丝纹理，中央带有小蝴蝶结；搭配同色蕾丝低腰内裤，剪裁贴合但自然，不透明度适中。姿态放松优雅，一只手轻抬至脸颊与下巴附近，五指自然分开，另一只手在身体后方支撑。人物安静凝视镜头，表情克制、温柔、略带慵懒感，不夸张微笑。 室内卧室场景，背景为米灰色墙面、暖米色窗帘和白色枕头。左侧窗户透入柔和的清晨自然光，在脸部、锁骨、胸前和腹部形成细腻暖色高光与柔软阴影。整体采用奶油米色、裸粉色和暖灰色调，低饱和、低对比度，安静、亲密、自然。竖构图，中近景，人物从头部拍至大腿上部，略高机位轻微俯拍，85mm人像镜头，f/2.0，浅景深，焦点准确落在双眼，背景柔和虚化。真实摄影质感，细腻皮肤微纹理、自然毛孔、轻微绒毛、真实布料和蕾丝细节，柔和胶片颗粒，轻微空气感，无过度磨皮，无塑料皮肤，无夸张身体比例，无文字、标志、水印、边框，2:3。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOonMt6WsAAStRJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOonMt7X0AAvtrZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOonMt-XcAAkgfc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOonMuHXgAAc6_u?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2083583542173511942",
+      "tags": [
+        "人像",
+        "摄影",
+        "清晨",
+        "低饱和"
+      ],
+      "timestamp": 1786345161748,
+      "title": "日式卧室女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2083583542173511942",
+      "collectedAt": "2026-08-10T06:59:22.719Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T06:59:45.782Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
