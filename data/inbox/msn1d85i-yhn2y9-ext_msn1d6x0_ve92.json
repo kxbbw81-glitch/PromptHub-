@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T09:35:34.278Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msn1d6x0_ve92",
+      "image": "https://pbs.twimg.com/media/G_5OKeabQAABTe7?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/G_5OKeabQAABTe7?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "30 分钟，AI 生成全套电商产品素材！\n\n上传一张产品图 → 主图到详情页一次跑完\n\n电商全套出图提示词（可直接商用）\n https://flowith.io/conv/04bb8569-9b45-4eec-a76e-fcf304c7213a?U2FsdGVkX18CuoFmPCcqzWy52yuxKPS5FSxmdc9WKuZh8FdIlhyiBeBv6pxq4PRet/BucubNf0pLKKHoQZOS/g==…\n\n一套提示词，直接生成\n  首页主图（第一眼抓点击）\n  卖点图（参数 / 优势清晰表达）\n  细节特写图（材质 / 结构 / 质感）",
+      "rawImages": [
+        "https://pbs.twimg.com/media/G_5OKeabQAABTe7?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nuannuan_share/status/2017147874409402386",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786354532676,
+      "title": "30 分钟，AI 生成全套电商产品素材！",
+      "url": "https://x.com/nuannuan_share/status/2017147874409402386",
+      "collectedAt": "2026-08-10T09:35:34.278Z"
+    }
+  ]
+}
