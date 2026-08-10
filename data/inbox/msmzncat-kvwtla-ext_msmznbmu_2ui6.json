@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:47:26.981Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmznbmu_2ui6",
+      "image": "https://pbs.twimg.com/media/HEtHQtaaoAAeW_s?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HEtHQtaaoAAeW_s?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Grey wrapped around her like a second skin.\nShe folded into the corner, and the whole room went quiet.\n\n部屋の隅で小さく丸まるだけで、空気までやわらかくなった。\n灰色针织、灰丝袜、黑色沙发，这张图不是在摆姿势，是把整个人轻轻折进一个很安静的角落里。\n\n Indoor lounge portrait + warm ambient light + monochrome grey dress and heel styling + curled-up sofa pose\n\n The eye contact or the curled-up pose — which detail makes you stop first?\n\n Prompt ↓",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEtHQtaaoAAeW_s?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2038801642632647152",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351646118,
+      "title": "Grey wrapped around her like a second skin.",
+      "url": "https://x.com/sidona/status/2038801642632647152",
+      "collectedAt": "2026-08-10T08:47:26.981Z"
+    }
+  ]
+}
