@@ -789,6 +789,8 @@ function normalizeSourceUrl(value) {
 
 function isCompleteCollectionItem(item) {
   const prompt = trimText(item?.prompt, 30000);
+  const parserAutoCollectable = globalThis.PromptHubParser?.isAutoCollectablePrompt;
+  if (typeof parserAutoCollectable === 'function' && !parserAutoCollectable(prompt)) return false;
   const parserComplete = globalThis.PromptHubParser?.isCompletePrompt;
   const isComplete = typeof parserComplete === 'function'
     ? parserComplete(prompt)

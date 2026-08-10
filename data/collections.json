@@ -2588,38 +2588,6 @@
       "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
     },
     {
-      "aspectRatio": "16:9",
-      "category": "电商视觉",
-      "date": "2026-08-10",
-      "domain": "x.com",
-      "id": "ext_msmzfwo0_jsi2",
-      "image": "https://pbs.twimg.com/media/HE9J4EOasAAr4It?format=jpg&name=small",
-      "images": [
-        "https://pbs.twimg.com/media/HE9J4EOasAAr4It?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HEy4NoQacAE-6tt?format=jpg&name=small"
-      ],
-      "model": "",
-      "prompt": "想做电商，但又不知道从哪里入手。 这套 GitHub 工作流，帮你搭一支一人电商运营团队。 分别是：「选品研究」、「素材处理」、「店铺系统」、「自动化运营」，以及「客服转化」。 1、选品研究：http://changedetection.io 实用的网页监控工具，可以持续追踪商品的价格和库存。当你不知道如何选品的时候，可以直接参考别人的。 ：https://github.com/dgtlmoon/changedetection.io… 2、商品素材处理：PicPilot 这是个适合做商品图和营销视觉素材的开源项目。它甚至可以基于现有商品图做扩图、编辑生成更完整的产品展示画面，也可以做更适合投放和详情页使用的视觉包装。 ：https://github.com/VikramxD/PicPilot… 3、店铺系统：Medusa 成熟的开源电商后端 ，如果你想自己做一个电商网站，这个项目能帮你把最麻烦的底层先搭起来，比如商品、订单、库存这些关键模块。 ：https://github.com/medusajs/medusa 4、自动化运营：n8n 这个工具能帮你把很多原本要手动做的事自动跑起来，比如有人下单，自动发确认消息；库存快没了，自动提醒你补货；发货后，自动通知买家。 ：https://github.com/n8n-io/n8n；https://n8n.io（在线网站直接用） 5、客服转化：Chatwoot 开源客服系统 ，能把网站咨询、邮件、社媒消息集中处理, 从而不会遗漏客户的重要消息。 ：https://github.com/chatwoot/chatwoot… 这套组合真正有价值的地方，是把电商拆成一条完整工作流：选品 → 做素材 → 搭店铺 → 跑自动化 → 做转化。 想了解如何在Github中搜索这些实用的项目，请看下文。",
-      "rawImages": [
-        "https://pbs.twimg.com/media/HE9J4EOasAAr4It?format=jpg&name=small",
-        "https://pbs.twimg.com/media/HEy4NoQacAE-6tt?format=jpg&name=small"
-      ],
-      "referenceImages": [],
-      "source": "插件扫描",
-      "sourceUrl": "https://x.com/Saccc_c/status/2039930400055996831",
-      "tags": [
-        "AI生成"
-      ],
-      "timestamp": 1786351300129,
-      "title": "想做电商，但又不知道从哪里入手。",
-      "url": "https://x.com/Saccc_c/status/2039930400055996831",
-      "collectedAt": "2026-08-10T08:41:44.399Z",
-      "mediaType": "image",
-      "commerceType": "商品详情页",
-      "githubSyncedAt": "2026-08-10T08:42:07.045Z",
-      "domesticSyncedAt": "2026-08-10T09:57:50.641Z"
-    },
-    {
       "aspectRatio": "9:16",
       "category": "人像",
       "date": "2026-08-10",

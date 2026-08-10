@@ -94,6 +94,20 @@ test('accepts a short but strongly structured image prompt', () => {
   assert.equal(parser.isCompletePrompt('Cinematic perfume bottle, soft light,'), false);
 });
 
+test('rejects e-commerce operations essays during automatic collection', () => {
+  const workflowPost = '想做电商，但又不知道从哪里入手。这套 GitHub 工作流，帮你搭一支一人电商运营团队。分别是选品研究、素材处理、店铺系统、自动化运营、客服转化。选品研究使用 changedetection.io 持续追踪商品价格和库存；店铺系统使用 Medusa 处理商品、订单、库存；自动化运营使用 n8n；客服转化使用 Chatwoot。这套组合真正有价值的地方，是把电商拆成一条完整工作流：选品、做素材、搭店铺、跑自动化、做转化。';
+  const dropshippingPost = '突然发现我弟做医疗器械赛道的思路好清晰。一、不做大通货，专盯趋势品和消耗品。二、把硬核参数和专业度做成核心卖点，文案强调医用级材质、医院同款电机、备案号。三、用无货源模式，把想法变成钱。上架商品时，在货源平台把真实的视频、实拍图保存下来，写标题时多加大厂平替、康复科同款，主图一定要显眼。出单了立马去货源平台下单，提醒卖家无痕发货。';
+
+  assert.equal(parser.isAutoCollectablePrompt(workflowPost), false);
+  assert.equal(parser.isAutoCollectablePrompt(dropshippingPost), false);
+});
+
+test('keeps visual e-commerce prompts collectable', () => {
+  const prompt = 'Create a premium e-commerce hero image for a mango juice bottle placed inside a giant golden mango valley, product label clearly visible, bright summer sunlight, clean commercial composition, 35mm lens, photorealistic advertising style, high detail fruit texture, no extra text, no watermark.';
+
+  assert.equal(parser.isAutoCollectablePrompt(prompt), true);
+});
+
 test('replaces social platform titles with a content-specific prompt summary', () => {
   const raw = `
 GPT Image 2 on ChatGPT

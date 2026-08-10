@@ -45,6 +45,24 @@
     '不要文字', '不要水印', '人物', '服装', '姿态', '环境'
   ];
 
+  const VISUAL_PROMPT_BUCKETS = [
+    /(portrait|woman|man|girl|model|person|character|subject|product|bottle|packaging|logo|architecture|landscape|人物|人像|女性|男性|模特|角色|主体|产品|商品|包装|标志|建筑|风景)/i,
+    /(background|scene|environment|studio|room|street|forest|beach|city|interior|背景|场景|环境|摄影棚|室内|街头|森林|海边|城市|空间)/i,
+    /(composition|framing|close[- ]?up|full body|half body|angle|view|构图|画面|景别|特写|全身|半身|角度|视角)/i,
+    /(lighting|light|golden hour|backlight|soft light|studio light|rim light|光线|光照|自然光|逆光|柔光|棚灯|轮廓光)/i,
+    /(camera|lens|35mm|50mm|85mm|depth of field|bokeh|shallow depth|镜头|焦距|景深|虚化|拍摄)/i,
+    /(photorealistic|realistic|cinematic|editorial|film|ultra detailed|highly detailed|写实|电影感|编辑|胶片|高清|细节|质感|风格)/i,
+    /(no text|no watermark|without text|without watermark|不要文字|不要水印|禁止文字|无水印)/i,
+    /\b(--ar|--v|--style|--chaos|--stylize|--niji|seed|cfg|sampler)\b/i
+  ];
+
+  const NON_PROMPT_LONGFORM_PATTERNS = [
+    /选品|赛道|无货源|货源平台|出单|复购|下单|发货|库存|订单|售后|客服转化|店铺系统|自动化运营|运营团队/,
+    /工作流|开源项目|github|changedetection|medusa|n8n|chatwoot|工具清单|实用工具|项目能帮/,
+    /价格|利润|赚钱|搞钱|竞争|买家|卖家|备案号|医用级|医院同款|专业数据|痛点/,
+    /教程|方法论|怎么做|如何在|看下文|经验分享|思路|流程|组合真正有价值/
+  ];
+
   const TITLE_NOISE_PATTERNS = [
     /^(?:made\s+with\s+)?gpt\s*image\s*\d+(?:\s+(?:on|via)\s+chatgpt)?(?:\s*(?:prompt|提示词?))?$/i,
     /^by\s+(?:gemini\s+)?nano\s+banana$/i,
@@ -435,6 +453,30 @@
     return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
   }
 
+  function visualPromptBucketCount(text) {
+    const value = cleanText(text);
+    return VISUAL_PROMPT_BUCKETS.reduce((count, pattern) => count + (pattern.test(value) ? 1 : 0), 0);
+  }
+
+  function nonPromptLongformScore(text) {
+    const value = cleanText(text);
+    return NON_PROMPT_LONGFORM_PATTERNS.reduce((count, pattern) => count + (pattern.test(value) ? 1 : 0), 0);
+  }
+
+  function isAutoCollectablePrompt(text) {
+    const value = cleanText(text);
+    if (!isCompletePrompt(value)) return false;
+
+    const visualBuckets = visualPromptBucketCount(value);
+    const nonPromptScore = nonPromptLongformScore(value);
+    const hasExplicitPromptSignal = /(?:\bprompt\b|提示词|正向提示|完整提示词|\bnegative prompt\b|\bpositive prompt\b|\b--ar\b|\b--v\b|\b--style\b|\bcfg\b|\bsampler\b)/i.test(value);
+    const cnChars = (value.match(/[\u4e00-\u9fff]/g) || []).length;
+
+    if (nonPromptScore >= 2 && visualBuckets < 5) return false;
+    if (cnChars >= 120 && !hasExplicitPromptSignal && visualBuckets < 4) return false;
+    return visualBuckets >= (hasExplicitPromptSignal ? 2 : 3);
+  }
+
   function extractLabeledPrompt(lines) {
     let start = -1;
     let inline = '';
@@ -724,6 +766,7 @@
     parsePromptText,
     looksLikePrompt,
     isCompletePrompt,
+    isAutoCollectablePrompt,
     isGenericTitle,
     titleLooksLikePrompt
   };

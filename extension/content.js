@@ -334,6 +334,8 @@
 
   function isCompleteCandidate(text) {
     const value = String(text || '').trim();
+    const parserAutoCollectable = globalThis.PromptHubParser?.isAutoCollectablePrompt;
+    if (typeof parserAutoCollectable === 'function') return parserAutoCollectable(value);
     const parserComplete = globalThis.PromptHubParser?.isCompletePrompt;
     if (typeof parserComplete === 'function') return parserComplete(value);
     const commas = (value.match(/[,，]/g) || []).length;
