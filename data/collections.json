@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T08:44:51.354Z",
+  "updatedAt": "2026-08-10T08:47:33.205Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzmz5a_5v3f",
+      "image": "https://pbs.twimg.com/media/HElrd_nbEAENixy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HElrd_nbEAENixy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HElrd_sawAARPQY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HElrd_oaEAARhyg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HElrd_jaoAAINPC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Scale Echo Frame 【cherry-cola brunette shoulder-length straight hair with soft light layers, wispy piecey bangs slightly separated, subtle face-framing strands, smooth natural shine outfit: burnt-orange fitted camisole/tank top with narrow straps layered over a sheer black mesh short-sleeve top, slim cropped silhouette, high-waist deep black pleated mini skirt with sharp structured folds】 AMICRE: Witness report received. Scale echo frame evidence secured.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HElrd_nbEAENixy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HElrd_sawAARPQY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HElrd_oaEAARhyg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HElrd_jaoAAINPC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/SDT_side/status/2038278475556213140",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351629934,
+      "title": "Scale Echo Frame",
+      "url": "https://x.com/SDT_side/status/2038278475556213140",
+      "collectedAt": "2026-08-10T08:47:10.821Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T08:47:33.205Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "抽象",
