@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T07:48:36.396Z",
+  "updatedAt": "2026-08-10T08:27:26.375Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -33,7 +33,7 @@
       "collectedAt": "2026-08-10T07:48:14.263Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:48:36.396Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
@@ -71,7 +71,7 @@
       "collectedAt": "2026-08-10T07:30:01.018Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:30:24.305Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "9:16",
@@ -114,7 +114,7 @@
       "collectedAt": "2026-08-10T07:29:36.623Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:29:51.046Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "16:9",
@@ -143,7 +143,7 @@
       "collectedAt": "2026-08-10T07:25:23.710Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:25:48.598Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "3:4",
@@ -173,7 +173,7 @@
       "mediaType": "image",
       "commerceType": "品牌视觉",
       "githubSyncedAt": "2026-08-10T07:25:48.598Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "3:4",
@@ -203,7 +203,7 @@
       "collectedAt": "2026-08-10T07:25:06.380Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:25:31.247Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "9:16",
@@ -239,7 +239,7 @@
       "collectedAt": "2026-08-10T07:25:06.380Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:25:31.247Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "9:16",
@@ -270,7 +270,7 @@
       "collectedAt": "2026-08-10T07:25:06.380Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:25:31.247Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "3:4",
@@ -307,7 +307,7 @@
       "collectedAt": "2026-08-10T07:24:12.557Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:24:40.047Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "3:4",
@@ -339,7 +339,7 @@
       "collectedAt": "2026-08-10T07:24:12.557Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:24:40.047Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "9:16",
@@ -369,7 +369,7 @@
       "collectedAt": "2026-08-10T07:23:56.635Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:24:40.047Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
@@ -402,7 +402,7 @@
       "mediaType": "image",
       "commerceType": "品牌视觉",
       "githubSyncedAt": "2026-08-10T07:21:13.036Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "9:16",
@@ -432,7 +432,7 @@
       "collectedAt": "2026-08-10T07:20:41.326Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:21:13.036Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
@@ -469,7 +469,7 @@
       "collectedAt": "2026-08-10T07:16:29.802Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:16:53.436Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
@@ -502,7 +502,7 @@
       "collectedAt": "2026-08-10T07:06:47.736Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:07:11.573Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
@@ -534,7 +534,7 @@
       "collectedAt": "2026-08-10T07:06:06.443Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:06:22.050Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "3:4",
@@ -576,7 +576,7 @@
       "collectedAt": "2026-08-10T07:05:57.745Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:06:22.050Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "4:5",
@@ -612,7 +612,7 @@
       "collectedAt": "2026-08-10T07:05:39.864Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T07:06:03.449Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
@@ -650,7 +650,7 @@
       "collectedAt": "2026-08-10T06:59:22.719Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T06:59:45.782Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "9:16",
@@ -681,7 +681,7 @@
       "collectedAt": "2026-08-10T06:55:45.126Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T06:56:11.141Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "3:4",
@@ -712,7 +712,7 @@
       "collectedAt": "2026-08-10T06:55:27.045Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T06:55:50.082Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T08:27:26.372Z"
     },
     {
       "aspectRatio": "2:3",
