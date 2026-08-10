@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T11:35:06.802Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msn4v262_fp6r",
+      "image": "https://pbs.twimg.com/media/HJP0TfGa8AAhd_5?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJP0TfGa8AAhd_5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP0VFYbkAAkZ6l?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP0YfAaEAAyuAR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP0b7EagAABw0J?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我做了一个高端宠物家居生活方式的品牌全案设计，这次我特意做了一个很简单的提示词，这样能给大家改的时候能够多一些空间，多加一些自己想要的东西。也想给AI多一些空间，结果做出来效果还不错。提示词在评论区。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJP0TfGa8AAhd_5?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP0VFYbkAAkZ6l?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP0YfAaEAAyuAR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJP0b7EagAABw0J?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Stellakjbk/status/2059259232487354765",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786360405178,
+      "title": "家居人像",
+      "url": "https://x.com/Stellakjbk/status/2059259232487354765",
+      "collectedAt": "2026-08-10T11:35:06.802Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msn4v264_9gws",
+      "image": "https://pbs.twimg.com/media/HJNeuYha0AEjluZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HJNeuYha0AEjluZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJNeuoxasAAcjaM?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我给他一张三张拼在一起的图，它自动加进去的时候，我并没有指定位置，它就能自动根据图片内容匹配对应的页数。\n\n而且虽然这三张图是拼在一起的，它在下面还用分开的格子进行了标注，内容都能对上，太省心了。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HJNeuYha0AEjluZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HJNeuoxasAAcjaM?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/op7418/status/2059093924996960308",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786360405180,
+      "title": "我给他一张三张拼在一起的图，它自动加进去",
+      "url": "https://x.com/op7418/status/2059093924996960308",
+      "collectedAt": "2026-08-10T11:35:06.802Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msn4vqk6_ufaa",
+      "image": "https://pbs.twimg.com/media/HI5w26YagAAWj9O?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HI5w26YagAAWj9O?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "- 翻译，人家英文文章，原封不动的一键翻译成中文，自己再发一遍\n\n- 摇人，把那些耳熟能详的海外大佬列出来 at 人家\n\n- 转发海外大佬的原推，配上一键翻译的双语文字",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HI5w26YagAAWj9O?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/jaredliu_bravo/status/2057706584961364264",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786360436790,
+      "title": "特别简单无脑获取流量的方法",
+      "url": "https://x.com/jaredliu_bravo/status/2057706584961364264",
+      "collectedAt": "2026-08-10T11:35:06.802Z"
+    }
+  ]
+}
