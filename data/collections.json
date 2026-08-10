@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T05:44:16.031Z",
+  "updatedAt": "2026-08-10T06:55:50.082Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmvnah5_8k10",
+      "image": "https://pbs.twimg.com/media/HPQi8nGX0AAU7xJ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPQi8nGX0AAU7xJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPQjBj3W8AAmUMj?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt： 3:4 竖幅，90s / Y2K 杂志写真风格，CCD 数码相机直闪，一位明确成年的高颜值韩国女性，精致自然的瓜子脸，尖而柔和的下巴线条，清晰双眼皮，纤细鼻梁，水润自然唇妆，浅暖白皙肤色，黑色长发自然披散并带少量凌乱碎发。夜晚便利店狭窄货架通道，一侧是冷柜与金属玻璃反射面，另一侧摆满彩色零食包装，背景昏暗且具有生活化杂乱感。人物穿浅灰紫色贴身罗纹细肩带短上衣，露出自然腰线，搭配白色百褶短裙和细小项链；身体轻微侧转，一只手向侧面伸出扶住冷柜边缘，另一只手自然放松，腰胯轻微偏向一侧，眼神直视镜头，表情冷淡克制。近距离中全身构图，约 28–35mm 广角感，强烈机顶直闪，皮肤与金属表面产生高亮反光，背景快速衰减至黑，轻微高光过曝、CCD 降噪、数字颗粒、真实毛孔与衣料纹理，像 2000 年代亚洲时尚杂志随手街拍，不要棚拍感，不要文字，不要拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPQi8nGX0AAU7xJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPQjBj3W8AAmUMj?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2086347244845043818",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1786344926153,
+      "title": "深夜便利店",
+      "url": "https://x.com/chenlinspark/status/2086347244845043818",
+      "collectedAt": "2026-08-10T06:55:27.045Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-10T06:55:50.082Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
