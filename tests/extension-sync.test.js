@@ -53,6 +53,11 @@ function createHarness() {
       action: { setBadgeText() {}, setBadgeBackgroundColor() {} },
       alarms: {
         create: async (name, options) => { alarms.push({ name, options }); },
+        clear: async name => {
+          const index = alarms.findIndex(alarm => alarm.name === name);
+          if (index !== -1) alarms.splice(index, 1);
+          return index !== -1;
+        },
         onAlarm: alarmsEvent
       },
       contextMenus: { create() {}, onClicked: event },
@@ -312,6 +317,28 @@ test('GitHub request timeouts leave the queue retryable instead of keeping it sy
   assert.equal(receipt.state, 'failed');
   assert.equal(receipt.error, 'GitHub 请求超时，已保留队列并将在 2 分钟后自动重试');
   assert.equal(storage.prompthub_queue.length, 1);
+  assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
+});
+
+test('submitted inbox items are requeued when the main-site merge is not confirmed within five minutes', async () => {
+  const { context, remote, storage, alarms } = createHarness();
+  const first = prompt('stale-submit', 'A premium e-commerce photograph of a translucent skincare serum bottle on frosted glass, cool rim light, precise reflection control, botanical shadow, minimal luxury catalog composition, 100mm lens, realistic liquid texture, photorealistic finish, no text, no logo, no watermark.');
+
+  await context.addToQueue(first);
+  assert.equal((await waitForReceipt(context, 'stale-submit')).state, 'submitted');
+  assert.equal(storage.prompthub_queue, undefined);
+  assert.deepEqual(inboxIds(remote), ['stale-submit']);
+
+  storage.prompthub_collection_receipts['stale-submit'].submittedAt = new Date(Date.now() - 6 * 60 * 1000).toISOString();
+  const result = await context.verifySubmittedMainReceipts();
+
+  const receipt = await context.getCollectionReceipt('stale-submit');
+  assert.equal(result.stale, 1);
+  assert.equal(receipt.state, 'failed');
+  assert.equal(receipt.outcome, 'merge_timeout');
+  assert.match(receipt.error, /超过 5 分钟未确认/);
+  assert.equal(storage.prompthub_queue.length, 1);
+  assert.equal(storage.prompthub_queue[0].id, 'stale-submit');
   assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
 });
 

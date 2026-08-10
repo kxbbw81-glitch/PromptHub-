@@ -6,6 +6,7 @@
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const WEBSITE_URL = GITHUB_PAGES_URL;
 const VERIFICATION_STALE_MS = 45000;
+const MAIN_MERGE_STALE_MS = 5 * 60 * 1000;
 
 function $(s) { return document.querySelector(s); }
 
@@ -85,7 +86,8 @@ function renderVerificationStatus(feedback, queueLength = 0) {
   const icon = $('#verification-status-icon');
   const text = $('#verification-status-text');
   const receipt = feedback?.latest;
-  if (!receipt && queueLength === 0) {
+  const submittedCount = Number(feedback?.submittedCount || feedback?.stats?.submitted || 0);
+  if (!receipt && queueLength === 0 && submittedCount === 0) {
     panel.style.display = 'none';
     return;
   }
@@ -93,12 +95,18 @@ function renderVerificationStatus(feedback, queueLength = 0) {
   const state = receipt?.state || (queueLength > 0 ? 'queued' : 'idle');
   const isStaleSync = state === 'syncing'
     && Date.now() - Date.parse(receipt?.updatedAt || 0) > VERIFICATION_STALE_MS;
-  const displayState = isStaleSync ? 'failed' : state;
+  const isStaleMerge = state === 'submitted'
+    && Date.now() - Date.parse(receipt?.submittedAt || receipt?.updatedAt || 0) > MAIN_MERGE_STALE_MS;
+  const displayState = isStaleSync || isStaleMerge ? 'failed' : state;
   panel.className = `verification-status${displayState === 'verified' ? ' success' : displayState === 'failed' ? ' error' : ''}`;
   icon.textContent = displayState === 'verified' ? '✓' : displayState === 'failed' ? '!' : '⏳';
   text.textContent = isStaleSync
     ? `GitHub 队列提交超时，${queueLength} 个提示词仍在本机队列中，请点击下方重试`
-    : receipt?.message || (queueLength > 0 ? `正在处理 ${queueLength} 个待验证收藏` : '暂无收藏验证记录');
+    : isStaleMerge
+      ? 'GitHub 主站合并超过 5 分钟未确认，请点击下方重试或稍后重新扫描'
+      : queueLength > 0 || submittedCount > 0
+        ? `本机待上传 ${queueLength} 个；已提交主站队列 ${submittedCount} 个。可继续收藏新的提示词`
+        : receipt?.message || '暂无收藏验证记录';
   panel.style.display = 'flex';
 }
 
@@ -106,7 +114,7 @@ function renderCollectionOutcome(button, receipt) {
   if (!button || !receipt) return;
   button.classList.remove('mini-btn-collected', 'mini-btn-existing', 'mini-btn-rejected');
   if (receipt.state === 'submitted' || receipt.outcome === 'submitted') {
-    button.textContent = '⏳ 等待主站合并';
+    button.textContent = '⏳ 已提交主站队列';
   } else if (receipt.outcome === 'saved') {
     button.textContent = '✓ 已写入主站';
     button.classList.add('mini-btn-collected');
@@ -191,10 +199,10 @@ async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
     if (verified + submitted === trackedIds.length) {
       const saved = receipts.filter(receipt => receipt?.outcome === 'saved').length;
       const existing = receipts.filter(receipt => receipt?.outcome === 'already_exists').length;
-      button.textContent = submitted ? `⏳ 等待主站合并 ${submitted} 个` : existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
+      button.textContent = submitted ? `⏳ 已提交主站队列 ${submitted} 个` : existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
       if (!submitted) button.classList.add('mini-btn-collected');
       showToast(submitted
-        ? `已提交待合并队列 ${submitted} 个提示词，尚未写入主站；插件会自动复查`
+        ? `已提交 GitHub 入站队列 ${submitted} 个，主站合并后会自动确认`
         : existing ? `主站写入 ${saved} 个；${existing} 个已存在，未重复写入` : `已写入 GitHub 主站 ${saved} 个提示词`);
       await updateQueueUI();
       return;
@@ -750,7 +758,7 @@ $('#btn-sync').addEventListener('click', async () => {
       const savedCount = Number(syncResult.count || 0);
       const skippedCount = Number(syncResult.skipped || 0);
       const syncMessage = savedCount > 0
-        ? `已提交待合并队列 ${savedCount} 个提示词，尚未写入主站；插件会自动复查`
+        ? `已提交 GitHub 入站队列 ${savedCount} 个，主站合并后会自动确认；可继续收藏新的提示词`
         : skippedCount > 0
           ? `GitHub 主站无新增，${skippedCount} 个提示词已存在`
           : 'GitHub 主站无新增提示词';

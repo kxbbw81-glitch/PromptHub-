@@ -158,8 +158,10 @@ test('the extension collects into a temporary unique queue before GitHub sync', 
   assert.match(popup, /action: 'addToQueue'/);
   assert.match(popup, /action: 'addItemsToQueue'/);
   assert.match(popup, /id="btn-collect-all"/);
-  assert.match(popup, /已提交待合并队列/);
-  assert.match(popup, /等待主站合并/);
+  assert.match(popup, /已提交 GitHub 入站队列/);
+  assert.match(popup, /已提交主站队列/);
+  assert.match(popup, /MAIN_MERGE_STALE_MS = 5 \* 60 \* 1000/);
+  assert.match(popup, /本机待上传 \$\{queueLength\} 个；已提交主站队列 \$\{submittedCount\} 个/);
   assert.match(popup, /function waitForCollectionVerification/);
   assert.match(popup, /const VERIFICATION_STALE_MS = 45000;/);
   assert.match(popup, /GitHub 队列提交超时/);
@@ -178,14 +180,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.25\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.25\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.26\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.26\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.25\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.25\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.26\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.26\.0/);
 });
 
 test('the extension recognizes WeChat article prompt blocks and lazy-loaded images', () => {
@@ -194,7 +196,7 @@ test('the extension recognizes WeChat article prompt blocks and lazy-loaded imag
   assert.match(content, /data-src/);
   assert.match(content, /extractWeChatArticlePrompts/);
   assert.match(app, /微信公众号复制帖子全文/);
-  assert.match(app, /PromptHub-Extension-v3\.25\.0\.zip/);
+  assert.match(app, /PromptHub-Extension-v3\.26\.0\.zip/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
@@ -212,7 +214,7 @@ test('the extension records an image aspect ratio during prompt recognition', ()
 });
 
 test('the extension reports the GitHub primary-site write result precisely', () => {
-  assert.match(popup, /已提交待合并队列 \$\{savedCount\} 个提示词/);
+  assert.match(popup, /已提交 GitHub 入站队列 \$\{savedCount\} 个/);
   assert.match(popup, /GitHub 主站无新增，\$\{skippedCount\} 个提示词已存在/);
   assert.match(popup, /收藏已保留在队列中，修复后可再次同步/);
   assert.match(background, /GITHUB_LARGE_FILE_BYTES/);

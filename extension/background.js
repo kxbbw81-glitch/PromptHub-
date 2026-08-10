@@ -20,6 +20,7 @@ const MAIN_VERIFICATION_ALARM_NAME = 'prompthub_main_verification';
 const PRIMARY_RETRY_DELAY_MINUTES = 2;
 const MAIN_VERIFICATION_DELAY_MINUTES = 1;
 const MAIN_VERIFICATION_PERIOD_MINUTES = 2;
+const MAIN_VERIFICATION_TIMEOUT_MS = 5 * 60 * 1000;
 const GITHUB_REQUEST_TIMEOUT_MS = 30000;
 let queueMutation = Promise.resolve();
 let receiptMutation = Promise.resolve();
@@ -328,6 +329,7 @@ async function addItemsToQueue(items) {
   });
 
   await setCollectionReceipts(queued.trackedItems, 'queued', {
+    keepItem: true,
     message: queued.added
       ? `已加入 ${queued.added} 个提示词，等待提交 GitHub 主站队列（本机队列 ${queued.count} 个）`
       : '已在本机队列，正在重新提交 GitHub 主站队列'
@@ -377,14 +379,19 @@ async function setCollectionReceipts(items, state, details = {}) {
     const current = data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {};
     const updatedAt = new Date().toISOString();
     for (const item of safeItems) {
+      const previous = current[item.id] || {};
+      const storedItem = details.keepItem ? sanitizeRemoteItem(item) : previous.item || null;
       current[item.id] = {
         id: item.id,
-        sourceUrl: trimText(item.sourceUrl || item.url, 2048),
+        sourceUrl: trimText(item.sourceUrl || item.url || previous.sourceUrl, 2048),
         state,
         outcome: trimText(details.outcome, 40),
         message: trimText(details.message, 240),
         error: trimText(details.error, 240),
         verifiedAt: details.verifiedAt || null,
+        submittedAt: details.submittedAt || (state === 'submitted' ? updatedAt : previous.submittedAt || null),
+        inboxPath: trimText(details.inboxPath || previous.inboxPath, 2048),
+        item: state === 'verified' ? null : storedItem,
         updatedAt
       };
     }
@@ -405,13 +412,51 @@ async function getCollectionFeedback() {
   const [queue, data] = await Promise.all([getQueue(), chrome.storage.local.get(RECEIPT_KEY)]);
   const receipts = Object.values(data[RECEIPT_KEY] && typeof data[RECEIPT_KEY] === 'object' ? data[RECEIPT_KEY] : {});
   const latest = receipts.sort((left, right) => Date.parse(right.updatedAt || 0) - Date.parse(left.updatedAt || 0))[0] || null;
-  return { queueCount: queue.length, latest };
+  const stats = receipts.reduce((acc, receipt) => {
+    if (receipt?.state === 'queued') acc.queued += 1;
+    else if (receipt?.state === 'syncing') acc.syncing += 1;
+    else if (receipt?.state === 'submitted') acc.submitted += 1;
+    else if (receipt?.state === 'verified') acc.verified += 1;
+    else if (receipt?.state === 'failed') acc.failed += 1;
+    return acc;
+  }, { queued: 0, syncing: 0, submitted: 0, verified: 0, failed: 0 });
+  return { queueCount: queue.length, submittedCount: stats.submitted, stats, latest };
 }
 
 async function scheduleMainVerification() {
   await chrome.alarms.create(MAIN_VERIFICATION_ALARM_NAME, {
     delayInMinutes: MAIN_VERIFICATION_DELAY_MINUTES,
     periodInMinutes: MAIN_VERIFICATION_PERIOD_MINUTES
+  });
+}
+
+function isStaleSubmittedReceipt(receipt, now = Date.now()) {
+  if (receipt?.state !== 'submitted') return false;
+  const submittedAt = Date.parse(receipt.submittedAt || receipt.updatedAt || 0);
+  return Number.isFinite(submittedAt) && now - submittedAt > MAIN_VERIFICATION_TIMEOUT_MS;
+}
+
+async function requeueSubmittedReceipts(receipts) {
+  const candidates = receipts
+    .map(receipt => sanitizeRemoteItem(receipt?.item))
+    .filter(item => item && isCompleteCollectionItem(item));
+  if (candidates.length === 0) return 0;
+
+  return withQueueLock(async () => {
+    const queue = await getQueue();
+    const queuedFingerprints = new Set(queue.map(collectionFingerprint).filter(Boolean));
+    const queuedSources = new Set(queue.map(collectionSourceKey).filter(Boolean));
+    const additions = [];
+    for (const item of candidates) {
+      const fingerprint = collectionFingerprint(item);
+      const sourceKey = collectionSourceKey(item);
+      if (!fingerprint || !sourceKey || queuedFingerprints.has(fingerprint) || queuedSources.has(sourceKey)) continue;
+      queuedFingerprints.add(fingerprint);
+      queuedSources.add(sourceKey);
+      additions.push(item);
+    }
+    if (additions.length) await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, ...additions] });
+    return additions.length;
   });
 }
 
@@ -431,6 +476,8 @@ async function verifySubmittedMainReceipts() {
     const snapshot = await readGitHubCollections(token);
     const sourceUrls = new Set(snapshot.collections.map(item => normalizeSourceUrl(item.sourceUrl || item.url)).filter(Boolean));
     const confirmed = submitted.filter(receipt => sourceUrls.has(normalizeSourceUrl(receipt.sourceUrl)));
+    const confirmedIds = new Set(confirmed.map(receipt => receipt.id));
+    const stale = submitted.filter(receipt => !confirmedIds.has(receipt.id) && isStaleSubmittedReceipt(receipt));
     if (confirmed.length) {
       await setCollectionReceipts(confirmed.map(receipt => ({ id: receipt.id, sourceUrl: receipt.sourceUrl })), 'verified', {
         outcome: 'saved',
@@ -438,8 +485,24 @@ async function verifySubmittedMainReceipts() {
         verifiedAt: new Date().toISOString()
       });
     }
-    if (confirmed.length === submitted.length) await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
-    return { checked: submitted.length, confirmed: confirmed.length };
+    if (stale.length) {
+      const requeued = await requeueSubmittedReceipts(stale);
+      await setCollectionReceipts(stale.map(receipt => ({
+        id: receipt.id,
+        sourceUrl: receipt.sourceUrl,
+        item: receipt.item
+      })), 'failed', {
+        keepItem: true,
+        outcome: 'merge_timeout',
+        error: requeued
+          ? `GitHub 主站合并超过 5 分钟未确认，已放回本机队列 ${requeued} 个，可点击重试`
+          : 'GitHub 主站合并超过 5 分钟未确认，请重新扫描后收藏',
+        message: '主站合并超时，未确认写入'
+      });
+      if (requeued) await schedulePrimaryRetry();
+    }
+    if (confirmed.length + stale.length === submitted.length) await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
+    return { checked: submitted.length, confirmed: confirmed.length, stale: stale.length };
   } catch (error) {
     console.warn('[PromptHub] Main verification deferred:', error?.message || error);
     return { checked: submitted.length, confirmed: 0 };
@@ -591,7 +654,10 @@ async function syncQueuedItems() {
     if (savedItems.length) {
       if (result.submittedToInbox) {
         await setCollectionReceipts(savedItems, 'submitted', {
+          keepItem: true,
           outcome: 'submitted',
+          inboxPath: result.inboxPath || '',
+          submittedAt: new Date().toISOString(),
           message: '已提交待合并队列，尚未写入 GitHub 主站；插件会自动复查'
         });
         await scheduleMainVerification();
@@ -678,6 +744,19 @@ function collectionSourceKey(item) {
     if (statusMatch) return `x:${statusMatch[1].toLowerCase()}:${statusMatch[2]}`;
     if (hostname === 'x.com') return '';
     return `${hostname}${parsed.pathname.replace(/\/$/, '')}`;
+  } catch {
+    return '';
+  }
+}
+
+function normalizeSourceUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    url.hash = '';
+    url.search = '';
+    url.hostname = url.hostname.replace(/^www\./, '').toLowerCase();
+    url.pathname = url.pathname.replace(/\/$/, '');
+    return url.toString();
   } catch {
     return '';
   }
