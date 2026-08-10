@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:20:41.326Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwjr0d_yclk",
+      "image": "https://pbs.twimg.com/media/HGCj7Zha8AAVzQp?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HGCj7Zha8AAVzQp?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "The image shows an elegant beautiful 20-year-old Japanese or Korean woman, tall slim elegant hourglass figure with balanced proportions, gently narrowed waist, soft natural curves, balanced hip line, graceful elongated leg line, long shapely legs, toned feminine silhouette, refined lightweight proportions without heaviness, defined bone structure, sharp contour lines, high cheekbones, deep-set eyes, sculpted mature facial balance, aloof luxury presence with strong editorial intensity, airy see-through bangs, long layered hair, soft feathered ends, none, none, none, side reclined pose with head turning back toward camera, relaxed interactive low posture. Wardrobe details: black micro athletic shorts, ultra-short sporty bottoms, casual fitted silhouette, light grey open slightly oversized cropped leather jacket, unfastened moto jacket, edgy layered silhouette, cool structured shape, slipped off the shoulder line. The setting is abandoned music room, old piano, music stand, broken windows, dust, wooden floor, indoor dim daylight, soft daylight falling deeper into the room, subdued exterior brightness if visible, quiet shaded interior air, mixed color temperature lighting, warm and cool light interplay, layered color contrast, cinematic environmental mixing. The composition uses cowboy shot, american shot, knee up framing, dynamic pose, eye-level angle, objective view, neutral perspective, natural camera height, right-side profile view, side-facing camera angle, crisp lateral silhouette, shot on 50mm lens, controlled foreground bokeh occlusion from a fixed out-of-focus object near the lens, soft edge blur framing the subject, stable layered depth, clean cinematic foreground veil, aspect ratio 4:5. Fujifilm Classic Chrome look, muted color palette, soft contrast, documentary mood, subdued blues and reds, editorial travel-film atmosphere, natural photographic detail, coherent fabric construction, clear facial readability, realistic spatial depth, do not add visible text unless explicitly requested.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HGCj7Zha8AAVzQp?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2044814500579438627",
+      "tags": [
+        "cinematic",
+        "bokeh"
+      ],
+      "timestamp": 1786346440574,
+      "title": "电影感女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2044814500579438627",
+      "collectedAt": "2026-08-10T07:20:41.326Z"
+    }
+  ]
+}
