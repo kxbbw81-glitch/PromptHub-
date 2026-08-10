@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T07:13:33.669Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "建筑",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmwakzh_49rr",
+      "image": "https://pbs.twimg.com/media/HICr9wFa0AAYdao?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HICr9wFa0AAYdao?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HICr_p3bIAAaWg8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HH9W11jbQAAXmM2?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HH9XDLMaYAAtyaq?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "Elegant Korean female model in blush pink satin slip dress with delicate spaghetti straps, V-neckline, leaning gracefully against floor-to-ceiling window in elegant over-the-shoulder pose, golden hour backlighting creating soft glow, refined beauty editorial, blush and rose gold palette, minimalist luxury penthouse interior, Vogue Korea style fashion photography, cinematic bokeh",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HICr9wFa0AAYdao?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HICr_p3bIAAaWg8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HH9W11jbQAAXmM2?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HH9XDLMaYAAtyaq?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/LufzzLiz/status/2053830981438918703",
+      "tags": [
+        "cinematic",
+        "minimalist",
+        "bokeh",
+        "golden hour"
+      ],
+      "timestamp": 1786346012861,
+      "title": "探索GPT image 2 第三弹",
+      "url": "https://x.com/LufzzLiz/status/2053830981438918703",
+      "collectedAt": "2026-08-10T07:13:33.669Z"
+    }
+  ]
+}
