@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T10:50:43.928Z",
+  "updatedAt": "2026-08-10T11:09:06.670Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -97,7 +97,7 @@
       "mediaType": "image",
       "commerceType": "商品详情页",
       "githubSyncedAt": "2026-08-10T09:36:03.066Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T11:09:06.666Z"
     },
     {
       "aspectRatio": "9:16",
@@ -129,7 +129,7 @@
       "collectedAt": "2026-08-10T09:33:59.759Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T09:34:25.049Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T11:09:06.666Z"
     },
     {
       "aspectRatio": "9:16",
@@ -159,7 +159,7 @@
       "collectedAt": "2026-08-10T09:33:59.759Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T09:34:25.049Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T11:09:06.666Z"
     },
     {
       "aspectRatio": "16:9",
@@ -194,7 +194,7 @@
       "collectedAt": "2026-08-10T09:33:59.759Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-10T09:34:25.049Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-10T11:09:06.666Z"
     },
     {
       "aspectRatio": "2:3",
