@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-10T08:41:44.399Z",
+  "count": 4,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzfwo0_jsi2",
+      "image": "https://pbs.twimg.com/media/HE9J4EOasAAr4It?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE9J4EOasAAr4It?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEy4NoQacAE-6tt?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "想做电商，但又不知道从哪里入手。\n\n这套 GitHub 工作流，帮你搭一支一人电商运营团队。\n\n分别是：「选品研究」、「素材处理」、「店铺系统」、「自动化运营」，以及「客服转化」。\n\n1、选品研究：http://changedetection.io\n实用的网页监控工具，可以持续追踪商品的价格和库存。当你不知道如何选品的时候，可以直接参考别人的。\n：https://github.com/dgtlmoon/changedetection.io…\n\n2、商品素材处理：PicPilot\n这是个适合做商品图和营销视觉素材的开源项目。它甚至可以基于现有商品图做扩图、编辑生成更完整的产品展示画面，也可以做更适合投放和详情页使用的视觉包装。\n：https://github.com/VikramxD/PicPilot…\n\n3、店铺系统：Medusa\n成熟的开源电商后端 ，如果你想自己做一个电商网站，这个项目能帮你把最麻烦的底层先搭起来，比如商品、订单、库存这些关键模块。\n：https://github.com/medusajs/medusa\n\n4、自动化运营：n8n\n这个工具能帮你把很多原本要手动做的事自动跑起来，比如有人下单，自动发确认消息；库存快没了，自动提醒你补货；发货后，自动通知买家。\n：https://github.com/n8n-io/n8n；https://n8n.io（在线网站直接用）\n\n5、客服转化：Chatwoot\n开源客服系统 ，能把网站咨询、邮件、社媒消息集中处理, 从而不会遗漏客户的重要消息。\n：https://github.com/chatwoot/chatwoot…\n\n这套组合真正有价值的地方，是把电商拆成一条完整工作流：选品 → 做素材 → 搭店铺 → 跑自动化 → 做转化。\n\n想了解如何在Github中搜索这些实用的项目，请看下文。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE9J4EOasAAr4It?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEy4NoQacAE-6tt?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Saccc_c/status/2039930400055996831",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351300129,
+      "title": "想做电商，但又不知道从哪里入手。",
+      "url": "https://x.com/Saccc_c/status/2039930400055996831",
+      "collectedAt": "2026-08-10T08:41:44.399Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzfwo1_m3db",
+      "image": "https://pbs.twimg.com/media/HE2RP4vakAAkHaE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE2RP4vakAAkHaE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE2RP6sa4AA4zZC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE2RP1saMAAjMe2?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Made with Nano Banana 2 on @yapper_so\n\nAnya Taylor-Joy , Sydney Sweeney and Sabrina Carpenter \n\nPrompt:\n\n{\n  “meta”: {\n    “quality”: “ultra_photorealistic, raw style, 8k, masterpiece”,\n    “camera”: “iPhone 15 Pro Max”,\n    “lighting”: “Warm, dim, ambient indoor bedroom lighting at night, centered by an illuminated globe pendant light creating soft highlights and deep shadows on skin, hair, and the complex textures of the knit and mesh.”,\n    “style”: “Intimate lifestyle photography, high-fashion editorial close-up perspective shot, cinematic realism”,\n    “aspect_ratio”: “9:16”\n  },\n  “scene”: {\n    “location”: “A dimly lit, stylish bedroom at night, featuring an illuminated globe pendant light, an exposed textured wall panel, dark curtains, and a bed with plush white bedding.”,\n    “atmosphere”: “Confident, seductive, and intimately powerful.”\n  },\n“subject”: {\n    “gender”: “female”,\n    “name”: “A striking young woman who is a perfect, stunning double of Anya Taylor-Joy.”,\n    “body”: {\n      “type”: “Realistic, lean, and athletic figure, reflecting the subject’s signature striking build.”\n    },\n    “face”: {\n      “features”: “Anya Taylor-Joy’s distinctive large, wide-set eyes, high cheekbones, very fair skin, and full lips. Her striking sleek, platinum blonde hair is pulled back classically or styled in soft, defined waves falling loosely, with strands framing her face. Makeup is confident, with subtle smoky eyeshadow.”,\n      “expression”: “A bold, self-assured, and captivating gaze directed upward and directly over her shoulder at the camera, with the head tilted back, looking down into the lens.”\n    },\n    “outfit”: {\n       “description”: “White ribbed-knit long-sleeved crew-neck sweater, a short black high-waisted mini skirt, wide-mesh black fishnet stockings, and a black leather thigh-high boot (only the bottom edge is suggested).”,\n      “fit”: “Snug and form-fitting, emphasizing the contours of her body and the detailed textures of the ribbed knit and mesh.”,\n      “accessory”: “None.”\n    },\n    “pose”: “Seated on a bed with plush white bedding, reclining back on her hands on the bedding. She is positioned at a three-quarter angle, twisting her torso significantly to look directly and powerfully over her shoulder at the camera. The head is tilted back, looking down into the lens. The perspective replicates the intimate, low-angle close-up framing that focuses tightly on her face, neck, and the prominent leg in wide-mesh fishnet stockings and black mini skirt. The top edge of a black boot is suggested at the very bottom of the frame.”\n  },\n“composition”: “Intimate low-angle close-up perspective shot, focused intensely on the subject’s face, neck, and thigh, with a shallow depth of field. Sharp focus on the intricate diamond pattern of the wide-mesh fishnet stockings, the fine ribs of the white sweater, and her gaze. Natural film grain characteristic. Subtle background blur.”\n}",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE2RP4vakAAkHaE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE2RP6sa4AA4zZC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE2RP1saMAAjMe2?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Noira_exe/status/2039445912380903782",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "8k"
+      ],
+      "timestamp": 1786351300129,
+      "title": "Made with Nano Banana 2 on @yapper_so",
+      "url": "https://x.com/Noira_exe/status/2039445912380903782",
+      "collectedAt": "2026-08-10T08:41:44.399Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzfwo2_qe6j",
+      "image": "https://pbs.twimg.com/media/HE4MIglbsAAvQ1E?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HE4MIglbsAAvQ1E?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Same blue shirt, two storefront moods.\nOne smiled into the light, one leaned into it.\n\n同じブルーでも、空気は少しずつ変わる。あなたはどっち？\n同一件蓝衬衫，一张更像发光的门店封面，一张更像路过时突然停下来的轻松瞬间。\n\n Storefront portrait + warm sign backlight + oversized",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HE4MIglbsAAvQ1E?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2039581034325610731",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351300130,
+      "title": "Same blue shirt, two storefront moods.",
+      "url": "https://x.com/sidona/status/2039581034325610731",
+      "collectedAt": "2026-08-10T08:41:44.399Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "抽象",
+      "date": "2026-08-10",
+      "domain": "x.com",
+      "id": "ext_msmzfwo2_h0f1",
+      "image": "https://pbs.twimg.com/media/HEzkxQlbIAEZh31?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HEzkxQlbIAEZh31?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzkxUUboAAFmw4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEzkzHFbgAATPVt?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzk0cia8AACsfs?format=jpg&name=360x360"
+      ],
+      "model": "",
+      "prompt": "卧槽！挖到一个很猛的爬虫工具叫 XCrawl\n\n结合 OpenClaw 可以直接做小红书内容工厂\n\n之前用 OpenClaw 抓小红书内容，经常抓不到内容或者直接被禁止爬取，试了 XCrawl 之后，发现可以稳定爬取笔记内容和评论\n\n而且它可以把网页变成 Agent 能直接用的内容，不是截图，是干净的正文、结构化的数据，Agent",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HEzkxQlbIAEZh31?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzkxUUboAAFmw4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEzkzHFbgAATPVt?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HEzk0cia8AACsfs?format=jpg&name=360x360"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/imaxichuhai/status/2039257066976731561",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786351300130,
+      "title": "卧槽！挖到一个很猛的爬虫工具叫 XCrawl",
+      "url": "https://x.com/imaxichuhai/status/2039257066976731561",
+      "collectedAt": "2026-08-10T08:41:44.399Z"
+    }
+  ]
+}
