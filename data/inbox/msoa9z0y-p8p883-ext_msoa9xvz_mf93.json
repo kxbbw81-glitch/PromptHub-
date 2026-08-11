@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-11T06:32:45.202Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "自然",
+      "date": "2026-08-11",
+      "domain": "x.com",
+      "id": "ext_msoa9xvz_mf93",
+      "image": "https://pbs.twimg.com/media/HPXTABbboAAXcmV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPXTABbboAAXcmV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXSlAEaYAE6Evv?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2 提示词：\n透明玻璃勺从炖盅中舀起一块半透明雪梨，清亮糖水沿勺尖形成一条短小回流，为原创滋润甜品品牌“梨水慢炖”设计3:4竖版冰糖炖雪梨海报。唯一场景设在秋日上午的暖白石质窗台，画面中央偏右放一只直径15厘米的透明耐热玻璃炖盅，玻璃盖平放在左后方；盅内盛七成满清亮浅金糖水，准确放置八块滚刀切雪梨、六粒透明冰糖和三枚干桂花，一把透明玻璃勺从右侧舀起一块雪梨，停在盅沿上方约4厘米，糖水回流长度控制在3厘米。炖盅中心位于横向62%、纵向64%，占画面宽度约38%，左侧横向7%至42%、纵向9%至47%保持暖白文字区；前景只放半只新鲜雪梨，切面朝上，后景为柔化白纱帘，不加入红枣、枸杞或银耳。相机与炖盅中部等高偏上12厘米，使用90mm微距镜头从左前方俯拍14度，距离约72厘米，焦点锁定勺中梨肉纤维、糖水透明度和玻璃盅边缘，后盖保持可辨。左后方约5500K大型窗形柔光穿透糖水与梨肉，右前方暖白反光板恢复玻璃轮廓，两缕极淡蒸汽向窗边升起。配色为暖白背景52%、透明浅金糖水18%、雪梨乳白20%、玻璃灰5%、深褐文字5%；梨肉应熟软微透但保持块状，糖水清亮低黏度，不生成浓稠果酱或乳白汤。文字限定品牌名“梨水慢炖”、产品名“冰糖炖雪梨”、主文案“梨香慢炖，甜意清清落下”、英文副标“ROCK SUGAR STEWED PEAR”；左侧主文案用深褐细宋体分三行，品牌名置顶，产品名与英文在左下。锁定一只炖盅、一只玻璃盖、八块雪梨、六粒冰糖、三枚桂花、一把玻璃勺和左后窗光，禁止增加药材、第二只盅、冷凝水过量、蒸汽浓雾或梨块悬浮。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPXTABbboAAXcmV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXSlAEaYAE6Evv?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2086806314068725943",
+      "tags": [
+        "海报"
+      ],
+      "timestamp": 1786429963727,
+      "title": "不小心就生成了一张极美的冰糖炖雪梨海报",
+      "url": "https://x.com/Mrpinecone888/status/2086806314068725943",
+      "collectedAt": "2026-08-11T06:32:45.202Z"
+    }
+  ]
+}
