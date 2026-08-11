@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T06:28:30.748Z",
+  "updatedAt": "2026-08-11T06:31:05.428Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-08-11",
+      "domain": "x.com",
+      "id": "ext_msoa7bki_3w79",
+      "image": "https://pbs.twimg.com/media/HPXCjATWcAA4VYI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPXCjATWcAA4VYI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXCjAVXYAA6ZLt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXCjAUXEAA54rK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXCjAXWwAAN5HT?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "2:3竖幅，照片级真实室内自然光时尚人像摄影。一位明确22–28岁的成年女性背对镜头站在柔和米白色布帘前，画面从头部下缘裁切至小腿上方，脸部基本不出现，仅保留少量侧脸下颌和嘴唇轮廓。身体微微向左转，肩背放松，形成自然优雅的S形线条。她拥有暖白自然肤色，肩胛、背部、手臂与腿部保留真实皮肤纹理、毛孔、细小绒毛及轻微色差。长而蓬松的浅金棕色波浪卷发自然披散于背部，一部分发丝随意覆盖右肩和上背，带细碎飞发。穿奶油象牙色复古波西米亚一字肩长裙，宽松低肩领完整露出肩颈和上背，领口与短袖均采用多层细密荷叶边和弹性褶皱，胸腰部分为细褶皱压纹面料，腰间自然收束，长裙垂落至画面下方。左侧裙摆有高开衩，模特双手轻轻提起两侧裙摆，使左侧大腿外侧清晰露出一大片复杂黑色植物与花卉纹身，纹身从大腿中部向上延伸，线条细密、手绘感强。姿态安静克制，不看镜头，带轻微回身感。柔和金色午后阳光从画面左前方斜射进来，在左肩、手臂、腰部和裙摆形成明亮暖色高光，同时在右侧形成自然柔和阴影；无闪光灯。背景仅为质感柔软的米白色亚麻布帘，轻微褶皱，大面积虚化，环境极简。50mm或85mm镜头，f/2–2.8，浅景深，人物和纹身清晰，背景柔化。整体低饱和、低对比度、暖奶油色调，柔和高光滚降，轻微ISO200–400胶片颗粒，真实棉麻织物纤维、褶皱、皮肤微纹理与发丝细节，复古浪漫、自然、私密而高级的editorial摄影质感，photorealistic，natural imperfections，no plastic skin，no excessive retouching，no exaggerated anatomy，no text，no logo，no watermark。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPXCjATWcAA4VYI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXCjAVXYAA6ZLt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXCjAUXEAA54rK?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXCjAXWwAAN5HT?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2086905425560326463",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1786429841490,
+      "title": "手绘讲解视频",
+      "url": "https://x.com/ToroJushiAi/status/2086905425560326463",
+      "collectedAt": "2026-08-11T06:30:42.532Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-11T06:31:05.428Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
