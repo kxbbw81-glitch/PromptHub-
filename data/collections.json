@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T15:35:57.463Z",
+  "updatedAt": "2026-08-11T03:30:13.314Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-11",
+      "domain": "x.com",
+      "id": "ext_mso3qmtb_7f0y",
+      "image": "https://pbs.twimg.com/media/HPXBVCFXwAA-nsg?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPXBVCFXwAA-nsg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXBVBGXcAA0xRj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXBVA3XQAAfDJM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXBVAvXUAAshAI?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "2:3竖幅，照片级真实海滩度假人像摄影。一位明确22–26岁的成年东亚女性倚靠热带海滩木质凉亭的粗糙立柱，胸部至腰部的近中景构图，人物位于画面中央偏左，身体微侧，肩膀自然转向镜头，头部轻轻向左倾斜并靠近木柱，双眼直视镜头，表情安静柔和、略带亲近感。精致小巧鹅蛋脸，柔和下颌线，浅棕色杏仁眼，自然双眼皮，纤细眉形，挺直秀气鼻梁，饱满珊瑚裸粉色嘴唇；清透自然妆容，淡桃色腮红、细眼线、自然睫毛，保留真实皮肤纹理。浅金色短发，长度至下颌附近，蓬松凌乱的层次感Bob，深一点的自然发根，偏分刘海和大量细碎发丝被海风吹起。穿贴身象牙米白色细肩带吊带上衣，低圆弧领口，柔软微弹面料，自然贴合身体；颈部佩戴极细银色项链和一颗小珍珠吊坠。左手轻轻扶住木柱，另一只手臂自然交叠于身体前方。背景为明亮安静的热带沙滩，奶油色细沙、浅青绿色海水、淡蓝天空、茅草遮阳亭和木质躺椅，背景明显虚化。凉亭阴影提供柔和顶光，右前方明亮海滩自然光作为大面积反射补光，使脸部、肩颈与皮肤均匀明亮；发丝边缘带轻微暖色透光，无硬闪光。50–85mm人像镜头，f/2–2.8，浅景深，眼睛精准对焦，柔和奶油散景。整体低饱和、低对比、高明度，象牙白、沙色、浅木色与柔和青蓝色调，清爽高级的亚洲度假杂志editorial风格，真实毛孔、细小绒毛、自然肤色变化、真实木纹与织物纹理，轻微ISO 100–200颗粒，柔和高光滚降，photorealistic，natural imperfections，no plastic skin，no excessive retouching，no exaggerated eyes，no doll-like face，no text，no logo，no watermark。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPXBVCFXwAA-nsg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXBVBGXcAA0xRj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXBVA3XQAAfDJM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPXBVAvXUAAshAI?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2086814834293866634",
+      "tags": [
+        "photorealistic",
+        "青绿",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1786418985215,
+      "title": "海边晨光编辑写真女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2086814834293866634",
+      "collectedAt": "2026-08-11T03:29:46.063Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-11T03:30:13.314Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "自然",
