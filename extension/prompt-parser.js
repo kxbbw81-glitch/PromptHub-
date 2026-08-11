@@ -46,12 +46,12 @@
   ];
 
   const VISUAL_PROMPT_BUCKETS = [
-    /(portrait|woman|man|girl|model|person|character|subject|product|bottle|packaging|logo|architecture|landscape|人物|人像|女性|男性|模特|角色|主体|产品|商品|包装|标志|建筑|风景)/i,
+    /(portrait|woman|man|girl|model|person|character|subject|product|bottle|packaging|logo|architecture|landscape|typography|lettering|poster|calligraphy|人物|人像|女性|男性|模特|角色|主体|产品|商品|包装|标志|建筑|风景|字体|文字|海报|书法|草书|笔画|排版)/i,
     /(background|scene|environment|studio|room|street|forest|beach|city|interior|背景|场景|环境|摄影棚|室内|街头|森林|海边|城市|空间)/i,
     /(composition|framing|close[- ]?up|full body|half body|angle|view|构图|画面|景别|特写|全身|半身|角度|视角)/i,
     /(lighting|light|golden hour|backlight|soft light|studio light|rim light|光线|光照|自然光|逆光|柔光|棚灯|轮廓光)/i,
     /(camera|lens|35mm|50mm|85mm|depth of field|bokeh|shallow depth|镜头|焦距|景深|虚化|拍摄)/i,
-    /(photorealistic|realistic|cinematic|editorial|film|ultra detailed|highly detailed|写实|电影感|编辑|胶片|高清|细节|质感|风格)/i,
+    /(photorealistic|realistic|cinematic|editorial|film|ultra detailed|highly detailed|写实|电影感|编辑|胶片|高清|细节|质感|风格|视觉|动感|大师作品|飞白|极简|平面|矢量)/i,
     /(no text|no watermark|without text|without watermark|不要文字|不要水印|禁止文字|无水印)/i,
     /\b(--ar|--v|--style|--chaos|--stylize|--niji|seed|cfg|sampler)\b/i
   ];
@@ -465,7 +465,8 @@
 
   function isAutoCollectablePrompt(text) {
     const value = cleanText(text);
-    if (!isCompletePrompt(value)) return false;
+    const isTypographyPrompt = /(typography|lettering|poster|calligraphy|字体|文字|海报|书法|草书|笔画|排版)/i.test(value);
+    if (!isCompletePrompt(value) && !(isTypographyPrompt && value.length >= 80)) return false;
 
     const visualBuckets = visualPromptBucketCount(value);
     const nonPromptScore = nonPromptLongformScore(value);

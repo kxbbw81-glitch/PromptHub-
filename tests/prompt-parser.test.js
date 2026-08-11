@@ -108,6 +108,12 @@ test('keeps visual e-commerce prompts collectable', () => {
   assert.equal(parser.isAutoCollectablePrompt(prompt), true);
 });
 
+test('keeps typography poster prompts collectable', () => {
+  const prompt = '书法字体海报“山海漫记”，草书字体狂野奔放，视觉张力富有动感，超粗笔画流畅飘逸，笔画巧妙延长变形，飞白效果，干净背景，大师海报作品，电影海报，英文“Yunnan Trip”和小字“A Wonderful Journey”，红色印章作为点缀。';
+
+  assert.equal(parser.isAutoCollectablePrompt(prompt), true);
+});
+
 test('replaces social platform titles with a content-specific prompt summary', () => {
   const raw = `
 GPT Image 2 on ChatGPT

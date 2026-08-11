@@ -2014,7 +2014,7 @@
                   <h2>PromptHub 浏览器插件</h2>
                   <p>在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏</p>
                 </div>
-                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.28.0.zip" download="PromptHub-Extension-v3.28.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.28.0">↓ 下载浏览器插件 <span>v3.28.0</span></a>
+                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.29.0.zip" download="PromptHub-Extension-v3.29.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.29.0">↓ 下载浏览器插件 <span>v3.29.0</span></a>
               </div>
 
               <div class="imp-ext-feats">

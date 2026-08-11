@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>即梦AI公开样本 - 分析收藏报告</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Microsoft YaHei", sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.header { background: linear-gradient(135deg, #111827, #f7c600); color: white; padding: 30px; border-radius: 12px; margin-bottom: 20px; }
+.header h1 { font-size: 24px; margin-bottom: 8px; }
+.header .meta { font-size: 14px; opacity: 0.9; }
+.stats { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+.stat-card { background: white; padding: 20px; border-radius: 10px; flex: 1; min-width: 150px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); text-align: center; }
+.stat-card .num { font-size: 32px; font-weight: 700; color: #111827; }
+.stat-card .label { font-size: 13px; color: #888; margin-top: 4px; }
+.stat-card.success .num { color: #16a34a; }
+.stat-card.warn .num { color: #f59e0b; }
+.section { background: white; border-radius: 10px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.section-header { padding: 15px 20px; background: #f0f2f5; font-weight: 600; font-size: 16px; border-bottom: 1px solid #e8e8e8; display: flex; justify-content: space-between; align-items: center; }
+.section-header .count { background: #111827; color: white; padding: 2px 10px; border-radius: 12px; font-size: 13px; }
+.content { padding: 18px 20px; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; }
+th { padding: 10px 15px; text-align: left; font-size: 13px; color: #888; border-bottom: 2px solid #f0f0f0; background: #fafafa; }
+td { padding: 10px 15px; border-bottom: 1px solid #f5f5f5; font-size: 13px; vertical-align: top; }
+tr:hover { background: #fafafa; }
+.title { color: #111827; font-weight: 600; }
+.source { color: #666; word-break: break-all; }
+.tag { display: inline-block; background: #fff7cc; color: #8a6400; padding: 2px 8px; border-radius: 4px; font-size: 11px; white-space: nowrap; margin-right: 4px; }
+.status-ok { color: #16a34a; font-weight: 600; }
+.status-skip { color: #f59e0b; font-weight: 600; }
+.note { color: #666; margin: 6px 0; }
+.footer { text-align: center; padding: 20px; color: #999; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>即梦AI公开样本 · 分析收藏报告</h1>
+<div class="meta">来源: https://jimeng.jianying.com/ai-tool/home | 时间: 2026-08-11 | 任务: 分析公开可索引样本并收藏到 PromptHub</div>
+</div>
+
+<div class="stats">
+<div class="stat-card"><div class="num">5</div><div class="label">检查样本</div></div>
+<div class="stat-card success"><div class="num">5</div><div class="label">成功收藏</div></div>
+<div class="stat-card warn"><div class="num">5</div><div class="label">本地静态图</div></div>
+<div class="stat-card"><div class="num">107</div><div class="label">测试通过</div></div>
+</div>
+
+<div class="section">
+<div class="section-header"><span>来源判断</span><span class="count">公开可索引</span></div>
+<div class="content">
+<p class="note">首页本身是工具入口，不是可直接收藏的提示词库；可收藏内容来自公开索引的 work-detail / share 详情页。</p>
+<p class="note">即梦媒体地址带签名和过期时间，因此本次已将可用结果图下载到仓库静态目录 <strong>assets/jimeng/</strong>，收藏中引用主站 HTTPS 静态图，避免后续图片失效。</p>
+<p class="note">采集范围为公开展示的提示词、模型、比例、作者和来源链接；未使用登录态、未访问私有页面。</p>
+</div>
+</div>
+
+<div class="section">
+<div class="section-header"><span>收藏明细</span><span class="count">5 条</span></div>
+<table>
+<thead><tr><th style="width:25%">标题</th><th style="width:15%">类型</th><th style="width:15%">模型 / 比例</th><th style="width:30%">来源</th><th style="width:15%">状态</th></tr></thead>
+<tbody>
+<tr>
+<td class="title">宇宙黑洞循环短片</td>
+<td><span class="tag">视频提示词</span></td>
+<td>即梦 Seedance 2.0 VIP / 16:9</td>
+<td class="source">jimeng_7653821842918034734</td>
+<td><span class="status-ok">OK</span></td>
+</tr>
+<tr>
+<td class="title">东方极简品牌周边</td>
+<td><span class="tag">电商视觉</span><span class="tag">品牌视觉</span></td>
+<td>图片 3.0 / 2:3</td>
+<td class="source">jimeng_7490948438721334580</td>
+<td><span class="status-ok">OK</span></td>
+</tr>
+<tr>
+<td class="title">山海漫记书法海报</td>
+<td><span class="tag">品牌视觉</span></td>
+<td>图片 4.0 / 16:9</td>
+<td class="source">jimeng_7579976142073908507</td>
+<td><span class="status-ok">OK</span></td>
+</tr>
+<tr>
+<td class="title">鲜衣怒马曲线字海报</td>
+<td><span class="tag">品牌视觉</span></td>
+<td>图片 4.6 / 1:1</td>
+<td class="source">jimeng_7608789239249095987</td>
+<td><span class="status-ok">OK</span></td>
+</tr>
+<tr>
+<td class="title">黑底手写字体海报</td>
+<td><span class="tag">品牌视觉</span></td>
+<td>图片 4.1 / 1:1</td>
+<td class="source">jimeng_7594876328462142771</td>
+<td><span class="status-ok">OK</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<div class="section-header"><span>规则优化</span><span class="count">1 项</span></div>
+<div class="content">
+<p class="note">补充了字体海报识别词：typography、lettering、poster、calligraphy、字体、文字、海报、书法、草书、笔画、排版、飞白、矢量等。</p>
+<p class="note">该规则只补足视觉海报场景，不放宽电商运营长文过滤，避免再次误收“教程/工具清单/选品流程”类文本。</p>
+</div>
+</div>
+
+<div class="footer">PromptHub · 自动分析收藏报告</div>
+</div>
+</body>
+</html>

@@ -1,7 +1,168 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T08:06:26.625Z",
+  "updatedAt": "2026-08-24T08:10:07.630Z",
   "collections": [
+    {
+      "id": "jimeng_7579976142073908507",
+      "title": "山海漫记书法海报",
+      "prompt": "书法字体海报“山海漫记”，草书字体狂野奔放，视觉张力富有动感，超粗笔画流畅飘逸，笔画巧妙延长变形，飞白效果，笔画流畅潇洒，干净背景，大师海报作品，电影海报，英文“Yunnan Trip”和小字“A Wonderful Journey”，红色印章作为点缀",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7579976142073908507.png",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7579976142073908507.png"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7579976142073908507.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "category": "品牌视觉",
+      "mediaType": "image",
+      "model": "图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7579976142073908507?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7579976142073908507?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "慢慢",
+      "sourceAuthorUrl": "",
+      "tags": [
+        "即梦AI",
+        "图片提示词"
+      ],
+      "date": "2026-08-11",
+      "collectedAt": "2026-08-11T07:22:24.947Z",
+      "githubSyncedAt": "2026-08-11T07:22:24.947Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786432946959
+    },
+    {
+      "id": "jimeng_7608789239249095987",
+      "title": "鲜衣怒马曲线字海报",
+      "prompt": "纯黑曲线拼接构成字 “鲜衣怒马”，笔画由连续柔软的细曲线衔接而成，无特效肌理，贴合童趣活动的悠然惬意意境，背景为纯白色平涂。构图位置：字体位于画面上半部居中，纤细英文副标题 VISION 置于画面下方居中。光影：无光影，高级灰曲线字体 + 纯白背景。风格与氛围：曲线拼接风 + 极简设计，氛围闲适自在、充满溪边拾贝的童趣感。景别：抽象图形平面。后期效果：矢量平涂，曲线顺滑自然，字形柔和灵动。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7608789239249095987.png",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7608789239249095987.png"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7608789239249095987.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "category": "品牌视觉",
+      "mediaType": "image",
+      "model": "图片 4.6",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7608789239249095987?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7608789239249095987?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "VISION",
+      "sourceAuthorUrl": "",
+      "tags": [
+        "即梦AI",
+        "图片提示词"
+      ],
+      "date": "2026-08-11",
+      "collectedAt": "2026-08-11T07:20:24.315Z",
+      "githubSyncedAt": "2026-08-11T07:20:24.315Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786432828545
+    },
+    {
+      "id": "jimeng_7653821842918034734",
+      "title": "宇宙黑洞循环短片",
+      "prompt": "以上传图片作为唯一风格和场景参考，保持原图构图、黑洞位置、半弧形彩色引力透镜光环、飞船位置和整体色彩氛围不变。生成高清 4 秒电影级科幻视频，宇宙空间穿越，时间穿越，引力透镜，巨大的黑洞带来强烈压迫感，彩色光线被时间扭曲并沿黑洞边缘缓慢流动。飞船正在接近光速穿越，尾部出现细长的蓝紫色、金色、红色光轨，呈现不真实的速度感。远处亮白色宇宙尘埃无序漂移，星云和碎光被空间曲率拉伸、折射、反射。镜头做非常缓慢的向前推进和轻微环绕，画面宏大、深邃、极致细节、顶级科幻视觉、大师级构图、HDR、体积光、电影感。\n循环要求：\n视频必须适合无缝循环播放。开头和结尾保持几乎相同的构图与主体位置，最后一帧回到接近第一帧的画面状态。光环流动、星尘漂移、飞船光轨以周期性运动衔接，不要出现明显跳切、突然变焦、突然变亮或主体位移断层。整体运动 hypnotic、令人凝视，突出宇宙浩瀚无垠的感觉。\n反向提示词：\n不要文字，不要水印，不要 logo，不要人物，不要卡通风，不要低清晰度，不要噪点过多，不要画面闪烁，不要剧烈抖动，不要快速切镜，不要突然改变构图，不要新增大型星球或多余飞船，不要让黑洞变形消失，不要让飞船偏离原始位置太远。\n建议参数：\n模式：图生视频\n时长：4 秒\n比例：跟随原图，横版 16:9\n清晰度：高清 / 高质量\n镜头运动：轻微推进 + 轻微环绕\n运动强度：中低，优先稳定和循环衔接",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7653821842918034734.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7653821842918034734.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7653821842918034734.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "category": "视频提示词",
+      "mediaType": "video",
+      "model": "即梦 Seedance 2.0 VIP",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7653821842918034734?itemType=53&workDetailType=AiVideo",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7653821842918034734?itemType=53&workDetailType=AiVideo",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "大柱子学AI",
+      "sourceAuthorUrl": "",
+      "tags": [
+        "即梦AI",
+        "视频提示词"
+      ],
+      "date": "2026-08-11",
+      "collectedAt": "2026-08-11T07:18:55.710Z",
+      "githubSyncedAt": "2026-08-11T07:18:55.710Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786432737664
+    },
+    {
+      "id": "jimeng_7490948438721334580",
+      "title": "东方极简品牌周边",
+      "prompt": "未来感东方极简品牌视觉系统设计，品牌名为“即梦AI Dreamina AI”，整体风格融合现代中式美学与科技幻想意境，主色调为白色背景搭配墨绿色与暖橙红点缀，画面中包含品牌全套周边视觉应用，包括手提袋、咖啡杯、纸盒包装、饮品贴纸、茶酒瓶、品牌卡片、便签礼签等，整体排布规整、具有秩序感与呼吸感，核心视觉图形为渐变流动感肌理，形似水纹、山岚或AI生成数据流线，搭配橙色自由曲线作为品牌动线符号，包装字体使用中英混排排版，品牌主标题字体为现代极简黑体，中间穿插仿宋中文与无衬线英文字体，文案信息排布于不同位置：咖啡杯上印有“生成我今日的情绪”“梦，是流动的代码”，盒装包装上印有品牌主张“即刻生活，即是梦境”“所饮即所梦，所梦皆可生成”，手提袋中心印有大字文案“一杯即梦，走进无定义日常”，贴纸或卡片上标注“热饮 · 冷感 · 灵光一现”“非线性清醒，也值得饮下”，品牌LOGO为“即梦AI Dreamina AI”黑体简排组合，所有物品呈规整排布或立体堆叠展示，背景为浅灰中性桌面，光影自然柔和，整体质感极简克制又不失情绪流动，适合AI生成生活方式品牌、电商品牌包装系统、饮品品牌视觉展示与高审美品牌世界观构建场景使用，风格现代、新中式、哲思而先锋, 2",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7490948438721334580.png",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7490948438721334580.png"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7490948438721334580.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "mediaType": "image",
+      "model": "图片 3.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7490948438721334580?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7490948438721334580?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "渊静-中意",
+      "sourceAuthorUrl": "",
+      "tags": [
+        "即梦AI",
+        "图片提示词"
+      ],
+      "date": "2026-08-11",
+      "collectedAt": "2026-08-11T07:18:55.710Z",
+      "githubSyncedAt": "2026-08-11T07:18:55.710Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786432739286
+    },
+    {
+      "id": "jimeng_7594876328462142771",
+      "title": "黑底手写字体海报",
+      "prompt": "画面风格为简约文艺的手写字体风，背景为纯黑色，营造深邃静谧氛围。主体文字 “热爱自己的命运” 以流畅自然的手写笔触呈现，字体灵动飘逸，笔画粗细有致，具艺术感。下方小英文装饰同样用随性的手写字体书写，与中文相互呼应。整体画面简洁干净，突出文字传达的浪漫意蕴，达 4K 高清标准。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7594876328462142771.png",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7594876328462142771.png"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7594876328462142771.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "category": "品牌视觉",
+      "mediaType": "image",
+      "model": "图片 4.1",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7594876328462142771?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7594876328462142771?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "设计無象限",
+      "sourceAuthorUrl": "",
+      "tags": [
+        "即梦AI",
+        "图片提示词"
+      ],
+      "date": "2026-08-11",
+      "collectedAt": "2026-08-11T07:18:55.710Z",
+      "githubSyncedAt": "2026-08-11T07:18:55.710Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786432742617
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
