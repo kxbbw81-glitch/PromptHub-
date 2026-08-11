@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T06:27:00.009Z",
+  "updatedAt": "2026-08-11T06:27:28.674Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "静物",
+      "date": "2026-08-11",
+      "domain": "x.com",
+      "id": "ext_msoa2mgx_6ijb",
+      "image": "https://pbs.twimg.com/media/HPWycC1bgAAEYue?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPWycC1bgAAEYue?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPWycBWawAA_ZKk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "写真风格，一位年轻女性在室内厨房环境中，身体略微侧向画面左侧腰部倚靠在右下角的木纹桌面上，但头部转向镜头略侧下垂，眼神温柔直视镜头，嘴角微扬，表情恬静自然。她留着深色长发，部分发丝垂落额前，身穿一件浅水粉色宽松的无袖背心，领口呈U字形，露出锁骨与部分肩颈线条，右手轻捏衣角上提（呈现部分右侧腰部），左肘竖放在木纹桌面上举持一个大的印有图案的食品包装袋，姿态放松。该年轻女性拥有少女网红脸，高颜值，身材匀称，皮肤白皙。超高颜值美女，神秘又美丽，精致面容，精细刻画，写真，魅力十足，楚楚动人，电影质感，动态美捕捉，细微表情，皮肤细腻白皙粉嫩。画面构图为胸部以上特写，未显示腿部及脚部，拍摄角度为正面略俯，背景为模糊的厨房台面，可见柠檬、瓶罐等生活物品，整体光线明亮柔和，氛围清新居家，充满生活气息与温柔感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPWycC1bgAAEYue?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPWycBWawAA_ZKk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2086770804034072898",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1786429622337,
+      "title": "其实提示词没什么复杂的",
+      "url": "https://x.com/Adam38363368936/status/2086770804034072898",
+      "collectedAt": "2026-08-11T06:27:03.346Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-11T06:27:28.674Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
