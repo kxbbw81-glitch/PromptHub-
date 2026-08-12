@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-12T05:34:05.840Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-12",
+      "domain": "x.com",
+      "id": "ext_mspnmde0_hwvm",
+      "image": "https://pbs.twimg.com/media/HPZv4QqXkAA9XW9?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPZv4QqXkAA9XW9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPZv4Q6WIAA52br?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPZv4RAWcAAyQFO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPZv4RCX0AAe2e7?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "9:16竖幅，照片级真实夜店/酒吧纪实人像摄影。两位明确22–28岁的成年东亚女性并肩站在拥挤的高档鸡尾酒吧吧台前，画面从头顶至大腿中下部，全身偏近景，人物位于中央，背景为模糊的人群、深色木质吧台、酒瓶陈列架和暖黄色灯光。左侧女性长黑发自然半扎，脸侧留有松散碎发，穿黑色蕾丝短款吊带上衣，宽蕾丝肩带、低圆弧领口、胸腹位置为精细半透明花卉蕾丝，下摆停在腰线上方，露出自然小腹和肚脐；搭配黑色高腰贴身短裤。她双手拿着透明玻璃杯，杯中是棕色冰饮，一根黑色吸管靠近嘴唇，轻轻吸饮，视线略偏右，表情安静、略带俏皮。右侧女性黑色头发随意盘成蓬松凌乱发髻，脸侧有细碎发丝，穿相似的黑色蕾丝短款吊带上衣，搭配深灰色高腰西装短裤。她身体微微前倾，头部向左侧朋友靠近，张嘴大笑，露齿，眼睛因笑意微微眯起，神情真实、放松、有感染力。两人形成强烈性格反差：一人克制吸饮，一人大笑。环境为夜间热门酒吧，身后客人密集但完全虚化，金色酒瓶、玻璃杯、木质货架、拱形金属结构和暖色射灯形成丰富背景层次。摄影使用35mm或50mm镜头，f/1.8–2.2，近距离抓拍，浅景深，人物面部和上半身清晰，背景呈奶油散景。主光来自酒吧内部暖黄色顶灯和侧后方灯光，并辅以极低强度正面闪光或机顶补光，使皮肤清晰但仍保留夜店环境感；头发和肩部带细腻暖色轮廓光。整体低饱和、轻暖棕调、低至中等对比，模拟ISO800–1600高感胶片质感，保留轻微颗粒、真实皮肤毛孔、汗光、自然肤色变化、真实蕾丝与织物纹理。氛围热闹、亲密、抓拍感强，像朋友聚会时被偶然记录的一瞬，时尚但不摆拍，cinematic nightlife editorial，photorealistic，natural imperfections，no plastic skin，no excessive retouching，no exaggerated anatomy，no text，no logo，no watermark。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPZv4QqXkAA9XW9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPZv4Q6WIAA52br?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPZv4RAWcAAyQFO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPZv4RCX0AAe2e7?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2087177218195890181",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "人像",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1786512844872,
+      "title": "咖啡馆夜景电影感双人肖像",
+      "url": "https://x.com/ToroJushiAi/status/2087177218195890181",
+      "collectedAt": "2026-08-12T05:34:05.840Z"
+    }
+  ]
+}
