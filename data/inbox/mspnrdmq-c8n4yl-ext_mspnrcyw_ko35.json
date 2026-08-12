@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-12T05:37:58.466Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-12",
+      "domain": "x.com",
+      "id": "ext_mspnrcyw_ko35",
+      "image": "https://pbs.twimg.com/media/HPeo1czWgAAxFuQ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPeo1czWgAAxFuQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPeo1dVXIAA-33F?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "2:3竖幅，照片级真实夜间酒吧生活方式人像摄影。一位明确25–32岁的成年东亚女性倚靠在高级鸡尾酒吧的深色木质吧台上，近中景构图，从头顶拍至腰部附近。她身体微微前倾，左前臂自然支撑在吧台，右手握着一只高球玻璃杯，杯中是浅金色透明鸡尾酒、冰块和少量柑橘片，杯沿插着一片粉橙色葡萄柚。她身体转向画面右侧，与前景一位模糊男性交谈，眼神看向对方而非镜头，嘴唇微张，带自然交谈中的轻柔笑意，表情亲近、放松、真实抓拍感。\n\n她拥有精致成熟的东亚面容，柔和鹅蛋脸，深棕杏仁眼，自然双眼皮，细长眉形，挺直秀气鼻梁，裸棕粉色嘴唇；妆容清透克制，细眼线、自然睫毛、轻微暖色腮红，皮肤带真实微光和毛孔。深棕黑色长发盘成松散低发髻，发髻略凌乱，脸侧与颈部留有多缕自然碎发。穿极简黑色细肩带吊带裙或贴身上衣，低圆弧领口，露出锁骨、肩颈和上胸线条；佩戴极细金色项链、小吊坠以及小型金色耳环。\n\n环境为昏暗而高级的夜间鸡尾酒吧，背景酒架上摆满各色酒瓶与玻璃器皿，暖黄色柜内灯形成大量金色散景。吧台下缘隐藏一条紫洋红色LED灯带，在木质吧台和人物手臂下方形成明显紫色反射。画面右前景出现一位穿浅色上衣的成年男性背影和肩膀，高度虚化，仅作为对话关系和景深前景元素，不抢主体。主光来自酒架暖琥珀灯和画面左前方极弱柔和补光，面部呈暖金色，右侧与下方带紫色霓虹反射，形成自然冷暖混合夜景光，无硬闪光。50mm或85mm镜头，f/1.4–2，浅景深，眼睛、脸部和酒杯清晰，背景与前景均奶油化。整体低照度、低饱和、低对比度，暖金、深黑、木棕和紫洋红色为主，ISO800–1600胶片颗粒，真实皮肤微纹理、发丝、玻璃折射、冰块、酒液、木纹和霓虹反射，电影感、成熟、私密、高级夜生活editorial摄影，photorealistic，natural imperfections，no plastic skin，no excessive retouching，no exaggerated anatomy，no text，no logo，no watermark。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPeo1czWgAAxFuQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPeo1dVXIAA-33F?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2087373516731544013",
+      "tags": [
+        "photorealistic",
+        "人像",
+        "摄影",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1786513077608,
+      "title": "霓虹夜街黑色吊带裙女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2087373516731544013",
+      "collectedAt": "2026-08-12T05:37:58.466Z"
+    }
+  ]
+}
