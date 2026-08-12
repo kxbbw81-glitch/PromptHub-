@@ -1,7 +1,674 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T08:10:07.630Z",
+  "updatedAt": "2026-08-24T08:10:22.189Z",
   "collections": [
+    {
+      "id": "jimeng_7652706600678919462",
+      "title": "故障人影抽象海报",
+      "prompt": "动态角度，颗粒感，肌理感，艺术氛围感加强，厚涂+晕染水粉，颜料的涂抹感+肌理感，超现实主义美学，高级的氛围感，层次感，矛盾冲突的视觉冲击和有机融合。画面不经意的刀刮刻痕，质感和肌理，深刻，内部张力，朦胧斑驳美学，似是而非的呈现，不确定的主题，二次嚗光，情绪渗透，叙事和故事，隐喻式，，承载对人性、苦难、命运的深度，完成哲学表达，模糊人影故障风格，VHS故障风格，数字故障效果，浅景深，黑白尽头，蓝色背景",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652706600678919462.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652706600678919462.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652706600678919462.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v43",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7652706600678919462?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7652706600678919462?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "明心",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "抽象",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "抽象"
+      ]
+    },
+    {
+      "id": "jimeng_7630350931917311278",
+      "title": "Q版孙悟空背影",
+      "prompt": "绒毛材质，极端透视，干净白背景，3D渲染，极简，Q萌，艺术性，光线追踪，朦胧感，光影加重，硕大的胖嘟嘟的孙悟空(黄衣服，蓝围巾，金箍黄色帽子，眼睛周围红脸)背部特写，扭头，翻白眼，皮毛质感纹理。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7630350931917311278.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7630350931917311278.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7630350931917311278.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7630350931917311278?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7630350931917311278?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "知止",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "角色",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "角色",
+        "我这款咋样"
+      ]
+    },
+    {
+      "id": "jimeng_7636579227151748390",
+      "title": "书法佛经空间",
+      "prompt": "空间布满自上而下的书法和佛经，墨色小人行走在其中。 中国水墨，低角度。动态模糊强化携带速度线残影，超广角强透视构图，动态模糊边缘虚化，弥散晕染的暗部层次，张力十足，压迫感，细节生动完美。威胁压迫感，极其震撼的一幕，光影彼此交织错杂的梦幻感，朦胧，过曝，双重曝光，电影级构图，视觉冲击，8K画质，超清，极致细节，极致刻画，清晰的线条，高对比。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7636579227151748390.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7636579227151748390.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7636579227151748390.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 3.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7636579227151748390?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7636579227151748390?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "AI李博士aidrlicom",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "抽象",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "抽象",
+        "书法和佛经"
+      ]
+    },
+    {
+      "id": "jimeng_7635794147365948718",
+      "title": "赛博妖刀将军",
+      "prompt": "赛博朋克的怪异暗黑银红色妖刀将军，莹光线条以哥特式纹路嵌入大头冠与面具神环，极繁主义细节，长流苏垂落两肩，长剑极复杂唯美的刻纹，精细的描绘其的每一个金属部件，展现其外部复杂精细的各种构造，细节美观，花纹拥有独特的立体感， 雕塑风格，虚幻引擎渲染，远景，广角镜头，全身镜头，超清。低角度仰拍。随机动作，随机背景， 超广角强透视构图，张力十足，压迫感，细节生动完美。极其震撼的一幕，视觉冲击力强，光影彼此交织错杂的梦幻感，朦胧，明暗对比强烈，阴影过渡自然，电影级构图，视觉冲击，动态特效，8K画质，超清，极致细节，清晰的线条，高对比，大师级别的作品，线条流畅，超清画质，完美品质，高质量，自适应饱和度，专业级打光，大师杰作，自由视角，阴影过渡自然，氛围感，高级感，意境，亮闪，唯美，神圣，宿命感拉满，弥散粒子，画面具有层次感。视觉冲击，故事感，高级感，动态飘逸感。生成图片融合龙飞凤舞",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7635794147365948718.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7635794147365948718.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7635794147365948718.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 4.1",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7635794147365948718?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7635794147365948718?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "云舞",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "赛博朋克",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "赛博朋克"
+      ]
+    },
+    {
+      "id": "jimeng_7637361926120557851",
+      "title": "Q萌猫咪宝宝",
+      "prompt": "，3D，OC渲染，极简，Q萌，艺术性，光线追踪，朦胧感，光影加重，硕大的胖嘟嘟的猫咪宝宝（蓝条纹色衣服、黄色围巾）背部特写，扭头，翻白眼，皮毛质感纹理。背景厅堂里。高清，电影镜头质感画面。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637361926120557851.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637361926120557851.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637361926120557851.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7637361926120557851?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7637361926120557851?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "用户7924234773275常乐",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "动物",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "动物"
+      ]
+    },
+    {
+      "id": "jimeng_7657924306998971675",
+      "title": "粒子鱼尾海报",
+      "prompt": "以藏青色背景为主色调平面设计，沉稳高级，以橘橙色、浅青绿、深墨绿、藏青蓝、纯白色渐变粒子汇聚形成鱼尾轮廓，形态，抽象，营造轻奢、精致质感，强调稳定与聚焦，风格偏向商业美学。画面居中下方有极细衬线字体英文主标题，副标题极小字英文金句+极小JS。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7657924306998971675.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7657924306998971675.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7657924306998971675.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v43",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7657924306998971675?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7657924306998971675?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "元宝",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "品牌视觉",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "品牌视觉",
+        "鱼尾"
+      ]
+    },
+    {
+      "id": "jimeng_7637494064404761883",
+      "title": "Q萌苍蝇特写",
+      "prompt": "绒毛材质，超现实未来主义，干净，简洁，极简，可爱，萌，艺术性，光线追踪，朦胧感，内容简洁，想象力爆表的获奖作品，光影加重，扁平化，胖嘟嘟的绿头苍蝇脸部侧脸特写，闭眼，仰头，8K超清画质",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637494064404761883.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637494064404761883.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637494064404761883.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7637494064404761883?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7637494064404761883?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "清清子清",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "动物",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "动物"
+      ]
+    },
+    {
+      "id": "jimeng_7653492140219174194",
+      "title": "举人赶考插画",
+      "prompt": "插画风格，高定风，景深，蓝灰色渐变磨砂肌理背景，人物线条婉约扭曲，夸张，幽默，质感，但不失淡定，抬头，低头，转头的各种动作。飘散迷雾边缘朦胧伦勃朗光背景渗入角色，高度创意，红黄绿粉棕渐渗透魔变，京城二举人赶考，瞎捉摸，刁钻写意，故事感，拉远镜头，神色各异，挤眉弄眼儿，探头缩脑，夸张幽默，高矮胖瘦，撇嘴，表情不同，猜忌，得意，不安，互动，白色背景，夸张细笔锋线条人物，大写意",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7653492140219174194.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7653492140219174194.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7653492140219174194.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "mediaType": "image",
+      "model": "即梦 图片 3.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7653492140219174194?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7653492140219174194?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "廖沐子",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "角色",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "角色"
+      ]
+    },
+    {
+      "id": "jimeng_7629272618775874867",
+      "title": "古檐文字瀑布海报",
+      "prompt": "文字创意排版，极简主义，黑色层叠古建筑屋檐下微小密集的文字构成瀑布字缓缓流下，瀑布字中央坐极小人，背景纯净留白，强烈的肌理感与层次分明的文字排版，质感明显，黑白强对比，杰作。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7629272618775874867.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7629272618775874867.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7629272618775874867.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7629272618775874867?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7629272618775874867?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "九歌骐骥",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "品牌视觉",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "品牌视觉",
+        "文字创意排版"
+      ]
+    },
+    {
+      "id": "jimeng_7631404330171518259",
+      "title": "Q萌猫咪宝宝",
+      "prompt": "绒毛材质，极端透视，干净白背景，3D，OC渲染，极简，Q萌，艺术性，光线追踪，朦胧感，光影加重，硕大的胖嘟嘟的猫咪宝宝（蓝色衣服、黄色围巾）背部特写，扭头，翻白眼，皮毛质感纹理。纯大红色背景。高清，电影镜头质感画面。\n画面顶部（左、中、右的位置）有极细无衬线白色字体\"XUX\"、\"2026\"、\"CREATE\"，左下角标注有极细无衬线白色字体 “AI-Generated” ，右下角标注有极细无衬线白色字体 “Design Empowerment”。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7631404330171518259.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7631404330171518259.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7631404330171518259.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7631404330171518259?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7631404330171518259?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "粒小粒",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "动物",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "动物"
+      ]
+    },
+    {
+      "id": "jimeng_7661282595996585243",
+      "title": "机械姬人像",
+      "prompt": "机械姬,超现实主义，真人质感人像摄影，短发清冷机械姬，日常快照风格，非精心构图打光，构图随性自然尽显绚丽日常，害羞温柔神态，迎风动态，灵动与镜头互动，冷白皮透光仿生机械肌肤，精致瓜子脸尖下颌，超真实胶片摄影质感，倾斜构图，低角度仰视拍摄，淡彩白调泛轻微银白科技质感，冷调白光氛围，侧逆光勾勒机械轮廓，多重曝光叠加半透明赛博光影，柔焦失焦朦胧感，超广角镜头，强空间透视压缩背景，极致动态美学，细节生动完美顶级杰作，胶片摄影镜头语言，淡彩通透质感，暗调低光氛围，个性独特视角，意境奇妙融合，倾国倾城机械颜值，肌肤白皙嫩滑通透，仿 Bjd 精致建模质感，头戴繁复华丽未来科技饰品，极致清冷通透透光感，洛丽塔御系机械姬风格，梦幻高级色系，精美繁复机甲服饰与赛博配饰，神秘梦核质感，明亮高级画面，超高颜值，高明暗对比度，柔虚焦视觉既视感，情绪氛围感拉满，细腻胶片颗粒质感，画面层次丰富，写意光影美学，lomo 复古滤镜效果，超现实艺术质感，极致高级感，全站杰作，朦胧空灵氛围，高清4K",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7661282595996585243.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7661282595996585243.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7661282595996585243.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v43",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7661282595996585243?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7661282595996585243?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "F128",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "科幻",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "科幻",
+        "美女"
+      ]
+    },
+    {
+      "id": "jimeng_7641101791475567899",
+      "title": "机器人牛仔设定",
+      "prompt": "电影级角色设定集，照片级真实感人形机器人牛仔，带有明显金属关节的白色机械躯体，发光的蓝色数字笑脸，头戴棕色牛仔帽，身穿棕色皮夹克，脖子系红色方巾，戴黑色手套，带大银扣的西部风格皮带，臀部枪套，做旧机械质感，科幻西部美学，超细节，8K，焦点清晰，ARRI Alexa 65拍摄，体积光，用于角色设计参考的干净纯色背景",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7641101791475567899.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7641101791475567899.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7641101791475567899.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v43",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7641101791475567899?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7641101791475567899?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "AI抽象空间",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "角色",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "角色",
+        "真实感人形机器人牛仔"
+      ]
+    },
+    {
+      "id": "jimeng_7639995078710185226",
+      "title": "榴莲精灵设计稿",
+      "prompt": "以蓝图的风格制作Q版的毛茸茸的榴莲精灵玩偶，黄绿色短毛，眼睛为棕色为设计草图。并包括尺寸和解释性文本注释。应使用线条和测量值来指示各个部位的尺寸给草图以技术和详细的感觉。除了主要设计外，还包括显示不同角度的零散缩略图，立体景深",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7639995078710185226.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7639995078710185226.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7639995078710185226.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v43",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7639995078710185226?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7639995078710185226?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "西郡生活",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "奇幻",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "奇幻",
+        "榴莲精灵玩偶"
+      ]
+    },
+    {
+      "id": "jimeng_7652788700761328942",
+      "title": "宙斯遗迹神殿",
+      "prompt": "随机元素，机械美学，宙斯，科技废墟，神圣秩序，超能力场，精神力，幽静，宏大，庄严，虔诚信仰，巨构主义挣扎，神秘，忏悔，寄生灵体，光环，未知遗迹，探险，金色涂纹，原始墙画，昏暗，哥特，巴洛克，洛可可，极度繁琐，浮雕。随机风格，随机镜头，借景，强烈景深，随机氛围，奇幻，故事感，神秘，随机模糊，随机构图，随机人物，随机色调。独特视野，反常规构图，泛影和耀光，情景写意，POV视角，对焦模糊，缤纷泛影，质感和肌理，透射暖金微光，超广角，强透视，延伸感，灰青橙黄褪色胶片粗颗粒，低光与高曝，低饱和，高对比反差，光影模糊、弱印象派，超现实，朦胧渐变，暗灰色调氛围，逆朦，过曝，泛朦，模糊弥散渐变，粒子高噪点、光影层次，复古，抽象，空灵，梦幻，模糊虚化融合，突出大面积高曝负空间空白，强张力构图，昏暗中的闪耀，暗黑+浪漫主义，电影风，光影艺术美学，视觉冲击力，暗黑风格。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652788700761328942.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652788700761328942.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652788700761328942.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 3.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7652788700761328942?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7652788700761328942?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "维摩诘的花雨漫天",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "奇幻",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "奇幻"
+      ]
+    },
+    {
+      "id": "jimeng_7652259643237993737",
+      "title": "山水书法道士",
+      "prompt": "空间布满朝中心旋转的书法和山水国画，带着发扎的道士行走在终焉。 中国水墨，低角度。动态模糊强化携带速度线残影，超广角强透视构图，动态模糊边缘虚化，弥散晕染的暗部层次，张力十足，压迫感，细节生动完美。威胁压迫感，极其震撼的一幕，光影彼此交织错杂的梦幻感，朦胧，过曝，双重曝光，电影级构图，视觉冲击，8K画质，超清，极致细节，极致刻画，清晰的线条，高对比。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652259643237993737.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652259643237993737.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652259643237993737.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v50",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7652259643237993737?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7652259643237993737?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "0017",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "奇幻",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "奇幻"
+      ]
+    },
+    {
+      "id": "jimeng_7652983193456479498",
+      "title": "京剧戏魔设定",
+      "prompt": "神秘莫测、一幅暗黑风格的设计稿，呈现出神秘的华夏民俗恐怖悬疑未知幻想氛围。画面具有暗黑玄幻感，着重刻画京剧戏魔，通过细腻细节展现其诡异形象，光影昏暗，营造出阴森恐怖的氛围，构图独特，突出主体。弥漫着令人毛骨悚然的气息，仿佛隐藏着无尽的秘密与未知，深邃黑暗的空间中仿佛有无数双眼睛窥视着一切。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652983193456479498.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652983193456479498.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7652983193456479498.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 3.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7652983193456479498?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7652983193456479498?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "疯哥",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "奇幻",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "奇幻"
+      ]
+    },
+    {
+      "id": "jimeng_7637802908481867058",
+      "title": "Q萌猫咪宝宝",
+      "prompt": "绒毛材质，极端透视，干净白背景，3D，OC渲染，极简，Q萌，艺术性，光线追踪，朦胧感，光影加重，硕大的胖嘟嘟的猫咪宝宝（蓝色衣服、黄色围巾）背部特写，扭头，翻白眼，皮毛质感纹理。纯大红色背景。高清，电影镜头质感画面。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637802908481867058.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637802908481867058.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7637802908481867058.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7637802908481867058?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7637802908481867058?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "使不得 使不得",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "动物",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "动物"
+      ]
+    },
+    {
+      "id": "jimeng_7628969934026165530",
+      "title": "市井水彩写生",
+      "prompt": "钢笔水彩写生，极简用色，简笔手绘勾勒柴米油盐，三餐四季，市井百态，早餐街景，捕捉转瞬即逝的生活场景。画面笔触流畅，结合干笔触线条，呈现一种粗粝却动人的特殊美感，满是日常闲趣。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7628969934026165530.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7628969934026165530.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7628969934026165530.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "mediaType": "image",
+      "model": "即梦 图片 4.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7628969934026165530?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7628969934026165530?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "大番茄🍃",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "抽象",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "抽象"
+      ]
+    },
+    {
+      "id": "jimeng_7628625903441956147",
+      "title": "符文服饰角色",
+      "prompt": "设置一个纯净的单色背景，描绘一位被发光的魔幻服饰所包围的人物，服饰上装饰有精致的符文和经文，它们不仅增加了服饰的美感，也赋予了它生命力。人物的眼神坚定，仿佛在面对未知的挑战。整个画面充满了压抑和沉闷的气息，通过3.1模型展现出高度的抽象艺术感和独特的魔幻氛围。超广角强透视构图，张力十足，压迫感，细节生动完美。极其震撼的一幕，视觉冲击力强，光影彼此交织错杂的梦幻感，朦胧，明暗对比强烈，阴影过渡自然，电影级构图，视觉冲击，8K画质，超清，极致细节，清晰的线条，高对比，大师级别的作品。立体渲染，精细画笔，超细腻笔触，线条流畅，超清画质，完美品质，高质量，自适应饱和度，专业级打光，大师杰作，自由视角，阴影过渡自然，氛围感，高级感，意境，亮闪，唯美，宿命感拉满，弥散粒子，画面具有层次感。视觉冲击，故事感，高级感，动态感。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7628625903441956147.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7628625903441956147.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7628625903441956147.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 图片 3.0",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7628625903441956147?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7628625903441956147?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "许黎",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "角色",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "角色"
+      ]
+    },
+    {
+      "id": "jimeng_7651742291727600906",
+      "title": "暗黑小丑海报",
+      "prompt": "先锋前卫艺术设计，极简抽象海报。画面核心是抽象的简约形态，极简抽象，由几个关键元素构成强烈视觉焦点。由色彩#C8C3A9、#4E6825、#D7B51A、#F1B46E和#3C6179配色，简约氛围。丝网印刷的点绘效果突出极简质感，招贴风格明显。描绘对象：暗黑版小丑。",
+      "image": "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7651742291727600906.webp",
+      "images": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7651742291727600906.webp"
+      ],
+      "rawImages": [
+        "https://kxbbw81-glitch.github.io/PromptHub-/assets/jimeng/jimeng_7651742291727600906.webp"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "mediaType": "image",
+      "model": "即梦 high_aes_general_v43",
+      "source": "即梦AI公开页面",
+      "sourceUrl": "https://jimeng.jianying.com/ai-tool/work-detail/7651742291727600906?itemType=9&workDetailType=Image",
+      "url": "https://jimeng.jianying.com/ai-tool/work-detail/7651742291727600906?itemType=9&workDetailType=Image",
+      "domain": "jimeng.jianying.com",
+      "sourceAuthor": "悅齊",
+      "sourceAuthorUrl": "",
+      "date": "2026-08-12",
+      "collectedAt": "2026-08-12T07:27:28.421Z",
+      "githubSyncedAt": "2026-08-12T07:27:28.421Z",
+      "domesticSyncedAt": null,
+      "timestamp": 1786519648421,
+      "category": "品牌视觉",
+      "tags": [
+        "即梦AI",
+        "图片提示词",
+        "品牌视觉"
+      ]
+    },
     {
       "id": "jimeng_7579976142073908507",
       "title": "山海漫记书法海报",
