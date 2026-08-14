@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-14T05:23:08.232Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-14",
+      "domain": "x.com",
+      "id": "ext_mssi3yyj_yzwm",
+      "image": "https://pbs.twimg.com/media/HPk0VIFWkAA8XmN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPk0VIFWkAA8XmN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4，CCD direct flash，韩系女友视角亲密写真，夜间卧室随手拍，背景在人物一米外快速衰减压暗。 一位明确成年的年轻韩国女性，黑色微卷中长发，少量碎发自然落在额前，清透奶油裸妆，细软自然眉，自然卧蚕，眼下浅粉腮红，浅粉水润唇，真实皮肤纹理，自然半哑光底妆。穿宽松 oversize 白色棉质 T 恤。人物坐在略微凌乱的床边，白色床单带自然褶皱，身体向镜头明显前倾，一只手伸向镜头形成大面积失焦前景遮挡，近距离平视自拍感，脸部填满画面，轻轻眯一只眼笑，带一点顽皮和亲近感。CCD 机顶直闪，高光集中在瞳孔、鼻梁窄线、唇部和黑发边缘，额头与双颊保持柔和漫反射，背景快速掉黑，真实深夜恋人抓拍感。 不要塑料皮肤、连续油膜、湿亮蜡感、过度磨皮、手指畸形、多余肢体、文字、水印、拼图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPk0VIFWkAA8XmN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2087791259821740351",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1786684986811,
+      "title": "不是摆拍",
+      "url": "https://x.com/chenlinspark/status/2087791259821740351",
+      "collectedAt": "2026-08-14T05:23:08.232Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-14",
+      "domain": "x.com",
+      "id": "ext_mssi3yyl_cpu0",
+      "image": "https://pbs.twimg.com/media/HPndGTQaYAAWXRd?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPndGTQaYAAWXRd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPndGTPaIAAXTdy?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "9:16 竖版，高精度古风仙侠角色海报写真，偏写实东方幻想人像摄影质感，清晨寒潭、雾桥、山门场景，画面清雅、孤高、安静、坚定、空灵，带轻微宿命感与山水叙事感。整体冷而不灰、淡而不寡，人物始终是绝对视觉主体。\n\n画面主体是一位年轻成年东方女性，视觉年龄约 20–28 岁，具有自然明确的东方女性特征。精致东方淡颜，柔和流畅的小鹅蛋脸，面部骨相清秀，轮廓干净，长眼型与杏眼结合，眼神清亮安静，略微低垂视线，带若有所思的克制感；眉形舒展自然，鼻梁秀气，鼻尖精致，唇形柔软清晰。整体气质孤高、清雅、安静，但不能病弱、忧郁过度或无神。\n\n肌肤白皙通透，保留细腻自然肌肤纹理，具有清晨雾光映照出的柔润质感。\n\n妆容为清透仙气妆，妆容浓度清透。底妆轻薄、细腻、柔润，避免厚重粉感；眼妆以浅灰粉、柔棕、低饱和冷粉与少量淡玉色珠光细腻晕染，重点增强长眼型与眼尾神韵；眼线纤细自然，睫毛自然纤长，卧蚕仅轻微提亮；腮红极淡，只保留自然气色；唇妆采用低饱和浅玫瑰、冷豆沙或柔润花瓣粉，唇面细腻水润但不过分玻璃感。整体妆面清润、高级、安静，与玉绿色服装协调，不甜妹化、不现代网红化。\n\n发型为黑色柔顺长发半披半挽，发量丰盈，发丝顺滑自然，后部长发随清晨微风轻轻扬起，脸侧有几缕纤细碎发拂过面颊，增加轻微动态与仙气。\n\n头饰等级为华丽，以浅金、冷银、白玉、浅青玉、珍珠、透明水晶组合成精致花枝发冠与垂坠珠链。发饰沿发髻横向延展，不做过高头冠；两侧有细长珠链、玉坠和流苏自然垂落。耳饰为白玉、珍珠与浅金细链组成的精致长坠款，整体华丽但清雅，不堆砌。\n\n服装为古偶女主式层叠纱裙，中高华丽度，采用玉绿白金系。主色为清透玉绿、浅青玉、柔和水绿色，辅色为珍珠白、月白、乳白，点缀使用浅金、白玉、珍珠与极少量银色。\n\n服装上身采用轻柔交叠结构与仙侠幻想式剪裁，肩颈线条自然舒展，外层使用半透明薄纱、轻纱披层和垂坠纱袖；内层为细腻绢感与刺绣面料。衣身带有浅金花卉纹、流云纹、细藤蔓纹、玉叶纹与小型宝相纹刺绣，肩部、袖缘和腰侧辅以珍珠、细金链与玉石小坠。腰间采用精致收束结构与垂坠饰件，整体轻盈、华丽、清雅，不做厚重宫廷礼服感。\n\n玉绿色仅用于人物服装主体，环境不得整体泛青。寒潭保持自然偏冷的青灰蓝水色，山体、石桥与山门保持灰白、石灰、深木和自然山水色调。\n\n人物位于一座横跨寒潭的古老石桥上，靠近雕刻石栏。她身体三分之二侧向镜头，轻轻倚在石桥栏杆边，双臂或一只手自然搭在石栏上，姿态松弛但端雅。头部微微侧转并低垂视线，看向桥下寒潭水面，神情安静若有所思。另一只手可自然搭在石栏、衣袖边或靠近身体，不做夸张摆拍。\n\n镜头从人物斜前方近距离拍摄，上半身至大半身构图，约 70–100mm 人像镜头感，轻微空间压缩，背景仍保留足够的寒潭、远桥与山门结构。人物占据画面主要视觉区域，五官、妆容、发饰、衣料和手部保持清晰。\n\n场景为寒潭石桥 / 悬雾水面 / 山门古桥。近景可见带岁月质感但结构完整的灰白石栏与雕花柱头；中景为清澈寒潭，水面带柔和高光与轻微波纹；水面上漂浮薄而通透的晨雾，雾气只作为空间层次，不遮蔽人物。\n\n远处可见第二座拱形石桥、通往山门的桥面、层叠山体，以及高耸的东方古典山门。山门具有飞檐、门楼、石质基座与高大门洞，笼罩在淡淡晨雾与逆光中，作为画面的远景叙事锚点。更远处可见山体轮廓、松树剪影与雾中山势，形成深远空间。\n\n光线为清晨雾光 + 柔和逆光 + 水面反射补光。太阳位于人物侧后方或远景山门附近，晨光穿过雾气形成柔和高明度背景。逆光轻轻勾亮人物发丝、头饰、肩部薄纱和珠链边缘；水面反射为脸部、下颌与服装提供自然冷白补光，使人物面部通透有神。\n\n背景总体保持高明度、低至中等对比，但人物五官不能被雾气吃掉。画面冷感来自空气、寒潭与晨雾，而不是整体套青蓝滤镜。\n\n摄影质感偏高质量真人古风写真 + 东方幻想电影感角色海报，真实皮肤纹理，真实黑色发丝，真实丝绸与半透明薄纱材质，精细刺绣与玉石珠宝反射，水面高光自然，石桥纹理真实。高精度、高完成度、明亮清透、浅景深但保留环境叙事。\n\n整体视觉关键词：\n\n寒潭、石桥、晨雾、山门、玉绿仙裙、清透妆容、临水沉思、清冷女主、山水宿命感、东方仙侠角色海报。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPndGTQaYAAWXRd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPndGTPaIAAXTdy?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2087943031379071210",
+      "tags": [
+        "东方",
+        "古风",
+        "人像",
+        "写真",
+        "海报"
+      ],
+      "timestamp": 1786684986813,
+      "title": "GPT Image 2生成古风图片",
+      "url": "https://x.com/liyue_ai/status/2087943031379071210",
+      "collectedAt": "2026-08-14T05:23:08.232Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-14",
+      "domain": "x.com",
+      "id": "ext_mssi3yyo_ryvf",
+      "image": "https://pbs.twimg.com/media/HPkmZ9EbUAAduXH?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HPkmZ9EbUAAduXH?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Masterpiece, ultra-detailed hyperrealistic anime realism, full-body portrait of an extraordinarily beautiful young Korean female shaman, Korean Mudang (무당), elegant and mysterious, realistic East Asian facial features, luminous natural skin, delicate facial structure, calm commanding gaze, subtle cinematic beauty.\n\nShe wears an elaborate Korean shamanic ceremonial costume inspired by traditional hanbok and Muism: enormous flowing dark navy outer robes, voluminous white inner garments, deep crimson lining, intricate antique-gold embroidery, layered ceremonial belts, Korean ornamental pendants, ritual jewelry and traditional hair ornaments. Long black hair arranged in an elaborate high ceremonial hairstyle with delicate dangling accessories.\n\nOne hand rests naturally on an ornate traditional Korean sword in its decorated black scabbard; the other hand is gracefully raised, fingers elegantly extended, holding multiple aged Korean shamanic talismans, ritual paper charms, beads and red-blue tassels.\n\nThe garments are extremely voluminous and monumental, with long sleeves and layered fabric sweeping dramatically across the composition, realistic silk texture, natural folds, subtle fabric weight and exquisite embroidery.\n\nBehind her is a huge expressive black ink-brush circle painted across a clean warm-white background, bold Korean ink-painting energy, scattered ink splashes and dry-brush textures, creating a powerful minimalist contrast with the highly detailed character.\n\nStrong Korean Muism visual identity, sacred ritual atmosphere, mysterious but elegant, ancient spirituality fused with contemporary fantasy character design.\n\nHyperrealistic anime aesthetic, realistic skin pores, individual hair strands, physically believable silk and metal materials, cinematic soft lighting, subtle shadows, extremely refined costume details, premium Korean fantasy film character-design quality, sophisticated editorial composition, clean background, no environmental scenery, no Tibetan elements, no Chinese Taoist aesthetic, no Japanese shrine elements.\n\n–ar 9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HPkmZ9EbUAAduXH?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liluocheng13/status/2087742146296402076",
+      "tags": [
+        "cinematic",
+        "anime",
+        "minimalist",
+        "dark",
+        "hyperrealistic"
+      ],
+      "timestamp": 1786684986816,
+      "title": "珠宝女性人像",
+      "url": "https://x.com/liluocheng13/status/2087742146296402076",
+      "collectedAt": "2026-08-14T05:23:08.232Z"
+    }
+  ]
+}
