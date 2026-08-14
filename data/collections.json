@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-14T06:47:18.413Z",
+  "updatedAt": "2026-08-14T13:29:53.381Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-03",
+      "domain": "x.com",
+      "id": "ext_msd1m78q_udsc",
+      "image": "https://pbs.twimg.com/media/HOuEjemboAAEP0D?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HOuEjemboAAEP0D?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuEjfKaMAEKNnn?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuEjfKaIAADYy8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuEjeqbwAI2heY?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "A realistic close-up portrait selfie of a beautiful young East Asian woman in her early 20s, fair porcelain skin with smooth texture and soft natural makeup, long straight silky black hair cascading over her shoulders and partially covering the right side of her face, almond-shaped dark brown eyes with subtle eyeliner and long lashes looking slightly to the side with a soft seductive gaze, full natural lips with a soft matte pink lipstick, delicate facial features, right hand raised and gently running fingers through her hair near her temple, wearing a tight black spaghetti-strap tank top that accentuates her cleavage and slender arms, soft indoor lighting with gentle shadows, neutral beige wall background with a dark curtain on the right, wooden woven table surface visible at the bottom, high detail, photorealistic, natural skin pores, sharp focus on face, slight depth of field, vertical composition, intimate and alluring atmosphere @TopviewAIhq @topviewaijp #Topview",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOuEjemboAAEP0D?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuEjfKaMAEKNnn?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuEjfKaIAADYy8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HOuEjeqbwAI2heY?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2084187515838435395",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1785750291242,
+      "title": "东方人像",
+      "url": "https://x.com/woleswoosh/status/2084187515838435395",
+      "collectedAt": "2026-08-14T13:29:53.380Z",
+      "githubSyncedAt": "2026-08-14T13:29:53.380Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "电商视觉",
