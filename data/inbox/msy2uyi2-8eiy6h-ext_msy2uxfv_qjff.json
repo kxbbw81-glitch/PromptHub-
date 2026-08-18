@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-18T03:02:49.130Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-18",
+      "domain": "x.com",
+      "id": "ext_msy2uxfv_qjff",
+      "image": "https://pbs.twimg.com/media/HP6PidcWQAAjqqa?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HP6PidcWQAAjqqa?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HP5dyVEW8AAkyrM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP5d8jhWEAA48Me?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n1:1，韩国人生四格拍照亭 instant photo booth，正面硬闪，纯白背景，无衰减，单张拍照亭定格画面。 两位成年年轻女性 20 岁上下，K-idol visual，精致小脸，短中庭，杏眼卧蚕，冷白皮；桃粉腮红、水润桃粉唇、自然缎光底妆与真实皮肤纹理。 左侧黑色长直发带轻薄刘海，穿浅灰白短款卫衣，睁大眼睛做假装惊讶的张嘴表情；右侧深色长发半扎，穿白色长袖内搭 + 粉色针织背心，头顶斜戴银粉色塑料公主皇冠。两人脸贴得很近，同时伸出食指指向镜头，手指形成明显近大远小透视；右侧人物转头看着左侧微笑。 近距离广角半身，人物几乎塞满画面，正面闪光让眼睛出现明显高光点，背景纯白无阴影，动作夸张但自然。 不要畸形手指、多余肢体、塑料肌、幼态化、文字水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HP6PidcWQAAjqqa?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HP5dyVEW8AAkyrM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP5d8jhWEAA48Me?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2089328895421980804",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787022167755,
+      "title": "你在看谁？",
+      "url": "https://x.com/chenlinspark/status/2089328895421980804",
+      "collectedAt": "2026-08-18T03:02:49.130Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-18",
+      "domain": "x.com",
+      "id": "ext_msy2uxfx_cd5y",
+      "image": "https://pbs.twimg.com/media/HP7tzZPWAAA3osZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HP7tzZPWAAA3osZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPxU2vZWkAAcuYt?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n9:16，CCD direct flash，韩系日常女友视角写真，出租屋床边夜拍，硬闪现场感。 成年韩系年轻女性，清透奶油裸妆，眼下微腮红，唇部轻微水润，真实毛孔质感，黑长直。穿宽松白 T，坐在床上微微前倾，抬手伸向镜头，手掌占据左上角大面积前景，人物对镜温柔浅笑。近距离广角，机顶直闪使脸部和手指高光明显，背景床褥与暗部房间模糊压暗，营造亲密女友视角。不要塑料感皮肤、不要手部畸形、不要过曝油亮脸。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HP7tzZPWAAA3osZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPxU2vZWkAAcuYt?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2089368910252413071",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787022167757,
+      "title": "镜头靠近一点",
+      "url": "https://x.com/chenlinspark/status/2089368910252413071",
+      "collectedAt": "2026-08-18T03:02:49.130Z"
+    }
+  ]
+}
