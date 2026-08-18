@@ -1,7 +1,110 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T03:03:35.927Z",
+  "updatedAt": "2026-08-18T03:15:43.276Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-18",
+      "domain": "x.com",
+      "id": "ext_msy3agpn_dg1c",
+      "image": "https://pbs.twimg.com/media/HP75LiXbUAAvXIP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HP75LiXbUAAvXIP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP75LiNasAAIPkT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP75LiMa8AA59_M?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP75LiHaIAAREvh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A stunning young woman with long, wavy dark brown hair cascading over one shoulder, kneeling on a large white bed in a modern bedroom. She is turned slightly toward the camera, looking back over her left shoulder with a soft, seductive smile, glossy pink lips slightly parted, warm brown eyes, natural glowing skin with visible pores and subtle texture. She wears a form-fitting, short sparkly magenta/fuchsia glitter mini dress with thin spaghetti straps, an extremely deep plunging neckline that reveals deep cleavage, and a dramatic side cutout at the hip secured by a large silver metal O-ring. The fabric has a shimmering, metallic sheen that catches the light. Delicate layered gold necklaces with a small pendant rest against her chest. She is barefoot, one hand resting on the white bedsheets for support, body arched slightly to emphasize her curves. Soft golden hour sunlight streams in from the side, casting warm highlights on her skin, hair, and the glittery dress, with gentle shadows on the dark headboard and wall behind her. Clean modern bedroom with white bedding, dark headboard, and soft ambient light. Shot on Sony A7R V, 85mm f/1.4 lens, shallow depth of field, creamy bokeh, natural skin texture, visible pores, hyper-detailed fabric glitter and skin sheen, cinematic warm lighting, high dynamic range, 8K UHD, ultra-photorealistic, realistic proportions. Negative prompt: over-smoothed skin, plastic look, extra limbs, deformed hands, blurry face, cartoon, anime, low detail, oversaturated, harsh flash.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HP75LiXbUAAvXIP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP75LiNasAAIPkT?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP75LiMa8AA59_M?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP75LiHaIAAREvh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/jarvis_og_AI/status/2089381270723932239",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "anime",
+        "dark",
+        "bokeh"
+      ],
+      "timestamp": 1787022892571,
+      "title": "现代卧室镜自拍",
+      "url": "https://x.com/jarvis_og_AI/status/2089381270723932239",
+      "collectedAt": "2026-08-18T03:14:55.254Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-18T03:15:43.276Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "静物",
+      "date": "2026-08-18",
+      "domain": "x.com",
+      "id": "ext_msy3agpl_xu3o",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2089214451673354240/img/3zZ_-24P7lnxUi45.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089214451673354240/img/3zZ_-24P7lnxUi45.jpg"
+      ],
+      "model": "",
+      "prompt": "7-shot handheld phone vlog montage, photorealistic snapshot realism, varied angles/cuts, slight tilt/shake, harsh fluorescent gym light mixed with warm high-window afternoon sun, fine film grain. Woman Image1: use reference only for face/hairstyle; fitted heather-grey short-sleeve athletic top, black leggings, tied-back hair with loose strands. Alone in a quiet scuffed gym corner with folded mats, spotted mirror, bench with rolled yoga mat/water bottle. Natural Korean dialogue/reactions, live ambient SFX only, no music/text/logos/watermarks. 1 (0-2s): Rope catches her foot; she stumbles and laughs. Close, low, drifting camera. “아 뭐야 벌써”. 2 (2-4s): Side close-up of hands/rope resetting; wrist flicks, rope slaps floor twice, then finds rhythm. Shaky follow. 3 (4-6s): Straight-on steady jump-rope rhythm, focused half-smile, quicker breathing, rope blur. “하나, 둘, 셋…” 4 (6-8s): Rope hits shin; she winces/laughs, hops once, restarts. Slight upward angle, slow push-in. “Okay, still counts.” 5 (8-10s): Faster set, sweat at hairline, heavy breathing, rapid rope beats. Straight-on, gentle sway, motion blur. 6 (10-13s): Rope tangles; she stops, doubles over laughing, hands on knees, shoulders shaking. Camera tilts down. “아 못하겠다 진짜”. 7 (13-15s): Still laughing/breathless, slowly straightens, wipes eyes, drops rope, grinning. Camera drifts back/up and lingers. Only her throughout; authentic fumbling, laughter, breathing, footsteps, rope impacts/drop, faint distant gym ambience. Do not depict/copy the reference image itself.",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089214451673354240/img/3zZ_-24P7lnxUi45.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/doctorwasif/status/2089214508233638187",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787022892570,
+      "title": "口播视频",
+      "url": "https://x.com/doctorwasif/status/2089214508233638187",
+      "collectedAt": "2026-08-18T03:14:55.254Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-18T03:15:43.276Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-08-18",
+      "domain": "x.com",
+      "id": "ext_msy3agpd_5lbd",
+      "image": "https://pbs.twimg.com/media/HP5e3Z-XsAAFcGk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HP5e3Z-XsAAFcGk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP5fEWlWMAAcsS4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPsXsLXX0AAklDg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPsX2o5XAAAXKqO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt： 9:16，VHS travelogue 成像，泛白高光，轻微朦胧，韩系海岛女友视角旅行抓拍。 成年年轻女性 20 岁上下，韩国女团级高颜值，青苹果氧气妆，晒后粉红面中，真实肤质；湿润黑长发被海风吹散。 穿白色短款运动背心与鼠尾草绿色宽松沙滩短裤，走在被海浪打湿的石质防波堤上，身体向前走，回头望向摄影师微笑，同时一只手大幅伸向镜头，像拉着拍摄者继续向前。 近距离跟拍广角，伸出的手掌形成明显前景透视并轻微失焦，人物脸部清晰，防波堤向画面深处延伸，两侧浪花不断溅起，天空有柔白云层。 正午海边强光，高光轻微奶白溢出，不过度 HDR。不要畸形手掌、多余手指、塑料皮肤、文字水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HP5e3Z-XsAAFcGk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HP5fEWlWMAAcsS4?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPsXsLXX0AAklDg?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HPsX2o5XAAAXKqO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2089260945994334432",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1787022892561,
+      "title": "夏天就该这样——",
+      "url": "https://x.com/chenlinspark/status/2089260945994334432",
+      "collectedAt": "2026-08-18T03:14:55.254Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-18T03:15:43.276Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "抽象",
