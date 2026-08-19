@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-19T12:42:20.758Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-19",
+      "domain": "x.com",
+      "id": "ext_mt03027j_e6hv",
+      "image": "https://pbs.twimg.com/media/HQAUtDZaEAEUR47?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQAUtDZaEAEUR47?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQAUtDQbcAA6Z3T?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQAUtDLb0AArPL9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQAUtDKbgAEJdbw?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nWaist-up portrait, tilted frame, front-right three-quarter view. Photographed from the woman's front-right side. Her right shoulder and right waist are nearer the lens, with her torso forming a front-right three-quarter silhouette.\nA 20s seductive stunning Japanese or Korean woman with black frame, bold thick-frame glasses, small teardrop gemstone earring detail, delicate understated sparkle, and layered gold necklace detail, subtle stacked chain accent, full bust, narrow defined waist, flat abdomen, young cool editorial beauty face, refined sharp facial balance, calm distant gaze-ready features, smooth Korean medium-length hair, gentle inward curve, clean soft modern silhouette, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, soft black-tea brown hair, muted brown-black salon tone, knit beanie, close-fitting ribbed crown, soft folded brim, soft matte skin texture, refined pores, velvety smooth finish, candid joyful expression, lifted cheeks, eyes gently narrowed by the smile, open genuine smile, visible teeth.\nShe wears hip-length oversized outerwear, roomy shoulders and body, ending around the widest part of the hips, white knit cardigan, open-front knit layer, soft drape, ribbed or textured knit surface, button-front outerwear left unbuttoned, front panels open naturally, outerwear slipped below the shoulder line, sleeves loosely on the arms, layered over dark grey halter top, neck-tie or halter straps, open shoulder line, fitted upper-body silhouette, pants waist button undone and front zipper slightly lowered, relaxed loosened waistband styling, still worn securely on the hips, light blue denim shorts, short hemline, clean cut-off-inspired silhouette at the lower crop edge.\nShe has her chin slightly lowered, both hands tucked into pockets, and presents a slight backward-leaning standing pose with the body naturally supported.\nThe scene is world-scene architecture for the portrait: New York, Brooklyn Bridge / DUMBO, Brooklyn Bridge walkway and under-bridge views stays visible around and behind the subject; the portrait subject remains the main subject while the selected district.\nMisty morning environment, pale cool sky, flat even subject lighting, balanced full-face illumination.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQAUtDZaEAEUR47?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQAUtDQbcAA6Z3T?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQAUtDLb0AArPL9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQAUtDKbgAEJdbw?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2089693065934200971",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1787143339567,
+      "title": "牛仔短裙女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2089693065934200971",
+      "collectedAt": "2026-08-19T12:42:20.758Z"
+    }
+  ]
+}
