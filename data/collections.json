@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T02:04:47.124Z",
+  "updatedAt": "2026-08-19T02:15:11.955Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-19",
+      "domain": "x.com",
+      "id": "ext_mszgkozj_11d5",
+      "image": "https://pbs.twimg.com/media/HQDA6jDbgAAzp4Y?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQDA6jDbgAAzp4Y?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQDA6jFbYAAUhkk?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQDA7rObAAAt2dj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQDA7rQaAAAA5gc?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "我一直搞不明白为什么 Imagine 2.0 生成的衣服总是露出腰部和腹部，无论我怎么调整服装设置都一样。刚刚才意识到问题出在身体描述上……真是个盲点。 以下是两个版本的对比：写实风格的编辑肖像。半身像，肩部视角。一位二十多岁、性感迷人的日本或韩国女性，戴着银色金属框细框眼镜，耳垂上镶嵌着小巧的水滴形宝石，散发着精致低调的光泽；项链上也挂着小巧的水滴形吊坠，同样点缀着精致低调的珠宝；胸部丰满，腰肢纤细，腹部平坦；年轻美丽的日本女性，面容清澈透亮，五官柔和自然，眼神清澈温柔，散发着清新脱俗的气质；中长卷发侧分，长度及锁骨，层次分明，贴合脸型；发根光滑服帖，发量适中，整体发型紧凑，发丝细密顺滑，质地均匀柔和，散发着自然的光泽；发尾干净利落，完美修饰脸型；深咖啡棕色的发色，浓郁的棕色光泽，散发着柔和温暖的光泽；肌肤如玻璃般光滑，水润透亮；笑容自然柔和，眉毛放松，双眼微眯，嘴唇微张，脸颊微微上扬。她身着宽松的上身设计，肩部和衣身都十分宽松，内搭一件白色落肩T恤，水洗棉质针织面料，低肩缝，中腰设计，腰线贴合自然腰线，下身搭配深蓝色无缝蕾丝丁字裤，侧边系带极细，低腰V领，后背下摆极简。她自然地面向镜头，一只手将上衣从一侧肩膀拉下，同时调整领口面料，呈现出一种随意、放松、自然的站姿，身体自然挺拔。场景设定在英式复古风格的窗边房间内，白色蕾丝窗帘和窗框，梳妆台、镜子、边桌上的画框、挂钟和瓷器饰品，营造出一种冷白色调的日常室内氛围，房间明亮洁净，窗框投射在人物身上的光影交错，构成一幅充满画面感的自然影像。这种风格带有南·戈尔丁式的私密日记式影像语言。 F/2.8 光圈下的浅景深，清晰的主体平面，1/60 秒慢速快门造成的背景虚化，锐利的中心主体，高光晕，明亮区域周围有光晕，局部亮度溢出。富士 Provia 胶片模拟，色彩干净平衡，肤色通透，明亮自然的对比度，清晰的日光中性渲染。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQDA6jDbgAAzp4Y?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQDA6jFbYAAUhkk?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQDA7rObAAAt2dj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQDA7rQaAAAA5gc?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2089884205488738536",
+      "tags": [
+        "古风",
+        "极简"
+      ],
+      "timestamp": 1787105671039,
+      "title": "我一直搞不明白为什么 Imagine 2",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2089884205488738536",
+      "collectedAt": "2026-08-19T02:14:31.929Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-19T02:15:11.955Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
