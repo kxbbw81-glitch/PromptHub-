@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-19T08:24:33.919Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-19",
+      "domain": "x.com",
+      "id": "ext_msztsjrp_0g9r",
+      "image": "https://pbs.twimg.com/media/HQEQK6KW8AAPwHo?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQEQK6KW8AAPwHo?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQEQLnTXQAEE_SL?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "A studio portrait captures a woman with distinctive blue eyes, voluminous brown wavy hair, and a warm, direct smile. She is dressed in a white pussy-bow blouse paired with dark grey suit trousers. Her pose is confident, with both hands tucked into the trouser pockets. The lighting is dramatic and directional, creating strong highlights and shadows on her face and the textured fabric. The background is a richly textured, dark, mottled, canvas-style backdrop. The overall style is a high-end, painterly studio photograph, capturing a confident and elegant presence.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQEQK6KW8AAPwHo?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQEQLnTXQAEE_SL?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2089969504868573456",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1787127872533,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/Minahil42298354/status/2089969504868573456",
+      "collectedAt": "2026-08-19T08:24:33.919Z"
+    }
+  ]
+}
