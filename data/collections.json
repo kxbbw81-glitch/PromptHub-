@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T08:58:43.573Z",
+  "updatedAt": "2026-08-19T09:36:46.201Z",
   "collections": [
     {
       "aspectRatio": "3:2",
@@ -35,7 +35,7 @@
       "collectedAt": "2026-08-19T08:28:38.410Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-19T08:29:24.779Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-19T09:36:46.197Z"
     },
     {
       "aspectRatio": "9:16",
