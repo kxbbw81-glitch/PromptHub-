@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-20T15:07:06.280Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "21:9",
+      "category": "人像",
+      "date": "2026-08-20",
+      "domain": "x.com",
+      "id": "ext_mt1nm2oc_kx2n",
+      "image": "https://pbs.twimg.com/media/HQK_aECaIAAW6i7?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQK_aECaIAAW6i7?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQK_aD7bsAARBsQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQK_aEEbgAAUKw1?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQK_aEAaQAA1t5u?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Waist-up portrait, shoulder-level view.\nA 20s seductive stunning Japanese or Korean woman with white frame, bold thick-frame glasses, small metallic earring detail, subtle understated jewelry styling, and layered gold necklace detail, subtle stacked chain accent, full bust, narrow defined waist, flat abdomen, young beautiful Korean idol face, refined small face, clear bright eyes, long naturally slightly wavy hair with airy see-through bangs, soft side-draped face-framing strands, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, soft black-tea brown hair, muted brown-black salon tone, dark grey baseball cap, curved brim, adjustable back closure, structured casual crown, glass skin, dewy luminous skin texture, candid joyful expression, lifted cheeks, eyes gently narrowed by the smile, open genuine smile, visible teeth.\nShe wears tight body-skimming outerwear fit, black varsity jacket, ribbed collar and cuffs, contrast stripe trim, structured sporty outer layer, outerwear worn open at the front, front panels parted naturally, outerwear worn normally on both shoulders, layered over red sleeveless knit top, ribbed texture, clean shoulder-baring cut, narrow armhole shaping, ultra-low-rise waistband sitting very low on the hips, black asymmetric layered pleated skirt, punk details, uneven hem at the lower crop edge.\nShe has her head naturally facing the camera, a front-camera self-shot with her right arm extended to hold the phone just beyond the frame edge and only a naturally foreshortened right forearm entering from the side, and presents a casual, relaxed, and natural standing pose with the body naturally supported.\nThe scene is world-scene architecture for the portrait: London, Westminster, Westminster and Big Ben riverbank stays visible around and behind the subject; the portrait subject remains the main subject while the selected district.\nClear blue-sky daylight, saturated azure sky, hard direct sunlight on the subject, crisp shadow edges.\nMika Ninagawa-inspired explosive vivid complex color image language.\nShot on fisheye lens, extreme hemispherical field of view, barrel distortion.\nNeon-tinted Japanese portrait color grade, protected bright skin tones, cool cyan shadow bias, warm-magenta highlights, clean black levels.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQK_aECaIAAW6i7?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQK_aD7bsAARBsQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQK_aEEbgAAUKw1?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQK_aEAaQAA1t5u?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2090444136063303728",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1787238425101,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2090444136063303728",
+      "collectedAt": "2026-08-20T15:07:06.280Z"
+    }
+  ]
+}
