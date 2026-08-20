@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-20T15:09:57.517Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-14",
+      "domain": "x.com",
+      "id": "ext_mssi2xq9_4zvd",
+      "image": "https://pbs.twimg.com/media/HNlCHdDWcAA9G2N?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HNlCHdDWcAA9G2N?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNbbrkfXsAAbALQ?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "人物角色卡通用简化版提示词模板prompt\n帮我生成人物三视图，背景灰色，手里无东西，再加一个人物脸部近景，总共四格人物照，四格全部竖版顺序排列，无文字，人物正脸面向镜头。除了人脸近景图清晰可见，小脸打上马赛克，16:9",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNlCHdDWcAA9G2N?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNbbrkfXsAAbALQ?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/johnAGI168/status/2078766150591136090",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786684938561,
+      "title": "随着模型越来越强大",
+      "url": "https://x.com/johnAGI168/status/2078766150591136090",
+      "collectedAt": "2026-08-20T15:09:57.517Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-20",
+      "domain": "x.com",
+      "id": "ext_mt1npqhx_kf4j",
+      "image": "https://pbs.twimg.com/media/HQKlqMFWkAAxhuY?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQKlqMFWkAAxhuY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQKlqMDWQAAYPFj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQKlqMCW8AAXFbU?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQKlqMDWAAA0yur?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实高级时尚人像摄影，一位20多岁的东亚年轻女性坐在极简主义清水混凝土建筑的宽大灰色台阶边缘，3:4竖构图，中等全身人像，人物约占画面70%，机位略低于视线高度。她拥有精致柔和的鹅蛋脸、清晰自然的五官、杏仁形深棕色眼睛、纤细直鼻、自然饱满的裸粉色嘴唇，长而浓密的深黑棕色微卷头发自然披散在右肩和胸前，发丝略显蓬松凌乱。她没有直视镜头，而是微微转头望向画面右侧，表情安静、克制、略带疏离感。\n\n穿简约灰色贴身运动背心和同色系低腰短裤，柔软棉质针织面料，无文字、无Logo、无装饰；黑色大型头戴式耳机自然挂在脖子上。她侧坐在混凝土台阶上，双腿在前方自然交叠，一条腿伸向画面左下方；右手向后撑在台阶上保持身体平衡，手指自然张开；左手轻轻握住耳机或靠近锁骨位置。腹部和腰线自然可见，保留真实肚脐、轻微腹部起伏和人体正常不对称，避免夸张健身肌肉。\n\n背景为现代粗野主义清水混凝土空间，大块灰色墙面、垂直结构柱和深色阴影区域形成简洁几何构图，环境安静、空旷，没有其他人物或物体。画面右侧有高大开口，柔和自然日光从右前方进入，形成大面积漫射侧光；脸部、肩膀、腹部和腿部有柔和明暗渐变，阴影自然，避免强烈轮廓光。整体低饱和、低对比、灰米色中性色调，轻微暖肤色与冷灰混凝土形成细微色温对比。\n\n真实摄影质感，85mm或70mm人像镜头，f/2.8，ISO 200–400，1/250s，浅至中等景深，人物面部和身体清晰，背景略柔化但仍保留建筑纹理。真实皮肤毛孔、细微肤色变化、膝盖和手部自然纹理、少量细小汗毛，柔和皮肤次表面散射；不要塑料皮肤、过度磨皮、CG感、过度锐化或夸张HDR。头发保留自然飞散发丝和真实重量感，衣服保留细密织物纹理与自然褶皱。高级韩国时尚杂志与极简运动生活方式广告摄影气质，安静、现代、冷静、克制、自然性感。无文字，无Logo，无水印，无多余饰品，无额外人物，无畸形手指，无过度瘦腰，无夸张身体比例。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQKlqMFWkAAxhuY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQKlqMDWQAAYPFj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQKlqMCW8AAXFbU?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQKlqMDWAAA0yur?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2090415730722316566",
+      "tags": [
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1787238595941,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2090415730722316566",
+      "collectedAt": "2026-08-20T15:09:57.517Z"
+    },
+    {
+      "aspectRatio": "21:9",
+      "category": "人像",
+      "date": "2026-08-20",
+      "domain": "x.com",
+      "id": "ext_mt1npqi4_bgwg",
+      "image": "https://pbs.twimg.com/media/HQJvMKma4AA7vI4?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQJvMKma4AA7vI4?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQJvNNbbYAAHKe4?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQJvOcVbkAAv_6t?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQJvSNmbIAANakk?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nWaist-up portrait, tilted frame, front-left three-quarter view. Photographed from the woman's front-left side. Her left shoulder and left waist are nearer the lens, with her torso forming a front-left three-quarter silhouette.\nA 20s seductive stunning Japanese or Korean woman with black frame, bold thick-frame glasses, small cross earring detail, subtle gothic-inspired accessory accent, and layered crystal necklace detail, subtle reflective neck accent, full bust, narrow defined waist, flat abdomen, young cool editorial beauty face, refined sharp facial balance, calm distant gaze-ready features, side-parted medium soft waves, collarbone-length shape, defined face-framing layers, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, natural black hair, soft matte skin texture, refined pores, velvety smooth finish, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks.\nShe wears underbust-cropped fitted outerwear, ending just below the bust, light blue denim jacket, washed denim texture, chest pockets, metal buttons, outerwear worn open at the front, front panels parted naturally, outerwear worn normally on both shoulders, layered over, front hem half-tucked into the bottoms, white dropped-shoulder t-shirt, washed cotton jersey, low shoulder seam, relaxed upper-body proportion, pants waist button undone and front zipper slightly lowered, relaxed loosened waistband styling, still worn securely on the hips, light blue denim shorts, short hemline, clean cut-off-inspired silhouette at the lower crop edge.\nShe has her head angled close to one shoulder, one hand brushing hair back from the side of the face, fingers visibly touching the hair near the temple or ear, and presents a standing pose with the body naturally supported.\nThe scene is world-scene architecture for the portrait: Seoul, Han River, Han River bridge and city riverbank stays visible around and behind the subject; the portrait subject remains the main subject while the selected district.\nSnow-bright winter environment, cold pale sky, hard direct sunlight on the subject, crisp shadow edges.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQJvMKma4AA7vI4?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQJvNNbbYAAHKe4?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQJvOcVbkAAv_6t?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQJvSNmbIAANakk?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2090355578027848160",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787238595948,
+      "title": "牛仔短裙女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2090355578027848160",
+      "collectedAt": "2026-08-20T15:09:57.517Z"
+    }
+  ]
+}
