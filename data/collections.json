@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T14:02:47.521Z",
+  "updatedAt": "2026-08-22T14:17:08.343Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4gpamc_iqrr",
+      "image": "https://pbs.twimg.com/media/HQUBHGlbYAAS7CP?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQUBHGlbYAAS7CP?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQUBHGpbQAAfgtQ?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "不穿鞋、不穿袜，全程赤脚。双脚以自然、优雅且带轻微诱惑感的方式错落摆放，脚部比例真实自然，脚趾放松，不做夸张姿势。 场景为真实高级卧室，采用正面略高机位的近距离俯拍视角，中景至四分之三身构图，人物位于画面中央，重点呈现小头、小脸、纤细腰身、短裙、修长双腿与自然裸足姿态。长竖屏构图，头顶与双脚方向保留适当留白，避免裁切腿部和双脚。 整体采用低饱和、朦胧高级的冷白色调，柔和冷白光自然落在脸部、肩颈、锁骨、腿部与白色礼服表面。浅景深、轻微柔焦、极细腻胶片颗粒，面部与眼睛精准对焦，皮肤通透真实，呈现高级日系时装杂志 Editorial 与私房时尚摄影质感。 避免：大头、大脸、宽脸、身体比例失衡、双腿过短、脚部过大、脚趾畸形、肢体畸形、多手、多指、少指、脸部崩坏、液化感、塑料皮肤、过度磨皮、布料穿模、僵硬坐姿、双脚完全对称、严重广角变形、过曝、背景杂乱、AI伪影、文字、Logo、水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQUBHGlbYAAS7CP?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQUBHGpbQAAfgtQ?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AIVideoHub_/status/2091078834225660116",
+      "tags": [
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1787408216580,
+      "title": "白色优雅大方",
+      "url": "https://x.com/AIVideoHub_/status/2091078834225660116",
+      "collectedAt": "2026-08-22T14:16:58.559Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-22T14:17:08.343Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
