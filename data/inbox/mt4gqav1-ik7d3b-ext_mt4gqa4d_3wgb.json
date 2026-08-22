@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-22T14:17:43.549Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4gqa4d_3wgb",
+      "image": "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO9w99bUAEfGbs?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO91PjaMAEQ2xQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO942ubMAA0zOg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "4. 可爱脸是平衡器。\n如果服装、黑丝、低机位全部往成熟性感方向走，很容易变成单一写真感。加入圆润、亲和、偏 COS 审美的成年可爱脸，加上粉色眼妆、卧蚕、柔和唇色之后，画面会被拉回到“二次元商业广告”而不是纯性感写真。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO9w99bUAEfGbs?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO91PjaMAEQ2xQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO942ubMAA0zOg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2090723690552209788",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787408262589,
+      "title": "这组的核心其实不是“汉服 + 黑丝”",
+      "url": "https://x.com/VoxcatAI/status/2090723690552209788",
+      "collectedAt": "2026-08-22T14:17:43.549Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4gqa4e_dydn",
+      "image": "https://pbs.twimg.com/media/HQPosDSXMAASaUR?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQPosDSXMAASaUR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQPosDNWgAAJW4B?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQPosDPWgAAPzeB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQPosEyWoAAuBzW?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "超写实高级时装秀人像摄影，一位20多岁的东亚年轻女性模特站在昏暗的大型T台或舞台空间中，竖构图，约3:4比例，中景至胯部构图，人物位于画面中央，占画面约70%。她身体正面朝向镜头，但头部微微低下并转向画面右侧，目光落在右下方，不直视镜头，神情冷静、克制、略带疏离感。双肩自然放松，右臂自然垂落，左手轻轻抓住牛仔裤腰部，姿态像走秀途中短暂停顿。\n\n她拥有精致柔和的鹅蛋脸、自然清晰的下颌线、深棕色杏仁眼、纤细直鼻、自然饱满的裸玫瑰色嘴唇。妆容低调清冷：薄透底妆、灰棕眼影、自然眉毛、细眼线、轻微修容和低饱和玫瑰裸唇。头发完全收在一顶深海军蓝色复古棒球帽下，仅耳侧和后方露出少量黑色发丝。棒球帽正面有一个小型米金色字母「C」。\n\n她穿一件浅雾霾蓝色极简细肩带运动内衣或短款bralette，V形领口，柔软弹力针织面料，下缘带细小织纹结构；腰腹完整露出，保留真实肚脐和轻微腹部起伏。颈部佩戴一条极细黑色choker，正中央连接一朵立体雾霾蓝布艺山茶花或玫瑰花，位置紧贴喉部。下身穿白色低腰内搭短裤或内衣，外面是一条浅蓝色宽松低腰牛仔裤，裤腰完全解开并向两侧翻折下垂，形成随意、解构式的T台造型。无其他明显饰品，无Logo。\n\n背景为深黑灰色时装秀T台，人物后方有极轻微舞台烟雾和远处模糊圆形灯光，环境绝大部分沉入阴影。使用柔和冷色正面舞台光配合左右后方轮廓光，皮肤呈细腻的冷灰蓝色调，肩膀和手臂边缘有轻微银色高光。整体低饱和、低对比度，黑色背景、雾霾蓝服装、浅色牛仔和自然肤色形成高级冷调组合。\n\n使用85mm或105mm长焦人像镜头，f/2–2.8，ISO 800，1/250s，浅景深。人物眼睛、脸部、蓝色上衣、花朵choker和牛仔腰部细节清晰，背景灯光柔和虚化。真实皮肤质感，可见细微毛孔、肤色变化、锁骨、腹部与手臂真实结构；保留帽子织物、花朵布料、针织上衣和牛仔纹理。加入轻微ISO 800胶片颗粒、柔和高光晕染。避免塑料皮肤、过度磨皮、CG感、HDR、过度锐化、夸张胸腰臀、极端细腰、畸形手指、错误服装结构或额外肢体。整体风格：韩国高级时尚秀场摄影、冷调运动时装编辑、2000年代极简T台美学，克制、年轻、现代、略带疏离感。无水印、无额外文字、无其他人物。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQPosDSXMAASaUR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQPosDNWgAAJW4B?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQPosDPWgAAPzeB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQPosEyWoAAuBzW?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2090936996630052887",
+      "tags": [
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1787408262591,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2090936996630052887",
+      "collectedAt": "2026-08-22T14:17:43.549Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4gqa4g_qk2w",
+      "image": "https://pbs.twimg.com/media/HQSYwrbbAAAq-_R?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQSYwrbbAAAq-_R?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSYwrXa0AAvnYQ?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSYwyta8AEguat?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSYwsRa0AAzfle?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Knee-up cowboy shot, eye-level view.\nA 20s seductive stunning Japanese or Korean woman with black frame, sunglasses with tinted lenses, resting on top of the head, pushed into the hair, eyes unobstructed and small cross earring detail, subtle gothic-inspired accessory accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young beautiful Korean idol face, refined small face, clear bright eyes, long naturally slightly wavy hair with airy see-through bangs, soft side-draped face-framing strands, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, soft black-tea brown hair, muted brown-black salon tone, glass skin, dewy luminous skin texture, candid joyful expression, lifted cheeks, eyes gently narrowed by the smile, open genuine smile, visible teeth.\nShe wears hip-length fitted outerwear, ending around the widest part of the hips, off-white lace robe cardigan, long open-front silhouette, lightweight lace texture, ruffled or scalloped hem, outerwear slipped below the shoulder line, sleeves loosely on the arms, layered over loose ruffled bodice, light grey sheer striped camisole mini dress, one-piece babydoll overlay silhouette, slim straps, cascading front flounce panels, airy translucent short hem.\nShe has her head naturally facing the camera, both hands resting naturally along the body or on a nearby support surface, and presents a one-leg weight shift, relaxed asymmetrical body balance with the body naturally supported.\nThe scene is world-scene architecture for the portrait: Los Angeles, Venice Beach, Venice Beach boardwalk stays visible around and behind the subject; the portrait subject remains the main subject while the selected district.\nClear blue-sky daylight, saturated azure sky, hard direct sunlight on the subject, crisp shadow edges.\nMika Ninagawa-inspired explosive vivid complex color image language.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQSYwrbbAAAq-_R?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSYwrXa0AAvnYQ?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSYwyta8AEguat?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSYwsRa0AAzfle?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2090964174306447812",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787408262592,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2090964174306447812",
+      "collectedAt": "2026-08-22T14:17:43.549Z"
+    }
+  ]
+}
