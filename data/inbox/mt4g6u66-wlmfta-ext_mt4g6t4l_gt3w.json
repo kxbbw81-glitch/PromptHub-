@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-22T14:02:35.453Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4g6t4l_gt3w",
+      "image": "https://pbs.twimg.com/media/HQSX-hkbkAA4MLk?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQSX-hkbkAA4MLk?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSX-hjawAERh9F?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSSu6oaQAA78p0?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSSu6mbIAAg0-Y?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "动作提示词，分别拿grok和image2测试\n\n极低机位超广角近距离自拍，成年东亚女性，黑色长发，韩系网红妆，半眯眼直视镜头，下巴轻抬，湿润嘴唇微张，sleepy gaze，dazed expression，慵懒迷离神态。坐在床或沙发上，双腿屈膝抬向镜头，双脚并排，脚底正对镜头，双手扶住膝腿两侧。超薄黑色透明丝袜覆盖腿部与脚掌，可见细密丝袜纹理与脚趾轮廓。镜头紧贴双脚前方约20–24mm，强烈forced perspective、foreground enlargement、foreshortening，双脚占据前景主体，膝腿中景，脸部缩小位于上方中央。夜间昏暗室内，手机正面硬闪，背景压暗，低照度数字噪点，轻微美颜与压缩质感，真实社交媒体自拍截图感，9:16竖版",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQSX-hkbkAA4MLk?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSX-hjawAERh9F?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSSu6oaQAA78p0?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQSSu6mbIAAg0-Y?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2090963239811391648",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787407354101,
+      "title": "动作提示词，分别拿grok和image2测试",
+      "url": "https://x.com/VoxcatAI/status/2090963239811391648",
+      "collectedAt": "2026-08-22T14:02:35.453Z"
+    }
+  ]
+}
