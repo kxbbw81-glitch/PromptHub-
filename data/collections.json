@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T08:10:22.189Z",
+  "updatedAt": "2026-08-24T09:00:03.452Z",
   "collections": [
     {
       "id": "jimeng_7652706600678919462",
@@ -26,7 +26,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "抽象",
       "tags": [
@@ -59,7 +59,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "角色",
       "tags": [
@@ -93,7 +93,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "抽象",
       "tags": [
@@ -127,7 +127,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "赛博朋克",
       "tags": [
@@ -160,7 +160,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "动物",
       "tags": [
@@ -193,7 +193,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "品牌视觉",
       "tags": [
@@ -227,7 +227,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "动物",
       "tags": [
@@ -260,7 +260,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "角色",
       "tags": [
@@ -293,7 +293,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "品牌视觉",
       "tags": [
@@ -327,7 +327,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "动物",
       "tags": [
@@ -360,7 +360,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "科幻",
       "tags": [
@@ -394,7 +394,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "角色",
       "tags": [
@@ -428,7 +428,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "奇幻",
       "tags": [
@@ -462,7 +462,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "奇幻",
       "tags": [
@@ -495,7 +495,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "奇幻",
       "tags": [
@@ -528,7 +528,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "奇幻",
       "tags": [
@@ -561,7 +561,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "动物",
       "tags": [
@@ -594,7 +594,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "抽象",
       "tags": [
@@ -627,7 +627,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "角色",
       "tags": [
@@ -660,7 +660,7 @@
       "date": "2026-08-12",
       "collectedAt": "2026-08-12T07:27:28.421Z",
       "githubSyncedAt": "2026-08-12T07:27:28.421Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786519648421,
       "category": "品牌视觉",
       "tags": [
@@ -698,7 +698,7 @@
       "date": "2026-08-11",
       "collectedAt": "2026-08-11T07:22:24.947Z",
       "githubSyncedAt": "2026-08-11T07:22:24.947Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786432946959
     },
     {
@@ -730,7 +730,7 @@
       "date": "2026-08-11",
       "collectedAt": "2026-08-11T07:20:24.315Z",
       "githubSyncedAt": "2026-08-11T07:20:24.315Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786432828545
     },
     {
@@ -762,7 +762,7 @@
       "date": "2026-08-11",
       "collectedAt": "2026-08-11T07:18:55.710Z",
       "githubSyncedAt": "2026-08-11T07:18:55.710Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786432737664
     },
     {
@@ -795,7 +795,7 @@
       "date": "2026-08-11",
       "collectedAt": "2026-08-11T07:18:55.710Z",
       "githubSyncedAt": "2026-08-11T07:18:55.710Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786432739286
     },
     {
@@ -827,7 +827,7 @@
       "date": "2026-08-11",
       "collectedAt": "2026-08-11T07:18:55.710Z",
       "githubSyncedAt": "2026-08-11T07:18:55.710Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z",
       "timestamp": 1786432742617
     },
     {
@@ -864,7 +864,7 @@
       "collectedAt": "2026-08-24T08:04:18.385Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-24T08:05:19.520Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z"
     },
     {
       "aspectRatio": "2:3",
@@ -902,7 +902,7 @@
       "collectedAt": "2026-08-24T07:38:33.018Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-24T07:39:28.152Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z"
     },
     {
       "aspectRatio": "9:16",
@@ -938,7 +938,7 @@
       "collectedAt": "2026-08-24T07:38:11.591Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-24T07:39:04.616Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-24T09:00:03.449Z"
     },
     {
       "aspectRatio": "9:16",
