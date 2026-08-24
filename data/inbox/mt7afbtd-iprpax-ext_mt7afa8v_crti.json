@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-24T13:44:32.401Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt7afa8v_crti",
+      "image": "https://pbs.twimg.com/media/HQesNTnbcAALnim?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQesNTnbcAALnim?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQesNTnbkAAxqRt?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQesNTzbUAAxfKJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQesNTmboAAMgUZ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nFront-left three-quarter view. The camera is positioned near floor level and tilted upward toward the woman, emphasizing the upward perspective through her lower body, torso, and shoulders. Photographed from the woman's front-left side. Her left shoulder and left hip are nearer the lens, with her torso forming a front-left three-quarter orientation.\nA 20s seductive stunning Japanese or Korean woman with black frame, thin-frame glasses, and fine chain drop earrings, delicate metal chains hanging from the earlobes, understated movement, sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg lean visual weight, 94-58-92 body proportion anchor, long legs with about 3.8:6.2 torso-to-leg balance, full F-to-G-cup-scale bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young cool editorial beauty face, refined sharp facial balance, calm distant gaze-ready features, side-parted medium soft waves, collarbone-length shape, defined face-framing layers, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, soft black-tea brown hair, muted brown-black salon tone, calm composed expression, relaxed brows, softly open eyelids, neutral closed mouth, even facial muscles.\nShe wears embroidered sleeveless cheongsam outfit, shoulder-baring armholes, mandarin collar, diagonal frog-button placket, body-contouring cut, waist-high side slit, ornate floral and dragon embroidery, black white cool-gray palette, black strappy heeled sandals, delicate narrow straps, slim heel.\nShe has her head slightly tilted, one hand lightly touching the corner of the mouth with bare fingertips near the lower lip, relaxed rather than covering the face, and presents a natural lying pose.\nThe portrait takes place inside a real-scale compact living-room editorial set anchored by a raw concrete wall, a large brown vintage Chesterfield leather sofa, dry branches, and a low coffee table. The sofa reads as adult-scale worn leather furniture, and the coffee table carries a few readable props such as art books, cushions, a cup, and a small lamp. Subject placed on the sofa seat plane. Close-lens self-shot framing, off-center crop, incomplete set visibility. Low angle from floor level and front-left three-quarter view. Urban fatigue presence, late-night city exhaustion, heavy relaxed energy, candid tired attitude.\nIndoor window-daylight environment, natural window-lit room brightness, window-frame pattern light cast on the subject, framed daylight shadows.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQesNTnbcAALnim?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQesNTnbkAAxqRt?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQesNTzbUAAxfKJ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQesNTmboAAMgUZ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2091829956984570013",
+      "tags": [
+        "photorealistic",
+        "vintage"
+      ],
+      "timestamp": 1787579070367,
+      "title": "建材角落躺姿人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2091829956984570013",
+      "collectedAt": "2026-08-24T13:44:32.401Z"
+    }
+  ]
+}
