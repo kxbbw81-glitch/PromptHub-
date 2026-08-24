@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-24T05:55:45.662Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "4:3",
+      "category": "人像",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt6togiq_i9u7",
+      "image": "https://pbs.twimg.com/media/HQdXAX0bMAA2P0y?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQdXAX0bMAA2P0y?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQdXspLbYAAO51I?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQdXvkWaEAA7PmL?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQdXvm6a8AEtkpR?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nThe camera is positioned near floor level and tilted upward toward the woman, emphasizing the upward perspective through her lower body, torso, and shoulders.\nA 20s seductive stunning Japanese or Korean woman, sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg lean visual weight, 94-58-92 body proportion anchor, long legs with about 3.8:6.2 torso-to-leg balance, full F-to-G-cup-scale bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young beautiful Korean idol face, refined small face, clear bright eyes, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, natural black hair, soft matte skin texture, refined pores, velvety smooth finish, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks.\nShe wears oversized outerwear proportion with roomy shoulders and body, off-white sheer lightweight cover-up jacket, translucent gauze mesh fabric, short sleeves, soft draped outerwear, outerwear worn open at the front, front panels parted naturally, outerwear worn normally on both shoulders, layered over, black lace bra top, delicate shoulder straps, floral lace, scalloped trim, refined lingerie detailing, ultra-low-rise waistband sitting very low on the hips, black seamless lace thong bottoms, ultra-thin side straps, low-rise V-front, minimal back panel.\nShe has her chin slightly raised, and presents an all-fours kneeling pose with hands and knees supporting the body on an existing soft horizontal surface in the scene, both knees pressing lightly into the surface with the body weight supported below.\nThe scene is small British inn room, floral bedding, narrow sash window.\nIndoor window-daylight environment, natural window-lit room brightness, flat even subject lighting, balanced full-face illumination.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQdXAX0bMAA2P0y?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQdXspLbYAAO51I?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQdXvkWaEAA7PmL?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQdXvm6a8AEtkpR?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2091737125838561418",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787550944930,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2091737125838561418",
+      "collectedAt": "2026-08-24T05:55:45.662Z"
+    }
+  ]
+}
