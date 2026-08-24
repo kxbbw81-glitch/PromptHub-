@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T13:47:20.284Z",
+  "updatedAt": "2026-08-24T13:50:20.018Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt7alk49_rjox",
+      "image": "https://pbs.twimg.com/media/HQfBkZVasAA27AF?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQfBkZVasAA27AF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQfBkbAaAAA6B6a?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait. Full-body portrait, shoulder-level view, rear-left three-quarter view. Photographed from the woman's rear-left side. Her left shoulder blade and left hip are nearer the lens, with her back, legs, and feet forming a rear-left three-quarter silhouette. A 20s seductive stunning Japanese or Korean woman, tall slim fashion body, about 170-175 cm visual height, 80-58-88 body proportion anchor, long legs with about 3.5:6.5 torso-to-leg balance, shorter upper torso, high waistline, narrow ribcage, gently wider hips, candid joyful expression, lifted cheeks, eyes gently narrowed by the smile, open genuine smile, visible teeth. She wears soft yellow sleeveless maxi dress, one-piece elongated silhouette, clean shoulder line, long flowing hem, bare feet, natural barefoot state. She has her head tilted slightly backward with the chin softly lifted, both hands pulling the pants or skirt waistband slightly upward into place, fingers gripping the waistband or belt loops without lowering or removing the garment, and presents a hugging-knees seated pose with the seated body naturally supported. The scene is Kowloon Walled City interior passage, narrow wall-to-wall corridor, water-stained concrete walls. Indoor early-morning daylight environment, cool pale window brightness, cool clean daylight subject color, crisp pale-white highlights.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQfBkZVasAA27AF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQfBkbAaAAA6B6a?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2091853810574745778",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787579363098,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2091853810574745778",
+      "collectedAt": "2026-08-24T13:49:24.372Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-24T13:50:20.018Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "16:9",
       "category": "人像",
