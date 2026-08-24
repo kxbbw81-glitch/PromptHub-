@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T07:33:04.648Z",
+  "updatedAt": "2026-08-24T07:39:04.616Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt6xc5ay_hdp9",
+      "image": "https://pbs.twimg.com/media/HQZRsribgAAeYHj?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQZRsribgAAeYHj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQZRsrKakAEbnFl?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQZRsmTakAEp7g7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQZRsmSaYAAAiha?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait. Knee-up cowboy shot, shoulder-level view, front-left three-quarter view. Photographed from the woman's front-left side. Her left shoulder and left hip are nearer the lens, with her torso and thighs forming a front-left three-quarter silhouette. A 20s seductive stunning Japanese or Korean woman with black frame, bold thick-frame glasses, small cross earring detail, subtle gothic-inspired accessory accent, and layered cross pendant necklace detail, subtle gothic-inspired neck accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young beautiful Korean idol face, refined small face, clear bright eyes, deep side-parted long soft waves, defined face-framing layers, polished wave shape, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, natural black hair, ornate royal crown with a red velvet crown body, gold filigree arches, gold bead trim, crystal rhinestones, central cross finial, red gemstone accents, white fur base, soft matte skin texture, refined pores, velvety smooth finish, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks. She wears hip-length fitted outerwear, ending around the widest part of the hips, black lace robe cardigan, long open-front silhouette, lightweight lace texture, ruffled or scalloped hem, outerwear worn open at the front, front panels parted naturally, outerwear slipped below the shoulder line, sleeves loosely on the arms, layered over corset bodice, gothic Lolita rose-print dress outfit, voluminous skirt, decorative metal ring and optional preserved rose print palette kept in fixed metallic tones, lace-up front, heart-shaped neckline, sheer lace sleeves, tulle underskirt, ruffle trim, main fabric color set to black, contrast trim set to red, black thigh-high sheer garter stockings, lace top band, visible garter straps, delicate nylon hosiery. She has her head naturally facing the camera, and presents a leg-cross seated pose on an existing soft horizontal surface in the scene, hips settling into the surface with the seated body weight fully supported. The scene is looted Victorian mansion interior, torn wallpaper, broken chandelier pieces. Very dark late-night interior ambience, faint cool residual brightness, upward bounce fill on the subject, reflected light from below.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQZRsribgAAeYHj?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQZRsrKakAEbnFl?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQZRsmTakAEp7g7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQZRsmSaYAAAiha?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2091449309103591493",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1787557088986,
+      "title": "蕾丝长袍女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2091449309103591493",
+      "collectedAt": "2026-08-24T07:38:11.591Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-24T07:39:04.616Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
