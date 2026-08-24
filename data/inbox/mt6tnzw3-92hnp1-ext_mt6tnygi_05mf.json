@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-24T05:55:23.379Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt6tnygi_05mf",
+      "image": "https://pbs.twimg.com/media/HQZBQdGaUAAn-Mx?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQZBQdGaUAAn-Mx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQZBQdHawAA_Nn8?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "明确成年的东亚女性，坐在白色浴缸中泡泡浴，浓密白色泡沫自然覆盖身体，湿发贴在脸侧与肩颈，神情放松，轻微直视镜头。生活感私房摄影，手机数码质感，暖白奶油色调，低饱和，柔和浴室暖光，水汽薄雾，轻微柔焦与 bloom，低对比柔润肤感。近距离半身构图，浴缸边缘与泡沫形成自然前景，背景为简洁现代浴室，画面安静、松弛、干净，9:16 竖版。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQZBQdGaUAAn-Mx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQZBQdHawAA_Nn8?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2091430837862723950",
+      "tags": [
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1787550921522,
+      "title": "泡泡浴这种图",
+      "url": "https://x.com/VoxcatAI/status/2091430837862723950",
+      "collectedAt": "2026-08-24T05:55:23.379Z"
+    }
+  ]
+}
