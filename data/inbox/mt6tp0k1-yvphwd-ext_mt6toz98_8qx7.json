@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-24T05:56:10.897Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt6toz98_8qx7",
+      "image": "https://pbs.twimg.com/media/HQZ7MGWXsAAAt9a?format=jpg&name=360x360",
+      "images": [
+        "https://pbs.twimg.com/media/HQZ7MGWXsAAAt9a?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HQZ7S31XsAA8UCl?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n1:1，Polaroid instant film，韩系居家女友写真，白边即时成像，奶油暖调；高颜值成年韩系女性，桃粉甜美妆，真实半哑光皮肤，黑茶色空气卷长发；奶油黄细肩带背心搭配淡粉棉质短裙；坐在卧室地毯角落，浅色墙面和少量居家家具作为背景，身体微微侧向镜头，一只手拿着鲜红草莓靠近嘴唇，轻轻嘟嘴像准备亲一下草莓，眼睛直视镜头；平视中近景，拍立得内置闪光造成轻微硬阴影，眼睛清亮、鼻梁有窄高光，暖调低动态范围，轻微曝光不均与胶片质感，亲密随手拍。 负面：单人成年女性，不要第二人、摄影者、儿童感、错误手指、多余肢体、过度磨皮、油亮脸。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQZ7MGWXsAAAt9a?format=jpg&name=360x360",
+        "https://pbs.twimg.com/media/HQZ7S31XsAA8UCl?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2091533417716555986",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1787550969212,
+      "title": "把今天留在一张拍立得里",
+      "url": "https://x.com/chenlinspark/status/2091533417716555986",
+      "collectedAt": "2026-08-24T05:56:10.897Z"
+    }
+  ]
+}
