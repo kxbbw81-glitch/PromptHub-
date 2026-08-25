@@ -1,7 +1,140 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T16:00:34.545Z",
+  "updatedAt": "2026-08-25T16:05:22.951Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8uvyeu_couv",
+      "image": "https://pbs.twimg.com/media/HQTuADcbMAANZqm?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQTuADcbMAANZqm?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAF4bAAA343V?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuADTacAA_Xc8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAEabgAAaye9?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "A realistic close-up portrait of a young East Asian woman in her early 20s, with soft light brown shoulder-length hair styled with soft bangs and gentle waves framing her face. She is wearing oversized black rectangular sunglasses with dark gradient lenses and a thick black frame. Her makeup is natural and polished: soft defined eyebrows, subtle blush, and glossy coral-peach lips. She wears small silver double hoop earrings on her visible ear. She is dressed in a fitted black ribbed knit halter top with a high round neckline that leaves her shoulders and upper chest bare. Her pose is a soft selfie-style angle: body slightly turned, one hand resting near her opposite shoulder, looking over her shoulder toward the camera with a calm, confident expression. The background is a plain light beige wall with soft natural window light casting distinct geometric window-pane shadows across the wall and her face. Soft directional sunlight creates gentle highlights on her hair, skin, and the texture of the ribbed top. High-detail realistic photography style, natural skin texture, soft bokeh, elegant and modern aesthetic, high resolution.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQTuADcbMAANZqm?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAF4bAAA343V?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuADTacAA_Xc8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAEabgAAaye9?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2092039252557070777",
+      "tags": [
+        "dark",
+        "bokeh"
+      ],
+      "timestamp": 1787673906678,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/woleswoosh/status/2092039252557070777",
+      "collectedAt": "2026-08-25T16:05:08.038Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-25T16:05:22.951Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "自然",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8uvq2w_zwsq",
+      "image": "https://pbs.twimg.com/media/HQiG53QbsAA8GG2?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQiG53QbsAA8GG2?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "超写实室内镜面自拍摄影，竖版约 9:16，一名年轻成年女性站在狭窄现代衣帽间/步入式衣柜内，对着全身镜自拍。画面从头顶完整拍到双脚，人物位于中央偏右，占画面高度约 88%，左侧保留整排开放式木质衣柜与挂衣区，右侧为干净的浅灰白墙面。采用约 24–28mm 等效手机广角镜头，人物距离镜面约 1.2–1.6 米，机位接近腰腹高度，保持真实手机镜面自拍透视和明显空间纵深，不使用鱼眼，不做明显背景虚化。 人物拥有非常明显的丰满沙漏/梨形成年女性身材：上半身相对纤细，肩部适中，腰部极为明显地收束，骨盆宽阔，髋部向两侧形成饱满圆润弧线，臀部丰满厚实，大腿根部粗壮但腿型整体修长。重点保持“窄腰＋宽胯＋丰满臀部＋长腿”的强烈比例差，但人体骨盆、髋关节和腿部必须连续自然，不要生成异常球形臀部、断层腰臀或健美肌肉型体态。 人物采用极具辨识度的高抬腿侧身自拍姿势：身体基本以背面三分之四角度朝向镜面，下半身更多背对镜子，骨盆明显向画面右侧推出；支撑腿笔直站立在地面，脚掌稳定着地。另一条腿从髋部向人物右侧大幅抬起并完全伸直，形成接近 150–170° 的高位侧抬腿/竖向劈腿动作，小腿和脚一直延伸到画面右上方，脚掌贴近右侧墙面，脚尖朝上。高抬腿必须保持膝盖基本伸直、髋部打开、骨盆稳定，腿部从臀胯到脚踝形成一条长而清晰的斜线，不能变成屈膝踢腿。 人物上半身轻微向左侧倾斜以平衡高抬腿动作，左手向后伸并扶住左侧开放式衣柜的层板/柜沿，手臂自然伸直；右手举起一部粉色手机，在脸部正前方偏右位置自拍，手机遮挡部分面部。肩膀放松，腰腹微微扭转，形成明显但自然的 S 型曲线。 人物留黑色短 Bob 发型，长度约到下巴，发尾整齐但带轻微自然弧度，额前为轻薄齐刘海/空气刘海，整体发型干净利落。脸型小巧偏鹅蛋形，肤色白皙偏暖，眼睛深色，淡淡眼线和自然睫毛，鼻梁小巧，嘴唇柔和裸粉色。表情安静、略带自信，双眼通过镜面看向手机屏幕。 上身穿深墨绿色/森林绿色三角杯比基尼式吊带上衣，细肩带绕过颈后或肩部，罩杯采用哑光弹力泳装面料，剪裁极简，没有荷叶边、蕾丝或夸张装饰。胸下细带贴合身体，整体紧致简洁，颜色偏深绿而不是亮荧光绿。 下身穿极简深色细带比基尼裤/高叉丁字式泳装下装，颜色为黑色或深墨绿色，腰侧仅有非常细的带子，裤腿高开，尽可能减少布料面积，突出髋部和腿部线条。服装必须保持完整覆盖和真实布料张力，不要生成裸露或透明材质。 双脚穿白色中筒运动袜，袜筒高度约到小腿下部，材质厚实柔软，带清楚罗纹纹理。支撑脚完整穿着白袜踩在木地板上；抬起腿的脚同样穿白袜，袜底直接贴近右侧墙面。袜口附近可以有极小的深色品牌式短横线，但不要出现清晰可读文字。 场景为狭长的现代步入式衣帽间。画面左侧是一整排浅胡桃木/浅橡木开放式衣柜，从前景延伸到人物身后，形成明显纵深。上方开放格里放着数顶棒球帽，其中可见深蓝色帽子、红色帽檐以及其他折叠帽饰；中部挂衣杆上悬挂多件深灰、黑色、白色和浅灰色 T 恤、外套、牛仔衣，衣架排列密集但自然。下方鞋架摆放多双黑色、白色运动鞋和休闲鞋，柜体木纹清楚。 右侧是一面干净的浅灰白色墙壁，人物抬起的脚贴近或轻触墙面。墙上靠人物腿部附近有一个小型白色灯光开关/控制面板。走廊尽头是纯净暖白色墙面，不放置复杂家具。地面铺深灰棕色木纹地板，纵向木板纹理沿衣帽间延伸。 室内使用均匀柔和的暖白色顶灯，整体曝光中等略偏暗，人物皮肤、绿色泳装和白袜清楚，但不出现强烈闪光或硬阴影。左侧木质衣柜区域略暗，右侧浅灰墙面更亮，使人物轮廓自然突出。肤色保持自然，不做过度美白；深色服装和头发内部保留细节。 整体呈真实高质量手机镜面自拍质感，高解析度、轻微手机 HDR、自然锐化和真实室内噪点。头发、皮肤、泳装面料、白袜罗纹、衣柜木纹、挂衣布料和地板纹理均清楚可辨。不要商业健身广告感，不要影棚光，不要电影调色。 重点锁定：狭长步入式衣帽间＋左侧整排开放木质衣柜＋右侧浅灰白墙＋黑色短 Bob 与空气刘海＋粉色手机镜面自拍＋深墨绿色三角比基尼上衣＋极简深色高叉细带下装＋丰满沙漏/梨形身材＋极细腰＋宽胯丰满臀部＋单腿直立支撑＋另一条腿完全伸直高高侧抬至墙面、接近竖直劈腿＋双脚白色中筒袜＋暖白室内灯＋真实手机自拍。 避免：双腿都站在地面、普通抬膝、屈膝踢腿、劈腿角度不足、抬腿方向错误、支撑腿弯曲、脚没有碰到右侧墙面、长发、卷发、纤细直筒体型、窄胯、臀腿比例不足、异常蜂腰、极端人体畸形、裸露、透明泳装、高跟鞋、运动鞋、丝袜、复杂背景、衣柜消失、影棚背景、强闪光、奶油虚化、鱼眼畸变、过度磨皮、塑料皮肤、CG感、多余腿、多余手臂、错误手指、错误脚趾、水印和乱码文字。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQiG53QbsAA8GG2?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/DDJCXX/status/2092070361815015691",
+      "tags": [
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1787673895880,
+      "title": "森林光影运动海报",
+      "url": "https://x.com/DDJCXX/status/2092070361815015691",
+      "collectedAt": "2026-08-25T16:04:56.480Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-25T16:05:22.951Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8uvq2v_m4ll",
+      "image": "https://pbs.twimg.com/media/HQfUVIgbMAA43no?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQfUVIgbMAA43no?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQfUVIsboAAz2Kv?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQfUVIRaMAIQ3iC?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQfUVIfacAAafjQ?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait. Full-body portrait, front view. The camera is positioned extremely low near the ground and tilted steeply upward toward the woman, creating strong near-far scale through the closest visible body planes. Photographed directly from the front. Her chest and pelvis face the lens, with both shoulders, both hips, legs, and feet forming a frontal full-body silhouette. A 20s seductive stunning Japanese or Korean woman with black frame, aviator-frame glasses, resting on top of the head, pushed into the hair, eyes unobstructed, slim geometric drop earrings, elongated rectangular metal pendant shapes, clean modern jewelry accent, and thin leather O-ring choker, narrow leather strap with a small metal O-ring, subtle edgy neck accent, sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg lean visual weight, 94-58-92 body proportion anchor, long legs with about 3.8:6.2 torso-to-leg balance, full F-to-G-cup-scale bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young beautiful Japanese transparent face, soft natural features, clean gentle eyes, airy fresh beauty, long soft waves with see-through bangs, defined romantic wave shape, clean face-framing ends, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, deep coffee-brown hair, rich brunette depth, soft warm reflection, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks. She wears fitted outerwear proportion, dark grey bomber jacket, flight jacket structure, ribbed collar cuffs and hem, rounded casual outerwear volume, outerwear slipped below the shoulder line, sleeves loosely on the arms, layered over, white triangle bikini top, slim halter strings, minimal sliding triangle cups, smooth stretch swim fabric, ultra-low-rise waistband sitting very low on the hips, black leather mini skirt, glossy surface, compact skirt length, sharp lower-body line, black fishnet tights, open net hosiery texture, black western boots, pointed or almond toe, stacked heel, western shaft detailing, decorative studded leather waist belt worn loosely around hips with metal studs and compact off-center buckle. She has her chin slightly raised, both hands tucked into the two side pockets of her jacket or coat, elbows relaxed and angled slightly outward, and presents a relaxed neutral standing posture with the body naturally supported. The scene is abandoned medicine storage room, dusty glass bottles, metal cabinet. Indoor saturated-color night ambience, vivid colored ambient spill, mixed warm and cool subject lighting, warm-cool highlight contrast across face and clothing. Glossy Japanese portrait color grade, lifted midtones, creamy pale highlights, warm peach skin-tone protection, cyan-green shadows.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQfUVIgbMAA43no?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQfUVIsboAAz2Kv?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQfUVIRaMAIQ3iC?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQfUVIfacAAafjQ?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2091874407245623537",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1787673895879,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2091874407245623537",
+      "collectedAt": "2026-08-25T16:04:56.480Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-25T16:05:22.951Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "自然",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8uvq2u_bb5i",
+      "image": "https://pbs.twimg.com/media/HQksFO7bwAAHi8p?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQksFO7bwAAHi8p?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQksH5KbQAAs9We?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "膝盖以上牛仔镜头，腰部高度视角，前左三季度视角。从女性的前左侧拍摄。她左肩和左臀更靠近镜头，躯干和大腿形成前左三季度轮廓。 一位20多岁诱人惊艳的日本或韩国女性，佩戴小水滴状宝石耳环细节，精致低调的闪耀，94-58-92 身材比例锚定，丰满胸围，纤细定义腰部，圆润臀部，戏剧性但修长的胸腰臀曲线，年轻美丽的韩国偶像脸庞，精致小脸，清澈明亮的眼睛，深侧分长柔波发型，定义的脸部框架层次，精致的波浪形状，轻微风吹动的动态，柔和的方向流动，几缕自然松散的发丝，整体轮廓受控，自然黑发，柔和哑光皮肤质感，精致毛孔，天鹅绒般光滑的妆效，柔和自然的微笑，放松的眉毛，轻轻眯起的眼睛，柔软分开的嘴唇，上扬的脸颊。 她穿着黑色刺绣旗袍式上衣，优雅的立领，贴合上身轮廓，盘扣细节，复杂的花卉刺绣，臀部长度下摆，超低腰腰带极低地贴合臀部，黑色无缝蕾丝丁字裤下装，超细侧边带，低腰 V 领前部，最小化后背面板，精致的金色腰链，细链条均匀间隔点缀微小透明钻石般宝石装饰，腰部和上臀部佩戴微妙闪耀的珠宝。 她自然地面向镜头，呈现自然坐姿，坐在场景中已有的座位上，臀部完全接触座位表面，身体重量明显得到支撑。 场景是庙街小吃店人行道桌角，塑料凳子，瓷砖店面边缘。 明亮日光环境，晴朗白天天际，斑驳叶影光线落在主体上，破碎的阳光斑块洒在皮肤和衣物上。 受青山由纪风格启发的日本写真集图像语言。 色差，微妙的 RGB 边缘晕染，高对比边缘的横向颜色分离。 透明的日本肖像色彩分级，轻盈低对比色调，乳白色高光，柔和饱和度，中性干净的肤色。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQksFO7bwAAHi8p?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQksH5KbQAAs9We?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yanchuan999999/status/2092252156246327525",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787673895878,
+      "title": "给你提示词",
+      "url": "https://x.com/yanchuan999999/status/2092252156246327525",
+      "collectedAt": "2026-08-25T16:04:56.480Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-25T16:05:22.951Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
