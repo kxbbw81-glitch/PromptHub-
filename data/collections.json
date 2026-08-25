@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T14:35:28.724Z",
+  "updatedAt": "2026-08-25T06:45:15.369Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "时尚",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8auu0a_x2fu",
+      "image": "https://pbs.twimg.com/media/HQgZN_YX0AADnB2?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQgZN_YX0AADnB2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQgZN_gXUAAcJBc?format=png&name=small",
+        "https://pbs.twimg.com/media/HQgZN_aWUAETfrG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQgZN_ZXMAARMgn?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实高级室内内衣时尚摄影，一位20多岁的成年东亚女性站在现代公寓或精品酒店室内，竖构图，约2:3比例，中近景至大腿上方构图，画面刻意裁掉眼睛以上区域，仅保留下半张脸、肩颈、胸腰和大腿，人物位于画面中央，占画面约75%。她身体正面朝向镜头，腰胯轻微向一侧转动，形成自然S形曲线。左手抬至锁骨附近，手指轻触颈侧；右手自然放在右侧胯骨或大腿外侧，姿态克制、平静、具有高级内衣广告感。 她拥有自然饱满的裸粉色嘴唇、纤细下颌线和修长颈部。短至中等长度的深棕色波波头或柔软短发自然落在脸侧，发尾略带空气感。妆容极简，肤色温暖均匀但保留真实细微毛孔和自然明暗变化。 她穿一套浅裸米色、象牙粉或香槟肤色的精致蕾丝内衣。上身为细肩带无钢圈或轻支撑三角杯bra，深V领，杯面覆盖细密半透明花卉蕾丝与网纱，边缘有精致睫毛蕾丝滚边，肩带极细，胸下为简洁窄边结构。下身搭配同色低腰高叉蕾丝内裤，前片由半透明网纱与细腻花卉蕾丝组合，腰线自然贴合胯骨。材质轻盈、柔软、细腻，蕾丝花纹真实清晰，无Logo、无文字。佩戴一条极细金色手链，其余无明显饰品。 背景为现代住宅走廊或卧室入口，米灰色墙面、深色门框和柔和阴影形成极简环境。背景明显虚化，不出现杂乱家具。使用柔和暖色自然窗光或大型柔光箱，从画面左前方和略高位置照射，在锁骨、胸腹、手臂和腿部形成均匀柔和的高光；右侧身体略暗但保持细节。整体低饱和、低对比度、暖米色调，以肤色、裸米蕾丝和深灰背景形成克制高级的色彩关系。 使用85mm或105mm人像镜头，f/2–2.8，ISO 100–200，1/200s，浅景深。蕾丝纹理、皮肤、手指和腰腹清晰，背景柔化。保留真实皮肤毛孔、自然腹部起伏、肚脐、锁骨、手部和大腿结构；保留蕾丝网眼、纤维和自然布料张力。加入极轻微ISO 200胶片颗粒、柔和高光Bloom和自然暗角。避免塑料皮肤、过度磨皮、CG感、HDR、过度锐化、夸张胸腰臀比例、极端细腰、畸形手指、错误内衣结构或额外肢体。整体风格：高级内衣杂志、极简美容广告、韩系室内时尚编辑，柔和、成熟、克制、精致。无文字、无Logo、无水印、无其他人物。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQgZN_YX0AADnB2?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQgZN_gXUAAcJBc?format=png&name=small",
+        "https://pbs.twimg.com/media/HQgZN_aWUAETfrG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQgZN_ZXMAARMgn?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2092024159337644290",
+      "tags": [
+        "人像",
+        "摄影",
+        "低饱和",
+        "极简"
+      ],
+      "timestamp": 1787640261995,
+      "title": "美容广告",
+      "url": "https://x.com/ToroJushiAi/status/2092024159337644290",
+      "collectedAt": "2026-08-25T06:44:22.837Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-25T06:45:15.369Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
