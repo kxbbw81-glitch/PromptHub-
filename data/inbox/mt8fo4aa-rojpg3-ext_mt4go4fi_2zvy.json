@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-25T08:59:06.802Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4go4fi_2zvy",
+      "image": "https://pbs.twimg.com/media/HQQBVhnbMAAISS2?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQQBVhnbMAAISS2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcbacAAygkB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcOaAAAA2jr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcKbwAAdhMA?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOc2yDHaUAAev6e?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "「南鸢写真提示词」会员升级版正式上线。\n你给它一张参考图和新的主角。它会拆开人物身份与拍摄方案，规划新分镜，重建不同机位的光照关系，再逐张检查表情、动作、背景层级和原作保真。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQQBVhnbMAAISS2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcbacAAygkB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcOaAAAA2jr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcKbwAAdhMA?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOc2yDHaUAAev6e?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2090798606685233655",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787408161902,
+      "title": "一张参考图",
+      "url": "https://x.com/nanyuan0412/status/2090798606685233655",
+      "collectedAt": "2026-08-25T08:59:06.802Z"
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4gqa4d_3wgb",
+      "image": "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO9w99bUAEfGbs?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO91PjaMAEQ2xQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO942ubMAA0zOg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "4. 可爱脸是平衡器。\n如果服装、黑丝、低机位全部往成熟性感方向走，很容易变成单一写真感。加入圆润、亲和、偏 COS 审美的成年可爱脸，加上粉色眼妆、卧蚕、柔和唇色之后，画面会被拉回到“二次元商业广告”而不是纯性感写真。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO9w99bUAEfGbs?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO91PjaMAEQ2xQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO942ubMAA0zOg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2090723690552209788",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787408262589,
+      "title": "这组的核心其实不是“汉服 + 黑丝”",
+      "url": "https://x.com/VoxcatAI/status/2090723690552209788",
+      "collectedAt": "2026-08-25T08:59:06.802Z"
+    }
+  ]
+}
