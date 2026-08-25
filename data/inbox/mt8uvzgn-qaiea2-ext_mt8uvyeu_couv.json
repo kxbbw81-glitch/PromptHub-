@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-25T16:05:08.038Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8uvyeu_couv",
+      "image": "https://pbs.twimg.com/media/HQTuADcbMAANZqm?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQTuADcbMAANZqm?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAF4bAAA343V?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuADTacAA_Xc8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAEabgAAaye9?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "A realistic close-up portrait of a young East Asian woman in her early 20s, with soft light brown shoulder-length hair styled with soft bangs and gentle waves framing her face. She is wearing oversized black rectangular sunglasses with dark gradient lenses and a thick black frame. Her makeup is natural and polished: soft defined eyebrows, subtle blush, and glossy coral-peach lips. She wears small silver double hoop earrings on her visible ear.\nShe is dressed in a fitted black ribbed knit halter top with a high round neckline that leaves her shoulders and upper chest bare. Her pose is a soft selfie-style angle: body slightly turned, one hand resting near her opposite shoulder, looking over her shoulder toward the camera with a calm, confident expression.\nThe background is a plain light beige wall with soft natural window light casting distinct geometric window-pane shadows across the wall and her face. Soft directional sunlight creates gentle highlights on her hair, skin, and the texture of the ribbed top. High-detail realistic photography style, natural skin texture, soft bokeh, elegant and modern aesthetic, high resolution.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQTuADcbMAANZqm?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAF4bAAA343V?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuADTacAA_Xc8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQTuAEabgAAaye9?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2092039252557070777",
+      "tags": [
+        "dark",
+        "bokeh"
+      ],
+      "timestamp": 1787673906678,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/woleswoosh/status/2092039252557070777",
+      "collectedAt": "2026-08-25T16:05:08.038Z"
+    }
+  ]
+}
