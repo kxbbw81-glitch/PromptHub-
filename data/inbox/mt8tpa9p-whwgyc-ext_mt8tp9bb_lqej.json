@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-25T15:31:55.837Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8tp9bb_lqej",
+      "image": "https://pbs.twimg.com/media/HQj1q3BXcAEjTKG?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HQj1q3BXcAEjTKG?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HQj1hiNX0AAlQzK?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HQj1kmYWwAEeD4K?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n16:9，16mm motion-picture still，韩系公寓女友写真，暖灰胶片颗粒  成年韩系女性，清透裸妆，自然皮肤纹理，柔和黑色盘发，碎发修饰脸部  穿浅灰色居家T恤，坐在卧室窗边地板上，双手握白色小勺靠近胸前  镜头从床边高位向下拍摄，窗光穿过白色纱帘照亮眼睛和脸侧  旁边有白色床铺、木地板、柔软被子，背景浅景深虚化  表情温柔安静，像恋人视角记录的日常瞬间  真实摄影，16mm电影静帧，轻微曝光过渡，暖灰色调  负面： 第二个人、镜子倒影、摄影者、畸形手、额外手指、塑料脸、过度锐化、水印",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQj1q3BXcAEjTKG?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HQj1hiNX0AAlQzK?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HQj1kmYWwAEeD4K?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092222206679941544",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1787671914599,
+      "title": "窗边的光、柔软的床单",
+      "url": "https://x.com/chenlinspark/status/2092222206679941544",
+      "collectedAt": "2026-08-25T15:31:55.837Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8tp9bb_kzna",
+      "image": "https://pbs.twimg.com/media/HQiJL6nWwAARz5h?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQiJL6nWwAARz5h?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQiJMZVWEAAIrAV?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4，split-diopter photography，韩系甜品约会女友写真，前后双焦平面，浅暖色调。 高颜值成年韩系女性，桃粉甜美妆，自然半哑光肌，深棕色长发自然垂落，穿浅粉色修身针织长袖。坐在空甜品店靠窗粉色卡座，近侧左下前景是一大块草莓奶油蛋糕，草莓、奶油和蛋糕层清晰锐利；远侧焦面锁定人物脸部，眼睛同样清晰。柔和窗光落在眼睛、发丝和奶油边缘。女生双手握住银色小勺举在唇前，微微鼓脸直视镜头，表情甜美撒娇，近距离恋人视角。真实摄影质感，前后两个距离同时清晰，没有明显分焦接缝。仅一名成年女性，不出现同桌者、服务员或摄影者，不要画面中缝、复制人物、失焦眼睛、多指。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQiJL6nWwAARz5h?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQiJMZVWEAAIrAV?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092114749332836771",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1787671914599,
+      "title": "草莓蛋糕、阳光和一点点小心思",
+      "url": "https://x.com/chenlinspark/status/2092114749332836771",
+      "collectedAt": "2026-08-25T15:31:55.837Z"
+    }
+  ]
+}
