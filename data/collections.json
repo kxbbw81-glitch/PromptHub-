@@ -1,7 +1,72 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T10:42:18.223Z",
+  "updatedAt": "2026-08-27T10:43:19.782Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtbe8im7_x45v",
+      "image": "https://pbs.twimg.com/media/HQsiZwpWYAAaVJG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQsiZwpWYAAaVJG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQsifoSXoAAMTJV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQjpOP3WgAAWgaz?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "3:4，slow-shutter digital photography，韩系夜间女友写真。 成年韩系女性，冷调玫瑰妆，半哑光肌，黑色微卷长发，银色耳环。 服装：银灰色缎面吊带，黑色轻薄外套。 场景：空旷停车场，彩色霓虹灯形成横向光轨。 动作：手指靠近镜头比小爱心，脸部保持清晰微笑。 镜头：近距离半身，前景手指轻微虚化，背景慢门拉丝，闪光冻结脸部。 摄影：真实夜间闪光自拍，恋人视角。 负面：不要多根手指，不要手部畸形，不要第二个人。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQsiZwpWYAAaVJG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQsifoSXoAAMTJV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQjpOP3WgAAWgaz?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092819391318548593",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1787827337791,
+      "title": "背景都被甩成了光",
+      "url": "https://x.com/chenlinspark/status/2092819391318548593",
+      "collectedAt": "2026-08-27T10:42:18.988Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-27T10:43:19.782Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "自然",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtbe840u_ghc1",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2092634342908641280/img/P7CP-jzdWzrScUF3.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092634342908641280/img/P7CP-jzdWzrScUF3.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2091153385030610944/img/_eWKVP0_Ig7yZ2ix?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "第一人称POV特写镜头，竖屏9:16，双手入镜。左手持一张精美明星收藏卡片，卡片为橙色渐变背景，上面印有一位黑色长直发年轻女性，身穿白色长袖衬衫和黑色高腰裙，气质清纯端庄，卡片左上角有英文名字和一行中文小字。右手捏着一个浅蓝色圆形小盖子，盖子里盛着清水。 镜头开始：右手缓缓倾斜盖子，清澈的水流从盖沿流出，精准落在卡片上女性白衬衫的胸口位置。水流沿着衬衫纹理向下流淌扩散，白衬衫接触水的区域逐渐变得半透明，底层隐约浮现出白色蕾丝内衣的轮廓。随着水持续冲刷，湿痕从胸口向腹部和两侧蔓延，白衬衫的透明度越来越高，白色蕾丝内衣的精致花纹、细肩带和罩杯线条完整显露，腰腹肌肤可见。水流一直流到黑色裙子区域并从卡片底边滴落。 水倒完后，右手盖子移出画面，左手微微转动卡片展示最终效果，水珠沿卡片边缘缓缓坠落。背景为虚化的桌面环境，隐约可见酒杯。柔和室内自然光，浅景深，焦点始终在卡片上，画面稳定无抖动，60fps流畅运动，真实物理水流效果，纸张湿润质感，电影级调色。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092634342908641280/img/P7CP-jzdWzrScUF3.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2091153385030610944/img/_eWKVP0_Ig7yZ2ix?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/zhouluobo/status/2092634997626998934",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787827318878,
+      "title": "这个是真不错",
+      "url": "https://x.com/zhouluobo/status/2092634997626998934",
+      "collectedAt": "2026-08-27T10:42:00.499Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-27T10:43:19.782Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
