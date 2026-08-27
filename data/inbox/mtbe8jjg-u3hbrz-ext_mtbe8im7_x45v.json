@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T10:42:18.988Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtbe8im7_x45v",
+      "image": "https://pbs.twimg.com/media/HQsiZwpWYAAaVJG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQsiZwpWYAAaVJG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQsifoSXoAAMTJV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQjpOP3WgAAWgaz?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "3:4，slow-shutter digital photography，韩系夜间女友写真。  成年韩系女性，冷调玫瑰妆，半哑光肌，黑色微卷长发，银色耳环。  服装：银灰色缎面吊带，黑色轻薄外套。  场景：空旷停车场，彩色霓虹灯形成横向光轨。  动作：手指靠近镜头比小爱心，脸部保持清晰微笑。  镜头：近距离半身，前景手指轻微虚化，背景慢门拉丝，闪光冻结脸部。  摄影：真实夜间闪光自拍，恋人视角。  负面：不要多根手指，不要手部畸形，不要第二个人。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQsiZwpWYAAaVJG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQsifoSXoAAMTJV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQjpOP3WgAAWgaz?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092819391318548593",
+      "tags": [
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1787827337791,
+      "title": "背景都被甩成了光",
+      "url": "https://x.com/chenlinspark/status/2092819391318548593",
+      "collectedAt": "2026-08-27T10:42:18.988Z"
+    }
+  ]
+}
