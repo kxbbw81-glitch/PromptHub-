@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T06:28:06.600Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-14",
+      "domain": "x.com",
+      "id": "ext_mssi2xq9_4zvd",
+      "image": "https://pbs.twimg.com/media/HNlCHdDWcAA9G2N?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HNlCHdDWcAA9G2N?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNbbrkfXsAAbALQ?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "人物角色卡通用简化版提示词模板prompt\n帮我生成人物三视图，背景灰色，手里无东西，再加一个人物脸部近景，总共四格人物照，四格全部竖版顺序排列，无文字，人物正脸面向镜头。除了人脸近景图清晰可见，小脸打上马赛克，16:9",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HNlCHdDWcAA9G2N?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HNbbrkfXsAAbALQ?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/johnAGI168/status/2078766150591136090",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1786684938561,
+      "title": "随着模型越来越强大",
+      "url": "https://x.com/johnAGI168/status/2078766150591136090",
+      "collectedAt": "2026-08-27T06:28:06.600Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-24",
+      "domain": "x.com",
+      "id": "ext_mt6x6wgm_cqyu",
+      "image": "https://pbs.twimg.com/media/HQGoNuSaEAIpPvY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQGoNuSaEAIpPvY?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n纵向3:4，从靠近地板的水平镜头视角收纳全身。人物占据中央至下半部分的大块区域，弯曲的双腿和赤脚在前景向横向展开，其中一只脚尖靠近下端。焦点集中在脸部和身体上，沙发深处和灯稍显虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQGoNuSaEAIpPvY?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2091698002582700168",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787556844246,
+      "title": "在柔和灯光的客厅里",
+      "url": "https://x.com/CyberTotal2026/status/2091698002582700168",
+      "collectedAt": "2026-08-27T06:28:06.600Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtb55kjo_np0m",
+      "image": "https://pbs.twimg.com/media/HQn_BBoXwAIwt7p?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQn_BBoXwAIwt7p?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQn_HtbWcAAXGfs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt：\n3:4，Lensbaby selective-focus photography，韩系卧室女友写真，高位俯视，单一锐利焦点，外围柔软旋涡虚化。高颜值成年韩系女性，桃粉甜美妆，自然半哑光肌，黑色低束发，零散发丝贴近脸颊。浅灰绿色床铺、米白地毯与浅色床头柜。人物穿奶油白细肩带家居连衣裙，靠坐在床边，一只手将鲜黄色柠檬轻抱在胸口附近，先低头再抬眼看向镜头，表情安静、略带害羞。镜头从上方向下拍摄，近侧眼睛为唯一锐利焦点，窗光从侧面扫过眼睛、脸颊、肩膀和柠檬，腿部与背景自然柔化。仅一名成年女性；不要畸形透视、两眼同时异常锐化、手臂粘连、塑料皮肤。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQn_BBoXwAIwt7p?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQn_HtbWcAAXGfs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092507339311943808",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787812083780,
+      "title": "把焦点留给眼睛",
+      "url": "https://x.com/chenlinspark/status/2092507339311943808",
+      "collectedAt": "2026-08-27T06:28:06.600Z"
+    }
+  ]
+}
