@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T10:41:23.151Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtbe7btv_3dwb",
+      "image": "https://pbs.twimg.com/media/HQtVSTBawAAf2Kq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQtVSTBawAAf2Kq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQtVSTUbgAEgdBO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "2:3 vertical aspect ratio, a cinematic fine-art environmental photograph of an adult Chinese woman joyfully washing a cute pink scooter outdoors while playfully interacting with a small white Maltipoo, capturing the spontaneous intimacy and observational realism of an authentic live-action film still rather than a posed fashion photograph. She has naturally elegant, distinctly human facial features, realistic anatomy and proportions, authentic skin texture with subtle tonal variation, and long dark hair falling naturally around her shoulders and down her back, with individual strands and restrained flyaways responding subtly to movement and moisture.\n\nShe is barefoot, standing naturally on the wet ground, wearing an oversized low-cut tank top with a relaxed silhouette and believable fabric weight, its loose material naturally folding and shifting with her movement. Her body language is the emotional center of the scene: she leans slightly toward the pink scooter while holding a garden hose, laughing genuinely as a playful stream of water sprays across the scooter, while the white Maltipoo bounces excitedly beside her and reaches toward the moving water. Capture the precise moment when water droplets scatter through the air, creating a fleeting sense of motion and joy.\n\nSet the scene in a modest, lush outdoor residential washing area surrounded by tropical greenery, damp concrete, small puddles, and subtle everyday details that make the location feel lived-in rather than staged. Compose the vertical frame with natural asymmetry and layered depth, using nearby foliage and environmental elements as soft foreground framing while keeping the woman, pink scooter, dog, and suspended water spray clearly readable.\n\nUse a 35mm full-frame perspective at eye level with moderate shallow depth of field, preserving environmental context while gently separating the subjects from the background. Soft late-afternoon natural light filters through the greenery, catching individual droplets and edges of wet surfaces without looking artificially illuminated. Preserve realistic water physics, wet fabric behavior, natural dog fur, believable shadows, subtle atmospheric depth, restrained film grain, and understated cinematic color grading, with the overall image feeling like a beautifully observed moment from a contemporary live-action film.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQtVSTBawAAf2Kq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQtVSTUbgAEgdBO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/christosina/status/2092860288957812852",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1787827282339,
+      "title": "电影感女性人像",
+      "url": "https://x.com/christosina/status/2092860288957812852",
+      "collectedAt": "2026-08-27T10:41:23.151Z"
+    }
+  ]
+}
