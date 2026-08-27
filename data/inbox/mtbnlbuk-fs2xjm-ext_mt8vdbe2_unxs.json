@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T15:04:12.092Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8vdbe2_unxs",
+      "image": "https://pbs.twimg.com/media/HQZfN59acAAJrcp?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQZfN59acAAJrcp?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "服装・姿势：\n深棕色细绳三角比基尼泳装，胸下和双腰处有系带，右腰处有一个小金属环。双膝触地，将双腿折于身下，上身微微后仰，以人物自身的右手置于身后的沙地上支撑。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQZfN59acAAJrcp?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2092195782544007469",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787674716650,
+      "title": "背靠波音闭上双眼",
+      "url": "https://x.com/CyberTotal2026/status/2092195782544007469",
+      "collectedAt": "2026-08-27T15:04:12.092Z"
+    }
+  ]
+}
