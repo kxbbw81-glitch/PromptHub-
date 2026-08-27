@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T06:29:06.296Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtb56w1t_c80a",
+      "image": "https://pbs.twimg.com/media/HQnNH3FbwAABDdV?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQnNH3FbwAABDdV?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQnNH8VbYAAloJh?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQnNJJPaQAARCac?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQnNJJTawAAieyM?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nWaist-up portrait, front view. The camera is positioned extremely low near the ground and tilted steeply upward toward the woman, creating strong near-far scale through the closest visible body planes. Photographed directly from the front. Her chest, torso, and waist face the lens in a frontal waist-up silhouette.\nA 20s seductive stunning Japanese or Korean woman with black frame, thin-frame glasses, full bust, narrow defined waist, young sweet pretty face, soft rounded charm, bright friendly eyes, gentle cute beauty, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, soft black-tea brown hair, muted brown-black salon tone, glass skin, dewy luminous skin texture, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks.\nShe wears refined boudoir styling, triangle bra top, high-cut string bottom at the lower crop edge, white satin lingerie set, slim straps, chain connectors, small charm hardware, silver heart-charm waist chain, multiple open heart motifs spaced across the front, a short vertical chain hanging from the center heart and ending in a smaller heart pendant, delicate jewelry around the waist and upper hips.\nShe lies on a bed that dominates the composition. Pillows, cushions, and a casually rumpled comforter rest on the bed, with one everyday item such as a book or phone nearby, creating a lived-in feeling.\nWindow-frame pattern light cast on the subject, framed daylight shadows.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQnNH3FbwAABDdV?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQnNH8VbYAAloJh?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQnNJJPaQAARCac?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQnNJJTawAAieyM?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2092429319121617027",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787812145346,
+      "title": "酒店房间眼镜人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2092429319121617027",
+      "collectedAt": "2026-08-27T06:29:06.296Z"
+    }
+  ]
+}
