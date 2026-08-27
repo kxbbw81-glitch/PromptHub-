@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T06:32:01.859Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtb5ang0_jyc8",
+      "image": "https://pbs.twimg.com/media/HQsiH4zWYAAo9pj?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQsiH4zWYAAo9pj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQkcnWlXwAACZGs?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "16:9，16mm motion-picture still，韩系卧室女友写真  成年韩系女性，奶油裸妆，黑色微乱丸子头，几缕碎发落在脸旁  穿浅蓝衬衫搭白色内搭，趴在床上靠近镜头  动作：双手支撑身体，鼓脸假装抗议，眼睛直视镜头  旁边有格纹抱枕和白色床单  高位俯拍视角，电影感构图，人物脸部清晰，背景柔化  窗边自然光打在脸部和头发边缘，暖灰颗粒，轻微胶片噪点  氛围：亲密、可爱、真实生活抓拍  负面： 多人、第二张脸、错误身体结构、多余手脚、塑料皮肤、过度美颜",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQsiH4zWYAAo9pj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQkcnWlXwAACZGs?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092804091944563089",
+      "tags": [
+        "写真",
+        "电影感"
+      ],
+      "timestamp": 1787812320816,
+      "title": "清晨的光落进房间",
+      "url": "https://x.com/chenlinspark/status/2092804091944563089",
+      "collectedAt": "2026-08-27T06:32:01.859Z"
+    }
+  ]
+}
