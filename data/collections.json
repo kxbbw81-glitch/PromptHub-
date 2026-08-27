@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T15:50:30.170Z",
+  "updatedAt": "2026-08-27T06:29:00.951Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "自然",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtb55kjo_np0m",
+      "image": "https://pbs.twimg.com/media/HQn_BBoXwAIwt7p?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQn_BBoXwAIwt7p?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQn_HtbWcAAXGfs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词Prompt： 3:4，Lensbaby selective-focus photography，韩系卧室女友写真，高位俯视，单一锐利焦点，外围柔软旋涡虚化。高颜值成年韩系女性，桃粉甜美妆，自然半哑光肌，黑色低束发，零散发丝贴近脸颊。浅灰绿色床铺、米白地毯与浅色床头柜。人物穿奶油白细肩带家居连衣裙，靠坐在床边，一只手将鲜黄色柠檬轻抱在胸口附近，先低头再抬眼看向镜头，表情安静、略带害羞。镜头从上方向下拍摄，近侧眼睛为唯一锐利焦点，窗光从侧面扫过眼睛、脸颊、肩膀和柠檬，腿部与背景自然柔化。仅一名成年女性；不要畸形透视、两眼同时异常锐化、手臂粘连、塑料皮肤。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQn_BBoXwAIwt7p?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQn_HtbWcAAXGfs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2092507339311943808",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787812083780,
+      "title": "把焦点留给眼睛",
+      "url": "https://x.com/chenlinspark/status/2092507339311943808",
+      "collectedAt": "2026-08-27T06:28:06.600Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-27T06:29:00.951Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
