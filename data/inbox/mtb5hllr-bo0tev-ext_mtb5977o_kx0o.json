@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-27T06:37:25.023Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtb5977o_kx0o",
+      "image": "https://pbs.twimg.com/media/HQZkEDfaUAApSeD?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQZkEDfaUAApSeD?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图·镜头：\n9:16的竖长比例，低角度镜头视角，从头部到脚尖附近纳入画面。抬起的右膝与双腿大面积占据中央前景，脸部位于上三分之一。焦点对准人物，将瓶架柔和虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQZkEDfaUAApSeD?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2092374711845970075",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787812253124,
+      "title": "古老的门扉与琥珀色的灯火",
+      "url": "https://x.com/CyberTotal2026/status/2092374711845970075",
+      "collectedAt": "2026-08-27T06:37:25.023Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-08-27",
+      "domain": "x.com",
+      "id": "ext_mtb5hklh_mdel",
+      "image": "https://pbs.twimg.com/media/HQqu7rjWAAAvZ9X?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQqu7rjWAAAvZ9X?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQqu7r4WcAAygY3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQqu7rlXsAAx9Ad?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "超写实极简室内时尚人像摄影，一位20多岁的成年东亚年轻女性站在浅灰白色墙面前，竖构图，2:3比例，中景至大腿构图，人物位于画面中央偏左，占画面约70%。她身体以轻微三分之二侧面朝向画面右侧，背部轻靠墙面，腰部自然后仰并形成柔和S形曲线，一条腿微微向前跨出。左臂自然垂落并弯曲，左手轻触或捏住内裤侧边位置；右臂沿身体自然下垂。头部向画面右侧低垂，脸部大部分被长发遮挡，不直视镜头，整体姿态安静、克制、极简，带轻微私密感但不刻意摆拍。\n\n她拥有纤细自然的身体比例，腰腹平坦但保留真实起伏和自然肚脐，不强调夸张腰臀。长而顺直的深棕黑色头发从偏侧分自然垂落至腰部附近，大量发丝覆盖脸侧和胸前，只隐约保留侧脸轮廓。发丝顺滑、厚实、有真实重量感，保留单根发丝与少量自然飞散。\n\n她穿一套极简浅米色、灰米色或暖象牙色内衣。上身为运动型细肩带短款背心/soft bra crop top，圆形低领，较宽胸下弹力带，面料为柔软弹力针织或细密棉质，哑光、无纹样、无Logo。下身为同色低腰无痕三角内裤，剪裁简洁，腰线贴合髋骨，面料轻薄柔软，保持真实布料张力和自然褶皱。\n\n背景极简，仅有浅灰白色墙面和极弱的垂直结构线条，没有家具、道具或杂物。画面右侧有一片明亮但柔和的窗光或漫射自然光，左侧略暗，形成非常轻微的冷暖和明暗渐变。\n\n使用大型窗光或超大柔光箱从画面右前方照射，光线极其柔软、低反差，在肩膀、胸腹、腰线和大腿上形成平滑渐变。人物左侧和墙面保持柔和阴影，避免硬轮廓光和强烈戏剧化灯光。整体低饱和、低对比度、高明度，主色为冷灰白、暖米色、自然肤色和深棕发色，带日系极简写真、韩系美容广告和柔雾电影感。\n\n使用85mm或105mm人像镜头，f/2–2.8，ISO 100–200，1/200s，浅至中等景深。头发、肩颈、腰腹、内衣面料和手指清晰，墙面平滑柔化。保留真实皮肤毛孔、自然肤色变化、真实腹部起伏、肚脐、单根发丝、针织纤维和布料张力。加入极轻微ISO 200胶片颗粒、柔和高光Bloom和轻微雾化感。避免塑料皮肤、过度磨皮、CG感、HDR、过锐化、极端细腰、夸张臀腿比例、错误手指、错误服装结构或额外肢体。整体风格：高级极简内衣编辑、自然窗光私密写真、日系柔雾人像，安静、干净、柔和、克制、自然。无文字、无Logo、无水印、无其他人物。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQqu7rjWAAAvZ9X?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQqu7r4WcAAygY3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQqu7rlXsAAx9Ad?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2092748932996624439",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1787812643717,
+      "title": "美容广告",
+      "url": "https://x.com/ToroJushiAi/status/2092748932996624439",
+      "collectedAt": "2026-08-27T06:37:25.023Z"
+    }
+  ]
+}
