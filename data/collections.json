@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:43:19.144Z",
+  "updatedAt": "2026-08-28T11:53:55.471Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtcw6sq5_137y",
+      "image": "https://pbs.twimg.com/media/HQxIEL2b0AAJFyo?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQxIEL2b0AAJFyo?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQxIFiqaQAAOWy3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQxIG_Ia4AAm4iM?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQxIJ08bMAAn190?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait. Knee-up cowboy shot, eye-level view, front view. Photographed directly from the front. Her chest and pelvis face the lens, with her torso, hips, and thighs forming a frontal knee-up silhouette. A 20s seductive stunning Japanese or Korean woman with gold metal frame, thin-frame glasses, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young mixed editorial face, dimensional facial structure, defined nose bridge and deep-set eyes, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek wet finish, defined damp sections, neat separated strands, controlled close-to-head shape, soft black-tea brown hair, muted brown-black salon tone, soft matte skin texture, refined pores, velvety smooth finish, candid joyful expression, lifted cheeks, eyes gently narrowed by the smile, open genuine smile, visible teeth. She wears oversized upper-body proportion with roomy shoulders and body, off-white silk camisole top, delicate straps, fluid sheen, ultra-low-rise waistband sitting very low on the hips, black seamless lace thong bottoms, ultra-thin side straps, low-rise V-front, minimal back panel. She has her head slightly tilted, one hand on the waist or hip line, and presents a relaxed neutral standing posture with one hip resting against an existing waist-height edge in the scene, clear hip-to-edge contact with partial body-weight support.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQxIEL2b0AAJFyo?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQxIFiqaQAAOWy3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQxIG_Ia4AAm4iM?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQxIJ08bMAAn190?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2093128618377679016",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787917956845,
+      "title": "酒店房间眼镜人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2093128618377679016",
+      "collectedAt": "2026-08-28T11:52:37.972Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-28T11:53:55.471Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
