@@ -1,7 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:54:25.591Z",
+  "updatedAt": "2026-08-28T11:55:44.890Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtcw93n5_uhae",
+      "image": "https://pbs.twimg.com/media/HQvRT9QaMAAJBs6?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQvRT9QaMAAJBs6?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQvRW6NaQAARvyv?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQvRYfEbEAAUXt8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQvRaHabEAAuxTv?format=jpg&name=medium",
+        "https://pbs.twimg.com/amplify_video_thumb/2091376985000050688/img/Jr08IFjpr9jyumUX?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic iPhone 17 Pro selfie, 9:16, RAW photo, natural skin texture, slight grain, casual amateur snapshot. Young adult East Asian woman, face based closely on the reference image, small oval face, delicate features, large almond eyes, soft nude-pink lips, fair porcelain ivory skin, bright translucent complexion, peach-pink blush, dewy highlights, natural pores. Cozy indoor close-up selfie, sitting against a soft beige pillow. She wears a washed charcoal NY baseball cap, black thin-strap camisole, delicate gold heart necklace and gold hoop earrings. Dark hair loosely tied back with messy face-framing strands. Playful cute pose: head slightly tilted, one eye winking, tongue slightly out, one hand making a V sign beside her face. Direct eye contact, lively mischievous expression. Background: sheer white curtains with deep emerald-green velvet curtain on the right. Soft warm diffused indoor lighting, bright fair skin, gentle shadows, subtle vintage haze. Vertical glowing white timestamp at bottom-left: “26年 8月27日”. Avoid plastic skin, yellow or tanned skin, heavy makeup, distorted hands, extra fingers, CGI look.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQvRT9QaMAAJBs6?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQvRW6NaQAARvyv?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQvRYfEbEAAUXt8?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQvRaHabEAAuxTv?format=jpg&name=medium",
+        "https://pbs.twimg.com/amplify_video_thumb/2091376985000050688/img/Jr08IFjpr9jyumUX?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nicebabycat/status/2093132706058268793",
+      "tags": [
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1787918064305,
+      "title": "这个风格的俏皮女友 有喜欢的吗",
+      "url": "https://x.com/nicebabycat/status/2093132706058268793",
+      "collectedAt": "2026-08-28T11:54:25.551Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-28T11:55:44.890Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
