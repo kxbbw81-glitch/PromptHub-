@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-28T13:52:36.186Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtd0h25e_1uxg",
+      "image": "https://pbs.twimg.com/media/HQyf4zAaoAAV-S6?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQyf4zAaoAAV-S6?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQyf4y6boAA6Miq?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "GPT IMAGE2 提示词：\n9:16 竖版，近距离半身构图，高清监控画面质感 × 都市地铁纪实写真 × 玻璃自拍 × 自然生活抓拍。自动白平衡、自动色温，高清分辨率，画面清晰真实，同时保留轻微固定机位与都市纪实摄影氛围。\n一位 20–22 岁、明确成年的漂亮亚洲女性，身材高挑纤细，腰身纤细，胸部视觉约为自然 D 罩杯，丰满但不过度夸张，与整体身体比例自然协调。\n人物拥有精致自然的亚洲女性五官，头部偏小、脸型小巧精致，五官集中协调。乌黑柔顺的长发自然披散在肩背与胸前，几缕发丝自然垂落脸侧，具有真实分束与细腻发丝纹理。\n肌肤强调极白、通透、干净的冷白皮肤，属于冷白肤色中的明亮色阶，带有细腻瓷感粉调，无明显黄气。脸部、颈部、肩部、锁骨与胸前肤色自然统一，呈现清透水光伪素颜质感，同时保留真实毛孔、细微肌理与淡淡自然血色。妆容采用低饱和白桃裸粉色系，薄涂伪素颜底妆、自然眉眼、淡蜜桃腮红与通透玻璃水光唇。\n人物身穿白色修身短款深 V 领上衣，胸前采用明显的低位深 V 剪裁，领口自然向下延伸，露出约半幅上胸、肩颈与清晰锁骨线条，自然呈现 D 罩杯视觉的丰满曲线。画面下缘自然带到部分纤细腰部以及低腰牛仔超短裙的腰线，强化整体穿搭关系。\n肩背一只棕色复古老花风单肩包，手腕叠戴精致手链与金色细手镯。一只手自然拿着带简洁图案手机壳的智能手机，在地铁车站大型玻璃幕墙前自拍；另一只手自然垂落、轻触包带或整理长发。\n人物身体面对玻璃并轻微侧转，通过玻璃反射能够清楚看到她的面容与上半身。她自然看向玻璃中的自己或手机屏幕，神情放松，嘴角带若有若无的淡淡笑意，呈现通勤途中临时自拍的生活化瞬间，避免专业模特式摆拍。\n采用 9:16 竖版近距离半身构图，从完整头顶拍摄至腰胯附近，人物占画面约 70%–80%。重点突出精致面容、冷白肌肤、长发、肩颈、锁骨、深 V 上衣、手机与包袋细节。使用接近 50–85mm 人像镜头视觉，避免近距离超广角导致大头、大脸或身体比例变形。\n背景为真实现代地铁车站，可见自然虚化的停靠列车、银灰色金属护栏、玻璃隔断、格栅吊顶、冷白灯光与站台结构。玻璃表面保留真实环境反射、轻微灰尘、光斑与层叠倒影，突出真实地铁玻璃自拍氛围。\n整体采用低饱和冷灰都市色调，地铁冷白环境光均匀照亮人物。脸部与眼睛精准对焦，冷白肌肤保持明亮通透但不过曝；背景适度虚化，同时保留地铁环境辨识度。\n高清真人摄影，亚洲女性真人脸，小头小脸，极白冷白皮，瓷感粉调，清透水光伪素颜，白桃裸粉妆，自然 D 罩杯视觉，白色深 V 短款上衣，玻璃自拍，真实皮肤纹理，清晰发丝，真实玻璃反射，浅景深，冷灰都市调色，纪实生活抓拍，干净、松弛、自然的 INS 都市日常氛围。\n负面提示词： 全身照，远景，人物过小，大头，大脸，宽脸，胸部过度夸张，胸型异常，严重广角畸变，玻璃倒影错误，镜中出现不同人物，重复人物，手机遮挡整张脸，手机与手掌融合，多手多指，手部畸形，衣物穿模，肤色偏黄，灰白死皮，塑料皮肤，过度磨皮，严重过曝，严重失焦，动漫脸，CG脸，背景杂乱，AI伪影，文字，Logo，水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQyf4zAaoAAV-S6?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQyf4y6boAA6Miq?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AIVideoHub_/status/2093223735407075614",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1787925154083,
+      "title": "出门啦",
+      "url": "https://x.com/AIVideoHub_/status/2093223735407075614",
+      "collectedAt": "2026-08-28T13:52:36.186Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtd0h25h_7ial",
+      "image": "https://pbs.twimg.com/media/HQzESuxbQAE6wF3?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQzESuxbQAE6wF3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQy__45aYAAzNDE?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "参考这张图的整体效果，生成一张 9:16 竖版、超写实、高清真人摄影风格的人像照片：一位20-25 岁、明确成年的东亚女性站在现代地铁站玻璃隔断旁自拍，全身入镜，身材高挑纤细，比例自然协调，冷白通透肤色，真实皮肤纹理与细腻毛孔清晰可见，五官精致自然，小头小脸，乌黑柔顺的长直发自然披散在肩背和胸前，神情放松温柔，带一点浅浅微笑，目光看向手机屏幕。她身穿黑色半透明轻薄纱质吊带睡裙/黑纱 babydoll，面料轻盈柔软，胸部与腰腹线条若隐若现但整体仍然自然，不夸张、不低俗，内搭黑色简洁贴身内衣轮廓，服装具有真实薄纱质感、细腻褶皱与轻微透感。肩背一只棕色老花风单肩包，手腕佩戴精致细手链与金色细手镯，手持带浅色简洁手机壳的智能手机自拍。脚穿透明细带平底凉拖/透明人字拖凉鞋。人物身体微微侧向玻璃站立，一侧肩膀自然贴近玻璃，玻璃中清楚映出她的倒影，形成真实反射与层叠空间感。背景为真实现代地铁站，可见停靠列车、银灰金属栏杆、玻璃隔断、格栅吊顶、冷白灯光与站台空间结构，环境整洁清晰，带有都市纪实氛围。整体为真实手机抓拍 + 纪实生活方式摄影风格，eye-level，slight handheld feeling，natural candid pose，realistic lens behavior，shallow depth of field，sharp focus on face and body，cool gray urban color grading，clean relaxed INS-like everyday mood，ultra photorealistic，lifelike skin texture，natural subway ambient lighting，no studio feeling。\n\n负向提示词：\n\nanime, illustration, CGI, 3D render, game character, AI face, doll face, plastic skin, over-smoothed skin, unrealistic body proportions, exaggerated breasts, distorted waist, bad anatomy, extra fingers, fused fingers, malformed hands, duplicate person, incorrect reflection, different person in mirror, blurry face, low resolution, overexposure, messy background, strong studio lighting, watermark, logo, text artifacts.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQzESuxbQAE6wF3?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQy__45aYAAzNDE?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/dannywayli/status/2093264042869899283",
+      "tags": [
+        "photorealistic",
+        "anime",
+        "studio lighting",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1787925154085,
+      "title": "「黑纱X地铁自拍」",
+      "url": "https://x.com/dannywayli/status/2093264042869899283",
+      "collectedAt": "2026-08-28T13:52:36.186Z"
+    }
+  ]
+}
