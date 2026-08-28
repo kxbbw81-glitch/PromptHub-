@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-28T11:41:17.184Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtcvs7px_y1si",
+      "image": "https://pbs.twimg.com/media/HQyonPNagAA7vth?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQyonPNagAA7vth?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyonPKbcAEJhoV?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyonPIakAA0uX4?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyonPHaAAAgc5A?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nKnee-up cowboy shot, waist-level view, front view. Photographed directly from the front. Her chest and pelvis face the lens, with her torso, hips, and thighs forming a frontal knee-up silhouette.\nA 20s seductive stunning Japanese or Korean woman with black frame, retro round-frame glasses, and small pearl stud earring detail, soft understated pearl accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young seductive alluring beauty face, Korean collarbone-length soft waves, defined layered shape, clean face-framing ends, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, natural black hair, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks.\nShe wears fitted outerwear proportion, light blue denim jacket, washed denim texture, chest pockets, metal buttons, outerwear worn open at the front, front panels parted naturally, outerwear deliberately worn off both shoulders with both shoulder lines exposed and the upper back exposed in rear or three-quarter views, jacket draped around the upper arms with sleeves still on the arms, layered over, white strapless tube top, clean upper edge, smooth stretch fabric, compact bandeau or halter-bandeau structure, ultra-low-rise waistband sitting very low on the hips, standard lower-body proportion, off-white cargo shorts, compact utility cut, side cargo pockets, structured casual silhouette, black thigh-high sheer garter stockings, lace top band, visible garter straps, delicate nylon hosiery, decorative wide leather waist belt worn loosely around hips with a structured off-center buckle.\nShe has her head turned into a clean side profile with the face oriented away from the camera, and presents a casual, relaxed, and natural standing pose with one hip resting against an existing waist-height edge in the scene, clear hip-to-edge contact with partial body-weight support.\nThe scene is Dotonbori Shinsaibashi riverside edge in Osaka, iconic billboard signage, Shinsaibashi bridge railing in the foreground.\nDeep azure summer sky, saturated clean blue atmosphere, hard direct sunlight on the subject, crisp shadow edges.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQyonPNagAA7vth?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyonPKbcAEJhoV?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyonPIakAA0uX4?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyonPHaAAAgc5A?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2093233365646467309",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1787917276438,
+      "title": "古风丝袜女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2093233365646467309",
+      "collectedAt": "2026-08-28T11:41:17.184Z"
+    }
+  ]
+}
