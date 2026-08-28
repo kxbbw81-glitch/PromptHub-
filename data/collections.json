@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:42:36.442Z",
+  "updatedAt": "2026-08-28T11:43:19.144Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtcvt54i_deke",
+      "image": "https://pbs.twimg.com/media/HQyjr8rb0AAvmjT?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQyjr8rb0AAvmjT?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyjr8sakAEvf8E?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyjr9Fa0AA4naP?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyjr8pa8AAqR97?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQvRT9QaMAAJBs6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQvRW6NaQAARvyv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQvRYfEbEAAUXt8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQvRaHabEAAuxTv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Vertical 9:16 ultra-realistic casual iPhone selfie photo of an adult East Asian woman in her twenties. Keep the same facial identity and overall facial impression as the reference image: delicate oval face, soft feminine features, narrow almond-shaped eyes, subtle double eyelids, small straight nose, naturally full nude-pink lips, gentle youthful expression. Pure and subtly sensual feminine aesthetic, soft, intimate, natural, understated. Long dark black hair, slightly messy and effortless, with loose face-framing strands falling around the cheeks. Fresh fair skin with visible natural texture, subtle pores, soft peach-pink blush across the cheeks and nose, slightly dewy highlights, natural brows, delicate eyeliner, lifted lashes, nude pink lips. She wears a fitted thin-strap camisole, [CAMISOLE], paired with large thin gold hoop earrings and a delicate gold chain with a small open-heart pendant. Scene: [SCENE]. Pose: [POSE]. Her body is relaxed and slightly angled rather than perfectly centered. Natural shoulder position, slight head tilt, soft eye contact with the camera, calm expression, subtle parted lips. The photo should feel spontaneous and privately captured rather than professionally posed. Realistic smartphone front-camera / handheld photo quality, 24–28mm equivalent lens, close-medium framing from chest to head, slightly imperfect composition, mild perspective distortion, natural asymmetry, tiny motion softness, subtle digital grain, realistic hair flyaways and skin texture. Lighting is soft and flattering with slightly overexposed highlights on the skin, warm natural light or mixed ambient transportation lighting depending on the scene. Preserve realistic shadows and ambient reflections from windows. Candid social-media snapshot aesthetic, quiet romantic atmosphere, slightly hazy analog feeling, low contrast, warm neutral color grading, realistic iPhone photo, no studio lighting, no plastic skin, no excessive beauty filter, no CGI look, no exaggerated facial proportions. A small glowing retro digital timestamp appears vertically near the bottom-left edge: “26年 8月27日”",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQyjr8rb0AAvmjT?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyjr8sakAEvf8E?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyjr9Fa0AA4naP?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQyjr8pa8AAqR97?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQvRT9QaMAAJBs6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQvRW6NaQAARvyv?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQvRYfEbEAAUXt8?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQvRaHabEAAuxTv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nicebabycat/status/2093227909813289142",
+      "tags": [
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1787917319730,
+      "title": "今日",
+      "url": "https://x.com/nicebabycat/status/2093227909813289142",
+      "collectedAt": "2026-08-28T11:42:01.070Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-08-28T11:43:19.144Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
