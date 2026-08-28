@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-28T11:53:08.032Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-28",
+      "domain": "x.com",
+      "id": "ext_mtcw7g7s_bqni",
+      "image": "https://pbs.twimg.com/media/HQs5xOfbEAASe0U?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQs5xOfbEAASe0U?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQs5234acAAVsW4?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A genuine-looking nighttime phone photo of a young East Asian woman standing casually on a small apartment balcony or terrace, captured spontaneously by a friend on a modern smartphone. She has medium-length dark brown hair tied loosely into a relaxed half-up style, with wispy strands falling around her cheeks and forehead. She wears a simple fitted white short-sleeve high-neck top and dark casual bottoms, with a black shoulder bag strap visible over one shoulder. She faces the camera naturally with a soft confident smile and a slightly tilted head, looking directly into the lens. Warm light from a nearby wall lamp falls across one side of her face and hair, creating a cozy golden glow, while the rest of the scene fades naturally into deep nighttime shadows. A few green plants sit beside the wall, and a dark window or balcony opening behind her reveals blurry city lights in the distance. Make the photograph feel completely unplanned and personal: handheld smartphone framing, slightly uneven exposure, mild low-light grain, subtle autofocus softness, realistic shadows, natural skin texture, tiny hair flyaways, ordinary background imperfections, gentle warm color cast, no professional lighting, no studio setup, no cinematic grading, no beauty filter, no excessive retouching. Authentic everyday mobile-camera quality, intimate nighttime atmosphere, realistic proportions, vertical portrait photo, highly believable as an actual phone snapshot.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQs5xOfbEAASe0U?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQs5234acAAVsW4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/saniaspeaks_/status/2092830075355857396",
+      "tags": [
+        "cinematic",
+        "dark"
+      ],
+      "timestamp": 1787917987289,
+      "title": "夜晚窗边电影感女性人像",
+      "url": "https://x.com/saniaspeaks_/status/2092830075355857396",
+      "collectedAt": "2026-08-28T11:53:08.032Z"
+    }
+  ]
+}
