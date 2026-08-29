@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T02:49:12.096Z",
+  "updatedAt": "2026-08-29T03:50:30.721Z",
   "collections": [
     {
       "id": "awesome_gpt_image_2_case_543",
@@ -42,7 +42,7 @@
       "timestamp": 1787971752096,
       "collectedAt": "2026-08-29T02:49:12.096Z",
       "githubSyncedAt": "2026-08-29T02:49:12.096Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-08-29T03:50:30.718Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/LICENSE",
       "collectionOrigin": "approved-public-commerce"
