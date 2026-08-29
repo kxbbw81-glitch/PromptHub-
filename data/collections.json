@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T22:36:35.476Z",
+  "updatedAt": "2026-08-29T02:49:12.096Z",
   "collections": [
+    {
+      "id": "awesome_gpt_image_2_case_543",
+      "title": "旅行纪念珐琅徽章",
+      "prompt": "Turn the reference photo into a travel souvenir enamel pin badge. Compose it as a SCENE, not a single isolated object.\n\nSubject hierarchy: the defining landscape, terrain or landmark of the photo forms the main body of the badge and occupies most of its area. If a person appears prominently in the photo, keep them in the badge as a small, simplified figure at true relative scale within that landscape — the person is an accent, the landscape is the subject. Preserve the original spatial relationship and scale between the figure and the surroundings.\n\nHow to render the person: flat enamel color blocks matching their real clothing and hair color from the photo. The face is a smooth plain area of light skin-tone enamel with no drawn facial features — do NOT render the person as a dark or black silhouette, and do NOT black out the face or head. Skin reads as a warm light enamel color, clearly lighter than the clothing.\n\nStyling: thin polished gold outline around the silhouette and along every internal divider, glossy enamel color fill, gentle even lighting with only a soft sheen on the gold lines, very subtle drop shadow. Outer contour follows the scene's own shape, not a plain rectangle.\n\nBackground: flat dark navy coarse linen texture. Badge centered, filling about 60% of the frame.\n\nAvoid: black silhouette figure, blacked-out face, dark featureless head, portrait close-up, detailed facial features, person dominating the badge, cropping out the landscape, three-quarter angle, macro product photography, heavy specular glare, cartoon, realistic scene, text, watermark.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "Realistic",
+        "Product",
+        "Character",
+        "Tech",
+        "Commerce",
+        "Fashion",
+        "GPT Image 2"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case543.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case543.jpg"
+      ],
+      "rawImages": [
+        "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case543.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "source": "awesome-gpt-image-2 画廊",
+      "sourceUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/data/images/case543.jpg",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/data/images/case543.jpg",
+      "archiveUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-543",
+      "originalSourceUrl": "https://x.com/Emmma__0/status/2093194689222705645",
+      "sourceLabel": "@Emmma__0",
+      "sourceRepository": "freestylefly/awesome-gpt-image-2",
+      "license": "MIT",
+      "domain": "github.com",
+      "date": "2026-08-29",
+      "timestamp": 1787971752096,
+      "collectedAt": "2026-08-29T02:49:12.096Z",
+      "githubSyncedAt": "2026-08-29T02:49:12.096Z",
+      "domesticSyncedAt": null,
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/LICENSE",
+      "collectionOrigin": "approved-public-commerce"
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
