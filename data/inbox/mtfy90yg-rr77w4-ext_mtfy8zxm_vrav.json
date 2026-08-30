@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-30T15:13:38.584Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-30",
+      "domain": "x.com",
+      "id": "ext_mtfy8zxm_vrav",
+      "image": "https://pbs.twimg.com/media/HQ5-w8FaIAAL2p7?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQ5-w8FaIAAL2p7?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ5---RbsAA15bI?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ5_BFjacAAD-so?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ5_DBcawAAZVpJ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ57gWRaUAAVmzG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ57iDwaoAA97SL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ57jEUakAAtCf7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ57j5XbMAADtnr?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "提示词如下:\n9:16 竖幅，超写实 iPhone 生活随拍。一位二十多岁的成年东亚女性趴卧在宽大的床上，镜头从床尾后方拍摄，完整全身入镜，姿态自然放松，身体略微侧转，长黑发随意散落，部分遮住脸部。\n服装参考图中的复古修身旗袍风格，采用高级丝缎提花面料，贴合身体线条，高领、盘扣、修身收腰、侧开衩设计，颜色可在香槟粉、酒红色之间变化，保留典雅、妩媚、复古的东方气质。赤脚，双腿自然向镜头方向伸展，脚踝轻轻交叠，脚部放松。\n卧室温暖舒适，略微凌乱的白色床品，深色木质床头板，床头上方悬挂黑白摄影装饰画，右侧深木色床头柜，一盏暖黄色小台灯亮着，木地板。整体环境光昏暗温暖，曝光稍低，柔和阴影，自然皮肤纹理，旗袍丝缎产生细腻柔和反光。\n真实私人卧室生活抓拍感，随手拍构图，轻微颗粒感，手机镜头轻微畸变，边缘构图稍有不完整感，避免棚拍感和商业时尚大片感，保持真实自然。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQ5-w8FaIAAL2p7?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ5---RbsAA15bI?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ5_BFjacAAD-so?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ5_DBcawAAZVpJ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQ57gWRaUAAVmzG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ57iDwaoAA97SL?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ57jEUakAAtCf7?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ57j5XbMAADtnr?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nicebabycat/status/2093751250085171466",
+      "tags": [
+        "东方",
+        "摄影"
+      ],
+      "timestamp": 1788102817258,
+      "title": "日式卧室编辑写真女性人像",
+      "url": "https://x.com/nicebabycat/status/2093751250085171466",
+      "collectedAt": "2026-08-30T15:13:38.584Z"
+    }
+  ]
+}
