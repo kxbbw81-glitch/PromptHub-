@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-08-30T15:12:21.177Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-08-30",
+      "domain": "x.com",
+      "id": "ext_mtfy7cdy_bhz6",
+      "image": "https://pbs.twimg.com/media/HQ7r3rVagAAG5hy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQ7r3rVagAAG5hy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ7r3qKb0AA1hLs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "生成18岁漂亮中国少女，模糊，女生冷白皮，真人，姿态自然，小头，头像感，特别特别瘦。瓷白肌肤、奶油白肌肤。梦核风格的前置摄像头抓拍画面，面对镜头，有一种抓拍的随性松弛氛围感，ins风，随手记录。发型为深棕盘发，复古斜刘海，部分头发别在耳后，碎发修饰脸型。穿搭为黑色上衣，搭配精致妆容，水晶耳饰，眼妆偏浓。背景为浅色偏暗墙面，营造出又纯又欲的氛围感。原比例。建模脸，9:16。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQ7r3rVagAAG5hy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HQ7r3qKb0AA1hLs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2093870707134628021",
+      "tags": [
+        "瓷白"
+      ],
+      "timestamp": 1788102740086,
+      "title": "冷白皮的纯欲感",
+      "url": "https://x.com/Adam38363368936/status/2093870707134628021",
+      "collectedAt": "2026-08-30T15:12:21.177Z"
+    }
+  ]
+}
