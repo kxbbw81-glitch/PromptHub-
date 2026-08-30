@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T15:34:30.385Z",
+  "updatedAt": "2026-08-30T16:45:03.388Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -35,7 +35,7 @@
       "collectedAt": "2026-08-30T15:16:34.831Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-30T15:34:30.385Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-30T16:45:03.384Z"
     },
     {
       "aspectRatio": "9:16",
@@ -81,7 +81,7 @@
       "collectedAt": "2026-08-30T15:13:38.584Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-30T15:34:30.385Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-30T16:45:03.384Z"
     },
     {
       "aspectRatio": "9:16",
@@ -112,7 +112,7 @@
       "collectedAt": "2026-08-30T15:12:21.177Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-30T15:13:43.314Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-30T16:45:03.384Z"
     },
     {
       "aspectRatio": "2:3",
@@ -143,7 +143,7 @@
       "collectedAt": "2026-08-30T14:43:30.426Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-08-30T14:44:50.579Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-08-30T16:45:03.384Z"
     },
     {
       "id": "awesome_gpt_image_2_case_543",
