@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T16:45:03.388Z",
+  "updatedAt": "2026-09-01T06:29:11.368Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-09-01",
+      "domain": "x.com",
+      "id": "ext_mtiace4i_hqdz",
+      "image": "https://pbs.twimg.com/media/HRGYXu7bgAAOrvY?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRGYXu7bgAAOrvY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRGYqrja4AA4vSb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRDkT1VbAAEDoIO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRDk53KbkAAw4vK?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "以用户上传的真人照片作为人物参考图，生成一张 9:16 竖版、真人摄影与二维 Q 版卡通结合的趣味时尚照片。 必须保留参考照片中人物本人的核心身份特征和辨识度，包括脸型、五官比例、眼睛、鼻子、嘴唇、眉形、发型、发色、肤色以及整体气质，使生成结果能够明显看出是参考照片中的同一个人。不要随机换脸，不要生成通用网红脸，不要大幅修改五官结构，不要把真人变成动漫脸。参考照片中的人物必须为明确成年人。 将真人重新塑造成一种年轻、时尚、性感但自然高级的社交媒体写真风格。真人位于画面右侧前景，采用近距离 iPhone 广角随拍构图，身体微微前倾并略微侧身面对镜头，头部自然靠近画面中央，神情轻松、自信、俏皮，可以自然微笑或开心大笑，呈现真实抓拍感，而不是僵硬摆拍。 真人穿一件鼠尾草绿色、灰绿色或橄榄绿色的修身细肩带连衣裙。服装采用柔软、有轻微弹性的面料，自然贴合身体轮廓，腰部适度收束，领口采用自然偏低的圆形、方圆形或柔和弧形设计，适度展现肩颈、锁骨和成年女性自然的上半身曲线。整体性感感主要来自修身剪裁、成熟体态、自然姿势和镜头关系，而不是裸露。服装保持完整遮盖，不透视、不走光。 尽量尊重参考照片中人物本身的真实身材比例和骨架，不要凭空极端改变体型，不要夸张放大胸部、腰臀或腿部。可以通过服装剪裁、轻微前倾姿势、广角近距离构图以及柔和光影，让人物整体显得更加妩媚、丰润、时尚、曲线自然且比例协调。 真人的脸颊、鼻尖、额头、肩膀、手臂、颈部、头发以及绿色连衣裙表面散落少量鲜艳的彩色颜料痕迹，包括红色、黄色、蓝色、绿色、橙色、粉色的颜料点、小笔触和飞溅效果。颜料具有真实湿润的丙烯颜料质感，但不要覆盖过多皮肤，也不要影响人物脸部辨识度。 同时，根据上传真人照片中的人物设计一个位于画面左侧的 Q 版二维卡通分身。这个卡通角色必须明确是现实人物本人的卡通化版本，而不是随机生成的陌生卡通女孩。卡通角色需要继承真人照片中的主要辨识特征，包括相似的发型、发色、刘海、脸部轮廓特征、整体气质以及服装配色。 卡通人物是真人形象的可爱 Q 版形象，不要儿童化。采用大头、小身体、大眼睛、圆润脸颊、活泼表情的现代 Q 版插画比例，线稿干净流畅，色块清晰，带少量柔和赛璐璐阴影。卡通人物穿与真人相同或高度相似的绿色细肩带连衣裙，裙子表面也有少量彩色颜料飞溅。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRGYXu7bgAAOrvY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRGYqrja4AA4vSb?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRDkT1VbAAEDoIO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRDk53KbkAAw4vK?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrGafish/status/2094623305953321168",
+      "tags": [
+        "写真",
+        "插画",
+        "摄影"
+      ],
+      "timestamp": 1788244063363,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/MrGafish/status/2094623305953321168",
+      "collectedAt": "2026-09-01T06:27:44.507Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-01T06:29:11.368Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "时尚",
