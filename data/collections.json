@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T06:55:36.104Z",
+  "updatedAt": "2026-09-01T07:04:21.690Z",
   "collections": [
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-09-01",
+      "domain": "x.com",
+      "id": "ext_mtiblnf1_1fce",
+      "image": "https://pbs.twimg.com/media/HRGXU5jbcAA369f?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HRGXU5jbcAA369f?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "A 3:2 horizontal candid 35mm film photograph captures a Japanese woman in her mid-twenties reclining comfortably across a sunlit bed in a quiet bedroom. She rests her head gently on a soft white pillow with a subtle, natural tilt, one arm tucked beneath the pillow while her other arm rests loosely across the rumpled linen sheets. Her face expresses a quiet contentment, featuring a tender, subtle smile and gentle crinkles around her warm eyes as she gazes softly toward the camera. She wears a lightweight, light beige woven slip nightgown with delicate shoulder straps and fine natural creasing across the fabric. Her dark hair is casually undone in loose, messy bedhead strands, with soft wisps haloed by incoming light. In the immediate left foreground, the blurred shape of a soft bed pillow creates a layered depth of field, framing her upper body and face within the intimate midground setting. Warm golden afternoon sunlight streams forcefully from the right background, acting as a rich side-backlight that catches floating dust motes and illuminates her hair with soft analog halation. From the left, cool ambient light from a window casts subtle cyan shadows across the sheets, creating a striking temperature contrast with the glowing gold. The air carries a gentle, dreamy haze that softens contrast throughout the room. The overall rendering evokes the reflective visual poetry of classic cinematic romance films. The image exhibits fine tactile film grain, soft optical focus falloff outside her face, and authentic analog color tones with warm gold highlights and cool cyan shadow undertones, emphasizing stillness and quiet nostalgic warmth.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRGXU5jbcAA369f?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/christosina/status/2094621721869639736",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy"
+      ],
+      "timestamp": 1788246174925,
+      "title": "床边低机位韩系人像",
+      "url": "https://x.com/christosina/status/2094621721869639736",
+      "collectedAt": "2026-09-01T07:02:56.805Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-01T07:04:21.690Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
