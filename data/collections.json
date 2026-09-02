@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T09:40:33.026Z",
+  "updatedAt": "2026-09-02T09:40:54.786Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjwof5l_q43u",
+      "image": "https://pbs.twimg.com/media/HRMfr4LaEAAWhan?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HRMfr4LaEAAWhan?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRIhxcgaYAAWsg7?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "Photorealistic ultra-wide-angle selfie-style portrait with dynamic motion blur, direct flash film photography style, film grain, high contrast flash lighting, Douyin hot-girl diary aesthetic, casual daily snapshot vibe, not overly staged, spontaneous framing. Medium-close from a slightly low upward angle, dynamic handheld selfie perspective. A beautiful young adult East Asian woman with waist-length deep brown wavy hair, doll-like yet cool facial features, cool fair skin, delicate oval face with a slightly pointed chin. Translucent natural base, lifted eyeliner, soft smoky eyes, glossy red lips. Slim figure, small bust, pale luminous skin. Her expression is cooler and more detached-seductive: half-lidded eyes, almost expressionless mouth with only the faintest curve, looking directly at the camera with quiet intensity. Head tilted slightly, body leaning back in a soft curve, one shoulder raised, hair blown across her face by the night wind. She wears a dark gray cropped sleeveless tank top revealing a slim waist, black short shorts, black multi-pocket underarm bag. Round hoop earrings and a black large-dial wristwatch. Background: quiet artsy urban street at night, red brick wall, large trees, scattered leaf shadows, warm streetlights mixed with strong direct flash, distant blurred city lights. Warm brown-gray-black palette with dramatic flash highlights and deep shadows, shallow depth of field, soft background bokeh, natural skin texture, slightly messy hair, realistic phone-camera texture with visible film grain, candid nightlife atmosphere, dynamic motion blur, imperfect composition, 8K high-definition detail.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRMfr4LaEAAWhan?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRIhxcgaYAAWsg7?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/underwoodxie96/status/2095053205311033781",
+      "tags": [
+        "photorealistic",
+        "dark",
+        "bokeh",
+        "8k"
+      ],
+      "timestamp": 1788342042297,
+      "title": "卧室三连自拍",
+      "url": "https://x.com/underwoodxie96/status/2095053205311033781",
+      "collectedAt": "2026-09-02T09:40:43.518Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-02T09:40:54.786Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjwof5k_0n9d",
+      "image": "https://pbs.twimg.com/media/HRIZhLlbcAAqv0B?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HRIZhLlbcAAqv0B?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HRIZhLibIAAMNyk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "GPT IMAGE2 提示词： 9:16 竖版，标准近距离半身构图，真实 iPhone 前置摄像头随手自拍 × 夜晚霓虹街头 × 冷调梦核 × Y2K 甜酷 Editorial。一位 20–22 岁、明确成年的漂亮东亚女性，身高约 1.70 米，拥有高挑纤细的模特比例，头部偏小、脸型小巧，肩颈舒展，腰身纤细。胸部视觉约为自然 E 罩杯，丰满但不过度夸张，与整体高挑纤细的身材自然协调。 人物必须呈现真实东亚女性真人脸，小头、小脸，精致流畅的鹅蛋脸与微尖下巴，骨相自然漂亮，五官集中协调，避免动漫脸、CG脸与过度网红化面容。 肌肤强调非常白皙、细腻、通透的冷白瓷肌，脸部、颈部、肩部、锁骨、胸前、手臂与部分腰腹肤色自然统一，几乎没有明显黄调。蓝紫霓虹映射在冷白皮肤表面形成轻微彩色环境反光，但肤色主体仍保持干净白皙，并保留真实毛孔、细小绒毛与自然粉润血色。 人物拥有浓密柔顺的黑色或深棕色长发，自然披散在肩后与身体两侧，少量发丝被夜风轻轻吹动。佩戴一副复古 Y2K 墨镜，镜片采用低饱和烟灰或淡蓝灰色，镜框精致小巧，不要完全遮挡眉眼与面部特征。 人物身穿蓝色系短款修身深 V 领上衣，胸前采用明显的大深 V 低领剪裁，V 型领口自然向下延伸，展现肩颈、清晰锁骨与较多上胸线条，自然呈现 E 罩杯视觉的丰满曲线；衣长停留在腰部上方，画面下方自然露出部分纤细腰腹。 下装搭配同色系蓝色短裙，在半身构图的画面下缘仅自然带到裙腰与少量裙摆，使整体穿搭关系完整。服装加入少量银色金属扣件、细链、亮片或 Y2K 装饰，与银色耳环、项链、手链和戒指形成统一视觉语言。 人物一只手自然拿着手机自拍，手机位于脸部侧下方或身体侧前方，不完全遮挡面部；另一只手可以轻触墨镜、整理长发、搭在腰侧或自然垂落。肩膀轻微一高一低，身体略微侧转约 15–30°，腰部自然微扭，姿态慵懒、松弛而俏皮。 人物神态兼具甜酷 × 清冷 × 慵懒气质，眼神自然看向手机镜头或轻轻掠过镜头附近，嘴角带若有若无的淡淡笑意。整体不像专业商业摆拍，更像夜晚逛街时临时拿出手机拍下的一张漂亮生活快照。 场景位于夜晚亚洲都市霓虹街头，背景自然出现蓝紫色霓虹灯、玻璃橱窗、金属建筑表面、模糊店铺灯箱、街灯与少量远处行人。背景通过浅景深自然虚化成蓝紫、冷白与少量粉色光斑，形成梦核城市夜景。 统一半身裁切范围：从完整头顶开始，一直拍摄至腰胯附近结束。 完整保留头顶、发型、脸部、下巴、双肩、肩颈、锁骨、上半身、深 V 领口以及完整腰线。画面下边缘统一落在肚脐以下约 10–20cm、髋骨上方至胯部附近，可以自然带到少量蓝色短裙腰头，但不进入大腿中段。 人物占画面高度约 75%–85%，头顶保留适量安全空间，左右肩膀完整入镜。禁止裁在胸口、胸下或肚脐位置，也不要扩展成三分之二身或全身照。 采用真实手机自拍视角，机位接近平视至轻微偏高，模拟约 50–70mm 人像镜头视觉，避免超广角导致大头、大脸、鼻子突出或胸部比例失真。构图略微倾斜、不完全居中，留白稍微不均匀，强化真实随手自拍感。 画质采用高清人物主体 + 低清手机梦核色彩语言：人物眼睛、真人面容、皮肤、发丝、深 V 上衣与银色饰品保持高清清晰，仅通过轻微噪点、低对比、蓝紫柔光、少量 Bloom、轻微高光溢出与极轻边缘柔化模拟早期手机影像气质，避免真正低分辨率导致五官模糊。 整体色调以深蓝、蓝紫、冷白、银灰与少量霓虹粉为主，冷调环境光在人物轮廓形成漂亮的蓝紫色边缘光。脸部使用柔和冷白补光，使冷白肌肤保持明亮通透，眼睛与五官清晰可辨。 核心关键词： 20–22 岁明确成年东亚女性，1.70 米，小头小脸，极白冷白瓷肌，自然 E 罩杯视觉，蓝色短款大深 V 上衣，露腰，蓝色短裙，复古墨镜，银色配饰，标准半身裁切：完整头顶至腰胯附近，夜晚霓虹，前置手机自拍，蓝紫梦核，Y2K 甜酷，真实生活抓拍，慵懒、清冷、俏皮、松弛。 负面提示词： 全身照，三分之二身，远景，只拍脸，头像特写，裁到胸口，裁在胸下，裁在肚脐正中，裁到大腿中段，头顶裁切，下巴裁切，肩膀裁切，手机完全遮脸，墨镜完全遮挡五官，大头，大脸，宽脸，胸部过度夸张，身体比例失衡，V 领过浅，领口过高，严重广角畸变，衣物穿模，饰品悬浮，多手多指，塑料皮肤，过度磨皮，肤色偏黄，严重过曝，真正低分辨率，严重失焦，重噪点，动漫脸，CG脸，AI 伪影，乱码文字，Logo，水印。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRIZhLlbcAAqv0B?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HRIZhLibIAAMNyk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/AIVideoHub_/status/2094764843664654848",
+      "tags": [
+        "人像",
+        "低饱和"
+      ],
+      "timestamp": 1788342042296,
+      "title": "霓虹夜街编辑写真女性人像",
+      "url": "https://x.com/AIVideoHub_/status/2094764843664654848",
+      "collectedAt": "2026-09-02T09:40:43.518Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-02T09:40:54.786Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "",
       "category": "抽象",
