@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-02T09:40:23.460Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjwnzp4_eb6b",
+      "image": "https://pbs.twimg.com/media/HRMe14KaUAAzgCH?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HRMe14KaUAAzgCH?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRMe13rbcAEs4ee?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRMfAyiaYAA4p_Q?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRMfAymbsAAvZBS?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Alec Soth-inspired spacious documentary image language.\nShot on 35mm lens, slightly wide natural perspective, human-scale field of view, f/2.0-style large-aperture portrait depth, strong subject-background separation, 1/15s slow-shutter drag, subject and surroundings both carry motion smear, blurred foreground occlusion near the lens, out-of-focus shapes crossing one or more frame edges, thick near-field bokeh veil, clear opening toward the subject.\nVHS camcorder image degradation, analog tape noise, scanlines, color bleeding, chromatic aberration.\nPlease generate four variations on the same theme. All four images should have different compositions, poses, and camera angles. Please generate them all at once as multiple options for comparison, rather than creating them one by one in sequence. Keep the character, art style, and clothing consistent; only drastically change the composition.    --ar 9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRMe14KaUAAzgCH?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRMe13rbcAEs4ee?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRMfAyiaYAA4p_Q?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HRMfAymbsAAvZBS?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2095052374708736234",
+      "tags": [
+        "bokeh"
+      ],
+      "timestamp": 1788342022264,
+      "title": "时尚人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2095052374708736234",
+      "collectedAt": "2026-09-02T09:40:23.460Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjwnzp6_e44g",
+      "image": "https://pbs.twimg.com/card_img/2094859877269282817/5wHMU1sS?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/card_img/2094859877269282817/5wHMU1sS?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "定义 Claude 的模型身份、产品定位、知识截止时间，以及哪些信息必须联网核实。\n\n同时覆盖儿童安全、武器与爆炸物、非法药物、恶意代码、自伤和心理健康、法律与金融建议、政治议题及知识产权等安全边界。\n\n规定 Claude 应保持温和、直接、简洁，使用最少必要格式；遇到模糊请求时尽量先给出可用答案，再询问关键问题。\n\n还定义了列表使用、拒绝措辞、安全替代方案、长任务进度更新、工具执行后的结果回复、错误承认、用户批评及终止会话等交互规则。\n\n它还规定了后台自动归档、主动读取、用户要求下的写入和删除、版本控制、并发冲突处理、敏感信息过滤，以及记忆应在什么情况下影响回答。\n\n决定什么时候直接回答，什么时候使用 Web Search、Web Fetch、内部连接器或图片搜索。\n\n每个工具都带有完整 JSON Schema，定义工具名称、用途、参数、必填字段、枚举值和调用限制。",
+      "rawImages": [
+        "https://pbs.twimg.com/card_img/2094859877269282817/5wHMU1sS?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/simonwongio/status/2095051563010232589",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788342022267,
+      "title": "Fable 5.1 的系统提示词约 2",
+      "url": "https://x.com/simonwongio/status/2095051563010232589",
+      "collectedAt": "2026-09-02T09:40:23.460Z"
+    }
+  ]
+}
