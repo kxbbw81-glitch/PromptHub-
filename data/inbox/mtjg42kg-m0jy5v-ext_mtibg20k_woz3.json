@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-02T01:56:59.008Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-01",
+      "domain": "x.com",
+      "id": "ext_mtibg20k_woz3",
+      "image": "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBVvg2bIAAAWzO?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "构图与空间：人物位于画面下方三分之一处，上方保留完整单色标题区，花瓣形成少量视觉节奏\n色彩控制：奶油黄作为明亮背景基底，覆盆子红只用于花瓣和局部点睛，浅绿用于少量枝叶，人物服装用珍珠白或浅杏色；避免全图发红或发黄",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBVvg2bIAAAWzO?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2094667804251476312",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788245913908,
+      "title": "GPT Image 2生成东方美学壁纸",
+      "url": "https://x.com/liyue_ai/status/2094667804251476312",
+      "collectedAt": "2026-09-02T01:56:59.008Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjg41e3_s7c8",
+      "image": "https://pbs.twimg.com/media/HRHg2W4bMAAXE8H?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRHg2W4bMAAXE8H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBlL0caIAA0emh?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "提示词（欢迎返图）：\n9:16 竖版，真实 iPhone 手机随手拍摄的生活感女性照片，一位视觉年龄约 20–26 岁的年轻成年东方女性，具有自然明确的东方女性特征，不过度欧美化，不显年龄偏大，没有未成年感。整体风格为洗浴后松弛情绪下的真实生活抓拍，场景位于浴室门口与卧室连接走廊，普通公寓居住环境，背景可见浴室玻璃门、浅色墙面、木质门框、走廊地面、卧室床铺一角，空间安静、私密、干净，像真实有人居住的家中，而不是样板间或摄影棚。\n人物气质清透、安静、松弛、温柔，带一点洗完澡后的轻微疲惫感和居家放松感。五官方向为真实生活中长得很好看的年轻东方女性，柔和鹅蛋脸，清亮自然的杏眼，眼神温和安静，鼻梁清秀流畅，唇形自然柔软，只有轻微淡妆，五官比例协调但保留轻微自然不对称，不要网红脸，不要商业模特脸。皮肤保留真实毛孔、轻微肤色不均、轻微面部纹理和自然皮肤状态，不磨皮，不塑料皮，不瓷娃娃感。\n发型为黑色湿发，刚洗完澡后随意向后拢起或半扎，额前和脸侧有自然湿发碎发，发丝略带潮湿贴肤感。人物身上要有刚洗完澡后的真实水渍与潮湿感：额头、锁骨、肩膀、上胸、手臂和颈侧有细小水珠与湿润反光，皮肤呈现轻微湿润光泽；薄浴巾边缘和靠近头发的部分有轻微湿感，不夸张但清晰可见，增强真实生活感。\n人物身形为丰腴自然曲线型，胸部饱满自然，腰线清晰但真实，腰胯转折自然，臀腿线条圆润流畅，肩颈线柔和，整体身体比例协调健康。线条强调较强，但必须通过贴身家居裙、自然站姿、门框构图和真实室内光线来体现，不靠夸张扭腰或刻意摆拍。服装为浅灰紫色柔软吊带短睡裙，轻薄柔软面料，带少量自然褶皱与真实穿着痕迹，能够自然勾勒胸腰臀比例；肩上随意搭着一条浅色薄浴巾，浴巾位置自然松散，具有刚洗完澡后的生活状态。\n人物靠在浴室门框边，身体自然侧转，一条腿轻微前后错开，双脚明确踩地，站姿稳定自然。靠近头部的一只手正在整理半干头发，另一只手自然下垂或轻松放在身体侧面。人物不直视镜头，眼神看向镜头之外，像洗完澡走出浴室后在门口短暂停留，被随手拍下的一瞬间。重点保证人物肢体完整自然，四肢比例正常，双手清晰，手指数量正确，关节自然，站姿受力逻辑明确，不出现手脚畸形、身体扭曲或错误支撑关系。\n光线采用真实室内家居照明，可由浴室偏冷白的顶灯和走廊/卧室偏暖的室内灯混合形成，面部、锁骨、肩颈和胸前有自然高光，同时保留局部阴影、轻微曝光不完美和真实明暗变化，不要棚拍布光，不要商业打光，不要过度 HDR，不要梦幻滤镜。整体画面必须有明显 iPhone 手机拍摄感：真实手机主摄视角，轻微低清感，轻微噪点，轻微白平衡偏差，轻微手机算法锐化，允许轻微失焦和构图不完美，不使用人像模式，不做大光圈背景虚化，不做商业精修。人物、门框、浴室和卧室背景都应保持清晰可辨，像家中用 iPhone 随手记录下的一张真实照片。\n第一眼真实记忆点是：一个五官美丽、湿发未干、身上还留有细小水珠的年轻东方女性，穿着浅灰紫色柔软吊带短睡裙、肩搭薄浴巾，靠在浴室门口轻轻整理头发，安静地看向镜头之外，带着洗浴后的松弛与温柔，像真实生活里被手机随手拍下的一瞬间。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRHg2W4bMAAXE8H?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBlL0caIAA0emh?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2094702549135990947",
+      "tags": [
+        "东方",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1788314217483,
+      "title": "GPT Image 2生成写实生活照",
+      "url": "https://x.com/liyue_ai/status/2094702549135990947",
+      "collectedAt": "2026-09-02T01:56:59.008Z"
+    }
+  ]
+}
