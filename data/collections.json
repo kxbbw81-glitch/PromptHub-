@@ -1,7 +1,44 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T01:59:24.428Z",
+  "updatedAt": "2026-09-02T02:11:03.243Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "自然",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjgkevw_3vli",
+      "image": "https://pbs.twimg.com/media/HRIDaE0a8AAGeFn?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRIDaE0a8AAGeFn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRIDdYObUAAiONG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRGYXu7bgAAOrvY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRGYqrja4AA4vSb?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "``` 9:16 竖版，电影感女性剪影。一位约 25–30 岁年轻东方女性，她展现出珠圆玉润的健康体态，站在巨大的落地窗边，优雅清晰的身体线条轮廓完整的显示在落地窗上。 人物呈侧身站姿，身体朝画面左侧，腰部自然收紧，臀胯向后延伸，上半身轻轻向后仰，形成流畅而明显的 S 型身体曲线，肩膀向后打开，头部微微后仰。 采用极强逆光、高反差曝光，窗外高光严重溢出，人物主体压暗成剪影，整体使用低饱和纯黑白灰阶，没有彩色。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRIDaE0a8AAGeFn?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRIDdYObUAAiONG?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRGYXu7bgAAOrvY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRGYqrja4AA4vSb?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrGafish/status/2094740791289668092",
+      "tags": [
+        "东方",
+        "电影感",
+        "低饱和"
+      ],
+      "timestamp": 1788314981468,
+      "title": "GPT image 2 黑白剪影效果",
+      "url": "https://x.com/MrGafish/status/2094740791289668092",
+      "collectedAt": "2026-09-02T02:09:42.293Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-02T02:11:03.243Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "建筑",
