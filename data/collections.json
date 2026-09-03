@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T13:57:44.381Z",
+  "updatedAt": "2026-09-03T13:58:47.232Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtll9y5u_47jv",
+      "image": "https://pbs.twimg.com/media/HROFyvaa0AA5GEh?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HROFyvaa0AA5GEh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Chatgpt 图片 2 提示：一张写实风格的全身户外肖像，一位年轻女子站在宁静的城市街道上，沐浴在柔和的冬日阳光中。她有着长长的深棕色直发，自然地披散在肩上，双眼微闭，神情温柔而愉悦。她微微侧着头，摆出一个俏皮自然的姿势。她身穿一件宽松的淡紫色衬衫，内搭一件精致的白色蕾丝边上衣，下身是一条飘逸的白色短款多层裙。一只米色小背包斜挎在肩上。她双臂舒适地交叉，一只脚微微抬起，脚上穿着白色运动鞋。背景是一面带有几何方块图案的米色老旧墙面，裸露的藤蔓，一块小小的深色招牌，一辆停着的汽车，以及城市街道的景象。柔和的午后阳光在她头发周围投下淡淡的暖光，形成柔和的阴影和轻微的镜头光晕。自然的智能手机摄影，坦率的旅行时尚美学，逼真的皮肤纹理，细致的发丝和织物，柔和的粉彩色调，浅景深，微妙的复古胶片颗粒，自然的比例，梦幻般的宁静氛围，高度逼真的照片效果，竖版 4:5 构图。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HROFyvaa0AA5GEh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2095165369510211676",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1788443823666,
+      "title": "Chatgpt 图片 2 提示",
+      "url": "https://x.com/Aqsahere_/status/2095165369510211676",
+      "collectedAt": "2026-09-03T13:57:04.580Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-03T13:58:47.232Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "时尚",
