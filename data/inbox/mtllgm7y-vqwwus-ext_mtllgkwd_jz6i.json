@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-03T14:02:14.782Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtllgkwd_jz6i",
+      "image": "https://pbs.twimg.com/media/HRQu_OHbAAAW-TS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRQu_OHbAAAW-TS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRQu_5paAAA0822?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A photorealistic candid outdoor portrait of a young woman standing in a peaceful urban park on a sunny afternoon. She has long dark-brown hair styled in a loose low ponytail, with wispy face-framing strands gently falling across her face. She gazes softly toward the side with a calm, thoughtful expression.\n\nShe wears an olive-green cardigan over a delicate white textured ruffle camisole, paired with a long dark-green skirt. A deep burgundy-red shoulder bag hangs naturally at her side. One hand rests gently near her neck while the other is relaxed in front of her.\n\nShe stands beside a paved walkway surrounded by green grass, mature leafy trees, and subtle urban buildings in the background. Strong sunlight filters through the trees, creating beautiful highlights in her hair, soft shadows, and a subtle lens flare in the upper corner.\n\nNatural smartphone photography, candid lifestyle aesthetic, warm sunlight, realistic skin texture, detailed hair strands, authentic fabric textures, soft atmospheric contrast, gentle vintage film grain, muted earthy color palette, shallow depth of field, cinematic natural lighting, peaceful summer mood, highly photorealistic, vertical 4:5 composition.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRQu_OHbAAAW-TS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRQu_5paAAA0822?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2095351414524608662",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1788444133069,
+      "title": "电影感女性人像",
+      "url": "https://x.com/Aqsahere_/status/2095351414524608662",
+      "collectedAt": "2026-09-03T14:02:14.782Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtllgkwe_driq",
+      "image": "https://pbs.twimg.com/media/HRRBP4CbsAAbhr1?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRRBP4CbsAAbhr1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRQ06f9a8AABE69?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "神仙🌟提示词（prompt）：\n9:16，超写实真人摄影，20–22岁成年东亚女性，1.75米高挑纤瘦，小头小脸，冷白瓷肌，乌黑长直发，自然丰满E杯，香槟米白色丝质深V衬衫＋短款修身下装，赤脚，流苏耳坠与叠戴项链，慵懒坐姿，一腿前伸一腿微屈，极简奶油浅咖室内，落日侧光，高级时尚Editorial，电影感，全身构图，真实皮肤质感，浅景深。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRRBP4CbsAAbhr1?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRQ06f9a8AABE69?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/dannywayli/status/2095371769364537629",
+      "tags": [
+        "摄影",
+        "电影感",
+        "极简"
+      ],
+      "timestamp": 1788444133070,
+      "title": "「落日窗畔」",
+      "url": "https://x.com/dannywayli/status/2095371769364537629",
+      "collectedAt": "2026-09-03T14:02:14.782Z"
+    }
+  ]
+}
