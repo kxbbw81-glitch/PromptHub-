@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T14:05:29.112Z",
+  "updatedAt": "2026-09-03T16:59:57.249Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtlrr4p4_bkkm",
+      "image": "https://pbs.twimg.com/media/HRSPub3acAAxaSq?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRSPub3acAAxaSq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRN_rM2aEAAOgch?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "东方闺阁夜晚氛围写真，年轻漂亮东方女生，温柔鹅蛋脸，冷白细腻皮肤，精致淡妆，乌黑长发盘成低发髻，佩戴小巧玉石发簪，几缕碎发柔和垂落。 女生身穿淡米白色或浅青绿色中式旗袍，坐在古典木窗边的小桌前。桌上放着刺绣绷架、彩线、针线盒和一盏暖黄色烛灯或古典台灯。 她微微低头，正专注地用针线绣花，一只手扶着绣绷，另一只手轻轻穿针引线，动作细腻自然。她的表情安静专注，嘴角有一点温柔笑意，像沉浸在自己的小世界里。 暖黄色灯光照亮她的脸侧、手指和布面纹理，背景是深色夜晚室内与模糊木窗，窗外隐约能见夜色与一点点月光。整体冷暖对比柔和，画面安静、高级、细腻，有复古胶片颗粒和浅景深，像古代夜晚日常被偷偷记录下来。3:4竖构图，高清写实人像摄影。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRSPub3acAAxaSq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRN_rM2aEAAOgch?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2095457946268508671",
+      "tags": [
+        "东方",
+        "青绿",
+        "人像",
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1788454702985,
+      "title": "古风夜晚",
+      "url": "https://x.com/Adam38363368936/status/2095457946268508671",
+      "collectedAt": "2026-09-03T16:58:24.093Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-03T16:59:57.249Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
