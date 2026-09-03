@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T14:05:02.196Z",
+  "updatedAt": "2026-09-03T14:05:29.112Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtllijbt_g9v6",
+      "image": "https://pbs.twimg.com/media/HRHkmV5aUAAzQEx?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRHkmV5aUAAzQEx?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create an ultra-realistic, high-definition vertical 9:16 Y2K-inspired photo collage featuring the same beautiful adult woman consistently in all three panels. Cute, glamorous Japanese beauty with long, voluminous silky dark hair, natural glowing skin, soft fox-eye makeup, long lashes, glossy pink lips, and delicate feminine features. TOP PANEL- extreme close-up selfie, looking directly into the camera with one eye open and the other eye playfully winking, soft strands of hair framing her face. MIDDLE PANEL- glamorous over-the-shoulder pose, body turned away while she looks back at the camera, long voluminous hair flowing naturally and softly crossing part of her face. BOTTOM PANEL- intimate close-up very near the lens, long hair naturally covering one eye, subtle cute pout, dreamy confident expression. Pale neutral background, authentic early-2000s Y2K digital camera aesthetic, iPhone direct flash photography, bright flash highlights, slight natural overexposure, soft shadows, vintage digital grain, subtle motion softness, candid imperfect framing. No text, no watermark, no distortion, no warped face, no asymmetrical eyes, no duplicate features, no face variation, no blurry facial details.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRHkmV5aUAAzQEx?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2094706661005103239",
+      "tags": [
+        "dark",
+        "dreamy",
+        "vintage"
+      ],
+      "timestamp": 1788444224345,
+      "title": "单眼发丝特写",
+      "url": "https://x.com/MissDelulu9/status/2094706661005103239",
+      "collectedAt": "2026-09-03T14:03:45.627Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-03T14:05:29.112Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtllijbt_mqbv",
+      "image": "https://pbs.twimg.com/media/HRGiknzacAARkyw?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HRGiknzacAARkyw?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRGikn2a8AAamFT?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRGiknxaIAAAVtX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRGiknwasAAnDTv?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "A realistic close-up portrait of a young East Asian woman in her early 20s, with fair smooth skin, delicate facial features, large expressive dark brown eyes with long natural lashes and subtle eyeliner, soft arched eyebrows, a small straight nose, and full soft pink lips slightly parted in a calm neutral expression. She has long, slightly wavy dark brown-black hair cascading over her shoulders and partially framing her face, with soft volume and natural texture. Her head is tilted slightly to the side, resting her right cheek gently against the back of her hand with fingers lightly curled near her face in a relaxed, contemplative pose. She is wearing a simple black long-sleeve top or hoodie. Soft indoor lighting creates gentle highlights on her skin and hair, with a warm neutral tone. Background is a dark brown leather or fabric couch/sofa, slightly out of focus. Photorealistic style, high detail on skin texture, hair strands, and facial features, natural makeup look (subtle blush, glossy lips), shallow depth of field, intimate selfie-like composition, soft cinematic lighting.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRGiknzacAARkyw?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRGikn2a8AAamFT?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRGiknxaIAAAVtX?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRGiknwasAAnDTv?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2094847761153962446",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1788444224345,
+      "title": "调皮表情美妆人像",
+      "url": "https://x.com/woleswoosh/status/2094847761153962446",
+      "collectedAt": "2026-09-03T14:03:45.627Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-03T14:05:29.112Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "时尚",
