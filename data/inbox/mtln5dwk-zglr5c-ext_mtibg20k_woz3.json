@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-03T14:49:30.020Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-01",
+      "domain": "x.com",
+      "id": "ext_mtibg20k_woz3",
+      "image": "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBVvg2bIAAAWzO?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "构图与空间：人物位于画面下方三分之一处，上方保留完整单色标题区，花瓣形成少量视觉节奏\n色彩控制：奶油黄作为明亮背景基底，覆盆子红只用于花瓣和局部点睛，浅绿用于少量枝叶，人物服装用珍珠白或浅杏色；避免全图发红或发黄",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBVvg2bIAAAWzO?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2094667804251476312",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788245913908,
+      "title": "GPT Image 2生成东方美学壁纸",
+      "url": "https://x.com/liyue_ai/status/2094667804251476312",
+      "collectedAt": "2026-09-03T14:49:30.020Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtllcfkb_9kau",
+      "image": "https://pbs.twimg.com/media/HQzzWt2aYAAj2Jh?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQzzWt2aYAAj2Jh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n2:3的纵向构图，从接近腰部高度的镜头以自然视线捕捉大腿上方的回首肖像。将人物较大地置于画面右侧，左侧一半的墙壁与影子作为留白，腿部在画面下方裁切。焦点落在脸庞与背部，背景小物件柔和地虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQzzWt2aYAAj2Jh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2095275324434997333",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788443939531,
+      "title": "夕阳所造的影子",
+      "url": "https://x.com/CyberTotal2026/status/2095275324434997333",
+      "collectedAt": "2026-09-03T14:49:30.020Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtlli7ur_ambq",
+      "image": "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n2:3 的纵向构图，自然腰部高度的镜头，从头部到靴子收录全身的肖像。人物置于中央并较大，抬起膝盖置于画面左侧，伸直的双腿延伸至画面下方。焦点在脸部，昏暗的店内以浅景深模糊处理。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2095378755908702275",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788444209475,
+      "title": "最爱的座位上",
+      "url": "https://x.com/CyberTotal2026/status/2095378755908702275",
+      "collectedAt": "2026-09-03T14:49:30.020Z"
+    }
+  ]
+}
