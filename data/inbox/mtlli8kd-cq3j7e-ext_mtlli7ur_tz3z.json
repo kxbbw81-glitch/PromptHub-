@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-03T14:03:30.397Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtlli7ur_tz3z",
+      "image": "https://pbs.twimg.com/media/HRSqBVmasAAfUuh?format=png&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRSqBVmasAAfUuh?format=png&name=small",
+        "https://pbs.twimg.com/media/HRSqDuca8AA3JT4?format=png&name=small"
+      ],
+      "model": "",
+      "prompt": "Prompt ⬇️⬇️⬇️\n写实摄影风格，竖幅棚拍半身时尚人像，一位成年女性站在深灰色纯色背景前，画面从腰部到头部，主体位于中央偏右。她身体微微向左倾斜，肩膀自然展开，右手或画面右侧手臂抬起放在头后，形成优雅轻松的姿态，另一只手臂自然垂落并部分被裁切。她面向镜头，头部轻微倾斜，露出自然灿烂的微笑，表情亲切、自信、柔和。她有黑色中长发，松散低束或自然披散，几缕发丝垂在脸颊和额前，带有真实发丝层次与柔和高光。妆容清淡自然，眉形柔和，眼神明亮，唇色自然偏粉，皮肤细腻但保留真实纹理。她穿白色无肩带抹胸短上衣，贴身棉质弹力面料，水平领口，露出肩颈、锁骨与上腹，布料有轻微褶皱、弹性拉伸感和真实阴影。下装为米白色高腰轻薄百褶裙或纱质裙，宽腰封设计，裙摆在下方自然展开并部分裁切。灯光为柔和棚拍侧光，从左上方照亮人物，在肩膀、锁骨、手臂、脸颊和白色上衣上形成明亮高光，背景保持低调暗灰，整体高对比但柔和。色彩简洁高级：白色上衣、米色裙子、暖自然肤色、黑色头发、深灰背景。高分辨率，浅景深，清晰面部焦点，真实人体比例，细腻皮肤与发丝，真实布料纹理，优雅干净的杂志写真氛围。避免动漫、卡通、塑料皮肤、畸形手指、多余肢体、不自然比例、过度磨皮、强闪光、文字、水印、logo。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRSqBVmasAAfUuh?format=png&name=small",
+        "https://pbs.twimg.com/media/HRSqDuca8AA3JT4?format=png&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/ToroJushiAi/status/2095488285502025768",
+      "tags": [
+        "人像",
+        "写真",
+        "摄影"
+      ],
+      "timestamp": 1788444209475,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/ToroJushiAi/status/2095488285502025768",
+      "collectedAt": "2026-09-03T14:03:30.397Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtlli7ur_ambq",
+      "image": "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n2:3 的纵向构图，自然腰部高度的镜头，从头部到靴子收录全身的肖像。人物置于中央并较大，抬起膝盖置于画面左侧，伸直的双腿延伸至画面下方。焦点在脸部，昏暗的店内以浅景深模糊处理。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2095378755908702275",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788444209475,
+      "title": "最爱的座位上",
+      "url": "https://x.com/CyberTotal2026/status/2095378755908702275",
+      "collectedAt": "2026-09-03T14:03:30.397Z"
+    }
+  ]
+}
