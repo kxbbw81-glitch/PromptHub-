@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-03T06:16:16.613Z",
+  "count": 5,
+  "items": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4go4fi_2zvy",
+      "image": "https://pbs.twimg.com/media/HQQBVhnbMAAISS2?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQQBVhnbMAAISS2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcbacAAygkB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcOaAAAA2jr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcKbwAAdhMA?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOc2yDHaUAAev6e?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "「南鸢写真提示词」会员升级版正式上线。\n你给它一张参考图和新的主角。它会拆开人物身份与拍摄方案，规划新分镜，重建不同机位的光照关系，再逐张检查表情、动作、背景层级和原作保真。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQQBVhnbMAAISS2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcbacAAygkB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcOaAAAA2jr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQQBVcKbwAAdhMA?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOc2yDHaUAAev6e?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/nanyuan0412/status/2090798606685233655",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787408161902,
+      "title": "一张参考图",
+      "url": "https://x.com/nanyuan0412/status/2090798606685233655",
+      "collectedAt": "2026-09-03T06:16:16.613Z"
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-08-22",
+      "domain": "x.com",
+      "id": "ext_mt4gqa4d_3wgb",
+      "image": "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO9w99bUAEfGbs?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO91PjaMAEQ2xQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO942ubMAA0zOg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "4. 可爱脸是平衡器。\n如果服装、黑丝、低机位全部往成熟性感方向走，很容易变成单一写真感。加入圆润、亲和、偏 COS 审美的成年可爱脸，加上粉色眼妆、卧蚕、柔和唇色之后，画面会被拉回到“二次元商业广告”而不是纯性感写真。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQO9uCZa0AAM6CY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO9w99bUAEfGbs?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO91PjaMAEQ2xQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HQO942ubMAA0zOg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2090723690552209788",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1787408262589,
+      "title": "这组的核心其实不是“汉服 + 黑丝”",
+      "url": "https://x.com/VoxcatAI/status/2090723690552209788",
+      "collectedAt": "2026-09-03T06:16:16.613Z"
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "抽象",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8tf2yq_x3k9",
+      "image": "https://pbs.twimg.com/media/HQhi89haAAAWte4?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQhi89haAAAWte4?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQhi9MsbcAAOnds?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQhi-wLaQAAXGwT?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQhi_f5a4AAHzR8?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "1.《和没选的路打招呼》\n\n走上这一条路以后，另一条也一直存在\n\n2.《给另一个自己留座》\n\n有时候怀念的，是那个没有成为的人\n\n3.《把如果装进盒子》\n\n很多“如果”，最后都被好好收起来了\n\n4.《站在平行人生门口》\n\n偶尔也会想，推开另一扇门会怎样  x.com/XiaoKooeye/sta…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQhi89haAAAWte4?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQhi9MsbcAAOnds?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQhi-wLaQAAXGwT?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HQhi_f5a4AAHzR8?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/XiaoKooeye/status/2092030883847114801",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787671439811,
+      "title": "系列十三《那些没有发生的人生》",
+      "url": "https://x.com/XiaoKooeye/status/2092030883847114801",
+      "collectedAt": "2026-09-03T06:16:16.613Z"
+    },
+    {
+      "aspectRatio": "",
+      "category": "动物",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8uvq2u_hp17",
+      "image": "https://pbs.twimg.com/media/HQGPQ-KaIAEh094?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HQGPQ-KaIAEh094?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "最近视频反推引擎因为 Token 消耗太大，展示功能暂时停了。没等它重置，我先做了一个 MiniMax H3 视频反推提示词模板。\n给它一个参考视频，就能反推出 MiniMax H3 专用提示词，支持文生视频和图生视频，当然反推完可以基于官方H3-Prompt  x.com/GeekCatX/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQGPQ-KaIAEh094?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/GeekCatX/status/2092271974471156151",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787673895878,
+      "title": "视频短片",
+      "url": "https://x.com/GeekCatX/status/2092271974471156151",
+      "collectedAt": "2026-09-03T06:16:16.613Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-08-25",
+      "domain": "x.com",
+      "id": "ext_mt8vdbe1_7khq",
+      "image": "https://pbs.twimg.com/media/HQZZ5CSbYAAg7_Y?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HQZZ5CSbYAAg7_Y?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "人物・表情：\n女性将脸转向画面右上方，望着远方时温和地微笑。略显修长的卵形脸，细长的眼睛和自然的眉毛，清晰的鼻梁，淡粉色的嘴唇。黑褐色的头发在后脑勺随意扎成低低的发髻，有薄薄的刘海和散落的发丝。自然的润泽肌肤和淡淡的腮红。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQZZ5CSbYAAg7_Y?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2092092102255554964",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1787674716649,
+      "title": "黄色的墙壁上",
+      "url": "https://x.com/CyberTotal2026/status/2092092102255554964",
+      "collectedAt": "2026-09-03T06:16:16.613Z"
+    }
+  ]
+}
