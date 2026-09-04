@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-04T01:11:18.573Z",
+  "count": 4,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-01",
+      "domain": "x.com",
+      "id": "ext_mtibg20k_woz3",
+      "image": "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBVvg2bIAAAWzO?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "构图与空间：人物位于画面下方三分之一处，上方保留完整单色标题区，花瓣形成少量视觉节奏\n色彩控制：奶油黄作为明亮背景基底，覆盆子红只用于花瓣和局部点睛，浅绿用于少量枝叶，人物服装用珍珠白或浅杏色；避免全图发红或发黄",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRHBJeFa4AA2rt0?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRBVvg2bIAAAWzO?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2094667804251476312",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788245913908,
+      "title": "GPT Image 2生成东方美学壁纸",
+      "url": "https://x.com/liyue_ai/status/2094667804251476312",
+      "collectedAt": "2026-09-04T01:11:18.573Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtllcfkb_9kau",
+      "image": "https://pbs.twimg.com/media/HQzzWt2aYAAj2Jh?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQzzWt2aYAAj2Jh?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n2:3的纵向构图，从接近腰部高度的镜头以自然视线捕捉大腿上方的回首肖像。将人物较大地置于画面右侧，左侧一半的墙壁与影子作为留白，腿部在画面下方裁切。焦点落在脸庞与背部，背景小物件柔和地虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQzzWt2aYAAj2Jh?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2095275324434997333",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788443939531,
+      "title": "夕阳所造的影子",
+      "url": "https://x.com/CyberTotal2026/status/2095275324434997333",
+      "collectedAt": "2026-09-04T01:11:18.573Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-03",
+      "domain": "x.com",
+      "id": "ext_mtlli7ur_ambq",
+      "image": "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n2:3 的纵向构图，自然腰部高度的镜头，从头部到靴子收录全身的肖像。人物置于中央并较大，抬起膝盖置于画面左侧，伸直的双腿延伸至画面下方。焦点在脸部，昏暗的店内以浅景深模糊处理。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HQz68uiaYAAmfEP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2095378755908702275",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788444209475,
+      "title": "最爱的座位上",
+      "url": "https://x.com/CyberTotal2026/status/2095378755908702275",
+      "collectedAt": "2026-09-04T01:11:18.573Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-04",
+      "domain": "x.com",
+      "id": "ext_mtm9cz92_2e3k",
+      "image": "https://pbs.twimg.com/media/HRQocqba4AAsiNt?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HRQocqba4AAsiNt?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRQocqaacAEYX5U?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRQocqgbIAAm6fV?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRQocq6bsAA_-C2?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Knee-up cowboy shot, tilted frame.\nA 20s seductive stunning Japanese or Korean woman with medium smooth hoop earrings, clean, versatile jewelry accent and short gold curb-link necklace worn around the base of the neck at collarbone level, understated streetwear jewelry, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young mixed editorial face, dimensional facial structure, defined nose bridge and deep-set eyes, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, natural black hair, soft matte skin texture, refined pores, velvety smooth finish, calm composed expression, relaxed brows, softly open eyelids, neutral closed mouth, even facial muscles.\nShe wears oversized bright red varsity jacket, ribbed collar and cuffs, contrast stripe trim, structured sporty outer layer, outerwear worn open at the front, front panels parted naturally, outerwear worn normally on both shoulders, layered over, white cropped knit camisole, compact hem length, ribbed knit texture, narrow shoulder strap construction, ultra-low-rise waistband sitting very low on the hips, black distressed wide-leg denim, frayed edge detailing, heavy-wash texture, expanded leg volume, decorative wide leather waist belt worn loosely around hips with a structured off-center buckle.\nShe has her head naturally facing the camera, a close handheld companion snapshot from a boyfriend-or-best-friend point of view, with her leaning naturally toward the nearby camera and keeping her hands relaxed in candid body language, and presents a back-facing standing posture with the torso turned toward the camera with one hip resting against an existing waist-height edge in the scene, clear hip-to-edge contact with partial body-weight support.\nThe scene is Seoul Hongdae youth-culture storefront edge, colorful signboards, layered shopfronts.\nClear blue-sky daylight, saturated azure sky, hard direct sunlight on the subject, crisp shadow edges.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRQocqba4AAsiNt?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRQocqaacAEYX5U?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRQocqgbIAAm6fV?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRQocq6bsAA_-C2?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2095344279564800055",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788484275830,
+      "title": "针织背心女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2095344279564800055",
+      "collectedAt": "2026-09-04T01:11:18.573Z"
+    }
+  ]
+}
