@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-04T16:34:40.771Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-04",
+      "domain": "x.com",
+      "id": "ext_mtn6cf0k_hctz",
+      "image": "https://pbs.twimg.com/media/HRVF7rmbkAAnVTO?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HRVF7rmbkAAnVTO?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRVGSJwbcAAjc90?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "An adult Taiwanese Instagram-style female influencer with fair, cool-toned pale skin, a light dusting of subtle freckles, a delicate fox-like face, and soft yet defined features. She has a pear-shaped figure. She is wearing a misty blue lightweight knit cardigan over a cream-white camisole, paired with a white short skirt and white canvas sneakers. She is sitting on the edge of a guardrail beside a seaside road in Japan, leaning slightly backward, with one hand supporting herself behind her and the other resting gently on her knee. One leg hangs down naturally, while the other is slightly bent, creating a relaxed and naturally stretched pose. She gazes quietly at the camera with a restrained, cool expression, while her hair is softly tousled by the sea breeze.\n\n9:16 vertical composition, medium-close framing. The subject is not perfectly centered, and the image includes a large amount of negative space with sky and sea. The background features a coastal road, guardrail, distant shoreline, and blurred utility poles, with a subtle atmosphere of a small Japanese seaside town. The overall tone is cool blue-gray, with low saturation and low contrast, a soft hazy feel, slight glow, shallow depth of field, and a strong sense of airiness. Her skin has a cool ivory creamy texture with a semi-translucent porcelain quality, with a faint pink tint around the cheeks and eyes while retaining slight natural skin texture. The overall image feels like a summer seaside road portrait shot on Japanese negative film.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRVF7rmbkAAnVTO?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRVGSJwbcAAjc90?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2095658867749486637",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788539676932,
+      "title": "海边晨光针织背心女性人像",
+      "url": "https://x.com/BubbleBrain/status/2095658867749486637",
+      "collectedAt": "2026-09-04T16:34:40.771Z"
+    }
+  ]
+}
