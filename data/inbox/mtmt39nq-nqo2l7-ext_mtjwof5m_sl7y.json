@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-04T10:23:35.078Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "",
+      "category": "抽象",
+      "date": "2026-09-02",
+      "domain": "x.com",
+      "id": "ext_mtjwof5m_sl7y",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2094722605005869056/img/cN2Ggc3_FEuwPwfn.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094722605005869056/img/cN2Ggc3_FEuwPwfn.jpg",
+        "https://pbs.twimg.com/media/HRHzSfTaAAAkEZj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRHzdQGboAAh0ru?format=png&name=900x900"
+      ],
+      "model": "",
+      "prompt": "鹅，这两天不断有水友加我微，来问小红书爆款笔记和爆款商品数据怎么来的\n\n其实，2年前我就借助 RPA + ChatGPT 开发好了。现在更简单：\n\n1/ 给 Codex 充好 Pro\n\n2/ 把安卓机连上 PC\n\n3/ 给 Codex 下命令：把小红书半年内万赞笔记抓出来\n\n好了，看电影去吧，约会去吧",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094722605005869056/img/cN2Ggc3_FEuwPwfn.jpg",
+        "https://pbs.twimg.com/media/HRHzSfTaAAAkEZj?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRHzdQGboAAh0ru?format=png&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/huangyun_122/status/2094724970945654986",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788342042298,
+      "title": "鹅",
+      "url": "https://x.com/huangyun_122/status/2094724970945654986",
+      "collectedAt": "2026-09-04T10:23:35.078Z"
+    }
+  ]
+}
