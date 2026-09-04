@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-04T01:07:42.810Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-04",
+      "domain": "x.com",
+      "id": "ext_mtm98dt0_vswc",
+      "image": "https://pbs.twimg.com/media/HRMny2xa8AAYNLK?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HRMny2xa8AAYNLK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRMny2oaIAAv3nk?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRMny3DacAAnCDZ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRMny2xa0AAiF1_?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Created on @TopviewAIhq @topviewaijp #Topview\nA highly realistic close-up portrait photograph of a young East Asian woman in her early 20s with fair, smooth skin and soft natural features. She has long, straight, silky light-brown hair with subtle golden highlights that falls past her shoulders and frames her face, parted slightly off-center. Her expression is calm and slightly pouty, with soft full lips in a natural pinkish-nude shade, lightly defined brows, subtle eyeliner, and soft eyeshadow that gives a gentle, polished look. She gazes directly at the camera with a relaxed, slightly tilted head pose.\nHer right hand is raised, resting gently under her chin with fingers softly curled, supporting her face in a classic thoughtful pose. She wears a simple black strapless bandeau or tube top that sits low, revealing her shoulders and upper chest. On her right wrist is a delicate silver chain-link bracelet that catches the light.\nThe background is a soft, muted gray curtain with gentle vertical folds, creating a clean, studio-like indoor setting. Soft, even diffused lighting illuminates her face evenly with subtle highlights on her cheekbones and hair, producing a smooth, flattering skin texture and natural shadows. Shot from a slightly elevated selfie-style angle, tightly framed from mid-chest up, high resolution, photorealistic detail, natural color grading, sharp focus on the face and eyes.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRMny2xa8AAYNLK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRMny2oaIAAv3nk?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRMny3DacAAnCDZ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRMny2xa0AAiF1_?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/woleswoosh/status/2095542340035260517",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1788484061412,
+      "title": "东方人像",
+      "url": "https://x.com/woleswoosh/status/2095542340035260517",
+      "collectedAt": "2026-09-04T01:07:42.810Z"
+    }
+  ]
+}
