@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-06T10:18:39.098Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-06",
+      "domain": "x.com",
+      "id": "ext_mtpnsll0_lrr7",
+      "image": "https://pbs.twimg.com/media/HRgDuF5W4AEb_bE?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HRgDuF5W4AEb_bE?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRgDuGQa0AA6HJC?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRgDuGMbIAE0q6C?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRbEUioXkAEejgh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRbEUizWgAAx75q?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "图一提示词:\n一位成年中国女模特，头发松松扎起，穿轻运动休闲风私服，在临海街道的公交站旁刚刚坐下，背包还挂在一侧肩头，她正伸手将肩带滑下来，被海风吹得轻轻眯眼，脸朝向远处驶来的公交车。\n24mm 广角全身环境人像，摄影师从长椅侧端的低机位斜向抓拍，近处失焦椅背遮住部分大腿，长椅与路缘形成强烈透视引导线，人物放在画面最右侧，左侧保留大片天空与空旷街道。傍晚自然侧光照亮脸颊，背景以海蓝、浅灰和白色为主，肤色真实。\n保留迎风扬起的碎发、肩带受力与刚坐下时的衣料褶皱，允许边缘轻微广角拉伸和局部高光溢出，呈现偶然捕捉的旅行瞬间，不居中、不走秀、不使用塑料皮肤质感。9:16",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRgDuF5W4AEb_bE?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRgDuGQa0AA6HJC?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRgDuGMbIAE0q6C?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRbEUioXkAEejgh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRbEUizWgAAx75q?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/joshesye/status/2096429893386998133",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1788689917764,
+      "title": "公交",
+      "url": "https://x.com/joshesye/status/2096429893386998133",
+      "collectedAt": "2026-09-06T10:18:39.098Z"
+    }
+  ]
+}
