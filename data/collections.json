@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T11:18:39.219Z",
+  "updatedAt": "2026-09-08T11:59:02.265Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-09-08",
+      "domain": "x.com",
+      "id": "ext_mtsm7au3_6eqj",
+      "image": "https://pbs.twimg.com/media/HRrtC3ca8AACRVK?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRrtC3ca8AACRVK?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "> A photorealistic close-up indoor portrait of a young woman sitting comfortably in a woven rattan chair near a bright window. She has long, naturally tousled dark brown hair with warm brown highlights, parted near the center, with loose strands softly framing and partially covering her face. She looks directly into the camera with a calm, slightly dreamy expression and natural, softly tinted lips. One hand is raised gently in front of her face, with her fingertips resting delicately around her lips and cheek, creating an intimate candid pose. Her fingers are slender and naturally positioned. She is wearing a simple oversized off-white/light beige top with soft fabric texture. Strong warm sunlight streams through the window from the upper side, creating beautiful striped shadows and highlights across her hair, forehead, cheek, and clothing. The lighting is natural, golden, and slightly overexposed in places, giving the photograph a warm cozy atmosphere. Behind her is a large white woven/rattan chair with curved circular detailing. A dark green wall or window panel with elegant white botanical/leaf patterns is visible in the background, along with a simple dark vertical frame. The setting feels like a cozy modern home or café. Composition: vertical close-up portrait, approximately 4:5 aspect ratio, camera very close to the subject, face occupying the central-right portion of the frame, slightly low and intimate camera angle, shoulders and upper torso visible, natural framing. Photography style: ultra-realistic smartphone selfie photography, soft Korean/Asian lifestyle aesthetic, natural skin texture, realistic pores, individual hair strands, subtle imperfections, warm sunlight, authentic shadows, gentle contrast, slight film grain, shallow depth of field, candid unposed feeling, high detail, 4K. Negative prompt: > anime, cartoon, illustration, CGI, 3D render, artificial face, plastic skin, excessive beauty filter, overly smooth skin, exaggerated eyes, distorted face, deformed hands, extra fingers, missing fingers, fused fingers, unnatural hand position, malformed anatomy, artificial hair, oversaturated colors, harsh studio lighting, excessive blur, low resolution, text, watermark, logo. Best settings: 4:5 vertical, close-up framing, natural sunlight, photorealistic, low-to-moderate background blur.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRrtC3ca8AACRVK?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2097249218507461093",
+      "tags": [
+        "photorealistic",
+        "anime",
+        "dark",
+        "dreamy",
+        "studio lighting"
+      ],
+      "timestamp": 1788868642971,
+      "title": "咖啡馆夜景女性人像",
+      "url": "https://x.com/Aqsahere_/status/2097249218507461093",
+      "collectedAt": "2026-09-08T11:57:24.299Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-08T11:59:02.265Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
