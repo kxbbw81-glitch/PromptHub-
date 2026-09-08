@@ -87,3 +87,48 @@ test('extension inbox merge sanitizes payloads before server-side insertion', ()
   assert.equal(collectionSourceKey(item), 'x:example:5005');
   assert.equal(promptFingerprint(item.prompt), promptFingerprint(`${PROMPT_BASE} sanitize-5005`));
 });
+
+test('extension inbox merge accepts concise structured visual prompts', () => {
+  const concisePrompt = '2:3 的纵向构图，自然腰部高度的镜头，从头部到靴子收录全身肖像。人物置于中央，焦点在脸部，昏暗店内以浅景深模糊处理，服装材质清晰，柔和边缘光保留真实摄影质感。';
+  const result = mergeExtensionInbox({
+    collectionsPayload: {
+      schemaVersion: 1,
+      updatedAt: '2026-09-08T00:00:00.000Z',
+      collections: []
+    },
+    inboxFiles: [{
+      filePath: 'data/inbox/concise-batch.json',
+      name: 'concise-batch.json',
+      items: [inboxItem('concise-6006', {
+        prompt: concisePrompt,
+        sourceUrl: 'https://x.com/example/status/6006'
+      })]
+    }],
+    now: '2026-09-08T10:00:00.000Z'
+  });
+
+  assert.equal(result.accepted.length, 1);
+  assert.equal(result.payload.collections[0].prompt, concisePrompt);
+});
+
+test('extension inbox merge rejects social teaser text without the real prompt body', () => {
+  const teaser = '这套提示词我是真满意：雨夜、霓虹、侧颜、丝袜特写、CCD直闪，全都拉满。老规矩提示词开源评论区，返图我看看谁出的不好看？';
+  const result = mergeExtensionInbox({
+    collectionsPayload: {
+      schemaVersion: 1,
+      updatedAt: '2026-09-08T00:00:00.000Z',
+      collections: []
+    },
+    inboxFiles: [{
+      filePath: 'data/inbox/teaser-batch.json',
+      name: 'teaser-batch.json',
+      items: [inboxItem('teaser-7007', {
+        prompt: teaser,
+        sourceUrl: 'https://x.com/example/status/7007'
+      })]
+    }]
+  });
+
+  assert.equal(result.accepted.length, 0);
+  assert.equal(result.rejected[0].reason, 'incomplete collection item');
+});

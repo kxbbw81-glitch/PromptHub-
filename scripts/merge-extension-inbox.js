@@ -4,7 +4,17 @@ const { classifyCollection, classifyCommerceType } = require('./category-rules')
 
 const DEFAULT_COLLECTIONS_PATH = path.join(__dirname, '..', 'data', 'collections.json');
 const DEFAULT_INBOX_DIR = path.join(__dirname, '..', 'data', 'inbox');
-const MIN_PROMPT_LENGTH = 160;
+const MIN_PROMPT_LENGTH = 70;
+const LONG_PROMPT_LENGTH = 160;
+
+const SOCIAL_TEASER_RE = /(提示词|prompt).{0,20}(评论区|见评论|放评论|私信|主页|置顶|关注|转发|点赞|回复|领取|下载|链接|付费|购买|课程|教程)|老规矩|返图|谁出的不好看|私信已经爆|加群|扫码|vx|微信|公众号/i;
+const CHINESE_VISUAL_CUES = [
+  '构图', '镜头', '机位', '画面', '焦点', '背景', '前景', '主体', '人物', '产品',
+  '场景', '色彩', '光线', '灯光', '逆光', '侧光', '柔光', '阴影', '质感', '材质',
+  '浅景深', '虚化', '写实', '摄影', '拍摄', '肖像', '海报', '壁纸', '插画', '风格'
+];
+const ENGLISH_VISUAL_RE = /\b(?:cinematic|photorealistic|editorial|portrait|product|composition|lighting|camera|lens|background|foreground|subject|style|texture|depth of field|no text|no logo|no watermark)\b/i;
+const TECHNICAL_VISUAL_RE = /\b(?:24mm|35mm|50mm|85mm|100mm|f\/\d|ISO\s*\d+|\d+\s*:\s*\d+)\b/i;
 
 function cleanText(value, max = 30000) {
   return String(value ?? '').replace(/\s+/g, ' ').trim().slice(0, max);
@@ -56,6 +66,16 @@ function domainFromUrl(value) {
   }
 }
 
+function isPromptLikeText(prompt) {
+  const text = cleanText(prompt);
+  if (text.length < MIN_PROMPT_LENGTH) return false;
+  if (SOCIAL_TEASER_RE.test(text)) return false;
+  if (text.length >= LONG_PROMPT_LENGTH) return true;
+  const chineseCueCount = CHINESE_VISUAL_CUES.reduce((count, cue) => count + (text.includes(cue) ? 1 : 0), 0);
+  const technicalCueCount = (ENGLISH_VISUAL_RE.test(text) ? 1 : 0) + (TECHNICAL_VISUAL_RE.test(text) ? 1 : 0);
+  return chineseCueCount + technicalCueCount >= 3;
+}
+
 function sanitizeInboxItem(item) {
   if (!item || typeof item !== 'object') return null;
   const id = cleanText(item.id, 120);
@@ -64,7 +84,7 @@ function sanitizeInboxItem(item) {
   const sourceUrl = normalizeSourceUrl(item.sourceUrl || item.url);
   const imageList = Array.isArray(item.images) ? item.images : [item.image];
   const images = [...new Set(imageList.map(url => cleanText(url, 2048)).filter(isHttps))].slice(0, 12);
-  if (!id || !title || prompt.length < MIN_PROMPT_LENGTH || !sourceUrl || !images.length) return null;
+  if (!id || !title || !isPromptLikeText(prompt) || !sourceUrl || !images.length) return null;
   return {
     ...item,
     id,
