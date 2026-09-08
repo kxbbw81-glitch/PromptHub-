@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T11:59:02.265Z",
+  "updatedAt": "2026-09-08T12:41:01.152Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-08",
+      "domain": "x.com",
+      "id": "ext_mtsnp8b0_aiyz",
+      "image": "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLXc9WEAAprdV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLZA7XcAA6OQp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLaweXUAA7vHu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLc7RWoAACPGW?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻成年感女性形象站在昏暗的音乐排练室或后台器材空间中，人物位于窄竖幅画面的中下部，上方保留大面积黑色幕布和暗色留白。她的身体大致朝向镜头，头部轻微侧倾，目光看向画面右侧而不是直视镜头，表情平静，像处在演奏间隙或试音停顿中。 她留有暖棕色中长卷发，发丝自然落在肩前，并受到右侧暖光照亮。穿贴身黑色长袖上衣、宽松浅灰色旧化破损牛仔裤、黑色金属装饰腰带，胸前佩戴细长十字吊坠。黑色上衣部分融入暗背景，浅色牛仔裤承担下半身明度。 一把青蓝色电贝司斜跨身体，琴身位于左下方，琴颈向右上方延伸并部分伸出画面。左手自然握住琴颈，右手停在琴弦和琴桥附近，动作像短暂暂停而非夸张演奏。浅色背带从肩部连接到琴身。 背景以黑色幕布为主，右后方保留扩音箱、机架设备和器材箱，但细节对比低于人物。画面最右侧有一道强烈竖向高亮区域，像舞台侧光、门口或大型灯面，具体来源不需明确。它从右前方照亮人物脸部、头发和肩部边缘，并形成“右亮左暗”的方向关系。 采用窄竖幅膝上环境人像，人物位置偏低，头顶留白明显，轻微近距离广角透视。眼睛、发丝、琴弦和牛仔布细节清楚，皮肤柔和但保留自然纹理；暗部允许出现轻微噪点和手机拍摄式压缩感，不使用塑料化磨皮。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLXc9WEAAprdV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLZA7XcAA6OQp?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLaweXUAA7vHu?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHLc7RWoAACPGW?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2081181748478562704",
+      "tags": [
+        "人像"
+      ],
+      "timestamp": 1788871159116,
+      "title": "P站素材吃透",
+      "url": "https://x.com/Soranlan/status/2081181748478562704",
+      "collectedAt": "2026-09-08T12:39:20.511Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-08T12:41:01.152Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-08",
+      "domain": "x.com",
+      "id": "ext_mtsnoy5u_008f",
+      "image": "https://pbs.twimg.com/media/HRpc5j5bEAAQkqt?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRpc5j5bEAAQkqt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRpc67_aQAA771S?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRpc8G8aYAMHVfQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "蓝调黄昏氛围感写真人像，竖版构图，近景到半身特写，成年东亚女性，脸型小巧精致，五官清冷柔和，皮肤白皙细腻通透，黑色长卷发自然披散，发量丰厚，发尾带轻微弧度，几缕凌乱碎发被晚风吹起，掠过额头、眼角与脸颊，增加呼吸感与故事感。人物身体微微前倾，肩膀轻收，头部略微上抬，侧脸三分之二角度，视线望向左上方远处，不看镜头，眼神安静、湿润、若有所思，带一点朦胧、克制、轻微心事感，嘴唇微微张开，唇色自然偏暖红，鼻梁与下颌线条干净，脖颈修长，锁骨若隐若现。服装为轻薄半透明灰蓝色外披或罩衫，面料柔软飘逸，贴合身体自然垂落，内搭深色细肩带上衣或抹胸，形成低调的冷暖对比与轻微层次感，整体气质清冷、温柔、疏离、略带脆弱感。拍摄场景为露台、天台或高处边缘空间，背景极简处理，远处建筑和城市环境弱化，只保留模糊轮廓，大面积蓝紫色暮色天空占据背景主体，环境留白充足，画面干净。光线采用冷蓝环境光加暖橙色侧前方补光，暖光主要落在面部、颈部、肩部和锁骨，形成明显但柔和的冷暖反差，皮肤高光细腻不过曝，阴影柔软不过硬。镜头语言偏电影感写真，浅景深，背景大幅虚化，奶油化散景，轻微柔焦，轻微胶片颗粒，低饱和但保留肤色与橙色光感，整体色调高级克制，带一点日系、韩系、文艺电影海报气息，情绪化肖像，真实摄影质感，细腻、安静、松弛、有空气感，有微风、有暮色、有情绪，有一种站在夜晚来临前片刻出神的感觉。画面重点放在人物面部神情、风中发丝、肩颈线条、冷暖光影对比和安静的黄昏氛围上，整体高级、自然、真实、耐看。Soran 以自然方式极弱融入衣领纱边纹理、发丝走向或布料暗纹中，保持隐性、不突兀、不可做外贴水印。无文字，无字幕，无明显 logo，无外置水印。 负面词： 动漫感，插画感，二次元感，塑料皮肤，过度磨皮，过度锐化，HDR 过强，过饱和，荧光色，赛博朋克霓虹，夸张妆容，廉价网红感，面部僵硬，眼神呆滞，直视镜头，表情夸张，五官错位，脸部比例异常，过分幼态，脖子过长，肩膀畸形，手部变形，多余手指，多余肢体，服装结构错误，布料僵硬，背景杂乱，建筑细节抢戏，强烈噪点，脏污颗粒，曝光过度，死黑阴影，假散景，低清晰度，手机截图感，过强美颜痕迹，文字，字幕，贴纸式 logo，外置水印",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRpc5j5bEAAQkqt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRpc67_aQAA771S?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRpc8G8aYAMHVfQ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2097090785951076845",
+      "tags": [
+        "人像",
+        "写真",
+        "海报",
+        "插画",
+        "摄影"
+      ],
+      "timestamp": 1788871145971,
+      "title": "蓝调时刻的最后一束暖光",
+      "url": "https://x.com/Soranlan/status/2097090785951076845",
+      "collectedAt": "2026-09-08T12:39:06.892Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-08T12:41:01.152Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "人像",
