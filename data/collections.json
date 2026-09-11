@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T10:43:11.041Z",
+  "updatedAt": "2026-09-11T10:43:25.499Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "时尚",
+      "date": "2026-09-11",
+      "domain": "x.com",
+      "id": "ext_mtwtthr3_fjuk",
+      "image": "https://pbs.twimg.com/media/HR3AOZtaYAA4V0f?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR3AOZtaYAA4V0f?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR3A7IgaQAAWC2C?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR3A8q5aMAAOsNc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3:4 竖幅，真人写实清透时尚人像，成年东亚女性近景胸像，低机位轻仰拍，人物位于画面中央偏左，头部明显上抬，脸转向左上方，视线看向画外上方，不看镜头，呈现自然出神感。黑色或深棕黑长卷发发量充足，被风吹起，发丝向上方和左侧散开，部分细发轻轻掠过脸颊和额前，形成明显动态。人物穿白色或暖白色轻薄上衣，肩部和胸前形成大面积干净亮块，衣料柔软，有自然褶皱与轻微透气感。耳部佩戴小型复古金属边框配珍珠感耳饰，作为局部精致点缀。 背景为大面积纯净高饱和蓝色天空感色场，低频、干净、通透，几乎没有复杂场景信息，只允许极少量很轻的云感或远处淡化痕迹，整体仍以纯蓝色场为主。画面核心是低机位仰拍关系、人物抬头向上看的动作关系、被风吹起的深色长发、白色服装亮面、蓝色纯净背景之间的强分离。人物皮肤保持自然暖中性，脸颊、鼻梁、额头和下巴受光清楚，局部有轻微不均匀高光和自然光学柔化，唇色为低饱和暖橘红，眼妆克制，保留真实皮肤纹理、轻微不对称、自然面部起伏和发丝遮挡，避免磨皮塑料感。整体像真实摄影师在晴朗蓝天下抓到的一张现场感人像，清透、克制、真实、漂亮，有风感，有开放感，不做商业棚拍式过度精修。 色彩关系控制为：约 38% 高饱和皇家蓝背景，23% 深棕黑头发暗部，17% 暖白衣物与皮肤高光，10% 自然浅暖肤色，6% 暖橘红唇色，6% 耳饰与头发亮部暖棕灰过渡。蓝色只控制背景和少量环境反射，不污染整张脸，肤色始终保持自然暖中性基础。 Soran 三层自然水印 第一层可读水印：精确文字 “Soran” 清晰可读一次，以低对比浅银灰或浅蓝细线自然织入右下白色肩部或领口缝边，像真实高级服装品牌刺绣或织标，肉眼可辨，跟随布料褶皱、肩部曲面、透视和受光自然变化。 第二层隐藏水印：隐藏 “Soran” 融入耳饰金属边缘刻纹、珍珠边缘细纹和局部发丝高光排列。 第三层微观水印：微型 “Soran” 由衣物纤维、缝线针脚、耳饰细部纹理和发丝交叉结构自然形成。 所有 Soran 都必须内嵌在真实服装与材质逻辑里，明显、自然、有品味，不出现悬浮字样。 负向词 直视镜头，平视机位，头部不抬起，头发不动，僵硬摆拍，商业影楼感，复杂背景，建筑杂物，蓝色污染整张脸，塑料皮肤，瓷白磨皮，完美对称五官，AI 美女脸，动漫脸，玻璃珠眼睛，过度眼神高光，夸张睫毛，HDR，过度锐化，8K 假细节，电影海报式布光，统一蓝色滤镜，纯棚拍感，额外人物，额外文字，额外品牌名，external watermark, sticker-like logo, detached letters, captions, subtitles, floating text, oversized branding, flat pasted logo",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR3AOZtaYAA4V0f?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR3A7IgaQAAWC2C?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR3A8q5aMAAOsNc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2098045164870946973",
+      "tags": [
+        "8k",
+        "瓷白",
+        "人像",
+        "海报",
+        "摄影"
+      ],
+      "timestamp": 1789123300383,
+      "title": "蓝得近乎失真的天空",
+      "url": "https://x.com/Soranlan/status/2098045164870946973",
+      "collectedAt": "2026-09-11T10:41:41.885Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-11T10:43:25.499Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:2",
       "category": "人像",
