@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T10:42:28.268Z",
+  "updatedAt": "2026-09-11T10:43:11.041Z",
   "collections": [
+    {
+      "aspectRatio": "3:2",
+      "category": "人像",
+      "date": "2026-09-11",
+      "domain": "x.com",
+      "id": "ext_mtwtt8vi_zld7",
+      "image": "https://pbs.twimg.com/media/HR5m2gsbgAADMAc?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HR5m2gsbgAADMAc?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR5m2gmbsAAxDY2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR5m2graoAAgry_?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR5m2graYAAbuEO?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Knee-up cowboy shot, eye-level view. A 20s seductive stunning Japanese or Korean woman with small sculptural hoop earring detail, subtle polished metal accent and thin leather O-ring choker, narrow leather strap with a small metal O-ring, subtle edgy neck accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young cool editorial beauty face, refined sharp facial balance, calm distant gaze-ready features, straight medium-to-long hair with clean vertical lengths, softly tapered ends, compact natural silhouette, sleek wet finish, defined damp sections, neat separated strands, controlled close-to-head shape, natural black hair, soft matte skin texture, refined pores, velvety smooth finish, gentle demure expression, relaxed brows, softly open eyelids, softly closed lips, relaxed cheeks. She wears underbust-cropped fitted outerwear, ending just below the bust, black punk leather jacket, moto-inspired leather outerwear, sharp lapels, zipper hardware, structured edgy silhouette, worn open at the front, layered over, black lace bra top, delicate shoulder straps, floral lace, scalloped trim, refined lingerie detailing, ultra-low-rise waistband sitting very low on the hips, royal blue punk tartan pleated skirt, plaid pattern, black belt with silver buckle hardware, safety pin and chain details, red fishnet tights, open net hosiery texture, decorative studded leather waist belt worn loosely around hips with metal studs and compact off-center buckle. She has her head naturally facing the camera, a close handheld companion snapshot from a boyfriend-or-best-friend point of view, with her leaning naturally toward the nearby camera and keeping her hands relaxed in candid body language, and presents a casual, relaxed, and natural sitting pose. The scene is old London cafe corner, dark wood table, fogged window glass. Indoor warm night ambience, warm amber room brightness, soft frontal key light on the subject, even facial illumination. Kishin Shinoyama-inspired polished Japanese portrait image language. Shot on 20mm ultra-wide-angle lens, very wide field of view, strong perspective expansion, f/2.8-style shallow depth of field, clear subject plane, 1/1000s fast-shutter look, frozen movement, peripheral edge blur, center sharpness with soft frame edges, field curvature softness. Vintage sharp rendering, rich micro-contrast, subtle warm highlights, clean 35mm color density, precise edge definition.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR5m2gsbgAADMAc?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR5m2gmbsAAxDY2?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR5m2graoAAgry_?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR5m2graYAAbuEO?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2098227619502419998",
+      "tags": [
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1789123288878,
+      "title": "酒店房间眼镜人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2098227619502419998",
+      "collectedAt": "2026-09-11T10:41:29.965Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-11T10:43:11.041Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
