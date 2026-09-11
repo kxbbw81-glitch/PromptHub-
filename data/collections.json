@@ -1,7 +1,114 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T14:23:19.768Z",
+  "updatedAt": "2026-09-11T07:53:13.723Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-11",
+      "domain": "x.com",
+      "id": "ext_mtwnqob4_1vln",
+      "image": "https://pbs.twimg.com/media/HR3XOTtakAAvcoN?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR3XOTtakAAvcoN?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Frame her from approximately the waist or lower torso upward, centered slightly below the vertical midpoint, leaving a large area of minimalist architectural background above her. Behind her are smooth pale gray wall panels with thin seams, reflective metallic elevator surfaces, and softly blurred structural details. Use warm indoor overhead lighting with gentle highlights on her skin and hair, realistic smartphone-camera depth of field, subtle background motion blur or softness, a natural 35–50mm equivalent perspective, restrained contrast, warm neutral cinematic color grading, fine skin texture, realistic fabric detail, and no excessive retouching. Aspect ratio 9:16 She wears exactly a fitted black ribbed long-sleeve top with an extremely deep plunging scoop neckline. The neckline is edged with delicate black lace and exposes substantial cleavage. A narrow horizontal black strap crosses the upper chest near the collarbone, while small decorative gold-toned chain details sit near the upper sides of the neckline. The sleeves are long and fitted, extending over part of her hands. A black face mask is pulled down beneath her chin rather than covering her mouth or nose. No additional outer garment should be added Her hair is long, straight, glossy black to very dark brown, parted near the center and falling smoothly over both shoulders. The strands have natural shine and soft volume, framing her face without elaborate styling. She raises both hands beside her face, elbows bent, making symmetrical V-shaped peace signs with her index and middle fingers. Her fingers are slightly angled toward the camera, with long manicured nails in a warm coral-pink tone. A small yellow ring is visible on one hand A photorealistic cinematic vertical portrait of a young woman in her early twenties, around 20 years old, standing indoors in front of a large mirror in a modern elevator lobby or sleek contemporary interior. Her ethnicity is left unspecified because race or ethnicity cannot be reliably determined from appearance alone. She has smooth light skin with a softly luminous complexion, a petite oval face, gently tapered jawline, subtle rounded cheeks, a small straight nose, naturally shaped dark eyebrows, and dark brown almond-shaped eyes lowered toward the floor rather than looking directly at the camera. Her makeup is polished and feminine, with soft peach-pink eyeshadow, delicate eyeliner, defined lashes, subtle rosy blush, and muted coral-red lipstick. Her expression is shy, relaxed, and playful, with a faint closed-mouth smile.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR3XOTtakAAvcoN?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Kunda623270/status/2098069667646513488",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1789113091217,
+      "title": "红唇女性人像",
+      "url": "https://x.com/Kunda623270/status/2098069667646513488",
+      "collectedAt": "2026-09-11T07:51:31.730Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-11T07:53:13.723Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-11",
+      "domain": "x.com",
+      "id": "ext_mtwnqbz7_hqnk",
+      "image": "https://pbs.twimg.com/media/HR5yEV5a4AAeKi9?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR5yEV5a4AAeKi9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR5yFVQa0AEgJQ6?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Ultra-realistic expensive lifestyle shot. A girl is in the frame. Her hair is very long, straight to the waist, evenly parted, with several strands falling on her face. Smooth skin tone. 100% facial similarity. She is wearing an oversized grey turtleneck sweater with long sleeves, a black denim skirt with raw/frayed edges, and a black belt from a recognizable brand. Part of the sweater is tucked into the skirt. She wears black nylon tights and tight-fitting high black boots. Her nails are short and milky. She has small round gold earrings. She holds a black Dior bag in her hand and wears a long, voluminous grey coat. The image looks stylish and harmonious. She stands on a city street with wet paving stones, building facades, fallen leaves, and puddles. A tree is visible next to her, with yellow-leafed branches hanging over her. She looks to the side with a soft closed smile. Shot on iPhone 17 Pro Max. The background is not blurred. Clouds are visible. High skin detail. Soft, dimmed lighting. Live photo, no retouching on the face. Raw look.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR5yEV5a4AAeKi9?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR5yFVQa0AEgJQ6?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/mehvishs25/status/2098239922549449108",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789113075235,
+      "title": "城市街头女性人像",
+      "url": "https://x.com/mehvishs25/status/2098239922549449108",
+      "collectedAt": "2026-09-11T07:51:15.887Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-11T07:53:13.723Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-11",
+      "domain": "x.com",
+      "id": "ext_mtwnq22c_o89t",
+      "image": "https://pbs.twimg.com/media/HR42t61bgAAIKDK?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HR42t61bgAAIKDK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR42vDoaEAAZgcR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR42wW0bQAAynTp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "9:16 竖幅，真人写实实验时尚人像，成年东亚女性，户外蓝天、绿地与道路环境，极近距离超广角低机位拍摄。人物双手主动伸向镜头，前景双手距离镜头极近，被透视明显放大，尺寸显著大于后方人脸。人物脸位于双手之后的第二空间层，形成强烈的“巨大前景手 + 后撤人脸 + 远处环境”三级空间关系。 靠近镜头的一只手掌展开，食指与中指向上伸直，拇指横向打开，其余手指自然屈曲，另一只手从画面下方斜向伸入，与前一只手形成交叉和开放式几何框架。双手共同构成一个不规则取景框，局部遮挡人物脸部与身体，但不能完全挡住眼睛、鼻梁和嘴唇。必须保持真实手部骨骼逻辑、掌面朝向、指节弯曲、手腕受力和前后遮挡关系，所有手指数量正确，不能粘连。 人物头部微微侧转并轻抬，下颌线在低机位中自然突出，视线接近镜头方向，但略微越过手指看向镜头附近，避免僵硬死盯。上眼睑自然，眉间放松，嘴唇轻微分开，神情冷静、克制、轻微疏离。黑色或深棕黑头发向后梳理，面部轮廓干净，发型权重低于双手和脸。 人物穿珍珠白、银白或香槟白贴身缎面吊带礼服，面料带真实丝绸或涂层缎面反射，胸腰区域出现柔和块状高光。手部佩戴多枚香槟金、玫瑰金、珍珠和浅色宝石戒指，搭配细手链、珍珠手串、项链和耳饰。珠宝必须具有真实金属曲面、镶爪、珍珠反光和接触阴影，避免廉价塑料饰品感。 背景保持真实户外环境，大面积浅灰蓝天空占据上方与后方，深绿色树林和草地分布在两侧，深灰道路从下方延伸。地平线允许轻微倾斜，增强随手抓拍和实验时尚摄影感。背景保持低频和较低权重，不加入复杂建筑、广告牌、车辆或其他人物。 光线使用强烈正面硬光或近距离直闪感，人物脸、前景双手、手臂、珠宝和银白缎面服装被明显照亮，皮肤高光清楚，掌纹和关节仍然可见。背景保持自然日间环境光，树林更暗，天空更冷。肤色维持自然暖粉中性，仅接受少量蓝天环境反射，不能整脸发蓝。强硬光要形成真实曝光差和轻微高光溢出，不能变成均匀影楼柔光。 色彩比例控制：约 28% 浅灰蓝天空，21% 暖粉肤色高光，16% 银白与珍珠白服装，14% 深绿黑树林暗部，12% 中度自然绿色草地，9% 香槟金和玫瑰金首饰。蓝色主要控制天空，绿色主要控制环境，金色集中在珠宝，不能扩散成统一滤镜。 整体为现代真人时尚摄影，超广角近距离透视明显，手部巨大但仍保持真实结构，脸部尺寸相对较小，前后空间冲击强。画面要有实验感、现场感和非标准构图感，避免传统人像构图、标准自拍手势、普通比心和普通 V 手势。 Soran 三层自然水印 第一层可读水印：精确文字 “Soran” 清晰镌刻在最靠近镜头的一枚香槟金宽戒指外圈，或靠近镜头的小型金属手链铭牌上，像真实高级珠宝品牌刻字，肉眼明确可读，跟随戒指曲面、手指弯曲、超广角透视和金属高光自然变化。 第二层隐藏水印：隐藏 “Soran” 融入珍珠手链排列、项链链节结构和银白缎面服装的高光褶皱中。 第三层微观水印：微型 “Soran” 由戒指镶爪、金属微划痕、珍珠点列、指甲高光边缘和缎面织纹共同形成。 所有 Soran 都必须像真实珠宝品牌和材质细节的一部分，明显、自然、有品味，不形成外贴文字。 负向词 普通自拍，标准 V 手势，比心，双手远离镜头，手和脸大小接近，长焦透视，平视普通人像，僵硬直视镜头，标准模特摆拍，错误手指，多余手指，缺失手指，手指粘连，关节畸形，手掌方向错误，手腕扭曲，悬浮手，双手没有前后关系，脸部被完全遮挡，塑料皮肤，瓷白磨皮，AI 美女脸，动漫脸，完美对称五官，廉价珠宝，塑料金属，缎面像塑料，影楼背景，复杂建筑背景，额外人物，HDR，过度锐化，8K 假细节，全图蓝色滤镜，全图绿色滤镜，全图暖金滤镜，额外可读文字，额外品牌名，external watermark, sticker-like logo, detached letters, captions, subtitles, floating text, oversized branding, flat pasted logo",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR42t61bgAAIKDK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR42vDoaEAAZgcR?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HR42wW0bQAAynTp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HOHXLTDWsAANOIW?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXUHsWkAADIWN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXWThXgAAQiWr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOHXbanWoAAJ8Xp?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Soranlan/status/2098174693987725811",
+      "tags": [
+        "8k",
+        "瓷白",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1789113062389,
+      "title": "没有复杂场景",
+      "url": "https://x.com/Soranlan/status/2098174693987725811",
+      "collectedAt": "2026-09-11T07:51:03.543Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-11T07:53:13.723Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "抽象",
