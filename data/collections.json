@@ -1,7 +1,366 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T10:47:14.864Z",
+  "updatedAt": "2026-09-11T12:05:43.438Z",
   "collections": [
+    {
+      "id": "grok_x_2096829477661671790",
+      "title": "照片转编辑海报",
+      "category": "时尚",
+      "tags": [
+        "editorial",
+        "poster",
+        "illustration",
+        "photo-to-illustration",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create one independent high-end editorial poster for each uploaded photo. Do not combine multiple photos into a collage. Each photo must be processed and output as a separate poster.\n\nOVERALL FORMAT\n\nStrict 3:4 vertical composition.\n\nDivide the canvas horizontally into two exactly equal sections, with a precise 1:1 height ratio.\n\nThe top half occupies exactly 50% of the canvas.\n\nThe bottom half occupies exactly 50% of the canvas.\n\nThe two sections should feel visually connected as one refined art publication cover.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\n\nPreserve the original photograph as faithfully as possible.\n\nKeep the main composition, subjects, identity, facial features, body proportions, poses, expressions, clothing, objects, and spatial relationships unchanged.\n\nPreserve the realistic photographic texture, natural lighting, shadows, atmosphere, and original color mood.\n\nApply only subtle, sophisticated editorial color grading, creating the feeling of a premium magazine photograph, contemporary art book, or high-end independent publication.\n\nThe image should remain photorealistic and authentic, never overly retouched or artificially stylized.\n\nIf necessary to fit the 3:4 composition naturally, extend the sky, ground, walls, or surrounding environmental background.\n\nBackground extension must feel seamless and photographic.\n\nNever stretch, distort, reshape, replace, or alter the main subject.\n\nBOTTOM HALF — MINIMAL HAND-DRAWN PAPER ILLUSTRATION\n\nExtract the most recognizable visual elements from the original photograph and reinterpret them as a minimalist hand-drawn paper-cover illustration.\n\nPreserve:\n\nThe most recognizable subject\n\nEssential silhouette and proportions\n\nKey pose or gesture\n\nImportant objects\n\nThe core narrative relationship between people and objects\n\nHighly simplify the image. Remove unnecessary details and retain only the visual information needed for immediate recognition.\n\nUse:\n\nDelicate, slightly imperfect hand-drawn lines\n\nA small number of bold, clearly defined acrylic-style flat color shapes\n\nRough paper texture\n\nVisible handmade brush marks\n\nSlightly irregular, organic edges\n\nSubtle imperfections that make it feel genuinely handmade\n\nThe main illustrated subject should be small, centered, and carefully composed, occupying approximately 10–20% of the bottom half.\n\nLeave a large amount of negative space around the illustration.\n\nThe background should primarily resemble:\n\nRough white paper\n\nWarm off-white paper\n\nPale natural paper\n\nMinimal editorial book-cover stock\n\nUse only a few lines or small color shapes to suggest the surrounding environment.\n\nCOLOR PALETTE\n\nExtract the dominant colors directly from the original photograph.\n\nCompress the palette into no more than 4 main colors.\n\nKeep the colors restrained, sophisticated, and harmonious.\n\nUse bold but controlled flat color blocks.\n\nAvoid excessive color variation.\n\nPreserve subtle paper grain and handmade brush texture.\n\nThe illustration should visually feel like a simplified color interpretation of the photograph.\n\nTYPOGRAPHY\n\nA small amount of simple typography may be included when appropriate.\n\nPossible elements:\n\nA short title\n\nKeyword\n\nObject name\n\nLocation\n\nYear\n\nNumber\n\nShort phrase\n\nText should be minimal, understated, and editorial.\n\nTypography should naturally interact with the large areas of negative space and the small illustration, evoking:\n\nArt book covers\n\nIndependent publishing\n\nContemporary editorial design\n\nThoughtful children's picture books\n\nDo not force text into the composition if it does not naturally fit the photograph.\n\nVISUAL LANGUAGE\n\nThe final poster should feel:\n\nQuiet · Poetic · Refined · Minimal · Innocent · Relaxed · Artistic · Thoughtful · High-recognition · Premium",
+      "image": "https://pbs.twimg.com/media/HRlvS8pbsAAhPb-.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HRlvS8pbsAAhPb-.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRlvS8pbsAAhPb-.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/icreatelife/status/2096829477661671790",
+      "url": "https://x.com/icreatelife/status/2096829477661671790",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098357739814560247",
+      "title": "2026毕业棚拍肖像",
+      "category": "人像",
+      "tags": [
+        "graduation",
+        "studio",
+        "cinematic",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a photorealistic cinematic graduation portrait of a confident adult man celebrating his graduation in 2026. Show him seated casually on large freestanding “2026” marquee numbers filled with warm glowing bulbs.\n\nHe wears an elegant light-gray three-piece suit with a matching waistcoat, crisp white dress shirt, sophisticated purple patterned tie, polished black leather dress shoes, and a graduation stole featuring bold red, white, and black stripes. Add a traditional black graduation mortarboard with tassel.\n\nPose him facing the camera with a big, genuine, joyful smile. His posture should feel relaxed yet proud, with his legs naturally apart. One hand rests casually near his lap while the other arm is raised high, holding a rolled graduation certificate tied with a red ribbon, creating a strong celebratory gesture.\n\nSurround him with falling metallic gold confetti, frozen naturally in mid-air at different depths. Use a dark charcoal-to-black studio background with subtle atmospheric haze. Place a dramatic overhead spotlight directly above him, creating a soft cone of light that highlights his face, suit, graduation cap, and diploma while leaving the edges of the scene slightly darker.\n\nThe giant illuminated 2026 numbers should sit behind and beneath him, producing warm golden light that contrasts beautifully with the cool gray suit and dark background.\n\nStyle: luxury graduation editorial photography, premium studio portrait, cinematic lighting, realistic skin texture, natural proportions, crisp tailoring, accurate hands, realistic fabric detail, shallow depth of field, subtle floor reflections, professional color grading, celebratory atmosphere, ultra-detailed, photorealistic, vertical 9:16 composition, high resolution.",
+      "image": "https://pbs.twimg.com/media/HR7dPHtWIAYDZdN.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7dPHtWIAYDZdN.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7dPHtWIAYDZdN.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_uiux/status/2098357739814560247",
+      "url": "https://x.com/abs_uiux/status/2098357739814560247",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098339817385800051",
+      "title": "夕阳长发街拍人像",
+      "category": "人像",
+      "tags": [
+        "lifestyle",
+        "sunset",
+        "street-fashion",
+        "photorealistic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic outdoor lifestyle portrait of a young woman standing beside a quiet park road at sunset. She has very long, silky, naturally wavy light-brown hair cascading down past her waist, with soft curtain bangs and delicate strands framing her face. She has a youthful appearance, fair natural skin, soft facial features, expressive dark eyes, subtle rosy makeup, and a gentle relaxed expression while looking directly at the camera.\nShe is wearing an oversized white sweatshirt with a large vintage-style red floral graphic on the front, paired with a long flowing black pleated skirt. She playfully holds sections of her long hair out to both sides with both hands, creating a carefree and cute pose.\nShe stands beside a metal roadside barrier with a chain attached, with a paved road extending into the background. A lush park filled with mature green trees surrounds the scene, with a few bare branches and distant streetlights beginning to glow. The sky has a beautiful pastel sunset gradient of soft pink, peach, lavender, and pale blue.\nCandid Korean-inspired street fashion photography, dreamy sunset atmosphere, soft natural ambient light, subtle warm highlights on her hair, realistic skin texture, detailed individual hair strands, natural fabric texture, gentle depth of field, slightly grainy smartphone-camera aesthetic, balanced composition, photorealistic, high resolution, authentic colors, vertical 4:5 composition.\nNegative prompt: cartoon, anime, CGI, plastic skin, excessive makeup, distorted face, asymmetrical eyes, malformed hands, extra fingers, extra limbs, unrealistic hair, tangled artificial hair, warped body proportions, blurry subject, oversaturated colors, harsh lighting, fake background, text, watermark.",
+      "image": "https://pbs.twimg.com/media/HR7M79TbEAAm_0c.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7M79TbEAAm_0c.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7M79TbEAAm_0c.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Aqsahere_/status/2098339817385800051",
+      "url": "https://x.com/Aqsahere_/status/2098339817385800051",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098282894368084350",
+      "title": "火焰运动男士海报",
+      "category": "时尚",
+      "tags": [
+        "campaign",
+        "collage",
+        "action",
+        "fashion",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-impact cinematic action poster featuring the same handsome young adult man repeated in multiple dynamic poses. The composition should have one large central portrait and four smaller surrounding versions of the same man arranged in a bold collage layout.\n\nThe central figure is the main focus: he is crouching low in the foreground, facing the camera with a calm, confident, intense expression. He wears a black oversized hoodie, black jogger pants, and white sneakers. One knee is raised, one arm rests casually across it, and his pose feels powerful, grounded, and stylish.\n\nAround him, place four additional versions of the same man in different expressive action/fashion poses:\n\none on the upper left leaning outward in motion,\n\none on the upper right with one hand placed on his head,\n\none on the lower left in a low athletic pose with one hand touching the ground,\n\none on the lower right in a crouched side pose.\n\nAll versions should wear the same black hoodie outfit for visual consistency.\n\nUse a dramatic fiery red and orange background filled with flames, smoke, glowing heat, and intense energy. Behind the figures, include a large white circular geometric ring or abstract round graphic element that frames the collage and adds structure. Add subtle urban textures and monochrome abstract fragments inside parts of the circle for a modern editorial look.\n\nStyle should feel like a premium sports-fashion poster, with:\n\nphotorealistic details\n\nsharp facial features\n\nstrong dramatic lighting\n\nhigh contrast\n\nbold red/orange glow\n\nclean compositing\n\ndynamic depth and layering\n\nluxury action-campaign aesthetic\n\nMake it visually striking, energetic, and poster-worthy, with the central figure dominant and the surrounding poses supporting the composition. Vertical 2:3 ratio, ultra-detailed, cinematic, high resolution.",
+      "image": "https://pbs.twimg.com/media/HR5bEGLaoAAg3hw.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR5bEGLaoAAg3hw.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR5bEGLaoAAg3hw.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_uiux/status/2098282894368084350",
+      "url": "https://x.com/abs_uiux/status/2098282894368084350",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098377484303548642",
+      "title": "极简城市旅行海报",
+      "category": "建筑",
+      "tags": [
+        "travel",
+        "poster",
+        "minimalist",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a minimalist cultural travel poster for [CITY, COUNTRY] where [ICONIC LANDMARK] is transformed into a bold graphic symbol rather than a realistic illustration. Construct the landmark from a few elegant geometric shapes and architectural lines. Place it over a simplified abstract representation of the city—river curve, skyline, hills, streets or coastline. Use a warm ivory background with one dominant heritage color and deep black typography. Add oversized “[CITY]”, small “[COUNTRY]”, coordinates and a tiny archival catalog number. Swiss editorial design meets vintage European travel poster, sophisticated negative space, precise composition, subtle paper texture, premium museum graphic, vertical 4:5.",
+      "image": "https://pbs.twimg.com/media/HR7vMYWa8AAqRC_.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7vMYWa8AAqRC_.jpg",
+        "https://pbs.twimg.com/media/HR7vMYXaQAAoiyj.jpg",
+        "https://pbs.twimg.com/media/HR7vMYYawAAtlq7.jpg",
+        "https://pbs.twimg.com/media/HR7vMYbbcAA2yA4.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7vMYWa8AAqRC_.jpg",
+        "https://pbs.twimg.com/media/HR7vMYXaQAAoiyj.jpg",
+        "https://pbs.twimg.com/media/HR7vMYYawAAtlq7.jpg",
+        "https://pbs.twimg.com/media/HR7vMYbbcAA2yA4.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2098377484303548642",
+      "url": "https://x.com/Naiknelofar788/status/2098377484303548642",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098367415768019289",
+      "title": "海军蓝手绘贴纸",
+      "category": "角色",
+      "tags": [
+        "sticker",
+        "illustration",
+        "die-cut",
+        "navy",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Transform the attached image into a minimal navy-and-white hand-drawn die-cut sticker illustration.\n\nTreat the uploaded image as the sole source of content. First identify the primary subject or subjects. Support a single person, a single pet, two people, two pets, or one person with one pet. Preserve the exact number and type of primary subjects. Preserve their left-to-right order, relative scale, interaction, pose, gesture, head angle, gaze direction, expression category, clothing categories, worn accessories, and any object that is essential to the action or story. Preserve the source crop and viewpoint; if the source is a close-up, keep it a close-up. Never invent off-frame bodies, limbs, clothing, or scenery.\n\nCreate a recognizable but deliberately simplified character interpretation, not a traced portrait. Preserve identity through a small set of distinctive cues: face shape, hairstyle and silhouette, key accessories, characteristic expression, posture, and relationship between subjects. Do not reproduce pores, wrinkles, individual eyelashes, realistic eye anatomy, or photographic skin detail. For adults, use mild cartoon simplification only: slightly enlarged heads, moderately shortened torsos, and simplified limbs while clearly remaining adult. Avoid baby proportions, swollen cheeks, toddler bodies, oversized heads, or extreme chibi anatomy.\n\nUse clean, friendly editorial doodle art with rounded, moderately thick, nearly uniform strokes and only slight hand-drawn variation. Outer contours may be slightly stronger than interior lines. Faces must be extremely economical: dot or short curved eyes, short brows, a one-stroke nose, and a simple mouth that retains the original expression. Render all outlines and dark fills in one deep navy blue, approximately #173B7A; never use pure black. Use white as the default fill. Convert clearly dark source areas such as dark hair or dark clothing into solid navy shapes, using only minimal white highlight cutouts when needed for readability. Keep human skin white and unshaded.\n\nThe default palette is strictly deep navy, white, and a very pale neutral-gray shadow. Do not introduce a third color unless the source contains at least two separate, clearly purple or lavender accessories or travel props that are narratively important; only then may those corresponding items use one flat muted lavender accent. Otherwise use no lavender and no additional color.\n\nRemove the entire original environment. Remove architecture, landscape, ordinary furniture, floor texture, incidental objects, unrelated people, signage, interface marks, logos, captions, and watermarks. Place the simplified subject group alone on a clean, opaque white square canvas with generous margins. Wrap the complete group in one continuous wide white die-cut sticker border. Add a very subtle soft pale-gray shadow offset slightly down and right so the white border remains visible against the white canvas. No transparency.\n\nKeep the original grouping and emotional relationship. Compress only empty space; do not change the narrative. Use a balanced centered composition, but keep asymmetry when it comes from the source. Include only the body parts visible in the source and retain the source framing. The finished image should feel like one cohesive sticker, not multiple separate stickers.\n\nAvoid photorealism, line-art tracing, realistic portrait rendering, detailed anatomy, pencil or charcoal texture, watercolor, oil paint, anime or manga rendering, extreme chibi style, 3D rendering, gradients, glow, paper texture, grain, halftone, collage, complex lighting, detailed backgrounds, added props, altered subject count, duplicated limbs, malformed hands, text, captions, logos, signatures, and watermarks.\n\nReturn exactly one finished square sticker illustration.",
+      "image": "https://pbs.twimg.com/media/HR7l4DiaAAAFTkX.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7l4DiaAAAFTkX.jpg",
+        "https://pbs.twimg.com/media/HR7l4LRaAAAtNgJ.jpg",
+        "https://pbs.twimg.com/media/HR7l5XobgAAMrEA.jpg",
+        "https://pbs.twimg.com/media/HR7l5hgasAAssot.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7l4DiaAAAFTkX.jpg",
+        "https://pbs.twimg.com/media/HR7l4LRaAAAtNgJ.jpg",
+        "https://pbs.twimg.com/media/HR7l5XobgAAMrEA.jpg",
+        "https://pbs.twimg.com/media/HR7l5hgasAAssot.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ai_suxiaole/status/2098367415768019289",
+      "url": "https://x.com/ai_suxiaole/status/2098367415768019289",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098357216025686150",
+      "title": "古风灶间暖光人像",
+      "category": "人像",
+      "tags": [
+        "photorealistic",
+        "hanfu",
+        "kitchen",
+        "negative-prompt",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "场景：宅院灶间，铁锅蒸汽袅袅，柴火映红灶台，竹帘半卷，暖橙火光从下方与侧方交错。\n主体：一位绝美23岁东亚美女，身材匀称丰满，胸部明显自然丰满，视觉约E杯，具有自然重量感与柔和圆润轮廓，胸腰差明显但自然，纤细腰部与丰满胸部形成清晰比例；乌发挽成利落单髻，一根木簪斜插，额间薄汗，眉眼亮，似嗔似笑看向镜头。\n细节：橘红低领短襦外罩极轻薄烟色纱衣，低领被热气微掀，锁骨与上胸曲线自然显露，薄纱贴着汗湿的腰线；一手掀竹帘，一手执木铲停在锅沿。七分身构图，正面微侧。超写实人像摄影，皮肤质感细腻自然，浅景深，灶火暖调写真，高清8K。\n约束：保留灶间劳作与轻薄低领古装；不要现代厨电、煤气罐、文字水印、卡通动漫。\n负面提示词：\n低质量，模糊，变形，多余手指，肢体畸形，塑料感皮肤，过曝，卡通，动漫，文字，水印，夸张美颜，过度性感姿态，现代服饰，塑料假发感。",
+      "image": "https://pbs.twimg.com/media/HR7cwpeWwAcshc8.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7cwpeWwAcshc8.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7cwpeWwAcshc8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "DeepSeek V4.1 Flash",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2098357216025686150",
+      "url": "https://x.com/sdjn_wgc/status/2098357216025686150",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098293688988475585",
+      "title": "涂鸦工作室角色",
+      "category": "角色",
+      "tags": [
+        "graffiti",
+        "fluoro",
+        "character",
+        "studio",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "FLUORO PASS\n\nUse the attached image as the only identity source. Copy that adult’s face, body, hair, skin, eye colour, silhouette, and any species traits or signature accessories exactly. Do not copy a reference-sheet layout. New pose, new clothes, new room. Do not invent a second person. Do not restyle them into a different character.\n\nUnmistakably adult.\n\nExactly two arms. Exactly two hands. Five fingers on each hand. No extra limbs, no mirrored duplicate body, no third arm.\n\nGraffiti-style art studio in a warehouse. Open roller door, paint-stained concrete, tagged cinderblock, a stepladder, crates of spray cans, fat caps, mop buckets, paint pens, rags, a respirator on a stool. Canvases and boards lean on the wall as letter-forms, arrows, and abstract fills only — no other figures. A tall cheap mirror at the far edge of frame: tagged glass only, no reflected torso, no reflected arms. This adult STANDS on the stained floor, in the act of painting clothes onto their own body. Weight on both feet, stance narrow and simple, knees easy, legs uncrossed and anatomically clear, both feet visible on the floor.\n\nHands, locked: the near hand holds only a paper plate of wet fluoro paint. The far hand holds only one foam brush, mid-stroke on their own unfinished thigh. Spray cans stay on the crate — not in the hands. No second brush. No can in a hand.\n\nWhat is on them is only paint, and it is not finished.\n\nDense graffiti body paint already covers the chest zone and the pelvic zone as opaque ornamental garment-shapes: fat-cap fills, bubble throw-up forms, sting outlines, drips, and blocky fluoro panels. Those two zones are fully filled, modest, and unreadable as nude — no nipples, no genital area, no explicit exposure. One thigh is filled with the same fluoro garment language, bristle ridges, spray grain, and enamel drips visible in the thick film. The other thigh is only a chrome-yellow contour and a thin uneven wash — that is the thigh under the single brush, being filled now. Shoulders show a marker ghost-outline of a garment edge, with only a few pink and orange blocks placed. Fat drips run from the wet wash onto the concrete. Every edge is a paint-film lip, a halo-line, or a drip — not textile. No real fabric clothing.\n\nBody as form: upright working stance, slight twist so the brush-hand stays in front of the torso on a short, readable path to the thigh. Both arms fully visible as two distinct limbs, uncrossed, not overlapping into a tangle. Ribcage lifted. Volume from fat-cap curvature and thick enamel ridges, not from absent clothes. Fluoro fingerprints at the waist. A pink smear on the cheek. Expression: calm concentration — peaceful around the eyes, mouth soft, matching outline to fill.\n\nThe studio stays a working graffiti shop. Overspray mist in the air. Tags and throws on the walls do not resolve into faces or extra arms. Wet fluoro on the body may speckle the floor; it does not turn the warehouse into gold-leaf ornament.\n\nCamera: 3/4 front view, 50mm, standing mid-thigh crop. The figure fills the frame. Face, two arms only, plate, one brush on the unfinished thigh, dense fluoro fill on the chest, in focus. No wide empty warehouse. No crotch insert.\n\nLight: daylight from the open roller door plus cool shop-tube bounce. Light proves it is paint: tacky wet gloss vs dry matte fill, spray grain, foam-brush ridges, transparent wash vs opaque fill, drip highlights, mist in the sun.\n\nStyle / medium: high-end anime-inspired illustration with graffiti / street-art studio language. Dirty cel, scratchy ink, hard shadows. Anime face, anime body. Clothes are unfinished fluoro body-paint — garment architecture where a zone is filled, visible process (ghost outline, wash, fat-cap fill, drip, overspray) everywhere else. Not photoreal pores, not live-action skin, not real clothing, not a finished costume, not gold leaf, not Klimt, not a nude with splatters.\n\nTexture / palette: hot pink, acid yellow, blaze orange, electric cyan, white, plus the attached character’s signature colours in the fills. Wet enamel gloss, dry matte throw, spray grain, marker bleed, drips, stained concrete, can metal, tagged sticker-mirror, roller-door daylight. No gold leaf. No antique metallic. No invented extra identity colours.\n\nAspect: 3:4 vertical.",
+      "image": "https://pbs.twimg.com/media/HR6ehfJbAAAEHw9.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR6ehfJbAAAEHw9.jpg",
+        "https://pbs.twimg.com/media/HR6eoUSbIAAkEzK.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR6ehfJbAAAEHw9.jpg",
+        "https://pbs.twimg.com/media/HR6eoUSbIAAkEzK.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "Grok Imagine",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/EvaGlitchAI/status/2098293688988475585",
+      "url": "https://x.com/EvaGlitchAI/status/2098293688988475585",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098335431926665659",
+      "title": "麦田强光视频运镜",
+      "category": "视频提示词",
+      "tags": [
+        "video",
+        "cinematic",
+        "image-to-video",
+        "crop-circle",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Hold the exact composition, color, and brightness of the provided image. Same framing, same camera distance, same subject size, same placement of the girl, kittens, and wheat. Match the source image exposure and color grade exactly — do not darken the scene, do not lower overall brightness, do not crush the blacks, do not add a vignette, do not turn the surroundings into a black void. The field and edges must stay at least as bright and color-rich as the original still. Do not zoom in. Do not push in. Do not punch in. Do not reframe. Do not crop tighter. Camera locked, static, not moving for the first three seconds — locked off on the source frame.\nThe clip opens already in impact on that same locked frame: at frame one a hard night gust slams across the field from camera-left at the exact same instant a massive unseen light source far above the top of the frame detonates — not a tight spotlight, a wide overhead flood of pure white light that lifts the entire field without creating dark falloff. The center around the girl is brightest and slightly flared, but the flood has a long even falloff so the surrounding wheat, midground, far stalks, and frame edges stay fully visible and no darker than the source image. Preserve the original night color; add fill, never subtract light. A traveling wave of wheat knocks through the frame in under a second, loose chaff kicking only a few centimeters off the soil. The red dress snaps once at the hem and lower layers, then hangs under real cloth weight; hair lashes across her cheek; the kittens flatten their ears and brace, fur rippling in short delayed layers. She instinctively glances upward toward the unseen source. Identity, pose, outfit, framing, brightness, and color stay locked to the source image.\nThe air between the camera and the girl stays completely empty: no UFO, no disc, no craft, no ship, no hovering object in the foreground or midground.\nOnly after second 3, one allowed camera move: a continuous high-speed vertical crane-up combined with a zoom-out — never a zoom-in — rising straight up into the night sky to reveal the massive geometric crop circle carved through the wheat around them. The field below remains lit at source-image brightness or brighter for the whole move. Photoreal live-action cinema, IMAX night photography, shot on ARRI Alexa 65, natural cloth and plant physics, sharp high-resolution motion, no warping, no morphing, no low-res AI flutter, no unauthorized camera move, no darkening.\nSound: instantaneous wind slam through dry wheat on frame one, sharp fabric snap, kitten stir, a low thud as the overhead flood hits, then a hard sustained night wind that thins as the camera climbs.",
+      "image": "https://pbs.twimg.com/media/HR7HwJvaAAAyafB.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7HwJvaAAAyafB.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7HwJvaAAAyafB.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HR7HwJvaAAAyafB.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2098332624477708288/vid/avc1/1280x704/7CJFSBMQRzpGfSGn.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/masako_3d/status/2098335431926665659",
+      "url": "https://x.com/masako_3d/status/2098335431926665659",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2098354621056262238",
+      "title": "健身补剂产品视频",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "product",
+        "cinematic",
+        "fitness",
+        "video",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a realistic cinematic product video based on the reference image. A hand slowly opens the black lid of a red pre-workout supplement container placed beside a clear glass on a dark wooden table. The camera starts with a close-up of the container, then smoothly moves toward the glass. The hand carefully scoops a small amount of pre-workout powder and pours it into the glass, followed by water being added. Show realistic powder movement, subtle reflections on the glass, natural hand motion, dramatic studio lighting, dark premium background, shallow depth of field, smooth camera movement, realistic textures, high detail, 4K quality, vertical 9:16 format, professional fitness advertisement style. No extra text, no watermark, no distorted hands, keep the product label clear and unchanged.",
+      "image": "https://pbs.twimg.com/media/HR7aSNiboAAdPgX.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HR7aSNiboAAdPgX.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR7aSNiboAAdPgX.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HR7aSNiboAAdPgX.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2098354527540015104/vid/avc1/720x1280/1gibGuBI3PL92tqy.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SeeratFatima112/status/2098354621056262238",
+      "url": "https://x.com/SeeratFatima112/status/2098354621056262238",
+      "domain": "x.com",
+      "date": "2026-09-11",
+      "timestamp": 1789128343350,
+      "collectedAt": "2026-09-11T12:05:43.350Z",
+      "githubSyncedAt": "2026-09-11T12:05:43.350Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
