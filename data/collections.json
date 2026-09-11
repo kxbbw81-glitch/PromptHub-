@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T09:20:04.558Z",
+  "updatedAt": "2026-09-11T10:42:28.268Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-11",
+      "domain": "x.com",
+      "id": "ext_mtwtsc07_kevd",
+      "image": "https://pbs.twimg.com/media/HR6LimKaMAA87HM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR6LimKaMAA87HM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR6LjK1bwAAwYLU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR6LjuDaUAAPRoV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Create a highly realistic cinematic 1980s Bollywood-inspired retro fashion portrait using the uploaded reference as the strict composition and styling guide. One attractive adult model with androgynous styling, natural South Asian features, realistic skin and slightly messy voluminous 80s hair. Seated casually against a dark polished wooden table, leaning slightly toward the camera. One arm rests on the table while the other holds a vintage cream corded telephone receiver beside the ear. Relaxed editorial pose, direct eye contact, calm confident expression. Waist to mid-thigh framing. Outfit: loose cream blouse/shirt with voluminous sleeves, high-waisted light-wash jeans, wide black leather belt with aged brass buckle, patterned navy/cream/gold silk scarf, minimal vintage jewelry. Setting: warm vintage Indian bedroom/living room with dark wood furniture, glowing table lamp, plants, retro Bollywood posters, old cassette/VHS cases and cream rotary telephone base. Background softly blurred. Warm tungsten lighting, golden-brown shadows, subtle hair rim light. Authentic 35mm film look, 50mm lens, shallow depth of field, soft contrast, faded blacks, natural skin tones, fine film grain, dust, scratches, halation, slight vignette and aged-film imperfections. Photorealistic, sophisticated, nostalgic, intimate and editorial. Preserve the reference pose, camera angle, environment and overall composition. No modern objects, smartphones, logos, watermark, CGI, plastic skin, distorted anatomy, extra fingers, excessive HDR or oversaturated colors. 3:4 vertical Instagram portrait, high resolution, one person only.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR6LimKaMAA87HM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR6LjK1bwAAwYLU?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HR6LjuDaUAAPRoV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/harboriis/status/2098267933659300039",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1789123246279,
+      "title": "珠宝女性人像",
+      "url": "https://x.com/harboriis/status/2098267933659300039",
+      "collectedAt": "2026-09-11T10:40:47.968Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-11T10:42:28.268Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
